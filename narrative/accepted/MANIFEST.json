@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-03",
+  "source": "src/content/case.json",
+  "sourceSha256": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+  "snapshot": "narrative/accepted/case-2026-10-03.json",
+  "status": "provisional-editorial-story-lock",
+  "authority": "lead_writer, sole final literary editor for this session",
+  "ownerApproval": false,
+  "sourceInvestigation": "Eight dossiers, comparative inquiry and bounded direct source inspection completed as scoped in AUTHOR-NOTES.md",
+  "voiceReview": "Fresh two-phase simulated review and scoped revision check, docs/reviews/VOICE-01.md",
+  "limits": [
+    "No human playtest",
+    "Opening duration unverified",
+    "Apparatus not physically prototyped",
+    "Not a claim of resolved historical scholarship",
+    "Root verification remains separately scoped"
+  ]
+}

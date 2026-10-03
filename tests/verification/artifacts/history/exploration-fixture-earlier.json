@@ -1,0 +1,2568 @@
+{
+  "testedAt": "2026-10-03T20:44:20.720Z",
+  "environment": {
+    "node": "v24.19.0",
+    "platform": "linux",
+    "arch": "x64"
+  },
+  "command": "node tools/verify-engine.mjs fixture",
+  "sourceStable": true,
+  "sourceHashes": {
+    "package.json": "2712e0a4fe4f0f5bdb41426a5fbc249f578e490e4c7df141fbec00181f590bd8",
+    "pnpm-lock.yaml": "4ecf0990a9acab360c58bffb27346ed1e3a5751aaab7f612a69186cd93ee82f4",
+    "src/engine/game.ts": "daba2e7046947c0270d11b7d932dc0a6eee31cf7684bfa9633a9f57e89385286",
+    "src/engine/types.ts": "667836d8e23d2fdd94e53a4f925dc1643b7b394ee426f14e69f9d19353678611",
+    "src/engine/validate.ts": "ebdf96f237c196354e26e27652a82a8ae9c96626530a492e7fc0aebd31539463",
+    "src/engine/schema.ts": "d32024095103744199d0e675e17e3ce7c8c3d7edafd4688f75476c16300886ae",
+    "src/engine/hash.ts": "eaac5792696012f9291d5ba937835ce1f1ef0196e3e0e35262813775ba2a028b",
+    "src/persistence/store.ts": "97ae10529f780f8bd4ecfe92d41ba66a3a53b58bd91cb6a14d4cd9ba88ee59d4",
+    "src/content/fixture.ts": "b54c7d91b96cb5f7f369fd91c77d5846eed001f5771545d3689650ea2226ded1",
+    "docs/contracts/ENGINE-API.md": "0c3c1ab0713ce9bd53f2111ec18151999cf4bd47514274fc0e703088c2a1bff5",
+    "docs/03-TECHNICAL-SPEC.md": "b39eb5c013b3f644644e28055c838db12df2d67871a085cb54a141bc402190bb",
+    "docs/05-ACCEPTANCE-TESTS.md": "d55b6b84ab08156a08ddb3f4572895462c590fc9c0fcd1bdd4726100a0dd6f5d",
+    "docs/OWNER-KICKOFF-v4.md": "773e3cb9ef1f45945080fe71f9c0cbd65d9f80aa1fe58eebba7a55c1934ae1b3",
+    "tools/verify-explorer.ts": "098c9d5b03a1422088630b7bbe1b7da855747849f874a0b763e859c5ef4cc174",
+    "tools/verify-runner.ts": "c6c591eac71c43723bc9b4ccc3a74105e946340fd2e9e4ee5da261f9c866b9db",
+    "tools/verify-engine.mjs": "f56552bd03484a967edd6154933d3a1a44918954de44fb5e9bc95a3e8c231fa8"
+  },
+  "sourceHashesAfter": {
+    "package.json": "2712e0a4fe4f0f5bdb41426a5fbc249f578e490e4c7df141fbec00181f590bd8",
+    "pnpm-lock.yaml": "4ecf0990a9acab360c58bffb27346ed1e3a5751aaab7f612a69186cd93ee82f4",
+    "src/engine/game.ts": "daba2e7046947c0270d11b7d932dc0a6eee31cf7684bfa9633a9f57e89385286",
+    "src/engine/types.ts": "667836d8e23d2fdd94e53a4f925dc1643b7b394ee426f14e69f9d19353678611",
+    "src/engine/validate.ts": "ebdf96f237c196354e26e27652a82a8ae9c96626530a492e7fc0aebd31539463",
+    "src/engine/schema.ts": "d32024095103744199d0e675e17e3ce7c8c3d7edafd4688f75476c16300886ae",
+    "src/engine/hash.ts": "eaac5792696012f9291d5ba937835ce1f1ef0196e3e0e35262813775ba2a028b",
+    "src/persistence/store.ts": "97ae10529f780f8bd4ecfe92d41ba66a3a53b58bd91cb6a14d4cd9ba88ee59d4",
+    "src/content/fixture.ts": "b54c7d91b96cb5f7f369fd91c77d5846eed001f5771545d3689650ea2226ded1",
+    "docs/contracts/ENGINE-API.md": "0c3c1ab0713ce9bd53f2111ec18151999cf4bd47514274fc0e703088c2a1bff5",
+    "docs/03-TECHNICAL-SPEC.md": "b39eb5c013b3f644644e28055c838db12df2d67871a085cb54a141bc402190bb",
+    "docs/05-ACCEPTANCE-TESTS.md": "d55b6b84ab08156a08ddb3f4572895462c590fc9c0fcd1bdd4726100a0dd6f5d",
+    "docs/OWNER-KICKOFF-v4.md": "773e3cb9ef1f45945080fe71f9c0cbd65d9f80aa1fe58eebba7a55c1934ae1b3",
+    "tools/verify-explorer.ts": "098c9d5b03a1422088630b7bbe1b7da855747849f874a0b763e859c5ef4cc174",
+    "tools/verify-runner.ts": "c6c591eac71c43723bc9b4ccc3a74105e946340fd2e9e4ee5da261f9c866b9db",
+    "tools/verify-engine.mjs": "f56552bd03484a967edd6154933d3a1a44918954de44fb5e9bc95a3e8c231fa8"
+  },
+  "runs": [
+    {
+      "name": "fixture",
+      "outcome": "PASS",
+      "mode": "guard-abstraction",
+      "claim": "Navigation configurations only: fresh command IDs/current receipts and sufficient remaining command budget. Excludes historical UI/save equivalence and 10,000-command exhaustion.",
+      "contentHash": "4ca6b4b8f329409936eea3af9862adbec93e765f3d280e2bc945e7a2a8a2649d",
+      "budget": {
+        "states": 25000,
+        "transitions": 500000,
+        "milliseconds": 60000
+      },
+      "states": 29,
+      "transitions": 40,
+      "expanded": 29,
+      "frontier": 0,
+      "stopReason": "complete",
+      "elapsedMilliseconds": 29,
+      "scenesReached": [
+        "bench",
+        "finish",
+        "sink",
+        "worker"
+      ],
+      "choicesUsed": [
+        "accuse",
+        "ask-gently",
+        "cup",
+        "finish-fixture",
+        "inspect-drain",
+        "propose-rinse",
+        "return-sink",
+        "return-worker"
+      ],
+      "terminalTraces": [
+        {
+          "commands": [
+            {
+              "id": "verify.0.0",
+              "choiceId": "cup",
+              "expectedRevision": 0
+            },
+            {
+              "id": "verify.1.5",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 1
+            },
+            {
+              "id": "verify.6.10",
+              "choiceId": "return-sink",
+              "expectedRevision": 2
+            },
+            {
+              "id": "verify.11.18",
+              "choiceId": "propose-rinse",
+              "expectedRevision": 3
+            },
+            {
+              "id": "verify.16.26",
+              "choiceId": "finish-fixture",
+              "expectedRevision": 4,
+              "confirmation": {
+                "stateHash": "d0aa11e0779ef21e80cb7e0e924c98fbb87dc44a7f19ebc8e17f09eb5d7ed008",
+                "actionHash": "76358160033733b73461d4af693eebd8334bdd7d012f27c5ce4a45ddd063e547",
+                "acknowledged": true
+              }
+            }
+          ],
+          "terminalStateHash": "693a3a84c61bd4bfd78187f129291b62ac1a7fbbd6c953c50174f4aec581bd34",
+          "endingScene": "finish"
+        }
+      ],
+      "failures": [],
+      "frontierSample": [],
+      "maximumTerminalDistance": 6
+    },
+    {
+      "name": "fixture",
+      "outcome": "INCONCLUSIVE",
+      "mode": "exact",
+      "claim": "Full GameState search using fresh commands; every discovered state and terminal witness uses the production engine.",
+      "contentHash": "4ca6b4b8f329409936eea3af9862adbec93e765f3d280e2bc945e7a2a8a2649d",
+      "budget": {
+        "states": 25000,
+        "transitions": 500000,
+        "milliseconds": 60000
+      },
+      "states": 25000,
+      "transitions": 25000,
+      "expanded": 23620,
+      "frontier": 1380,
+      "stopReason": "state-budget",
+      "elapsedMilliseconds": 15769,
+      "scenesReached": [
+        "bench",
+        "finish",
+        "sink",
+        "worker"
+      ],
+      "choicesUsed": [
+        "accuse",
+        "ask-gently",
+        "cup",
+        "finish-fixture",
+        "inspect-drain",
+        "propose-rinse",
+        "return-sink",
+        "return-worker"
+      ],
+      "terminalTraces": [
+        {
+          "commands": [
+            {
+              "id": "verify.0.0",
+              "choiceId": "cup",
+              "expectedRevision": 0
+            },
+            {
+              "id": "verify.1.5",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 1
+            },
+            {
+              "id": "verify.6.10",
+              "choiceId": "return-sink",
+              "expectedRevision": 2
+            },
+            {
+              "id": "verify.11.18",
+              "choiceId": "propose-rinse",
+              "expectedRevision": 3
+            },
+            {
+              "id": "verify.19.29",
+              "choiceId": "finish-fixture",
+              "expectedRevision": 4,
+              "confirmation": {
+                "stateHash": "d0aa11e0779ef21e80cb7e0e924c98fbb87dc44a7f19ebc8e17f09eb5d7ed008",
+                "actionHash": "9c312855d24268245c304a7de41251775a022bd9fd7d61334bd844961bb9f35c",
+                "acknowledged": true
+              }
+            }
+          ],
+          "terminalStateHash": "99e4b28759dde82f6b3b29e62aa55da154c7865afec830c99ab059270d499723",
+          "endingScene": "finish"
+        }
+      ],
+      "failures": [],
+      "frontierSample": [
+        {
+          "stateHash": "08693c161b38813d0476abac1cd86df122e2291c9cb1b9778b1beaa15a271fb5",
+          "revision": 46,
+          "scene": "bench",
+          "trace": [
+            {
+              "id": "verify.0.0",
+              "choiceId": "cup",
+              "expectedRevision": 0
+            },
+            {
+              "id": "verify.1.5",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 1
+            },
+            {
+              "id": "verify.6.10",
+              "choiceId": "return-sink",
+              "expectedRevision": 2
+            },
+            {
+              "id": "verify.11.17",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 3
+            },
+            {
+              "id": "verify.18.25",
+              "choiceId": "return-sink",
+              "expectedRevision": 4
+            },
+            {
+              "id": "verify.26.42",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 5
+            },
+            {
+              "id": "verify.43.65",
+              "choiceId": "return-sink",
+              "expectedRevision": 6
+            },
+            {
+              "id": "verify.66.102",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 7
+            },
+            {
+              "id": "verify.103.146",
+              "choiceId": "return-sink",
+              "expectedRevision": 8
+            },
+            {
+              "id": "verify.147.209",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 9
+            },
+            {
+              "id": "verify.210.280",
+              "choiceId": "return-sink",
+              "expectedRevision": 10
+            },
+            {
+              "id": "verify.281.375",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 11
+            },
+            {
+              "id": "verify.376.479",
+              "choiceId": "return-sink",
+              "expectedRevision": 12
+            },
+            {
+              "id": "verify.480.612",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 13
+            },
+            {
+              "id": "verify.613.755",
+              "choiceId": "return-sink",
+              "expectedRevision": 14
+            },
+            {
+              "id": "verify.756.932",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 15
+            },
+            {
+              "id": "verify.933.1120",
+              "choiceId": "return-sink",
+              "expectedRevision": 16
+            },
+            {
+              "id": "verify.1121.1345",
+              "choiceId": "ask-gently",
+              "expectedRevision": 17
+            },
+            {
+              "id": "verify.1346.1584",
+              "choiceId": "return-worker",
+              "expectedRevision": 18
+            },
+            {
+              "id": "verify.1585.1863",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 19
+            },
+            {
+              "id": "verify.1864.2157",
+              "choiceId": "return-sink",
+              "expectedRevision": 20
+            },
+            {
+              "id": "verify.2158.2498",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 21
+            },
+            {
+              "id": "verify.2499.2851",
+              "choiceId": "return-sink",
+              "expectedRevision": 22
+            },
+            {
+              "id": "verify.2852.3262",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 23
+            },
+            {
+              "id": "verify.3263.3678",
+              "choiceId": "return-sink",
+              "expectedRevision": 24
+            },
+            {
+              "id": "verify.3679.4167",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 25
+            },
+            {
+              "id": "verify.4168.4650",
+              "choiceId": "return-sink",
+              "expectedRevision": 26
+            },
+            {
+              "id": "verify.4651.5225",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 27
+            },
+            {
+              "id": "verify.5226.5779",
+              "choiceId": "return-sink",
+              "expectedRevision": 28
+            },
+            {
+              "id": "verify.5780.6448",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 29
+            },
+            {
+              "id": "verify.6449.7077",
+              "choiceId": "return-sink",
+              "expectedRevision": 30
+            },
+            {
+              "id": "verify.7078.7848",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 31
+            },
+            {
+              "id": "verify.7849.8556",
+              "choiceId": "return-sink",
+              "expectedRevision": 32
+            },
+            {
+              "id": "verify.8557.9438",
+              "choiceId": "propose-rinse",
+              "expectedRevision": 33
+            },
+            {
+              "id": "verify.9439.10229",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 34
+            },
+            {
+              "id": "verify.10230.11229",
+              "choiceId": "return-sink",
+              "expectedRevision": 35
+            },
+            {
+              "id": "verify.11230.12108",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 36
+            },
+            {
+              "id": "verify.12109.13233",
+              "choiceId": "return-sink",
+              "expectedRevision": 37
+            },
+            {
+              "id": "verify.13234.14204",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 38
+            },
+            {
+              "id": "verify.14205.15462",
+              "choiceId": "return-sink",
+              "expectedRevision": 39
+            },
+            {
+              "id": "verify.15463.16529",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 40
+            },
+            {
+              "id": "verify.16530.17928",
+              "choiceId": "return-sink",
+              "expectedRevision": 41
+            },
+            {
+              "id": "verify.17929.19095",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 42
+            },
+            {
+              "id": "verify.19096.20643",
+              "choiceId": "return-sink",
+              "expectedRevision": 43
+            },
+            {
+              "id": "verify.20644.21914",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 44
+            },
+            {
+              "id": "verify.21915.23619",
+              "choiceId": "return-sink",
+              "expectedRevision": 45
+            }
+          ]
+        },
+        {
+          "stateHash": "8a71466d32ad6cc3dc8e1c744838d747b2482ec8a1b4bc600291d5ac526b9c32",
+          "revision": 46,
+          "scene": "bench",
+          "trace": [
+            {
+              "id": "verify.0.0",
+              "choiceId": "cup",
+              "expectedRevision": 0
+            },
+            {
+              "id": "verify.1.5",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 1
+            },
+            {
+              "id": "verify.6.10",
+              "choiceId": "return-sink",
+              "expectedRevision": 2
+            },
+            {
+              "id": "verify.11.17",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 3
+            },
+            {
+              "id": "verify.18.25",
+              "choiceId": "return-sink",
+              "expectedRevision": 4
+            },
+            {
+              "id": "verify.26.42",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 5
+            },
+            {
+              "id": "verify.43.65",
+              "choiceId": "return-sink",
+              "expectedRevision": 6
+            },
+            {
+              "id": "verify.66.102",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 7
+            },
+            {
+              "id": "verify.103.146",
+              "choiceId": "return-sink",
+              "expectedRevision": 8
+            },
+            {
+              "id": "verify.147.209",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 9
+            },
+            {
+              "id": "verify.210.280",
+              "choiceId": "return-sink",
+              "expectedRevision": 10
+            },
+            {
+              "id": "verify.281.375",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 11
+            },
+            {
+              "id": "verify.376.479",
+              "choiceId": "return-sink",
+              "expectedRevision": 12
+            },
+            {
+              "id": "verify.480.612",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 13
+            },
+            {
+              "id": "verify.613.755",
+              "choiceId": "return-sink",
+              "expectedRevision": 14
+            },
+            {
+              "id": "verify.756.932",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 15
+            },
+            {
+              "id": "verify.933.1120",
+              "choiceId": "return-sink",
+              "expectedRevision": 16
+            },
+            {
+              "id": "verify.1121.1345",
+              "choiceId": "ask-gently",
+              "expectedRevision": 17
+            },
+            {
+              "id": "verify.1346.1584",
+              "choiceId": "return-worker",
+              "expectedRevision": 18
+            },
+            {
+              "id": "verify.1585.1863",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 19
+            },
+            {
+              "id": "verify.1864.2157",
+              "choiceId": "return-sink",
+              "expectedRevision": 20
+            },
+            {
+              "id": "verify.2158.2498",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 21
+            },
+            {
+              "id": "verify.2499.2851",
+              "choiceId": "return-sink",
+              "expectedRevision": 22
+            },
+            {
+              "id": "verify.2852.3262",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 23
+            },
+            {
+              "id": "verify.3263.3678",
+              "choiceId": "return-sink",
+              "expectedRevision": 24
+            },
+            {
+              "id": "verify.3679.4167",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 25
+            },
+            {
+              "id": "verify.4168.4650",
+              "choiceId": "return-sink",
+              "expectedRevision": 26
+            },
+            {
+              "id": "verify.4651.5225",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 27
+            },
+            {
+              "id": "verify.5226.5779",
+              "choiceId": "return-sink",
+              "expectedRevision": 28
+            },
+            {
+              "id": "verify.5780.6448",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 29
+            },
+            {
+              "id": "verify.6449.7077",
+              "choiceId": "return-sink",
+              "expectedRevision": 30
+            },
+            {
+              "id": "verify.7078.7849",
+              "choiceId": "propose-rinse",
+              "expectedRevision": 31
+            },
+            {
+              "id": "verify.7850.8557",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 32
+            },
+            {
+              "id": "verify.8558.9439",
+              "choiceId": "return-sink",
+              "expectedRevision": 33
+            },
+            {
+              "id": "verify.9440.10231",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 34
+            },
+            {
+              "id": "verify.10232.11230",
+              "choiceId": "return-sink",
+              "expectedRevision": 35
+            },
+            {
+              "id": "verify.11231.12110",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 36
+            },
+            {
+              "id": "verify.12111.13234",
+              "choiceId": "return-sink",
+              "expectedRevision": 37
+            },
+            {
+              "id": "verify.13235.14206",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 38
+            },
+            {
+              "id": "verify.14207.15463",
+              "choiceId": "return-sink",
+              "expectedRevision": 39
+            },
+            {
+              "id": "verify.15464.16531",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 40
+            },
+            {
+              "id": "verify.16532.17929",
+              "choiceId": "return-sink",
+              "expectedRevision": 41
+            },
+            {
+              "id": "verify.17930.19097",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 42
+            },
+            {
+              "id": "verify.19098.20644",
+              "choiceId": "return-sink",
+              "expectedRevision": 43
+            },
+            {
+              "id": "verify.20645.21916",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 44
+            },
+            {
+              "id": "verify.21917.23620",
+              "choiceId": "return-sink",
+              "expectedRevision": 45
+            }
+          ]
+        },
+        {
+          "stateHash": "4b76ef73326e6c7735ed54c95abd87fc4595b73df7deca69f9d5efc029dfe734",
+          "revision": 46,
+          "scene": "bench",
+          "trace": [
+            {
+              "id": "verify.0.0",
+              "choiceId": "cup",
+              "expectedRevision": 0
+            },
+            {
+              "id": "verify.1.5",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 1
+            },
+            {
+              "id": "verify.6.10",
+              "choiceId": "return-sink",
+              "expectedRevision": 2
+            },
+            {
+              "id": "verify.11.17",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 3
+            },
+            {
+              "id": "verify.18.25",
+              "choiceId": "return-sink",
+              "expectedRevision": 4
+            },
+            {
+              "id": "verify.26.42",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 5
+            },
+            {
+              "id": "verify.43.65",
+              "choiceId": "return-sink",
+              "expectedRevision": 6
+            },
+            {
+              "id": "verify.66.102",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 7
+            },
+            {
+              "id": "verify.103.146",
+              "choiceId": "return-sink",
+              "expectedRevision": 8
+            },
+            {
+              "id": "verify.147.209",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 9
+            },
+            {
+              "id": "verify.210.280",
+              "choiceId": "return-sink",
+              "expectedRevision": 10
+            },
+            {
+              "id": "verify.281.375",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 11
+            },
+            {
+              "id": "verify.376.479",
+              "choiceId": "return-sink",
+              "expectedRevision": 12
+            },
+            {
+              "id": "verify.480.612",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 13
+            },
+            {
+              "id": "verify.613.755",
+              "choiceId": "return-sink",
+              "expectedRevision": 14
+            },
+            {
+              "id": "verify.756.932",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 15
+            },
+            {
+              "id": "verify.933.1120",
+              "choiceId": "return-sink",
+              "expectedRevision": 16
+            },
+            {
+              "id": "verify.1121.1345",
+              "choiceId": "ask-gently",
+              "expectedRevision": 17
+            },
+            {
+              "id": "verify.1346.1584",
+              "choiceId": "return-worker",
+              "expectedRevision": 18
+            },
+            {
+              "id": "verify.1585.1863",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 19
+            },
+            {
+              "id": "verify.1864.2157",
+              "choiceId": "return-sink",
+              "expectedRevision": 20
+            },
+            {
+              "id": "verify.2158.2498",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 21
+            },
+            {
+              "id": "verify.2499.2851",
+              "choiceId": "return-sink",
+              "expectedRevision": 22
+            },
+            {
+              "id": "verify.2852.3262",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 23
+            },
+            {
+              "id": "verify.3263.3678",
+              "choiceId": "return-sink",
+              "expectedRevision": 24
+            },
+            {
+              "id": "verify.3679.4167",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 25
+            },
+            {
+              "id": "verify.4168.4650",
+              "choiceId": "return-sink",
+              "expectedRevision": 26
+            },
+            {
+              "id": "verify.4651.5225",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 27
+            },
+            {
+              "id": "verify.5226.5779",
+              "choiceId": "return-sink",
+              "expectedRevision": 28
+            },
+            {
+              "id": "verify.5780.6449",
+              "choiceId": "propose-rinse",
+              "expectedRevision": 29
+            },
+            {
+              "id": "verify.6450.7078",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 30
+            },
+            {
+              "id": "verify.7079.7850",
+              "choiceId": "return-sink",
+              "expectedRevision": 31
+            },
+            {
+              "id": "verify.7851.8559",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 32
+            },
+            {
+              "id": "verify.8560.9440",
+              "choiceId": "return-sink",
+              "expectedRevision": 33
+            },
+            {
+              "id": "verify.9441.10233",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 34
+            },
+            {
+              "id": "verify.10234.11231",
+              "choiceId": "return-sink",
+              "expectedRevision": 35
+            },
+            {
+              "id": "verify.11232.12112",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 36
+            },
+            {
+              "id": "verify.12113.13235",
+              "choiceId": "return-sink",
+              "expectedRevision": 37
+            },
+            {
+              "id": "verify.13236.14208",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 38
+            },
+            {
+              "id": "verify.14209.15464",
+              "choiceId": "return-sink",
+              "expectedRevision": 39
+            },
+            {
+              "id": "verify.15465.16533",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 40
+            },
+            {
+              "id": "verify.16534.17930",
+              "choiceId": "return-sink",
+              "expectedRevision": 41
+            },
+            {
+              "id": "verify.17931.19099",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 42
+            },
+            {
+              "id": "verify.19100.20645",
+              "choiceId": "return-sink",
+              "expectedRevision": 43
+            },
+            {
+              "id": "verify.20646.21918",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 44
+            },
+            {
+              "id": "verify.21919.23621",
+              "choiceId": "return-sink",
+              "expectedRevision": 45
+            }
+          ]
+        },
+        {
+          "stateHash": "9ed931b0df91cbe79c3266ed17140be8ec27b4739a77b085c2521e13a168d6bb",
+          "revision": 46,
+          "scene": "bench",
+          "trace": [
+            {
+              "id": "verify.0.0",
+              "choiceId": "cup",
+              "expectedRevision": 0
+            },
+            {
+              "id": "verify.1.5",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 1
+            },
+            {
+              "id": "verify.6.10",
+              "choiceId": "return-sink",
+              "expectedRevision": 2
+            },
+            {
+              "id": "verify.11.17",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 3
+            },
+            {
+              "id": "verify.18.25",
+              "choiceId": "return-sink",
+              "expectedRevision": 4
+            },
+            {
+              "id": "verify.26.42",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 5
+            },
+            {
+              "id": "verify.43.65",
+              "choiceId": "return-sink",
+              "expectedRevision": 6
+            },
+            {
+              "id": "verify.66.102",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 7
+            },
+            {
+              "id": "verify.103.146",
+              "choiceId": "return-sink",
+              "expectedRevision": 8
+            },
+            {
+              "id": "verify.147.209",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 9
+            },
+            {
+              "id": "verify.210.280",
+              "choiceId": "return-sink",
+              "expectedRevision": 10
+            },
+            {
+              "id": "verify.281.375",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 11
+            },
+            {
+              "id": "verify.376.479",
+              "choiceId": "return-sink",
+              "expectedRevision": 12
+            },
+            {
+              "id": "verify.480.612",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 13
+            },
+            {
+              "id": "verify.613.755",
+              "choiceId": "return-sink",
+              "expectedRevision": 14
+            },
+            {
+              "id": "verify.756.932",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 15
+            },
+            {
+              "id": "verify.933.1120",
+              "choiceId": "return-sink",
+              "expectedRevision": 16
+            },
+            {
+              "id": "verify.1121.1345",
+              "choiceId": "ask-gently",
+              "expectedRevision": 17
+            },
+            {
+              "id": "verify.1346.1584",
+              "choiceId": "return-worker",
+              "expectedRevision": 18
+            },
+            {
+              "id": "verify.1585.1863",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 19
+            },
+            {
+              "id": "verify.1864.2157",
+              "choiceId": "return-sink",
+              "expectedRevision": 20
+            },
+            {
+              "id": "verify.2158.2498",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 21
+            },
+            {
+              "id": "verify.2499.2851",
+              "choiceId": "return-sink",
+              "expectedRevision": 22
+            },
+            {
+              "id": "verify.2852.3262",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 23
+            },
+            {
+              "id": "verify.3263.3678",
+              "choiceId": "return-sink",
+              "expectedRevision": 24
+            },
+            {
+              "id": "verify.3679.4167",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 25
+            },
+            {
+              "id": "verify.4168.4650",
+              "choiceId": "return-sink",
+              "expectedRevision": 26
+            },
+            {
+              "id": "verify.4651.5226",
+              "choiceId": "propose-rinse",
+              "expectedRevision": 27
+            },
+            {
+              "id": "verify.5227.5780",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 28
+            },
+            {
+              "id": "verify.5781.6450",
+              "choiceId": "return-sink",
+              "expectedRevision": 29
+            },
+            {
+              "id": "verify.6451.7080",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 30
+            },
+            {
+              "id": "verify.7081.7851",
+              "choiceId": "return-sink",
+              "expectedRevision": 31
+            },
+            {
+              "id": "verify.7852.8561",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 32
+            },
+            {
+              "id": "verify.8562.9441",
+              "choiceId": "return-sink",
+              "expectedRevision": 33
+            },
+            {
+              "id": "verify.9442.10235",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 34
+            },
+            {
+              "id": "verify.10236.11232",
+              "choiceId": "return-sink",
+              "expectedRevision": 35
+            },
+            {
+              "id": "verify.11233.12114",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 36
+            },
+            {
+              "id": "verify.12115.13236",
+              "choiceId": "return-sink",
+              "expectedRevision": 37
+            },
+            {
+              "id": "verify.13237.14210",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 38
+            },
+            {
+              "id": "verify.14211.15465",
+              "choiceId": "return-sink",
+              "expectedRevision": 39
+            },
+            {
+              "id": "verify.15466.16535",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 40
+            },
+            {
+              "id": "verify.16536.17931",
+              "choiceId": "return-sink",
+              "expectedRevision": 41
+            },
+            {
+              "id": "verify.17932.19101",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 42
+            },
+            {
+              "id": "verify.19102.20646",
+              "choiceId": "return-sink",
+              "expectedRevision": 43
+            },
+            {
+              "id": "verify.20647.21920",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 44
+            },
+            {
+              "id": "verify.21921.23622",
+              "choiceId": "return-sink",
+              "expectedRevision": 45
+            }
+          ]
+        },
+        {
+          "stateHash": "0aa14353fc61383c08c39c9da9a9319f1bcbaa11102b1f0d4419dd5257b7b3d0",
+          "revision": 46,
+          "scene": "bench",
+          "trace": [
+            {
+              "id": "verify.0.0",
+              "choiceId": "cup",
+              "expectedRevision": 0
+            },
+            {
+              "id": "verify.1.5",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 1
+            },
+            {
+              "id": "verify.6.10",
+              "choiceId": "return-sink",
+              "expectedRevision": 2
+            },
+            {
+              "id": "verify.11.17",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 3
+            },
+            {
+              "id": "verify.18.25",
+              "choiceId": "return-sink",
+              "expectedRevision": 4
+            },
+            {
+              "id": "verify.26.42",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 5
+            },
+            {
+              "id": "verify.43.65",
+              "choiceId": "return-sink",
+              "expectedRevision": 6
+            },
+            {
+              "id": "verify.66.102",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 7
+            },
+            {
+              "id": "verify.103.146",
+              "choiceId": "return-sink",
+              "expectedRevision": 8
+            },
+            {
+              "id": "verify.147.209",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 9
+            },
+            {
+              "id": "verify.210.280",
+              "choiceId": "return-sink",
+              "expectedRevision": 10
+            },
+            {
+              "id": "verify.281.375",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 11
+            },
+            {
+              "id": "verify.376.479",
+              "choiceId": "return-sink",
+              "expectedRevision": 12
+            },
+            {
+              "id": "verify.480.612",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 13
+            },
+            {
+              "id": "verify.613.755",
+              "choiceId": "return-sink",
+              "expectedRevision": 14
+            },
+            {
+              "id": "verify.756.932",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 15
+            },
+            {
+              "id": "verify.933.1120",
+              "choiceId": "return-sink",
+              "expectedRevision": 16
+            },
+            {
+              "id": "verify.1121.1345",
+              "choiceId": "ask-gently",
+              "expectedRevision": 17
+            },
+            {
+              "id": "verify.1346.1584",
+              "choiceId": "return-worker",
+              "expectedRevision": 18
+            },
+            {
+              "id": "verify.1585.1863",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 19
+            },
+            {
+              "id": "verify.1864.2157",
+              "choiceId": "return-sink",
+              "expectedRevision": 20
+            },
+            {
+              "id": "verify.2158.2498",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 21
+            },
+            {
+              "id": "verify.2499.2851",
+              "choiceId": "return-sink",
+              "expectedRevision": 22
+            },
+            {
+              "id": "verify.2852.3262",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 23
+            },
+            {
+              "id": "verify.3263.3678",
+              "choiceId": "return-sink",
+              "expectedRevision": 24
+            },
+            {
+              "id": "verify.3679.4168",
+              "choiceId": "propose-rinse",
+              "expectedRevision": 25
+            },
+            {
+              "id": "verify.4169.4651",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 26
+            },
+            {
+              "id": "verify.4652.5227",
+              "choiceId": "return-sink",
+              "expectedRevision": 27
+            },
+            {
+              "id": "verify.5228.5782",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 28
+            },
+            {
+              "id": "verify.5783.6451",
+              "choiceId": "return-sink",
+              "expectedRevision": 29
+            },
+            {
+              "id": "verify.6452.7082",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 30
+            },
+            {
+              "id": "verify.7083.7852",
+              "choiceId": "return-sink",
+              "expectedRevision": 31
+            },
+            {
+              "id": "verify.7853.8563",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 32
+            },
+            {
+              "id": "verify.8564.9442",
+              "choiceId": "return-sink",
+              "expectedRevision": 33
+            },
+            {
+              "id": "verify.9443.10237",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 34
+            },
+            {
+              "id": "verify.10238.11233",
+              "choiceId": "return-sink",
+              "expectedRevision": 35
+            },
+            {
+              "id": "verify.11234.12116",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 36
+            },
+            {
+              "id": "verify.12117.13237",
+              "choiceId": "return-sink",
+              "expectedRevision": 37
+            },
+            {
+              "id": "verify.13238.14212",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 38
+            },
+            {
+              "id": "verify.14213.15466",
+              "choiceId": "return-sink",
+              "expectedRevision": 39
+            },
+            {
+              "id": "verify.15467.16537",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 40
+            },
+            {
+              "id": "verify.16538.17932",
+              "choiceId": "return-sink",
+              "expectedRevision": 41
+            },
+            {
+              "id": "verify.17933.19103",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 42
+            },
+            {
+              "id": "verify.19104.20647",
+              "choiceId": "return-sink",
+              "expectedRevision": 43
+            },
+            {
+              "id": "verify.20648.21922",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 44
+            },
+            {
+              "id": "verify.21923.23623",
+              "choiceId": "return-sink",
+              "expectedRevision": 45
+            }
+          ]
+        },
+        {
+          "stateHash": "f124ec2b1cb51092c9908245d2082603611a7b913b4be97bf415a9e97afd5753",
+          "revision": 46,
+          "scene": "bench",
+          "trace": [
+            {
+              "id": "verify.0.0",
+              "choiceId": "cup",
+              "expectedRevision": 0
+            },
+            {
+              "id": "verify.1.5",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 1
+            },
+            {
+              "id": "verify.6.10",
+              "choiceId": "return-sink",
+              "expectedRevision": 2
+            },
+            {
+              "id": "verify.11.17",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 3
+            },
+            {
+              "id": "verify.18.25",
+              "choiceId": "return-sink",
+              "expectedRevision": 4
+            },
+            {
+              "id": "verify.26.42",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 5
+            },
+            {
+              "id": "verify.43.65",
+              "choiceId": "return-sink",
+              "expectedRevision": 6
+            },
+            {
+              "id": "verify.66.102",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 7
+            },
+            {
+              "id": "verify.103.146",
+              "choiceId": "return-sink",
+              "expectedRevision": 8
+            },
+            {
+              "id": "verify.147.209",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 9
+            },
+            {
+              "id": "verify.210.280",
+              "choiceId": "return-sink",
+              "expectedRevision": 10
+            },
+            {
+              "id": "verify.281.375",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 11
+            },
+            {
+              "id": "verify.376.479",
+              "choiceId": "return-sink",
+              "expectedRevision": 12
+            },
+            {
+              "id": "verify.480.612",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 13
+            },
+            {
+              "id": "verify.613.755",
+              "choiceId": "return-sink",
+              "expectedRevision": 14
+            },
+            {
+              "id": "verify.756.932",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 15
+            },
+            {
+              "id": "verify.933.1120",
+              "choiceId": "return-sink",
+              "expectedRevision": 16
+            },
+            {
+              "id": "verify.1121.1345",
+              "choiceId": "ask-gently",
+              "expectedRevision": 17
+            },
+            {
+              "id": "verify.1346.1584",
+              "choiceId": "return-worker",
+              "expectedRevision": 18
+            },
+            {
+              "id": "verify.1585.1863",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 19
+            },
+            {
+              "id": "verify.1864.2157",
+              "choiceId": "return-sink",
+              "expectedRevision": 20
+            },
+            {
+              "id": "verify.2158.2498",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 21
+            },
+            {
+              "id": "verify.2499.2851",
+              "choiceId": "return-sink",
+              "expectedRevision": 22
+            },
+            {
+              "id": "verify.2852.3263",
+              "choiceId": "propose-rinse",
+              "expectedRevision": 23
+            },
+            {
+              "id": "verify.3264.3679",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 24
+            },
+            {
+              "id": "verify.3680.4169",
+              "choiceId": "return-sink",
+              "expectedRevision": 25
+            },
+            {
+              "id": "verify.4170.4653",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 26
+            },
+            {
+              "id": "verify.4654.5228",
+              "choiceId": "return-sink",
+              "expectedRevision": 27
+            },
+            {
+              "id": "verify.5229.5784",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 28
+            },
+            {
+              "id": "verify.5785.6452",
+              "choiceId": "return-sink",
+              "expectedRevision": 29
+            },
+            {
+              "id": "verify.6453.7084",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 30
+            },
+            {
+              "id": "verify.7085.7853",
+              "choiceId": "return-sink",
+              "expectedRevision": 31
+            },
+            {
+              "id": "verify.7854.8565",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 32
+            },
+            {
+              "id": "verify.8566.9443",
+              "choiceId": "return-sink",
+              "expectedRevision": 33
+            },
+            {
+              "id": "verify.9444.10239",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 34
+            },
+            {
+              "id": "verify.10240.11234",
+              "choiceId": "return-sink",
+              "expectedRevision": 35
+            },
+            {
+              "id": "verify.11235.12118",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 36
+            },
+            {
+              "id": "verify.12119.13238",
+              "choiceId": "return-sink",
+              "expectedRevision": 37
+            },
+            {
+              "id": "verify.13239.14214",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 38
+            },
+            {
+              "id": "verify.14215.15467",
+              "choiceId": "return-sink",
+              "expectedRevision": 39
+            },
+            {
+              "id": "verify.15468.16539",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 40
+            },
+            {
+              "id": "verify.16540.17933",
+              "choiceId": "return-sink",
+              "expectedRevision": 41
+            },
+            {
+              "id": "verify.17934.19105",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 42
+            },
+            {
+              "id": "verify.19106.20648",
+              "choiceId": "return-sink",
+              "expectedRevision": 43
+            },
+            {
+              "id": "verify.20649.21924",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 44
+            },
+            {
+              "id": "verify.21925.23624",
+              "choiceId": "return-sink",
+              "expectedRevision": 45
+            }
+          ]
+        },
+        {
+          "stateHash": "5ebed7b816dfe90c4687bf87e89133e58de0f309f85b331c49999e31f6dc3327",
+          "revision": 46,
+          "scene": "bench",
+          "trace": [
+            {
+              "id": "verify.0.0",
+              "choiceId": "cup",
+              "expectedRevision": 0
+            },
+            {
+              "id": "verify.1.5",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 1
+            },
+            {
+              "id": "verify.6.10",
+              "choiceId": "return-sink",
+              "expectedRevision": 2
+            },
+            {
+              "id": "verify.11.17",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 3
+            },
+            {
+              "id": "verify.18.25",
+              "choiceId": "return-sink",
+              "expectedRevision": 4
+            },
+            {
+              "id": "verify.26.42",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 5
+            },
+            {
+              "id": "verify.43.65",
+              "choiceId": "return-sink",
+              "expectedRevision": 6
+            },
+            {
+              "id": "verify.66.102",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 7
+            },
+            {
+              "id": "verify.103.146",
+              "choiceId": "return-sink",
+              "expectedRevision": 8
+            },
+            {
+              "id": "verify.147.209",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 9
+            },
+            {
+              "id": "verify.210.280",
+              "choiceId": "return-sink",
+              "expectedRevision": 10
+            },
+            {
+              "id": "verify.281.375",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 11
+            },
+            {
+              "id": "verify.376.479",
+              "choiceId": "return-sink",
+              "expectedRevision": 12
+            },
+            {
+              "id": "verify.480.612",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 13
+            },
+            {
+              "id": "verify.613.755",
+              "choiceId": "return-sink",
+              "expectedRevision": 14
+            },
+            {
+              "id": "verify.756.932",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 15
+            },
+            {
+              "id": "verify.933.1120",
+              "choiceId": "return-sink",
+              "expectedRevision": 16
+            },
+            {
+              "id": "verify.1121.1345",
+              "choiceId": "ask-gently",
+              "expectedRevision": 17
+            },
+            {
+              "id": "verify.1346.1584",
+              "choiceId": "return-worker",
+              "expectedRevision": 18
+            },
+            {
+              "id": "verify.1585.1863",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 19
+            },
+            {
+              "id": "verify.1864.2157",
+              "choiceId": "return-sink",
+              "expectedRevision": 20
+            },
+            {
+              "id": "verify.2158.2499",
+              "choiceId": "propose-rinse",
+              "expectedRevision": 21
+            },
+            {
+              "id": "verify.2500.2852",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 22
+            },
+            {
+              "id": "verify.2853.3264",
+              "choiceId": "return-sink",
+              "expectedRevision": 23
+            },
+            {
+              "id": "verify.3265.3681",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 24
+            },
+            {
+              "id": "verify.3682.4170",
+              "choiceId": "return-sink",
+              "expectedRevision": 25
+            },
+            {
+              "id": "verify.4171.4655",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 26
+            },
+            {
+              "id": "verify.4656.5229",
+              "choiceId": "return-sink",
+              "expectedRevision": 27
+            },
+            {
+              "id": "verify.5230.5786",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 28
+            },
+            {
+              "id": "verify.5787.6453",
+              "choiceId": "return-sink",
+              "expectedRevision": 29
+            },
+            {
+              "id": "verify.6454.7086",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 30
+            },
+            {
+              "id": "verify.7087.7854",
+              "choiceId": "return-sink",
+              "expectedRevision": 31
+            },
+            {
+              "id": "verify.7855.8567",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 32
+            },
+            {
+              "id": "verify.8568.9444",
+              "choiceId": "return-sink",
+              "expectedRevision": 33
+            },
+            {
+              "id": "verify.9445.10241",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 34
+            },
+            {
+              "id": "verify.10242.11235",
+              "choiceId": "return-sink",
+              "expectedRevision": 35
+            },
+            {
+              "id": "verify.11236.12120",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 36
+            },
+            {
+              "id": "verify.12121.13239",
+              "choiceId": "return-sink",
+              "expectedRevision": 37
+            },
+            {
+              "id": "verify.13240.14216",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 38
+            },
+            {
+              "id": "verify.14217.15468",
+              "choiceId": "return-sink",
+              "expectedRevision": 39
+            },
+            {
+              "id": "verify.15469.16541",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 40
+            },
+            {
+              "id": "verify.16542.17934",
+              "choiceId": "return-sink",
+              "expectedRevision": 41
+            },
+            {
+              "id": "verify.17935.19107",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 42
+            },
+            {
+              "id": "verify.19108.20649",
+              "choiceId": "return-sink",
+              "expectedRevision": 43
+            },
+            {
+              "id": "verify.20650.21926",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 44
+            },
+            {
+              "id": "verify.21927.23625",
+              "choiceId": "return-sink",
+              "expectedRevision": 45
+            }
+          ]
+        },
+        {
+          "stateHash": "6536686e576116810c72a7e549214c39f43f53ecf1490842433d42774ade73a1",
+          "revision": 46,
+          "scene": "bench",
+          "trace": [
+            {
+              "id": "verify.0.0",
+              "choiceId": "cup",
+              "expectedRevision": 0
+            },
+            {
+              "id": "verify.1.5",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 1
+            },
+            {
+              "id": "verify.6.10",
+              "choiceId": "return-sink",
+              "expectedRevision": 2
+            },
+            {
+              "id": "verify.11.17",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 3
+            },
+            {
+              "id": "verify.18.25",
+              "choiceId": "return-sink",
+              "expectedRevision": 4
+            },
+            {
+              "id": "verify.26.42",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 5
+            },
+            {
+              "id": "verify.43.65",
+              "choiceId": "return-sink",
+              "expectedRevision": 6
+            },
+            {
+              "id": "verify.66.102",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 7
+            },
+            {
+              "id": "verify.103.146",
+              "choiceId": "return-sink",
+              "expectedRevision": 8
+            },
+            {
+              "id": "verify.147.209",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 9
+            },
+            {
+              "id": "verify.210.280",
+              "choiceId": "return-sink",
+              "expectedRevision": 10
+            },
+            {
+              "id": "verify.281.375",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 11
+            },
+            {
+              "id": "verify.376.479",
+              "choiceId": "return-sink",
+              "expectedRevision": 12
+            },
+            {
+              "id": "verify.480.612",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 13
+            },
+            {
+              "id": "verify.613.755",
+              "choiceId": "return-sink",
+              "expectedRevision": 14
+            },
+            {
+              "id": "verify.756.932",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 15
+            },
+            {
+              "id": "verify.933.1120",
+              "choiceId": "return-sink",
+              "expectedRevision": 16
+            },
+            {
+              "id": "verify.1121.1345",
+              "choiceId": "ask-gently",
+              "expectedRevision": 17
+            },
+            {
+              "id": "verify.1346.1584",
+              "choiceId": "return-worker",
+              "expectedRevision": 18
+            },
+            {
+              "id": "verify.1585.1864",
+              "choiceId": "propose-rinse",
+              "expectedRevision": 19
+            },
+            {
+              "id": "verify.1865.2158",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 20
+            },
+            {
+              "id": "verify.2159.2500",
+              "choiceId": "return-sink",
+              "expectedRevision": 21
+            },
+            {
+              "id": "verify.2501.2854",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 22
+            },
+            {
+              "id": "verify.2855.3265",
+              "choiceId": "return-sink",
+              "expectedRevision": 23
+            },
+            {
+              "id": "verify.3266.3683",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 24
+            },
+            {
+              "id": "verify.3684.4171",
+              "choiceId": "return-sink",
+              "expectedRevision": 25
+            },
+            {
+              "id": "verify.4172.4657",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 26
+            },
+            {
+              "id": "verify.4658.5230",
+              "choiceId": "return-sink",
+              "expectedRevision": 27
+            },
+            {
+              "id": "verify.5231.5788",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 28
+            },
+            {
+              "id": "verify.5789.6454",
+              "choiceId": "return-sink",
+              "expectedRevision": 29
+            },
+            {
+              "id": "verify.6455.7088",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 30
+            },
+            {
+              "id": "verify.7089.7855",
+              "choiceId": "return-sink",
+              "expectedRevision": 31
+            },
+            {
+              "id": "verify.7856.8569",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 32
+            },
+            {
+              "id": "verify.8570.9445",
+              "choiceId": "return-sink",
+              "expectedRevision": 33
+            },
+            {
+              "id": "verify.9446.10243",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 34
+            },
+            {
+              "id": "verify.10244.11236",
+              "choiceId": "return-sink",
+              "expectedRevision": 35
+            },
+            {
+              "id": "verify.11237.12122",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 36
+            },
+            {
+              "id": "verify.12123.13240",
+              "choiceId": "return-sink",
+              "expectedRevision": 37
+            },
+            {
+              "id": "verify.13241.14218",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 38
+            },
+            {
+              "id": "verify.14219.15469",
+              "choiceId": "return-sink",
+              "expectedRevision": 39
+            },
+            {
+              "id": "verify.15470.16543",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 40
+            },
+            {
+              "id": "verify.16544.17935",
+              "choiceId": "return-sink",
+              "expectedRevision": 41
+            },
+            {
+              "id": "verify.17936.19109",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 42
+            },
+            {
+              "id": "verify.19110.20650",
+              "choiceId": "return-sink",
+              "expectedRevision": 43
+            },
+            {
+              "id": "verify.20651.21928",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 44
+            },
+            {
+              "id": "verify.21929.23626",
+              "choiceId": "return-sink",
+              "expectedRevision": 45
+            }
+          ]
+        },
+        {
+          "stateHash": "53bbbf928afe777839c41d07fd2aacab60ba38e1208edadbf1a8ad9568662a31",
+          "revision": 46,
+          "scene": "sink",
+          "trace": [
+            {
+              "id": "verify.0.0",
+              "choiceId": "cup",
+              "expectedRevision": 0
+            },
+            {
+              "id": "verify.1.5",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 1
+            },
+            {
+              "id": "verify.6.10",
+              "choiceId": "return-sink",
+              "expectedRevision": 2
+            },
+            {
+              "id": "verify.11.17",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 3
+            },
+            {
+              "id": "verify.18.25",
+              "choiceId": "return-sink",
+              "expectedRevision": 4
+            },
+            {
+              "id": "verify.26.42",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 5
+            },
+            {
+              "id": "verify.43.65",
+              "choiceId": "return-sink",
+              "expectedRevision": 6
+            },
+            {
+              "id": "verify.66.102",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 7
+            },
+            {
+              "id": "verify.103.146",
+              "choiceId": "return-sink",
+              "expectedRevision": 8
+            },
+            {
+              "id": "verify.147.209",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 9
+            },
+            {
+              "id": "verify.210.280",
+              "choiceId": "return-sink",
+              "expectedRevision": 10
+            },
+            {
+              "id": "verify.281.375",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 11
+            },
+            {
+              "id": "verify.376.479",
+              "choiceId": "return-sink",
+              "expectedRevision": 12
+            },
+            {
+              "id": "verify.480.612",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 13
+            },
+            {
+              "id": "verify.613.755",
+              "choiceId": "return-sink",
+              "expectedRevision": 14
+            },
+            {
+              "id": "verify.756.932",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 15
+            },
+            {
+              "id": "verify.933.1120",
+              "choiceId": "return-sink",
+              "expectedRevision": 16
+            },
+            {
+              "id": "verify.1121.1346",
+              "choiceId": "accuse",
+              "expectedRevision": 17
+            },
+            {
+              "id": "verify.1347.1585",
+              "choiceId": "return-worker",
+              "expectedRevision": 18
+            },
+            {
+              "id": "verify.1586.1865",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 19
+            },
+            {
+              "id": "verify.1866.2160",
+              "choiceId": "return-sink",
+              "expectedRevision": 20
+            },
+            {
+              "id": "verify.2161.2501",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 21
+            },
+            {
+              "id": "verify.2502.2856",
+              "choiceId": "return-sink",
+              "expectedRevision": 22
+            },
+            {
+              "id": "verify.2857.3266",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 23
+            },
+            {
+              "id": "verify.3267.3685",
+              "choiceId": "return-sink",
+              "expectedRevision": 24
+            },
+            {
+              "id": "verify.3686.4172",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 25
+            },
+            {
+              "id": "verify.4173.4659",
+              "choiceId": "return-sink",
+              "expectedRevision": 26
+            },
+            {
+              "id": "verify.4660.5231",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 27
+            },
+            {
+              "id": "verify.5232.5790",
+              "choiceId": "return-sink",
+              "expectedRevision": 28
+            },
+            {
+              "id": "verify.5791.6455",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 29
+            },
+            {
+              "id": "verify.6456.7090",
+              "choiceId": "return-sink",
+              "expectedRevision": 30
+            },
+            {
+              "id": "verify.7091.7856",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 31
+            },
+            {
+              "id": "verify.7857.8571",
+              "choiceId": "return-sink",
+              "expectedRevision": 32
+            },
+            {
+              "id": "verify.8572.9446",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 33
+            },
+            {
+              "id": "verify.9447.10245",
+              "choiceId": "return-sink",
+              "expectedRevision": 34
+            },
+            {
+              "id": "verify.10246.11237",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 35
+            },
+            {
+              "id": "verify.11238.12124",
+              "choiceId": "return-sink",
+              "expectedRevision": 36
+            },
+            {
+              "id": "verify.12125.13241",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 37
+            },
+            {
+              "id": "verify.13242.14220",
+              "choiceId": "return-sink",
+              "expectedRevision": 38
+            },
+            {
+              "id": "verify.14221.15470",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 39
+            },
+            {
+              "id": "verify.15471.16545",
+              "choiceId": "return-sink",
+              "expectedRevision": 40
+            },
+            {
+              "id": "verify.16546.17936",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 41
+            },
+            {
+              "id": "verify.17937.19111",
+              "choiceId": "return-sink",
+              "expectedRevision": 42
+            },
+            {
+              "id": "verify.19112.20651",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 43
+            },
+            {
+              "id": "verify.20652.21930",
+              "choiceId": "return-sink",
+              "expectedRevision": 44
+            },
+            {
+              "id": "verify.21931.23627",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 45
+            }
+          ]
+        },
+        {
+          "stateHash": "414af1426243dd9feac990cb647962753c7765545d6dc20761d675ec9bd3f831",
+          "revision": 46,
+          "scene": "bench",
+          "trace": [
+            {
+              "id": "verify.0.0",
+              "choiceId": "cup",
+              "expectedRevision": 0
+            },
+            {
+              "id": "verify.1.5",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 1
+            },
+            {
+              "id": "verify.6.10",
+              "choiceId": "return-sink",
+              "expectedRevision": 2
+            },
+            {
+              "id": "verify.11.17",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 3
+            },
+            {
+              "id": "verify.18.25",
+              "choiceId": "return-sink",
+              "expectedRevision": 4
+            },
+            {
+              "id": "verify.26.42",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 5
+            },
+            {
+              "id": "verify.43.65",
+              "choiceId": "return-sink",
+              "expectedRevision": 6
+            },
+            {
+              "id": "verify.66.102",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 7
+            },
+            {
+              "id": "verify.103.146",
+              "choiceId": "return-sink",
+              "expectedRevision": 8
+            },
+            {
+              "id": "verify.147.209",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 9
+            },
+            {
+              "id": "verify.210.280",
+              "choiceId": "return-sink",
+              "expectedRevision": 10
+            },
+            {
+              "id": "verify.281.375",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 11
+            },
+            {
+              "id": "verify.376.479",
+              "choiceId": "return-sink",
+              "expectedRevision": 12
+            },
+            {
+              "id": "verify.480.612",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 13
+            },
+            {
+              "id": "verify.613.755",
+              "choiceId": "return-sink",
+              "expectedRevision": 14
+            },
+            {
+              "id": "verify.756.932",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 15
+            },
+            {
+              "id": "verify.933.1120",
+              "choiceId": "return-sink",
+              "expectedRevision": 16
+            },
+            {
+              "id": "verify.1121.1346",
+              "choiceId": "accuse",
+              "expectedRevision": 17
+            },
+            {
+              "id": "verify.1347.1585",
+              "choiceId": "return-worker",
+              "expectedRevision": 18
+            },
+            {
+              "id": "verify.1586.1865",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 19
+            },
+            {
+              "id": "verify.1866.2160",
+              "choiceId": "return-sink",
+              "expectedRevision": 20
+            },
+            {
+              "id": "verify.2161.2501",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 21
+            },
+            {
+              "id": "verify.2502.2856",
+              "choiceId": "return-sink",
+              "expectedRevision": 22
+            },
+            {
+              "id": "verify.2857.3266",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 23
+            },
+            {
+              "id": "verify.3267.3685",
+              "choiceId": "return-sink",
+              "expectedRevision": 24
+            },
+            {
+              "id": "verify.3686.4172",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 25
+            },
+            {
+              "id": "verify.4173.4659",
+              "choiceId": "return-sink",
+              "expectedRevision": 26
+            },
+            {
+              "id": "verify.4660.5231",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 27
+            },
+            {
+              "id": "verify.5232.5790",
+              "choiceId": "return-sink",
+              "expectedRevision": 28
+            },
+            {
+              "id": "verify.5791.6455",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 29
+            },
+            {
+              "id": "verify.6456.7090",
+              "choiceId": "return-sink",
+              "expectedRevision": 30
+            },
+            {
+              "id": "verify.7091.7856",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 31
+            },
+            {
+              "id": "verify.7857.8571",
+              "choiceId": "return-sink",
+              "expectedRevision": 32
+            },
+            {
+              "id": "verify.8572.9446",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 33
+            },
+            {
+              "id": "verify.9447.10245",
+              "choiceId": "return-sink",
+              "expectedRevision": 34
+            },
+            {
+              "id": "verify.10246.11237",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 35
+            },
+            {
+              "id": "verify.11238.12124",
+              "choiceId": "return-sink",
+              "expectedRevision": 36
+            },
+            {
+              "id": "verify.12125.13241",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 37
+            },
+            {
+              "id": "verify.13242.14220",
+              "choiceId": "return-sink",
+              "expectedRevision": 38
+            },
+            {
+              "id": "verify.14221.15470",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 39
+            },
+            {
+              "id": "verify.15471.16545",
+              "choiceId": "return-sink",
+              "expectedRevision": 40
+            },
+            {
+              "id": "verify.16546.17936",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 41
+            },
+            {
+              "id": "verify.17937.19111",
+              "choiceId": "return-sink",
+              "expectedRevision": 42
+            },
+            {
+              "id": "verify.19112.20651",
+              "choiceId": "inspect-drain",
+              "expectedRevision": 43
+            },
+            {
+              "id": "verify.20652.21930",
+              "choiceId": "return-sink",
+              "expectedRevision": 44
+            },
+            {
+              "id": "verify.21931.23628",
+              "choiceId": "propose-rinse",
+              "expectedRevision": 45
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

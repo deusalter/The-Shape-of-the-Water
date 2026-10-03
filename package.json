@@ -3,7 +3,47 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "scripts": {"dev":"vite --host 0.0.0.0", "build":"tsc -b && vite build", "preview":"vite preview --host 0.0.0.0", "test":"vitest run"},
-  "dependencies": {"react":"^19.1.1", "react-dom":"^19.1.1"},
-  "devDependencies": {"@types/react":"^19.1.13", "@types/react-dom":"^19.1.9", "@vitejs/plugin-react":"^5.0.3", "typescript":"~5.9.2", "vite":"^7.1.7", "vitest":"^3.2.4", "fake-indexeddb":"^6.2.2", "@playwright/test":"^1.55.1"}
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build --mode player && node tools/engine-offline-manifest.mjs dist-player && vite build --mode studio",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "dev:player": "vite --host 0.0.0.0 --port 4173 --mode player",
+    "dev:studio": "vite --host 0.0.0.0 --port 4174 --mode studio",
+    "typecheck": "tsc --noEmit",
+    "preview:player": "vite preview --host 0.0.0.0 --port 4173 --outDir dist-player",
+    "preview:studio": "vite preview --host 0.0.0.0 --port 4174 --outDir dist-studio",
+    "test:unit": "vitest run tests/engine.test.ts",
+    "test:integration": "vitest run tests/storage.test.ts",
+    "test:properties": "vitest run tests/verification",
+    "content:explore": "node tools/verify-engine.mjs all",
+    "content:validate": "node tools/check-content.mjs",
+    "content:style": "node tools/check-content.mjs",
+    "verify": "pnpm typecheck && pnpm test && pnpm content:validate && pnpm build",
+    "test:e2e": "node tools/browser-check.mjs",
+    "test:a11y": "node tools/browser-check.mjs"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@playwright/test": "1.63.0",
+    "@types/node": "26.6.4",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "5.2.0",
+    "esbuild": "0.28.2",
+    "fake-indexeddb": "6.2.5",
+    "fast-check": "4.10.2",
+    "typescript": "5.9.3",
+    "vite": "7.3.6",
+    "vitest": "3.2.7"
+  },
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=24.0.0"
+  }
 }

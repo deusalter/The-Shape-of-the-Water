@@ -1,0 +1,38 @@
+{
+  "contentSha256": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+  "sceneCount": 21,
+  "choiceCount": 50,
+  "basePassageWords": 7631,
+  "allStoredPassageWordsIncludingRepeatedVariantParagraphs": 10987,
+  "uniqueParagraphWords": 8826,
+  "choiceLabelWords": 523,
+  "routeCounts": {
+    "physical": {
+      "choices": 14,
+      "renderedPassageWordsIncludingRevisitedHubs": 4751,
+      "selectedChoiceLabelWords": 152,
+      "durationMeasured": false
+    },
+    "recorded": {
+      "choices": 12,
+      "renderedPassageWordsIncludingRevisitedHubs": 4492,
+      "selectedChoiceLabelWords": 127,
+      "durationMeasured": false
+    },
+    "relationship_failure": {
+      "choices": 16,
+      "renderedPassageWordsIncludingRevisitedHubs": 5558,
+      "selectedChoiceLabelWords": 167,
+      "durationMeasured": false
+    },
+    "selected_opening": {
+      "choices": 7,
+      "renderedPassageWordsIncludingRevisitedHubs": 2033,
+      "selectedChoiceLabelWords": 65,
+      "durationMeasured": false
+    }
+  },
+  "countsNotPlaytime": true,
+  "openingDuration": "target 15–25 minutes, unverified",
+  "humanPlaytests": 0
+}

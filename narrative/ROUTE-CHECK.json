@@ -1,0 +1,77 @@
+{
+  "scope": "Lead-writer targeted content checks through the real pure engine; not exhaustive, browser testing or human playtesting",
+  "date": "2026-10-03",
+  "contentSha256": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+  "validation": "PASS",
+  "checks": [
+    {
+      "name": "physical",
+      "status": "PASS",
+      "choices": 14,
+      "terminal": "supper",
+      "replay": "PASS",
+      "observations": [
+        "request-before-cut",
+        "ada-cut",
+        "binding-test",
+        "stripe-control",
+        "latch-click",
+        "bounded-finding"
+      ]
+    },
+    {
+      "name": "recorded",
+      "status": "PASS",
+      "choices": 12,
+      "terminal": "leave",
+      "replay": "PASS",
+      "observations": [
+        "latch-click",
+        "continuous-recording",
+        "stripe-control",
+        "bounded-finding"
+      ]
+    },
+    {
+      "name": "relationship_failure",
+      "status": "PASS",
+      "choices": 16,
+      "terminal": "supper",
+      "replay": "PASS",
+      "observations": [
+        "request-before-cut",
+        "simon-account",
+        "continuous-recording",
+        "stripe-control",
+        "latch-click",
+        "bounded-finding"
+      ]
+    },
+    {
+      "name": "first_cabinet_after_proof",
+      "status": "PASS",
+      "choices": 12,
+      "terminal": "leave",
+      "replay": "PASS",
+      "observations": [
+        "ada-cut",
+        "binding-test",
+        "request-before-cut",
+        "stripe-control",
+        "latch-click",
+        "bounded-finding"
+      ]
+    },
+    {
+      "name": "acknowledgment_is_not_test",
+      "status": "PASS"
+    },
+    {
+      "name": "fixed_original_and_single_card_commitment",
+      "status": "PASS",
+      "opticalRevisitChoices": [
+        "optics-return"
+      ]
+    }
+  ]
+}

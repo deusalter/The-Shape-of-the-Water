@@ -1,0 +1,2821 @@
+{
+  "claim": "Explicit live/continuous-recording evidence paths, two interpretation responses, two report actions, three dispositions, and interpersonal failure. Flag gates are not a selected-reference factual proof evaluator.",
+  "contentHash": "0bd022ad793897d6a92c6dbd7054951c7ca8e07ea5d8158ad786d6e3279be432",
+  "contentFileSha256": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+  "traces": [
+    {
+      "name": "live/optics-narrow/public/continue-stay",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-miriam",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "bench-record",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-workshop",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "workshop-record",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "hub-cabinet",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "cabinet-test",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "release-record",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "hub-shared",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "shared-optics",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "optics-narrow",
+          "expectedRevision": 9
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "report-public",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "3331e9c10b74525248a7012c31e072c510707352781a57111be4f61d0236423d",
+            "actionHash": "4a8c27b1866198ef3fb2fd179579a6e21d9ba51b893c7579d834e92f5ebe9942",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.12",
+          "choiceId": "public-next",
+          "expectedRevision": 12
+        },
+        {
+          "id": "authored.13",
+          "choiceId": "continue-stay",
+          "expectedRevision": 13,
+          "confirmation": {
+            "stateHash": "0e6654346f9fb50981383e766b953fb6f8d6ca5480369f6aebd422ab50c4c3fc",
+            "actionHash": "e2bf68088a93524be40fb13f9e4ee69746a27b6e3ad21a6d366579599a39471a",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "f6f4e66ace7c99126febeb85f5c00c532792a07cbcaa48ae9653a7411f8acfa5",
+      "observedIds": [
+        "request-before-cut",
+        "ada-cut",
+        "binding-test",
+        "stripe-control",
+        "latch-click",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "scope-of-test"
+      ],
+      "relationshipIds": [
+        "heard-miriam",
+        "public-account",
+        "future-help"
+      ]
+    },
+    {
+      "name": "live/optics-narrow/public/continue-supper-only",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-miriam",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "bench-record",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-workshop",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "workshop-record",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "hub-cabinet",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "cabinet-test",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "release-record",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "hub-shared",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "shared-optics",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "optics-narrow",
+          "expectedRevision": 9
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "report-public",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "3331e9c10b74525248a7012c31e072c510707352781a57111be4f61d0236423d",
+            "actionHash": "4a8c27b1866198ef3fb2fd179579a6e21d9ba51b893c7579d834e92f5ebe9942",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.12",
+          "choiceId": "public-next",
+          "expectedRevision": 12
+        },
+        {
+          "id": "authored.13",
+          "choiceId": "continue-supper-only",
+          "expectedRevision": 13,
+          "confirmation": {
+            "stateHash": "0e6654346f9fb50981383e766b953fb6f8d6ca5480369f6aebd422ab50c4c3fc",
+            "actionHash": "364b623a891bdec30fcb99dd61a89dbaae9f41dd7622a318c6d0c30004884766",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "40abb5f48caa102366a7002a81d338318e189f7839b1a58c18fafe5fafc4ef3d",
+      "observedIds": [
+        "request-before-cut",
+        "ada-cut",
+        "binding-test",
+        "stripe-control",
+        "latch-click",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "scope-of-test"
+      ],
+      "relationshipIds": [
+        "heard-miriam",
+        "public-account",
+        "supper-only"
+      ]
+    },
+    {
+      "name": "live/optics-narrow/public/continue-leave",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-miriam",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "bench-record",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-workshop",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "workshop-record",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "hub-cabinet",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "cabinet-test",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "release-record",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "hub-shared",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "shared-optics",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "optics-narrow",
+          "expectedRevision": 9
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "report-public",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "3331e9c10b74525248a7012c31e072c510707352781a57111be4f61d0236423d",
+            "actionHash": "4a8c27b1866198ef3fb2fd179579a6e21d9ba51b893c7579d834e92f5ebe9942",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.12",
+          "choiceId": "public-next",
+          "expectedRevision": 12
+        },
+        {
+          "id": "authored.13",
+          "choiceId": "continue-leave",
+          "expectedRevision": 13,
+          "confirmation": {
+            "stateHash": "0e6654346f9fb50981383e766b953fb6f8d6ca5480369f6aebd422ab50c4c3fc",
+            "actionHash": "f1e723726cc7311684bf1be289bfd8bff7ec13bae9077b4d86a9ead9a32cfe57",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "6e5091f1714ff38468e74d767d6a138618ab3c5dfefa281491304d3ee34fd669",
+      "observedIds": [
+        "request-before-cut",
+        "ada-cut",
+        "binding-test",
+        "stripe-control",
+        "latch-click",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "scope-of-test"
+      ],
+      "relationshipIds": [
+        "heard-miriam",
+        "public-account",
+        "left-after-case"
+      ]
+    },
+    {
+      "name": "live/optics-narrow/private/continue-stay",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-miriam",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "bench-record",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-workshop",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "workshop-record",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "hub-cabinet",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "cabinet-test",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "release-record",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "hub-shared",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "shared-optics",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "optics-narrow",
+          "expectedRevision": 9
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "report-private",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "3331e9c10b74525248a7012c31e072c510707352781a57111be4f61d0236423d",
+            "actionHash": "f56f3974060974e54712529e37b145ad1da7331058c2aa37f0fb28c210e951aa",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.12",
+          "choiceId": "private-next",
+          "expectedRevision": 12
+        },
+        {
+          "id": "authored.13",
+          "choiceId": "continue-stay",
+          "expectedRevision": 13,
+          "confirmation": {
+            "stateHash": "8ab679637d66d044fa089d073ed695df0e57686ea7f50fffebe065f4b738ee6f",
+            "actionHash": "e2bf68088a93524be40fb13f9e4ee69746a27b6e3ad21a6d366579599a39471a",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "e7dac7bc25bca3a76fb268426c9d3822651ec4a11e9182e22f90b1019b4d42ca",
+      "observedIds": [
+        "request-before-cut",
+        "ada-cut",
+        "binding-test",
+        "stripe-control",
+        "latch-click",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "scope-of-test"
+      ],
+      "relationshipIds": [
+        "heard-miriam",
+        "private-account",
+        "future-help"
+      ]
+    },
+    {
+      "name": "live/optics-narrow/private/continue-supper-only",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-miriam",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "bench-record",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-workshop",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "workshop-record",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "hub-cabinet",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "cabinet-test",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "release-record",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "hub-shared",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "shared-optics",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "optics-narrow",
+          "expectedRevision": 9
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "report-private",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "3331e9c10b74525248a7012c31e072c510707352781a57111be4f61d0236423d",
+            "actionHash": "f56f3974060974e54712529e37b145ad1da7331058c2aa37f0fb28c210e951aa",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.12",
+          "choiceId": "private-next",
+          "expectedRevision": 12
+        },
+        {
+          "id": "authored.13",
+          "choiceId": "continue-supper-only",
+          "expectedRevision": 13,
+          "confirmation": {
+            "stateHash": "8ab679637d66d044fa089d073ed695df0e57686ea7f50fffebe065f4b738ee6f",
+            "actionHash": "364b623a891bdec30fcb99dd61a89dbaae9f41dd7622a318c6d0c30004884766",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "78940a2c2b97d45870e3737885e5a4c3ad9210d95c8774d3169ec8c6043533a6",
+      "observedIds": [
+        "request-before-cut",
+        "ada-cut",
+        "binding-test",
+        "stripe-control",
+        "latch-click",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "scope-of-test"
+      ],
+      "relationshipIds": [
+        "heard-miriam",
+        "private-account",
+        "supper-only"
+      ]
+    },
+    {
+      "name": "live/optics-narrow/private/continue-leave",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-miriam",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "bench-record",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-workshop",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "workshop-record",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "hub-cabinet",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "cabinet-test",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "release-record",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "hub-shared",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "shared-optics",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "optics-narrow",
+          "expectedRevision": 9
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "report-private",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "3331e9c10b74525248a7012c31e072c510707352781a57111be4f61d0236423d",
+            "actionHash": "f56f3974060974e54712529e37b145ad1da7331058c2aa37f0fb28c210e951aa",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.12",
+          "choiceId": "private-next",
+          "expectedRevision": 12
+        },
+        {
+          "id": "authored.13",
+          "choiceId": "continue-leave",
+          "expectedRevision": 13,
+          "confirmation": {
+            "stateHash": "8ab679637d66d044fa089d073ed695df0e57686ea7f50fffebe065f4b738ee6f",
+            "actionHash": "f1e723726cc7311684bf1be289bfd8bff7ec13bae9077b4d86a9ead9a32cfe57",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "4239d543107e940c7838112cff5a513b0ae90208a39ddf12ef9965014bf5e92b",
+      "observedIds": [
+        "request-before-cut",
+        "ada-cut",
+        "binding-test",
+        "stripe-control",
+        "latch-click",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "scope-of-test"
+      ],
+      "relationshipIds": [
+        "heard-miriam",
+        "private-account",
+        "left-after-case"
+      ]
+    },
+    {
+      "name": "live/optics-measure/public/continue-stay",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-miriam",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "bench-record",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-workshop",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "workshop-record",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "hub-cabinet",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "cabinet-test",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "release-record",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "hub-shared",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "shared-optics",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "optics-measure",
+          "expectedRevision": 9
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "report-public",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "e95bd1d9f1eae0bbda00b5b0acb995128cfa1eff326dd6eb6ea487dd41e7f7ee",
+            "actionHash": "4a8c27b1866198ef3fb2fd179579a6e21d9ba51b893c7579d834e92f5ebe9942",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.12",
+          "choiceId": "public-next",
+          "expectedRevision": 12
+        },
+        {
+          "id": "authored.13",
+          "choiceId": "continue-stay",
+          "expectedRevision": 13,
+          "confirmation": {
+            "stateHash": "512310c0dc77a527ba935b32145a1d3ba4bc7093b7b2e6bc7db8461f92165487",
+            "actionHash": "e2bf68088a93524be40fb13f9e4ee69746a27b6e3ad21a6d366579599a39471a",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "0ba496e1fe1c6f39d62289fe6f3b0c770991a95a741fa3c1f2c3e16522f6a39d",
+      "observedIds": [
+        "request-before-cut",
+        "ada-cut",
+        "binding-test",
+        "stripe-control",
+        "latch-click",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "disputed-scope"
+      ],
+      "relationshipIds": [
+        "heard-miriam",
+        "public-account",
+        "future-help"
+      ]
+    },
+    {
+      "name": "live/optics-measure/public/continue-supper-only",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-miriam",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "bench-record",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-workshop",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "workshop-record",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "hub-cabinet",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "cabinet-test",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "release-record",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "hub-shared",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "shared-optics",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "optics-measure",
+          "expectedRevision": 9
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "report-public",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "e95bd1d9f1eae0bbda00b5b0acb995128cfa1eff326dd6eb6ea487dd41e7f7ee",
+            "actionHash": "4a8c27b1866198ef3fb2fd179579a6e21d9ba51b893c7579d834e92f5ebe9942",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.12",
+          "choiceId": "public-next",
+          "expectedRevision": 12
+        },
+        {
+          "id": "authored.13",
+          "choiceId": "continue-supper-only",
+          "expectedRevision": 13,
+          "confirmation": {
+            "stateHash": "512310c0dc77a527ba935b32145a1d3ba4bc7093b7b2e6bc7db8461f92165487",
+            "actionHash": "364b623a891bdec30fcb99dd61a89dbaae9f41dd7622a318c6d0c30004884766",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "3724f65ae4998cc630652b00ee4026e7f326d51f15a460ae254c2139b360c022",
+      "observedIds": [
+        "request-before-cut",
+        "ada-cut",
+        "binding-test",
+        "stripe-control",
+        "latch-click",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "disputed-scope"
+      ],
+      "relationshipIds": [
+        "heard-miriam",
+        "public-account",
+        "supper-only"
+      ]
+    },
+    {
+      "name": "live/optics-measure/public/continue-leave",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-miriam",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "bench-record",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-workshop",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "workshop-record",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "hub-cabinet",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "cabinet-test",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "release-record",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "hub-shared",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "shared-optics",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "optics-measure",
+          "expectedRevision": 9
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "report-public",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "e95bd1d9f1eae0bbda00b5b0acb995128cfa1eff326dd6eb6ea487dd41e7f7ee",
+            "actionHash": "4a8c27b1866198ef3fb2fd179579a6e21d9ba51b893c7579d834e92f5ebe9942",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.12",
+          "choiceId": "public-next",
+          "expectedRevision": 12
+        },
+        {
+          "id": "authored.13",
+          "choiceId": "continue-leave",
+          "expectedRevision": 13,
+          "confirmation": {
+            "stateHash": "512310c0dc77a527ba935b32145a1d3ba4bc7093b7b2e6bc7db8461f92165487",
+            "actionHash": "f1e723726cc7311684bf1be289bfd8bff7ec13bae9077b4d86a9ead9a32cfe57",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "b64cede2f87415f040320d26d18246e3759ce55bc7877cc4eddbebee2ebe6a14",
+      "observedIds": [
+        "request-before-cut",
+        "ada-cut",
+        "binding-test",
+        "stripe-control",
+        "latch-click",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "disputed-scope"
+      ],
+      "relationshipIds": [
+        "heard-miriam",
+        "public-account",
+        "left-after-case"
+      ]
+    },
+    {
+      "name": "live/optics-measure/private/continue-stay",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-miriam",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "bench-record",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-workshop",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "workshop-record",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "hub-cabinet",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "cabinet-test",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "release-record",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "hub-shared",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "shared-optics",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "optics-measure",
+          "expectedRevision": 9
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "report-private",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "e95bd1d9f1eae0bbda00b5b0acb995128cfa1eff326dd6eb6ea487dd41e7f7ee",
+            "actionHash": "f56f3974060974e54712529e37b145ad1da7331058c2aa37f0fb28c210e951aa",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.12",
+          "choiceId": "private-next",
+          "expectedRevision": 12
+        },
+        {
+          "id": "authored.13",
+          "choiceId": "continue-stay",
+          "expectedRevision": 13,
+          "confirmation": {
+            "stateHash": "6396434d117f28c7419224c46658fa48b2079f0faa262c929062c4d4a13791ac",
+            "actionHash": "e2bf68088a93524be40fb13f9e4ee69746a27b6e3ad21a6d366579599a39471a",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "c0a22e121da4911e02e3c6acfa0991415fb882c1c73350aa510b796cf9fc4473",
+      "observedIds": [
+        "request-before-cut",
+        "ada-cut",
+        "binding-test",
+        "stripe-control",
+        "latch-click",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "disputed-scope"
+      ],
+      "relationshipIds": [
+        "heard-miriam",
+        "private-account",
+        "future-help"
+      ]
+    },
+    {
+      "name": "live/optics-measure/private/continue-supper-only",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-miriam",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "bench-record",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-workshop",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "workshop-record",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "hub-cabinet",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "cabinet-test",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "release-record",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "hub-shared",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "shared-optics",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "optics-measure",
+          "expectedRevision": 9
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "report-private",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "e95bd1d9f1eae0bbda00b5b0acb995128cfa1eff326dd6eb6ea487dd41e7f7ee",
+            "actionHash": "f56f3974060974e54712529e37b145ad1da7331058c2aa37f0fb28c210e951aa",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.12",
+          "choiceId": "private-next",
+          "expectedRevision": 12
+        },
+        {
+          "id": "authored.13",
+          "choiceId": "continue-supper-only",
+          "expectedRevision": 13,
+          "confirmation": {
+            "stateHash": "6396434d117f28c7419224c46658fa48b2079f0faa262c929062c4d4a13791ac",
+            "actionHash": "364b623a891bdec30fcb99dd61a89dbaae9f41dd7622a318c6d0c30004884766",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "cedd8f217b7dd37b404ba1c9d8cf2170421d41544f7610f46809c64751c2b62f",
+      "observedIds": [
+        "request-before-cut",
+        "ada-cut",
+        "binding-test",
+        "stripe-control",
+        "latch-click",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "disputed-scope"
+      ],
+      "relationshipIds": [
+        "heard-miriam",
+        "private-account",
+        "supper-only"
+      ]
+    },
+    {
+      "name": "live/optics-measure/private/continue-leave",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-miriam",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "bench-record",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-workshop",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "workshop-record",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "hub-cabinet",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "cabinet-test",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "release-record",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "hub-shared",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "shared-optics",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "optics-measure",
+          "expectedRevision": 9
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "report-private",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "e95bd1d9f1eae0bbda00b5b0acb995128cfa1eff326dd6eb6ea487dd41e7f7ee",
+            "actionHash": "f56f3974060974e54712529e37b145ad1da7331058c2aa37f0fb28c210e951aa",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.12",
+          "choiceId": "private-next",
+          "expectedRevision": 12
+        },
+        {
+          "id": "authored.13",
+          "choiceId": "continue-leave",
+          "expectedRevision": 13,
+          "confirmation": {
+            "stateHash": "6396434d117f28c7419224c46658fa48b2079f0faa262c929062c4d4a13791ac",
+            "actionHash": "f1e723726cc7311684bf1be289bfd8bff7ec13bae9077b4d86a9ead9a32cfe57",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "e5e81761c311eace992372e5bdb2faebc27e531fc1314c044379970954624896",
+      "observedIds": [
+        "request-before-cut",
+        "ada-cut",
+        "binding-test",
+        "stripe-control",
+        "latch-click",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "disputed-scope"
+      ],
+      "relationshipIds": [
+        "heard-miriam",
+        "private-account",
+        "left-after-case"
+      ]
+    },
+    {
+      "name": "continuous-recording/optics-narrow/public/continue-stay",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-cabinet",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "cabinet-cautious",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-gallery",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "gallery-recording",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "recording-keep",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "hub-shared",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "shared-optics",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "optics-narrow",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "report-public",
+          "expectedRevision": 9,
+          "confirmation": {
+            "stateHash": "3bf31f6d8d1f33856ef29a9fa8be71e15ffc67bec4ca00a3bb7c4722d55f721b",
+            "actionHash": "bf230abc1de86fbe8e95860287fca55f2adef1a612767a1a7c931012cf8c900c",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "public-next",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "continue-stay",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "2c53ed5d0e27579a19dbd8100197886fb46c0f42b36130b22d0992d68b33722e",
+            "actionHash": "9bcded8041eac86766c3ced497c20130ade65908bf98899a834428c1a376a560",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "3fcb2d75f57451214895a460743283b18909ec11bd37f8f59478bf5d3b930c69",
+      "observedIds": [
+        "latch-click",
+        "continuous-recording",
+        "stripe-control",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "scope-of-test"
+      ],
+      "relationshipIds": [
+        "public-account",
+        "future-help"
+      ]
+    },
+    {
+      "name": "continuous-recording/optics-narrow/public/continue-supper-only",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-cabinet",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "cabinet-cautious",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-gallery",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "gallery-recording",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "recording-keep",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "hub-shared",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "shared-optics",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "optics-narrow",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "report-public",
+          "expectedRevision": 9,
+          "confirmation": {
+            "stateHash": "3bf31f6d8d1f33856ef29a9fa8be71e15ffc67bec4ca00a3bb7c4722d55f721b",
+            "actionHash": "bf230abc1de86fbe8e95860287fca55f2adef1a612767a1a7c931012cf8c900c",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "public-next",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "continue-supper-only",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "2c53ed5d0e27579a19dbd8100197886fb46c0f42b36130b22d0992d68b33722e",
+            "actionHash": "ecd55055764c51ae53cba5b60a31cd88fee287a7677e5d2fe341fd5b92e2e634",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "b0027bce39e199130476360126da492059f627f3122d840e24a59e52ed54338a",
+      "observedIds": [
+        "latch-click",
+        "continuous-recording",
+        "stripe-control",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "scope-of-test"
+      ],
+      "relationshipIds": [
+        "public-account",
+        "supper-only"
+      ]
+    },
+    {
+      "name": "continuous-recording/optics-narrow/public/continue-leave",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-cabinet",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "cabinet-cautious",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-gallery",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "gallery-recording",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "recording-keep",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "hub-shared",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "shared-optics",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "optics-narrow",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "report-public",
+          "expectedRevision": 9,
+          "confirmation": {
+            "stateHash": "3bf31f6d8d1f33856ef29a9fa8be71e15ffc67bec4ca00a3bb7c4722d55f721b",
+            "actionHash": "bf230abc1de86fbe8e95860287fca55f2adef1a612767a1a7c931012cf8c900c",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "public-next",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "continue-leave",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "2c53ed5d0e27579a19dbd8100197886fb46c0f42b36130b22d0992d68b33722e",
+            "actionHash": "b172727048c7aa804f4f26a0f6658bb798e4b7c1055c3a38bf92401dc7f36958",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "2b04ccade26c119fb450a3b82ace87fb0919d56dcd8b312ef95c455c439c9611",
+      "observedIds": [
+        "latch-click",
+        "continuous-recording",
+        "stripe-control",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "scope-of-test"
+      ],
+      "relationshipIds": [
+        "public-account",
+        "left-after-case"
+      ]
+    },
+    {
+      "name": "continuous-recording/optics-narrow/private/continue-stay",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-cabinet",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "cabinet-cautious",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-gallery",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "gallery-recording",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "recording-keep",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "hub-shared",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "shared-optics",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "optics-narrow",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "report-private",
+          "expectedRevision": 9,
+          "confirmation": {
+            "stateHash": "3bf31f6d8d1f33856ef29a9fa8be71e15ffc67bec4ca00a3bb7c4722d55f721b",
+            "actionHash": "f54deee4229c71003cde6ab86349e73ba97e7adcfb600bac7d7c472c4d09f180",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "private-next",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "continue-stay",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "76007a5f76c67f840d4bd42b41e41044b4077f314586f5720ee5ea37a6318c2d",
+            "actionHash": "9bcded8041eac86766c3ced497c20130ade65908bf98899a834428c1a376a560",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "a88ea2b2fab542dd97cf547068c2abed90ad6513d80e1be8c69be9d6551e585f",
+      "observedIds": [
+        "latch-click",
+        "continuous-recording",
+        "stripe-control",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "scope-of-test"
+      ],
+      "relationshipIds": [
+        "private-account",
+        "future-help"
+      ]
+    },
+    {
+      "name": "continuous-recording/optics-narrow/private/continue-supper-only",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-cabinet",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "cabinet-cautious",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-gallery",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "gallery-recording",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "recording-keep",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "hub-shared",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "shared-optics",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "optics-narrow",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "report-private",
+          "expectedRevision": 9,
+          "confirmation": {
+            "stateHash": "3bf31f6d8d1f33856ef29a9fa8be71e15ffc67bec4ca00a3bb7c4722d55f721b",
+            "actionHash": "f54deee4229c71003cde6ab86349e73ba97e7adcfb600bac7d7c472c4d09f180",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "private-next",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "continue-supper-only",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "76007a5f76c67f840d4bd42b41e41044b4077f314586f5720ee5ea37a6318c2d",
+            "actionHash": "ecd55055764c51ae53cba5b60a31cd88fee287a7677e5d2fe341fd5b92e2e634",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "04bfdb01b19933700c5d841ef3256c3cf5ffbc68b2fd91c3c280f9a90a217da0",
+      "observedIds": [
+        "latch-click",
+        "continuous-recording",
+        "stripe-control",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "scope-of-test"
+      ],
+      "relationshipIds": [
+        "private-account",
+        "supper-only"
+      ]
+    },
+    {
+      "name": "continuous-recording/optics-narrow/private/continue-leave",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-cabinet",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "cabinet-cautious",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-gallery",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "gallery-recording",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "recording-keep",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "hub-shared",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "shared-optics",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "optics-narrow",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "report-private",
+          "expectedRevision": 9,
+          "confirmation": {
+            "stateHash": "3bf31f6d8d1f33856ef29a9fa8be71e15ffc67bec4ca00a3bb7c4722d55f721b",
+            "actionHash": "f54deee4229c71003cde6ab86349e73ba97e7adcfb600bac7d7c472c4d09f180",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "private-next",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "continue-leave",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "76007a5f76c67f840d4bd42b41e41044b4077f314586f5720ee5ea37a6318c2d",
+            "actionHash": "b172727048c7aa804f4f26a0f6658bb798e4b7c1055c3a38bf92401dc7f36958",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "29b12bb91dd488920a8283358afc43064a5b8352bbe81ec8f8e3fcfa4dadcb00",
+      "observedIds": [
+        "latch-click",
+        "continuous-recording",
+        "stripe-control",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "scope-of-test"
+      ],
+      "relationshipIds": [
+        "private-account",
+        "left-after-case"
+      ]
+    },
+    {
+      "name": "continuous-recording/optics-measure/public/continue-stay",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-cabinet",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "cabinet-cautious",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-gallery",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "gallery-recording",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "recording-keep",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "hub-shared",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "shared-optics",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "optics-measure",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "report-public",
+          "expectedRevision": 9,
+          "confirmation": {
+            "stateHash": "7758a84b8d4be3dc0e33c43741b03438b14364fa958f94ad95a732e229fbc784",
+            "actionHash": "bf230abc1de86fbe8e95860287fca55f2adef1a612767a1a7c931012cf8c900c",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "public-next",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "continue-stay",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "53802725e39f95be35bea71dca14bf6c632fdea37e38fc9d67334035469f4e71",
+            "actionHash": "9bcded8041eac86766c3ced497c20130ade65908bf98899a834428c1a376a560",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "3c22da082b54b547456e32ff42ceb28ca7b4748997961e0b3e3f3e9ec2711ce7",
+      "observedIds": [
+        "latch-click",
+        "continuous-recording",
+        "stripe-control",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "disputed-scope"
+      ],
+      "relationshipIds": [
+        "public-account",
+        "future-help"
+      ]
+    },
+    {
+      "name": "continuous-recording/optics-measure/public/continue-supper-only",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-cabinet",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "cabinet-cautious",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-gallery",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "gallery-recording",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "recording-keep",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "hub-shared",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "shared-optics",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "optics-measure",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "report-public",
+          "expectedRevision": 9,
+          "confirmation": {
+            "stateHash": "7758a84b8d4be3dc0e33c43741b03438b14364fa958f94ad95a732e229fbc784",
+            "actionHash": "bf230abc1de86fbe8e95860287fca55f2adef1a612767a1a7c931012cf8c900c",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "public-next",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "continue-supper-only",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "53802725e39f95be35bea71dca14bf6c632fdea37e38fc9d67334035469f4e71",
+            "actionHash": "ecd55055764c51ae53cba5b60a31cd88fee287a7677e5d2fe341fd5b92e2e634",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "34b9c66f9e6a64da6d0f0838951d0a1ca0d9c0948e7f65d60507d23dd7cdb1cb",
+      "observedIds": [
+        "latch-click",
+        "continuous-recording",
+        "stripe-control",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "disputed-scope"
+      ],
+      "relationshipIds": [
+        "public-account",
+        "supper-only"
+      ]
+    },
+    {
+      "name": "continuous-recording/optics-measure/public/continue-leave",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-cabinet",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "cabinet-cautious",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-gallery",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "gallery-recording",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "recording-keep",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "hub-shared",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "shared-optics",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "optics-measure",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "report-public",
+          "expectedRevision": 9,
+          "confirmation": {
+            "stateHash": "7758a84b8d4be3dc0e33c43741b03438b14364fa958f94ad95a732e229fbc784",
+            "actionHash": "bf230abc1de86fbe8e95860287fca55f2adef1a612767a1a7c931012cf8c900c",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "public-next",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "continue-leave",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "53802725e39f95be35bea71dca14bf6c632fdea37e38fc9d67334035469f4e71",
+            "actionHash": "b172727048c7aa804f4f26a0f6658bb798e4b7c1055c3a38bf92401dc7f36958",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "e5243ef7124937bc55f431e7f94f266378acd322093c52f1b5727607f58975d4",
+      "observedIds": [
+        "latch-click",
+        "continuous-recording",
+        "stripe-control",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "disputed-scope"
+      ],
+      "relationshipIds": [
+        "public-account",
+        "left-after-case"
+      ]
+    },
+    {
+      "name": "continuous-recording/optics-measure/private/continue-stay",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-cabinet",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "cabinet-cautious",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-gallery",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "gallery-recording",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "recording-keep",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "hub-shared",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "shared-optics",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "optics-measure",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "report-private",
+          "expectedRevision": 9,
+          "confirmation": {
+            "stateHash": "7758a84b8d4be3dc0e33c43741b03438b14364fa958f94ad95a732e229fbc784",
+            "actionHash": "f54deee4229c71003cde6ab86349e73ba97e7adcfb600bac7d7c472c4d09f180",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "private-next",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "continue-stay",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "41ef67c3c8087376e0eaa5e967802c89cb8f4dbabcab416a0f98fcfd3ee69f04",
+            "actionHash": "9bcded8041eac86766c3ced497c20130ade65908bf98899a834428c1a376a560",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "a07f300b24c3a294c61b58b1c1f2abdc36287fb353ee9b2020e70cc93bf0c731",
+      "observedIds": [
+        "latch-click",
+        "continuous-recording",
+        "stripe-control",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "disputed-scope"
+      ],
+      "relationshipIds": [
+        "private-account",
+        "future-help"
+      ]
+    },
+    {
+      "name": "continuous-recording/optics-measure/private/continue-supper-only",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-cabinet",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "cabinet-cautious",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-gallery",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "gallery-recording",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "recording-keep",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "hub-shared",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "shared-optics",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "optics-measure",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "report-private",
+          "expectedRevision": 9,
+          "confirmation": {
+            "stateHash": "7758a84b8d4be3dc0e33c43741b03438b14364fa958f94ad95a732e229fbc784",
+            "actionHash": "f54deee4229c71003cde6ab86349e73ba97e7adcfb600bac7d7c472c4d09f180",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "private-next",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "continue-supper-only",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "41ef67c3c8087376e0eaa5e967802c89cb8f4dbabcab416a0f98fcfd3ee69f04",
+            "actionHash": "ecd55055764c51ae53cba5b60a31cd88fee287a7677e5d2fe341fd5b92e2e634",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "5de0cab942e3249e2b5e96a3418c37ed30064fe409dc61d27a5769e08c9f348f",
+      "observedIds": [
+        "latch-click",
+        "continuous-recording",
+        "stripe-control",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "disputed-scope"
+      ],
+      "relationshipIds": [
+        "private-account",
+        "supper-only"
+      ]
+    },
+    {
+      "name": "continuous-recording/optics-measure/private/continue-leave",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-cabinet",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "cabinet-cautious",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-gallery",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "gallery-recording",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "recording-keep",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "hub-shared",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "shared-optics",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "optics-measure",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "report-private",
+          "expectedRevision": 9,
+          "confirmation": {
+            "stateHash": "7758a84b8d4be3dc0e33c43741b03438b14364fa958f94ad95a732e229fbc784",
+            "actionHash": "f54deee4229c71003cde6ab86349e73ba97e7adcfb600bac7d7c472c4d09f180",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "private-next",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "continue-leave",
+          "expectedRevision": 11,
+          "confirmation": {
+            "stateHash": "41ef67c3c8087376e0eaa5e967802c89cb8f4dbabcab416a0f98fcfd3ee69f04",
+            "actionHash": "b172727048c7aa804f4f26a0f6658bb798e4b7c1055c3a38bf92401dc7f36958",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "621615fe16ffd8005334c847ca099db41646398ee3a532450e83292f61931c22",
+      "observedIds": [
+        "latch-click",
+        "continuous-recording",
+        "stripe-control",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "disputed-scope"
+      ],
+      "relationshipIds": [
+        "private-account",
+        "left-after-case"
+      ]
+    },
+    {
+      "name": "relationship-failure",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-miriam",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "bench-panic",
+          "expectedRevision": 1,
+          "confirmation": {
+            "stateHash": "52c3000e868c56842ef8a4991d355276a66922a9badc8b3f2f2c73127060b2b2",
+            "actionHash": "b14e48659372c3f58b9c43fa76b57e0781b15c3830480e6418d87066546f11a2",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "miriam-account-record",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "hub-workshop",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "workshop-to-test",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "release-record",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "hub-gallery",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "gallery-accuse",
+          "expectedRevision": 7,
+          "confirmation": {
+            "stateHash": "9e6df5922028b8db58042ea2b343b9a2744e71668b8cf0496c766d4418620ed1",
+            "actionHash": "8f04c48f224ee2fa8e860b465fa6810d7c4f9684c5cdcc99c3f9fdc568d19f25",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "simon-account-film",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "recording-account",
+          "expectedRevision": 9
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "simon-account-record",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "hub-simon-private",
+          "expectedRevision": 11
+        },
+        {
+          "id": "authored.12",
+          "choiceId": "simon-ada-leave",
+          "expectedRevision": 12
+        },
+        {
+          "id": "authored.13",
+          "choiceId": "hub-miriam-private",
+          "expectedRevision": 13
+        },
+        {
+          "id": "authored.14",
+          "choiceId": "miriam-private-listen",
+          "expectedRevision": 14
+        },
+        {
+          "id": "authored.15",
+          "choiceId": "hub-ada-private",
+          "expectedRevision": 15
+        },
+        {
+          "id": "authored.16",
+          "choiceId": "ada-miriam-leave",
+          "expectedRevision": 16
+        },
+        {
+          "id": "authored.17",
+          "choiceId": "hub-shared",
+          "expectedRevision": 17
+        },
+        {
+          "id": "authored.18",
+          "choiceId": "shared-pause",
+          "expectedRevision": 18
+        },
+        {
+          "id": "authored.19",
+          "choiceId": "hub-shared",
+          "expectedRevision": 19
+        },
+        {
+          "id": "authored.20",
+          "choiceId": "shared-optics",
+          "expectedRevision": 20
+        },
+        {
+          "id": "authored.21",
+          "choiceId": "optics-measure",
+          "expectedRevision": 21
+        },
+        {
+          "id": "authored.22",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 22
+        },
+        {
+          "id": "authored.23",
+          "choiceId": "report-public",
+          "expectedRevision": 23,
+          "confirmation": {
+            "stateHash": "0ec4401fa37f7f4b10cc0bfe72b2c4cb6bc97effac236634a95b2cce9097a137",
+            "actionHash": "e267cf6b26dfcad728e58bfcb589e3c6329590f75773f30ad138e5eb5a2e839e",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.24",
+          "choiceId": "public-next",
+          "expectedRevision": 24
+        },
+        {
+          "id": "authored.25",
+          "choiceId": "continue-leave",
+          "expectedRevision": 25,
+          "confirmation": {
+            "stateHash": "359fd31fd0627da5843a9a8cead81a819fda00116fedb148600e2dd0ca1af490",
+            "actionHash": "63083ec2fb120ae71bc57ce62d30238e3b696f8682e1d5888773c74bae6fe584",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "a78213c9a48e60cc18c127b3d2e7ab203a34c62f94795fe4c007bd3aec35f59c",
+      "observedIds": [
+        "request-before-cut",
+        "ada-cut",
+        "binding-test",
+        "simon-account",
+        "continuous-recording",
+        "stripe-control",
+        "latch-click",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "disputed-scope"
+      ],
+      "relationshipIds": [
+        "pressed-miriam",
+        "shamed-simon",
+        "simon-private",
+        "miriam-private",
+        "left-room",
+        "public-account",
+        "left-after-case"
+      ]
+    },
+    {
+      "name": "recontextualization",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-cabinet",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "cabinet-infer",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-test",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "release-film",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "recording-keep",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "hub-cabinet",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "cabinet-revise",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "hub-bench",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "bench-record",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "hub-miriam",
+          "expectedRevision": 9
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "miriam-account-record",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "hub-shared",
+          "expectedRevision": 11
+        },
+        {
+          "id": "authored.12",
+          "choiceId": "shared-optics",
+          "expectedRevision": 12
+        },
+        {
+          "id": "authored.13",
+          "choiceId": "optics-narrow",
+          "expectedRevision": 13
+        },
+        {
+          "id": "authored.14",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 14
+        },
+        {
+          "id": "authored.15",
+          "choiceId": "report-private",
+          "expectedRevision": 15,
+          "confirmation": {
+            "stateHash": "4a46aec450f79d583215f16ee7a01d323c62e8711e8ba39aae590098749342c8",
+            "actionHash": "c7926ff8cd2d6ffa5108c6588517cbdc87fe793dcc3086d0b7d2113c51691e87",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.16",
+          "choiceId": "private-next",
+          "expectedRevision": 16
+        },
+        {
+          "id": "authored.17",
+          "choiceId": "continue-supper-only",
+          "expectedRevision": 17,
+          "confirmation": {
+            "stateHash": "02e50f0daaa90b0b46403ba47e72d4c026c553322a8d599e51a60e19210f0253",
+            "actionHash": "bff318dde1e3579be32d38f8a402b1f7fb3789df350ab92d64cf275806355831",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "f9d9d4e30723104f43949c0c0cd38a0daee91619dd5102240f90762294d5b37b",
+      "observedIds": [
+        "latch-click",
+        "binding-test",
+        "continuous-recording",
+        "request-before-cut",
+        "stripe-control",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "early-exit",
+        "revised-exit",
+        "scope-of-test"
+      ],
+      "relationshipIds": [
+        "heard-miriam",
+        "private-account",
+        "supper-only"
+      ]
+    },
+    {
+      "name": "optics-narrow/revisit-preservation",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-cabinet",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "cabinet-cautious",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-gallery",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "gallery-recording",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "recording-keep",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "hub-shared",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "shared-optics",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "optics-narrow",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "cabinet-revise",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "hub-shared",
+          "expectedRevision": 9
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "shared-optics",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "optics-return",
+          "expectedRevision": 11
+        },
+        {
+          "id": "authored.12",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 12
+        },
+        {
+          "id": "authored.13",
+          "choiceId": "report-private",
+          "expectedRevision": 13,
+          "confirmation": {
+            "stateHash": "824eca4e652cb46ba4035ed8590added5bf5aeef9e96b35019577115a52430bb",
+            "actionHash": "8b5964f5074f11313e784a8d0b4479a03f3dc1f3aae2ea7480c8fe59d6200eef",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.14",
+          "choiceId": "private-next",
+          "expectedRevision": 14
+        },
+        {
+          "id": "authored.15",
+          "choiceId": "continue-leave",
+          "expectedRevision": 15,
+          "confirmation": {
+            "stateHash": "961200e0f0732b3045daa1f6d31994274350c76d5817748fb2a43b251bc42c7c",
+            "actionHash": "8a7fade7c0e0890698b793359a6c77a72bed91bc410a422c46fde8a64de4cb72",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "355a60b0588e7f1a415cbaa26bbe87ff0be45a14d98982ef02c0e6ecc4f9b680",
+      "observedIds": [
+        "latch-click",
+        "continuous-recording",
+        "stripe-control",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "scope-of-test",
+        "revised-exit"
+      ],
+      "relationshipIds": [
+        "private-account",
+        "left-after-case"
+      ]
+    },
+    {
+      "name": "optics-measure/revisit-preservation",
+      "commands": [
+        {
+          "id": "authored.0",
+          "choiceId": "arrival-cabinet",
+          "expectedRevision": 0
+        },
+        {
+          "id": "authored.1",
+          "choiceId": "cabinet-cautious",
+          "expectedRevision": 1
+        },
+        {
+          "id": "authored.2",
+          "choiceId": "hub-gallery",
+          "expectedRevision": 2
+        },
+        {
+          "id": "authored.3",
+          "choiceId": "gallery-recording",
+          "expectedRevision": 3
+        },
+        {
+          "id": "authored.4",
+          "choiceId": "recording-keep",
+          "expectedRevision": 4
+        },
+        {
+          "id": "authored.5",
+          "choiceId": "hub-shared",
+          "expectedRevision": 5
+        },
+        {
+          "id": "authored.6",
+          "choiceId": "shared-optics",
+          "expectedRevision": 6
+        },
+        {
+          "id": "authored.7",
+          "choiceId": "optics-measure",
+          "expectedRevision": 7
+        },
+        {
+          "id": "authored.8",
+          "choiceId": "cabinet-revise",
+          "expectedRevision": 8
+        },
+        {
+          "id": "authored.9",
+          "choiceId": "hub-shared",
+          "expectedRevision": 9
+        },
+        {
+          "id": "authored.10",
+          "choiceId": "shared-optics",
+          "expectedRevision": 10
+        },
+        {
+          "id": "authored.11",
+          "choiceId": "optics-return",
+          "expectedRevision": 11
+        },
+        {
+          "id": "authored.12",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 12
+        },
+        {
+          "id": "authored.13",
+          "choiceId": "report-private",
+          "expectedRevision": 13,
+          "confirmation": {
+            "stateHash": "9b73e573dcaa41ee0833ac5a15788954864c8feb3243feca95d3903b4b81c11b",
+            "actionHash": "8b5964f5074f11313e784a8d0b4479a03f3dc1f3aae2ea7480c8fe59d6200eef",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "authored.14",
+          "choiceId": "private-next",
+          "expectedRevision": 14
+        },
+        {
+          "id": "authored.15",
+          "choiceId": "continue-leave",
+          "expectedRevision": 15,
+          "confirmation": {
+            "stateHash": "ac1cc8b1eaebe93e664fd220ce768b5e4e0e3ef31d88a65a9441ee18e9a7d45b",
+            "actionHash": "8a7fade7c0e0890698b793359a6c77a72bed91bc410a422c46fde8a64de4cb72",
+            "acknowledged": true
+          }
+        }
+      ],
+      "terminalStateHash": "6d224c5d7159f24621d257a695b8436d7d8f4a762203f837e2b6fdaabff58c42",
+      "observedIds": [
+        "latch-click",
+        "continuous-recording",
+        "stripe-control",
+        "bounded-finding"
+      ],
+      "interpretationIds": [
+        "disputed-scope",
+        "revised-exit"
+      ],
+      "relationshipIds": [
+        "private-account",
+        "left-after-case"
+      ]
+    }
+  ]
+}
