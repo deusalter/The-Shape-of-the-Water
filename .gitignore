@@ -4,6 +4,8 @@ test-results/
 playwright-report/
 *.log
 checkpoints/*.tar.gz
+checkpoints/*.bundle
+checkpoints/*-SHA256.txt
 dist-player/
 dist-studio/
 *.tsbuildinfo

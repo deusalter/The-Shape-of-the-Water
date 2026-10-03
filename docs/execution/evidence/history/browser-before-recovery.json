@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "scope": "Chromium on cloud Linux; real controls/engine/IndexedDB; simulated execution, no human playtime or screen-reader claim",
+  "builtManifest": {
+    "version": "5d29369ecceb81c6",
+    "contentHash": "0bd022ad793897d6a92c6dbd7054951c7ca8e07ea5d8158ad786d6e3279be432",
+    "files": [
+      "assets/index-BbmsO8sa.js",
+      "assets/index-Djm_67cr.css",
+      "index.html"
+    ],
+    "hashes": {
+      "assets/index-BbmsO8sa.js": "9cc4eb2bb2545a4ea33601039edcf5cafa45f1f03815b4660bf59e86f3265d28",
+      "assets/index-Djm_67cr.css": "a2ae09db0a17dcf738ae4783fb15236c04cfb79a49bae29fb45a77ed3c36130e",
+      "index.html": "4d6b4a4ad95ddfb3ec7bc66c6ce986ce686191cf11f289fe9806d564108e665c"
+    }
+  },
+  "sourceCaseSha256": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+  "checks": [
+    {
+      "name": "Initial player and spoiler boundaries",
+      "status": "PASS",
+      "detail": {
+        "heading": "The Shape of the Water"
+      }
+    },
+    {
+      "name": "Responsive layouts and enlarged text",
+      "status": "PASS",
+      "detail": {
+        "sizes": [
+          [
+            1440,
+            900
+          ],
+          [
+            1280,
+            800
+          ],
+          [
+            390,
+            844
+          ],
+          [
+            320,
+            740
+          ]
+        ],
+        "zoom": "CSS 200%, plus large text; not a physical-device check"
+      }
+    },
+    {
+      "name": "Automated player accessibility scan",
+      "status": "PASS",
+      "detail": {
+        "violations": 0,
+        "incomplete": 1
+      }
+    },
+    {
+      "name": "Keyboard investigation and reload",
+      "status": "PASS",
+      "detail": {
+        "actions": 5,
+        "heading": "At the shallow end"
+      }
+    },
+    {
+      "name": "Real stale-tab write preserves newer progress",
+      "status": "PASS",
+      "detail": "Second tab could not overwrite the shared-scene save."
+    },
+    {
+      "name": "Keyboard disclosure and closing route",
+      "status": "PASS",
+      "detail": {
+        "ending": "Four plates"
+      }
+    },
+    {
+      "name": "Player export contains encountered text only",
+      "status": "PASS",
+      "detail": {
+        "revision": 12,
+        "passages": 13
+      }
+    },
+    {
+      "name": "New run archives prior completed run",
+      "status": "PASS",
+      "detail": "Archived runs (1)"
+    },
+    {
+      "name": "Installed built app reloads and plays offline",
+      "status": "PASS",
+      "detail": "Offline shell, content, choices and local saves work."
+    },
+    {
+      "name": "Corrupted cache cannot claim offline ready",
+      "status": "PASS",
+      "detail": "Offline preparation is incomplete. Keep this page online and reload."
+    },
+    {
+      "name": "Separate studio structured edit, undo and preview",
+      "status": "PASS",
+      "detail": {
+        "structuredEdit": true,
+        "undo": true,
+        "preview": true,
+        "axeViolations": []
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "notTested": [
+    "Firefox",
+    "WebKit",
+    "real assistive technology",
+    "human playtime",
+    "all editor operations",
+    "compatible cross-version migration"
+  ],
+  "sourceCaseSha256After": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+  "sourceStable": true
+}

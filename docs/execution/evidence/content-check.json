@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "Content schema, graph references and original-narrative punctuation only; not solvability, playtime or literary quality",
+  "sha256": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+  "canonicalContentHash": "0bd022ad793897d6a92c6dbd7054951c7ca8e07ea5d8158ad786d6e3279be432",
+  "scenes": 21,
+  "choices": 50,
+  "authoredWordsIncludingVariantsChoicesAndNotes": 12456,
+  "paragraphs": 357,
+  "validation": "PASS",
+  "issues": []
+}

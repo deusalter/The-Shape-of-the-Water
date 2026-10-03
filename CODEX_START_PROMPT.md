@@ -1,3 +1,5 @@
+> ARCHIVAL REVISION-3 START PROMPT. Retained for baseline provenance; do not rerun it. Continue current work using CONTINUE_PROMPT.md, docs/OWNER-KICKOFF-v4.md and newer explicit owner instructions. Older conflicting philosophy/model assignments here are superseded.
+
 > Historical revision-3 workflow. Do not rerun as a separate kickoff. Continue current STATE/HANDOFF; newer owner instructions and OWNER-KICKOFF-v4.md control all conflicts. Old philosophy question descriptions are superseded by active docs/09-PHILOSOPHY-INVESTIGATION.md.
 
 Create and implement the attached literary-first game in the authorized CLOUD workspace selected for this chat. Use the revision-3 package, not the retired registry-based story. This is a request for actual literary production and working software, not another PRD, a landing page, or an enormous planning framework.
