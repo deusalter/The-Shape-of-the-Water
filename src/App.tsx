@@ -5,6 +5,16 @@ import { GameStore } from './persistence/store';
 import { useOfflineStatus } from './offline';
 
 const playerStore = new GameStore();
+/** Replacement intent is external save metadata, independent of fictional state. */
+export class ReplacementIntent {
+  private requested = 0;
+  private persisted = 0;
+  request(): void { this.requested += 1; }
+  snapshot(): number { return this.requested; }
+  needsArchive(snapshot: number): boolean { return snapshot > this.persisted; }
+  committed(snapshot: number): void { this.persisted = Math.max(this.persisted, snapshot); }
+  discard(): void { this.persisted = this.requested; }
+}
 export function download(name: string, text: string) {
   const url = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
   const anchor = document.createElement('a'); anchor.href = url; anchor.download = name; anchor.click();
@@ -25,6 +35,7 @@ export function App({ suppliedContent = initialContent, persistence = playerStor
   const [archives,setArchives] = useState<{id:string;revision:number;ended:boolean}[]>([]), [incompatible,setIncompatible] = useState<{id:string;contentVersion:unknown;contentHash:unknown;json:string}[]>([]);
   const gameRef = useRef(game), commit = useRef(0), blocked = useRef(false);
   const queue = useRef<Promise<void>>(Promise.resolve()), pending = useRef(0);
+  const replacementIntent = useRef(new ReplacementIntent());
   const heading = useRef<HTMLHeadingElement>(null);
   const offline = useOfflineStatus(preview,game.contentHash);
   function adopt(next: GameState) { gameRef.current = next; setGame(next); }
@@ -32,6 +43,7 @@ export function App({ suppliedContent = initialContent, persistence = playerStor
     setReady(false);setIncompatible([]); await queue.current;
     const loaded = await persistence.load(content);
     if (loaded.kind === 'loaded' || loaded.kind === 'recovered') {
+      replacementIntent.current.discard();
       commit.current = loaded.commit; blocked.current = false; adopt(loaded.state);
       setNotice(loaded.kind === 'recovered' ? 'The newest save was damaged. A verified earlier checkpoint has been recovered; damaged data was retained locally.' : 'Saved progress loaded.');
     } else if (loaded.kind === 'empty' || loaded.kind === 'corrupt') {
@@ -45,12 +57,14 @@ export function App({ suppliedContent = initialContent, persistence = playerStor
   useEffect(() => { void loadProgress(); }, []);
   useEffect(() => { if (game.revision > 0) heading.current?.focus(); }, [game.currentScene, game.revision]);
   function saveProgress(next: GameState,archiveCurrent=false) {
+    if (archiveCurrent) replacementIntent.current.request();
+    const replacement = replacementIntent.current.snapshot();
     if (blocked.current) return;
     pending.current += 1; setSaving(true);
     queue.current = queue.current.then(async () => {
       if (blocked.current) return;
-      const saved = await persistence.save(content, next, commit.current,{archiveCurrent});
-      if (saved.ok) { commit.current = saved.commit;setUnsavedAcknowledged(false); setNotice('Progress saved in this browser.');void persistence.listArchives(content).then(setArchives).catch(()=>undefined); }
+      const saved = await persistence.save(content, next, commit.current,{archiveCurrent: replacementIntent.current.needsArchive(replacement)});
+      if (saved.ok) { replacementIntent.current.committed(replacement);commit.current = saved.commit;setUnsavedAcknowledged(false); setNotice('Progress saved in this browser.');void persistence.listArchives(content).then(setArchives).catch(()=>undefined); }
       else { blocked.current = true;setUnsavedAcknowledged(false); setNotice(saved.message); }
     }).catch(() => { blocked.current = true;setUnsavedAcknowledged(false); setNotice('Saving failed. Your active run remains in memory; export it before closing.'); }).finally(() => { pending.current -= 1; setSaving(pending.current > 0); });
   }
