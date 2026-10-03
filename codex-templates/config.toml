@@ -1,0 +1,9 @@
+# TEMPLATE ONLY. Use in the selected cloud project's .codex/config.toml
+# only after verifying client support and preserving existing project settings.
+# Choose the parent model/Ultra option in the active UI; do not override it here.
+# This file grants no permissions and does not change billing.
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 4
+default_subagent_model = "gpt-6.1-sol"
+default_subagent_reasoning_effort = "xhigh"

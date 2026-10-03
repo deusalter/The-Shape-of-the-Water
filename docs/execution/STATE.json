@@ -1,1 +1,45 @@
-{"schemaVersion":1,"date":"2026-10-03","status":"active-provisional","baseline":{"revision3":"missing","kickoff":"docs/OWNER-KICKOFF-v4.md","priorTaskGraph":"unavailable"},"ownerApproval":"none for new fictional canon","ownership":{"root":["root manifests","docs/","research/philosophy/COMPARISON.md","research/philosophy/SOURCES.json","integration"],"lead_writer":["narrative/","src/content/case.json"],"kant_researcher":["research/philosophy/KANT.md","research/philosophy/sources/kant-*"],"spinoza_researcher":["research/philosophy/SPINOZA.md","research/philosophy/sources/spinoza-*"],"engineer":["src/ except src/content/case.json","tests/","public/","tools/engine-*","docs/contracts/ENGINE-API.md"]},"maxActiveSubagents":4,"recursiveSpawning":false}
+{
+  "schemaVersion": 1,
+  "date": "2026-10-03",
+  "status": "active-provisional",
+  "baseline": {
+    "revision3": "baseline/revision3",
+    "archiveSha256": "9ac1a34024dc678267cb0dda059b06ac7fd151d4db4c91a2ec509331ed77f7df",
+    "kickoff": "docs/OWNER-KICKOFF-v4.md",
+    "priorImplementation": "none supplied, per owner clarification",
+    "taskGraph": "tools/task-dependencies.json"
+  },
+  "ownerApproval": "none for new fictional canon",
+  "ownership": {
+    "root": [
+      "root manifests",
+      "docs/",
+      "research/philosophy/COMPARISON.md",
+      "research/philosophy/SOURCES.json",
+      "integration"
+    ],
+    "lead_writer": [
+      "narrative/",
+      "src/content/case.json"
+    ],
+    "kant_researcher": [
+      "research/philosophy/KANT.md",
+      "research/philosophy/sources/kant-*"
+    ],
+    "spinoza_researcher": [
+      "research/philosophy/SPINOZA.md",
+      "research/philosophy/sources/spinoza-*"
+    ],
+    "engineer": [
+      "src/ except src/content/case.json",
+      "tests/",
+      "public/",
+      "tools/engine-*",
+      "docs/contracts/ENGINE-API.md"
+    ]
+  },
+  "maxActiveSubagents": 4,
+  "recursiveSpawning": false,
+  "packet_revision": 3,
+  "controlling_kickoff_revision": 4
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "retrieved_on": "2026-10-03",
+  "retrieval_method": "Python urllib.request.urlopen through inherited proxy environment; public HTTPS URL; no bypass or credentials used",
+  "http_status": 200,
+  "source_revision": "provisional intake 2026-10-03; owner kickoff v4; revision-3 unavailable",
+  "local_locator_method": "Line numbers refer to preserved mechanically extracted UTF-8 text. HTML data nodes were stripped of surrounding whitespace and joined with newlines; they are not printed-page numbers.",
+  "source_id": "K-SEP-META",
+  "kind": "scholarship",
+  "title": "Kant’s Critique of Metaphysics",
+  "author": "Michelle Grier",
+  "url": "https://plato.stanford.edu/entries/kant-metaphysics/",
+  "edition_verification": "Fetched live SEP entry says first published February 29, 2004; substantive revision September 14, 2022; copyright 2022; author Michelle Grier.",
+  "reading_scope": "Selected §2 material, §§4–4.2 and §6, plus title/revision/author metadata only.",
+  "inspected_passages": [
+    {
+      "locator": "Selected §2 theory of illusion discussion",
+      "extracted_text_lines": [
+        283,
+        359
+      ],
+      "short_excerpt_actually_inspected": "the unconditioned is already given",
+      "supports": [
+        "PH-K04: diagnosis of illusion and positive role of reason"
+      ],
+      "limits_or_notes": "Quoted clause describes the criticized illusion."
+    },
+    {
+      "locator": "§4 The World and Rational Cosmology; §§4.1–4.2",
+      "extracted_text_lines": [
+        611,
+        858
+      ],
+      "short_excerpt_actually_inspected": "the unconditioned is set as a task",
+      "supports": [
+        "PH-K04: mathematical/dynamical contrast; conditions of antinomy resolution"
+      ],
+      "limits_or_notes": "Short excerpt is normalized across HTML-emphasis whitespace. Primary third/fourth antinomy arguments not directly inspected."
+    },
+    {
+      "locator": "§6 Reason and the Appendix to the Transcendental Dialectic",
+      "extracted_text_lines": [
+        1224,
+        1364
+      ],
+      "short_excerpt_actually_inspected": "The precise status of the demand for systematicity is therefore somewhat controversial.",
+      "supports": [
+        "PH-K04: interpretive difficulty of systematicity and regulative inquiry"
+      ]
+    }
+  ],
+  "verification_limits": [
+    "Direct reading limited to selected entry sections.",
+    "Cited monographs and specialist articles not inspected.",
+    "No conclusion about modern cosmology follows from this reading."
+  ],
+  "final_url": "https://plato.stanford.edu/entries/kant-metaphysics/",
+  "raw_snapshot": "research/philosophy/sources/kant-sep-metaphysics.html",
+  "extracted_text": "research/philosophy/sources/kant-sep-metaphysics.txt",
+  "sha256_html": "ec335f6b7cd18b5831b378cfff0e7e365bb2beab1825b09b584dae441e82b189",
+  "bytes_html": 103939
+}

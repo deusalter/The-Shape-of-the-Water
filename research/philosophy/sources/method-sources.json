@@ -1,0 +1,20 @@
+[
+  {
+    "id": "method-abduction",
+    "url": "https://plato.stanford.edu/entries/abduction/",
+    "retrieved": "2026-10-03",
+    "sha256": "f15cabf1118658053a76f5b7813f0638e8acb88c370a1150b3c13283786ff8e6",
+    "scope": "SEP scholarly summary only: introduction and \u00a73.1 bad-lot objection, extracted lines 26\u201395 and 522\u2013575",
+    "author": "Igor Douven",
+    "limitations": "No directly inspected Peirce/Frankfurt/van Fraassen primary texts; no whole-entry claim."
+  },
+  {
+    "id": "method-peirce",
+    "url": "https://plato.stanford.edu/entries/abduction/peirce.html",
+    "retrieved": "2026-10-03",
+    "sha256": "2c45b8bf8c0609498f1c8467e31931d92fad703616ab78fbe64e75e46970e070",
+    "scope": "SEP scholarly summary only: opening through Frankfurt discovery/adoption objection, extracted lines24\u2013115",
+    "author": "Igor Douven",
+    "limitations": "No directly inspected Peirce/Frankfurt/van Fraassen primary texts; no whole-entry claim."
+  }
+]

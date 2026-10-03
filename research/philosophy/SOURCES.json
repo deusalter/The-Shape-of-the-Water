@@ -1,0 +1,796 @@
+{
+  "schemaVersion": 1,
+  "mergedAt": "2026-10-03",
+  "status": "selected-passages-inspected; not complete works",
+  "baselineNote": "Sources were researched under v4 before v3 specification arrived; historical input labels retained. Reconciliation did not change reading claims.",
+  "kant": [
+    {
+      "schema_version": 1,
+      "retrieved_on": "2026-10-03",
+      "retrieval_method": "Python urllib.request.urlopen through inherited proxy environment; public HTTPS URL; no bypass or credentials used",
+      "http_status": 200,
+      "source_revision": "provisional intake 2026-10-03; owner kickoff v4; revision-3 unavailable",
+      "local_locator_method": "Line numbers refer to preserved mechanically extracted UTF-8 text. HTML data nodes were stripped of surrounding whitespace and joined with newlines; they are not printed-page numbers.",
+      "source_id": "K-PRIMARY",
+      "kind": "primary",
+      "title": "The Critique of Pure Reason",
+      "author": "Immanuel Kant",
+      "translator": "J. M. D. Meiklejohn",
+      "url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+      "edition_verification": "Title and translator inspected on fetched title page. Page includes prefaces headed 1781 and 1787 and the B-style Deduction. Underlying print impression/date not established from this page; no German collation. Do not substitute this translation’s section numbers for conventional B-Deduction numbering.",
+      "reading_scope": "Selected passages only; not the complete work.",
+      "inspected_passages": [
+        {
+          "locator": "First Part, Transcendental Æsthetic, §§1–7",
+          "extracted_text_lines": [
+            2065,
+            2431
+          ],
+          "short_excerpt_actually_inspected": "We maintain, therefore, the empirical reality of space",
+          "supports": [
+            "PH-K01: space and time as forms of sensibility; empirical reality and transcendental ideality"
+          ],
+          "limits_or_notes": "Quotation is a fragment of §4, followed in source by qualification to possible external experience."
+        },
+        {
+          "locator": "Transcendental Æsthetic, §9, opening and rainbow discussion",
+          "extracted_text_lines": [
+            2539,
+            2627
+          ],
+          "short_excerpt_actually_inspected": "we should not thereby advance one step nearer",
+          "supports": [
+            "PH-K01/03: increased empirical clarity does not reach things in themselves; empirical appearance/reality distinction differs from transcendental distinction"
+          ],
+          "limits_or_notes": "Selected opening only, not entire section. The fragment concerns higher clarity of empirical intuition."
+        },
+        {
+          "locator": "Analytic of Conceptions, Chapter I, Section III, Table of the Categories",
+          "extracted_text_lines": [
+            3420,
+            3455
+          ],
+          "short_excerpt_actually_inspected": "Of Causality and Dependence (cause and effect)",
+          "supports": [
+            "PH-K02: four headings of categories and category of causality"
+          ]
+        },
+        {
+          "locator": "Chapter II, Section I, Of the Principles of a Transcendental Deduction in general, §9",
+          "extracted_text_lines": [
+            3635,
+            3698
+          ],
+          "short_excerpt_actually_inspected": "does not concern itself with the right, but only with the fact",
+          "supports": [
+            "PH-K02: transcendental justification differs from empirical origin"
+          ],
+          "limits_or_notes": "Selected paragraph span."
+        },
+        {
+          "locator": "Chapter II, Section II, §§11–18, conjunction through legitimate cognitive use",
+          "extracted_text_lines": [
+            3877,
+            4245
+          ],
+          "short_excerpt_actually_inspected": "To think an object and to cognize an object are by no means the same thing.",
+          "supports": [
+            "PH-K02: synthesis, apperception, judgment, objective unity, category use"
+          ],
+          "limits_or_notes": "The §12 wording “must accompany” is compared with Rohlf’s quoted “must be able to accompany”; no German wording verified."
+        },
+        {
+          "locator": "Transcendental Deduction, §22 and Result §23, selected passages",
+          "extracted_text_lines": [
+            4474,
+            4659
+          ],
+          "short_excerpt_actually_inspected": "Particular laws, inasmuch as they concern empirically determined phenomena, cannot be entirely deduced from pure laws",
+          "supports": [
+            "PH-K02: categories condition possible experience without supplying particular empirical laws"
+          ],
+          "limits_or_notes": "Selected passages, not claimed complete reading of all intervening text or full Deduction."
+        },
+        {
+          "locator": "Analytic of Principles, Analogies of Experience, B. SECOND ANALOGY; house and ship examples",
+          "extracted_text_lines": [
+            5897,
+            6075
+          ],
+          "short_excerpt_actually_inspected": "Principle of the Succession of Time According to the Law of Causality.",
+          "supports": [
+            "PH-K02: apprehension order versus objective event order; causal rule"
+          ],
+          "limits_or_notes": "Beginning and selected proof paragraphs, not entire Second Analogy."
+        },
+        {
+          "locator": "Chapter III, Of the Ground of the Division of all Objects into Phenomena and Noumena",
+          "extracted_text_lines": [
+            7099,
+            7450
+          ],
+          "short_excerpt_actually_inspected": "this is a noumenon in the negative sense of the word.",
+          "supports": [
+            "PH-K03: negative and positive noumenon; logical consistency versus real possibility; boundary concept"
+          ],
+          "limits_or_notes": "Substantial chapter opening through negative/positive distinction and limitation, not all subsequent material."
+        },
+        {
+          "locator": "Transcendental Dialectic, Introduction I and II A–C, selected passages",
+          "extracted_text_lines": [
+            8113,
+            8428
+          ],
+          "short_excerpt_actually_inspected": "Transcendental illusion, on the contrary, does not cease to exist",
+          "supports": [
+            "PH-K04: persistence of transcendental illusion; reason’s demand for unconditioned"
+          ],
+          "limits_or_notes": "Excerpt distinguishes illusion from an ordinary removable logical mistake."
+        },
+        {
+          "locator": "Antithetic of Pure Reason, FIRST CONFLICT and SECOND CONFLICT, proofs and initial observations",
+          "extracted_text_lines": [
+            10050,
+            10335
+          ],
+          "short_excerpt_actually_inspected": "The world has a beginning in time, and is also limited in regard to space.",
+          "supports": [
+            "PH-K04: first two antinomies and their arguments"
+          ],
+          "limits_or_notes": "This is thesis asserted within an antinomy, not a doctrine to attribute without its antithesis and resolution."
+        },
+        {
+          "locator": "Antinomy, Section VII Critical Solution; Section VIII Regulative Principle",
+          "extracted_text_lines": [
+            11393,
+            11684
+          ],
+          "short_excerpt_actually_inspected": "If that which is conditioned is given, the whole series of its conditions is also given",
+          "supports": [
+            "PH-K04: criticized cosmological inference; condition as task rather than completed totality"
+          ],
+          "limits_or_notes": "Quoted proposition is the dialectical inference Kant criticizes, not an endorsed inference."
+        },
+        {
+          "locator": "Appendix, Of the Regulative Employment of the Ideas of Pure Reason, opening",
+          "extracted_text_lines": [
+            14110,
+            14236
+          ],
+          "short_excerpt_actually_inspected": "regulative ideas, directing the understanding to a certain aim",
+          "supports": [
+            "PH-K04: constructive role for inquiry and unity"
+          ],
+          "limits_or_notes": "Selected opening, not the full Appendix."
+        }
+      ],
+      "verification_limits": [
+        "No full A/B pagination in Gutenberg source used as authority.",
+        "No direct inspection of German.",
+        "No direct primary reading of all third/fourth antinomy arguments; contrast relies on K-SEP-META.",
+        "Public-domain English translation may obscure distinctions; contemporary dialogue must not inherit its register."
+      ],
+      "final_url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+      "raw_snapshot": "research/philosophy/sources/kant-critique-gutenberg.html",
+      "extracted_text": "research/philosophy/sources/kant-critique-gutenberg.txt",
+      "sha256_html": "9f347fcc234c6e4ebff9c261bc30fa562ae81a1a0bcd07b684bad8bc39b4aa55",
+      "bytes_html": 1335375
+    },
+    {
+      "schema_version": 1,
+      "retrieved_on": "2026-10-03",
+      "retrieval_method": "Python urllib.request.urlopen through inherited proxy environment; public HTTPS URL; no bypass or credentials used",
+      "http_status": 200,
+      "source_revision": "provisional intake 2026-10-03; owner kickoff v4; revision-3 unavailable",
+      "local_locator_method": "Line numbers refer to preserved mechanically extracted UTF-8 text. HTML data nodes were stripped of surrounding whitespace and joined with newlines; they are not printed-page numbers.",
+      "source_id": "K-SEP-KANT",
+      "kind": "scholarship",
+      "title": "Immanuel Kant",
+      "author": "Michael Rohlf",
+      "url": "https://plato.stanford.edu/entries/kant/",
+      "edition_verification": "Fetched live SEP entry says first published May 20, 2010; substantive revision July 31, 2024; copyright 2024; author Michael Rohlf.",
+      "reading_scope": "§4 and subsections 4.1–4.3 on transcendental deduction, plus title/revision/author metadata only.",
+      "inspected_passages": [
+        {
+          "locator": "§4 The transcendental deduction, §§4.1–4.3",
+          "extracted_text_lines": [
+            1099,
+            1470
+          ],
+          "short_excerpt_actually_inspected": "one perspective on some of its main ideas",
+          "supports": [
+            "PH-K02: contested deduction; synthesis, self-consciousness, judgment and lawfulness"
+          ]
+        },
+        {
+          "locator": "§4.1 quoted principle of apperception",
+          "extracted_text_lines": [
+            1225,
+            1259
+          ],
+          "short_excerpt_actually_inspected": "must be able",
+          "supports": [
+            "PH-K02: possible accompaniment by I think, not ceaseless explicit self-consciousness"
+          ],
+          "limits_or_notes": "Secondary quoted locator B131–132 observed. Used to identify a material wording difference from Meiklejohn §12; German not inspected."
+        }
+      ],
+      "verification_limits": [
+        "One SEP reconstruction of a contested argument.",
+        "No claim to have inspected its morality/freedom sections.",
+        "Secondary A/B locator only."
+      ],
+      "final_url": "https://plato.stanford.edu/entries/kant/",
+      "raw_snapshot": "research/philosophy/sources/kant-sep-immanuel-kant.html",
+      "extracted_text": "research/philosophy/sources/kant-sep-immanuel-kant.txt",
+      "sha256_html": "ea0e46f8a27c83fc68647c77f9e6cedd8df7b887693c1597c6c1a4b2510a7d96",
+      "bytes_html": 176103
+    },
+    {
+      "schema_version": 1,
+      "retrieved_on": "2026-10-03",
+      "retrieval_method": "Python urllib.request.urlopen through inherited proxy environment; public HTTPS URL; no bypass or credentials used",
+      "http_status": 200,
+      "source_revision": "provisional intake 2026-10-03; owner kickoff v4; revision-3 unavailable",
+      "local_locator_method": "Line numbers refer to preserved mechanically extracted UTF-8 text. HTML data nodes were stripped of surrounding whitespace and joined with newlines; they are not printed-page numbers.",
+      "source_id": "K-SEP-META",
+      "kind": "scholarship",
+      "title": "Kant’s Critique of Metaphysics",
+      "author": "Michelle Grier",
+      "url": "https://plato.stanford.edu/entries/kant-metaphysics/",
+      "edition_verification": "Fetched live SEP entry says first published February 29, 2004; substantive revision September 14, 2022; copyright 2022; author Michelle Grier.",
+      "reading_scope": "Selected §2 material, §§4–4.2 and §6, plus title/revision/author metadata only.",
+      "inspected_passages": [
+        {
+          "locator": "Selected §2 theory of illusion discussion",
+          "extracted_text_lines": [
+            283,
+            359
+          ],
+          "short_excerpt_actually_inspected": "the unconditioned is already given",
+          "supports": [
+            "PH-K04: diagnosis of illusion and positive role of reason"
+          ],
+          "limits_or_notes": "Quoted clause describes the criticized illusion."
+        },
+        {
+          "locator": "§4 The World and Rational Cosmology; §§4.1–4.2",
+          "extracted_text_lines": [
+            611,
+            858
+          ],
+          "short_excerpt_actually_inspected": "the unconditioned is set as a task",
+          "supports": [
+            "PH-K04: mathematical/dynamical contrast; conditions of antinomy resolution"
+          ],
+          "limits_or_notes": "Short excerpt is normalized across HTML-emphasis whitespace. Primary third/fourth antinomy arguments not directly inspected."
+        },
+        {
+          "locator": "§6 Reason and the Appendix to the Transcendental Dialectic",
+          "extracted_text_lines": [
+            1224,
+            1364
+          ],
+          "short_excerpt_actually_inspected": "The precise status of the demand for systematicity is therefore somewhat controversial.",
+          "supports": [
+            "PH-K04: interpretive difficulty of systematicity and regulative inquiry"
+          ]
+        }
+      ],
+      "verification_limits": [
+        "Direct reading limited to selected entry sections.",
+        "Cited monographs and specialist articles not inspected.",
+        "No conclusion about modern cosmology follows from this reading."
+      ],
+      "final_url": "https://plato.stanford.edu/entries/kant-metaphysics/",
+      "raw_snapshot": "research/philosophy/sources/kant-sep-metaphysics.html",
+      "extracted_text": "research/philosophy/sources/kant-sep-metaphysics.txt",
+      "sha256_html": "ec335f6b7cd18b5831b378cfff0e7e365bb2beab1825b09b584dae441e82b189",
+      "bytes_html": 103939
+    },
+    {
+      "schema_version": 1,
+      "retrieved_on": "2026-10-03",
+      "retrieval_method": "Python urllib.request.urlopen through inherited proxy environment; public HTTPS URL; no bypass or credentials used",
+      "http_status": 200,
+      "source_revision": "provisional intake 2026-10-03; owner kickoff v4; revision-3 unavailable",
+      "local_locator_method": "Line numbers refer to preserved mechanically extracted UTF-8 text. HTML data nodes were stripped of surrounding whitespace and joined with newlines; they are not printed-page numbers.",
+      "source_id": "K-SEP-TI",
+      "kind": "scholarship",
+      "title": "Kant’s Transcendental Idealism",
+      "author": "Nicholas F. Stang",
+      "url": "https://plato.stanford.edu/entries/kant-transcendental-idealism/",
+      "edition_verification": "Fetched live SEP entry says first published March 4, 2016; copyright 2016, author Nicholas F. Stang. No later substantive-revision label observed. Entry explicitly identifies quoted Critique translation as Guyer & Wood (1998).",
+      "reading_scope": "Opening and specified selected sections; not entire entry or cited monographs.",
+      "inspected_passages": [
+        {
+          "locator": "Opening and §1.1 Transcendental Realism and Empirical Idealism",
+          "extracted_text_lines": [
+            30,
+            155
+          ],
+          "short_excerpt_actually_inspected": "there is so little consensus",
+          "supports": [
+            "PH-K01/03: contested interpretation"
+          ],
+          "limits_or_notes": "Also inspected §1.1 discussion at extracted lines 230–337; quotation fragment belongs to introductory discussion of disagreement."
+        },
+        {
+          "locator": "§1.1 Transcendental Realism and Empirical Idealism",
+          "extracted_text_lines": [
+            230,
+            337
+          ],
+          "short_excerpt_actually_inspected": "Transcendental idealism is a form of empirical realism",
+          "supports": [
+            "PH-K01: distinction from empirical idealism"
+          ]
+        },
+        {
+          "locator": "Selected §3.4.3 affection discussion through §4.1",
+          "extracted_text_lines": [
+            1582,
+            1830
+          ],
+          "short_excerpt_actually_inspected": "two different perspectives or stances",
+          "supports": [
+            "PH-K03: affection problem and dual-aspect alternative"
+          ],
+          "limits_or_notes": "This is Stang’s account of a family of interpretations, not a settled equation of Kant’s doctrine with it."
+        },
+        {
+          "locator": "Selected §4.3 objections, especially §4.3.3 Abstraction",
+          "extracted_text_lines": [
+            1966,
+            2155
+          ],
+          "short_excerpt_actually_inspected": "merely refrain from representing them",
+          "supports": [
+            "PH-K01/03: abstracting a predicate differs from asserting its negation"
+          ],
+          "limits_or_notes": "Selected spans read at 1966–2020 and 2082–2155; intervening text not claimed inspected."
+        },
+        {
+          "locator": "§4.4 and selected §4.5 objections to Langton",
+          "extracted_text_lines": [
+            2240,
+            2395
+          ],
+          "short_excerpt_actually_inspected": "substances with intrinsic properties",
+          "supports": [
+            "PH-K03: metaphysical dual-aspect reading and textual objections"
+          ],
+          "limits_or_notes": "Langton’s book not directly inspected; do not cite it as read."
+        },
+        {
+          "locator": "§6 introduction and §6.1 Phenomena and noumena",
+          "extracted_text_lines": [
+            2930,
+            3110
+          ],
+          "short_excerpt_actually_inspected": "the noumenon in a positive sense",
+          "supports": [
+            "PH-K03: conceptual distinction and B307 quoted definition"
+          ],
+          "limits_or_notes": "Verified secondary A/B locators from quotations: A20/B34, A249, A251–252, B307. These are not independently collated to paginated German."
+        }
+      ],
+      "verification_limits": [
+        "SEP exposition is scholarship, not a substitute for direct reading of Allison, Langton, Strawson or other cited authors.",
+        "Only selected portions inspected.",
+        "The entry itself advances interpretive judgments; its exposition must not be presented as universal scholarly agreement."
+      ],
+      "final_url": "https://plato.stanford.edu/entries/kant-transcendental-idealism/",
+      "raw_snapshot": "research/philosophy/sources/kant-sep-transcendental-idealism.html",
+      "extracted_text": "research/philosophy/sources/kant-sep-transcendental-idealism.txt",
+      "sha256_html": "9611fcb7fc36ef9481d7db626555df00578fc05fa842dea26395d30e48cd4fc5",
+      "bytes_html": 177982
+    }
+  ],
+  "spinoza": {
+    "schemaVersion": 1,
+    "status": "provisional-research",
+    "sourceRevision": "2026-10-03 intake; OWNER-KICKOFF-v4; revision-3 unavailable",
+    "worker": "spinoza_researcher",
+    "scope": "Research only; no canonical narrative edits.",
+    "retrievalMethod": "Python urllib using inherited network environment, no credentials or proxy modifications.",
+    "sources": [
+      {
+        "id": "SP-E",
+        "kind": "primary",
+        "author": "Benedict de Spinoza",
+        "title": "The Ethics (Ethica Ordine Geometrico Demonstrata)",
+        "translator": "R. H. M. Elwes",
+        "url": "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm",
+        "edition": "Project Gutenberg ebook 3800, supplied HTML, last updated December 11, 2017; underlying print edition and pagination not established",
+        "retrieval": {
+          "retrievedAtUTC": "2026-10-03T20:19:21.031557+00:00",
+          "sha256": "499c6f2a3551537bdcef040125e145dcce234d164269be67192f4497576cb52f",
+          "bytes": 551108
+        },
+        "retrievalDate": "2026-10-03",
+        "localSnapshot": "research/philosophy/sources/spinoza-ethics-raw.html",
+        "localSearchText": "research/philosophy/sources/spinoza-ethics-inspection.txt",
+        "encoding": "ISO-8859-1 source decoded to UTF-8 search text",
+        "translatorVerification": "Electronic title matter explicitly says Translated from the Latin by R. H. M. Elwes.",
+        "locatorConvention": "Roman part and proposition numbers in source; source Note means scholium. No page numbers asserted.",
+        "readScope": "Selected primary passages were actually displayed and inspected with their proofs, neighboring claims and scholia as itemized below. The whole work was downloaded, not read continuously.",
+        "inspectedBlocks": [
+          "Part I Definitions 1–8 and Axioms 1–7; Propositions 1–7; Proposition 11 including alternative proofs and scholium; Propositions 12–18 including corollaries and scholia; Propositions 24–33 (P33 first proof); Propositions 34–36; Appendix.",
+          "Part II Preface, Definitions 1–7 and Axioms; Propositions 1–7 and scholia; Proposition 8 through corollary (scholium only partially inspected); Propositions 11–13 and physical interlude through Lemmas 1–7 (Lemma 7 scholium partially inspected); Propositions 16–18 including scholia; Propositions 35–42 including P40 scholia; P43 proposition and opening proof only; Propositions 44–46; P47 proof and opening scholium.",
+          "Part III Preface, Definitions 1–3, Postulates; Propositions 1–3 (P2 scholium not fully inspected); Propositions 4–11 including scholia; Propositions 58–59 including scholium; Definitions of the Emotions 1–3 and beginning explanation.",
+          "Part IV Preface and Definitions 1–8, Axiom; Propositions 2–7; Propositions 14–15; Proposition 18 and scholium; Propositions 23–28; Propositions 35–38 and scholia; Propositions 45–46 and scholia.",
+          "Part V Preface, Axioms and Propositions 1–6 with scholia; Proposition 10 and selected scholium paragraphs on preparation, hatred, fear and ambition; Propositions 14–42 with their proofs, scholia and corollaries. P7 and P13 were also partly or incidentally displayed but not relied upon as separately completed readings."
+        ],
+        "passages": [
+          {
+            "locator": "I.D3",
+            "boundedExcerptInspected": "that which is in itself, and is conceived through itself",
+            "contextAndUse": "Substance definition; distinguish conceptual and ontological dependence."
+          },
+          {
+            "locator": "I.D4",
+            "boundedExcerptInspected": "that which the intellect perceives as constituting the essence of substance",
+            "contextAndUse": "Attribute definition; not a collection of sensory traits."
+          },
+          {
+            "locator": "I.D5",
+            "boundedExcerptInspected": "that which exists in, and is conceived through, something other than itself",
+            "contextAndUse": "Modes depend on substance; finite difference remains."
+          },
+          {
+            "locator": "I.D7",
+            "boundedExcerptInspected": "exists solely by the necessity of its own nature",
+            "contextAndUse": "Freedom differs from indeterminate choice."
+          },
+          {
+            "locator": "I.D8 explanation",
+            "boundedExcerptInspected": "cannot be explained by means of continuance or time",
+            "contextAndUse": "Eternity differs even from beginningless/endless duration."
+          },
+          {
+            "locator": "I.P5",
+            "boundedExcerptInspected": "There cannot exist in the universe two or more substances having the same nature or attribute.",
+            "contextAndUse": "Proof distinguishes attributes from modifications."
+          },
+          {
+            "locator": "I.P14",
+            "boundedExcerptInspected": "Besides God no substance can be granted or conceived.",
+            "contextAndUse": "Depends on divine infinity, existence and the prohibition on shared attributes."
+          },
+          {
+            "locator": "I.P18",
+            "boundedExcerptInspected": "God is the indwelling and not the transient cause of all things.",
+            "contextAndUse": "Elwes indwelling means immanent; proof invokes I.P15 and I.P14."
+          },
+          {
+            "locator": "I.P25c",
+            "boundedExcerptInspected": "modes by which the attributes of God are expressed in a fixed and definite manner",
+            "contextAndUse": "Dependence of particular things later grounds V.P24."
+          },
+          {
+            "locator": "I.P29s",
+            "boundedExcerptInspected": "God, in so far as he is considered as a free cause",
+            "contextAndUse": "Natura naturans distinguished from all modes following from divine nature, natura naturata."
+          },
+          {
+            "locator": "I Appendix",
+            "boundedExcerptInspected": "nature has no particular goal in view",
+            "contextAndUse": "Read falling-stone example and critique of final causes in context."
+          },
+          {
+            "locator": "II.P7s",
+            "boundedExcerptInspected": "one and the same thing, though expressed in two ways",
+            "contextAndUse": "Mode of extension and its idea; no telepathic channel follows."
+          },
+          {
+            "locator": "II.P13",
+            "boundedExcerptInspected": "The object of the idea constituting the human mind is the body",
+            "contextAndUse": "Finite mind/body relation and ensuing physical account of individuality."
+          },
+          {
+            "locator": "II physical interlude after P13, Lemma IV",
+            "boundedExcerptInspected": "the individual will preserve its nature as before",
+            "contextAndUse": "Replacement of component bodies can preserve organized individuality under stated conditions."
+          },
+          {
+            "locator": "II.P17s",
+            "boundedExcerptInspected": "the imaginations of the mind, looked at in themselves, do not contain error",
+            "contextAndUse": "Correction adds an excluding idea; do not silently rewrite prior appearance."
+          },
+          {
+            "locator": "II.P37",
+            "boundedExcerptInspected": "does not constitute the essence of any particular thing",
+            "contextAndUse": "Common notions should not be equated with singular essences."
+          },
+          {
+            "locator": "II.P40s2",
+            "boundedExcerptInspected": "from an adequate idea of the absolute essence of certain attributes of God",
+            "contextAndUse": "Opening of definition of intuition, completed by adequate knowledge of essences; arithmetic example inspected."
+          },
+          {
+            "locator": "II.P47",
+            "boundedExcerptInspected": "The human mind has an adequate knowledge of the eternal and infinite essence of God.",
+            "contextAndUse": "Strong cognitive claim, not universal metaphysical unknowability."
+          },
+          {
+            "locator": "III.D2",
+            "boundedExcerptInspected": "we being only the partial cause",
+            "contextAndUse": "Passivity defined causally; energetic behavior may still be passive."
+          },
+          {
+            "locator": "III.P6",
+            "boundedExcerptInspected": "Everything, in so far as it is in itself, endeavours to persist in its own being.",
+            "contextAndUse": "Proof relies on finite expressions of divine power and III.P4–5."
+          },
+          {
+            "locator": "III.P7",
+            "boundedExcerptInspected": "nothing else but the actual essence of the thing in question",
+            "contextAndUse": "Conatus is not a supplementary supernatural drive."
+          },
+          {
+            "locator": "III.P11s",
+            "boundedExcerptInspected": "the mind passes to a greater perfection",
+            "contextAndUse": "Joy/pleasure as transition, paired with sadness/pain; not moral deservingness."
+          },
+          {
+            "locator": "III.P58",
+            "boundedExcerptInspected": "there are other emotions derived from pleasure and desire",
+            "contextAndUse": "Active affects prevent a reason-versus-all-emotion simplification."
+          },
+          {
+            "locator": "IV Preface",
+            "boundedExcerptInspected": "the eternal and infinite Being, which we call God or Nature",
+            "contextAndUse": "Verified occurrence of God or Nature in supplied translation."
+          },
+          {
+            "locator": "IV.D8",
+            "boundedExcerptInspected": "By virtue (virtus) and power I mean the same thing",
+            "contextAndUse": "Ethics depends on causal power and understanding."
+          },
+          {
+            "locator": "IV.P14",
+            "boundedExcerptInspected": "not check any emotion by virtue of being true",
+            "contextAndUse": "Truth alone does not guarantee psychological efficacy."
+          },
+          {
+            "locator": "IV.P36",
+            "boundedExcerptInspected": "The highest good of those who follow virtue is common to all",
+            "contextAndUse": "Shared understanding is not a scarce competitive prize."
+          },
+          {
+            "locator": "IV.P37s1",
+            "boundedExcerptInspected": "does not act by impulse but courteously and kindly",
+            "contextAndUse": "Rational assistance contrasted with imposing personal fancy; later animal-use passage also inspected and flagged."
+          },
+          {
+            "locator": "IV.P45s",
+            "boundedExcerptInspected": "refresh and recreate himself with moderate and pleasant food and drink",
+            "contextAndUse": "Context includes plants, music, sport, theatre and bodily diversity."
+          },
+          {
+            "locator": "V.P3",
+            "boundedExcerptInspected": "ceases to be a passion, as soon as we form a clear and distinct idea thereof",
+            "contextAndUse": "Read against IV.P14–15 and V Preface; no instant cure mechanic."
+          },
+          {
+            "locator": "V.P17c",
+            "boundedExcerptInspected": "Strictly speaking, God does not love or hate anyone.",
+            "contextAndUse": "Ordinary passionate love differs from intellectual love later in V."
+          },
+          {
+            "locator": "V.P19",
+            "boundedExcerptInspected": "cannot endeavour that God should love him in return",
+            "contextAndUse": "Excludes reciprocal divine favoritism."
+          },
+          {
+            "locator": "V.P21",
+            "boundedExcerptInspected": "The mind can only imagine anything, or remember what is past, while the body endures.",
+            "contextAndUse": "Boundary for personal-survival fictional applications."
+          },
+          {
+            "locator": "V.P23",
+            "boundedExcerptInspected": "there remains of it something which is eternal",
+            "contextAndUse": "Strong claim retained, with proof and scholium denying temporal memory read in context."
+          },
+          {
+            "locator": "V.P24",
+            "boundedExcerptInspected": "The more we understand particular things, the more do we understand God.",
+            "contextAndUse": "Depends on I.P25c, not abandoning particular lives for a slogan."
+          },
+          {
+            "locator": "V.P28",
+            "boundedExcerptInspected": "cannot arise from the first, but from the second kind of knowledge",
+            "contextAndUse": "Reason is route toward desire for intuitive knowledge; vivid feeling does not certify it."
+          },
+          {
+            "locator": "V.P29s",
+            "boundedExcerptInspected": "as contained in God and following from the necessity of the divine nature",
+            "contextAndUse": "Contrasted with things in a given time and place."
+          },
+          {
+            "locator": "V.P32c",
+            "boundedExcerptInspected": "From the third kind of knowledge necessarily arises the intellectual love of God.",
+            "contextAndUse": "Proof joins knowledge, joy, and God understood as cause."
+          },
+          {
+            "locator": "V.P33s",
+            "boundedExcerptInspected": "blessedness must consist in the mind being endowed with perfection itself",
+            "contextAndUse": "Acknowledges tension between eternal perfection and joy as transition."
+          },
+          {
+            "locator": "V.P34s",
+            "boundedExcerptInspected": "they confuse eternity with duration",
+            "contextAndUse": "Context explicitly mentions wrongly assigning survival to imagination or memory."
+          },
+          {
+            "locator": "V.P36",
+            "boundedExcerptInspected": "part of the infinite love wherewith God loves himself",
+            "contextAndUse": "Read with V.P17–19; no cosmic interpersonal romance."
+          },
+          {
+            "locator": "V.P36s",
+            "boundedExcerptInspected": "the actual essence of some particular thing, which we say depends on God",
+            "contextAndUse": "General demonstration contrasted with more affectively powerful particular understanding."
+          },
+          {
+            "locator": "V.P39",
+            "boundedExcerptInspected": "a body capable of the greatest number of activities",
+            "contextAndUse": "Bodily capacities remain relevant to culmination; avoid disembodied sage."
+          },
+          {
+            "locator": "V.P41",
+            "boundedExcerptInspected": "Even if we did not know that our mind is eternal",
+            "contextAndUse": "Ethical life does not depend on an afterlife incentive."
+          },
+          {
+            "locator": "V.P42",
+            "boundedExcerptInspected": "Blessedness is not the reward of virtue, but virtue itself",
+            "contextAndUse": "Proof and concluding scholium inspected; reverses reward structure."
+          }
+        ],
+        "limits": [
+          "No Latin collation or second English translation performed.",
+          "Elwes vocabulary and dated language can mislead; research modernizes labels but does not quote modernized text as source.",
+          "Not every intermediate proof in Ethics was read.",
+          "No claim that source doctrine is true, complete, or author-approved fictional cosmology."
+        ],
+        "dossiers": [
+          "PH-S01",
+          "PH-S02",
+          "PH-S03",
+          "PH-S04"
+        ]
+      },
+      {
+        "id": "SP-N",
+        "kind": "scholarship",
+        "author": "Steven Nadler",
+        "title": "Baruch Spinoza",
+        "publication": "Stanford Encyclopedia of Philosophy",
+        "firstPublished": "2001-06-29",
+        "substantiveRevision": "2023-11-08",
+        "url": "https://plato.stanford.edu/entries/spinoza/",
+        "retrieval": {
+          "retrievedAtUTC": "2026-10-03T20:19:21.122625+00:00",
+          "sha256": "bede8d577ffaf69ce394d3746a5c01224d2a5d585ea909a7dee907afab2f5bb4",
+          "bytes": 112794
+        },
+        "retrievalDate": "2026-10-03",
+        "inspectedSections": [
+          "2.1 God or Nature",
+          "2.2 The Human Being",
+          "2.3 Knowledge",
+          "2.4 Passion and Action",
+          "2.5 Virtue and Happiness"
+        ],
+        "boundedExcerptsInspected": [
+          {
+            "locator": "2.1, discussion of natura naturata",
+            "quote": "There is some debate in the literature as to whether God is also to be identified with Natura naturata."
+          },
+          {
+            "locator": "2.5, discussion of eternity",
+            "quote": "He knows that the soul is not immortal in any personal sense, but is endowed only with a certain kind of eternity."
+          }
+        ],
+        "contextNotes": [
+          "Section 2.1 reconstructs I.P5/I.P11/I.P14, discusses inherence versus causality and identifies rival uses of pantheism. Nadler favors identifying God with both productive and produced Nature and argues against worshipful interpretation. This is attributed interpretation, not consensus.",
+          "Sections 2.2–2.3 discuss causal closure of attributes, identity of body and idea and adequacy; II.P37 gives a caution against collapsing common properties into singular essence.",
+          "Sections 2.4–2.5 connect naturalism to conatus, adequate causation, active affect and social benefit, and interpret intellectual love and eternity nonpersonally. The article does not settle the specialist eternity disputes raised in PH-S04."
+        ],
+        "limits": [
+          "Only the listed philosophical sections and source metadata were inspected; biography, TTP discussions and bibliography are not claimed as completed reading.",
+          "No sources merely listed in the SEP bibliography are claimed as read.",
+          "The full copyrighted page was a temporary retrieval for inspection and is not distributed in this source packet; hash identifies the retrieved version."
+        ],
+        "dossiers": [
+          "PH-S01",
+          "PH-S02",
+          "PH-S03",
+          "PH-S04"
+        ]
+      },
+      {
+        "id": "SP-L",
+        "kind": "scholarship",
+        "author": "Michael LeBuffe",
+        "title": "Spinoza’s Psychological Theory",
+        "publication": "Stanford Encyclopedia of Philosophy",
+        "firstPublished": "2001-10-23",
+        "substantiveRevision": "2024-11-21",
+        "url": "https://plato.stanford.edu/entries/spinoza-psychological/",
+        "retrieval": {
+          "retrievedAtUTC": "2026-10-03T20:22:04.640526+00:00",
+          "sha256": "d5cd5ec410adbe7a9b6284df68ef3784e6af676ded53a3d7fab73483358ad4f8",
+          "bytes": 86758
+        },
+        "retrievalDate": "2026-10-03",
+        "inspectedSections": [
+          "1.1 The Argument to the Striving Doctrine",
+          "1.2 The Striving Doctrine as an Account of the Natures of Particular Objects",
+          "1.3 The Striving Doctrine as an Account of Human Nature",
+          "3.1 Good and Evil as Modes of Thinking",
+          "3.2 The Psychological Basis for Perfectionism"
+        ],
+        "boundedExcerptsInspected": [
+          {
+            "locator": "1.1, objection to III.P4–6",
+            "quote": "Why is it that, just because a thing does not strive to destroy itself, that thing must therefore strive to persevere in being?"
+          },
+          {
+            "locator": "1.3, conclusion concerning egoism",
+            "quote": "Spinoza is a predominant, not an orthodox, egoist."
+          }
+        ],
+        "contextNotes": [
+          "Section 1.1 distinguishes not striving to persevere from striving not to persevere and examines how I.P25c/I.P34 address the possibility of inactive things. It leaves a pressure between inertia and motivational conatus.",
+          "Section 1.2 examines individuation, destruction and examples of apparently self-destructive composites.",
+          "Section 1.3 distinguishes always consciously selfish agents from predominantly self-preserving agents, and weighs III.P9 against IV.P20 and IV.P44s. This complicates Nadler’s general egoism label.",
+          "Sections 3.1–3.2 distinguish describing evaluations from the normative account of good and perfection; reconciling model-based perfection and reality-based perfection remains difficult."
+        ],
+        "limits": [
+          "Section 2 on affects and the cited secondary books/articles were not independently read.",
+          "A secondary locator in the article appears as IVp36s2; it was not adopted. Primary social-state discussion is verified at IV.P37s2 in Elwes.",
+          "Full copyrighted retrieval is not distributed; bounded quotes and paraphrases retain inspected evidence."
+        ],
+        "dossiers": [
+          "PH-S03"
+        ]
+      }
+    ],
+    "runtimeMetadata": {
+      "requestedRoleAllocation": "Astra Extra High per kickoff",
+      "verifiedModelId": null,
+      "verifiedReasoningEffort": null,
+      "note": "No verifiable runtime model/effort metadata endpoint was exposed to this worker; no requested setting is represented as observed execution."
+    }
+  },
+  "comparisonAdditionalInspection": "research/philosophy/COMPARISON.md locators",
+  "limits": [
+    "No German or Latin collation",
+    "No whole-work reading asserted",
+    "Underlying print impressions of Gutenberg texts unverified",
+    "Scholarship chiefly SEP, not direct reading of every cited monograph"
+  ],
+  "secondaryInferenceMethod": [
+    {
+      "id": "method-abduction",
+      "url": "https://plato.stanford.edu/entries/abduction/",
+      "retrieved": "2026-10-03",
+      "sha256": "f15cabf1118658053a76f5b7813f0638e8acb88c370a1150b3c13283786ff8e6",
+      "scope": "SEP scholarly summary only: introduction and §3.1 bad-lot objection, extracted lines 26–95 and 522–575",
+      "author": "Igor Douven",
+      "limitations": "No directly inspected Peirce/Frankfurt/van Fraassen primary texts; no whole-entry claim."
+    },
+    {
+      "id": "method-peirce",
+      "url": "https://plato.stanford.edu/entries/abduction/peirce.html",
+      "retrieved": "2026-10-03",
+      "sha256": "2c45b8bf8c0609498f1c8467e31931d92fad703616ab78fbe64e75e46970e070",
+      "scope": "SEP scholarly summary only: opening through Frankfurt discovery/adoption objection, extracted lines24–115",
+      "author": "Igor Douven",
+      "limitations": "No directly inspected Peirce/Frankfurt/van Fraassen primary texts; no whole-entry claim."
+    }
+  ]
+}

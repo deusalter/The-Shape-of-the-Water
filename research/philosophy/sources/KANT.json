@@ -1,0 +1,387 @@
+{
+  "records": [
+    {
+      "schema_version": 1,
+      "retrieved_on": "2026-10-03",
+      "retrieval_method": "Python urllib.request.urlopen through inherited proxy environment; public HTTPS URL; no bypass or credentials used",
+      "http_status": 200,
+      "source_revision": "provisional intake 2026-10-03; owner kickoff v4; revision-3 unavailable",
+      "local_locator_method": "Line numbers refer to preserved mechanically extracted UTF-8 text. HTML data nodes were stripped of surrounding whitespace and joined with newlines; they are not printed-page numbers.",
+      "source_id": "K-PRIMARY",
+      "kind": "primary",
+      "title": "The Critique of Pure Reason",
+      "author": "Immanuel Kant",
+      "translator": "J. M. D. Meiklejohn",
+      "url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+      "edition_verification": "Title and translator inspected on fetched title page. Page includes prefaces headed 1781 and 1787 and the B-style Deduction. Underlying print impression/date not established from this page; no German collation. Do not substitute this translation’s section numbers for conventional B-Deduction numbering.",
+      "reading_scope": "Selected passages only; not the complete work.",
+      "inspected_passages": [
+        {
+          "locator": "First Part, Transcendental Æsthetic, §§1–7",
+          "extracted_text_lines": [
+            2065,
+            2431
+          ],
+          "short_excerpt_actually_inspected": "We maintain, therefore, the empirical reality of space",
+          "supports": [
+            "PH-K01: space and time as forms of sensibility; empirical reality and transcendental ideality"
+          ],
+          "limits_or_notes": "Quotation is a fragment of §4, followed in source by qualification to possible external experience."
+        },
+        {
+          "locator": "Transcendental Æsthetic, §9, opening and rainbow discussion",
+          "extracted_text_lines": [
+            2539,
+            2627
+          ],
+          "short_excerpt_actually_inspected": "we should not thereby advance one step nearer",
+          "supports": [
+            "PH-K01/03: increased empirical clarity does not reach things in themselves; empirical appearance/reality distinction differs from transcendental distinction"
+          ],
+          "limits_or_notes": "Selected opening only, not entire section. The fragment concerns higher clarity of empirical intuition."
+        },
+        {
+          "locator": "Analytic of Conceptions, Chapter I, Section III, Table of the Categories",
+          "extracted_text_lines": [
+            3420,
+            3455
+          ],
+          "short_excerpt_actually_inspected": "Of Causality and Dependence (cause and effect)",
+          "supports": [
+            "PH-K02: four headings of categories and category of causality"
+          ]
+        },
+        {
+          "locator": "Chapter II, Section I, Of the Principles of a Transcendental Deduction in general, §9",
+          "extracted_text_lines": [
+            3635,
+            3698
+          ],
+          "short_excerpt_actually_inspected": "does not concern itself with the right, but only with the fact",
+          "supports": [
+            "PH-K02: transcendental justification differs from empirical origin"
+          ],
+          "limits_or_notes": "Selected paragraph span."
+        },
+        {
+          "locator": "Chapter II, Section II, §§11–18, conjunction through legitimate cognitive use",
+          "extracted_text_lines": [
+            3877,
+            4245
+          ],
+          "short_excerpt_actually_inspected": "To think an object and to cognize an object are by no means the same thing.",
+          "supports": [
+            "PH-K02: synthesis, apperception, judgment, objective unity, category use"
+          ],
+          "limits_or_notes": "The §12 wording “must accompany” is compared with Rohlf’s quoted “must be able to accompany”; no German wording verified."
+        },
+        {
+          "locator": "Transcendental Deduction, §22 and Result §23, selected passages",
+          "extracted_text_lines": [
+            4474,
+            4659
+          ],
+          "short_excerpt_actually_inspected": "Particular laws, inasmuch as they concern empirically determined phenomena, cannot be entirely deduced from pure laws",
+          "supports": [
+            "PH-K02: categories condition possible experience without supplying particular empirical laws"
+          ],
+          "limits_or_notes": "Selected passages, not claimed complete reading of all intervening text or full Deduction."
+        },
+        {
+          "locator": "Analytic of Principles, Analogies of Experience, B. SECOND ANALOGY; house and ship examples",
+          "extracted_text_lines": [
+            5897,
+            6075
+          ],
+          "short_excerpt_actually_inspected": "Principle of the Succession of Time According to the Law of Causality.",
+          "supports": [
+            "PH-K02: apprehension order versus objective event order; causal rule"
+          ],
+          "limits_or_notes": "Beginning and selected proof paragraphs, not entire Second Analogy."
+        },
+        {
+          "locator": "Chapter III, Of the Ground of the Division of all Objects into Phenomena and Noumena",
+          "extracted_text_lines": [
+            7099,
+            7450
+          ],
+          "short_excerpt_actually_inspected": "this is a noumenon in the negative sense of the word.",
+          "supports": [
+            "PH-K03: negative and positive noumenon; logical consistency versus real possibility; boundary concept"
+          ],
+          "limits_or_notes": "Substantial chapter opening through negative/positive distinction and limitation, not all subsequent material."
+        },
+        {
+          "locator": "Transcendental Dialectic, Introduction I and II A–C, selected passages",
+          "extracted_text_lines": [
+            8113,
+            8428
+          ],
+          "short_excerpt_actually_inspected": "Transcendental illusion, on the contrary, does not cease to exist",
+          "supports": [
+            "PH-K04: persistence of transcendental illusion; reason’s demand for unconditioned"
+          ],
+          "limits_or_notes": "Excerpt distinguishes illusion from an ordinary removable logical mistake."
+        },
+        {
+          "locator": "Antithetic of Pure Reason, FIRST CONFLICT and SECOND CONFLICT, proofs and initial observations",
+          "extracted_text_lines": [
+            10050,
+            10335
+          ],
+          "short_excerpt_actually_inspected": "The world has a beginning in time, and is also limited in regard to space.",
+          "supports": [
+            "PH-K04: first two antinomies and their arguments"
+          ],
+          "limits_or_notes": "This is thesis asserted within an antinomy, not a doctrine to attribute without its antithesis and resolution."
+        },
+        {
+          "locator": "Antinomy, Section VII Critical Solution; Section VIII Regulative Principle",
+          "extracted_text_lines": [
+            11393,
+            11684
+          ],
+          "short_excerpt_actually_inspected": "If that which is conditioned is given, the whole series of its conditions is also given",
+          "supports": [
+            "PH-K04: criticized cosmological inference; condition as task rather than completed totality"
+          ],
+          "limits_or_notes": "Quoted proposition is the dialectical inference Kant criticizes, not an endorsed inference."
+        },
+        {
+          "locator": "Appendix, Of the Regulative Employment of the Ideas of Pure Reason, opening",
+          "extracted_text_lines": [
+            14110,
+            14236
+          ],
+          "short_excerpt_actually_inspected": "regulative ideas, directing the understanding to a certain aim",
+          "supports": [
+            "PH-K04: constructive role for inquiry and unity"
+          ],
+          "limits_or_notes": "Selected opening, not the full Appendix."
+        }
+      ],
+      "verification_limits": [
+        "No full A/B pagination in Gutenberg source used as authority.",
+        "No direct inspection of German.",
+        "No direct primary reading of all third/fourth antinomy arguments; contrast relies on K-SEP-META.",
+        "Public-domain English translation may obscure distinctions; contemporary dialogue must not inherit its register."
+      ],
+      "final_url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+      "raw_snapshot": "research/philosophy/sources/kant-critique-gutenberg.html",
+      "extracted_text": "research/philosophy/sources/kant-critique-gutenberg.txt",
+      "sha256_html": "9f347fcc234c6e4ebff9c261bc30fa562ae81a1a0bcd07b684bad8bc39b4aa55",
+      "bytes_html": 1335375
+    },
+    {
+      "schema_version": 1,
+      "retrieved_on": "2026-10-03",
+      "retrieval_method": "Python urllib.request.urlopen through inherited proxy environment; public HTTPS URL; no bypass or credentials used",
+      "http_status": 200,
+      "source_revision": "provisional intake 2026-10-03; owner kickoff v4; revision-3 unavailable",
+      "local_locator_method": "Line numbers refer to preserved mechanically extracted UTF-8 text. HTML data nodes were stripped of surrounding whitespace and joined with newlines; they are not printed-page numbers.",
+      "source_id": "K-SEP-KANT",
+      "kind": "scholarship",
+      "title": "Immanuel Kant",
+      "author": "Michael Rohlf",
+      "url": "https://plato.stanford.edu/entries/kant/",
+      "edition_verification": "Fetched live SEP entry says first published May 20, 2010; substantive revision July 31, 2024; copyright 2024; author Michael Rohlf.",
+      "reading_scope": "§4 and subsections 4.1–4.3 on transcendental deduction, plus title/revision/author metadata only.",
+      "inspected_passages": [
+        {
+          "locator": "§4 The transcendental deduction, §§4.1–4.3",
+          "extracted_text_lines": [
+            1099,
+            1470
+          ],
+          "short_excerpt_actually_inspected": "one perspective on some of its main ideas",
+          "supports": [
+            "PH-K02: contested deduction; synthesis, self-consciousness, judgment and lawfulness"
+          ]
+        },
+        {
+          "locator": "§4.1 quoted principle of apperception",
+          "extracted_text_lines": [
+            1225,
+            1259
+          ],
+          "short_excerpt_actually_inspected": "must be able",
+          "supports": [
+            "PH-K02: possible accompaniment by I think, not ceaseless explicit self-consciousness"
+          ],
+          "limits_or_notes": "Secondary quoted locator B131–132 observed. Used to identify a material wording difference from Meiklejohn §12; German not inspected."
+        }
+      ],
+      "verification_limits": [
+        "One SEP reconstruction of a contested argument.",
+        "No claim to have inspected its morality/freedom sections.",
+        "Secondary A/B locator only."
+      ],
+      "final_url": "https://plato.stanford.edu/entries/kant/",
+      "raw_snapshot": "research/philosophy/sources/kant-sep-immanuel-kant.html",
+      "extracted_text": "research/philosophy/sources/kant-sep-immanuel-kant.txt",
+      "sha256_html": "ea0e46f8a27c83fc68647c77f9e6cedd8df7b887693c1597c6c1a4b2510a7d96",
+      "bytes_html": 176103
+    },
+    {
+      "schema_version": 1,
+      "retrieved_on": "2026-10-03",
+      "retrieval_method": "Python urllib.request.urlopen through inherited proxy environment; public HTTPS URL; no bypass or credentials used",
+      "http_status": 200,
+      "source_revision": "provisional intake 2026-10-03; owner kickoff v4; revision-3 unavailable",
+      "local_locator_method": "Line numbers refer to preserved mechanically extracted UTF-8 text. HTML data nodes were stripped of surrounding whitespace and joined with newlines; they are not printed-page numbers.",
+      "source_id": "K-SEP-META",
+      "kind": "scholarship",
+      "title": "Kant’s Critique of Metaphysics",
+      "author": "Michelle Grier",
+      "url": "https://plato.stanford.edu/entries/kant-metaphysics/",
+      "edition_verification": "Fetched live SEP entry says first published February 29, 2004; substantive revision September 14, 2022; copyright 2022; author Michelle Grier.",
+      "reading_scope": "Selected §2 material, §§4–4.2 and §6, plus title/revision/author metadata only.",
+      "inspected_passages": [
+        {
+          "locator": "Selected §2 theory of illusion discussion",
+          "extracted_text_lines": [
+            283,
+            359
+          ],
+          "short_excerpt_actually_inspected": "the unconditioned is already given",
+          "supports": [
+            "PH-K04: diagnosis of illusion and positive role of reason"
+          ],
+          "limits_or_notes": "Quoted clause describes the criticized illusion."
+        },
+        {
+          "locator": "§4 The World and Rational Cosmology; §§4.1–4.2",
+          "extracted_text_lines": [
+            611,
+            858
+          ],
+          "short_excerpt_actually_inspected": "the unconditioned is set as a task",
+          "supports": [
+            "PH-K04: mathematical/dynamical contrast; conditions of antinomy resolution"
+          ],
+          "limits_or_notes": "Short excerpt is normalized across HTML-emphasis whitespace. Primary third/fourth antinomy arguments not directly inspected."
+        },
+        {
+          "locator": "§6 Reason and the Appendix to the Transcendental Dialectic",
+          "extracted_text_lines": [
+            1224,
+            1364
+          ],
+          "short_excerpt_actually_inspected": "The precise status of the demand for systematicity is therefore somewhat controversial.",
+          "supports": [
+            "PH-K04: interpretive difficulty of systematicity and regulative inquiry"
+          ]
+        }
+      ],
+      "verification_limits": [
+        "Direct reading limited to selected entry sections.",
+        "Cited monographs and specialist articles not inspected.",
+        "No conclusion about modern cosmology follows from this reading."
+      ],
+      "final_url": "https://plato.stanford.edu/entries/kant-metaphysics/",
+      "raw_snapshot": "research/philosophy/sources/kant-sep-metaphysics.html",
+      "extracted_text": "research/philosophy/sources/kant-sep-metaphysics.txt",
+      "sha256_html": "ec335f6b7cd18b5831b378cfff0e7e365bb2beab1825b09b584dae441e82b189",
+      "bytes_html": 103939
+    },
+    {
+      "schema_version": 1,
+      "retrieved_on": "2026-10-03",
+      "retrieval_method": "Python urllib.request.urlopen through inherited proxy environment; public HTTPS URL; no bypass or credentials used",
+      "http_status": 200,
+      "source_revision": "provisional intake 2026-10-03; owner kickoff v4; revision-3 unavailable",
+      "local_locator_method": "Line numbers refer to preserved mechanically extracted UTF-8 text. HTML data nodes were stripped of surrounding whitespace and joined with newlines; they are not printed-page numbers.",
+      "source_id": "K-SEP-TI",
+      "kind": "scholarship",
+      "title": "Kant’s Transcendental Idealism",
+      "author": "Nicholas F. Stang",
+      "url": "https://plato.stanford.edu/entries/kant-transcendental-idealism/",
+      "edition_verification": "Fetched live SEP entry says first published March 4, 2016; copyright 2016, author Nicholas F. Stang. No later substantive-revision label observed. Entry explicitly identifies quoted Critique translation as Guyer & Wood (1998).",
+      "reading_scope": "Opening and specified selected sections; not entire entry or cited monographs.",
+      "inspected_passages": [
+        {
+          "locator": "Opening and §1.1 Transcendental Realism and Empirical Idealism",
+          "extracted_text_lines": [
+            30,
+            155
+          ],
+          "short_excerpt_actually_inspected": "there is so little consensus",
+          "supports": [
+            "PH-K01/03: contested interpretation"
+          ],
+          "limits_or_notes": "Also inspected §1.1 discussion at extracted lines 230–337; quotation fragment belongs to introductory discussion of disagreement."
+        },
+        {
+          "locator": "§1.1 Transcendental Realism and Empirical Idealism",
+          "extracted_text_lines": [
+            230,
+            337
+          ],
+          "short_excerpt_actually_inspected": "Transcendental idealism is a form of empirical realism",
+          "supports": [
+            "PH-K01: distinction from empirical idealism"
+          ]
+        },
+        {
+          "locator": "Selected §3.4.3 affection discussion through §4.1",
+          "extracted_text_lines": [
+            1582,
+            1830
+          ],
+          "short_excerpt_actually_inspected": "two different perspectives or stances",
+          "supports": [
+            "PH-K03: affection problem and dual-aspect alternative"
+          ],
+          "limits_or_notes": "This is Stang’s account of a family of interpretations, not a settled equation of Kant’s doctrine with it."
+        },
+        {
+          "locator": "Selected §4.3 objections, especially §4.3.3 Abstraction",
+          "extracted_text_lines": [
+            1966,
+            2155
+          ],
+          "short_excerpt_actually_inspected": "merely refrain from representing them",
+          "supports": [
+            "PH-K01/03: abstracting a predicate differs from asserting its negation"
+          ],
+          "limits_or_notes": "Selected spans read at 1966–2020 and 2082–2155; intervening text not claimed inspected."
+        },
+        {
+          "locator": "§4.4 and selected §4.5 objections to Langton",
+          "extracted_text_lines": [
+            2240,
+            2395
+          ],
+          "short_excerpt_actually_inspected": "substances with intrinsic properties",
+          "supports": [
+            "PH-K03: metaphysical dual-aspect reading and textual objections"
+          ],
+          "limits_or_notes": "Langton’s book not directly inspected; do not cite it as read."
+        },
+        {
+          "locator": "§6 introduction and §6.1 Phenomena and noumena",
+          "extracted_text_lines": [
+            2930,
+            3110
+          ],
+          "short_excerpt_actually_inspected": "the noumenon in a positive sense",
+          "supports": [
+            "PH-K03: conceptual distinction and B307 quoted definition"
+          ],
+          "limits_or_notes": "Verified secondary A/B locators from quotations: A20/B34, A249, A251–252, B307. These are not independently collated to paginated German."
+        }
+      ],
+      "verification_limits": [
+        "SEP exposition is scholarship, not a substitute for direct reading of Allison, Langton, Strawson or other cited authors.",
+        "Only selected portions inspected.",
+        "The entry itself advances interpretive judgments; its exposition must not be presented as universal scholarly agreement."
+      ],
+      "final_url": "https://plato.stanford.edu/entries/kant-transcendental-idealism/",
+      "raw_snapshot": "research/philosophy/sources/kant-sep-transcendental-idealism.html",
+      "extracted_text": "research/philosophy/sources/kant-sep-transcendental-idealism.txt",
+      "sha256_html": "9611fcb7fc36ef9481d7db626555df00578fc05fa842dea26395d30e48cd4fc5",
+      "bytes_html": 177982
+    }
+  ],
+  "origin": "Coordinator consolidation of preserved kant-* records"
+}

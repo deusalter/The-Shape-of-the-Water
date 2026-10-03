@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "retrieved_on": "2026-10-03",
+  "retrieval_method": "Python urllib.request.urlopen through inherited proxy environment; public HTTPS URL; no bypass or credentials used",
+  "http_status": 200,
+  "source_revision": "provisional intake 2026-10-03; owner kickoff v4; revision-3 unavailable",
+  "local_locator_method": "Line numbers refer to preserved mechanically extracted UTF-8 text. HTML data nodes were stripped of surrounding whitespace and joined with newlines; they are not printed-page numbers.",
+  "source_id": "K-SEP-TI",
+  "kind": "scholarship",
+  "title": "Kant’s Transcendental Idealism",
+  "author": "Nicholas F. Stang",
+  "url": "https://plato.stanford.edu/entries/kant-transcendental-idealism/",
+  "edition_verification": "Fetched live SEP entry says first published March 4, 2016; copyright 2016, author Nicholas F. Stang. No later substantive-revision label observed. Entry explicitly identifies quoted Critique translation as Guyer & Wood (1998).",
+  "reading_scope": "Opening and specified selected sections; not entire entry or cited monographs.",
+  "inspected_passages": [
+    {
+      "locator": "Opening and §1.1 Transcendental Realism and Empirical Idealism",
+      "extracted_text_lines": [
+        30,
+        155
+      ],
+      "short_excerpt_actually_inspected": "there is so little consensus",
+      "supports": [
+        "PH-K01/03: contested interpretation"
+      ],
+      "limits_or_notes": "Also inspected §1.1 discussion at extracted lines 230–337; quotation fragment belongs to introductory discussion of disagreement."
+    },
+    {
+      "locator": "§1.1 Transcendental Realism and Empirical Idealism",
+      "extracted_text_lines": [
+        230,
+        337
+      ],
+      "short_excerpt_actually_inspected": "Transcendental idealism is a form of empirical realism",
+      "supports": [
+        "PH-K01: distinction from empirical idealism"
+      ]
+    },
+    {
+      "locator": "Selected §3.4.3 affection discussion through §4.1",
+      "extracted_text_lines": [
+        1582,
+        1830
+      ],
+      "short_excerpt_actually_inspected": "two different perspectives or stances",
+      "supports": [
+        "PH-K03: affection problem and dual-aspect alternative"
+      ],
+      "limits_or_notes": "This is Stang’s account of a family of interpretations, not a settled equation of Kant’s doctrine with it."
+    },
+    {
+      "locator": "Selected §4.3 objections, especially §4.3.3 Abstraction",
+      "extracted_text_lines": [
+        1966,
+        2155
+      ],
+      "short_excerpt_actually_inspected": "merely refrain from representing them",
+      "supports": [
+        "PH-K01/03: abstracting a predicate differs from asserting its negation"
+      ],
+      "limits_or_notes": "Selected spans read at 1966–2020 and 2082–2155; intervening text not claimed inspected."
+    },
+    {
+      "locator": "§4.4 and selected §4.5 objections to Langton",
+      "extracted_text_lines": [
+        2240,
+        2395
+      ],
+      "short_excerpt_actually_inspected": "substances with intrinsic properties",
+      "supports": [
+        "PH-K03: metaphysical dual-aspect reading and textual objections"
+      ],
+      "limits_or_notes": "Langton’s book not directly inspected; do not cite it as read."
+    },
+    {
+      "locator": "§6 introduction and §6.1 Phenomena and noumena",
+      "extracted_text_lines": [
+        2930,
+        3110
+      ],
+      "short_excerpt_actually_inspected": "the noumenon in a positive sense",
+      "supports": [
+        "PH-K03: conceptual distinction and B307 quoted definition"
+      ],
+      "limits_or_notes": "Verified secondary A/B locators from quotations: A20/B34, A249, A251–252, B307. These are not independently collated to paginated German."
+    }
+  ],
+  "verification_limits": [
+    "SEP exposition is scholarship, not a substitute for direct reading of Allison, Langton, Strawson or other cited authors.",
+    "Only selected portions inspected.",
+    "The entry itself advances interpretive judgments; its exposition must not be presented as universal scholarly agreement."
+  ],
+  "final_url": "https://plato.stanford.edu/entries/kant-transcendental-idealism/",
+  "raw_snapshot": "research/philosophy/sources/kant-sep-transcendental-idealism.html",
+  "extracted_text": "research/philosophy/sources/kant-sep-transcendental-idealism.txt",
+  "sha256_html": "9611fcb7fc36ef9481d7db626555df00578fc05fa842dea26395d30e48cd4fc5",
+  "bytes_html": 177982
+}

@@ -1,0 +1,16 @@
+{
+  "packet_revision": 3,
+  "status": "specification_only",
+  "project_revision": null,
+  "game_content_revision": null,
+  "current_task": "T00",
+  "completed_tasks": [],
+  "active_workers": [],
+  "unknown_external_workers": "not_inspected",
+  "owner_declared_subscription_change_date": "2026-10-04",
+  "verified_cutoff": null,
+  "allowance_remaining": "unknown",
+  "last_game_test": null,
+  "packet_check_report": "reviews/packet-check.json",
+  "next_action": "Audit the selected authorized cloud workspace and available capabilities; preserve existing work."
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "retrieved_on": "2026-10-03",
+  "retrieval_method": "Python urllib.request.urlopen through inherited proxy environment; public HTTPS URL; no bypass or credentials used",
+  "http_status": 200,
+  "source_revision": "provisional intake 2026-10-03; owner kickoff v4; revision-3 unavailable",
+  "local_locator_method": "Line numbers refer to preserved mechanically extracted UTF-8 text. HTML data nodes were stripped of surrounding whitespace and joined with newlines; they are not printed-page numbers.",
+  "source_id": "K-SEP-KANT",
+  "kind": "scholarship",
+  "title": "Immanuel Kant",
+  "author": "Michael Rohlf",
+  "url": "https://plato.stanford.edu/entries/kant/",
+  "edition_verification": "Fetched live SEP entry says first published May 20, 2010; substantive revision July 31, 2024; copyright 2024; author Michael Rohlf.",
+  "reading_scope": "§4 and subsections 4.1–4.3 on transcendental deduction, plus title/revision/author metadata only.",
+  "inspected_passages": [
+    {
+      "locator": "§4 The transcendental deduction, §§4.1–4.3",
+      "extracted_text_lines": [
+        1099,
+        1470
+      ],
+      "short_excerpt_actually_inspected": "one perspective on some of its main ideas",
+      "supports": [
+        "PH-K02: contested deduction; synthesis, self-consciousness, judgment and lawfulness"
+      ]
+    },
+    {
+      "locator": "§4.1 quoted principle of apperception",
+      "extracted_text_lines": [
+        1225,
+        1259
+      ],
+      "short_excerpt_actually_inspected": "must be able",
+      "supports": [
+        "PH-K02: possible accompaniment by I think, not ceaseless explicit self-consciousness"
+      ],
+      "limits_or_notes": "Secondary quoted locator B131–132 observed. Used to identify a material wording difference from Meiklejohn §12; German not inspected."
+    }
+  ],
+  "verification_limits": [
+    "One SEP reconstruction of a contested argument.",
+    "No claim to have inspected its morality/freedom sections.",
+    "Secondary A/B locator only."
+  ],
+  "final_url": "https://plato.stanford.edu/entries/kant/",
+  "raw_snapshot": "research/philosophy/sources/kant-sep-immanuel-kant.html",
+  "extracted_text": "research/philosophy/sources/kant-sep-immanuel-kant.txt",
+  "sha256_html": "ea0e46f8a27c83fc68647c77f9e6cedd8df7b887693c1597c6c1a4b2510a7d96",
+  "bytes_html": 176103
+}

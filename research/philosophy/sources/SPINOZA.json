@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "status": "provisional-research",
+  "sourceRevision": "2026-10-03 intake; OWNER-KICKOFF-v4; revision-3 unavailable",
+  "worker": "spinoza_researcher",
+  "scope": "Research only; no canonical narrative edits.",
+  "retrievalMethod": "Python urllib using inherited network environment, no credentials or proxy modifications.",
+  "sources": [
+    {
+      "id": "SP-E",
+      "kind": "primary",
+      "author": "Benedict de Spinoza",
+      "title": "The Ethics (Ethica Ordine Geometrico Demonstrata)",
+      "translator": "R. H. M. Elwes",
+      "url": "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm",
+      "edition": "Project Gutenberg ebook 3800, supplied HTML, last updated December 11, 2017; underlying print edition and pagination not established",
+      "retrieval": {
+        "retrievedAtUTC": "2026-10-03T20:19:21.031557+00:00",
+        "sha256": "499c6f2a3551537bdcef040125e145dcce234d164269be67192f4497576cb52f",
+        "bytes": 551108
+      },
+      "retrievalDate": "2026-10-03",
+      "localSnapshot": "research/philosophy/sources/spinoza-ethics-raw.html",
+      "localSearchText": "research/philosophy/sources/spinoza-ethics-inspection.txt",
+      "encoding": "ISO-8859-1 source decoded to UTF-8 search text",
+      "translatorVerification": "Electronic title matter explicitly says Translated from the Latin by R. H. M. Elwes.",
+      "locatorConvention": "Roman part and proposition numbers in source; source Note means scholium. No page numbers asserted.",
+      "readScope": "Selected primary passages were actually displayed and inspected with their proofs, neighboring claims and scholia as itemized below. The whole work was downloaded, not read continuously.",
+      "inspectedBlocks": [
+        "Part I Definitions 1–8 and Axioms 1–7; Propositions 1–7; Proposition 11 including alternative proofs and scholium; Propositions 12–18 including corollaries and scholia; Propositions 24–33 (P33 first proof); Propositions 34–36; Appendix.",
+        "Part II Preface, Definitions 1–7 and Axioms; Propositions 1–7 and scholia; Proposition 8 through corollary (scholium only partially inspected); Propositions 11–13 and physical interlude through Lemmas 1–7 (Lemma 7 scholium partially inspected); Propositions 16–18 including scholia; Propositions 35–42 including P40 scholia; P43 proposition and opening proof only; Propositions 44–46; P47 proof and opening scholium.",
+        "Part III Preface, Definitions 1–3, Postulates; Propositions 1–3 (P2 scholium not fully inspected); Propositions 4–11 including scholia; Propositions 58–59 including scholium; Definitions of the Emotions 1–3 and beginning explanation.",
+        "Part IV Preface and Definitions 1–8, Axiom; Propositions 2–7; Propositions 14–15; Proposition 18 and scholium; Propositions 23–28; Propositions 35–38 and scholia; Propositions 45–46 and scholia.",
+        "Part V Preface, Axioms and Propositions 1–6 with scholia; Proposition 10 and selected scholium paragraphs on preparation, hatred, fear and ambition; Propositions 14–42 with their proofs, scholia and corollaries. P7 and P13 were also partly or incidentally displayed but not relied upon as separately completed readings."
+      ],
+      "passages": [
+        {
+          "locator": "I.D3",
+          "boundedExcerptInspected": "that which is in itself, and is conceived through itself",
+          "contextAndUse": "Substance definition; distinguish conceptual and ontological dependence."
+        },
+        {
+          "locator": "I.D4",
+          "boundedExcerptInspected": "that which the intellect perceives as constituting the essence of substance",
+          "contextAndUse": "Attribute definition; not a collection of sensory traits."
+        },
+        {
+          "locator": "I.D5",
+          "boundedExcerptInspected": "that which exists in, and is conceived through, something other than itself",
+          "contextAndUse": "Modes depend on substance; finite difference remains."
+        },
+        {
+          "locator": "I.D7",
+          "boundedExcerptInspected": "exists solely by the necessity of its own nature",
+          "contextAndUse": "Freedom differs from indeterminate choice."
+        },
+        {
+          "locator": "I.D8 explanation",
+          "boundedExcerptInspected": "cannot be explained by means of continuance or time",
+          "contextAndUse": "Eternity differs even from beginningless/endless duration."
+        },
+        {
+          "locator": "I.P5",
+          "boundedExcerptInspected": "There cannot exist in the universe two or more substances having the same nature or attribute.",
+          "contextAndUse": "Proof distinguishes attributes from modifications."
+        },
+        {
+          "locator": "I.P14",
+          "boundedExcerptInspected": "Besides God no substance can be granted or conceived.",
+          "contextAndUse": "Depends on divine infinity, existence and the prohibition on shared attributes."
+        },
+        {
+          "locator": "I.P18",
+          "boundedExcerptInspected": "God is the indwelling and not the transient cause of all things.",
+          "contextAndUse": "Elwes indwelling means immanent; proof invokes I.P15 and I.P14."
+        },
+        {
+          "locator": "I.P25c",
+          "boundedExcerptInspected": "modes by which the attributes of God are expressed in a fixed and definite manner",
+          "contextAndUse": "Dependence of particular things later grounds V.P24."
+        },
+        {
+          "locator": "I.P29s",
+          "boundedExcerptInspected": "God, in so far as he is considered as a free cause",
+          "contextAndUse": "Natura naturans distinguished from all modes following from divine nature, natura naturata."
+        },
+        {
+          "locator": "I Appendix",
+          "boundedExcerptInspected": "nature has no particular goal in view",
+          "contextAndUse": "Read falling-stone example and critique of final causes in context."
+        },
+        {
+          "locator": "II.P7s",
+          "boundedExcerptInspected": "one and the same thing, though expressed in two ways",
+          "contextAndUse": "Mode of extension and its idea; no telepathic channel follows."
+        },
+        {
+          "locator": "II.P13",
+          "boundedExcerptInspected": "The object of the idea constituting the human mind is the body",
+          "contextAndUse": "Finite mind/body relation and ensuing physical account of individuality."
+        },
+        {
+          "locator": "II physical interlude after P13, Lemma IV",
+          "boundedExcerptInspected": "the individual will preserve its nature as before",
+          "contextAndUse": "Replacement of component bodies can preserve organized individuality under stated conditions."
+        },
+        {
+          "locator": "II.P17s",
+          "boundedExcerptInspected": "the imaginations of the mind, looked at in themselves, do not contain error",
+          "contextAndUse": "Correction adds an excluding idea; do not silently rewrite prior appearance."
+        },
+        {
+          "locator": "II.P37",
+          "boundedExcerptInspected": "does not constitute the essence of any particular thing",
+          "contextAndUse": "Common notions should not be equated with singular essences."
+        },
+        {
+          "locator": "II.P40s2",
+          "boundedExcerptInspected": "from an adequate idea of the absolute essence of certain attributes of God",
+          "contextAndUse": "Opening of definition of intuition, completed by adequate knowledge of essences; arithmetic example inspected."
+        },
+        {
+          "locator": "II.P47",
+          "boundedExcerptInspected": "The human mind has an adequate knowledge of the eternal and infinite essence of God.",
+          "contextAndUse": "Strong cognitive claim, not universal metaphysical unknowability."
+        },
+        {
+          "locator": "III.D2",
+          "boundedExcerptInspected": "we being only the partial cause",
+          "contextAndUse": "Passivity defined causally; energetic behavior may still be passive."
+        },
+        {
+          "locator": "III.P6",
+          "boundedExcerptInspected": "Everything, in so far as it is in itself, endeavours to persist in its own being.",
+          "contextAndUse": "Proof relies on finite expressions of divine power and III.P4–5."
+        },
+        {
+          "locator": "III.P7",
+          "boundedExcerptInspected": "nothing else but the actual essence of the thing in question",
+          "contextAndUse": "Conatus is not a supplementary supernatural drive."
+        },
+        {
+          "locator": "III.P11s",
+          "boundedExcerptInspected": "the mind passes to a greater perfection",
+          "contextAndUse": "Joy/pleasure as transition, paired with sadness/pain; not moral deservingness."
+        },
+        {
+          "locator": "III.P58",
+          "boundedExcerptInspected": "there are other emotions derived from pleasure and desire",
+          "contextAndUse": "Active affects prevent a reason-versus-all-emotion simplification."
+        },
+        {
+          "locator": "IV Preface",
+          "boundedExcerptInspected": "the eternal and infinite Being, which we call God or Nature",
+          "contextAndUse": "Verified occurrence of God or Nature in supplied translation."
+        },
+        {
+          "locator": "IV.D8",
+          "boundedExcerptInspected": "By virtue (virtus) and power I mean the same thing",
+          "contextAndUse": "Ethics depends on causal power and understanding."
+        },
+        {
+          "locator": "IV.P14",
+          "boundedExcerptInspected": "not check any emotion by virtue of being true",
+          "contextAndUse": "Truth alone does not guarantee psychological efficacy."
+        },
+        {
+          "locator": "IV.P36",
+          "boundedExcerptInspected": "The highest good of those who follow virtue is common to all",
+          "contextAndUse": "Shared understanding is not a scarce competitive prize."
+        },
+        {
+          "locator": "IV.P37s1",
+          "boundedExcerptInspected": "does not act by impulse but courteously and kindly",
+          "contextAndUse": "Rational assistance contrasted with imposing personal fancy; later animal-use passage also inspected and flagged."
+        },
+        {
+          "locator": "IV.P45s",
+          "boundedExcerptInspected": "refresh and recreate himself with moderate and pleasant food and drink",
+          "contextAndUse": "Context includes plants, music, sport, theatre and bodily diversity."
+        },
+        {
+          "locator": "V.P3",
+          "boundedExcerptInspected": "ceases to be a passion, as soon as we form a clear and distinct idea thereof",
+          "contextAndUse": "Read against IV.P14–15 and V Preface; no instant cure mechanic."
+        },
+        {
+          "locator": "V.P17c",
+          "boundedExcerptInspected": "Strictly speaking, God does not love or hate anyone.",
+          "contextAndUse": "Ordinary passionate love differs from intellectual love later in V."
+        },
+        {
+          "locator": "V.P19",
+          "boundedExcerptInspected": "cannot endeavour that God should love him in return",
+          "contextAndUse": "Excludes reciprocal divine favoritism."
+        },
+        {
+          "locator": "V.P21",
+          "boundedExcerptInspected": "The mind can only imagine anything, or remember what is past, while the body endures.",
+          "contextAndUse": "Boundary for personal-survival fictional applications."
+        },
+        {
+          "locator": "V.P23",
+          "boundedExcerptInspected": "there remains of it something which is eternal",
+          "contextAndUse": "Strong claim retained, with proof and scholium denying temporal memory read in context."
+        },
+        {
+          "locator": "V.P24",
+          "boundedExcerptInspected": "The more we understand particular things, the more do we understand God.",
+          "contextAndUse": "Depends on I.P25c, not abandoning particular lives for a slogan."
+        },
+        {
+          "locator": "V.P28",
+          "boundedExcerptInspected": "cannot arise from the first, but from the second kind of knowledge",
+          "contextAndUse": "Reason is route toward desire for intuitive knowledge; vivid feeling does not certify it."
+        },
+        {
+          "locator": "V.P29s",
+          "boundedExcerptInspected": "as contained in God and following from the necessity of the divine nature",
+          "contextAndUse": "Contrasted with things in a given time and place."
+        },
+        {
+          "locator": "V.P32c",
+          "boundedExcerptInspected": "From the third kind of knowledge necessarily arises the intellectual love of God.",
+          "contextAndUse": "Proof joins knowledge, joy, and God understood as cause."
+        },
+        {
+          "locator": "V.P33s",
+          "boundedExcerptInspected": "blessedness must consist in the mind being endowed with perfection itself",
+          "contextAndUse": "Acknowledges tension between eternal perfection and joy as transition."
+        },
+        {
+          "locator": "V.P34s",
+          "boundedExcerptInspected": "they confuse eternity with duration",
+          "contextAndUse": "Context explicitly mentions wrongly assigning survival to imagination or memory."
+        },
+        {
+          "locator": "V.P36",
+          "boundedExcerptInspected": "part of the infinite love wherewith God loves himself",
+          "contextAndUse": "Read with V.P17–19; no cosmic interpersonal romance."
+        },
+        {
+          "locator": "V.P36s",
+          "boundedExcerptInspected": "the actual essence of some particular thing, which we say depends on God",
+          "contextAndUse": "General demonstration contrasted with more affectively powerful particular understanding."
+        },
+        {
+          "locator": "V.P39",
+          "boundedExcerptInspected": "a body capable of the greatest number of activities",
+          "contextAndUse": "Bodily capacities remain relevant to culmination; avoid disembodied sage."
+        },
+        {
+          "locator": "V.P41",
+          "boundedExcerptInspected": "Even if we did not know that our mind is eternal",
+          "contextAndUse": "Ethical life does not depend on an afterlife incentive."
+        },
+        {
+          "locator": "V.P42",
+          "boundedExcerptInspected": "Blessedness is not the reward of virtue, but virtue itself",
+          "contextAndUse": "Proof and concluding scholium inspected; reverses reward structure."
+        }
+      ],
+      "limits": [
+        "No Latin collation or second English translation performed.",
+        "Elwes vocabulary and dated language can mislead; research modernizes labels but does not quote modernized text as source.",
+        "Not every intermediate proof in Ethics was read.",
+        "No claim that source doctrine is true, complete, or author-approved fictional cosmology."
+      ],
+      "dossiers": [
+        "PH-S01",
+        "PH-S02",
+        "PH-S03",
+        "PH-S04"
+      ]
+    },
+    {
+      "id": "SP-N",
+      "kind": "scholarship",
+      "author": "Steven Nadler",
+      "title": "Baruch Spinoza",
+      "publication": "Stanford Encyclopedia of Philosophy",
+      "firstPublished": "2001-06-29",
+      "substantiveRevision": "2023-11-08",
+      "url": "https://plato.stanford.edu/entries/spinoza/",
+      "retrieval": {
+        "retrievedAtUTC": "2026-10-03T20:19:21.122625+00:00",
+        "sha256": "bede8d577ffaf69ce394d3746a5c01224d2a5d585ea909a7dee907afab2f5bb4",
+        "bytes": 112794
+      },
+      "retrievalDate": "2026-10-03",
+      "inspectedSections": [
+        "2.1 God or Nature",
+        "2.2 The Human Being",
+        "2.3 Knowledge",
+        "2.4 Passion and Action",
+        "2.5 Virtue and Happiness"
+      ],
+      "boundedExcerptsInspected": [
+        {
+          "locator": "2.1, discussion of natura naturata",
+          "quote": "There is some debate in the literature as to whether God is also to be identified with Natura naturata."
+        },
+        {
+          "locator": "2.5, discussion of eternity",
+          "quote": "He knows that the soul is not immortal in any personal sense, but is endowed only with a certain kind of eternity."
+        }
+      ],
+      "contextNotes": [
+        "Section 2.1 reconstructs I.P5/I.P11/I.P14, discusses inherence versus causality and identifies rival uses of pantheism. Nadler favors identifying God with both productive and produced Nature and argues against worshipful interpretation. This is attributed interpretation, not consensus.",
+        "Sections 2.2–2.3 discuss causal closure of attributes, identity of body and idea and adequacy; II.P37 gives a caution against collapsing common properties into singular essence.",
+        "Sections 2.4–2.5 connect naturalism to conatus, adequate causation, active affect and social benefit, and interpret intellectual love and eternity nonpersonally. The article does not settle the specialist eternity disputes raised in PH-S04."
+      ],
+      "limits": [
+        "Only the listed philosophical sections and source metadata were inspected; biography, TTP discussions and bibliography are not claimed as completed reading.",
+        "No sources merely listed in the SEP bibliography are claimed as read.",
+        "The full copyrighted page was a temporary retrieval for inspection and is not distributed in this source packet; hash identifies the retrieved version."
+      ],
+      "dossiers": [
+        "PH-S01",
+        "PH-S02",
+        "PH-S03",
+        "PH-S04"
+      ]
+    },
+    {
+      "id": "SP-L",
+      "kind": "scholarship",
+      "author": "Michael LeBuffe",
+      "title": "Spinoza’s Psychological Theory",
+      "publication": "Stanford Encyclopedia of Philosophy",
+      "firstPublished": "2001-10-23",
+      "substantiveRevision": "2024-11-21",
+      "url": "https://plato.stanford.edu/entries/spinoza-psychological/",
+      "retrieval": {
+        "retrievedAtUTC": "2026-10-03T20:22:04.640526+00:00",
+        "sha256": "d5cd5ec410adbe7a9b6284df68ef3784e6af676ded53a3d7fab73483358ad4f8",
+        "bytes": 86758
+      },
+      "retrievalDate": "2026-10-03",
+      "inspectedSections": [
+        "1.1 The Argument to the Striving Doctrine",
+        "1.2 The Striving Doctrine as an Account of the Natures of Particular Objects",
+        "1.3 The Striving Doctrine as an Account of Human Nature",
+        "3.1 Good and Evil as Modes of Thinking",
+        "3.2 The Psychological Basis for Perfectionism"
+      ],
+      "boundedExcerptsInspected": [
+        {
+          "locator": "1.1, objection to III.P4–6",
+          "quote": "Why is it that, just because a thing does not strive to destroy itself, that thing must therefore strive to persevere in being?"
+        },
+        {
+          "locator": "1.3, conclusion concerning egoism",
+          "quote": "Spinoza is a predominant, not an orthodox, egoist."
+        }
+      ],
+      "contextNotes": [
+        "Section 1.1 distinguishes not striving to persevere from striving not to persevere and examines how I.P25c/I.P34 address the possibility of inactive things. It leaves a pressure between inertia and motivational conatus.",
+        "Section 1.2 examines individuation, destruction and examples of apparently self-destructive composites.",
+        "Section 1.3 distinguishes always consciously selfish agents from predominantly self-preserving agents, and weighs III.P9 against IV.P20 and IV.P44s. This complicates Nadler’s general egoism label.",
+        "Sections 3.1–3.2 distinguish describing evaluations from the normative account of good and perfection; reconciling model-based perfection and reality-based perfection remains difficult."
+      ],
+      "limits": [
+        "Section 2 on affects and the cited secondary books/articles were not independently read.",
+        "A secondary locator in the article appears as IVp36s2; it was not adopted. Primary social-state discussion is verified at IV.P37s2 in Elwes.",
+        "Full copyrighted retrieval is not distributed; bounded quotes and paraphrases retain inspected evidence."
+      ],
+      "dossiers": [
+        "PH-S03"
+      ]
+    }
+  ],
+  "runtimeMetadata": {
+    "requestedRoleAllocation": "Astra Extra High per kickoff",
+    "verifiedModelId": null,
+    "verifiedReasoningEffort": null,
+    "note": "No verifiable runtime model/effort metadata endpoint was exposed to this worker; no requested setting is represented as observed execution."
+  }
+}

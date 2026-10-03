@@ -1,3 +1,5 @@
+> UPDATE: revision-3 specification is now supplied, extracted and reconciled. Read docs/execution/BASELINE-RECONCILIATION.md; original dated intake note below is preserved pending the integrated checkpoint handoff.
+
 # Current state, 2026-10-03
 
 Read docs/OWNER-KICKOFF-v4.md in full. This is a new isolated provisional workspace because only v4 was attached. Revision-3 package, original task graph T00–T29, check_packet.py, previous narrative, execution state, accepted anchors and owner decisions were not available. Do not claim to have read or restored them. Existing unrelated workspace projects are preserved. Reconcile with a supplied baseline before representing this as its continuation.

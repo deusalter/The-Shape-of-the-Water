@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "retrieved_on": "2026-10-03",
+  "retrieval_method": "Python urllib.request.urlopen through inherited proxy environment; public HTTPS URL; no bypass or credentials used",
+  "http_status": 200,
+  "source_revision": "provisional intake 2026-10-03; owner kickoff v4; revision-3 unavailable",
+  "local_locator_method": "Line numbers refer to preserved mechanically extracted UTF-8 text. HTML data nodes were stripped of surrounding whitespace and joined with newlines; they are not printed-page numbers.",
+  "source_id": "K-PRIMARY",
+  "kind": "primary",
+  "title": "The Critique of Pure Reason",
+  "author": "Immanuel Kant",
+  "translator": "J. M. D. Meiklejohn",
+  "url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+  "edition_verification": "Title and translator inspected on fetched title page. Page includes prefaces headed 1781 and 1787 and the B-style Deduction. Underlying print impression/date not established from this page; no German collation. Do not substitute this translation’s section numbers for conventional B-Deduction numbering.",
+  "reading_scope": "Selected passages only; not the complete work.",
+  "inspected_passages": [
+    {
+      "locator": "First Part, Transcendental Æsthetic, §§1–7",
+      "extracted_text_lines": [
+        2065,
+        2431
+      ],
+      "short_excerpt_actually_inspected": "We maintain, therefore, the empirical reality of space",
+      "supports": [
+        "PH-K01: space and time as forms of sensibility; empirical reality and transcendental ideality"
+      ],
+      "limits_or_notes": "Quotation is a fragment of §4, followed in source by qualification to possible external experience."
+    },
+    {
+      "locator": "Transcendental Æsthetic, §9, opening and rainbow discussion",
+      "extracted_text_lines": [
+        2539,
+        2627
+      ],
+      "short_excerpt_actually_inspected": "we should not thereby advance one step nearer",
+      "supports": [
+        "PH-K01/03: increased empirical clarity does not reach things in themselves; empirical appearance/reality distinction differs from transcendental distinction"
+      ],
+      "limits_or_notes": "Selected opening only, not entire section. The fragment concerns higher clarity of empirical intuition."
+    },
+    {
+      "locator": "Analytic of Conceptions, Chapter I, Section III, Table of the Categories",
+      "extracted_text_lines": [
+        3420,
+        3455
+      ],
+      "short_excerpt_actually_inspected": "Of Causality and Dependence (cause and effect)",
+      "supports": [
+        "PH-K02: four headings of categories and category of causality"
+      ]
+    },
+    {
+      "locator": "Chapter II, Section I, Of the Principles of a Transcendental Deduction in general, §9",
+      "extracted_text_lines": [
+        3635,
+        3698
+      ],
+      "short_excerpt_actually_inspected": "does not concern itself with the right, but only with the fact",
+      "supports": [
+        "PH-K02: transcendental justification differs from empirical origin"
+      ],
+      "limits_or_notes": "Selected paragraph span."
+    },
+    {
+      "locator": "Chapter II, Section II, §§11–18, conjunction through legitimate cognitive use",
+      "extracted_text_lines": [
+        3877,
+        4245
+      ],
+      "short_excerpt_actually_inspected": "To think an object and to cognize an object are by no means the same thing.",
+      "supports": [
+        "PH-K02: synthesis, apperception, judgment, objective unity, category use"
+      ],
+      "limits_or_notes": "The §12 wording “must accompany” is compared with Rohlf’s quoted “must be able to accompany”; no German wording verified."
+    },
+    {
+      "locator": "Transcendental Deduction, §22 and Result §23, selected passages",
+      "extracted_text_lines": [
+        4474,
+        4659
+      ],
+      "short_excerpt_actually_inspected": "Particular laws, inasmuch as they concern empirically determined phenomena, cannot be entirely deduced from pure laws",
+      "supports": [
+        "PH-K02: categories condition possible experience without supplying particular empirical laws"
+      ],
+      "limits_or_notes": "Selected passages, not claimed complete reading of all intervening text or full Deduction."
+    },
+    {
+      "locator": "Analytic of Principles, Analogies of Experience, B. SECOND ANALOGY; house and ship examples",
+      "extracted_text_lines": [
+        5897,
+        6075
+      ],
+      "short_excerpt_actually_inspected": "Principle of the Succession of Time According to the Law of Causality.",
+      "supports": [
+        "PH-K02: apprehension order versus objective event order; causal rule"
+      ],
+      "limits_or_notes": "Beginning and selected proof paragraphs, not entire Second Analogy."
+    },
+    {
+      "locator": "Chapter III, Of the Ground of the Division of all Objects into Phenomena and Noumena",
+      "extracted_text_lines": [
+        7099,
+        7450
+      ],
+      "short_excerpt_actually_inspected": "this is a noumenon in the negative sense of the word.",
+      "supports": [
+        "PH-K03: negative and positive noumenon; logical consistency versus real possibility; boundary concept"
+      ],
+      "limits_or_notes": "Substantial chapter opening through negative/positive distinction and limitation, not all subsequent material."
+    },
+    {
+      "locator": "Transcendental Dialectic, Introduction I and II A–C, selected passages",
+      "extracted_text_lines": [
+        8113,
+        8428
+      ],
+      "short_excerpt_actually_inspected": "Transcendental illusion, on the contrary, does not cease to exist",
+      "supports": [
+        "PH-K04: persistence of transcendental illusion; reason’s demand for unconditioned"
+      ],
+      "limits_or_notes": "Excerpt distinguishes illusion from an ordinary removable logical mistake."
+    },
+    {
+      "locator": "Antithetic of Pure Reason, FIRST CONFLICT and SECOND CONFLICT, proofs and initial observations",
+      "extracted_text_lines": [
+        10050,
+        10335
+      ],
+      "short_excerpt_actually_inspected": "The world has a beginning in time, and is also limited in regard to space.",
+      "supports": [
+        "PH-K04: first two antinomies and their arguments"
+      ],
+      "limits_or_notes": "This is thesis asserted within an antinomy, not a doctrine to attribute without its antithesis and resolution."
+    },
+    {
+      "locator": "Antinomy, Section VII Critical Solution; Section VIII Regulative Principle",
+      "extracted_text_lines": [
+        11393,
+        11684
+      ],
+      "short_excerpt_actually_inspected": "If that which is conditioned is given, the whole series of its conditions is also given",
+      "supports": [
+        "PH-K04: criticized cosmological inference; condition as task rather than completed totality"
+      ],
+      "limits_or_notes": "Quoted proposition is the dialectical inference Kant criticizes, not an endorsed inference."
+    },
+    {
+      "locator": "Appendix, Of the Regulative Employment of the Ideas of Pure Reason, opening",
+      "extracted_text_lines": [
+        14110,
+        14236
+      ],
+      "short_excerpt_actually_inspected": "regulative ideas, directing the understanding to a certain aim",
+      "supports": [
+        "PH-K04: constructive role for inquiry and unity"
+      ],
+      "limits_or_notes": "Selected opening, not the full Appendix."
+    }
+  ],
+  "verification_limits": [
+    "No full A/B pagination in Gutenberg source used as authority.",
+    "No direct inspection of German.",
+    "No direct primary reading of all third/fourth antinomy arguments; contrast relies on K-SEP-META.",
+    "Public-domain English translation may obscure distinctions; contemporary dialogue must not inherit its register."
+  ],
+  "final_url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+  "raw_snapshot": "research/philosophy/sources/kant-critique-gutenberg.html",
+  "extracted_text": "research/philosophy/sources/kant-critique-gutenberg.txt",
+  "sha256_html": "9f347fcc234c6e4ebff9c261bc30fa562ae81a1a0bcd07b684bad8bc39b4aa55",
+  "bytes_html": 1335375
+}

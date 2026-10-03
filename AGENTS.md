@@ -2,7 +2,7 @@
 
 Read docs/OWNER-KICKOFF-v4.md in full, RESUME.md, docs/execution/STATE.json and docs/execution/HANDOFF.md before continuing. User instructions override this file.
 
-The revision-3 package and any previous game snapshot were unavailable on 2026-10-03. This directory is independent provisional work, not a claimed restoration or replacement. Do not import Herte content. Reconcile, never overwrite, if the baseline arrives.
+The revision-3 specification package arrived during execution on 2026-10-03 and is preserved in baseline/revision3/. It is not a previous implementation; none was supplied. Current active specifications reconcile it with v4 and newer owner instructions. Read docs/execution/BASELINE-RECONCILIATION.md. Do not import Herte content or reset current work to the package seed.
 
 At most four active subagents; no worker may spawn recursively. Root coordinates shared contracts, root manifests, integration and acceptance. One lead_writer alone owns final narrative prose and provisional canon. Other literary agents write review or proposal files only. No claim of owner acceptance without an explicit decision.
 
