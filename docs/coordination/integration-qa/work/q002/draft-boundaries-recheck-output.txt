@@ -1,0 +1,15 @@
+D01 Blank editable source provenance can be durably saved/exported and recovered
+Error: expect(received).toContain(expected) // indexOf
+
+Expected substring: "saved separately"
+Received string:    "Save failed. content.sources.0.provenanceId: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/ Download the draft to preserve it."
+{
+  "status": "FAIL",
+  "checks": [
+    {
+      "id": "D01",
+      "status": "FAIL"
+    }
+  ],
+  "pageErrors": []
+}

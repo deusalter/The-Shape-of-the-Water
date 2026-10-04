@@ -1,0 +1,194 @@
+{
+  "packet": "reader/reading.txt",
+  "sha256": "071c77be7787b0f2dc4a54193c5a2f0d923a94aca61bd7757e7c08032b72ba80",
+  "scope": "performed route from pre-return through proposed gap; no endings or author notes; no private first-night confidence",
+  "selections": [
+    "B-R01 Blue",
+    "B-R02 bounded account",
+    "B-R03 remembered contact",
+    "B-R04 exterior account",
+    "B-R05 address by name",
+    "B-R06 bounded material finding",
+    "L1-G01 apology",
+    "L1-G02 present Ada",
+    "A1a",
+    "A2a",
+    "A3b"
+  ],
+  "extractionSources": [
+    {
+      "file": "narrative/loop/BLAISE-FIRST-RETURN.md",
+      "startAfter": "### Passage\n",
+      "stopBefore": "Editorial record:",
+      "sha256": "53058900402c71cc898750090f70d2d729efcfad944ad0909b5983b3a50a605e"
+    },
+    {
+      "file": "narrative/loop/RETURN-INVESTIGATION-L3.md",
+      "startAfter": "### Passage\n",
+      "stopBefore": "Acquire `o0-exterior-preparation`",
+      "sha256": "2e54f9b844bbd6eacdaa4f202584c90fd3a8d8a3c9a3f80422bada119ec6cc36"
+    },
+    {
+      "file": "narrative/loop/BLAISE-FIRST-RETURN.md",
+      "startAfter": "## Crossing\n",
+      "stopBefore": "### Choice B-R01:",
+      "sha256": "53058900402c71cc898750090f70d2d729efcfad944ad0909b5983b3a50a605e"
+    },
+    {
+      "file": "narrative/loop/BLAISE-FIRST-RETURN.md",
+      "startAfter": "- **\u201cSay \u2018Blue\u2019 before anyone asks you a question.\u201d**",
+      "stopBefore": "- **\u201cRemain silent",
+      "sha256": "53058900402c71cc898750090f70d2d729efcfad944ad0909b5983b3a50a605e"
+    },
+    {
+      "file": "narrative/loop/BLAISE-FIRST-RETURN.md",
+      "startAfter": "### Common passage\n",
+      "stopBefore": "### Choice B-R02:",
+      "sha256": "53058900402c71cc898750090f70d2d729efcfad944ad0909b5983b3a50a605e"
+    },
+    {
+      "file": "narrative/loop/BLAISE-FIRST-RETURN.md",
+      "startAfter": "- **\u201cDescribe the crossing and the vanished parcel. Distinguish what you saw from what you think it means.\u201d**",
+      "stopBefore": "- **\u201cSay you believe",
+      "sha256": "53058900402c71cc898750090f70d2d729efcfad944ad0909b5983b3a50a605e"
+    },
+    {
+      "file": "narrative/loop/BLAISE-FIRST-RETURN.md",
+      "startAfter": "### Passage\n\nAda brings",
+      "stopBefore": "### Choice B-R03:",
+      "sha256": "53058900402c71cc898750090f70d2d729efcfad944ad0909b5983b3a50a605e"
+    },
+    {
+      "file": "narrative/loop/BLAISE-FIRST-RETURN.md",
+      "startAfter": "- **\u201cTell her about the touch and the words \u2018There you are,\u2019 and ask whether she remembers either.\u201d**",
+      "stopBefore": "- **\u201cTell her you wanted",
+      "sha256": "53058900402c71cc898750090f70d2d729efcfad944ad0909b5983b3a50a605e"
+    },
+    {
+      "file": "narrative/loop/RETURN-INVESTIGATION-L3.md",
+      "startAfter": "### Passage\n\nSimon asks where",
+      "stopBefore": "### Choice B-R04-A:",
+      "sha256": "2e54f9b844bbd6eacdaa4f202584c90fd3a8d8a3c9a3f80422bada119ec6cc36"
+    },
+    {
+      "file": "narrative/loop/RETURN-INVESTIGATION-L3.md",
+      "startAfter": "- **\u201cAsk the woman in the coat to tell you what happened outside while you were gone.\u201d**",
+      "stopBefore": "- **\u201cAsk Ada",
+      "sha256": "2e54f9b844bbd6eacdaa4f202584c90fd3a8d8a3c9a3f80422bada119ec6cc36"
+    },
+    {
+      "file": "narrative/loop/RETURN-INVESTIGATION-L3.md",
+      "startAfter": "### Common passage\n",
+      "stopBefore": "Acquire `o1-two-miriams`",
+      "sha256": "2e54f9b844bbd6eacdaa4f202584c90fd3a8d8a3c9a3f80422bada119ec6cc36"
+    },
+    {
+      "file": "narrative/loop/RETURN-INVESTIGATION-L3.md",
+      "startAfter": "### Passage\n\nThe Miriam in",
+      "stopBefore": "#### If Blaise heard",
+      "sha256": "2e54f9b844bbd6eacdaa4f202584c90fd3a8d8a3c9a3f80422bada119ec6cc36"
+    },
+    {
+      "file": "narrative/loop/RETURN-INVESTIGATION-L3.md",
+      "startAfter": "#### If the private account was refused or never heard\n",
+      "stopBefore": "#### Common\n",
+      "sha256": "2e54f9b844bbd6eacdaa4f202584c90fd3a8d8a3c9a3f80422bada119ec6cc36"
+    },
+    {
+      "file": "narrative/loop/RETURN-INVESTIGATION-L3.md",
+      "startAfter": "#### Common\n",
+      "stopBefore": "### Choice B-R05-A:",
+      "sha256": "2e54f9b844bbd6eacdaa4f202584c90fd3a8d8a3c9a3f80422bada119ec6cc36"
+    },
+    {
+      "file": "narrative/loop/RETURN-INVESTIGATION-L3.md",
+      "startAfter": "- **\u201cAsk how each would like to be addressed while both are present.\u201d**",
+      "stopBefore": "- **\u201cTell them you cannot",
+      "sha256": "2e54f9b844bbd6eacdaa4f202584c90fd3a8d8a3c9a3f80422bada119ec6cc36"
+    },
+    {
+      "file": "narrative/loop/RETURN-INVESTIGATION-L3.md",
+      "startAfter": "### Passage\n\nYou tell Simon",
+      "stopBefore": "### Choice B-R06-A:",
+      "sha256": "2e54f9b844bbd6eacdaa4f202584c90fd3a8d8a3c9a3f80422bada119ec6cc36"
+    },
+    {
+      "file": "narrative/loop/RETURN-INVESTIGATION-L3.md",
+      "startAfter": "- **\u201cRecord that the prepared marked strip remained outside, and that a closely corresponding unmarked strip is now inside.\u201d**",
+      "stopBefore": "- **\u201cSay you think",
+      "sha256": "2e54f9b844bbd6eacdaa4f202584c90fd3a8d8a3c9a3f80422bada119ec6cc36"
+    },
+    {
+      "file": "narrative/loop/BLAISE-ALLOWED.md",
+      "startAfter": "## Passage\n",
+      "stopBefore": "### Choice L1-G01",
+      "sha256": "ab95d4f6b526e376bfa7b502ce0ab9c625ef278cfe2ecfdf32bcc17b4e102bf6"
+    },
+    {
+      "file": "narrative/loop/BLAISE-ALLOWED.md",
+      "startAfter": "- **\u201cApologize for making his failure answer the question. Keep the possibility of a gift open.\u201d**",
+      "stopBefore": "- **\u201cSay the timing",
+      "sha256": "ab95d4f6b526e376bfa7b502ce0ab9c625ef278cfe2ecfdf32bcc17b4e102bf6"
+    },
+    {
+      "file": "narrative/loop/BLAISE-ALLOWED.md",
+      "startAfter": "### Common passage\n",
+      "stopBefore": "### Choice L1-G02",
+      "sha256": "ab95d4f6b526e376bfa7b502ce0ab9c625ef278cfe2ecfdf32bcc17b4e102bf6"
+    },
+    {
+      "file": "narrative/loop/BLAISE-ALLOWED.md",
+      "startAfter": "- **\u201cSay the present Ada is the person who can answer now; refuse to call her a replacement.\u201d**",
+      "stopBefore": "### Closing passage",
+      "sha256": "ab95d4f6b526e376bfa7b502ce0ab9c625ef278cfe2ecfdf32bcc17b4e102bf6"
+    },
+    {
+      "file": "narrative/loop/BLAISE-ALLOWED.md",
+      "startAfter": "### Closing passage\n",
+      "stopBefore": "Editorial limits:",
+      "sha256": "ab95d4f6b526e376bfa7b502ce0ab9c625ef278cfe2ecfdf32bcc17b4e102bf6"
+    },
+    {
+      "file": "docs/coordination/protagonist/work/P-002-A.md",
+      "startAfter": "## A1. Beside the sink\n",
+      "stopBefore": "### A1 choice:",
+      "sha256": "7632f226f7c9141100d421d09af4fb6260e5c265429dd6edca383127e7c48eaf"
+    },
+    {
+      "file": "docs/coordination/protagonist/work/P-002-A.md",
+      "startAfter": "**A1a. \u201cAsk her to repeat only what she saw, so you can hold it apart from your own memory.\u201d**",
+      "stopBefore": "**A1b.",
+      "sha256": "7632f226f7c9141100d421d09af4fb6260e5c265429dd6edca383127e7c48eaf"
+    },
+    {
+      "file": "docs/coordination/protagonist/work/P-002-A.md",
+      "startAfter": "### Common\n",
+      "stopBefore": "## A2.",
+      "sha256": "7632f226f7c9141100d421d09af4fb6260e5c265429dd6edca383127e7c48eaf"
+    },
+    {
+      "file": "docs/coordination/protagonist/work/P-002-A.md",
+      "startAfter": "## A2. Keep time\n",
+      "stopBefore": "### A2 choice:",
+      "sha256": "7632f226f7c9141100d421d09af4fb6260e5c265429dd6edca383127e7c48eaf"
+    },
+    {
+      "file": "docs/coordination/protagonist/work/P-002-A.md",
+      "startAfter": "**A2a. \u201cTell her that for a moment you liked being the only one who remembered.\u201d**",
+      "stopBefore": "**A2b.",
+      "sha256": "7632f226f7c9141100d421d09af4fb6260e5c265429dd6edca383127e7c48eaf"
+    },
+    {
+      "file": "docs/coordination/protagonist/work/P-002-A.md",
+      "startAfter": "## A3. A statement with an audience\n",
+      "stopBefore": "### A3 choice",
+      "sha256": "7632f226f7c9141100d421d09af4fb6260e5c265429dd6edca383127e7c48eaf"
+    },
+    {
+      "file": "docs/coordination/protagonist/work/P-002-A.md",
+      "startAfter": "**A3b. \u201cTell both Miriams and Simon that you have promised Ada to tell her before any further crossing; keep the rest private.\u201d**",
+      "stopBefore": "## Authored later consequences",
+      "sha256": "7632f226f7c9141100d421d09af4fb6260e5c265429dd6edca383127e7c48eaf"
+    }
+  ]
+}

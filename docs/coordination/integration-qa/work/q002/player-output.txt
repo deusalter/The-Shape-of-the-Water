@@ -1,0 +1,31 @@
+P01 Actual private encounter, adversarial evidence selection and explicit public disclosure
+P02 Two live tabs without BroadcastChannel; changes during takeover confirmation and stale saves
+P03 Protected canonical ending branch: cancel, quota abort, unsaved continuation and retry lineage
+P04 Malformed portable import, valid import cancel and confirmed replacement archives
+P05 Actual canonical corrupt owned slot: retained memory, cancel, quota rollback and explicit repair
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "id": "P01",
+      "status": "PASS"
+    },
+    {
+      "id": "P02",
+      "status": "PASS"
+    },
+    {
+      "id": "P03",
+      "status": "PASS"
+    },
+    {
+      "id": "P04",
+      "status": "PASS"
+    },
+    {
+      "id": "P05",
+      "status": "PASS"
+    }
+  ],
+  "pageErrors": []
+}

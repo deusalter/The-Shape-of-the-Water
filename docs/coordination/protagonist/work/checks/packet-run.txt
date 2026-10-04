@@ -1,0 +1,6 @@
+Report write redirected to /workspace/literary-detective/docs/coordination/protagonist/work/checks/packet-check.json
+PASS: 13 documents; 30 acyclic task cards with matching textual dependencies.
+PASS: 88 acceptance definitions, 31 defined sources, truthful unstarted seed.
+PASS: 16 role TOMLs and defaults parse; 8 negative checks rejected bad input.
+NOT TESTED: game, full research, literary quality, actual model runtime, or real cross-chat recovery.
+/workspace/literary-detective/reviews/packet-check.json

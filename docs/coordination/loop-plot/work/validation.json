@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "scope": "Static proposal integrity and abstract route graph only",
+  "inputCommit": "69ec3ca3b22238612a5c806c992ed5e212ed2006",
+  "integrationBase": "70a495a8b6e7a9ec9ed64c281c302b14e0d0ae60",
+  "checkedInputHashes": 49,
+  "checkedFollowupHashes": 4,
+  "ownedChangedOrUntrackedPaths": [
+    "docs/coordination/loop-plot/RESPONSE.md",
+    "docs/coordination/loop-plot/STATUS.json",
+    "docs/coordination/loop-plot/work/ENGINE-REQUIREMENTS.md",
+    "docs/coordination/loop-plot/work/OCCASION-LEDGER.md",
+    "docs/coordination/loop-plot/work/PERFORMED-REVISIONS.md",
+    "docs/coordination/loop-plot/work/RESEARCH.md",
+    "docs/coordination/loop-plot/work/child/causal-challenge.md",
+    "docs/coordination/loop-plot/work/input-provenance.json",
+    "docs/coordination/loop-plot/work/route-graph.json",
+    "docs/coordination/loop-plot/work/scholarly-retrieval.json",
+    "docs/coordination/loop-plot/work/validate_packet.py",
+    "docs/coordination/loop-plot/work/validation.json"
+  ],
+  "parsedJsonFiles": [
+    "docs/coordination/loop-plot/STATUS.json",
+    "docs/coordination/loop-plot/work/input-provenance.json",
+    "docs/coordination/loop-plot/work/route-graph.json",
+    "docs/coordination/loop-plot/work/scholarly-retrieval.json"
+  ],
+  "graph": {
+    "nodes": 27,
+    "edges": 29,
+    "terminalTraces": 32,
+    "tracesPerEnding": {
+      "direct_refusal": 8,
+      "postpone": 8,
+      "cancel": 8,
+      "ending_repeat": 8
+    }
+  },
+  "sceneSha256": "b0322857aede8104d8fbfe21caa23e313320203255af4a1d814935b16385eda0",
+  "checks": [
+    "input hashes and Git blobs",
+    "ownership",
+    "git diff --check",
+    "JSON parse",
+    "unique reachable finite graph with terminal routes",
+    "refusal/postponement/cancel do not enter o2",
+    "repeat follows departure and recording setup",
+    "material alternatives remain distinct",
+    "no original narrative em dashes",
+    "three child-review repair markers present"
+  ],
+  "notRun": [
+    "Runtime occasion tests",
+    "browser tests",
+    "human reading",
+    "full-game route exploration",
+    "physical experiment"
+  ],
+  "limits": "Graph abstracts source microchoices. Marker checks are not semantic proof; parent manually checked dependent prose. No literary quality, canon acceptance or game-completion claim."
+}

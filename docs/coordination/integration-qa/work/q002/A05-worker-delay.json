@@ -1,0 +1,6 @@
+{
+  "url": "http://127.0.0.1:4314/assets/validation-worker-CUoAw7EH.js",
+  "originalSha256": "ea4e61c1013e50f9e8d2db1d930abb7914be619a0b118fadd73118f6d961369b",
+  "injectedSha256": "ee6cb7b2081283b678ed1db5d85e2dcf6c89264afcef824db57ac1644e04e210",
+  "purpose": "Delay actual handler invocation after synchronous installation; original built worker body is unchanged."
+}

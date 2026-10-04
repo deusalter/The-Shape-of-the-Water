@@ -1,0 +1,2338 @@
+{
+  "schemaVersion": 1,
+  "kind": "author-project",
+  "content": {
+    "id": "shape-of-the-water",
+    "title": "The Shape of the Water",
+    "version": 2,
+    "start": "arrival",
+    "scenes": [
+      {
+        "id": "arrival",
+        "title": "The Shape of the Water",
+        "paragraphs": [
+          "You have come for your mirror. At the shallow end of the saltwater bath, Simon Vane has propped its largest surviving piece against a pink swimming float. The float is a rabbit. Its two ears rise on either side of your reflection.",
+          "You lent him the mirror on Monday, with the usual apology for the damage in one corner. It was taller than any of you. He said the damaged corner would be outside the view. He was building something for the bath’s last open weekend, before the winter drain.",
+          "“I wanted you to see it before anyone told you,” he says. “Ada cut the cord.”",
+          "Ada March is sitting on an upturned bucket, holding a saucepan by its handle. “Yes.” She looks at him. “Tell the next bit.”",
+          "On the spectators’ bench, Miriam Verney has a bag of frozen peas folded around her hand. You have known her chiefly as the woman who can get frightened adults into the water without using the word frightened. Her shoes are neatly paired beneath her. One sock is wet.",
+          "“I asked to come out,” she says. “That is the next bit.”",
+          "The viewing cabinet stands beside the pool. It has black cloth walls, a narrow slit facing the high windows, and a rigid door carrying the mirror. The glass is still bolted to that door in pieces. A concrete pier, part of the old gallery above, stands within the door’s outward swing. Two black cord ends lie on the tiles.",
+          "Simon turns his phone face down. On its screen, before it disappears, you see a photograph of the broken mirror and his message to tomorrow’s visitors: “The experiment was deliberately destroyed.” Twelve people have read it.",
+          "“The sight worked,” he says. “Whatever else happened. I need that understood.”",
+          "Beyond the windows a laundry has hung a row of white overalls. One sleeve is inside out. There is enough daylight left to examine the cabinet. The bath closes when Ada finishes putting things away; she has stopped doing that.",
+          "“Blaise?” Simon says. He has been waiting for you to look at him. You have been watching your mouth between the rabbit’s ears. When you turn, the face leaves the glass before you have stopped expecting it to be there.",
+          "You know this room by its sounds: a wet foot leaving the tiles, a chair dragged under the gallery, the short return of a voice from the wall behind the diving board. Simon has made something here that he says can be seen without a person. You want to know what he means by that before he uses your presence to establish it.",
+          "Ada shifts the saucepan across her knees. Miriam takes one finger out from under the peas and puts it back. You put your own hands in your pockets. The cold glass has not touched them, but you keep checking that they are empty.",
+          "You can establish what happened to the mirror, ask what Simon thinks the sight established, and decide what account to give the people expecting to come tomorrow."
+        ],
+        "choices": [
+          {
+            "id": "arrival-miriam",
+            "label": "Sit beside Miriam and ask what she needs first.",
+            "target": "bench",
+            "effects": [
+              "met_miriam"
+            ]
+          },
+          {
+            "id": "arrival-ada",
+            "label": "Ask Ada to show you the cut cord.",
+            "target": "workshop",
+            "effects": [
+              "met_ada"
+            ]
+          },
+          {
+            "id": "arrival-cabinet",
+            "label": "Examine the cabinet before taking an account.",
+            "target": "cabinet",
+            "effects": [
+              "seen_cabinet"
+            ]
+          }
+        ],
+        "paragraphIds": [
+          "arrival.p1",
+          "arrival.p2",
+          "arrival.p3",
+          "arrival.p4",
+          "arrival.p5",
+          "arrival.p6",
+          "arrival.p7",
+          "arrival.p8",
+          "arrival.p9",
+          "arrival.p10",
+          "arrival.p11",
+          "arrival.p12",
+          "arrival.p13",
+          "arrival.p14"
+        ],
+        "sourceIds": [
+          "present-sabotage-message"
+        ]
+      },
+      {
+        "id": "bench",
+        "title": "One wet sock",
+        "paragraphs": [
+          "Miriam is trying to remove her wet sock without using her swollen hand. Ada kneels, takes the sock at its heel and peels it off. Miriam does not thank her until Ada has stood up.",
+          "“That one has the good elastic,” Miriam says.",
+          "“You’ve told me.” Ada puts it over a rail.",
+          "“The other ones leave a trench. I can still see the trench when I go to bed.”",
+          "“Buy bigger socks.”",
+          "“Then there is sock in front of my toes. I swim to avoid having things in front of my toes.” Ada makes a small sound through her nose. Miriam looks satisfied by it.",
+          "When you sit down, Miriam shifts the peas onto a folded towel. “I don’t need somebody to take me home yet. I need a dry foot. That part is done.”",
+          "She describes the cabinet from inside. A shallow tray of water, a mirror, a slit of daylight. In the darkness the reflected stripe seemed to have no distance. She could not tell whether it was close enough to touch. Simon had asked her to let her eyes settle before speaking.",
+          "“I stayed longer than I liked. Then I pulled the ring. There was a proper click. I pushed. Nothing. I pushed with both hands. I said, ‘Let me out.’ I heard him say something. I said it again. Ada said, ‘Stand back if you can.’ Then there was a little noise, like a button coming off, and I was pushing into daylight.”",
+          "She lifts her good hand and makes an inadequate model of a door swinging. “The edge hit the pier. That was when the glass went. I thought it had gone into my face. It hadn’t.”",
+          "You ask whether she became unwell before she tried the door.",
+          "“I wanted to leave before I was frightened of being unable to leave. Write that in that order, please. I can’t tell you precisely what my heart was doing. Nobody measured it.”",
+          "She asks you to keep the cabinet empty until the exit is tested. Simon calls down to ask whether she could describe the sight for tomorrow’s visitors. “Later,” she tells him. “I’ll decide what I want to say.”"
+        ],
+        "choices": [
+          {
+            "id": "bench-record",
+            "label": "Write down her sequence and leave the cause of her distress undiagnosed.",
+            "target": "concourse",
+            "effects": [
+              "proof_timing",
+              "heard_miriam"
+            ],
+            "observation": {
+              "id": "request-before-cut",
+              "text": "Miriam says she pulled the release, heard its click, pushed a door that stayed shut, and said “Let me out” twice. She heard Ada answer before the cord parted and the door opened."
+            },
+            "relationship": {
+              "id": "heard-miriam",
+              "text": "I let Miriam give the sequence before asking her to explain her fear."
+            }
+          },
+          {
+            "id": "bench-panic",
+            "label": "Ask whether fear could explain why the door seemed stuck.",
+            "target": "miriam_account",
+            "effects": [
+              "proof_timing",
+              "heard_miriam",
+              "pressed_miriam"
+            ],
+            "observation": {
+              "id": "request-before-cut",
+              "text": "Miriam says she pulled the release, heard its click, pushed a door that stayed shut, and said “Let me out” twice. She heard Ada answer before the cord parted and the door opened."
+            },
+            "relationship": {
+              "id": "pressed-miriam",
+              "text": "I suggested that fear might explain the apparently stuck door before testing the exit."
+            },
+            "irreversible": true
+          }
+        ],
+        "paragraphIds": [
+          "bench.p1",
+          "bench.p2",
+          "bench.p3",
+          "bench.p4",
+          "bench.p5",
+          "bench.p6",
+          "bench.p7",
+          "bench.p8",
+          "bench.p9",
+          "bench.p10",
+          "bench.p11",
+          "bench.p12",
+          "bench.p13"
+        ],
+        "sourceIds": [
+          "request-before-cut"
+        ]
+      },
+      {
+        "id": "workshop",
+        "title": "The missing alto",
+        "paragraphs": [
+          "Ada carries the saucepan into a room that was once used for keeping swimming costumes dry. Somebody has written the names of musical parts on the old drying racks. The bath choir rehearses here because nobody minds if it sounds like a bath choir.",
+          "“I do second alto,” she says when you look. “Did. They’ve moved it to a room over the funeral shop. Too far on a Thursday.”",
+          "You ask whether she misses singing.",
+          "“I can sing here. It’s the coming in I miss. Someone says the wrong thing about the weather and you’re in.” She tips the pan toward you. Two potatoes have rolled together in a little butter. “Want one? Cold at the bottom. The cooker cuts out unless you keep your hand on the plug. I’m not fixing it until I’ve eaten.”",
+          "She sets a hook knife on the bench, safely closed. Its blade is meant for cutting tangled lane ropes without cutting the person inside them. Two short black cord ends lie beside it. Their fibres have been sliced cleanly across. The knots remain tied.",
+          "“I used that. This was round the whole box, across the door. You couldn’t see it well. Black on black.”",
+          "She demonstrates on the empty saucepan, holding a loose string around its middle. The handle moves freely. The string would not stop a handle. It would stop the lid if she had tied it over one.",
+          "“You heard her call?” you ask.",
+          "“Twice. I was here, looking for the bloody plug. First time I thought he was opening it. Second time I went out. She was pushing. Cloth moved, cord stayed put. I told her to stand back. Cut here.” She touches one end. “The door came out hard. Into the pier. I couldn’t get between them in time.”",
+          "On the bench is the printed plan Simon brought on Monday. It shows the door, the inside pull and the pier. There is no exterior binding in the plan. Ada has pencilled a note by the door: “Check swing before glass goes on.” There is no tick beside it.",
+          "“You didn’t check?”",
+          "“No. I told him to. Then I got on with the filter. That’s what I did.” She does not move the plan away from you."
+        ],
+        "choices": [
+          {
+            "id": "workshop-record",
+            "label": "Keep Ada’s admission and the cord ends with the evidence.",
+            "target": "concourse",
+            "effects": [
+              "proof_cut",
+              "heard_ada"
+            ],
+            "observation": {
+              "id": "ada-cut",
+              "text": "Ada acknowledges cutting the exterior cord. She says she heard Miriam ask to leave and saw the door strain against the cord. She kept the two cut ends."
+            }
+          },
+          {
+            "id": "workshop-to-test",
+            "label": "Take the cord to the empty cabinet for a test.",
+            "target": "release",
+            "effects": [
+              "proof_cut",
+              "heard_ada",
+              "seen_cabinet"
+            ],
+            "observation": {
+              "id": "ada-cut",
+              "text": "Ada acknowledges cutting the exterior cord. She says she heard Miriam ask to leave and saw the door strain against the cord. She kept the two cut ends."
+            }
+          }
+        ],
+        "paragraphIds": [
+          "workshop.p1",
+          "workshop.p2",
+          "workshop.p3",
+          "workshop.p4",
+          "workshop.p5",
+          "workshop.p6",
+          "workshop.p7",
+          "workshop.p8",
+          "workshop.p9",
+          "workshop.p10",
+          "workshop.p11",
+          "workshop.p12"
+        ],
+        "sourceIds": [
+          "ada-cut",
+          "present-plan"
+        ]
+      },
+      {
+        "id": "cabinet",
+        "title": "The brass ring",
+        "paragraphs": [
+          "The mirror is bolted to the inside of the cabinet’s rigid door, facing the shallow water tray when the door is shut. The door opens outward. A chalk arc on the tiles marks its swing. The concrete gallery pier interrupts the arc before the door can lie flat against the cabinet wall.",
+          "An old felt pad is screwed to the pier at shoulder height. The mirror’s frame reaches above it. At that higher point, a fresh pale chip interrupts the pier’s grey surface. White grit is caught in a dent on the mirror frame. You can compare the heights without moving anything.",
+          "The inside release is a brass ring on a cable. You can reach it through the torn cloth while standing outside. You pull the ring. Something clicks. The latch withdraws and the door moves a little.",
+          "“Working,” Simon says. He has come down from the gallery without your noticing. He sounds relieved by the discovery.",
+          "“Yes,” Miriam calls from the bench. “That is exactly what I heard.”",
+          "The latch is not broken. The two severed cord ends hang from loops at the back of the cabinet. At the front, where the cord used to cross the door, a dark horizontal groove interrupts the cloth’s fine dust. The cloth does not tell you who tied it or when.",
+          "Inside, a narrow stripe of daylight lies across the remaining glass. As water in the tray settles, the stripe steadies. It is visible from the open door. You have not yet repeated Simon’s full arrangement or seen his recording.",
+          "Simon puts his hand on the door edge, then takes it away from a sliver of glass. “There was an inside release. Please don’t let that get lost.”"
+        ],
+        "choices": [
+          {
+            "id": "cabinet-cautious",
+            "label": "Record the click without concluding that the closed cabinet could be escaped.",
+            "target": "concourse",
+            "effects": [
+              "seen_cabinet",
+              "inspected_cabinet"
+            ],
+            "observation": {
+              "id": "latch-click",
+              "text": "At the damaged cabinet I pulled the brass ring. The latch withdrew and the door moved a little. This was after the cord had been cut."
+            }
+          },
+          {
+            "id": "cabinet-infer",
+            "label": "Treat the working latch as support for a usable exit, pending a fuller test.",
+            "target": "concourse",
+            "unless": [
+              "proof_binding"
+            ],
+            "effects": [
+              "seen_cabinet",
+              "early_free",
+              "inspected_cabinet"
+            ],
+            "observation": {
+              "id": "latch-click",
+              "text": "At the damaged cabinet I pulled the brass ring. The latch withdrew and the door moved a little. This was after the cord had been cut."
+            },
+            "interpretation": {
+              "id": "early-exit",
+              "text": "My first inference was that the moving release probably meant the cabinet could be escaped. I had not tested the external binding."
+            }
+          },
+          {
+            "id": "cabinet-test",
+            "label": "Ask for an empty, padded test of the cord and release together.",
+            "target": "release",
+            "effects": [
+              "seen_cabinet",
+              "inspected_cabinet"
+            ]
+          },
+          {
+            "id": "cabinet-revise",
+            "label": "Add the later reading: the latch released, but the external cord still held the door.",
+            "target": "concourse",
+            "requires": [
+              "proof_binding"
+            ],
+            "effects": [
+              "revisited_cabinet",
+              "inspected_cabinet"
+            ],
+            "observation": {
+              "id": "latch-click",
+              "text": "At the damaged cabinet I pulled the brass ring. The latch withdrew and the door moved a little. This was after the cord had been cut."
+            },
+            "interpretation": {
+              "id": "revised-exit",
+              "text": "The later test changed the meaning of the working release: the latch could withdraw while the external cord prevented exit. The original click remains an observation."
+            }
+          },
+          {
+            "id": "cabinet-report",
+            "label": "Take the established sequence back to the three people waiting.",
+            "target": "report",
+            "requires": [
+              "heard_shared",
+              "optics_done",
+              "proof_cut",
+              "proof_timing",
+              "proof_binding"
+            ],
+            "effects": [
+              "revisited_cabinet",
+              "inspected_cabinet"
+            ],
+            "observation": {
+              "id": "latch-click",
+              "text": "At the damaged cabinet I pulled the brass ring. The latch withdrew and the door moved a little. This was after the cord had been cut."
+            },
+            "when": {
+              "op": "all",
+              "args": [
+                {
+                  "op": "always"
+                },
+                {
+                  "op": "hasDeduction",
+                  "id": "accident-sequence"
+                }
+              ]
+            }
+          }
+        ],
+        "variants": [
+          {
+            "id": "cabinet.variant1",
+            "requires": [
+              "proof_binding"
+            ],
+            "paragraphs": [
+              "You inspect the brass ring from outside the cabinet. It pulls a cable; the cable withdraws the latch. The door moves a little in its damaged frame. You have heard or tested how the external cord could hold it shut despite this movement.",
+              "The mirror is still bolted to the inside of the outward-opening door. You compare the dent in its frame with the pale chip on the concrete pier. Both are above the old felt pad. The chalk arc on the tiles passes through the pier before the door could lie flat against the cabinet wall.",
+              "Miriam watches from the bench. “When you write about this, don’t say I couldn’t find the handle. I found it. I did the thing I had been told to do.”",
+              "Simon asks to see the wording. He leaves the brass ring where it is. Ada puts the two cut cord ends beside the plan, with nothing tied around the cabinet.",
+              "A stripe of light lies across a surviving part of the glass. Opening the cabinet has made its source easier to trace. It has not stopped appearing."
+            ],
+            "paragraphIds": [
+              "cabinet.variant1.p1",
+              "cabinet.variant1.p2",
+              "cabinet.variant1.p3",
+              "cabinet.variant1.p4",
+              "cabinet.variant1.p5"
+            ],
+            "sourceIds": [
+              "latch-click"
+            ]
+          },
+          {
+            "id": "cabinet.variant2",
+            "requires": [
+              "proof_binding",
+              "inspected_cabinet"
+            ],
+            "paragraphs": [
+              "The brass ring is where it was. You pull it from outside and hear the same click. The latch withdraws. Nothing about that first sound needs to be withdrawn from your account.",
+              "You now know how the cord could hold the door after the latch released. The working handle was real; the conclusion that a person could therefore leave was another matter. Beside the ring, Ada fixes the two cord ends to the plan with a clothes peg. She does not tie them around the cabinet again.",
+              "The mirror frame’s dent is still level with the fresh chip on the concrete pier. Someone has put the felt pad on a chair. It never reached the part that struck.",
+              "Miriam watches from the bench. “When you write about this, don’t say I couldn’t find the handle. I found it. I did the thing I had been told to do.”",
+              "Simon answers before you can. “Yes.” Then he asks to see the wording.",
+              "The stripe lies across the surviving glass. The changed account of the door has not removed it."
+            ],
+            "paragraphIds": [
+              "cabinet.variant2.p1",
+              "cabinet.variant2.p2",
+              "cabinet.variant2.p3",
+              "cabinet.variant2.p4",
+              "cabinet.variant2.p5",
+              "cabinet.variant2.p6"
+            ],
+            "sourceIds": [
+              "latch-click"
+            ]
+          }
+        ],
+        "paragraphIds": [
+          "cabinet.p1",
+          "cabinet.p2",
+          "cabinet.p3",
+          "cabinet.p4",
+          "cabinet.p5",
+          "cabinet.p6",
+          "cabinet.p7",
+          "cabinet.p8"
+        ],
+        "sourceIds": [
+          "latch-click"
+        ]
+      },
+      {
+        "id": "gallery",
+        "title": "The view for nobody",
+        "paragraphs": [
+          "Simon has gone upstairs to fold the borrowed chairs. Miriam has followed him as far as the landing. She tells him one of his socks is inside out.",
+          "“It’s the soft side,” he says.",
+          "“It’s the label side.”",
+          "“The label has given up. It’s become soft.” He raises his trouser cuff. She looks despite herself. He asks whether she wants a chair; she tells him she has just climbed nineteen stairs to get away from chairs.",
+          "The high window makes the water below look darker than it is. Simon rests a folded chair on his shoe. He has built shop displays for eighteen years. You ask where he learned to silver glass.",
+          "“I didn’t. I learned to conceal the edges of the pieces people could afford. Whole sunsets with a strip missing. Nobody looks where you think they will. Once a woman stood behind the display and said she preferred it from there. I was furious for days. It was quite good from there.”",
+          "He shows you a clip recorded earlier, before Miriam entered. The cabinet is closed; a small camera, inside on its own, records a stripe of light reflected from the water into the mirror. The stripe appears to hang in depthless black. Simon walks past the exterior camera while the interior image continues.",
+          "“The first time, I thought it was something my eyes did. So I put the camera where my head had been. Same line. I left. Same line. Something continues without my attendance. You do see why that matters?”",
+          "Miriam says that a tide continues without his attendance too.",
+          "“Of course. But I hadn’t seen the separation so cleanly. A view with nobody in it. For a few minutes I stopped trying to put myself behind every event. Then I thought: perhaps this is what space is when we aren’t furnishing it.”",
+          "“You had furnished it with a water tray and a camera.”",
+          "“And I can subtract their defects. Different cameras, different trays. If the relations survive every change we can make, what reason have we to deny that those relations belong to the world itself?”",
+          "Miriam does not answer immediately. Downstairs Ada drops a chair, swears at it, and puts it upright.",
+          "“That is a stronger question than the card you wrote,” Miriam says. “The card says you have shown reality with the conditions of looking removed. A camera changes the conditions. It doesn’t remove every condition under which anything can be given to us.”",
+          "Simon opens a folded card. His phrase is indeed there: “An unconditioned sight.” Under it he has drawn the cabinet carefully enough to include the screws. “I want to know what would be sufficient,” he says. “Not merely to be told this isn’t.”",
+          "He will show the longer recording of the incident. You can also ask him directly about the cord or return later to repeat the optical result without anyone enclosed."
+        ],
+        "choices": [
+          {
+            "id": "gallery-recording",
+            "label": "Ask to watch the whole incident clip, with sound.",
+            "target": "recording",
+            "effects": [
+              "heard_simon"
+            ]
+          },
+          {
+            "id": "gallery-direct",
+            "label": "Ask whether Simon added any fastening after Miriam went inside.",
+            "target": "simon_account",
+            "effects": [
+              "heard_simon"
+            ]
+          },
+          {
+            "id": "gallery-accuse",
+            "label": "Accuse Simon of misleading Miriam about the exit, within her hearing.",
+            "target": "simon_account",
+            "effects": [
+              "heard_simon",
+              "shamed_simon"
+            ],
+            "relationship": {
+              "id": "shamed-simon",
+              "text": "I accused Simon of misleading Miriam about the exit, in front of her."
+            },
+            "irreversible": true
+          },
+          {
+            "id": "gallery-hub",
+            "label": "Keep his printed claim for the later optical test.",
+            "target": "concourse",
+            "effects": [
+              "heard_simon"
+            ],
+            "observation": {
+              "id": "claimed-sight",
+              "text": "Simon’s card calls the effect “An unconditioned sight.” His earlier clip shows a stripe recorded inside the empty cabinet while he walks outside."
+            }
+          }
+        ],
+        "paragraphIds": [
+          "gallery.p1",
+          "gallery.p2",
+          "gallery.p3",
+          "gallery.p4",
+          "gallery.p5",
+          "gallery.p6",
+          "gallery.p7",
+          "gallery.p8",
+          "gallery.p9",
+          "gallery.p10",
+          "gallery.p11",
+          "gallery.p12",
+          "gallery.p13",
+          "gallery.p14",
+          "gallery.p15",
+          "gallery.p16"
+        ],
+        "sourceIds": [
+          "present-empty-optical-clip",
+          "present-unconditioned-card"
+        ]
+      },
+      {
+        "id": "concourse",
+        "title": "At the shallow end",
+        "paragraphs": [
+          "The bath is still open to the people already inside it. Ada has turned off the lane clock. The ordinary clock above the entrance continues, a minute slower than the one on Simon’s phone.",
+          "You have room to compare their accounts. The cabinet can be examined from outside. Nobody needs to enter it again. Miriam is on the bench; Simon is in the gallery; Ada has left the workshop door open.",
+          "You can compare the accounts of the cut and the request to leave, and examine what held or released the door. The object can show how its parts work. What somebody heard has to come from an account or a recording."
+        ],
+        "choices": [
+          {
+            "id": "hub-bench",
+            "label": "Hear Miriam’s sequence from inside the cabinet.",
+            "target": "bench",
+            "unless": [
+              "heard_miriam"
+            ],
+            "effects": [
+              "met_miriam"
+            ]
+          },
+          {
+            "id": "hub-workshop",
+            "label": "Ask Ada about her knife and the cut cord.",
+            "target": "workshop",
+            "unless": [
+              "heard_ada"
+            ],
+            "effects": [
+              "met_ada"
+            ]
+          },
+          {
+            "id": "hub-cabinet",
+            "label": "Examine or revisit the cabinet’s release.",
+            "target": "cabinet",
+            "effects": [
+              "seen_cabinet"
+            ]
+          },
+          {
+            "id": "hub-gallery",
+            "label": "Find Simon in the gallery.",
+            "target": "gallery"
+          },
+          {
+            "id": "hub-recording",
+            "label": "Replay Simon’s full recording of the incident.",
+            "target": "recording",
+            "requires": [
+              "heard_simon"
+            ]
+          },
+          {
+            "id": "hub-test",
+            "label": "Reconstruct the binding with the cabinet empty.",
+            "target": "release",
+            "requires": [
+              "seen_cabinet"
+            ]
+          },
+          {
+            "id": "hub-miriam",
+            "label": "Ask Miriam what she expected from the trial.",
+            "target": "miriam_account",
+            "requires": [
+              "heard_miriam"
+            ]
+          },
+          {
+            "id": "hub-ada-private",
+            "label": "Carry dry towels into the workshop, where Ada and Miriam are talking.",
+            "target": "ada_miriam",
+            "requires": [
+              "heard_ada",
+              "heard_miriam"
+            ]
+          },
+          {
+            "id": "hub-simon-private",
+            "label": "Help Ada bring the folded chairs up to Simon.",
+            "target": "simon_ada",
+            "requires": [
+              "heard_simon",
+              "heard_ada"
+            ]
+          },
+          {
+            "id": "hub-miriam-private",
+            "label": "Walk with Miriam to collect her coat.",
+            "target": "miriam_private",
+            "requires": [
+              "heard_miriam"
+            ]
+          },
+          {
+            "id": "hub-shared",
+            "label": "Bring the three people together and give them the supported sequence.",
+            "target": "shared",
+            "requires": [
+              "proof_cut",
+              "proof_timing",
+              "proof_binding"
+            ],
+            "when": {
+              "op": "all",
+              "args": [
+                {
+                  "op": "always"
+                },
+                {
+                  "op": "hasDeduction",
+                  "id": "accident-sequence"
+                }
+              ]
+            },
+            "actions": [
+              {
+                "type": "disclose",
+                "characterId": "ada",
+                "refId": "accident-sequence"
+              },
+              {
+                "type": "disclose",
+                "characterId": "simon",
+                "refId": "accident-sequence"
+              },
+              {
+                "type": "disclose",
+                "characterId": "miriam",
+                "refId": "accident-sequence"
+              },
+              {
+                "type": "setBelief",
+                "characterId": "simon",
+                "beliefId": "simon_sabotage",
+                "value": false
+              }
+            ]
+          },
+          {
+            "id": "hub-report",
+            "label": "Return to the agreed causal sequence and choose its audience.",
+            "target": "report",
+            "requires": [
+              "heard_shared",
+              "optics_done",
+              "proof_cut",
+              "proof_timing",
+              "proof_binding"
+            ],
+            "when": {
+              "op": "all",
+              "args": [
+                {
+                  "op": "always"
+                },
+                {
+                  "op": "hasDeduction",
+                  "id": "accident-sequence"
+                }
+              ]
+            }
+          }
+        ],
+        "variants": [
+          {
+            "id": "concourse.variant1",
+            "requires": [
+              "heard_miriam"
+            ],
+            "paragraphs": [
+              "Miriam has changed the towel beneath the peas. She puts the damp one over the rail beside her sock. When Simon calls down from the gallery, she asks him to come down if he wants an answer.",
+              "Her account gives an order to the sounds inside. The cabinet, Ada’s actions and Simon’s longer recording can still be examined."
+            ],
+            "paragraphIds": [
+              "concourse.variant1.p1",
+              "concourse.variant1.p2"
+            ]
+          },
+          {
+            "id": "concourse.variant2",
+            "requires": [
+              "heard_ada"
+            ],
+            "paragraphs": [
+              "Ada has put the plan where you can find it. She resumes gathering the lane ropes, stopping when one catches under a bench. Nobody else seems to know whether to help or leave her alone.",
+              "The cut ends remain in the workshop. Miriam is on the bench; Simon is upstairs. The cabinet can be reached without getting inside."
+            ],
+            "paragraphIds": [
+              "concourse.variant2.p1",
+              "concourse.variant2.p2"
+            ]
+          },
+          {
+            "id": "concourse.variant3",
+            "requires": [
+              "heard_miriam",
+              "heard_ada"
+            ],
+            "paragraphs": [
+              "Ada brings Miriam a dry towel without being asked. Miriam moves the sock to make room for it. You have heard their accounts; they can be compared with the parts of the cabinet and Simon’s recording.",
+              "From upstairs comes the sound of a chair being folded and unfolded. Simon is still there."
+            ],
+            "paragraphIds": [
+              "concourse.variant3.p1",
+              "concourse.variant3.p2"
+            ]
+          },
+          {
+            "id": "concourse.variant4",
+            "requires": [
+              "proof_cut",
+              "proof_timing",
+              "proof_binding"
+            ],
+            "paragraphs": [
+              "Ada has cleared a place on the bench for the plan, the cord and the phone. You have enough to state a bounded sequence. There are other questions you can still ask before bringing everyone together.",
+              "The door was held after its latch released; Miriam asked to leave before Ada cut the cord. The authorship of the additional binding has been acknowledged or recorded. Whether you trust every explanation of why is a further judgment."
+            ],
+            "paragraphIds": [
+              "concourse.variant4.p1",
+              "concourse.variant4.p2"
+            ]
+          },
+          {
+            "id": "concourse.variant5",
+            "requires": [
+              "heard_shared",
+              "optics_done"
+            ],
+            "paragraphs": [
+              "The empty model has been put beside the broken cabinet. The stripe continues to appear when light reaches the tray. Nobody is waiting for a further revelation before dealing with the door.",
+              "The three people are waiting for the account you will give and for whom you will give it to. You can revisit earlier material first. What you saw and heard there remains in your transcript."
+            ],
+            "paragraphIds": [
+              "concourse.variant5.p1",
+              "concourse.variant5.p2"
+            ]
+          }
+        ],
+        "paragraphIds": [
+          "concourse.p1",
+          "concourse.p2",
+          "concourse.p3"
+        ]
+      },
+      {
+        "id": "release",
+        "title": "An empty test",
+        "paragraphs": [
+          "Ada will not let anyone sit inside. She pads the mirror frame with folded towels and places a chair between the opening door and the concrete pier. Simon objects to the chair until he understands what it is preventing.",
+          "The original cord ends are kept aside. Simon has another length from the same spool. He puts it through the back loops and around the front of the cabinet, crossing the door at waist height.",
+          "“As you tied it before?” you ask.",
+          "“Yes. The cloth bellied away from the frame. Light came through the seam. I pulled it in with this.”",
+          "He has left the upper cloth panel unbuttoned so that you can see the latch. Ada gives you the brass ring through that opening. You pull. The latch withdraws. Simon pushes the door from the inside face with a broom. It moves against the cord and stops.",
+          "“Harder,” he says to himself. Ada keeps her hand on the frame. The broom bends a little. The door stays.",
+          "You release the ring and pull it again. The latch can return and withdraw perfectly while the cord holds the door. Ada asks Simon to stop pushing while you check the cable, then tells him to try again. The result is the same.",
+          "Ada slackens the knot. Simon pushes gently with the broom; the door opens until it meets the padded chair. Without the chair it would reach the pier. You compare the dent on the mirror frame with the pale chip above the old felt pad. The heights and exposed surfaces meet.",
+          "“I put the mirror on after you drew the arc,” Simon says to Ada.",
+          "“I know.”",
+          "“The old pad was too low.”",
+          "“Yes.”",
+          "“If I’d moved it...”",
+          "“Move it later. Answer this bit. Could she open that door?”",
+          "He pulls the unused end of cord through his hands. “Not while I had this round it.”",
+          "The test establishes an obstruction and a possible impact. Miriam’s account or the continuous recording must supply the request and the actual order. Simon’s acknowledgment supplies the authorship of the added binding. Nobody has had to become trapped to find out."
+        ],
+        "choices": [
+          {
+            "id": "release-record",
+            "label": "Record the test and Simon’s acknowledgment separately from the accounts of timing.",
+            "target": "concourse",
+            "effects": [
+              "proof_binding",
+              "tested_release"
+            ],
+            "observation": {
+              "id": "binding-test",
+              "text": "With nobody inside, a padded reconstruction showed the external cord held the door shut after the inside latch withdrew. Simon acknowledged adding this cord to darken the seam. A chip in the concrete pier matches the impact damage on the mirror frame."
+            }
+          },
+          {
+            "id": "release-film",
+            "label": "Keep the test result and ask for the recording of the actual event.",
+            "target": "recording",
+            "effects": [
+              "proof_binding",
+              "tested_release",
+              "heard_simon"
+            ],
+            "observation": {
+              "id": "binding-test",
+              "text": "With nobody inside, a padded reconstruction showed the external cord held the door shut after the inside latch withdrew. Simon acknowledged adding this cord to darken the seam. A chip in the concrete pier matches the impact damage on the mirror frame."
+            }
+          }
+        ],
+        "paragraphIds": [
+          "release.p1",
+          "release.p2",
+          "release.p3",
+          "release.p4",
+          "release.p5",
+          "release.p6",
+          "release.p7",
+          "release.p8",
+          "release.p9",
+          "release.p10",
+          "release.p11",
+          "release.p12",
+          "release.p13",
+          "release.p14",
+          "release.p15",
+          "release.p16"
+        ],
+        "sourceIds": [
+          "present-empty-release-test",
+          "present-impact-geometry",
+          "present-simon-binding"
+        ]
+      },
+      {
+        "id": "recording",
+        "title": "One minute",
+        "paragraphs": [
+          "Simon hands over his phone with the sound already turned up. “The other clip was for the picture. This one was meant to show we hadn’t cut anything out.”",
+          "The camera has been set on the spectators’ bench. The whole cabinet and the pier are visible. Miriam enters by the open mirror door, turns and tests the ring while Simon holds the door just off its latch. Then he shuts it. For several seconds the seam glows.",
+          "Simon crosses in front of the camera with a spool. He passes a black cord through the rear loops and around the cabinet, across the door. He pulls the knot tight. The seam darkens. He goes back to the camera. Its view never changes.",
+          "For a while you hear the wash of the pool filter. Ada comes through the far doorway carrying the saucepan. She disappears into the workshop. Then a woman’s voice says, “Let me out.”",
+          "Simon, close to the microphone, says, “One minute. Let it settle.”",
+          "“Let me out.” The second time is louder. A click is audible. The cloth at the door moves outward and strains along the black cord.",
+          "Ada comes from the workshop without the pan. “Stand back if you can,” she says. She unfolds the hook knife and cuts the cord where it crosses the door’s outer edge. The door opens sharply. Its frame strikes the pier. Glass falls. Miriam comes out behind the moving door, bent forward and holding one hand.",
+          "Simon stops the clip. He has a thumb on the screen, covering nobody you need to see. You ask him to play it once more from the first request. He does. Nothing in the sequence changes.",
+          "“I heard her,” he says. “I thought she meant she couldn’t get the sight. I answered the thing I expected.”",
+          "The clip shows a sequence and contains a request. It does not show Miriam’s face while she is inside, or explain her physical state. It supplies no view into Simon’s mind before he spoke. It does show what his answer was.",
+          "You can compare the visible binding with the inside latch without accepting any private account. The door’s attempted movement stops at the cord; after the cut it opens. An empty reconstruction is still available if you want to examine that relation more closely."
+        ],
+        "choices": [
+          {
+            "id": "recording-keep",
+            "label": "Preserve the full sequence, including Miriam’s request and Simon’s answer.",
+            "target": "concourse",
+            "effects": [
+              "proof_cut",
+              "proof_timing",
+              "proof_binding",
+              "heard_recording",
+              "heard_simon"
+            ],
+            "observation": {
+              "id": "continuous-recording",
+              "text": "The uncut phone clip shows Simon bind the cabinet door. Later Miriam says “Let me out” twice, Simon says “One minute,” Ada cuts the cord, and the opening door strikes the pier. The recording does not show Miriam inside or diagnose her distress."
+            }
+          },
+          {
+            "id": "recording-account",
+            "label": "Keep the clip and ask Simon to explain the added cord.",
+            "target": "simon_account",
+            "effects": [
+              "proof_cut",
+              "proof_timing",
+              "proof_binding",
+              "heard_recording",
+              "heard_simon"
+            ],
+            "observation": {
+              "id": "continuous-recording",
+              "text": "The uncut phone clip shows Simon bind the cabinet door. Later Miriam says “Let me out” twice, Simon says “One minute,” Ada cuts the cord, and the opening door strikes the pier. The recording does not show Miriam inside or diagnose her distress."
+            }
+          }
+        ],
+        "paragraphIds": [
+          "recording.p1",
+          "recording.p2",
+          "recording.p3",
+          "recording.p4",
+          "recording.p5",
+          "recording.p6",
+          "recording.p7",
+          "recording.p8",
+          "recording.p9",
+          "recording.p10",
+          "recording.p11"
+        ],
+        "sourceIds": [
+          "continuous-recording"
+        ]
+      },
+      {
+        "id": "simon_account",
+        "title": "What he was attending to",
+        "paragraphs": [
+          "Simon sets his folded chair down. The hinge has pinched a crescent into his thumb. He studies it while you ask about the binding.",
+          "“I tied it. You can have that sentence without any of the others.”",
+          "He says a narrow seam at the edge of the door admitted a second strip of light. The two strips made it easier to judge distance. He wanted a single line, without a familiar scale beside it. The cord flattened the cloth against the frame.",
+          "“You had an inside release,” you say.",
+          "“I kept checking the latch. Pull, click. Pull, click. I was looking at one part. I knew how that part worked.”",
+          "You ask whether he considered what the cord would do to the whole door.",
+          "“No. Or I considered it for half a second and considered something else. I don’t have an honest way of measuring the difference now.”",
+          "The mirror belonged to you. This is the first time he mentions it without referring to its optical quality. He asks what it cost. You tell him the amount you remember, without attempting to value the years it stood in your room.",
+          "“I can do half next month. It would have to be pieces after that.” He hears what he has said and looks annoyed with himself. “Instalments. Sorry.”",
+          "You ask whether he meant to keep Miriam in against her wish.",
+          "“No. I wanted her to stay long enough to see it. I asked her to stay. Then I made a thing that did the asking for me, whether I was attending to it or not.” He rubs the pinched crescent. “That last sentence is too neat. I tied the cord. She couldn’t get out.”",
+          "He does not say the broken mirror made the stripe false. He wants to test different cameras, different water depths, different light. “There may be no last condition we can remove. I can still find out which conditions belong to this result. You can think my card was absurd and help with that.”",
+          "His account supports an intention to darken the seam. The cord and the film can corroborate his actions; they cannot certify every part of his remembered intention."
+        ],
+        "choices": [
+          {
+            "id": "simon-account-record",
+            "label": "Record his acknowledgment and the limits of what it proves.",
+            "target": "concourse",
+            "effects": [
+              "heard_simon",
+              "heard_simon_account"
+            ],
+            "observation": {
+              "id": "simon-account",
+              "text": "Simon acknowledges adding the exterior binding. He says he wanted darkness at the seam and mistook the first request to leave for an objection to the sight. He agrees the door struck the pier after Ada cut the binding."
+            }
+          },
+          {
+            "id": "simon-account-film",
+            "label": "Ask for the continuous clip before drawing a conclusion about the cut.",
+            "target": "recording",
+            "effects": [
+              "heard_simon",
+              "heard_simon_account"
+            ],
+            "observation": {
+              "id": "simon-account",
+              "text": "Simon acknowledges adding the exterior binding. He says he wanted darkness at the seam and mistook the first request to leave for an objection to the sight. He agrees the door struck the pier after Ada cut the binding."
+            }
+          }
+        ],
+        "variants": [
+          {
+            "id": "simon_account.variant1",
+            "requires": [
+              "shamed_simon"
+            ],
+            "paragraphs": [
+              "“You’re saying I lied,” Simon says. “All right. Let me give you the verbs.” He speaks to Miriam rather than to you. He still puts the phone and the cord within your reach.",
+              "“I tied it. You can have that sentence without any of the others.”",
+              "He says a narrow seam at the edge of the door admitted a second strip of light. The two strips made it easier to judge distance. He wanted a single line, without a familiar scale beside it. The cord flattened the cloth against the frame.",
+              "“You had an inside release,” you say.",
+              "“I kept checking the latch. Pull, click. Pull, click. I was looking at one part. I knew how that part worked.”",
+              "You ask whether he considered what the cord would do to the whole door.",
+              "“No. Or I considered it for half a second and considered something else. I don’t have an honest way of measuring the difference now.”",
+              "The mirror belonged to you. This is the first time he mentions it without referring to its optical quality. He asks what it cost. You tell him the amount you remember, without attempting to value the years it stood in your room.",
+              "“I can do half next month. It would have to be pieces after that.” He hears what he has said and looks annoyed with himself. “Instalments. Sorry.”",
+              "You ask whether he meant to keep Miriam in against her wish.",
+              "“No. I wanted her to stay long enough to see it. I asked her to stay. Then I made a thing that did the asking for me, whether I was attending to it or not.” He rubs the pinched crescent. “That last sentence is too neat. I tied the cord. She couldn’t get out.”",
+              "He does not say the broken mirror made the stripe false. He wants to test different cameras, different water depths, different light. “There may be no last condition we can remove. I can still find out which conditions belong to this result. You can think my card was absurd and help with that.”",
+              "His account supports an intention to darken the seam. The cord and the film can corroborate his actions; they cannot certify every part of his remembered intention."
+            ],
+            "paragraphIds": [
+              "simon_account.variant1.p1",
+              "simon_account.variant1.p2",
+              "simon_account.variant1.p3",
+              "simon_account.variant1.p4",
+              "simon_account.variant1.p5",
+              "simon_account.variant1.p6",
+              "simon_account.variant1.p7",
+              "simon_account.variant1.p8",
+              "simon_account.variant1.p9",
+              "simon_account.variant1.p10",
+              "simon_account.variant1.p11",
+              "simon_account.variant1.p12",
+              "simon_account.variant1.p13"
+            ],
+            "sourceIds": [
+              "present-simon-binding",
+              "present-simon-attention"
+            ]
+          }
+        ],
+        "paragraphIds": [
+          "simon_account.p1",
+          "simon_account.p2",
+          "simon_account.p3",
+          "simon_account.p4",
+          "simon_account.p5",
+          "simon_account.p6",
+          "simon_account.p7",
+          "simon_account.p8",
+          "simon_account.p9",
+          "simon_account.p10",
+          "simon_account.p11",
+          "simon_account.p12",
+          "simon_account.p13"
+        ],
+        "sourceIds": [
+          "present-simon-binding",
+          "present-simon-attention"
+        ]
+      },
+      {
+        "id": "miriam_account",
+        "title": "The person complaining",
+        "paragraphs": [
+          "Miriam has arranged the frozen peas into a thinner layer. She asks you to hold the bag while she finds the opening. The peas are no longer frozen enough to remain individuals when she presses them.",
+          "You ask what she expected from Simon’s trial.",
+          "“A sight. A difficult conversation afterward. Perhaps an hour in which he didn’t have to sell anybody a bathroom. I did not expect him to prove what the world is.”",
+          "Why enter, if she rejected his claim?",
+          "“I didn’t reject the wish behind it. I once thought I lived at the point where all the causes stopped and I began. Work, Mother, the state of my knees: explanations for everything except the person complaining about them. As if she had been dropped in from elsewhere. That was a very laborious way to live.”",
+          "She puts the peas back over her hand. “I think my body and what I understand are in one nature. No extra little person in here who stands outside it and issues instructions. That is a claim about what there is. I do not mean merely that it is a helpful image.”",
+          "You ask whether a mind is then just a story somebody tells about a body.",
+          "“No. That makes thought the unreal part, or a decoration. What I feared had an order you could try to understand. What my body did had an order you could try to understand. I don’t think they are two strangers who met in the cabinet. I also don’t have a complete account of either.”",
+          "From downstairs Simon asks whether she had at any point wanted him to stop the light. “I wanted you to open the door,” she calls back. Her good hand has clenched around a pea. She notices and lets it go.",
+          "“I can speak quite calmly now because I’m sitting outside with my feet dry. Please don’t make that a test of whether I understand Nature. I was terrified. I may be terrified next time I have to use a lift.”",
+          "When you return to the sequence, she repeats it without embellishment: ring, click, push, request, second request, Ada’s warning, release of the door, impact. She accepts that the cause of her distress remains medically unestablished. She does not accept that an unestablished diagnosis makes her request uncertain."
+        ],
+        "choices": [
+          {
+            "id": "miriam-account-record",
+            "label": "Keep her claim about nature distinct from the sequence she reports.",
+            "target": "concourse",
+            "effects": [
+              "heard_miriam",
+              "proof_timing",
+              "heard_miriam_account"
+            ],
+            "observation": {
+              "id": "request-before-cut",
+              "text": "Miriam says she pulled the release, heard its click, pushed a door that stayed shut, and said “Let me out” twice. She heard Ada answer before the cord parted and the door opened."
+            }
+          }
+        ],
+        "variants": [
+          {
+            "id": "miriam_account.variant1",
+            "requires": [
+              "pressed_miriam"
+            ],
+            "paragraphs": [
+              "“You want me to say panic,” Miriam says. “It might be panic. Put a question mark by it. Now let me finish the things I do know.” She takes the bag of peas back from you and sets it on her lap.",
+              "“A sight. A difficult conversation afterward. Perhaps an hour in which he didn’t have to sell anybody a bathroom. I did not expect him to prove what the world is.”",
+              "Why enter, if she rejected his claim?",
+              "“I didn’t reject the wish behind it. I once thought I lived at the point where all the causes stopped and I began. Work, Mother, the state of my knees: explanations for everything except the person complaining about them. As if she had been dropped in from elsewhere. That was a very laborious way to live.”",
+              "She puts the peas back over her hand. “I think my body and what I understand are in one nature. No extra little person in here who stands outside it and issues instructions. That is a claim about what there is. I do not mean merely that it is a helpful image.”",
+              "You ask whether a mind is then just a story somebody tells about a body.",
+              "“No. That makes thought the unreal part, or a decoration. What I feared had an order you could try to understand. What my body did had an order you could try to understand. I don’t think they are two strangers who met in the cabinet. I also don’t have a complete account of either.”",
+              "From downstairs Simon asks whether she had at any point wanted him to stop the light. “I wanted you to open the door,” she calls back. Her good hand has clenched around a pea. She notices and lets it go.",
+              "“I can speak quite calmly now because I’m sitting outside with my feet dry. Please don’t make that a test of whether I understand Nature. I was terrified. I may be terrified next time I have to use a lift.”",
+              "When you return to the sequence, she repeats it without embellishment: ring, click, push, request, second request, Ada’s warning, release of the door, impact. She accepts that the cause of her distress remains medically unestablished. She does not accept that an unestablished diagnosis makes her request uncertain."
+            ],
+            "paragraphIds": [
+              "miriam_account.variant1.p1",
+              "miriam_account.variant1.p2",
+              "miriam_account.variant1.p3",
+              "miriam_account.variant1.p4",
+              "miriam_account.variant1.p5",
+              "miriam_account.variant1.p6",
+              "miriam_account.variant1.p7",
+              "miriam_account.variant1.p8",
+              "miriam_account.variant1.p9",
+              "miriam_account.variant1.p10"
+            ],
+            "sourceIds": [
+              "request-before-cut"
+            ]
+          }
+        ],
+        "paragraphIds": [
+          "miriam_account.p1",
+          "miriam_account.p2",
+          "miriam_account.p3",
+          "miriam_account.p4",
+          "miriam_account.p5",
+          "miriam_account.p6",
+          "miriam_account.p7",
+          "miriam_account.p8",
+          "miriam_account.p9",
+          "miriam_account.p10",
+          "miriam_account.p11"
+        ],
+        "sourceIds": [
+          "request-before-cut"
+        ]
+      },
+      {
+        "id": "ada_miriam",
+        "title": "The Thursday room",
+        "paragraphs": [
+          "The dry towels go on the highest rack. Ada cannot reach it without standing on the low bench. Miriam puts her good hand on the bench to steady it. They perform this small arrangement without discussing it.",
+          "“The choir sent another message,” Miriam says.",
+          "“They can have the key.”",
+          "“They asked if you’d come.”",
+          "“There’s no bus back after nine.”",
+          "“I could fetch you.”",
+          "Ada folds a towel whose corners will not agree. She refolds it. “You don’t like the singing.”",
+          "“I could arrive when it was finished.”",
+          "“That would be a first.”",
+          "Miriam takes her hand off the bench. Ada gets down carefully. You begin folding the remaining towels, giving them the use of a silence that is not quite private.",
+          "“I liked hearing you from the kitchen,” Miriam says. “When you didn’t know you were being heard.”",
+          "“I knew. You stopped the tap.”",
+          "They look at each other. Ada is the first to look down. She has a strip of loose towelling caught around one finger.",
+          "“I don’t want a lift because you nearly got hurt,” she says. “You’ll do everything for two weeks and then you’ll hate the drive. It’s forty minutes each way. You’ll start telling me it’s good to have time to think.”",
+          "“Then let me come once. I might hate it the first time.”",
+          "Ada frees her finger. “Thursday. Quarter past nine. If they do the long one, twenty past.”",
+          "You ask whether the key should go back on its hook. Ada says yes, then changes her mind and puts it in her pocket. Miriam does not mention this. When you take the last towel, Ada asks her about an old choir member’s operation. They talk about the practical problem of sending flowers to somebody who grows better flowers than anybody else."
+        ],
+        "choices": [
+          {
+            "id": "ada-miriam-leave",
+            "label": "Finish the towels and give them the room.",
+            "target": "concourse",
+            "effects": [
+              "heard_ada_intimate"
+            ],
+            "relationship": {
+              "id": "left-room",
+              "text": "I finished the towels and left Ada and Miriam to arrange Thursday without an audience."
+            }
+          }
+        ],
+        "paragraphIds": [
+          "ada_miriam.p1",
+          "ada_miriam.p2",
+          "ada_miriam.p3",
+          "ada_miriam.p4",
+          "ada_miriam.p5",
+          "ada_miriam.p6",
+          "ada_miriam.p7",
+          "ada_miriam.p8",
+          "ada_miriam.p9",
+          "ada_miriam.p10",
+          "ada_miriam.p11",
+          "ada_miriam.p12",
+          "ada_miriam.p13",
+          "ada_miriam.p14",
+          "ada_miriam.p15",
+          "ada_miriam.p16",
+          "ada_miriam.p17"
+        ]
+      },
+      {
+        "id": "simon_ada",
+        "title": "Carrying chairs",
+        "paragraphs": [
+          "You carry two chairs. Ada carries four, which is too many. Simon takes two from her on the landing. For a while the only conversation is about which stack each chair fits.",
+          "“My sister’s coming tomorrow,” Simon says.",
+          "Ada rests the last chair against the wall. “Tell her not to.”",
+          "“She’s coming here anyway. Her boy has football. She can’t spend another hour in the car listening to him explain the match he’s about to play.”",
+          "“Bring him too. There’s a ball downstairs. A soft one.”",
+          "Simon looks through the railing at the damaged cabinet. “I told her I’d made something that wasn’t an imitation of something expensive.”",
+          "Ada waits. You put your chairs down gently.",
+          "“When we were children she used to make me introduce my drawings. Stand on a chair. Tell everyone what they were. I liked the drawing. I liked all of it until I had to stand up. Then I could hear the difference between what I’d made and what I could say.”",
+          "“You say plenty now.”",
+          "“Yes. I got good at that part instead.” He checks whether she has taken it as a joke. She has not. “I wanted her to sit in there without my telling her anything.”",
+          "“You’d have told her where to sit.”",
+          "“All right. Where to sit. Which way to look. When to...” He stops. “I could have let her get bored.”",
+          "Ada turns a chair so its feet fit the stack. “She can still look at the light. With the door off.”",
+          "“Would you?”",
+          "“Probably. I might get bored.”",
+          "He laughs once. From below, Miriam asks where the spare key to the towel room is. Ada answers that it is in the place it has always been. Then she remembers putting it in her pocket and goes down to give it to her.",
+          "Without Ada there, Simon seems to have lost the person he was speaking to. He thanks you for carrying the chairs and begins counting them. He counts the same stack twice."
+        ],
+        "choices": [
+          {
+            "id": "simon-ada-leave",
+            "label": "Leave the family story with the people who heard it.",
+            "target": "concourse",
+            "effects": [
+              "heard_simon_intimate"
+            ],
+            "relationship": {
+              "id": "simon-private",
+              "text": "I heard Simon’s account of his sister without offering it as an explanation for the accident."
+            }
+          }
+        ],
+        "variants": [
+          {
+            "id": "simon_ada.variant1",
+            "requires": [
+              "shamed_simon"
+            ],
+            "paragraphs": [
+              "Simon takes the chairs from you without looking up. He addresses Ada for the rest of the exchange. Your accusation has not cost you access to the evidence; it has cost you his willingness to speak privately to you.",
+              "“My sister’s coming tomorrow,” he tells her. “I said I’d made something that wasn’t an imitation of something expensive.”",
+              "Ada asks if his sister can come later, when the glass is cleared. “She can still look at the light. With the door off.”",
+              "“Would you?”",
+              "“Probably. I might get bored.”",
+              "He says his sister will certainly get bored if he talks too much first. Ada tells him to keep an eye on himself, then carries a stack of chairs to the wall. He helps her. When you offer to carry another, he says they have finished."
+            ],
+            "paragraphIds": [
+              "simon_ada.variant1.p1",
+              "simon_ada.variant1.p2",
+              "simon_ada.variant1.p3",
+              "simon_ada.variant1.p4",
+              "simon_ada.variant1.p5",
+              "simon_ada.variant1.p6"
+            ]
+          }
+        ],
+        "paragraphIds": [
+          "simon_ada.p1",
+          "simon_ada.p2",
+          "simon_ada.p3",
+          "simon_ada.p4",
+          "simon_ada.p5",
+          "simon_ada.p6",
+          "simon_ada.p7",
+          "simon_ada.p8",
+          "simon_ada.p9",
+          "simon_ada.p10",
+          "simon_ada.p11",
+          "simon_ada.p12",
+          "simon_ada.p13",
+          "simon_ada.p14",
+          "simon_ada.p15",
+          "simon_ada.p16",
+          "simon_ada.p17"
+        ]
+      },
+      {
+        "id": "miriam_private",
+        "title": "The inside pocket",
+        "paragraphs": [
+          "Miriam’s coat is hanging beside three children’s coats left since August. She feels in both pockets for her keys, then remembers putting them in a shoe. You offer to fetch the shoe. She says she is glad someone saw her remember.",
+          "Her mother’s old hairbrush is in the inside pocket. She moves it when the lining snags. “That was hers. It isn’t a relic. Mine broke and this one was in a drawer.”",
+          "You ask whether she has kept other things.",
+          "“Too many teaspoons. I gave away the cups, inexplicably. She used to make barley water in a saucepan. You couldn’t make soup in it afterward. Not without a lemon hanging around at the back.”",
+          "She asks what you know of her mother. You say only that you remember Miriam’s lessons being canceled for a year so she could look after her.",
+          "“Two winters. I would explain why she couldn’t go downstairs alone. Next day I’d explain it again. I was collecting reasons as though there would eventually be one she couldn’t refuse. I thought if I understood enough, I would stop being angry with her.”",
+          "Did she?",
+          "“Less often. Never for good. Sometimes what helped was understanding why a sound frightened her. Sometimes what helped was a neighbour sitting there while I went out.”",
+          "“People think understanding is a cold way of loving,” she says. “I think you can come to love Nature by understanding it.” You ask what she means by loving. It seems a difficult word to use here.",
+          "“I don’t mean Nature loved her back. Nothing arranged her illness to improve me. I mean that sometimes, for a little while, I could understand her as a particular being with a nature of her own, necessarily dependent on things beyond her. I was among those things. That understanding was a pleasure even when the thing understood was painful. I wanted more of it. I think it is possible to understand more deeply than that, through what a thing is and what it depends on, without imagining a spectator outside the whole.”",
+          "She rubs the brush with her thumb. “That is a large claim. A memory of being less angry cannot prove it.”",
+          "You ask whether she thinks her mother exists somewhere now.",
+          "“I do not think I will meet her again. Sometimes I still dress carefully on her birthday. I don’t know who that is for. When I say eternal, I am trying to think about something other than how many more mornings a person gets. I don’t understand that well enough to offer it to someone who wants their mother back.”",
+          "Her shoe is by the bench. As you walk toward it, she asks if you have somebody you can call when you need an hour out of a room. You can answer as much of that question as you want. She does not ask for a name."
+        ],
+        "choices": [
+          {
+            "id": "miriam-private-listen",
+            "label": "Keep this conversation private and return with her keys.",
+            "target": "concourse",
+            "effects": [
+              "heard_miriam_intimate"
+            ],
+            "relationship": {
+              "id": "miriam-private",
+              "text": "I kept Miriam’s account of her mother out of the public case."
+            }
+          }
+        ],
+        "variants": [
+          {
+            "id": "miriam_private.variant1",
+            "requires": [
+              "pressed_miriam"
+            ],
+            "paragraphs": [
+              "Miriam takes her coat down. She feels in its pockets and remembers that her keys are in her shoe. You offer to fetch it.",
+              "“Thank you. Just the shoe.”",
+              "You ask whether she would like to say more about what the trial meant to her. She looks at the coat in her hands. “I gave you the order of what happened. I’ll leave it there tonight.”",
+              "She puts her good arm into the sleeve first. The other sleeve requires some care. You hold the coat while she works her hand through. Then she asks you to return to the others.",
+              "At the bench she takes the shoe from you and finds the keys under its loose insole. “There we are.” She starts toward the others, carrying the coat over her good arm."
+            ],
+            "paragraphIds": [
+              "miriam_private.variant1.p1",
+              "miriam_private.variant1.p2",
+              "miriam_private.variant1.p3",
+              "miriam_private.variant1.p4",
+              "miriam_private.variant1.p5"
+            ],
+            "sourceIds": []
+          }
+        ],
+        "paragraphIds": [
+          "miriam_private.p1",
+          "miriam_private.p2",
+          "miriam_private.p3",
+          "miriam_private.p4",
+          "miriam_private.p5",
+          "miriam_private.p6",
+          "miriam_private.p7",
+          "miriam_private.p8",
+          "miriam_private.p9",
+          "miriam_private.p10",
+          "miriam_private.p11",
+          "miriam_private.p12",
+          "miriam_private.p13",
+          "miriam_private.p14"
+        ],
+        "sourceIds": [
+          "present-miriam-confidence"
+        ]
+      },
+      {
+        "id": "shared",
+        "title": "The same account in the same room",
+        "paragraphs": [
+          "You put the plan on the bench. Ada weighs down one corner with the closed knife. Simon starts to put his phone on another, remembers the glass underneath it and chooses a different place.",
+          "You state the sequence you can support: an additional cord bound the cabinet, Miriam asked to leave, Ada cut the cord, the released door struck the pier and broke the mirror. The inside latch could work throughout. Simon acknowledges tying the cord.",
+          "“For the seam,” he says.",
+          "“For the seam,” you repeat. “That is your explanation of why.”",
+          "Miriam wants her request quoted exactly. Ada wants the words “deliberately destroyed” corrected. Simon wants the account to distinguish the failed exit from the sight. Nobody is asking for the same favor.",
+          "“You said you’d check the swing,” Ada tells him.",
+          "“You wrote it.”",
+          "“I told you.”",
+          "“I don’t remember.”",
+          "“All right. I remember telling you. You remember reading it. The mirror still hit the pier.”",
+          "He begins saying that they can keep extending responsibility backward, to the unpadded pier, the lack of room, whoever designed a bath with columns in the wrong place. Ada says the column held up the roof very well.",
+          "Miriam intervenes before he replies. “You can ask what made every one of us possible. I want to ask it too. But we don’t need the complete history of the world to decide whether to put someone back in that cabinet tomorrow.”",
+          "“I know,” Simon says. “I’m trying to work out where an explanation is allowed to stop.”",
+          "“For doing what?” Ada asks.",
+          "He looks at the plan. “For opening it tomorrow.”",
+          "“It stops there.” She touches the cord. “Take the door off. You can carry on with the other question while I do that.”",
+          "Miriam asks her to wait until you have kept whatever measurements you need. Ada puts the screwdriver down. This costs her a little effort. She has begun to enjoy the prospect of removing the door.",
+          "Simon picks up the small camera. “Before you take it apart, will you look at what it actually did? From outside. You can see every part.” Miriam asks Ada whether they can make an open model on a bench. Ada looks at the time, then goes to find something that will hold water."
+        ],
+        "choices": [
+          {
+            "id": "shared-optics",
+            "label": "Repeat the light effect with the cabinet open and nobody enclosed.",
+            "target": "optics",
+            "effects": [
+              "heard_shared"
+            ]
+          },
+          {
+            "id": "shared-pause",
+            "label": "Keep the agreed sequence and return to any unfinished conversations.",
+            "target": "concourse",
+            "effects": [
+              "heard_shared"
+            ]
+          }
+        ],
+        "paragraphIds": [
+          "shared.p1",
+          "shared.p2",
+          "shared.p3",
+          "shared.p4",
+          "shared.p5",
+          "shared.p6",
+          "shared.p7",
+          "shared.p8",
+          "shared.p9",
+          "shared.p10",
+          "shared.p11",
+          "shared.p12",
+          "shared.p13",
+          "shared.p14",
+          "shared.p15",
+          "shared.p16",
+          "shared.p17",
+          "shared.p18"
+        ]
+      },
+      {
+        "id": "optics",
+        "title": "Without a spectator",
+        "paragraphs": [
+          "Simon takes a smaller mirror from his tool case. Ada brings a baking tray from the workshop and fills it with pool water. They set an open model of the arrangement on a bench: light slit, shallow water, inclined mirror. It does not require a door. Miriam sits where she can see everyone’s hands.",
+          "You put the camera where a person’s eye would be. Its screen shows a fine bright line in a dark field. It resembles a far horizon until you try to say how far. You move to the other side of the bench. The camera continues recording it.",
+          "At your request Ada covers the slit with a piece of card. The stripe disappears. She removes the card; it returns. Simon touches the tray. The stripe breaks into moving fragments and gathers itself as the water settles. No part of this result requires the earlier volunteer to have lied about what she saw.",
+          "“So we’ve found conditions of this sight,” Miriam says. “Light through there. Water still enough. A surface in that position. That doesn’t show us the conditions under which any outer object can appear to us at all.”",
+          "The window is still bright enough for the comparison, though the line is weaker than it was in the early clip. Simon says this is a model of the reflected stripe, not a repeat of Miriam’s whole experience in darkness. You mark that limitation beside the result.",
+          "Simon asks her to explain the difference without referring to a philosopher.",
+          "“You move the camera to find whether the stripe persists. To do that you already have to distinguish one place from another, your movement from the stripe’s movement, what happened before from what happened after. An experiment can discover new relations within that field. It cannot just switch the entire field off and still give you an object to inspect.”",
+          "“But why say the field belongs to our way of receiving things? The world might really be spatial, independently of us. Our way of receiving it might succeed because it belongs to that world. You haven’t shown otherwise with a piece of card.”",
+          "“No,” she says. “The card hasn’t proved that. You haven’t proved the opposite by leaving the camera in the room. The disagreement is about what warrants going from the structure of our experience to the structure of things considered apart from it.”",
+          "Ada shifts her weight. “Can you both still see the line?” They can. “Good. I need this hand back.” She gives you the card.",
+          "Simon watches the stripe. “When you say ‘apart from it,’ I picture another room. This one, with everything we contributed taken away. Then I want to get in there. I know that picture is doing something it hasn’t earned.”",
+          "“I don’t think there is a second workshop behind this one,” Miriam says. “I think thought and extension express the same reality, and we are finite ways that reality exists. Understanding a thing’s dependence isn’t peeking at a hidden copy of it.”",
+          "“And you know that same reality how? Through this understanding whose conditions you’ve just made so strict?”",
+          "Miriam leans forward until the peas slip from her hand. She lets the bag fall onto her lap. “That is where I disagree with the limit I was describing. I think understanding can go further than arranging appearances. I think we can know something of how a particular thing follows from Nature. It isn’t a view from outside. But I can’t borrow the camera as proof of that either.”",
+          "You ask whether Nature is then another name for everything piled together.",
+          "“More than the pile,” she says. “What exists in its own right, and what finite things depend on for being and being understood. If I call it God, I don’t mean someone watching to see whether we behave. I mean a cause that isn’t outside what it causes. I know that needs argument. It needs more than saying everything is connected.”",
+          "Simon says this sounds like the complete explanation he was being warned not to claim. Miriam asks him to put the card down while she answers. “You’ll make the answer into tomorrow’s title before I’ve finished.” He puts it down.",
+          "“Suppose what is fundamental has to be understood through itself,” she says, “rather than borrowing what it is from something else. You can’t get two such things just by pointing to different arrangements of the same nature. These bodies differ in position, motion, what they can do. I think those are real differences within extension, not separate pieces of self-existing being. Thought is another expression of what exists in its own right. It isn’t a little substance arriving to drive the bodies.”",
+          "“Why must it be the same being?” Simon asks. “Two things could have something in common without becoming one thing. And why must anything satisfy your definition of independence?”",
+          "“Ordinary things can share properties. I’m talking about what constitutes an entire nature, not whether two people have brown eyes. If you’ve given them the same complete nature, you still owe an account of what divides them. Their positions are already relations within extension. I don’t think you can use those relations to make separate ultimate sources of extension.”",
+          "“And thought?”",
+          "“I think the same argument has to hold. I haven’t shown that merely by saying it.” She moves her hand away from the tray. “But that is the reason I look for understanding through what a thing is, and not only through the last thing that happened to it. When I understand a particular dependence, I don’t think I am holding a picture outside Nature and comparing the two. I think that act of understanding belongs to Nature too.”",
+          "Simon says the act can belong to the world and still misdescribe it. Miriam agrees. For a moment neither can use the agreement to advance. Then Simon asks whether she will write out the argument, including the point about thought. She says yes, if he keeps his question about the definition at the top.",
+          "“Another evening,” he says, without withdrawing the question.",
+          "Ada wants the card. You pass it back. She covers half the slit to see what that will do. Simon bends to look. The disagreement has left them an experiment to carry out, though the experiment will not settle it."
+        ],
+        "choices": [
+          {
+            "id": "optics-narrow",
+            "label": "Ask Simon to describe the repeatable stripe on tomorrow’s card and remove “unconditioned sight.”",
+            "target": "cabinet",
+            "unless": [
+              "optics_done"
+            ],
+            "effects": [
+              "optics_done",
+              "narrow_card"
+            ],
+            "observation": {
+              "id": "stripe-control",
+              "text": "An empty open model produces the stripe on a camera. Covering the light slit removes it; uncovering restores it. The moving water disturbs it. This tests an optical event without enclosing a person."
+            },
+            "interpretation": {
+              "id": "scope-of-test",
+              "text": "I asked for the public description to claim only what this optical test establishes. The metaphysical disagreement remains open."
+            }
+          },
+          {
+            "id": "optics-measure",
+            "label": "Keep the wider claim marked as disputed and ask Simon to preserve the apparatus measurements.",
+            "target": "cabinet",
+            "unless": [
+              "optics_done"
+            ],
+            "effects": [
+              "optics_done",
+              "disputed_card"
+            ],
+            "observation": {
+              "id": "stripe-control",
+              "text": "An empty open model produces the stripe on a camera. Covering the light slit removes it; uncovering restores it. The moving water disturbs it. This tests an optical event without enclosing a person."
+            },
+            "interpretation": {
+              "id": "disputed-scope",
+              "text": "I kept Simon’s wider claim as a disputed interpretation alongside the tested optical conditions, without certifying it."
+            }
+          },
+          {
+            "id": "optics-return",
+            "label": "Return to the cabinet with the optical result and your earlier note unchanged.",
+            "target": "cabinet",
+            "requires": [
+              "optics_done"
+            ]
+          }
+        ],
+        "paragraphIds": [
+          "optics.p1",
+          "optics.p2",
+          "optics.p3",
+          "optics.p4",
+          "optics.p5",
+          "optics.p6",
+          "optics.p7",
+          "optics.p8",
+          "optics.p9",
+          "optics.p10",
+          "optics.p11",
+          "optics.p12",
+          "optics.p13",
+          "optics.p14",
+          "optics.p15",
+          "optics.p16",
+          "optics.p17",
+          "optics.p18",
+          "optics.p19",
+          "optics.p20",
+          "optics.p21",
+          "optics.p22",
+          "optics.p23",
+          "optics.p24",
+          "optics.p25"
+        ],
+        "sourceIds": [
+          "present-optical-control"
+        ]
+      },
+      {
+        "id": "report",
+        "title": "Who will hear it",
+        "paragraphs": [
+          "Simon brings the phone back. Tomorrow’s visitors have begun asking whether they should still come. He has not answered.",
+          "You read the bounded account aloud. Simon added a binding across the door to darken its seam. The binding prevented exit after the inside latch had released. Miriam asked to leave before Ada cut the cord. The freed door struck the pier and the mirror broke. Ada’s account of rescue is supported by the sequence; an attempt to destroy the experiment is not needed to explain the cut.",
+          "You name the sources you selected for the finding, in the order recorded in your notebook. They support the binding, the request to leave, the cut and the door’s impact. You do not add another source merely because it would make the account sound more complete.",
+          "You leave Miriam’s medical state undiagnosed. You do not claim to have inspected anybody’s intentions directly. Simon’s reason for the binding remains his acknowledged reason, consistent with the darkening seam. Ada’s stated reason for cutting is supported by a request that came first.",
+          "The three agree that no visitor will enter the cabinet tomorrow. Ada has the screwdriver. Simon has offered to discuss repayment of the mirror after the glass is cleared. That offer does not settle who should pay what; you have not accepted an amount.",
+          "“They’ve seen the photograph,” Ada says. “They know it’s my knife. Half of them will, anyway.”",
+          "Simon asks whether the full account has to go to everyone. “I can say the demonstration’s off. I can tell them there was a safety failure.”",
+          "“Whose?” Ada asks.",
+          "“Mine.”",
+          "“Then say that.”",
+          "Miriam says she does not want her mother, her beliefs, or any guess about panic used in either message. Her request is easy to honor: none of those things is needed to establish the sequence.",
+          "You can send a factual correction to the same visitors who received the accusation. It will name the actions and withdraw the sabotage claim. Or you can give the full account only to the people here, cancel tomorrow’s trial publicly, and leave Simon to make his own correction. Ada has told you what the second choice will cost her tonight."
+        ],
+        "choices": [
+          {
+            "id": "report-public",
+            "label": "Send the visitors the factual sequence and an explicit correction of the sabotage claim.",
+            "target": "public_account",
+            "effects": [
+              "public_correction"
+            ],
+            "observation": {
+              "id": "bounded-finding",
+              "text": "Simon added a binding that defeated the intended exit. Miriam asked to leave before Ada cut it. The freed door struck the pier and broke the borrowed mirror. The evidence supports Ada’s account of rescue. It does not establish a medical diagnosis or access to reality outside every condition of human knowledge."
+            },
+            "relationship": {
+              "id": "public-account",
+              "text": "I corrected the sabotage claim to the audience that received it, naming the actions without using private conversations."
+            },
+            "irreversible": true
+          },
+          {
+            "id": "report-private",
+            "label": "Keep the full account among the four of you; tell visitors only that tomorrow’s trial is canceled.",
+            "target": "private_account",
+            "effects": [
+              "private_finding"
+            ],
+            "observation": {
+              "id": "bounded-finding",
+              "text": "Simon added a binding that defeated the intended exit. Miriam asked to leave before Ada cut it. The freed door struck the pier and broke the borrowed mirror. The evidence supports Ada’s account of rescue. It does not establish a medical diagnosis or access to reality outside every condition of human knowledge."
+            },
+            "relationship": {
+              "id": "private-account",
+              "text": "I kept the full account in the room and publicly canceled the trial. Ada’s objection to the uncorrected accusation remains."
+            },
+            "irreversible": true
+          }
+        ],
+        "variants": [
+          {
+            "id": "report.variant1",
+            "requires": [
+              "heard_recording"
+            ],
+            "paragraphs": [
+              "Simon brings the phone back. Tomorrow’s visitors have begun asking whether they should still come. He has not answered.",
+              "You read the bounded account aloud. Simon added a binding across the door to darken its seam. The binding prevented exit after the inside latch had released. Miriam asked to leave before Ada cut the cord. The freed door struck the pier and the mirror broke. Ada’s account of rescue is supported by the sequence; an attempt to destroy the experiment is not needed to explain the cut.",
+              "You name the sources you selected for the finding, in the order recorded in your notebook. They support the binding, the request to leave, the cut and the door’s impact. You do not add another source merely because it would make the account sound more complete.",
+              "You leave Miriam’s medical state undiagnosed. You do not claim to have inspected anybody’s intentions directly. Simon’s reason for the binding remains his acknowledged reason, consistent with the darkening seam. Ada’s stated reason for cutting is supported by a request that came first.",
+              "The three agree that no visitor will enter the cabinet tomorrow. Ada has the screwdriver. Simon has offered to discuss repayment of the mirror after the glass is cleared. That offer does not settle who should pay what; you have not accepted an amount.",
+              "“They’ve seen the photograph,” Ada says. “They know it’s my knife. Half of them will, anyway.”",
+              "Simon asks whether the full account has to go to everyone. “I can say the demonstration’s off. I can tell them there was a safety failure.”",
+              "“Whose?” Ada asks.",
+              "“Mine.”",
+              "“Then say that.”",
+              "Miriam says she does not want her mother, her beliefs, or any guess about panic used in either message. Her request is easy to honor: none of those things is needed to establish the sequence.",
+              "You can send a factual correction to the same visitors who received the accusation. It will name the actions and withdraw the sabotage claim. Or you can give the full account only to the people here, cancel tomorrow’s trial publicly, and leave Simon to make his own correction. Ada has told you what the second choice will cost her tonight."
+            ],
+            "paragraphIds": [
+              "report.variant1.p1",
+              "report.variant1.p2",
+              "report.variant1.p3",
+              "report.variant1.p4",
+              "report.variant1.p5",
+              "report.variant1.p6",
+              "report.variant1.p7",
+              "report.variant1.p8",
+              "report.variant1.p9",
+              "report.variant1.p10",
+              "report.variant1.p11",
+              "report.variant1.p12"
+            ]
+          }
+        ],
+        "paragraphIds": [
+          "report.p1",
+          "report.p2",
+          "report.p3",
+          "report.p4",
+          "report.p5",
+          "report.p6",
+          "report.p7",
+          "report.p8",
+          "report.p9",
+          "report.p10",
+          "report.p11",
+          "report.p12"
+        ]
+      },
+      {
+        "id": "public_account",
+        "title": "A correction",
+        "paragraphs": [
+          "Simon types while you read the sequence. He pauses at his own name, then leaves it in. He reads the message aloud before sending it to the same group.",
+          "“The cord I added prevented the door opening. Miriam asked to leave. Ada cut it to get her out. The door struck the pier and the mirror broke. My earlier description of the experiment being deliberately destroyed was misleading. Tomorrow’s enclosed trial is canceled.”",
+          "Ada asks him to replace “misleading” with “wrong.” He looks at you. You point to the sequence you have just established. He makes the change.",
+          "The phone gives a small sound. One person replies with a thumbs-up. Another asks whether they can come and help clear the glass. Simon turns the sound off. You cannot know how twelve people will tell the story tomorrow, but they now have a correction from the person who sent the accusation.",
+          "“I wish you’d let me say it first,” he tells you.",
+          "You say he has said it now. He does not thank you for that.",
+          "Ada begins unscrewing the hinge. Miriam steadies the door from its undamaged edge. Simon stands without a task until Ada asks him for a box deep enough for the long fragments. He goes to find one.",
+          "The stripe is still on the open model. Nobody has offered it as a consolation for the public correction. It remains something Simon knows how to make, and something the others can examine."
+        ],
+        "choices": [
+          {
+            "id": "public-next",
+            "label": "Help finish making the cabinet safe, then decide whether to return for further work.",
+            "target": "continuation",
+            "effects": [
+              "account_given"
+            ]
+          }
+        ],
+        "paragraphIds": [
+          "public_account.p1",
+          "public_account.p2",
+          "public_account.p3",
+          "public_account.p4",
+          "public_account.p5",
+          "public_account.p6",
+          "public_account.p7",
+          "public_account.p8"
+        ]
+      },
+      {
+        "id": "private_account",
+        "title": "The people in this room",
+        "paragraphs": [
+          "You give each of them the full account. Simon sends a shorter message to the visitors: tomorrow’s enclosed trial is canceled after a safety failure. He does not repeat the earlier allegation.",
+          "Ada reads the cancellation. “You haven’t told them I got her out.”",
+          "Simon says he will speak to people himself. She asks which people. He says everyone who asks. She folds her copy of the full account into quarters and puts it in the pocket with the choir-room key.",
+          "“I’m going to send this to two of them,” she says. “They can ask me.”",
+          "Your choice has not bound her to silence. It has left her to correct an accusation she did not make. She is brisk with you while you move the chair out of the way, and no longer asks whether you have eaten.",
+          "Miriam asks Simon to take hold of the door while Ada unscrews the hinge. For a few moments all three need to attend to where their hands are. The door comes free. It is heavier than it looked when it moved.",
+          "Simon asks if the full account can go in the box with the fragments. You keep a copy for yourself and let him put another there. He thanks you for keeping the discussion in the room. Ada is close enough to hear.",
+          "The trial is canceled and the cabinet is being made safe. What the visitors will believe has not been settled by the four people standing here."
+        ],
+        "choices": [
+          {
+            "id": "private-next",
+            "label": "Finish helping with the door, then decide whether to return for further work.",
+            "target": "continuation",
+            "effects": [
+              "account_given"
+            ]
+          }
+        ],
+        "paragraphIds": [
+          "private_account.p1",
+          "private_account.p2",
+          "private_account.p3",
+          "private_account.p4",
+          "private_account.p5",
+          "private_account.p6",
+          "private_account.p7",
+          "private_account.p8"
+        ]
+      },
+      {
+        "id": "continuation",
+        "title": "What remains to do",
+        "paragraphs": [
+          "The door lies flat on two benches, wrapped in old towels. Simon has written the size of each recoverable piece on the wrapping. He asks permission to keep them until you agree what happens to the mirror. You give permission to store them, which is not an agreement about payment.",
+          "He has set the open optical model beside the diving board. “Different light tomorrow,” he says. “It will be worth seeing which measurements still hold.”",
+          "Miriam says she will watch from the gallery. “And you can ask me the question I didn’t answer.”",
+          "“How you know your one Nature.”",
+          "“Yes. Not whether being kind makes it true. The other one.”",
+          "“I still think we might learn that the relations belong to the world, not only to us,” he says to you. “There are failures I could discover. That seems better than repeating what the first success felt like.”",
+          "Miriam says she thinks understanding particular things can participate in a deeper understanding of what they depend on. Simon says this is still too quick. She asks him to bring that objection tomorrow rather than turn it into the title of another display.",
+          "Ada comes back with the mirror’s empty hooks. She has removed them from the door so nobody catches a sleeve. “You can use the room,” she tells him. “You can’t put anyone in a box. And if you need me on a Thursday, ask before six.”",
+          "Simon looks for a blank page in the folder. There is none. Miriam turns one of his rejected display cards over and puts it on the bench. He writes the question on the back, leaving enough space below for more than a reply.",
+          "There is food in the workshop. The potatoes have gone cold. Ada has found bread and something in a jar she is willing to identify only as “last year’s.” You can stay, or take your copy of the account and leave."
+        ],
+        "choices": [
+          {
+            "id": "continue-stay",
+            "label": "Offer to bring a second camera tomorrow and stay for supper tonight.",
+            "target": "supper",
+            "effects": [
+              "future_help",
+              "stayed"
+            ],
+            "relationship": {
+              "id": "future-help",
+              "text": "I offered to bring a second camera for further open experiments, without endorsing a final metaphysical claim."
+            },
+            "ending": true,
+            "irreversible": true
+          },
+          {
+            "id": "continue-supper-only",
+            "label": "Make no promise about tomorrow; stay and help cut the bread.",
+            "target": "supper",
+            "effects": [
+              "stayed"
+            ],
+            "relationship": {
+              "id": "supper-only",
+              "text": "I stayed for supper without promising to join the further inquiry."
+            },
+            "ending": true,
+            "irreversible": true
+          },
+          {
+            "id": "continue-leave",
+            "label": "Make no further promise and leave with the established account.",
+            "target": "leave",
+            "effects": [
+              "left"
+            ],
+            "relationship": {
+              "id": "left-after-case",
+              "text": "I left once the cabinet was safe and the bounded account was delivered."
+            },
+            "ending": true,
+            "irreversible": true
+          }
+        ],
+        "variants": [
+          {
+            "id": "continuation.variant1",
+            "requires": [
+              "narrow_card"
+            ],
+            "paragraphs": [
+              "The door lies flat on two benches, wrapped in old towels. Simon has written the size of each recoverable piece on the wrapping. He asks permission to keep them until you agree what happens to the mirror. You give permission to store them, which is not an agreement about payment.",
+              "Simon has crossed out “An unconditioned sight” on the display card. Below it he has written: “A light effect that can be recorded without a viewer in the cabinet.” “Not much of an invitation,” he says. Then he adds the hours at which the open model will be available.",
+              "He has set the open optical model beside the diving board. “Different light tomorrow,” he says. “It will be worth seeing which measurements still hold.”",
+              "Miriam says she will watch from the gallery. “And you can ask me the question I didn’t answer.”",
+              "“How you know your one Nature.”",
+              "“Yes. Not whether being kind makes it true. The other one.”",
+              "“I still think we might learn that the relations belong to the world, not only to us,” he says to you. “There are failures I could discover. That seems better than repeating what the first success felt like.”",
+              "Miriam says she thinks understanding particular things can participate in a deeper understanding of what they depend on. Simon says this is still too quick. She asks him to bring that objection tomorrow rather than turn it into the title of another display.",
+              "Ada comes back with the mirror’s empty hooks. She has removed them from the door so nobody catches a sleeve. “You can use the room,” she tells him. “You can’t put anyone in a box. And if you need me on a Thursday, ask before six.”",
+              "Simon looks for a blank page in the folder. There is none. Miriam turns one of his rejected display cards over and puts it on the bench. He writes the question on the back, leaving enough space below for more than a reply.",
+              "There is food in the workshop. The potatoes have gone cold. Ada has found bread and something in a jar she is willing to identify only as “last year’s.” You can stay, or take your copy of the account and leave."
+            ],
+            "paragraphIds": [
+              "continuation.variant1.p1",
+              "continuation.variant1.p2",
+              "continuation.variant1.p3",
+              "continuation.variant1.p4",
+              "continuation.variant1.p5",
+              "continuation.variant1.p6",
+              "continuation.variant1.p7",
+              "continuation.variant1.p8",
+              "continuation.variant1.p9",
+              "continuation.variant1.p10",
+              "continuation.variant1.p11"
+            ]
+          },
+          {
+            "id": "continuation.variant2",
+            "requires": [
+              "disputed_card"
+            ],
+            "paragraphs": [
+              "The door lies flat on two benches, wrapped in old towels. Simon has written the size of each recoverable piece on the wrapping. He asks permission to keep them until you agree what happens to the mirror. You give permission to store them, which is not an agreement about payment.",
+              "Simon has put his display card in the folder with the measurements. Across the ambitious phrase you asked him to mark the claim disputed. He has written the word in the margin and underlined it once. The open model can be examined without agreeing to the claim.",
+              "He has set the open optical model beside the diving board. “Different light tomorrow,” he says. “It will be worth seeing which measurements still hold.”",
+              "Miriam says she will watch from the gallery. “And you can ask me the question I didn’t answer.”",
+              "“How you know your one Nature.”",
+              "“Yes. Not whether being kind makes it true. The other one.”",
+              "“I still think we might learn that the relations belong to the world, not only to us,” he says to you. “There are failures I could discover. That seems better than repeating what the first success felt like.”",
+              "Miriam says she thinks understanding particular things can participate in a deeper understanding of what they depend on. Simon says this is still too quick. She asks him to bring that objection tomorrow rather than turn it into the title of another display.",
+              "Ada comes back with the mirror’s empty hooks. She has removed them from the door so nobody catches a sleeve. “You can use the room,” she tells him. “You can’t put anyone in a box. And if you need me on a Thursday, ask before six.”",
+              "Simon looks for a blank page in the folder. There is none. Miriam turns one of his rejected display cards over and puts it on the bench. He writes the question on the back, leaving enough space below for more than a reply.",
+              "There is food in the workshop. The potatoes have gone cold. Ada has found bread and something in a jar she is willing to identify only as “last year’s.” You can stay, or take your copy of the account and leave."
+            ],
+            "paragraphIds": [
+              "continuation.variant2.p1",
+              "continuation.variant2.p2",
+              "continuation.variant2.p3",
+              "continuation.variant2.p4",
+              "continuation.variant2.p5",
+              "continuation.variant2.p6",
+              "continuation.variant2.p7",
+              "continuation.variant2.p8",
+              "continuation.variant2.p9",
+              "continuation.variant2.p10",
+              "continuation.variant2.p11"
+            ]
+          }
+        ],
+        "paragraphIds": [
+          "continuation.p1",
+          "continuation.p2",
+          "continuation.p3",
+          "continuation.p4",
+          "continuation.p5",
+          "continuation.p6",
+          "continuation.p7",
+          "continuation.p8",
+          "continuation.p9",
+          "continuation.p10"
+        ]
+      },
+      {
+        "id": "supper",
+        "title": "Four plates",
+        "paragraphs": [
+          "Ada gives you the bread knife and a plate with a chip too small to warrant a warning. You notice it anyway. She tells you the pickle is marrow. Simon says he thought marrow was a crime committed by people with gardens. He takes some.",
+          "Miriam cannot cut her potato. She holds it with a fork while Ada cuts, an arrangement that requires them to move closer together. When Ada asks whether Thursday is really possible, Miriam opens her calendar and looks.",
+          "Simon begins describing what a second camera might establish. He stops when he realizes Miriam is still looking for Thursday. You eat for a while. Ada tries the pickle again and decides it could have used more salt.",
+          "Outside, somebody has taken in the white overalls. The window is an ordinary dark rectangle with the room in it. If you change your place, the reflected people move. Simon notices and lets it happen.",
+          "Before you leave, you look once more at the wrapping around the mirror. Your name is written on the largest piece. You correct one letter. The fragments remain in the bath by agreement, and the question of payment remains for a conversation you have not yet had.",
+          "When you put the pen down, it rolls into a fold in the towel. Ada takes it out before the next piece of glass is wrapped. She puts it beside your plate. There is still a slice of bread left."
+        ],
+        "choices": [],
+        "variants": [
+          {
+            "id": "supper.variant1",
+            "requires": [
+              "private_finding"
+            ],
+            "paragraphs": [
+              "Ada puts three plates on the table and then, after looking at you, finds a fourth. Her copy of the full account is beside her phone. She has sent it to the two people she mentioned. She does not say what they replied.",
+              "Ada gives you the bread knife and a plate with a chip too small to warrant a warning. You notice it anyway. She tells you the pickle is marrow. Simon says he thought marrow was a crime committed by people with gardens. He takes some.",
+              "Miriam cannot cut her potato. She holds it with a fork while Ada cuts, an arrangement that requires them to move closer together. When Ada asks whether Thursday is really possible, Miriam opens her calendar and looks.",
+              "Simon begins describing what a second camera might establish. He stops when he realizes Miriam is still looking for Thursday. You eat for a while. Ada tries the pickle again and decides it could have used more salt.",
+              "Outside, somebody has taken in the white overalls. The window is an ordinary dark rectangle with the room in it. If you change your place, the reflected people move. Simon notices and lets it happen.",
+              "Before you leave, you look once more at the wrapping around the mirror. Your name is written on the largest piece. You correct one letter. The fragments remain in the bath by agreement, and the question of payment remains for a conversation you have not yet had.",
+              "When you put the pen down, it rolls into a fold in the towel. Ada takes it out before the next piece of glass is wrapped. She puts it beside your plate. There is still a slice of bread left."
+            ],
+            "paragraphIds": [
+              "supper.variant1.p1",
+              "supper.variant1.p2",
+              "supper.variant1.p3",
+              "supper.variant1.p4",
+              "supper.variant1.p5",
+              "supper.variant1.p6",
+              "supper.variant1.p7"
+            ]
+          },
+          {
+            "id": "supper.variant2",
+            "requires": [
+              "public_correction",
+              "shamed_simon"
+            ],
+            "paragraphs": [
+              "Simon sits at the far end of the table. He answers when you ask him to pass something, but his account of tomorrow’s apparatus is addressed to Miriam. The public correction has not repaired the earlier insult.",
+              "Ada gives you the bread knife and a plate with a chip too small to warrant a warning. You notice it anyway. She tells you the pickle is marrow. Simon says he thought marrow was a crime committed by people with gardens. He takes some.",
+              "Miriam cannot cut her potato. She holds it with a fork while Ada cuts, an arrangement that requires them to move closer together. When Ada asks whether Thursday is really possible, Miriam opens her calendar and looks.",
+              "Simon begins describing what a second camera might establish. He stops when he realizes Miriam is still looking for Thursday. You eat for a while. Ada tries the pickle again and decides it could have used more salt.",
+              "Outside, somebody has taken in the white overalls. The window is an ordinary dark rectangle with the room in it. If you change your place, the reflected people move. Simon notices and lets it happen.",
+              "Before you leave, you look once more at the wrapping around the mirror. Your name is written on the largest piece. You correct one letter. The fragments remain in the bath by agreement, and the question of payment remains for a conversation you have not yet had.",
+              "When you put the pen down, it rolls into a fold in the towel. Ada takes it out before the next piece of glass is wrapped. She puts it beside your plate. There is still a slice of bread left."
+            ],
+            "paragraphIds": [
+              "supper.variant2.p1",
+              "supper.variant2.p2",
+              "supper.variant2.p3",
+              "supper.variant2.p4",
+              "supper.variant2.p5",
+              "supper.variant2.p6",
+              "supper.variant2.p7"
+            ]
+          }
+        ],
+        "paragraphIds": [
+          "supper.p1",
+          "supper.p2",
+          "supper.p3",
+          "supper.p4",
+          "supper.p5",
+          "supper.p6"
+        ]
+      },
+      {
+        "id": "leave",
+        "title": "The mirror will keep",
+        "paragraphs": [
+          "Ada checks that you have a copy of the account. She asks you to close the outer door firmly; the latch catches only if you bring it all the way to the frame. You do so, without treating this as a further clue.",
+          "Through the glass you see Simon holding the bread while Miriam tries to get the pickle jar open. Ada takes it from her and uses the edge of a spoon under the lid. You leave before hearing whether it works.",
+          "At the bus stop you find white dust on one cuff. The mirror fragments are wrapped and stored by agreement. Tomorrow’s enclosed trial is canceled. Repayment remains to be discussed. Those are matters for the next ordinary day.",
+          "You fold the account along its original crease. On one side are the few sentences that will explain the break to somebody who was not there. On the other is an empty margin. You had meant to write down Simon’s last question before you forgot its exact words.",
+          "The bus comes while you are rereading the passage about the brass ring. The latch withdrew. The door moved a little. You put the phone away and hold out a hand for the driver."
+        ],
+        "choices": [],
+        "paragraphIds": [
+          "leave.p1",
+          "leave.p2",
+          "leave.p3",
+          "leave.p4",
+          "leave.p5"
+        ]
+      },
+      {
+        "id": "finding_notebook",
+        "title": "The account in your notebook",
+        "paragraphs": [
+          "You put the sequence together beside the sources you used. The added cord held the door after the latch withdrew. Miriam asked to leave; Ada cut the cord; the freed door struck the pier.",
+          "The account does not tell you everything Simon meant, or why the sight frightened Miriam. You have not used a private conversation to supply either answer.",
+          "Ada is rinsing the saucepan. Simon looks up when you stop writing. He asks whether you have something to tell them. You can gather them now or finish another conversation first."
+        ],
+        "choices": [
+          {
+            "id": "finding-share",
+            "label": "Bring the three people together and give them the supported sequence.",
+            "target": "shared",
+            "when": {
+              "op": "all",
+              "args": [
+                {
+                  "op": "always"
+                },
+                {
+                  "op": "hasDeduction",
+                  "id": "accident-sequence"
+                }
+              ]
+            },
+            "actions": [
+              {
+                "type": "disclose",
+                "characterId": "ada",
+                "refId": "accident-sequence"
+              },
+              {
+                "type": "disclose",
+                "characterId": "simon",
+                "refId": "accident-sequence"
+              },
+              {
+                "type": "disclose",
+                "characterId": "miriam",
+                "refId": "accident-sequence"
+              },
+              {
+                "type": "setBelief",
+                "characterId": "simon",
+                "beliefId": "simon_sabotage",
+                "value": false
+              }
+            ]
+          },
+          {
+            "id": "finding-keep",
+            "label": "Keep the finding in the notebook for now and return to the room.",
+            "target": "concourse"
+          }
+        ],
+        "paragraphIds": [
+          "finding_notebook.p1",
+          "finding_notebook.p2",
+          "finding_notebook.p3"
+        ]
+      }
+    ],
+    "schemaVersion": 2,
+    "beliefIds": [
+      "simon_sabotage"
+    ],
+    "sources": [
+      {
+        "id": "present-sabotage-message",
+        "title": "The message to twelve visitors",
+        "text": "Simon’s phone shows a photograph of the broken mirror and his message: “The experiment was deliberately destroyed.” Twelve people have read it.",
+        "kind": "statement",
+        "provenanceId": "",
+        "speakerId": "simon",
+        "claimIds": [
+          "simon_sabotage"
+        ]
+      },
+      {
+        "id": "request-before-cut",
+        "title": "Miriam’s sequence",
+        "text": "Miriam says she pulled the release, heard its click, pushed a door that stayed shut, and said “Let me out” twice. She heard Ada answer before the cord parted and the door opened.",
+        "kind": "statement",
+        "provenanceId": "miriam-first-person-account",
+        "speakerId": "miriam"
+      },
+      {
+        "id": "ada-cut",
+        "title": "Ada’s account of the cut",
+        "text": "Ada acknowledges cutting the exterior cord. She says she heard Miriam ask to leave and saw the door strain against the cord. She kept the two cut ends.",
+        "kind": "statement",
+        "provenanceId": "ada-first-person-account",
+        "speakerId": "ada"
+      },
+      {
+        "id": "latch-click",
+        "title": "The release after the cut",
+        "text": "At the damaged cabinet I pulled the brass ring. The latch withdrew and the door moved a little. This was after the cord had been cut.",
+        "kind": "observation",
+        "provenanceId": "cabinet-after-event-inspection"
+      },
+      {
+        "id": "present-empty-release-test",
+        "title": "The empty binding test",
+        "text": "With nobody inside, a padded reconstruction showed that the exterior cord held the door shut after the inside latch withdrew. Slackening the cord allowed the door to open as far as the padded chair.",
+        "kind": "observation",
+        "provenanceId": "empty-cabinet-reconstruction"
+      },
+      {
+        "id": "present-impact-geometry",
+        "title": "The mirror’s outward swing",
+        "text": "The mirror is bolted to the inside of an outward-opening door. The concrete pier is in its arc. The dent on the mirror frame aligns with the pale chip above the old felt pad; the padded chair stops the reconstructed swing before that point.",
+        "kind": "observation",
+        "provenanceId": "empty-cabinet-reconstruction"
+      },
+      {
+        "id": "present-simon-binding",
+        "title": "Simon’s acknowledgment",
+        "text": "Simon acknowledges adding the exterior binding after Miriam went inside, to close the seam against light.",
+        "kind": "statement",
+        "provenanceId": "simon-binding-account",
+        "speakerId": "simon"
+      },
+      {
+        "id": "present-simon-attention",
+        "title": "Simon’s account of his attention",
+        "text": "Simon says he mistook the first request to leave for an objection to the sight. He cannot measure now whether he considered the cord’s effect on the whole door for an instant or not at all.",
+        "kind": "statement",
+        "provenanceId": "simon-binding-account",
+        "speakerId": "simon"
+      },
+      {
+        "id": "continuous-recording",
+        "title": "The continuous incident recording",
+        "text": "The uncut phone clip shows Simon bind the cabinet door. Later Miriam says “Let me out” twice, Simon says “One minute,” Ada cuts the cord, and the opening door strikes the pier. The recording does not show Miriam inside or diagnose her distress.",
+        "kind": "document",
+        "provenanceId": "continuous-incident-recording"
+      },
+      {
+        "id": "present-empty-optical-clip",
+        "title": "The earlier empty recording",
+        "text": "Simon’s earlier clip shows a stripe recorded by a camera inside the empty cabinet while he walks outside. This is a separate recording from the continuous incident clip.",
+        "kind": "document",
+        "provenanceId": "empty-optical-recording"
+      },
+      {
+        "id": "present-unconditioned-card",
+        "title": "Simon’s printed claim",
+        "text": "The card calls the effect “An unconditioned sight.” This is Simon’s description, not a finding established by the earlier empty recording.",
+        "kind": "statement",
+        "provenanceId": "simon-display-card",
+        "speakerId": "simon"
+      },
+      {
+        "id": "present-optical-control",
+        "title": "The open optical control",
+        "text": "An empty open model produces the stripe on a camera. Covering the light slit removes it; uncovering restores it. Moving water disturbs it. This tests an optical event without enclosing a person.",
+        "kind": "observation",
+        "provenanceId": "open-optical-control"
+      },
+      {
+        "id": "present-miriam-confidence",
+        "title": "Miriam’s private account",
+        "text": "Miriam described caring for her mother over two winters, the teaspoons and the barley-water saucepan whose lemon remained in later soup. She said understanding sometimes reduced her anger; help from a neighbour also mattered. This conversation was private.",
+        "kind": "statement",
+        "provenanceId": "miriam-private-care-account",
+        "speakerId": "miriam"
+      },
+      {
+        "id": "present-plan",
+        "title": "The unfinished check",
+        "text": "The plan shows the door, the inside pull and the pier, but no exterior binding. Ada pencilled “Check swing before glass goes on.” There is no tick beside it.",
+        "kind": "document",
+        "provenanceId": "printed-cabinet-plan"
+      },
+      {
+        "id": "claimed-sight",
+        "title": "The kept gallery note",
+        "text": "Simon’s card calls the effect “An unconditioned sight.” His earlier clip shows a stripe recorded inside the empty cabinet while he walks outside.",
+        "kind": "document",
+        "provenanceId": "gallery-empty-record-and-card"
+      },
+      {
+        "id": "binding-test",
+        "title": "The kept reconstruction note",
+        "text": "With nobody inside, a padded reconstruction showed the external cord held the door shut after the inside latch withdrew. Simon acknowledged adding this cord to darken the seam. A chip in the concrete pier matches the impact damage on the mirror frame.",
+        "kind": "observation",
+        "provenanceId": "empty-cabinet-reconstruction"
+      },
+      {
+        "id": "simon-account",
+        "title": "Simon’s fuller acknowledgment",
+        "text": "Simon acknowledges adding the exterior binding. He says he wanted darkness at the seam and mistook the first request to leave for an objection to the sight. He agrees the door struck the pier after Ada cut the binding.",
+        "kind": "statement",
+        "provenanceId": "simon-binding-account",
+        "speakerId": "simon"
+      },
+      {
+        "id": "stripe-control",
+        "title": "The kept optical control",
+        "text": "An empty open model produces the stripe on a camera. Covering the light slit removes it; uncovering restores it. The moving water disturbs it. This tests an optical event without enclosing a person.",
+        "kind": "observation",
+        "provenanceId": "open-optical-control"
+      },
+      {
+        "id": "bounded-finding",
+        "title": "The account delivered",
+        "text": "Simon added a binding that defeated the intended exit. Miriam asked to leave before Ada cut it. The freed door struck the pier and broke the borrowed mirror. The evidence supports Ada’s account of rescue. It does not establish a medical diagnosis or access to reality outside every condition of human knowledge.",
+        "kind": "statement",
+        "provenanceId": "blaise-delivered-finding",
+        "speakerId": "blaise"
+      }
+    ],
+    "characters": [
+      {
+        "id": "blaise",
+        "name": "Blaise Bloom",
+        "initial": {
+          "knows": [],
+          "believes": [],
+          "claims": []
+        }
+      },
+      {
+        "id": "ada",
+        "name": "Ada March",
+        "initial": {
+          "knows": [
+            "ada-cut",
+            "present-plan"
+          ],
+          "believes": [],
+          "claims": []
+        }
+      },
+      {
+        "id": "simon",
+        "name": "Simon Vane",
+        "initial": {
+          "knows": [
+            "present-simon-binding",
+            "present-simon-attention",
+            "present-sabotage-message",
+            "present-empty-optical-clip",
+            "present-unconditioned-card"
+          ],
+          "believes": [
+            "simon_sabotage"
+          ],
+          "claims": [
+            "present-sabotage-message",
+            "present-unconditioned-card"
+          ]
+        }
+      },
+      {
+        "id": "miriam",
+        "name": "Miriam Verney",
+        "initial": {
+          "knows": [
+            "request-before-cut",
+            "present-miriam-confidence"
+          ],
+          "believes": [],
+          "claims": []
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "accident-sequence",
+        "text": "What sequence explains the binding, cut and broken mirror?",
+        "when": {
+          "op": "any",
+          "args": [
+            {
+              "op": "hasSource",
+              "id": "request-before-cut"
+            },
+            {
+              "op": "hasSource",
+              "id": "ada-cut"
+            },
+            {
+              "op": "hasSource",
+              "id": "continuous-recording"
+            }
+          ]
+        },
+        "candidates": [
+          {
+            "id": "rescue-then-impact",
+            "text": "Simon’s added binding obstructed the exit. Miriam asked to leave before Ada cut it; the freed door then struck the pier."
+          },
+          {
+            "id": "cut-before-request",
+            "text": "Ada cut the cord before Miriam asked to leave, and the later request explains none of the intervention.",
+            "contradictedBy": [
+              "request-before-cut",
+              "ada-cut",
+              "continuous-recording"
+            ]
+          },
+          {
+            "id": "latch-proves-exit",
+            "text": "The moving latch shows that Miriam had a usable exit while the exterior binding was intact.",
+            "contradictedBy": [
+              "present-empty-release-test",
+              "continuous-recording"
+            ]
+          },
+          {
+            "id": "proven-intended-injury",
+            "text": "The physical sequence proves Simon intended to injure Miriam."
+          }
+        ],
+        "supportedCandidateId": "rescue-then-impact",
+        "proof": {
+          "op": "any",
+          "args": [
+            {
+              "op": "ref",
+              "refId": "continuous-recording"
+            },
+            {
+              "op": "all",
+              "args": [
+                {
+                  "op": "ref",
+                  "refId": "request-before-cut"
+                },
+                {
+                  "op": "ref",
+                  "refId": "ada-cut"
+                },
+                {
+                  "op": "any",
+                  "args": [
+                    {
+                      "op": "ref",
+                      "refId": "binding-test"
+                    },
+                    {
+                      "op": "all",
+                      "args": [
+                        {
+                          "op": "ref",
+                          "refId": "present-empty-release-test"
+                        },
+                        {
+                          "op": "ref",
+                          "refId": "present-impact-geometry"
+                        },
+                        {
+                          "op": "any",
+                          "args": [
+                            {
+                              "op": "ref",
+                              "refId": "present-simon-binding"
+                            },
+                            {
+                              "op": "ref",
+                              "refId": "simon-account"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "allowedCorroborators": [
+          "latch-click",
+          "present-simon-attention",
+          "present-plan",
+          "present-empty-release-test",
+          "present-impact-geometry",
+          "present-simon-binding",
+          "simon-account",
+          "binding-test",
+          "request-before-cut",
+          "ada-cut",
+          "continuous-recording"
+        ],
+        "feedback": [
+          {
+            "code": "premature",
+            "text": "The click belongs to the latch. To explain the usable exit and the later cut, your selected account still needs more than that one moving part.",
+            "when": {
+              "op": "hasSource",
+              "id": "latch-click"
+            },
+            "mentions": [
+              "latch-click"
+            ]
+          },
+          {
+            "code": "contradictory",
+            "text": "Miriam’s account places her request before Ada’s cut. Keep the order she reports visible while you compare this candidate.",
+            "when": {
+              "op": "hasSource",
+              "id": "request-before-cut"
+            },
+            "mentions": [
+              "request-before-cut"
+            ]
+          },
+          {
+            "code": "irrelevant",
+            "text": "The selected material includes something that does not help establish this sequence. It remains in your notebook; submitting it here has not told the people in the room."
+          },
+          {
+            "code": "unsupported",
+            "text": "That claim reaches beyond what your selected sources establish. You can keep the question open and examine another part of the account."
+          },
+          {
+            "code": "supported",
+            "text": "Your selected sources support the binding, request, cut and impact in that order. The finding is in your notebook. Choosing who hears it is a separate action."
+          }
+        ],
+        "effects": [
+          "deduced_accident",
+          "proof_cut",
+          "proof_timing",
+          "proof_binding"
+        ],
+        "target": "finding_notebook"
+      }
+    ],
+    "interpretationRules": [
+      {
+        "id": "latch-read-again",
+        "title": "Reconsider the working latch",
+        "text": "The observed click can remain exactly as it was while its meaning changes: a withdrawing latch did not establish that the exterior binding permitted the whole door to open.",
+        "when": {
+          "op": "all",
+          "args": [
+            {
+              "op": "hasSource",
+              "id": "latch-click"
+            },
+            {
+              "op": "any",
+              "args": [
+                {
+                  "op": "hasSource",
+                  "id": "present-empty-release-test"
+                },
+                {
+                  "op": "hasSource",
+                  "id": "continuous-recording"
+                }
+              ]
+            }
+          ]
+        },
+        "relatedRefs": [
+          "latch-click"
+        ]
+      }
+    ],
+    "hints": [
+      {
+        "id": "accident-known-order",
+        "label": "Review the kind of evidence this question needs",
+        "questionId": "accident-sequence",
+        "when": {
+          "op": "any",
+          "args": [
+            {
+              "op": "hasSource",
+              "id": "request-before-cut"
+            },
+            {
+              "op": "hasSource",
+              "id": "ada-cut"
+            },
+            {
+              "op": "hasSource",
+              "id": "continuous-recording"
+            }
+          ]
+        },
+        "mentions": [],
+        "text": "An account of the order and an account of how the door was held answer different parts of the question. Select a set that supports the full sequence, then decide whether any extra item helps that same factual claim.",
+        "reveals": false
+      }
+    ]
+  },
+  "annotations": [],
+  "fixedEvents": []
+}

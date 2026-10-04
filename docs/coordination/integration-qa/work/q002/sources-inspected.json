@@ -1,0 +1,199 @@
+{
+  "scope": "Coordination and integration inspection; narrative excerpts establish boundaries, no complete literary reread claimed. Long mixed reads hit tool output limits; files not marked full were inspected selectively.",
+  "missingRequestedAliases": [
+    "WORK-BOARD.json (actual live file docs/coordination/WORK-BOARD.json)",
+    "narrative/CURRENT-READING.md (current file CURRENT-READING-ORDER.md)"
+  ],
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "9eead1ceabef4d513b3ed9fa48c4aef50e623c0bb07ccb7f20ab9948ec5274c1",
+      "readScope": "full"
+    },
+    {
+      "path": "RESUME.md",
+      "sha256": "161bfd087ef1bc18f5c0501634c33bd25b393d8f0c4a913658b39335cd1e88d6",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/OWNER-KICKOFF-v4.md",
+      "sha256": "773e3cb9ef1f45945080fe71f9c0cbd65d9f80aa1fe58eebba7a55c1934ae1b3",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/OWNER-CONTINUATION-2026-10-03.txt",
+      "sha256": "172b7725c635666bed7462edb2a7706ffeefae5aaf850602c161e872ac761674",
+      "readScope": "selective/excerpts"
+    },
+    {
+      "path": "docs/OWNER-VISUAL-SUPPLEMENT-2026-10-03.txt",
+      "sha256": "5772f8633c3c8df0052635f087c6bfeaa92516a3fec7e80ab43fe224fad64344",
+      "readScope": "selective/excerpts"
+    },
+    {
+      "path": "docs/OWNER-NAMING-CLARIFICATION-2026-10-03.md",
+      "sha256": "fb2d882bca9ce94ccd1944b86a6d52c57a31a2313eb23e34d1749a1aecf4831a",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/OWNER-LOOP-AND-TEAM-2026-10-03.md",
+      "sha256": "049494ffa929e6e386a2364eaa4060e459bb74668103687ef6b36b04b817fc8c",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/OWNER-PSYCHOLOGICAL-MALE-PROTAGONIST-2026-10-03.md",
+      "sha256": "237c131fb559b204d9d7adb3b3ab3d219cf426a72bd7bb0c013e0fb909eb434f",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/OWNER-GITHUB-AUTHORIZATION-2026-10-04.md",
+      "sha256": "8347660ed6a2ee88fd8ee4fbff676d6785cb130d2788b0e6093a13ab494c6b3e",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/OWNER-3D-FACELESS-2026-10-04.md",
+      "sha256": "a071eef17d7772383f8c5ec1547f5d89b55b393a4a7c87637ae5cf8cce32aff2",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/execution/STATE.json",
+      "sha256": "2ca339ef06043eeaedfba898c9c6b6d1064e577334be027f21e7823de97c479b",
+      "readScope": "selective/excerpts"
+    },
+    {
+      "path": "docs/execution/HANDOFF.md",
+      "sha256": "cce894fb05a56a6c7fa56c3a55d07439e60f0e7306d5eef289f9afab59cd43c3",
+      "readScope": "selective/excerpts"
+    },
+    {
+      "path": "docs/execution/BASELINE-RECONCILIATION.md",
+      "sha256": "eda782e4128388806213a298a57f7d458c58679022b9ce628ac61f0629a395c0",
+      "readScope": "selective/excerpts"
+    },
+    {
+      "path": "docs/coordination/README.md",
+      "sha256": "c65d7f0f512c820129872e5c171533c1b9a555c5b847c0f45d293497d62832ef",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/coordination/GITHUB-WORKFLOW.md",
+      "sha256": "598f68f8ceeaf66b060962b1bd292a7b52d031ea30c02a258db19ae739beb4d0",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/coordination/WORK-BOARD.json",
+      "sha256": "42e4aaad6de999cbbc350bb937355d23e46cdeb26320a817c10c6e35699ed7c1",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/coordination/integration-qa/REQUEST.md",
+      "sha256": "06f93866111fc9254e08cc33ee3ae34c9ed2ecff1083321c202a9945541b2025",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/archive/coordination-requests-001/integration-qa-REQUEST.md",
+      "sha256": "5e806ddb4215f11bf2db730c1d8a8019da08543b9ac84a9c24e8cecd1710cc7b",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/contracts/EVIDENCE-KNOWLEDGE-V2.md",
+      "sha256": "7f5347aad51c416def4b7ede0a6a228cb74fe185a5723355b23dc04c73a69c53",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/contracts/STORAGE-VERSIONS-AND-OWNERSHIP.md",
+      "sha256": "e9d98f26e0c7baf0e481bbcd258c1e508a5db79f27795433619ef6ed463ce990",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/reviews/INSTALLED-V2-04.md",
+      "sha256": "4c22d2f0c5a1077cdc8a200f9314f59b62b7512572c837c2f9e62ce67979a63f",
+      "readScope": "selective/excerpts"
+    },
+    {
+      "path": "docs/reviews/EVIDENCE-V2-INDEPENDENT-03.md",
+      "sha256": "aa80f1e062c91fdd9a59d6c6e24b3547cbd97e1bef368ae5a0ee39fa1bccdc72",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/reviews/EVIDENCE-PLAYER-INTEGRATION.md",
+      "sha256": "b776b20d93066abaee667a375c18a07366d7c4d7827134eeb7366870417d238a",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/reviews/CORRUPT-OWNED-SLOT-REPAIR-2026-10-04.md",
+      "sha256": "13f8607a95a3cd9298a8ab407ac57e7d529ade8df3a42efdca5580ceeceed32e",
+      "readScope": "full"
+    },
+    {
+      "path": "docs/reviews/ACCEPTANCE-GAPS-02.md",
+      "sha256": "702f65b6ddbb155539ff29adc5610ea8ad0d768d1f9e26dbb1ae7cde5d608481",
+      "readScope": "selective/excerpts"
+    },
+    {
+      "path": "docs/reviews/L3-PHILOSOPHY-AND-CAUSALITY-04.md",
+      "sha256": "95d2e9f4cea2e6a9de95dd7b3bb770cb61b1a1c837439ce23dba2201d36812f5",
+      "readScope": "selective/excerpts"
+    },
+    {
+      "path": "docs/execution/evidence/browser-v2/report.json",
+      "sha256": "162d450304f3912ab2260d65195d0a73f660487efa7c65a227410d780fb2e732",
+      "readScope": "full"
+    },
+    {
+      "path": "tools/browser-v2-check.mjs",
+      "sha256": "c6095636e41e1f2dd453ffb23e6e46ef82702cba320a2804a3ff5d84ef169066",
+      "readScope": "full"
+    },
+    {
+      "path": "narrative/CURRENT-READING-ORDER.md",
+      "sha256": "3e5de33355bc9a4b392e440472ad13d95f7f394249865da012b47a5cc3aecd11",
+      "readScope": "full"
+    },
+    {
+      "path": "narrative/NAMES.md",
+      "sha256": "fcd89bfc5a3051e304a5a2492a5e6fa85c9df6f06251397b2900ee6bd07907d6",
+      "readScope": "full"
+    },
+    {
+      "path": "narrative/VOICE.md",
+      "sha256": "804a65cacca1fabbe939ab0b769ce61edd8773c8cf9e5a387c067350aea9a5a9",
+      "readScope": "selective/excerpts"
+    },
+    {
+      "path": "narrative/MANUSCRIPT.md",
+      "sha256": "efc3ab03a9c2201b4c179481f7f6210936e445d42dd9de8cb45af32a67afe88c",
+      "readScope": "selective/excerpts"
+    },
+    {
+      "path": "narrative/loop/SELECTED-LEDGER-L2.md",
+      "sha256": "b46674abcc3f30246a6c868f5115bc00b8d4d8189627342cc05c1d093d0cde29",
+      "readScope": "full"
+    },
+    {
+      "path": "narrative/loop/BLAISE-FIRST-RETURN.md",
+      "sha256": "53058900402c71cc898750090f70d2d729efcfad944ad0909b5983b3a50a605e",
+      "readScope": "selective/excerpts"
+    },
+    {
+      "path": "narrative/loop/BLAISE-ALLOWED.md",
+      "sha256": "ab95d4f6b526e376bfa7b502ce0ab9c625ef278cfe2ecfdf32bcc17b4e102bf6",
+      "readScope": "selective/excerpts"
+    },
+    {
+      "path": "narrative/loop/RETURN-INVESTIGATION-L3.md",
+      "sha256": "2e54f9b844bbd6eacdaa4f202584c90fd3a8d8a3c9a3f80422bada119ec6cc36",
+      "readScope": "selective/excerpts"
+    },
+    {
+      "path": "narrative/loop/ENDING-L3-AUDITIONS.md",
+      "sha256": "7154aac4ecbe2ac515184c0da80816faddc7675dfb8c42db3dfd6977ee29b79f",
+      "readScope": "selective/excerpts"
+    },
+    {
+      "path": "narrative/loop/OCCASION-REQUIREMENTS-L3.md",
+      "sha256": "540a1348eb5d66e9eb66ac285692652acd00d679b9a843d76dcf5b20d9073594",
+      "readScope": "selective/excerpts"
+    }
+  ]
+}

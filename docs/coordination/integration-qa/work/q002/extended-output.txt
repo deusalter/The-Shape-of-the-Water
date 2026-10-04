@@ -1,0 +1,30 @@
+E01 Nested independent OR route edited, undone, redone, exported/reimported and played in real preview
+TimeoutError: locator.selectOption: Timeout 7000ms exceeded.
+Call log:
+[2m  - waiting for getByLabel('Proof operator', { exact: true }).last()[22m
+
+E02 Real studio editor keyboard/reflow and axe at narrow width
+E03 Illustrated canonical encounter at 400% reflow, accessibility and actual offline reload
+E04 Installed legacy authored history migrates through actual retained-run UI; cancellation and quota preserve source slot
+{
+  "status": "FAIL",
+  "checks": [
+    {
+      "id": "E01",
+      "status": "FAIL"
+    },
+    {
+      "id": "E02",
+      "status": "PASS"
+    },
+    {
+      "id": "E03",
+      "status": "PASS"
+    },
+    {
+      "id": "E04",
+      "status": "PASS"
+    }
+  ],
+  "pageErrors": []
+}

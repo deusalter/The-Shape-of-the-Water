@@ -1,0 +1,38 @@
+{
+  "suite": "minimal-repros",
+  "inputCommit": "69ec3ca3b22238612a5c806c992ed5e212ed2006",
+  "startedAt": "2026-10-04T00:50:47.978Z",
+  "checks": [
+    {
+      "id": "R01",
+      "name": "Confirm imported-new-ID draft saving failure",
+      "status": "PASS",
+      "startedAt": "2026-10-04T00:50:48.153Z",
+      "detail": {
+        "reproductionConfirmed": true,
+        "desiredBehaviorResult": "FAIL",
+        "notice": "Save failed. The saved last-valid preview failed validation or belongs to another project. Download the draft to preserve it."
+      },
+      "trace": []
+    },
+    {
+      "id": "R02",
+      "name": "Confirm source-provenance draft save and export failures",
+      "status": "PASS",
+      "startedAt": "2026-10-04T00:50:48.877Z",
+      "detail": {
+        "reproductionConfirmed": true,
+        "desiredBehaviorResult": "FAIL",
+        "save": "Save failed. content.sources.0.provenanceId: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/ Download the draft to preserve it.",
+        "exportNotice": "Error: content.sources.0.provenanceId: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/"
+      },
+      "trace": []
+    }
+  ],
+  "pageErrors": [],
+  "externalRequests": [],
+  "trace": [],
+  "finishedAt": "2026-10-04T00:50:49.680Z",
+  "status": "PASS",
+  "browserVersion": "151.0.7922.173"
+}

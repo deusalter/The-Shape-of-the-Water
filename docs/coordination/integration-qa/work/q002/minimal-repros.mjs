@@ -1,0 +1,9 @@
+import {suite,expect,valid,folder,write} from './browser-common.mjs';
+const s=await suite('minimal-repros');
+await s.check('R01','Confirm imported-new-ID draft saving failure',async()=>{
+ const {page}=await s.open();await valid(page);await page.getByLabel('Import project or player content').setInputFiles(folder+'A04-input.json');await expect(page.getByRole('region',{name:'Content diagnostics'})).toContainText('cannot replace');await page.getByRole('button',{name:'Save author project',exact:true}).click();await expect(page.getByRole('status').first()).toContainText('belongs to another project');await page.screenshot({path:folder+'screenshots/A04-viewport.png'});return {reproductionConfirmed:true,desiredBehaviorResult:'FAIL',notice:await page.getByRole('status').first().textContent()};
+});
+await s.check('R02','Confirm source-provenance draft save and export failures',async()=>{
+ const {page}=await s.open();await valid(page);await page.getByLabel('Editor section').selectOption('sources');await page.getByLabel('Provenance origin ID').first().fill('');await page.getByLabel('Provenance origin ID').first().press('Tab');await page.getByRole('button',{name:'Save author project',exact:true}).click();await expect(page.getByRole('status').first()).toContainText('Download the draft');const save=await page.getByRole('status').first().textContent();await page.getByRole('button',{name:'Export author project',exact:true}).click();await expect(page.getByRole('status').first()).toContainText('provenanceId');const exportNotice=await page.getByRole('status').first().textContent();await page.screenshot({path:folder+'screenshots/D01-viewport.png'});write('minimal-repro-observations.json',{save,exportNotice});return {reproductionConfirmed:true,desiredBehaviorResult:'FAIL',save,exportNotice};
+});
+await s.finish();

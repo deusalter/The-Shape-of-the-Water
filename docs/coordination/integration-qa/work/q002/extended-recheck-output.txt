@@ -1,0 +1,11 @@
+E01 Nested independent OR route edited, undone, redone, exported/reimported and played in real preview
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "id": "E01",
+      "status": "PASS"
+    }
+  ],
+  "pageErrors": []
+}

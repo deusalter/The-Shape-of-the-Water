@@ -1,0 +1,28 @@
+{
+  "artifact_kind": "blind model critique",
+  "human_playtest": false,
+  "reader_task": "/root/p002_blind_reader",
+  "actual_inputs": [
+    "Parent task instructions specifying a bounded blind literary reading and requested assessment dimensions",
+    "/workspace/literary-detective/docs/coordination/protagonist/work/reader/reading.txt"
+  ],
+  "reading_file_sha256_expected": "071c77be7787b0f2dc4a54193c5a2f0d923a94aca61bd7757e7c08032b72ba80",
+  "reading_file_sha256_observed": "071c77be7787b0f2dc4a54193c5a2f0d923a94aca61bd7757e7c08032b72ba80",
+  "reading_file_bytes": 39500,
+  "reading_file_lines": 862,
+  "reading_scope": "Four numbered sections of an excerpted player-visible route; selected actions throughout; explicit alternative choices displayed in section 4. Initial read output omitted a short middle passage, recovered by reading lines 345–525. Entire provided route read across those calls.",
+  "other_repository_files_read": [],
+  "author_side_sources_read": false,
+  "other_routes_executed_or_read": false,
+  "requested_model_configuration": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "configuration_evidence": "Parent task reports this tool configuration as accepted. This is configuration provenance, not independently verified backend identity."
+  },
+  "backend_model_identity_independently_attested": false,
+  "independent_human_reader": false,
+  "subagents_spawned": 0,
+  "repository_changes_outside_child_directory": false,
+  "commits_or_pushes": false,
+  "completion_state": "Complete; no continuing work or child task requires the allocated reader slot."
+}

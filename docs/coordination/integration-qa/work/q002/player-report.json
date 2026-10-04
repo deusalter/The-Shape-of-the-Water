@@ -1,0 +1,140 @@
+{
+  "suite": "player",
+  "inputCommit": "69ec3ca3b22238612a5c806c992ed5e212ed2006",
+  "startedAt": "2026-10-04T00:43:36.949Z",
+  "checks": [
+    {
+      "id": "P01",
+      "name": "Actual private encounter, adversarial evidence selection and explicit public disclosure",
+      "status": "PASS",
+      "startedAt": "2026-10-04T00:43:37.255Z",
+      "detail": "Actual private testimony stays private to other characters; explicit sharing discloses only the factual finding. Rejected selections leave both storage and export unchanged.",
+      "trace": [
+        {
+          "at": "2026-10-04T00:43:37.593Z",
+          "label": "Initial DOM/export must exclude unencountered private source"
+        },
+        {
+          "at": "2026-10-04T00:43:38.477Z",
+          "label": "Possessed recording is not implicitly selected"
+        },
+        {
+          "at": "2026-10-04T00:43:38.904Z",
+          "label": "Private confidence as irrelevant extra must reject"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "name": "Two live tabs without BroadcastChannel; changes during takeover confirmation and stale saves",
+      "status": "PASS",
+      "startedAt": "2026-10-04T00:43:39.725Z",
+      "detail": "No broadcast dependency; stale writer retains exportable memory, leaves committed bytes exact, and explicit takeover loads latest committed history.",
+      "trace": [
+        {
+          "at": "2026-10-04T00:43:40.505Z",
+          "label": "Tab B previews takeover; Tab A changes committed passage while modal open"
+        },
+        {
+          "at": "2026-10-04T00:43:41.023Z",
+          "label": "Former owner submits an actual action; CAS must reject its write"
+        },
+        {
+          "at": "2026-10-04T00:43:41.226Z",
+          "label": "Acknowledge unsaved play then take over latest B history"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "name": "Protected canonical ending branch: cancel, quota abort, unsaved continuation and retry lineage",
+      "status": "PASS",
+      "startedAt": "2026-10-04T00:43:41.439Z",
+      "detail": {
+        "originalEnding": 12,
+        "branchedEnding": 12,
+        "run": {
+          "runId": "run-1c705e78-2c17-423b-9d8b-6b1a54952aa1",
+          "origin": "branch",
+          "parent": {
+            "runId": "run-ebacc56f-57f2-49ed-b9e7-4839ec447684",
+            "revision": 11,
+            "stateChecksum": "6467d8066eab7435cf5ac0dff48c48e85371c466b5b6bdcd091023658560a6f3"
+          },
+          "replacesRunId": "run-ebacc56f-57f2-49ed-b9e7-4839ec447684"
+        }
+      },
+      "trace": [
+        {
+          "at": "2026-10-04T00:43:44.514Z",
+          "label": "Cancel protected branch; bytes remain exact"
+        },
+        {
+          "at": "2026-10-04T00:43:44.691Z",
+          "label": "Fail branch slot write after archive writes were queued"
+        },
+        {
+          "at": "2026-10-04T00:43:45.481Z",
+          "label": "Retry retains exact protected parent and completed archive"
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "name": "Malformed portable import, valid import cancel and confirmed replacement archives",
+      "status": "PASS",
+      "startedAt": "2026-10-04T00:43:46.283Z",
+      "detail": "Rejected/cancelled imports preserve storage; accepted replacement archives the exact previous authored run.",
+      "trace": [
+        {
+          "at": "2026-10-04T00:43:46.965Z",
+          "label": "Import checksum/seen-tampered export"
+        },
+        {
+          "at": "2026-10-04T00:43:47.052Z",
+          "label": "Preview valid authored run then cancel"
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "name": "Actual canonical corrupt owned slot: retained memory, cancel, quota rollback and explicit repair",
+      "status": "PASS",
+      "startedAt": "2026-10-04T00:43:47.405Z",
+      "detail": "Repair saves exactly the actual canonical in-memory history, with damage retained and no invented prior lineage.",
+      "trace": [
+        {
+          "at": "2026-10-04T00:43:47.923Z",
+          "label": "Fault inject all checkpoint envelopes; preserve ownership/commit"
+        },
+        {
+          "at": "2026-10-04T00:43:48.386Z",
+          "label": "Quota failure at final repair slot write must abort damage-retention insertion"
+        },
+        {
+          "at": "2026-10-04T00:43:48.558Z",
+          "label": "Fresh explicit repair confirmation rotates ownership"
+        }
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "externalRequests": [],
+  "trace": [
+    {
+      "at": "2026-10-04T00:43:47.923Z",
+      "label": "Fault inject all checkpoint envelopes; preserve ownership/commit"
+    },
+    {
+      "at": "2026-10-04T00:43:48.386Z",
+      "label": "Quota failure at final repair slot write must abort damage-retention insertion"
+    },
+    {
+      "at": "2026-10-04T00:43:48.558Z",
+      "label": "Fresh explicit repair confirmation rotates ownership"
+    }
+  ],
+  "finishedAt": "2026-10-04T00:43:50.708Z",
+  "status": "PASS",
+  "browserVersion": "151.0.7922.173"
+}

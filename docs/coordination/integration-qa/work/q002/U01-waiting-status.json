@@ -1,0 +1,19 @@
+{
+  "pending": {
+    "hasWaiting": true,
+    "caches": [
+      "literary-detective-627826dcf56faf27",
+      "literary-detective-8c58343b3b05f1e5"
+    ],
+    "activeStatus": {
+      "ready": false,
+      "version": "627826dcf56faf27",
+      "contentMismatch": true
+    }
+  },
+  "oldReady": {
+    "ready": true,
+    "version": "627826dcf56faf27",
+    "contentMismatch": false
+  }
+}

@@ -1,9 +1,56 @@
 {
   "team": "integration-qa",
-  "phase": "awaiting owner-created chat",
-  "chatId": null,
-  "chatTitle": null,
+  "requestId": "Q-002",
+  "phase": "complete; two authoring durability blockers reproduced; ready for coordinator review",
+  "chatId": "01a1042b-95ae-70fa-ae28-8f476b95700c",
+  "chatTitle": "Literary Game \u2014 Integration QA",
+  "branch": "team/integration-qa",
+  "testedInputCommit": "69ec3ca3b22238612a5c806c992ed5e212ed2006",
+  "integratedCoordinatorCheckpoint": "70a495a8b6e7a9ec9ed64c281c302b14e0d0ae60",
+  "actualConfiguration": {
+    "model": "Codex based on GPT-6 per active instructions; exact backend variant unavailable",
+    "reasoningEffort": null,
+    "effortLimit": "Not exposed; requested Extra High cannot be independently attested",
+    "requested": "Sol 6.1 / Extra High",
+    "controlsChanged": false
+  },
+  "permittedSlots": 0,
   "childActive": false,
-  "outputs": [],
-  "blockers": []
+  "effectiveBrowserGroups": {
+    "PASS": 15,
+    "FAIL": 2,
+    "total": 17
+  },
+  "blockers": [
+    {
+      "id": "Q2-01",
+      "test": "A04",
+      "description": "Imported invalid project with a different ID cannot be saved; previous-project last-valid preview causes identity refusal."
+    },
+    {
+      "id": "Q2-02",
+      "test": "D01",
+      "description": "Clearing editable source provenance makes both save and author export fail; draft cannot recover through advertised controls."
+    }
+  ],
+  "runtimeSourceStable": true,
+  "qaRuntimeCopyMatchesInput": true,
+  "buildsReproduceExactly": true,
+  "outputs": [
+    "docs/coordination/integration-qa/RESPONSE.md",
+    "docs/coordination/integration-qa/work/q002/"
+  ],
+  "limitations": [
+    "Earlier 2D build only; 3D faceless direction acknowledged, new runtime untested",
+    "L3 recurrence runtime unimplemented at input",
+    "Chromium only; no real screen reader/human playtest",
+    "Player axe has one incomplete item",
+    "No exhaustive state search or full-game certification",
+    "Revealing-hint UI untested; installed case contains only nonrevealing hint",
+    "Narrative sources selectively inspected; no complete literary reread"
+  ],
+  "sourceHashes": "docs/coordination/integration-qa/work/q002/source-hashes-before.json",
+  "coordinatorFetches": "docs/coordination/integration-qa/work/q002/coordinator-checkpoints.json",
+  "commitIdentity": "deusalter <212029343+deusalter@users.noreply.github.com>",
+  "coauthorTrailers": false
 }
