@@ -1,0 +1,377 @@
+# A. The answer she can keep
+
+P-002 proposal, not canon. This is a connected two-scene alternative for the gap after BLAISE-ALLOWED and before B-E01. A and B occupy the same gap; do not concatenate them. Exact splice instructions, route guards and editorial recommendations are in P-002-ARC-AND-SPLICES.md. Headings and bracketed route directions are author material.
+
+## A1. Beside the sink
+
+Simon takes the clean cup off the paper to read the time he wrote beneath the result. A ring of water remains. He moves the cup farther away, then looks for somewhere else to put that.
+
+The Miriam who came through the front is back at the bench. Her coat lies across her knees. The other woman has brought her own coat down from the hook and is feeling along its lining with the ends of her good fingers. She stops when you approach.
+
+“Is there somewhere with a door I can shut?” she asks Ada.
+
+“Changing passage. Last cubicle's dry.”
+
+“For a telephone call.”
+
+“It's still dry.”
+
+She laughs, though the breath catches halfway out. Ada points along the passage. The woman gets up, puts her phone in the pocket she has just examined and leaves the peas on the bench.
+
+You watch her go until the turn hides her. You can still hear a shoe catching at each step. Then a door closes. It is possible to listen harder. You turn toward the other chair.
+
+“Before she comes back,” you say.
+
+The woman with the folded coat looks up.
+
+“Would you tell Ada what you saw? When I got out of the chair.”
+
+Ada is standing beside you. You know that. You make yourself look at her before asking again.
+
+“Can we?”
+
+“You've already started.”
+
+“I can stop.”
+
+She puts the empty cups on the bench. “Ask.”
+
+Miriam says you caught the chair behind your knee. Ada stopped it moving and touched your wrist. Then you went to help Simon.
+
+“And she was there,” you say.
+
+“Yes.”
+
+Your ribs loosen. You had been keeping your breath so shallow that taking in more hurts. You turn your wrist over for no reason. There is the skin, the crease across it, a pale place where your watch usually sits.
+
+“What did she say?”
+
+“I couldn't hear from the entrance.”
+
+You have the words ready. There are only three of them. If you say them, she can say whether they sound right. You could be hearing them in another voice before you have finished asking.
+
+You close your mouth.
+
+“I saw her touch you,” Miriam says. “That's the part I can tell her.”
+
+Ada takes your wrist, briefly, to move your hand away from the edge of a cup. You almost thank her for something much larger. She takes the cups to the workshop.
+
+“Does that help?” Miriam asks.
+
+“Yes.”
+
+It has. You want to ask again while it is still helping.
+
+She lifts her coat. “I'm going to sit without this for a bit. I'm too hot.”
+
+You reach to take it. She puts it on the chair beside her before your hand arrives.
+
+“Stay a minute,” you say.
+
+“I'm staying. Sit somewhere I can see you.”
+
+You sit at the end of the bench. The door in the changing passage remains shut. You cannot tell whether the other woman has made her call, or is looking at the number, or has put the phone away. Miriam rubs the seam in the side of her thumb. When she notices you noticing, she stops.
+
+### A1 choice: what to ask the witness
+
+**A1a. “Ask her to repeat only what she saw, so you can hold it apart from your own memory.”**
+
+“The chair caught your leg,” she says. “Ada stopped it. Her hand was here.” She touches her own wrist. “You stood up.”
+
+“Again?”
+
+“I've just told you.”
+
+“I know. Hearing it is different.”
+
+She looks down the passage. “I'm not going to keep saying it.”
+
+You are angry with her before she has finished. She has the thing you need and it costs so little to say. The anger makes you hot behind the ears. You put your hand flat on the bench so she will not have to watch it shaking.
+
+“All right.”
+
+“You can ask me about something else.”
+
+You ask whether she wants the window open. She says yes. You get up to open it and find you are grateful for the latch resisting your hand. You have to attend to it until it gives.
+
+**A1b. “Tell her that hearing the account helped, and leave her free to stop talking.”**
+
+“Good,” she says.
+
+You wait for more. She looks through the window at the laundry. A man has come out carrying a basket against his stomach. He puts it down, goes back in, and returns with a smaller basket that fits inside it.
+
+“He'll want the other one in a minute,” she says.
+
+He takes both inside. She watches the empty doorway a little longer, willing to be wrong without finding anything to say about it.
+
+You have been remembering her as the person who remained outside. You cannot put this small, idle expectation anywhere in that account.
+
+“I'm glad you came back,” you say.
+
+“I thought you were taking a long time.”
+
+She takes off a shoe and tips out a small stone. It strikes the tile twice. She leaves it there while she puts the shoe on.
+
+### Common
+
+The changing door opens. The other Miriam comes back with her phone in her hand and puts it into her coat without offering an account of the call.
+
+“Better?” asks the woman by the window.
+
+“I'd like something to eat.”
+
+“There's bread, I think.”
+
+“I'd like something that isn't bread.”
+
+The woman by the window smiles. “You'll have to ask.”
+
+They begin discussing what might be in the workshop. You know less about the cupboards than either of them. You stand, wait a moment to see whether you are needed, and go to find Ada.
+
+## A2. Keep time
+
+Ada has found a potato in the saucepan. She cuts it in half with the edge of a spoon and eats the smaller piece. The other half remains against the side of the pan.
+
+You stand in the workshop doorway. There is the sound chair; there is the one she turned to the wall. You put your hands on the doorframe to keep them away from both.
+
+“Did you think I was lying?”
+
+“About the chair?”
+
+“Before she told you.”
+
+“I thought you remembered it. I told you.”
+
+“You did.”
+
+She takes another bite. You had expected corroboration to change her face. Instead it has allowed her to go on eating. You watch the spoon scrape the curved bottom of the pan. In a moment she will turn it over to reach the bit beside the handle.
+
+She does. Pleasure comes so quickly that you smile.
+
+“What?”
+
+“I knew you'd do that.”
+
+She looks at the spoon. “There's potato there.”
+
+You laugh. She scrapes harder, smiling into the pan. You have to let go of the doorframe because holding it has become ridiculous.
+
+“I keep trying to make knowing feel like this,” you say.
+
+“Like what?”
+
+You cannot explain without spoiling it. She puts the spoon down and hums a low phrase while finding a cloth for the table. Halfway through she stops, then starts at a different pitch.
+
+“Is that the choir?”
+
+“It will be if I get it right.”
+
+“Will you do it again?”
+
+She looks at you.
+
+“The tune,” you say. “I haven't heard it.”
+
+“You wouldn't know if you had. That's how badly I'm doing it.”
+
+She clears a space on the table with one movement of the cloth. “Tap there. Steady.”
+
+You tap. She listens to three beats and shakes her head. You slow down. She takes a breath and begins beneath the sound of your fingers.
+
+There is a place where you expect her to rise. She stays on the note. Your next tap comes early, as if your hand could lift her. She stops.
+
+“Keep going.”
+
+You tap again. She lets the next expected entrance pass without singing. You feel the unused breath in your own chest.
+
+Then she comes in. You have not made it happen. You have given her something to come in against. For several bars you can hear where she is and where your hand will be without either of you having to catch the other out.
+
+Simon appears at the door with a piece of wood in each hand. He waits. Ada finishes the phrase and waves him through to the other end of the workbench.
+
+“Was that the right one?” he asks.
+
+“It was a note.”
+
+“There seemed to be several.”
+
+“Don't overstate the achievement.”
+
+He laughs and puts the strips down. Then he looks at the paper beneath them and stops smiling. He says he wants to measure the burned places while the light still reaches the bench. Ada tells him where the ruler is. He takes the paper and both strips to the concourse, beyond the closed workshop door.
+
+Your hand is still tapping.
+
+“You can stop,” Ada says.
+
+You stop. There is nothing wrong with the silence that follows. That lasts until you think of the service door.
+
+### A2 choice: let Ada know what threatens this encounter
+
+**A2a. “Tell her that for a moment you liked being the only one who remembered.”**
+
+“When you asked what I was doing with the chair,” you say, “I could have told you almost anything. You had no way to know what I wanted from it.”
+
+“I had a fair idea you wanted to fall over.”
+
+“I liked it before that. Coming in knowing what people would say. I was frightened, and I liked it.”
+
+Her eyes move to the door. You let her look. You have supplied a reason she might prefer to have it open.
+
+“Did you want me to touch you,” she asks, “or to find out whether you could get me to?”
+
+“It changed while I was doing it.”
+
+She thinks about that. You wish you had given her a cleaner answer, but her face has become interested in a way you did not arrange.
+
+“Don't set the chair up again.”
+
+“I won't.”
+
+“I'm keeping that.”
+
+You look up.
+
+“What you just said. If you decide you meant something more complicated tomorrow, you can explain it then.”
+
+“I want you to be able to.”
+
+She puts the spoon into the sink. “Good.”
+
+**A2b. “Tell her you are afraid of losing the way she has just learned to wait for your hand.”**
+
+You tap once on the table. “We could do it again. I could ask somebody to tap for you. It wouldn't give you this one.”
+
+“No.”
+
+“Does that bother you?”
+
+She leans on the sink. “Are you asking whether I liked singing with you?”
+
+You nod.
+
+“It was useful having the beat.”
+
+You look down at your hand. She gives you time to be disappointed.
+
+“I liked it,” she says. “I wasn't waiting to discover who you were.”
+
+“I was.”
+
+“Yes. It made you speed up.”
+
+You try a slower beat. She lays her hand flat over the space beside yours, without touching you.
+
+“Don't start it again to make the answer better.”
+
+You lift your hand from the table.
+
+### Common
+
+“If someone is doing this,” you say, “I want them to know we did that.”
+
+“Simon heard.”
+
+“I mean God.”
+
+She rubs at a spot on the table. It was in the wood before either of you sat there.
+
+“Would it be any better?” she asks.
+
+“If somebody could keep it from being lost.”
+
+“Would I get to keep it?”
+
+You start to say that is what you mean. You are not sure it was. You had imagined a witness who could keep the whole occasion safe even if Ada had no access to it.
+
+“I want you to,” you say.
+
+“Then tell me before you try the door.”
+
+“I will.”
+
+She gets up to rinse the spoon. When she turns on the tap you hear the note she could begin against it. You wait. She rinses the pan as well. No song follows.
+
+## A3. A statement with an audience
+
+The two women have come to the workshop door. The one carrying the peas asks Ada whether there is cheese. Ada opens a small container, smells it and says yes. The other Miriam follows her to the sink to ask for a clean cloth.
+
+You can leave what you said with Ada. It will still have happened. If you try the service door again, the woman who remained outside will not be able to repeat it merely because you remember telling someone.
+
+### A3 choice
+
+**A3a. “Keep the conversation with Ada private.”**
+
+You move aside to let them reach the table. Ada asks whether you want bread. You say yes. She gives you a piece without asking what you have decided about the door.
+
+**A3b. “Tell both Miriams and Simon that you have promised Ada to tell her before any further crossing; keep the rest private.”**
+
+You ask Simon to come back from the concourse. You wait until he has put the strips down. Then you tell all three what you have promised.
+
+“I heard him,” Ada says.
+
+The Miriam who came in wearing the coat asks whether you want her to remind you later.
+
+“If we can speak later. Yes.”
+
+“I can do that. I can't remind her for you.”
+
+You say you understand. The other woman breaks a piece of bread in half and offers it across the table. Both take some cheese before Simon sits down.
+
+## Authored later consequences for A
+
+### Before B-E02-A's action choice, after the optional private conversation if selected
+
+Ada waits beside the washbasin while you tell her which route you are considering. You have already said enough to make her look at you differently. You want that look to remain possible tomorrow. You also want the door to do something nobody can yet explain.
+
+“I haven't decided,” you say.
+
+“Tell me when you have.”
+
+### B-E03, after Ada asks “Which way?”
+
+Replace only the final reply and movement with:
+
+“Can we stand here a minute?”
+
+“Yes.”
+
+She shifts to let someone pass. You shift with her. Your fingers start the beat against your thigh. She hears it and gives you a sideways look.
+
+“Later,” she says.
+
+You stop. You want there to be a later in which she can say that again and mean she is busy.
+
+### B-E04-A cancellation, after “Nobody asks you to state a better reason.”
+
+Ada is rolling the tape onto itself. You tell her you have decided to take the front.
+
+“All right.”
+
+You wait for the happiness you thought would follow. Instead you picture your hand on the service handle. Ada finishes with the tape while you stand there. You still want to know.
+
+### B-E05, after the retained witness's actual last-conversation account, before the inherited optional-offer callback
+
+If A3b was selected:
+
+“You asked me to remind you,” she says. “To tell Ada before you tried again.”
+
+“I told her.”
+
+“Yes.”
+
+You look into the room. Ada is helping the woman by the bench. The one outside can repeat your promise, and can say you kept it. She cannot give Ada back the reason you made it.
+
+If A3a was selected:
+
+You almost ask whether she remembers what you said to Ada. She had been in the other room. You can remember shutting the door.
+
+You ask nothing. The conversation remains yours and the memory of someone you cannot presently ask to confirm it.
+
+Then, on either A route:
+
+You tap twice against the entrance handle. The sound is thin. Ada looks up.
+
+“What?”
+
+“Nothing you have to do.”
+
+You take your fingers off the metal. The door is still pulling against your hand.

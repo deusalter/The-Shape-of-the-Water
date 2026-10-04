@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "scope": "Input-hash reproducibility, current diff ownership, punctuation, pinned blind-packet integrity and exact inherited splice anchors only",
+  "originMain": "70a495a8b6e7a9ec9ed64c281c302b14e0d0ae60",
+  "inputRecordsVerified": 44,
+  "changedOrNewPathsChecked": [
+    "docs/coordination/protagonist/RESPONSE.md",
+    "docs/coordination/protagonist/STATUS.json",
+    "docs/coordination/protagonist/work/P-002-A.md",
+    "docs/coordination/protagonist/work/P-002-ARC-AND-SPLICES.md",
+    "docs/coordination/protagonist/work/P-002-B.md",
+    "docs/coordination/protagonist/work/P-002-INPUTS.json",
+    "docs/coordination/protagonist/work/P-002-REVIEW-DECISIONS.md",
+    "docs/coordination/protagonist/work/P-002-VERIFICATION.md",
+    "docs/coordination/protagonist/work/READER-PACKET-MANIFEST.json",
+    "docs/coordination/protagonist/work/build-reader-packet.py",
+    "docs/coordination/protagonist/work/checks/packet-check.json",
+    "docs/coordination/protagonist/work/checks/packet-run.txt",
+    "docs/coordination/protagonist/work/checks/proposal-check.json",
+    "docs/coordination/protagonist/work/checks/proposal-run.txt",
+    "docs/coordination/protagonist/work/child/critique.md",
+    "docs/coordination/protagonist/work/child/metadata.json",
+    "docs/coordination/protagonist/work/history/P-002-A-before-critique.md",
+    "docs/coordination/protagonist/work/reader/reading.txt",
+    "docs/coordination/protagonist/work/run-packet-check-owned.py",
+    "docs/coordination/protagonist/work/verify-proposals.py"
+  ],
+  "drafts": [
+    {
+      "path": "P-002-A.md",
+      "sha256": "7714822cdc2a1fdbcf18d334d5a5e3e79bc6e7a4536e474c114e66199fce08ac",
+      "whitespaceWordsIncludingHeadingsAndAlternatives": 2751
+    },
+    {
+      "path": "P-002-B.md",
+      "sha256": "398fe2e26e29263e579dd440516d94dac0f1d77a8bd1cdf607e2d91ec66ad57a",
+      "whitespaceWordsIncludingHeadingsAndAlternatives": 2805
+    }
+  ],
+  "blindPacketSha256": "071c77be7787b0f2dc4a54193c5a2f0d923a94aca61bd7757e7c08032b72ba80",
+  "notTested": [
+    "runtime branches and occasion guards",
+    "browser or 3D behavior",
+    "save migration",
+    "human response",
+    "duration",
+    "backend model identity"
+  ]
+}
