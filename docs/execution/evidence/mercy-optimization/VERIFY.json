@@ -13,9 +13,10 @@
   "playerBuild": true,
   "studioBuild": true,
   "assetBuild": "7524dd0797af0673",
-  "log": "verify.log",
+  "log": "verify-output.txt",
   "warnings": [
     "Upstream Zod PURE comment annotation removed by Rollup.",
     "Lazy shared Three.js chunk exceeds Vite default 500kB advisory."
-  ]
+  ],
+  "installLog": "install-output.txt"
 }
