@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { memo, useMemo, useState } from 'react';
 import { projectPlayerV2, type ContentV2, type GameStateV2 } from '../engine/evidence-v2';
 import { OccasionLabel } from './OccasionLabel';
 import './investigation-notebook.css';
@@ -9,14 +9,15 @@ export type InvestigationAction =
   | {type:'reviewInterpretation';interpretationId:string};
 
 /** Render only the player's projection. Proof trees and NPC internals never enter the DOM. */
-export function InvestigationNotebook({content,state,disabled,onAction}:{content:ContentV2;state:GameStateV2;disabled:boolean;onAction:(action:InvestigationAction)=>void}){
-  const view=projectPlayerV2(content,state);
+function Notebook({content,state,projection,disabled,onAction}:{content:ContentV2;state:GameStateV2;projection?:ReturnType<typeof projectPlayerV2>;disabled:boolean;onAction:(action:InvestigationAction)=>void}){
+  const view=useMemo(()=>projection??projectPlayerV2(content,state),[content,state,projection]);
   const [selections,setSelections]=useState<Record<string,string[]>>({});
   const [candidates,setCandidates]=useState<Record<string,string>>({});
   const [search,setSearch]=useState('');
   const query=search.trim().toLocaleLowerCase();
-  const matchingSources=view.sources.filter(source=>`${source.title}\n${source.text}`.toLocaleLowerCase().includes(query));
-  const references=[...view.sources.map(source=>({id:source.id,label:source.title+(source.occasionLabel?` (${source.occasionLabel})`:''),text:source.text,kind:source.kind})),...view.deductions.map(deduction=>({id:deduction.id,label:deduction.text+(deduction.occasionLabel?` (${deduction.occasionLabel})`:''),text:'A conclusion you supported with selected evidence.',kind:'deduction'}))];
+  const matchingSources=useMemo(()=>view.sources.filter(source=>`${source.title}\n${source.text}`.toLocaleLowerCase().includes(query)),[view.sources,query]);
+  const references=useMemo(()=>[...view.sources.map(source=>({id:source.id,label:source.title+(source.occasionLabel?` (${source.occasionLabel})`:''),text:source.text,kind:source.kind})),...view.deductions.map(deduction=>({id:deduction.id,label:deduction.text+(deduction.occasionLabel?` (${deduction.occasionLabel})`:''),text:'A conclusion you supported with selected evidence.',kind:'deduction'}))],[view.sources,view.deductions]);
+  const referenceIds=useMemo(()=>new Set(references.map(reference=>reference.id)),[references]);
   return <div className="investigation-notebook">
     <section aria-labelledby="evidence-title"><h3 id="evidence-title">Encountered evidence</h3>
       <label className="evidence-search">Search encountered evidence<input type="search" value={search} onChange={event=>setSearch(event.target.value)}/></label>
@@ -24,7 +25,7 @@ export function InvestigationNotebook({content,state,disabled,onAction}:{content
     </section>
     <section aria-labelledby="questions-title"><h3 id="questions-title" tabIndex={-1}>Questions to investigate</h3><p>Choose a factual claim and the specific evidence that supports it. Statements are records of what someone said.</p>
       {view.questions.length?view.questions.map(question=>{
-        const selected=(selections[question.id]??[]).filter(id=>references.some(ref=>ref.id===id));
+        const selected=(selections[question.id]??[]).filter(id=>referenceIds.has(id));
         const candidate=candidates[question.id]??'';
         return <form key={question.id} onSubmit={event=>{event.preventDefault();onAction({type:'submitDeduction',questionId:question.id,candidateId:candidate,selectedRefs:selected});}}>
           <fieldset disabled={disabled}><legend>{question.text}</legend>
@@ -41,3 +42,4 @@ export function InvestigationNotebook({content,state,disabled,onAction}:{content
     <section aria-labelledby="relationships-title"><h3 id="relationships-title">Interpersonal decisions</h3>{view.relationships.length?<ul>{view.relationships.map(record=><li key={record.id}><OccasionLabel record={record}/>{record.text}</li>)}</ul>:<p>Nothing recorded yet.</p>}</section>
   </div>;
 }
+export const InvestigationNotebook=memo(Notebook);

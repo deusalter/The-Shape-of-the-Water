@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "scope": "Independent source review, exact persistence differential diagnostic, built-player failure/notebook/transcript checks and extracted ZIP smoke. Root owns whole-story, complete suite, timed browser comparisons and publication.",
+  "baselineRevision": "915243fe2b56c0d4ead1f3b275aac2d053f8bf4a",
+  "assetBuild": "7524dd0797af0673",
+  "archiveSha256": "d5b7b0e679a71d5933b6709256c89f5ce8e49e109a5166d319730229cfc4eaab",
+  "sourcePins": {
+    "src/Release.tsx": "ad7b8eb8332763fbd0eaf5c4c034ccabc4bd00e0ea4903866e56405fe5d87659",
+    "src/studio-main.tsx": "c114d671a9f14e9ceaaa186c08ef6acc4bb76bac5026a762b9098272db4ebb67",
+    "src/content/edition-catalog.ts": "27294bec5d12c2637ec6a2c5507e04bb3eaeff27a0164c6132638c05beae7c04",
+    "src/content/load-story.ts": "83dc53e1a1e25ef6c31fd97568c0ecaa69447a23b8c296fd335607c3edb6800b",
+    "src/content/load-compatibility.ts": "f914c3e62b4f78b62116cd6a7701715a9890d368d49a80a0416ab83063232d15",
+    "src/components/EvidencePlayer.tsx": "faecd7a7c5dc7f75fcd13fd3755aa973903b57e23385c9c7538d01b1f74f33e3",
+    "src/components/InvestigationNotebook.tsx": "0f359c71ec6e7450d662d21e99067421cb8a27133b36ea16382e5b73d488c425",
+    "src/persistence/checkpoint-store.ts": "09a38eef945e80d815c4bd3ddb05d1add49f2d12028a60e1efa5ca58a8caed5a",
+    "src/world/mercy/MercyWorld.tsx": "eb57a5203da3d756cc07ce18e3f0aa32b85c33dadb2260007539e74b28abe014",
+    "src/world/mercy/profiles.ts": "19325569440734681970f9ca328c4020c38dd0f3ef2b0d01983426d9de7ebefa",
+    "src/world/mercy/renderScheduler.ts": "51fa086d2764c7bcddc30b27a5c7898ed2fea5de6b5532816ce6278385f90727",
+    "src/world/mercy/physicalStage.ts": "b732ac8ab20e40fc9a2f756d7a70e1ca83a63c50f2479253ec705646d16bf129",
+    "src/content/case-v7.json": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+    "public/sw.js": "c6adde5191637ef3d5675e75b809b1b92626ea714c19ef87d5503fe4e55036e9",
+    "tools/engine-offline-manifest.mjs": "afeb9c8047b095c46ef12a10607aea592d78dd62044c82bd30ebed6e5fd3e4a0"
+  },
+  "evidencePins": {
+    "browser-review.json": "68a5efa40fce216f0f172470c863591c0cce94246cc91cfd039ab5282293fe6f",
+    "persistence-equivalence.json": "71b62d9064dae4d0b2196950c82c48c5de1edfa62ac8baaf5987e386cd3c47b7",
+    "hotpaths-baseline.json": "23979a3aebe4e85e8acc8dc4afb4f2fcb9231516cb61a83eb54524caa6fea316",
+    "hotpaths-optimized.json": "e92a95f082f0cfa355d69a8449a93b2e7c8e24dfd000dbfee50baed1b475528a",
+    "package/ARCHIVE-CHECK.json": "8718e2e4a59d7898a909ea6253c55bcead1ddbe9d79edb3c63de20d0832d79c1",
+    "package/BROWSER-SMOKE.json": "a0c300219a29d917300bcb53414c8978d7f9df238f253999c9910054f917228e",
+    "package/opening.png": "851487b6299926678e0e4753fd9635d670334eb68471898499a1159bc2c43174"
+  },
+  "postDifferentialSourceChange": "checkpoint-store.ts: the word once was removed from a comment only; no logic change after measured/equivalence pin1537ac200a60987296db7f5c827323b83031b6a31cb4ad18b13bdc458acad28c."
+}

@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "archiveSha256": "d5b7b0e679a71d5933b6709256c89f5ce8e49e109a5166d319730229cfc4eaab",
+  "bytes": 1286133,
+  "entries": 28,
+  "verifiedManifestAssets": 23,
+  "assetBuild": "7524dd0797af0673",
+  "contentHash": "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+  "retainedContentHashes": [
+    "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+    "cf2af7418826e5bcbd9797e6d2b1822e63f242ae3e4adf97cd3d5d64abc75622",
+    "b6738dcb83d1fd0f6d95265896263af7f95544beae713a80d7fc9bd3220d1423",
+    "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d"
+  ],
+  "checks": [
+    "Unique safe archive paths; no parent traversal or symlinks.",
+    "Every manifest file/hash exactly matches archived bytes; every packaged player resource is listed.",
+    "Build ID and service worker match exact source-derived manifest.",
+    "All lazy story/world/compatibility chunks and retained GLB assets included.",
+    "Launcher exactly equals published previous release; binds only 127.0.0.1 and falls back from occupied port4173.",
+    "Six expected dependency notices included."
+  ],
+  "assets": [
+    {
+      "path": "art/release-binding.svg",
+      "sha256": "438580f7908badb831454979a5713d8c21f4be8ccacae2cf01f68d3092c2ccd4"
+    },
+    {
+      "path": "assets/BathWorld-DdzgXQUT.css",
+      "sha256": "1bbc48301d792969980b3b6e7b984c4a058141fff6319ed068dd9ad58423074d"
+    },
+    {
+      "path": "assets/BathWorld-T1TpocLQ.js",
+      "sha256": "c960712505a937d9fa4e337c251d0a3ca172f327909635a9318f311531b07cd6"
+    },
+    {
+      "path": "assets/BufferGeometryUtils-BEKyyRAD.js",
+      "sha256": "282e5fff9e3b4c3c2b4ecf85ca07534367ef3b978dd7ca00b07a8c606a3abc8e"
+    },
+    {
+      "path": "assets/CountryWorld-CGqD_iKw.js",
+      "sha256": "619aa154b030bedad566db7df835f9619e3ed754ce71fc6b32b848223f6870b1"
+    },
+    {
+      "path": "assets/CountryWorld-z_TKLLza.css",
+      "sha256": "33806cbe51a3dc9bf84894625291e296b10822c1957246b09a4383ed3d1c346a"
+    },
+    {
+      "path": "assets/GLTFLoader-CIZKKhb0.js",
+      "sha256": "b51c0bc54b5c1765b89348b4617adbc0fb43f5e621b8bfa884ebd43bfa2ae64d"
+    },
+    {
+      "path": "assets/MercyWorld-B7bGGvl1.js",
+      "sha256": "017ae8b6230ca55d54946e125bc7b080288c7791cfa196f072ed8f33f331066f"
+    },
+    {
+      "path": "assets/MercyWorld-BDPTRHvx.css",
+      "sha256": "ddcf9286060590d5c62379fe58ef3ca8eced27f704b2b04d7f50be5ed26a6d52"
+    },
+    {
+      "path": "assets/RebuildWorld-8fDb1NT9.css",
+      "sha256": "a8ff6e8a4eeb254cf8547203c978ea68f70d17d02fcd9350719f1ceb7401623a"
+    },
+    {
+      "path": "assets/RebuildWorld-DjMrco3f.js",
+      "sha256": "19b0ac0f93902ef3b92e0f6c2d345a18f4dc5aa1310d61431d772b5a92630ed5"
+    },
+    {
+      "path": "assets/case-v2-BZmxKTkW.js",
+      "sha256": "34c54b2e3eae746a9be756c20ff13decefed11de11f5d5841fddc6262d27af58"
+    },
+    {
+      "path": "assets/case-v4-Do3QT9UZ.js",
+      "sha256": "80fe2823ecc5cb869b2a036bbbf310ba59add26365ee38d95b7c2a5112119b34"
+    },
+    {
+      "path": "assets/case-v5-WMV-7END.js",
+      "sha256": "d3184a33b6fbbae8f5b0a607aef38b7b8874e69f277471cbb7ecf60900900a0f"
+    },
+    {
+      "path": "assets/case-v7-B8L3mVuJ.js",
+      "sha256": "579c88e76007396f30ab3db91e85a7f38950eadf18f7fe21411c5e93064cfb13"
+    },
+    {
+      "path": "assets/index-BUNibmEw.js",
+      "sha256": "b0c92ad0bf40962dabc0fc419f489267d300e9fb59942f7471c70aacd2160a65"
+    },
+    {
+      "path": "assets/index-CdM7Yvcg.css",
+      "sha256": "dc17006b471fbc9c99aa133cf838c758eb4d293f66c6b6684924edd246e15c71"
+    },
+    {
+      "path": "assets/load-compatibility-DO1gFECy.js",
+      "sha256": "8fad07c6940295978dee912d0fe8ec055a87745146c0bf528303f661126afaf5"
+    },
+    {
+      "path": "assets/profiles-DJgg0Y7U.js",
+      "sha256": "74b52310aaac51bbd1ff2f3963ce3a8f53c532fcaafebcf212c1be4418ec1fae"
+    },
+    {
+      "path": "index.html",
+      "sha256": "94e66a993b7e1917977ac846d7967b0eb3f4e3e950bb7bdcc4e1d5cc38c388b3"
+    },
+    {
+      "path": "world/bath-faceless.glb",
+      "sha256": "fca0c41c1fe8536f5e852530d22c36f3e77ddf7730e7db51a0fe58187ff73b59"
+    },
+    {
+      "path": "world/country/first-country-locations.glb",
+      "sha256": "7430d726d32d892fbfe1dc01555884c6bea96dded6b45986785bd99537cd01a7"
+    },
+    {
+      "path": "world/rebuild/second-mouth-supper.glb",
+      "sha256": "114ddc2339ab2d3293a7dfbdf31ccdbb92757cb961005a7723fc702ecb6762b4"
+    }
+  ]
+}

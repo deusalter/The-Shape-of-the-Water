@@ -1,6 +1,6 @@
-# The Mercy of Morning: complete playable first release
+# The Mercy of Morning: optimized playable release 1.0.1
 
-The latest owner request resumed production after the replacement proposal. The shared story is implemented from its opening through the disappearance's resolution, Blaise's deliberate second return and lost witness memory, the argument and public performance, and both final decisions. This is a complete playable first release. It is not a claim of literary greatness, human acceptance, or the historical proposed duration.
+The latest owner request asked to optimize the delivered game. Update 1.0.1 preserves its exact story and saved-run identities while improving loading, rendering and save work. The preceding owner request resumed production after the replacement proposal. The shared story is implemented from its opening through the disappearance's resolution, Blaise's deliberate second return and lost witness memory, the argument and public performance, and both final decisions. This is a complete playable first release. It is not a claim of literary greatness, human acceptance, or the historical proposed duration.
 
 ## Current source and story
 
@@ -20,9 +20,23 @@ Third-person 3D follows faceless Blaise, with WASD/arrows, click-to-walk and pro
 
 React/TypeScript/Three.js, a deterministic static-content engine and IndexedDB run without live AI or paid services. The current world is authored directly as original procedural geometry, with 130 scene/variant profiles. No Blender GUI, generated facial portraits or fetched assets were used for Mercy. The old v5/v4/v2 builds remain exact separately saved editions; uninstalled v6 is excluded.
 
-`pnpm install --frozen-lockfile`, `pnpm dev:player` and `pnpm dev:studio` run the sources with Node24+ and pnpm11.19.0. `pnpm mercy:compile`, `pnpm mercy:verify`, `pnpm verify` and `pnpm mercy:package` reproduce the main production steps. The final player asset build is `f50d4556622bbc4d`.
+`pnpm install --frozen-lockfile`, `pnpm dev:player` and `pnpm dev:studio` run the sources with Node24+ and pnpm11.19.0. `pnpm mercy:compile`, `pnpm mercy:verify`, `pnpm verify` and `pnpm mercy:package` reproduce the main production steps. The current player asset build is `7524dd0797af0673`; package SHA-256 is `d5b7b0e679a71d5933b6709256c89f5ce8e49e109a5166d319730229cfc4eaab`.
 
-## Verification and review
+## Current optimization verification
+
+`evidence/mercy-optimization/README.md` and `COMPARISON.json` document three before/after production measurements. Loaded opening JavaScript fell from 1,737,169 to 1,275,892 bytes (26.55%). Median idle WebGL drawing fell from 1,692 draw calls per 2.5 seconds to zero. First passage and opening transitions improved in the measured runs. A separate mature-save diagnostic halves full replay validations from eight to four; its single fake-IndexedDB timing fell from 2,737 to 1,524 ms. These are software-environment diagnostics, not physical-device FPS or guaranteed timing claims. Total offline download still includes all retained editions; ZIP size increased slightly to 1,286,133 bytes.
+
+- `evidence/mercy-optimization/VERIFY.json`: 530 tests in 41 files, typecheck, content validation and both builds passed from a clean tracked export. `SOURCE-PINS.json` verifies 202 runtime/build/test inputs against that export. Rejected untracked v6 work is excluded.
+- `evidence/mercy-optimization/renderer/browser-check.json`: all 130 profiles rendered in Chromium; idle suspension, wakes, physical staging reuse, pointer/E, disabled controls, offscreen metadata and full cleanup passed. Authored geometry, navigation, staging and quality settings are unchanged.
+- `evidence/mercy-optimization/player/report.json`: four whole built-player witnesses, 198 commands and 56 distinct scenes passed exact prose/evidence and reload comparisons. Offline closing action/save/reload and retained v5/v4/v2 isolation passed. Widths 1440/390/320 passed overflow and zero axe violations; recorded incomplete checks remain manual-review limits.
+- `evidence/mercy-optimization/studio/CHECK.json`: exact installed and retained exports, saved draft reload, changed prose preview and noncanonical isolation passed with lazy loading.
+- `../reviews/MERCY-OPTIMIZATION-30/FINAL-REVIEW.md`: independent source review found no blocker. Eighteen old/new persistence cases yielded exactly equal saved slots and archives. Seven built-browser checks cover failed story/world downloads, retry, preserved notebook drafts, hidden progression/replacement and exact transcript DOM.
+- `../reviews/MERCY-OPTIMIZATION-30/package/`: independent ZIP inspection verified 28 safe entries, all 23 manifest assets and the unchanged local launcher. Actual extracted-package movement, exact saved action/reload, offline current and all retained worlds passed. Root and reviewer visually inspected the opening screenshot. No external requests or unexpected page errors occurred.
+
+The selected literary and finite-engine evidence below remains applicable because its exact inputs are unchanged. The new update received no literary edits or human playtest. Earlier release receipts are preserved under `evidence/mercy-optimization/previous-release/` and Git history. The package is ready for authorized publication; STATE and a publication receipt record completion after remote verification.
+
+## Earlier release verification and literary review
+
 
 - `evidence/mercy-build/VERIFY.json`: 516 tests in38 live test files, typecheck, selected-content validation and both production builds passed in a clean index-tree export with independently installed locked dependencies. Untracked rejected v6 code/assets were absent. Initial stale-export and archived-test-discovery failures are preserved; final export and live-only test discovery corrected them. Only HTML tab titles changed after the full test run, followed by both production builds.
 - `evidence/mercy-content/verification.json`: 1,041 projected semantic states and1,127 transitions, all authored scenes/actions/variants/sources and minimal supported proof coverage, no nonterminal dead ends or states without an ending path. The projection does not enumerate every repeated transcript or corroborator superset.
@@ -43,4 +57,4 @@ One lead_writer is final literary authority. Maximum four active subagents aggre
 
 The source/package destination is https://github.com/deusalter/The-Shape-of-the-Water. Commit and push as deusalter without coauthor trailers. Git history and remote HEAD identify the delivery commit; CHECKPOINT pins selected files and builds without circular self-hashes. No public website was deployed. The next substantive work is owner feedback on this playable release, not resuming any archived premise. Read `CONTINUE_PROMPT.md` in a new chat; no shared memory or background continuation is assumed.
 
-Publication completed: release commit `c94bbfdb5df99f2b2512e470738164cf718b1bdf` was verified on GitHub, authored by deusalter without coauthor trailers. The raw ZIP returned HTTP200 and exactly matched the recorded1,267,120bytes and SHA256. See `evidence/mercy-build/PUBLICATION.json`. A subsequent documentation-only commit records this receipt; it does not change the tested game or package. No publication blocker remains.
+Earlier release publication completed: release commit `c94bbfdb5df99f2b2512e470738164cf718b1bdf` was verified on GitHub, authored by deusalter without coauthor trailers. The raw ZIP returned HTTP200 and exactly matched the recorded1,267,120bytes and SHA256. See `evidence/mercy-build/PUBLICATION.json`. A subsequent documentation-only commit records this receipt; it does not change the tested game or package. No publication blocker remains.

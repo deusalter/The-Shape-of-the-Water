@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "beforeRelease": "915243fe2b56c0d4ead1f3b275aac2d053f8bf4a",
+  "afterAssetBuild": "7524dd0797af0673",
+  "repetitionsPerBuild": 3,
+  "browserScope": "Same-machine headless Chromium with software WebGL, 1440x1000 at DPR1. Fresh contexts; service worker blocked to isolate startup from offline prefetch. Timing is diagnostic, not a hardware FPS claim.",
+  "comparison": {
+    "openingJavaScriptBytes": {
+      "beforeMedian": 1737169,
+      "afterMedian": 1275892,
+      "reductionPercent": 26.55
+    },
+    "firstPassageMs": {
+      "beforeMedian": 306.20000000298023,
+      "afterMedian": 248.40000000596046,
+      "reductionPercent": 18.88
+    },
+    "firstWorldMs": {
+      "beforeMedian": 947,
+      "afterMedian": 789.2000000029802,
+      "reductionPercent": 16.66
+    },
+    "idleDrawCalls": {
+      "beforeMedian": 1692,
+      "afterMedian": 0,
+      "reductionPercent": 100.0
+    },
+    "idleScriptMs": {
+      "beforeMedian": 28.688000000000045,
+      "afterMedian": 0,
+      "reductionPercent": 100.0
+    },
+    "drawCallsAfterMovement": {
+      "beforeMedian": 1692,
+      "afterMedian": 637,
+      "reductionPercent": 62.35
+    },
+    "openingTransition1Ms": {
+      "beforeMedian": 719.2999999970198,
+      "afterMedian": 124.6000000089407,
+      "reductionPercent": 82.68
+    },
+    "openingTransition2Ms": {
+      "beforeMedian": 1014.7999999970198,
+      "afterMedian": 406.6000000089407,
+      "reductionPercent": 59.93
+    }
+  },
+  "storySha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "storyUnchanged": true,
+  "limits": [
+    "Timing medians are same-machine diagnostics, not physical-device or FPS claims.",
+    "Opening JavaScript includes selected text and loaded Mercy world through two transitions; service workers blocked.",
+    "Offline readiness still downloads all installed editions; no reduction of total offline download is claimed.",
+    "Post-movement sample starts after1.4seconds; software-rendered camera may still be settling. Eventual idle is separately verified.",
+    "Heap samples are not retained-memory measurements and do not establish memory reduction.",
+    "Late-game save comparison is a separate one-sample fake-IndexedDB diagnostic; deterministic replay counts fell8to4."
+  ]
+}

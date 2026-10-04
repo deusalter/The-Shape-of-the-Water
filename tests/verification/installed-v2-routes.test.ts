@@ -61,13 +61,18 @@ afterAll(() => {
   writeFileSync('tests/verification/artifacts/installed-v2/route-traces.json', JSON.stringify({ scope: 'Actual installed case; direct engine routes, not UI or loop verification', rawCaseSha256: expectedCaseSHA, canonicalContentHash: contentHash(content), traces, migrationTraces }, null, 2) + '\n');
 });
 
-test('the activated player entrypoint and installed legacy compatibility refer to the pinned authored v2 bundle', () => {
+test('the retained player loader and installed legacy compatibility refer to the pinned authored v2 bundle', async () => {
   expect(createHash('sha256').update(readFileSync('src/content/case-v2.json')).digest('hex')).toBe(expectedCaseSHA);
   expect(content.schemaVersion).toBe(2); expect(content.scenes).toHaveLength(22);
   expect(content.scenes.flatMap(scene => scene.choices)).toHaveLength(52);
   expect(content.characters.find(character => character.id === 'blaise')?.name).toBe('Blaise Bloom');
   expect(readFileSync('src/main.tsx', 'utf8')).toContain('<Release />');
-  expect(readFileSync('src/Release.tsx', 'utf8')).toContain("from './content/load-evidence'");
+  const { storyEditionFromSearch } = await import('../../src/content/edition-catalog');
+  const { loadStoryEdition } = await import('../../src/content/load-story');
+  const retained = await loadStoryEdition(storyEditionFromSearch('?edition=first-night'));
+  if (!retained.content.ok) throw Error('Retained first-night content must validate');
+  expect(contentHash(retained.content.value)).toBe(contentHash(content));
+  expect(retained.context).toEqual(replayContext);
   expect(migrationInstalled).toBe(true);
   const manifest = Object.values(replayContext.manifests)[0];
   expect(manifest.toHash).toBe(contentHash(content));

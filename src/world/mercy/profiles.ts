@@ -38,3 +38,10 @@ export function targetsFor(profile:MercyProfile,choices:readonly WorldChoice[]):
  return offered.map((choice,index)=>({...centre,x:centre.x+(index-(offered.length-1)/2)*1.45,choiceId:choice.id,label:choice.label,shortLabel:'Continue this encounter'}));
 }
 export function nearestTarget(profile:MercyProfile,choices:readonly WorldChoice[],point:Point,radius=1.65){return targetsFor(profile,choices).map(target=>({target,distance:Math.hypot(point.x-target.x,point.z-target.z)})).filter(x=>x.distance<radius).sort((a,b)=>a.distance-b.distance)[0]?.target??null;}
+/** Reuse the already prepared current targets during movement and interaction. */
+export function nearestPreparedTarget(targets:readonly WorldTarget[],point:Point,radius=1.65){
+ if(radius<=0)return null;
+ let nearest:WorldTarget|null=null,distanceSquared=radius*radius;
+ for(const target of targets){const distance=(point.x-target.x)**2+(point.z-target.z)**2;if(distance<distanceSquared){nearest=target;distanceSquared=distance;}}
+ return nearest;
+}

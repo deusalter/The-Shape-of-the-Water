@@ -1,0 +1,3 @@
+import {readFileSync} from 'node:fs';
+import {build} from '/workspace/literary-detective/node_modules/esbuild/lib/main.js';
+await build({entryPoints:['/tmp/mercy-opt-review/equivalence.ts'],bundle:true,platform:'node',format:'esm',outfile:'/tmp/mercy-opt-review/equivalence.mjs',plugins:[{name:'old-source',setup(build){build.onResolve({filter:/^baseline-store$/},()=>({path:'baseline-store',namespace:'baseline'}));build.onLoad({filter:/.*/,namespace:'baseline'},()=>({contents:readFileSync('/tmp/mercy-opt-review/checkpoint-store-baseline.ts','utf8'),loader:'ts',resolveDir:'/workspace/literary-detective/src/persistence'}));}}]});

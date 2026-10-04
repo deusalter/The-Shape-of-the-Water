@@ -12,6 +12,8 @@ Move with WASD, arrow keys, or a click on the floor. Press E for a nearby action
 
 No account, live AI, paid API, or network service is needed to play. The browser caches the game for offline use. Content includes emotional manipulation, memory loss, religious coercion and a remembered life-threatening injury.
 
+Version 1.0.1 improves selected-story loading, stops idle 3D rendering and reduces repeated save validation. Existing text editions and save identities are unchanged. See the [performance measurements and limits](docs/execution/evidence/mercy-optimization/README.md).
+
 ## Develop and verify
 
 Node 24+ and pnpm 11.19.0:

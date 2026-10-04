@@ -1,6 +1,8 @@
 # The Shape of the Water workspace
 
-Latest owner direction: **resume production and finish the replacement game**. Read [OWNER-RESUME-PRODUCTION.md](docs/OWNER-RESUME-PRODUCTION.md). The full replacement proposal and sample were presented; the newer request is treated as authorization to implement The Mercy of Morning. Preserve the rejected bodily-support plot and existing code as earlier work; do not resume its premises. The proposal is the lead-selected production basis, not a claim of approval of every provisional detail.
+Latest follow-up: optimize the delivered game. Read [OWNER-OPTIMIZATION.md](docs/OWNER-OPTIMIZATION.md). Performance changes preserve exact story, saves and prior accepted work; current evidence is under docs/execution/evidence/mercy-optimization/.
+
+Controlling production direction: **resume production and finish the replacement game**. Read [OWNER-RESUME-PRODUCTION.md](docs/OWNER-RESUME-PRODUCTION.md). The full replacement proposal and sample were presented; the newer request is treated as authorization to implement The Mercy of Morning. Preserve the rejected bodily-support plot and existing code as earlier work; do not resume its premises. The proposal is the lead-selected production basis, not a claim of approval of every provisional detail.
 
 Earlier world-rebuild direction, subordinate to the replacement-proposal request: docs/OWNER-WORLD-REBUILD-2026-10-04.md. The owner has reopened the entire bath narrative, setting and all names except Blaise Bloom. Research Hello Charlotte and develop a longer, substantially stranger world with deeper metaphysical consequences. Preserve the earlier prototype; do not install or keep polishing its expanded bath candidate. Reusable engineering remains valid subject to its recorded checks.
 

@@ -3,6 +3,7 @@ import { IDBFactory, IDBObjectStore } from 'fake-indexeddb';
 import { fixtureContent } from '../src/content/fixture';
 import { createGame, currentPassage, serializePlayerExport, validateState } from '../src/engine/game';
 import { GameStore, slotKey } from '../src/persistence/store';
+import { stateHash } from '../src/engine/hash';
 import { move } from './helpers';
 
 let sequence=0;
@@ -39,6 +40,28 @@ describe('validated IndexedDB saves',()=>{
     await changeSlot(factory,name,raw=>{raw.current={schemaVersion:999};raw.backups=[];raw.preEnding=null;});
     const loaded=await store.load(fixtureContent);expect(loaded.kind).toBe('corrupt');expect(active.revision).toBe(1);expect(serializePlayerExport(active)).toContain('dry ring');
     if(loaded.kind==='corrupt')expect((await store.save(fixtureContent,active,loaded.commit)).ok).toBe(true);
+  });
+  it.each([false,true])('preserves ordered recovery and protected history on ending save (forged backup: %s)',async forged=>{
+    const {factory,name,store}=setup();let state=createGame(fixtureContent),commit=0;
+    const history=[state];
+    for(const id of ['cup','inspect-drain','return-sink','propose-rinse'])history.push(state=move(state,id));
+    for(const checkpoint of history){const saved=await store.save(fixtureContent,checkpoint,commit);expect(saved.ok).toBe(true);if(saved.ok)commit=saved.commit;}
+    if(forged)await changeSlot(factory,name,raw=>{
+      raw.backups[0].state.transcript[0].paragraphs[0]='Forged text with a matching checksum';
+      raw.backups[0].stateChecksum=stateHash(raw.backups[0].state);
+    });
+    expect(await store.save(fixtureContent,move(state,'finish-fixture'),commit)).toEqual({ok:true,commit:commit+1});
+    await changeSlot(factory,name,raw=>{
+      expect(raw.backups.map((entry:any)=>entry.state)).toEqual(forged?[history[4],history[2],history[1]]:[history[4],history[3],history[2]]);
+      expect(raw.preEnding.state).toEqual(history[4]);
+      expect(raw.checkpointRuns.map((entry:any)=>entry.stateChecksum)).toEqual([raw.current,...raw.backups,raw.preEnding].map((entry:any)=>entry.stateChecksum));
+      // Previously valid data must be replayed again in a later transaction.
+      raw.current.state.transcript[0].paragraphs[0]='Changed after saving';
+      raw.current.stateChecksum=stateHash(raw.current.state);
+    });
+    const recovered=await store.load(fixtureContent);
+    expect(recovered.kind).toBe('recovered');
+    if(recovered.kind==='recovered')expect(recovered.state).toEqual(history[4]);
   });
   it('reports quota failure, leaves the previous save intact and does not erase the candidate',async()=>{
     const{store}=setup(),initial=createGame(fixtureContent);await store.save(fixtureContent,initial,0);const candidate=move(initial,'cup');

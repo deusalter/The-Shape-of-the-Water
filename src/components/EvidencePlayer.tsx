@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useSyncExternalStore } from 'react';
+import { Component, Suspense, lazy, memo, useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore, type ReactNode } from 'react';
 import {
   applyCommandV2, confirmationForV2, createGameV2, exportPortableV2,
   importPortableV2, projectPlayerV2, type CommandV2, type ContentV2,
@@ -16,15 +16,38 @@ import { useOfflineStatus } from '../offline';
 import { InvestigationNotebook, type InvestigationAction } from './InvestigationNotebook';
 import { EncounterArt } from './EncounterArt';
 import { OccasionLabel } from './OccasionLabel';
-import { BathWorld } from '../world/BathWorld';
-import { RebuildWorld } from '../world/rebuild/RebuildWorld';
-import { CountryWorld } from '../world/country/CountryWorld';
-import { hasStaging as hasCountryStaging } from '../world/country/profiles';
-import { MercyWorld } from '../world/mercy/MercyWorld';
+import type { RebuildWorldProps } from '../world/rebuild/RebuildWorld';
 import { developmentStageFor } from '../content/development-editions';
 import { ConfirmationDialog, download, type PendingAction } from './RunControls';
 import { loadTextSize, saveTextSize, textSizeOf } from './reader-preferences';
 import './evidence-player.css';
+
+// Renderer imports are isolated from the prose. A retained edition downloads its
+// renderer only when opened, and a world-loading failure leaves reading available.
+const BathWorld = lazy(() => import('../world/BathWorld').then(module => ({ default: module.BathWorld })));
+const RebuildWorld = lazy(() => import('../world/rebuild/RebuildWorld').then(module => ({ default: module.RebuildWorld })));
+const CountryWorld = lazy(() => import('../world/country/CountryWorld').then(module => ({ default: module.CountryWorld })));
+const MercyWorld = lazy(() => import('../world/mercy/MercyWorld').then(module => ({ default: module.MercyWorld })));
+const RetainedStoryWorld = lazy(async () => {
+  const { hasStaging } = await import('../world/country/profiles');
+  return { default: function RetainedStoryWorld(props: RebuildWorldProps) {
+    const World = hasStaging(props.sceneId, props.variantId) ? CountryWorld : RebuildWorld;
+    return <World {...props}/>;
+  } };
+});
+
+class WorldBoundary extends Component<{ children: ReactNode }, { failed: boolean }> {
+  state = { failed: false };
+  static getDerivedStateFromError() { return { failed: true }; }
+  render() {
+    return this.state.failed ? <section className="world-loading"><p role="status">The 3D world could not be opened. The passage and story actions are available below.</p></section> : this.props.children;
+  }
+}
+
+type PlayerProjection = ReturnType<typeof projectPlayerV2>;
+const EncounteredTranscript = memo(function EncounteredTranscript({ entries }: { entries: PlayerProjection['transcript'] }) {
+  return <div>{entries.map((entry, index) => entry.kind === 'passage' ? <section key={index}><h3>{entry.title}</h3>{'occasionLabel' in entry&&<OccasionLabel record={entry}/ >}{entry.paragraphs.map((paragraph, position) => <p key={position}>{paragraph}</p>)}</section> : <div className="chosen-action" key={index}><p>{'occasionLabel' in entry&&<OccasionLabel record={entry}/>}You chose: {entry.label}</p>{entry.kind === 'action' && entry.feedback && <p>{entry.feedback}</p>}</div>)}</div>;
+});
 
 type PlayerAction = InvestigationAction | { type: 'choose'; choiceId: string };
 type RetainedRun = { id: string; contentVersion: unknown; contentHash: unknown; json: string };
@@ -298,29 +321,37 @@ export function EvidencePlayer({ content, persistence, context, preview = false,
 function EvidencePlayerView({ controller, preview, worldContentId }: { controller: EvidencePlayerController; preview: boolean; worldContentId:string }) {
   const ReadingContainer = preview ? 'div' : 'main';
   const status = useSyncExternalStore(controller.subscribe, controller.getSnapshot, controller.getSnapshot);
-  const view = projectPlayerV2(controller.content, status.game);
+  const view = useMemo(() => projectPlayerV2(controller.content, status.game), [controller, status.game]);
   const mercyWorld = worldContentId === 'mercy-of-morning';
   const rebuiltWorld = worldContentId === 'shape-of-the-water' && view.contentVersion >= 4;
   const passageVariant = 'variantId' in view.passage ? view.passage.variantId : undefined;
-  const StoryWorld = rebuiltWorld && hasCountryStaging(view.passage.sceneId, passageVariant) ? CountryWorld : RebuildWorld;
   const developmentStage = developmentStageFor(worldContentId, view.contentVersion);
   const [pendingAction, setPendingAction] = useState<PendingAction | null>(null);
   const [showNotebook, setShowNotebook] = useState(false), [textSize, setTextSize] = useState(loadTextSize);
+  const [notebookMounted, setNotebookMounted] = useState(false);
+  const [showTranscript, setShowTranscript] = useState(false);
   const [textOnly, setTextOnly] = useState(false);
   const passageCard = useRef<HTMLElement>(null);
   const heading = useRef<HTMLHeadingElement>(null);
   const offline = useOfflineStatus(preview, view.contentHash);
   const disabled = !controller.canAct();
-  const lastPassage = view.transcript.filter(entry => entry.kind === 'passage').at(-1);
+  const passages = useMemo(() => view.transcript.filter(entry => entry.kind === 'passage'), [view.transcript]);
+  const lastPassage = passages.at(-1);
+  const encounteredSourceIds = useMemo(() => view.sources.map(source => source.id), [view.sources]);
+  // Preserve form selections on close and update a hidden notebook when reopened.
+  const notebookSnapshot = useRef({ view, state: status.game, disabled, runId: status.metadata?.runId });
+  if (showNotebook) notebookSnapshot.current = { view, state: status.game, disabled, runId: status.metadata?.runId };
   useEffect(() => { void controller.initialize(); }, [controller]);
   useEffect(() => { saveTextSize(textSize); }, [textSize]);
   useEffect(() => {
     if (lastPassage?.revision) heading.current?.focus();
     if (mercyWorld) passageCard.current?.scrollTo({ top: 0 });
   }, [lastPassage?.revision, mercyWorld]);
-  function act(action: PlayerAction) { const pending = controller.requestAction(action); if (pending) setPendingAction(pending); }
+  const act = useCallback((action: PlayerAction) => { const pending = controller.requestAction(action); if (pending) setPendingAction(pending); }, [controller]);
+  const chooseInWorld = useCallback((choiceId: string) => act({ type: 'choose', choiceId }), [act]);
   function confirm(action: PendingAction | null) { if (action) setPendingAction(action); }
   function openQuestions() {
+    setNotebookMounted(true);
     setShowNotebook(true);
     requestAnimationFrame(() => document.getElementById('questions-title')?.focus());
   }
@@ -331,21 +362,23 @@ function EvidencePlayerView({ controller, preview, worldContentId }: { controlle
     catch { controller.rejectImport('Run import rejected. The selected file could not be read. Your active run is unchanged.'); }
   }
   const savingWarning = status.blocked && <div className="warning saving-warning" role="alert"><p>{status.repairRequired ? 'No verified saved checkpoint remains. The run currently shown stays in memory until you explicitly repair saving.' : status.readOnly ? 'This tab is read-only because another tab or prior session controls saving. The active run remains exportable.' : 'Progress is unsaved. The active run remains exportable.'}</p>{status.repairRequired ? <button disabled={!status.ready || status.saving} onClick={() => confirm(controller.prepareRepair())}>Repair saving with this run</button> : status.readOnly && <button disabled={!status.ready || status.saving} onClick={() => confirm(controller.prepareTakeover())}>Take over saving</button>}{!status.unsavedAcknowledged ? <button onClick={() => controller.acknowledgeUnsaved()}>I understand. Continue without saving.</button> : <p>Continuing without saving. Export before closing this page.</p>}</div>;
-  const migration = status.migrationPreview ? projectPlayerV2(controller.content, status.migrationPreview.state) : undefined;
+  const migration = useMemo(() => status.migrationPreview ? projectPlayerV2(controller.content, status.migrationPreview.state) : undefined, [controller, status.migrationPreview]);
   return <div className={`reader evidence-player reader-${textSize} ${mercyWorld ? 'mercy-reader' : ''} ${textOnly ? 'text-only' : ''}`}>
     <a className="skip-link" href="#evidence-reading">Skip to the passage</a>
-    <header className="site-header"><div><p className="eyebrow">{preview ? 'Studio preview · separate local saves' : developmentStage ? `Development edition · ${developmentStage.label}` : mercyWorld ? 'The Shape of the Water' : 'A literary investigation'}</p><h1>{view.title}</h1></div><div className="reader-controls"><label>Text size<select value={textSize} onChange={event => setTextSize(textSizeOf(event.target.value))}><option value="small">Small</option><option value="normal">Standard</option><option value="large">Large</option></select></label>{mercyWorld && <button className="quiet" aria-pressed={textOnly} onClick={() => setTextOnly(!textOnly)}>{textOnly ? 'Show the world' : 'Focus on text'}</button>}<button className="quiet" aria-expanded={showNotebook} aria-controls="investigation-notebook" onClick={() => setShowNotebook(!showNotebook)}>{showNotebook ? 'Close notebook' : 'Open notebook'}</button></div></header>
+    <header className="site-header"><div><p className="eyebrow">{preview ? 'Studio preview · separate local saves' : developmentStage ? `Development edition · ${developmentStage.label}` : mercyWorld ? 'The Shape of the Water' : 'A literary investigation'}</p><h1>{view.title}</h1></div><div className="reader-controls"><label>Text size<select value={textSize} onChange={event => setTextSize(textSizeOf(event.target.value))}><option value="small">Small</option><option value="normal">Standard</option><option value="large">Large</option></select></label>{mercyWorld && <button className="quiet" aria-pressed={textOnly} onClick={() => setTextOnly(!textOnly)}>{textOnly ? 'Show the world' : 'Focus on text'}</button>}<button className="quiet" aria-expanded={showNotebook} aria-controls="investigation-notebook" onClick={() => { if (!showNotebook) setNotebookMounted(true); setShowNotebook(!showNotebook); }}>{showNotebook ? 'Close notebook' : 'Open notebook'}</button></div></header>
     {mercyWorld && savingWarning}
     <div className="investigation-feedback" role="status" aria-live="polite" aria-atomic="true">{status.feedback && <p key={status.feedback.sequence}>{status.feedback.message}</p>}</div>
     <ReadingContainer id="evidence-reading" className={`game-layout ${showNotebook ? '' : 'notebook-closed'}`}>
-      {mercyWorld ? !textOnly && <MercyWorld sceneId={view.passage.sceneId} variantId={passageVariant} encounteredSourceIds={view.sources.map(source=>source.id)} choices={view.choices} disabled={disabled||!!pendingAction||view.ended} onChoose={choiceId=>act({type:'choose',choiceId})}/> : rebuiltWorld?<StoryWorld sceneId={view.passage.sceneId} variantId={passageVariant} encounteredSourceIds={view.sources.map(source=>source.id)} choices={view.choices} disabled={disabled||!!pendingAction||view.ended} onChoose={choiceId=>act({type:'choose',choiceId})}/>:worldContentId==='shape-of-the-water'&&<BathWorld sceneId={view.passage.sceneId} choices={view.choices} disabled={disabled||!!pendingAction||view.ended} onChoose={choiceId=>act({type:'choose',choiceId})}/>}
+      <WorldBoundary><Suspense fallback={<section className="world-loading"><p role="status">Opening the 3D world… The passage and story actions are available below.</p></section>}>
+        {mercyWorld ? !textOnly && <MercyWorld sceneId={view.passage.sceneId} variantId={passageVariant} encounteredSourceIds={encounteredSourceIds} choices={view.choices} disabled={disabled||!!pendingAction||view.ended} onChoose={chooseInWorld}/> : rebuiltWorld?<RetainedStoryWorld sceneId={view.passage.sceneId} variantId={passageVariant} encounteredSourceIds={encounteredSourceIds} choices={view.choices} disabled={disabled||!!pendingAction||view.ended} onChoose={chooseInWorld}/>:worldContentId==='shape-of-the-water'&&<BathWorld sceneId={view.passage.sceneId} choices={view.choices} disabled={disabled||!!pendingAction||view.ended} onChoose={chooseInWorld}/>}
+      </Suspense></WorldBoundary>
       <article ref={passageCard} className="passage-card" aria-labelledby="passage-title" tabIndex={0}><p className="eyebrow">{view.ended ? 'Closing passage' : ('occasionLabel' in view.passage&&view.passage.occasionLabel)||(mercyWorld ? 'Blaise Bloom' : rebuiltWorld?view.title:'The saltwater bath')}</p><h2 id="passage-title" ref={heading} tabIndex={-1}>{view.passage.title}</h2>{!rebuiltWorld&&!mercyWorld&&<EncounterArt sceneId={view.passage.sceneId} contentId={worldContentId} />}<div className="prose">{view.passage.paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}</div>
         <div className="choices" role="group" aria-label="Available actions">{view.choices.map(choice => <button key={choice.id} aria-label={choice.label} disabled={disabled} onClick={() => act({ type: 'choose', choiceId: choice.id })}>{choice.label}</button>)}</div>
         {!view.ended && view.choices.length === 0 && view.questions.length > 0 && <button className="quiet" onClick={openQuestions}>Review the evidence</button>}
         {view.ended && <p className="ending-note">{developmentStage ? 'This chapter ends here. The next movements are in development. Your encountered passages and notes remain available.' : 'This run has ended. Your encountered passages and notes remain available.'}</p>}
         {!view.ended && status.ready && view.choices.length === 0 && view.questions.length === 0 && <p className="warning">No actions or factual questions are available here. Export your run before starting again.</p>}
       </article>
-      <aside id="investigation-notebook" className="notebook" aria-label="Encountered notes" hidden={!showNotebook}><p className="eyebrow">Your notebook</p><InvestigationNotebook key={status.metadata?.runId ?? 'unsaved'} content={controller.content} state={status.game} disabled={disabled} onAction={act} /></aside>
+      <aside id="investigation-notebook" className="notebook" aria-label="Encountered notes" hidden={!showNotebook}>{notebookMounted&&<><p className="eyebrow">Your notebook</p><InvestigationNotebook key={notebookSnapshot.current.runId ?? 'unsaved'} content={controller.content} state={notebookSnapshot.current.state} projection={notebookSnapshot.current.view} disabled={notebookSnapshot.current.disabled} onAction={act} /></>}</aside>
       <section className="run-tools" aria-label="Run and transcript">
         <div className="save-status" role="status" aria-live="polite">{status.saving ? 'Saving progress…' : status.notice}</div>
         {!mercyWorld && savingWarning}
@@ -357,7 +390,7 @@ function EvidencePlayerView({ controller, preview, worldContentId }: { controlle
         {view.ended && status.protectedCheckpoint && <button className="quiet" disabled={disabled || status.saving} onClick={() => confirm(controller.prepareProtectedBranch())}>{developmentStage ? developmentStage.returnLabel : mercyWorld ? 'Return to the closing scene' : 'Explore another ending'}</button>}
         <details className="transcript"><summary>Archived runs ({status.archives.length})</summary>{status.archives.length ? <ul>{status.archives.map(item => <li key={item.id}>{item.ended ? 'Completed run' : 'Earlier run'}, {item.revision} actions <button className="quiet" disabled={disabled || status.saving} onClick={() => { void controller.prepareArchive(item.id).then(confirm); }}>Load as a branch</button></li>)}</ul> : <p>No archived runs yet.</p>}</details>
         <details className="transcript"><summary>Help, content note and credits</summary><p>Tab moves between controls; Enter or Space activates a focused button. Open the notebook to select a factual claim and specific encountered evidence. A statement records what someone said. Supported factual conclusions stay separate from possible readings and interpersonal decisions.</p><p>{mercyWorld ? 'Walk with WASD or the arrow keys, or click the floor. E takes a nearby offered action. Every story action is also available in the reading panel. Recurrence belongs to the story; your encountered transcript remains intact.' : 'Revisiting a scene appends another captured passage. The earlier text stays in your transcript.'} Revealing hints and consequential actions ask for confirmation.</p><p>Progress stays in this browser. Export a run for an independent copy. After a reload, or in another tab, choose Take over saving to continue from the latest committed checkpoint. A retained earlier revision can migrate only with an installed, reviewed mapping.</p><p>{mercyWorld ? 'Content note: emotional manipulation in an intimate relationship, memory loss, religious coercion, and remembered life-threatening injury.' : rebuiltWorld ? "Content note: bodily separation and reconstruction, injury, and threatened loss of a continuing person." : "Content note: includes temporary confinement, a hand injury, and discussion of a parent’s death."}</p><p>Original literary game. Authoring materials and the research behind the story are preserved with the project.</p></details>
-        <details className="transcript"><summary>Read encountered transcript ({view.transcript.filter(entry => entry.kind === 'passage').length} passages)</summary><div>{view.transcript.map((entry, index) => entry.kind === 'passage' ? <section key={index}><h3>{entry.title}</h3>{'occasionLabel' in entry&&<OccasionLabel record={entry}/ >}{entry.paragraphs.map((paragraph, position) => <p key={position}>{paragraph}</p>)}</section> : <div className="chosen-action" key={index}><p>{'occasionLabel' in entry&&<OccasionLabel record={entry}/>}You chose: {entry.label}</p>{entry.kind === 'action' && entry.feedback && <p>{entry.feedback}</p>}</div>)}</div></details>
+        <details className="transcript" onToggle={event => setShowTranscript(event.currentTarget.open)}><summary>Read encountered transcript ({passages.length} passages)</summary>{showTranscript&&<EncounteredTranscript entries={view.transcript}/>}</details>
       </section>
     </ReadingContainer>
     <footer>Runs stay in this browser · No live AI is needed to play</footer>

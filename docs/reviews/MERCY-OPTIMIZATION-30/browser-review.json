@@ -1,0 +1,19 @@
+{
+  "url": "http://127.0.0.1:4190/",
+  "scope": "Independent final built-player Chromium checks of lazy chunk failure recovery and notebook/transcript state. Service worker disabled to isolate chunk-failure behavior; offline preparation/update acceptance belongs to root.",
+  "checks": [
+    "A failed selected-story chunk exposes retry; retry reloads document and opens the same story successfully.",
+    "A failed world chunk leaves prose and ordinary story actions functional and saves progress.",
+    "Unopened notebook and closed transcript contain no deferred detail DOM.",
+    "Notebook close/reopen preserves search, selected factual candidate, evidence checkbox and native evidence-details expansion.",
+    "Opened transcript reproduces every captured passage paragraph exactly; closing removes its detail DOM.",
+    "A story action while notebook is hidden refreshes available questions on reopen while preserving search.",
+    "Replacing the run while notebook is hidden resets its draft state when reopened."
+  ],
+  "expectedBlockedRequests": [
+    "http://127.0.0.1:4190/assets/case-v7-B8L3mVuJ.js",
+    "http://127.0.0.1:4190/assets/MercyWorld-B7bGGvl1.js"
+  ],
+  "errors": [],
+  "status": "PASS"
+}

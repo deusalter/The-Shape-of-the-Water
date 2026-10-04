@@ -1,0 +1,239 @@
+{
+  "status": "PASS",
+  "scope": "Independent minified esbuild module graph; not browser transfer/timing or the final Vite package.",
+  "baselineRevision": "915243fe2b56c0d4ead1f3b275aac2d053f8bf4a",
+  "before": {
+    "entries": {
+      "src/main.tsx": {
+        "eagerJavaScriptBytes": 2097670,
+        "eagerJavaScriptGzipBytes": 537672,
+        "eagerOutputFiles": [
+          "loading-analysis/chunk-B5SJHDRV.js",
+          "loading-analysis/main.js"
+        ],
+        "eagerStoryFiles": [
+          "src/content/case-v2.json",
+          "src/content/case-v4.json",
+          "src/content/case-v5.json",
+          "src/content/case-v7.json",
+          "src/content/legacy/case-v1.json"
+        ],
+        "eagerWorldFiles": [
+          "src/world/BathWorld.tsx",
+          "src/world/country/CountryWorld.tsx",
+          "src/world/country/profiles.ts",
+          "src/world/mercy/MercyWorld.tsx",
+          "src/world/mercy/profiles.ts",
+          "src/world/rebuild/RebuildWorld.tsx",
+          "src/world/rebuild/profiles.ts"
+        ],
+        "eagerThreeFiles": [
+          "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/build/three.core.js",
+          "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/build/three.module.js",
+          "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/examples/jsm/loaders/GLTFLoader.js",
+          "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/examples/jsm/utils/BufferGeometryUtils.js",
+          "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/examples/jsm/utils/SkeletonUtils.js"
+        ],
+        "eagerInputCount": 169
+      },
+      "src/studio-main.tsx": {
+        "eagerJavaScriptBytes": 2141662,
+        "eagerJavaScriptGzipBytes": 549128,
+        "eagerOutputFiles": [
+          "loading-analysis/chunk-B5SJHDRV.js",
+          "loading-analysis/studio-main.js"
+        ],
+        "eagerStoryFiles": [
+          "src/content/case-v2.json",
+          "src/content/case-v4.json",
+          "src/content/case-v5.json",
+          "src/content/case-v7.json",
+          "src/content/legacy/case-v1.json"
+        ],
+        "eagerWorldFiles": [
+          "src/world/BathWorld.tsx",
+          "src/world/country/CountryWorld.tsx",
+          "src/world/country/profiles.ts",
+          "src/world/mercy/MercyWorld.tsx",
+          "src/world/mercy/profiles.ts",
+          "src/world/rebuild/RebuildWorld.tsx",
+          "src/world/rebuild/profiles.ts"
+        ],
+        "eagerThreeFiles": [
+          "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/build/three.core.js",
+          "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/build/three.module.js",
+          "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/examples/jsm/loaders/GLTFLoader.js",
+          "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/examples/jsm/utils/BufferGeometryUtils.js",
+          "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/examples/jsm/utils/SkeletonUtils.js"
+        ],
+        "eagerInputCount": 176
+      }
+    },
+    "emittedJavaScript": [
+      {
+        "file": "loading-analysis/main.js",
+        "bytes": 1062,
+        "storyFiles": []
+      },
+      {
+        "file": "loading-analysis/studio-main.js",
+        "bytes": 45054,
+        "storyFiles": []
+      },
+      {
+        "file": "loading-analysis/chunk-B5SJHDRV.js",
+        "bytes": 2096608,
+        "storyFiles": [
+          "src/content/case-v7.json",
+          "src/content/case-v5.json",
+          "src/content/case-v4.json",
+          "src/content/case-v2.json",
+          "src/content/legacy/case-v1.json"
+        ]
+      }
+    ]
+  },
+  "after": {
+    "entries": {
+      "src/main.tsx": {
+        "eagerJavaScriptBytes": 794266,
+        "eagerJavaScriptGzipBytes": 198538,
+        "eagerOutputFiles": [
+          "loading-analysis/chunk-MHGDTJPH.js",
+          "loading-analysis/chunk-OOJM4CTU.js",
+          "loading-analysis/chunk-QXJFCXHC.js",
+          "loading-analysis/chunk-V2S6YY7N.js",
+          "loading-analysis/main.js"
+        ],
+        "eagerStoryFiles": [],
+        "eagerWorldFiles": [],
+        "eagerThreeFiles": [],
+        "eagerInputCount": 143
+      },
+      "src/studio-main.tsx": {
+        "eagerJavaScriptBytes": 837426,
+        "eagerJavaScriptGzipBytes": 210118,
+        "eagerOutputFiles": [
+          "loading-analysis/chunk-MHGDTJPH.js",
+          "loading-analysis/chunk-OOJM4CTU.js",
+          "loading-analysis/chunk-QXJFCXHC.js",
+          "loading-analysis/chunk-V2S6YY7N.js",
+          "loading-analysis/studio-main.js"
+        ],
+        "eagerStoryFiles": [],
+        "eagerWorldFiles": [],
+        "eagerThreeFiles": [],
+        "eagerInputCount": 150
+      }
+    },
+    "emittedJavaScript": [
+      {
+        "file": "loading-analysis/case-v5-UXMXL2SO.js",
+        "bytes": 119724,
+        "storyFiles": [
+          "src/content/case-v5.json"
+        ]
+      },
+      {
+        "file": "loading-analysis/case-v4-DWS63OGF.js",
+        "bytes": 68363,
+        "storyFiles": [
+          "src/content/case-v4.json"
+        ]
+      },
+      {
+        "file": "loading-analysis/case-v2-E7BMQPV5.js",
+        "bytes": 103188,
+        "storyFiles": [
+          "src/content/case-v2.json"
+        ]
+      },
+      {
+        "file": "loading-analysis/load-compatibility-DD6X5MLW.js",
+        "bytes": 84333,
+        "storyFiles": [
+          "src/content/legacy/case-v1.json"
+        ]
+      },
+      {
+        "file": "loading-analysis/main.js",
+        "bytes": 1819,
+        "storyFiles": []
+      },
+      {
+        "file": "loading-analysis/studio-main.js",
+        "bytes": 44979,
+        "storyFiles": []
+      },
+      {
+        "file": "loading-analysis/chunk-V2S6YY7N.js",
+        "bytes": 313465,
+        "storyFiles": []
+      },
+      {
+        "file": "loading-analysis/chunk-MHGDTJPH.js",
+        "bytes": 469369,
+        "storyFiles": []
+      },
+      {
+        "file": "loading-analysis/BathWorld-7T4MKW3N.js",
+        "bytes": 10608,
+        "storyFiles": []
+      },
+      {
+        "file": "loading-analysis/RebuildWorld-FNQWYBK3.js",
+        "bytes": 19789,
+        "storyFiles": []
+      },
+      {
+        "file": "loading-analysis/profiles-XJOPI3KD.js",
+        "bytes": 166,
+        "storyFiles": []
+      },
+      {
+        "file": "loading-analysis/CountryWorld-D7GRTSBQ.js",
+        "bytes": 10034,
+        "storyFiles": []
+      },
+      {
+        "file": "loading-analysis/chunk-4N5O7MXB.js",
+        "bytes": 44423,
+        "storyFiles": []
+      },
+      {
+        "file": "loading-analysis/chunk-JDVH7MSQ.js",
+        "bytes": 9255,
+        "storyFiles": []
+      },
+      {
+        "file": "loading-analysis/MercyWorld-VJZ66DN7.js",
+        "bytes": 46045,
+        "storyFiles": []
+      },
+      {
+        "file": "loading-analysis/chunk-6NUDQZWH.js",
+        "bytes": 583982,
+        "storyFiles": []
+      },
+      {
+        "file": "loading-analysis/chunk-QXJFCXHC.js",
+        "bytes": 8975,
+        "storyFiles": []
+      },
+      {
+        "file": "loading-analysis/case-v7-JFWVWYMY.js",
+        "bytes": 210390,
+        "storyFiles": [
+          "src/content/case-v7.json"
+        ]
+      },
+      {
+        "file": "loading-analysis/chunk-OOJM4CTU.js",
+        "bytes": 638,
+        "storyFiles": []
+      }
+    ]
+  },
+  "selectedContentSha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "playerEagerJavaScriptReduction": 0.6213579829048421
+}

@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "url": "http://127.0.0.1:4173/",
+  "scope": "Actual extracted optimized ZIP using its unchanged Python launcher; Chromium software WebGL, 1440x1000 DPR1. Bounded launch/movement/save/offline/retained-edition smoke, separate from root whole-story witnesses.",
+  "assetBuild": "7524dd0797af0673",
+  "checks": [
+    "Extracted launcher opens selected story, draws the world and verifies all offline files.",
+    "Actual keyboard movement changes avatar position without changing encountered export.",
+    "Ordinary action saves and reloads with exactly equal encountered export.",
+    "Current story and exact saved run reopen offline from the extracted package.",
+    "Every retained v5/v4/v2 edition loads its lazy story, renderer and assets offline and reports its exact distinct content identity."
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "retained": [
+    {
+      "edition": "second-mouth-v5",
+      "version": 5,
+      "title": "The difficult note",
+      "hash": "cf2af7418826e5bcbd9797e6d2b1822e63f242ae3e4adf97cd3d5d64abc75622"
+    },
+    {
+      "edition": "second-mouth-v4",
+      "version": 4,
+      "title": "The difficult note",
+      "hash": "b6738dcb83d1fd0f6d95265896263af7f95544beae713a80d7fc9bd3220d1423"
+    },
+    {
+      "edition": "first-night",
+      "version": 2,
+      "title": "The Shape of the Water",
+      "hash": "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d"
+    }
+  ],
+  "launcherTerminatedAfterSmoke": true,
+  "screenshot": "opening.png",
+  "screenshotDimensions": [
+    1440,
+    1000
+  ]
+}

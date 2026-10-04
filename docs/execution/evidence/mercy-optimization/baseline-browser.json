@@ -1,0 +1,201 @@
+{
+  "url": "http://127.0.0.1:4192/",
+  "scope": "Same-machine headless Chromium with software WebGL, 1440x1000 at DPR1. Fresh contexts; service worker blocked to isolate startup from offline prefetch. Timing is diagnostic, not a hardware FPS claim.",
+  "runs": [
+    {
+      "index": 0,
+      "firstPassageMs": 456.70000000298023,
+      "firstWorldMs": 2003.7000000029802,
+      "jsBytes": 1737169,
+      "resources": [
+        {
+          "name": "/assets/index-Donl8rkY.js",
+          "bytes": 1737169,
+          "transferBytes": 1737469
+        }
+      ],
+      "idle": {
+        "milliseconds": 2508,
+        "drawCalls": 1692,
+        "animationCallbacks": 18,
+        "scriptMilliseconds": 28.688000000000045,
+        "taskMilliseconds": 39.56900000000019,
+        "heapBytes": 19025888,
+        "nodes": 142
+      },
+      "idleAfterMovement": {
+        "milliseconds": 2507.5,
+        "drawCalls": 1692,
+        "animationCallbacks": 18,
+        "scriptMilliseconds": 27.457000000000065,
+        "taskMilliseconds": 37.13299999999986,
+        "heapBytes": 21638248,
+        "nodes": 142
+      },
+      "transitionsMs": [
+        771.8999999910593,
+        1014.7999999970198
+      ],
+      "afterTwoTransitions": {
+        "environmentBuilds": 0,
+        "nodes": 177
+      },
+      "longTasks": [
+        {
+          "start": 162.1000000089407,
+          "duration": 227
+        },
+        {
+          "start": 390.70000000298023,
+          "duration": 66
+        },
+        {
+          "start": 506.1000000089407,
+          "duration": 1086
+        },
+        {
+          "start": 1592.9000000059605,
+          "duration": 411
+        },
+        {
+          "start": 10806.79999999702,
+          "duration": 347
+        },
+        {
+          "start": 11776.60000000894,
+          "duration": 399
+        }
+      ],
+      "errors": []
+    },
+    {
+      "index": 1,
+      "firstPassageMs": 273.3999999910593,
+      "firstWorldMs": 935.3999999910593,
+      "jsBytes": 1737169,
+      "resources": [
+        {
+          "name": "/assets/index-Donl8rkY.js",
+          "bytes": 1737169,
+          "transferBytes": 1737469
+        }
+      ],
+      "idle": {
+        "milliseconds": 2507.2000000029802,
+        "drawCalls": 1504,
+        "animationCallbacks": 16,
+        "scriptMilliseconds": 30.147999999999954,
+        "taskMilliseconds": 45.62199999999983,
+        "heapBytes": 20188856,
+        "nodes": 142
+      },
+      "idleAfterMovement": {
+        "milliseconds": 2511.699999988079,
+        "drawCalls": 1786,
+        "animationCallbacks": 19,
+        "scriptMilliseconds": 33.86100000000003,
+        "taskMilliseconds": 46.58699999999993,
+        "heapBytes": 22880652,
+        "nodes": 142
+      },
+      "transitionsMs": [
+        719.2999999970198,
+        873.2999999970198
+      ],
+      "afterTwoTransitions": {
+        "environmentBuilds": 0,
+        "nodes": 177
+      },
+      "longTasks": [
+        {
+          "start": 84.20000000298023,
+          "duration": 151
+        },
+        {
+          "start": 322,
+          "duration": 439
+        },
+        {
+          "start": 761.8999999910593,
+          "duration": 175
+        },
+        {
+          "start": 9236,
+          "duration": 406
+        },
+        {
+          "start": 10066.20000000298,
+          "duration": 452
+        }
+      ],
+      "errors": []
+    },
+    {
+      "index": 2,
+      "firstPassageMs": 306.20000000298023,
+      "firstWorldMs": 947,
+      "jsBytes": 1737169,
+      "resources": [
+        {
+          "name": "/assets/index-Donl8rkY.js",
+          "bytes": 1737169,
+          "transferBytes": 1737469
+        }
+      ],
+      "idle": {
+        "milliseconds": 2504.7000000029802,
+        "drawCalls": 1880,
+        "animationCallbacks": 20,
+        "scriptMilliseconds": 27.726999999999947,
+        "taskMilliseconds": 47.552999999999955,
+        "heapBytes": 14390460,
+        "nodes": 142
+      },
+      "idleAfterMovement": {
+        "milliseconds": 2507.5,
+        "drawCalls": 1598,
+        "animationCallbacks": 17,
+        "scriptMilliseconds": 24.47200000000005,
+        "taskMilliseconds": 33.188999999999915,
+        "heapBytes": 17162176,
+        "nodes": 142
+      },
+      "transitionsMs": [
+        624.3000000119209,
+        1021.7000000029802
+      ],
+      "afterTwoTransitions": {
+        "environmentBuilds": 0,
+        "nodes": 177
+      },
+      "longTasks": [
+        {
+          "start": 78.79999999701977,
+          "duration": 195
+        },
+        {
+          "start": 316.79999999701977,
+          "duration": 416
+        },
+        {
+          "start": 733,
+          "duration": 216
+        },
+        {
+          "start": 9763.90000000596,
+          "duration": 70
+        },
+        {
+          "start": 9834.90000000596,
+          "duration": 348
+        },
+        {
+          "start": 10855.79999999702,
+          "duration": 409
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "status": "PASS"
+}

@@ -46,8 +46,9 @@ function failure(error: unknown): { code: 'quota' | 'unavailable' | 'storage'; m
 export const slotKey = (content: ContentIdentity) => `${content.id}@${content.version}:${contentHash(content)}`;
 function validCommit(value: unknown): value is Slot { return isObject(value) && Number.isSafeInteger(value.commit) && Number(value.commit) >= 1; }
 function checkpointRun(slot: Slot, state: PersistableState, key: string): RunMetadata {
-  const match=Array.isArray(slot.checkpointRuns) ? slot.checkpointRuns.find(item=>isObject(item)&&item.stateChecksum===stateHash(state)) : undefined;
-  return runMetadata(isObject(match)?match.run:slot.current&&isObject(slot.current)&&slot.current.stateChecksum===stateHash(state)?slot.run:undefined,`${key}:${stateHash(state)}`);
+  const checksum=stateHash(state);
+  const match=Array.isArray(slot.checkpointRuns) ? slot.checkpointRuns.find(item=>isObject(item)&&item.stateChecksum===checksum) : undefined;
+  return runMetadata(isObject(match)?match.run:slot.current&&isObject(slot.current)&&slot.current.stateChecksum===checksum?slot.run:undefined,`${key}:${checksum}`);
 }
 
 /** One read/write transaction provides a compare-and-swap across browser tabs. */
@@ -154,13 +155,26 @@ export class CheckpointStore<C extends ContentIdentity, S extends PersistableSta
             if(options.branchFrom && (!parentState||!parentRun||canonicalJSON(checked.value.transcript.slice(0,parentState.transcript.length))!==canonicalJSON(parentState.transcript))){result={ok:false,code:'invalid',message:'The requested branch is unavailable or does not share the selected checkpoint history.'};return;}
             const replacing=options.archiveCurrent===true||options.branchFrom!==undefined;
             const run:RunMetadata=replacing||!previousRun?{runId:`run-${crypto.randomUUID()}`,origin:options.branchFrom?'branch':(options.origin??(previousRun?'restart':'new')),parent:parentState&&parentRun?{runId:parentRun.runId,revision:parentState.revision,stateChecksum:stateHash(parentState)}:null,...(previousRun?{replacesRunId:previousRun.runId}:{})}:previousRun;
-            const earlier = validCommit(raw) && Array.isArray(raw.backups) ? raw.backups.slice(0,3).map(value => this.validateEnvelope(content,value)).filter(value => value.ok).map(value => this.envelope(value.value)) : [];
-            const backups = (previous?.ok ? [this.envelope(previous.value), ...earlier] : earlier).slice(0,3);
-            if (!backups.length) backups.push(this.envelope(checked.value));
-            const preEnding = checked.value.ended && previous?.ok && !previous.value.ended ? this.envelope(previous.value) : validCommit(raw) && this.validateEnvelope(content,raw.preEnding).ok ? raw.preEnding : null;
+            // Reuse only results validated inside this transaction. Every retained
+            // persisted checkpoint still passes its checksum and full replay.
+            const backupStates:S[]=previous?.ok?[previous.value]:[];
+            if(validCommit(raw)&&Array.isArray(raw.backups))for(const candidate of raw.backups.slice(0,3)){
+              if(backupStates.length===3)break;
+              const valid=this.validateEnvelope(content,candidate);
+              if(valid.ok)backupStates.push(valid.value);
+            }
+            if(!backupStates.length)backupStates.push(checked.value);
+            const backups=backupStates.map(value=>this.envelope(value));
+            let preEnding:unknown=null,protectedState:S|undefined;
+            if(checked.value.ended&&previous?.ok&&!previous.value.ended){
+              protectedState=previous.value;preEnding=this.envelope(previous.value);
+            }else if(validCommit(raw)){
+              const valid=this.validateEnvelope(content,raw.preEnding);
+              if(valid.ok){protectedState=valid.value;preEnding=raw.preEnding;}
+            }
             if (replacing && previous?.ok) tx.objectStore('archives').put({slot:slotKey(content),commit:actual,envelope:this.envelope(previous.value),run:previousRun},`${slotKey(content)}:${actual}`);
             if (checked.value.ended) tx.objectStore('archives').put({slot:slotKey(content),commit:actual+1,envelope:this.envelope(checked.value),run},`${slotKey(content)}:${actual+1}`);
-            const checkpoints=[...backups,...(preEnding?[preEnding]:[])].map(saved=>{const valid=this.validateEnvelope(content,saved);return valid.ok?{stateChecksum:stateHash(valid.value),run:validCommit(raw)?checkpointRun(raw,valid.value,slotKey(content)):run}:undefined;}).filter(Boolean);
+            const checkpoints=[...backupStates,...(protectedState?[protectedState]:[])].map(value=>({stateChecksum:stateHash(value),run:validCommit(raw)?checkpointRun(raw,value,slotKey(content)):run}));
             const checkpointRuns=[{stateChecksum:stateHash(checked.value),run},...checkpoints];
             slots.put({ commit: actual + 1, portable:this.runtime.exportPortable(checked.value), ownership:owner, current: this.envelope(checked.value), backups, preEnding,run,checkpointRuns }, slotKey(content));
             result = { ok: true, commit: actual + 1 };

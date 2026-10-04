@@ -4,7 +4,7 @@ import { createHash } from 'node:crypto';
 import { loadEngine } from './mercy/runtime.mjs';
 
 const base = process.env.STUDIO_TEST_URL ?? 'http://localhost:4191/studio.html';
-const folder = 'docs/execution/evidence/mercy-studio';
+const folder = process.env.STUDIO_REPORT_DIR ?? 'docs/execution/evidence/mercy-studio';
 mkdirSync(folder, { recursive: true });
 const content = JSON.parse(readFileSync('src/content/case-v7.json', 'utf8'));
 const opening = content.scenes.find(scene => scene.id === content.start);

@@ -1,0 +1,151 @@
+{
+  "scope": "Exact JSON equality of save result, raw persisted slot, and archives between HEAD baseline and candidate, across 18 controlled legacy mechanical-fixture cases; UUID generation held constant in this isolated process only.",
+  "results": [
+    {
+      "case": "mature-save",
+      "equal": true,
+      "result": {
+        "ok": true,
+        "commit": 21
+      }
+    },
+    {
+      "case": "corrupt-first-backup",
+      "equal": true,
+      "result": {
+        "ok": true,
+        "commit": 21
+      }
+    },
+    {
+      "case": "corrupt-first-two-backups",
+      "equal": true,
+      "result": {
+        "ok": true,
+        "commit": 21
+      }
+    },
+    {
+      "case": "recomputed-checksum-current-tamper",
+      "equal": true,
+      "result": {
+        "ok": true,
+        "commit": 21
+      }
+    },
+    {
+      "case": "recomputed-checksum-backup-tamper",
+      "equal": true,
+      "result": {
+        "ok": true,
+        "commit": 21
+      }
+    },
+    {
+      "case": "corrupt-current",
+      "equal": true,
+      "result": {
+        "ok": true,
+        "commit": 21
+      }
+    },
+    {
+      "case": "corrupt-current-and-first-backup",
+      "equal": true,
+      "result": {
+        "ok": true,
+        "commit": 21
+      }
+    },
+    {
+      "case": "all-corrupt",
+      "equal": true,
+      "result": {
+        "ok": true,
+        "commit": 21
+      }
+    },
+    {
+      "case": "protected-retention",
+      "equal": true,
+      "result": {
+        "ok": true,
+        "commit": 21
+      }
+    },
+    {
+      "case": "protected-corrupt",
+      "equal": true,
+      "result": {
+        "ok": true,
+        "commit": 21
+      }
+    },
+    {
+      "case": "ending-protection",
+      "equal": true,
+      "result": {
+        "ok": true,
+        "commit": 21
+      }
+    },
+    {
+      "case": "replacement-import",
+      "equal": true,
+      "result": {
+        "ok": true,
+        "commit": 21
+      }
+    },
+    {
+      "case": "protected-branch",
+      "equal": true,
+      "result": {
+        "ok": true,
+        "commit": 21
+      }
+    },
+    {
+      "case": "invalid-protected-branch",
+      "equal": true,
+      "result": {
+        "ok": false,
+        "code": "invalid",
+        "message": "The requested branch is unavailable or does not share the selected checkpoint history."
+      }
+    },
+    {
+      "case": "missing-checkpoint-metadata",
+      "equal": true,
+      "result": {
+        "ok": true,
+        "commit": 21
+      }
+    },
+    {
+      "case": "damaged-run-metadata",
+      "equal": true,
+      "result": {
+        "ok": true,
+        "commit": 21
+      }
+    },
+    {
+      "case": "ownership-rejection",
+      "equal": true,
+      "result": {
+        "ok": false,
+        "code": "conflict",
+        "message": "Another tab or session controls saving. This run remains in memory. Export it or explicitly take over saving."
+      }
+    },
+    {
+      "case": "ownership-accepted",
+      "equal": true,
+      "result": {
+        "ok": true,
+        "commit": 21
+      }
+    }
+  ]
+}

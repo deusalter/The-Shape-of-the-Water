@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "command": "pnpm install --frozen-lockfile && pnpm verify",
+  "cleanExport": {
+    "indexTree": "aef368f575744a47c5db7eced0d52dc688d7e33e",
+    "directory": "/workspace/mercy-opt-clean-delivery",
+    "scope": "Tracked index only; rejected untracked v6 inputs excluded."
+  },
+  "tests": 530,
+  "testFiles": 41,
+  "typecheck": true,
+  "contentValidation": true,
+  "playerBuild": true,
+  "studioBuild": true,
+  "assetBuild": "7524dd0797af0673",
+  "log": "verify.log",
+  "warnings": [
+    "Upstream Zod PURE comment annotation removed by Rollup.",
+    "Lazy shared Three.js chunk exceeds Vite default 500kB advisory."
+  ]
+}

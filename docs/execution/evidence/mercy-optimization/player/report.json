@@ -1,0 +1,183 @@
+{
+  "status": "PASS",
+  "scope": "Actual built Chromium UI witnesses, saving, replay, offline and layout; not human playtesting or literary acceptance.",
+  "contentSha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "harnessSha256": "c9c7e611acb949c7681065fe534fa61d1dcbcebcf48919da5f8d3714cb77333f",
+  "assetManifestSha256": "956c8c27845a8da9c05a38e271349948eab7d5680cf23e8979e727a040658b56",
+  "assetManifest": {
+    "version": "7524dd0797af0673",
+    "contentHash": "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+    "contentHashes": [
+      "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+      "cf2af7418826e5bcbd9797e6d2b1822e63f242ae3e4adf97cd3d5d64abc75622",
+      "b6738dcb83d1fd0f6d95265896263af7f95544beae713a80d7fc9bd3220d1423",
+      "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d"
+    ],
+    "files": [
+      "art/release-binding.svg",
+      "assets/BathWorld-DdzgXQUT.css",
+      "assets/BathWorld-T1TpocLQ.js",
+      "assets/BufferGeometryUtils-BEKyyRAD.js",
+      "assets/CountryWorld-CGqD_iKw.js",
+      "assets/CountryWorld-z_TKLLza.css",
+      "assets/GLTFLoader-CIZKKhb0.js",
+      "assets/MercyWorld-B7bGGvl1.js",
+      "assets/MercyWorld-BDPTRHvx.css",
+      "assets/RebuildWorld-8fDb1NT9.css",
+      "assets/RebuildWorld-DjMrco3f.js",
+      "assets/case-v2-BZmxKTkW.js",
+      "assets/case-v4-Do3QT9UZ.js",
+      "assets/case-v5-WMV-7END.js",
+      "assets/case-v7-B8L3mVuJ.js",
+      "assets/index-BUNibmEw.js",
+      "assets/index-CdM7Yvcg.css",
+      "assets/load-compatibility-DO1gFECy.js",
+      "assets/profiles-DJgg0Y7U.js",
+      "index.html",
+      "world/bath-faceless.glb",
+      "world/country/first-country-locations.glb",
+      "world/rebuild/second-mouth-supper.glb"
+    ],
+    "hashes": {
+      "art/release-binding.svg": "438580f7908badb831454979a5713d8c21f4be8ccacae2cf01f68d3092c2ccd4",
+      "assets/BathWorld-DdzgXQUT.css": "1bbc48301d792969980b3b6e7b984c4a058141fff6319ed068dd9ad58423074d",
+      "assets/BathWorld-T1TpocLQ.js": "c960712505a937d9fa4e337c251d0a3ca172f327909635a9318f311531b07cd6",
+      "assets/BufferGeometryUtils-BEKyyRAD.js": "282e5fff9e3b4c3c2b4ecf85ca07534367ef3b978dd7ca00b07a8c606a3abc8e",
+      "assets/CountryWorld-CGqD_iKw.js": "619aa154b030bedad566db7df835f9619e3ed754ce71fc6b32b848223f6870b1",
+      "assets/CountryWorld-z_TKLLza.css": "33806cbe51a3dc9bf84894625291e296b10822c1957246b09a4383ed3d1c346a",
+      "assets/GLTFLoader-CIZKKhb0.js": "b51c0bc54b5c1765b89348b4617adbc0fb43f5e621b8bfa884ebd43bfa2ae64d",
+      "assets/MercyWorld-B7bGGvl1.js": "017ae8b6230ca55d54946e125bc7b080288c7791cfa196f072ed8f33f331066f",
+      "assets/MercyWorld-BDPTRHvx.css": "ddcf9286060590d5c62379fe58ef3ca8eced27f704b2b04d7f50be5ed26a6d52",
+      "assets/RebuildWorld-8fDb1NT9.css": "a8ff6e8a4eeb254cf8547203c978ea68f70d17d02fcd9350719f1ceb7401623a",
+      "assets/RebuildWorld-DjMrco3f.js": "19b0ac0f93902ef3b92e0f6c2d345a18f4dc5aa1310d61431d772b5a92630ed5",
+      "assets/case-v2-BZmxKTkW.js": "34c54b2e3eae746a9be756c20ff13decefed11de11f5d5841fddc6262d27af58",
+      "assets/case-v4-Do3QT9UZ.js": "80fe2823ecc5cb869b2a036bbbf310ba59add26365ee38d95b7c2a5112119b34",
+      "assets/case-v5-WMV-7END.js": "d3184a33b6fbbae8f5b0a607aef38b7b8874e69f277471cbb7ecf60900900a0f",
+      "assets/case-v7-B8L3mVuJ.js": "579c88e76007396f30ab3db91e85a7f38950eadf18f7fe21411c5e93064cfb13",
+      "assets/index-BUNibmEw.js": "b0c92ad0bf40962dabc0fc419f489267d300e9fb59942f7471c70aacd2160a65",
+      "assets/index-CdM7Yvcg.css": "dc17006b471fbc9c99aa133cf838c758eb4d293f66c6b6684924edd246e15c71",
+      "assets/load-compatibility-DO1gFECy.js": "8fad07c6940295978dee912d0fe8ec055a87745146c0bf528303f661126afaf5",
+      "assets/profiles-DJgg0Y7U.js": "74b52310aaac51bbd1ff2f3963ce3a8f53c532fcaafebcf212c1be4418ec1fae",
+      "index.html": "94e66a993b7e1917977ac846d7967b0eb3f4e3e950bb7bdcc4e1d5cc38c388b3",
+      "world/bath-faceless.glb": "fca0c41c1fe8536f5e852530d22c36f3e77ddf7730e7db51a0fe58187ff73b59",
+      "world/country/first-country-locations.glb": "7430d726d32d892fbfe1dc01555884c6bea96dded6b45986785bd99537cd01a7",
+      "world/rebuild/second-mouth-supper.glb": "114ddc2339ab2d3293a7dfbdf31ccdbb92757cb961005a7723fc702ecb6762b4"
+    }
+  },
+  "witnesses": [
+    {
+      "path": "docs/execution/evidence/mercy-content/a2.letter--invitation.encountered-run.json",
+      "sha256": "46fa5b628fda490714fccde57169c0139a0c09989b79954c142ed97c95da16a5"
+    },
+    {
+      "path": "docs/execution/evidence/mercy-content/a2.letter--base.encountered-run.json",
+      "sha256": "758b531e6244fbe26034c026cd7dd10b7cb454f5ce5344e94a21e6575f1dbc70"
+    },
+    {
+      "path": "docs/execution/evidence/mercy-content/a3.final-horse--base.encountered-run.json",
+      "sha256": "cf54b22c4b9e6f86c17257274b040dfcecfef7300b2bf2a6bb66b09c16ab269f"
+    },
+    {
+      "path": "docs/execution/evidence/mercy-content/a3.final-horse--base--proof-q.julian-disappearance.encountered-run.json",
+      "sha256": "8efbbe3c04a61607ae6bd0075f7c105bea3903ce2c8387e25cf3fb2805fa584f"
+    }
+  ],
+  "checks": [
+    "Keyboard exploration and reading-mode changes do not acquire evidence or dispatch story actions.",
+    "Actual pointer walk and nearby E dispatched a0.decline-purpose to the game.",
+    "Whole witness 1 completed through ordinary controls; exact prose/evidence and reload checked.",
+    "Completed-run offline reload, accepted closing action with save/reload, retained v5/v4/v2 isolation, and return to Mercy verified. Three widths checked for overflow and axe violations.",
+    "Whole witness 2 completed through ordinary controls; exact prose/evidence and reload checked.",
+    "Whole witness 3 completed through ordinary controls; exact prose/evidence and reload checked.",
+    "Whole witness 4 completed through ordinary controls; exact prose/evidence and reload checked."
+  ],
+  "scenes": [
+    "a0.refusal-plain",
+    "a0.promise",
+    "a0.horse",
+    "a0.judge",
+    "a0.invitation",
+    "a0.weeds",
+    "a0.after-door",
+    "a0.palace-night",
+    "a0.gift",
+    "a0.first-return",
+    "a1.empty-theatre",
+    "a1.withdrawal",
+    "a1.painted-place",
+    "a1.vera-box",
+    "a1.observations",
+    "a1.west-road",
+    "a1.rain-market",
+    "a1.rain-stage",
+    "a1.found-whole",
+    "a1.found",
+    "a1.earlier-love",
+    "a1.company-question",
+    "a1.return-patron",
+    "a1.witness",
+    "a1.account-candid",
+    "a1.account",
+    "a1.second-return",
+    "a2.reading",
+    "a2.sequence",
+    "a2.confirmation",
+    "a2.public-meal",
+    "a2.public-correction",
+    "a2.questions",
+    "a2.the-ground",
+    "a2.essence",
+    "a2.reason",
+    "a2.company-arrives",
+    "a2.greenroom",
+    "a2.greenroom-listen",
+    "a2.new-ending",
+    "a2.a-form-of-love",
+    "a2.performance",
+    "a2.testimony",
+    "a2.testimony-full",
+    "a2.offer",
+    "a2.erasmus-loss",
+    "a2.decision",
+    "a2.forward",
+    "a2.new-morning",
+    "a2.letter",
+    "a2.testimony-bounded",
+    "a3.good-morning",
+    "a3.final-horse",
+    "a1.account-limited",
+    "a2.public-interruption",
+    "a2.purpose"
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "accessibility": [
+    {
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    }
+  ],
+  "limits": [
+    "Supplied witnesses, not every input permutation",
+    "Software WebGL in Chromium",
+    "No human duration measurement"
+  ],
+  "sourceAndBuildStable": true
+}

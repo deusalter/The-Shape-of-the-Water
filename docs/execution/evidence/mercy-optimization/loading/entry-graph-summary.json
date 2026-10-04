@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "evidence": "docs/execution/evidence/mercy-optimization/loading/entry-graph.json",
+  "before": {
+    "src/main.tsx": {
+      "eagerJavaScriptBytes": 2097670,
+      "eagerJavaScriptGzipBytes": 537672,
+      "eagerOutputFiles": [
+        "loading-analysis/chunk-B5SJHDRV.js",
+        "loading-analysis/main.js"
+      ],
+      "eagerStoryFiles": [
+        "src/content/case-v2.json",
+        "src/content/case-v4.json",
+        "src/content/case-v5.json",
+        "src/content/case-v7.json",
+        "src/content/legacy/case-v1.json"
+      ],
+      "eagerWorldFiles": [
+        "src/world/BathWorld.tsx",
+        "src/world/country/CountryWorld.tsx",
+        "src/world/country/profiles.ts",
+        "src/world/mercy/MercyWorld.tsx",
+        "src/world/mercy/profiles.ts",
+        "src/world/rebuild/RebuildWorld.tsx",
+        "src/world/rebuild/profiles.ts"
+      ],
+      "eagerThreeFiles": [
+        "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/build/three.core.js",
+        "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/build/three.module.js",
+        "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/examples/jsm/loaders/GLTFLoader.js",
+        "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/examples/jsm/utils/BufferGeometryUtils.js",
+        "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/examples/jsm/utils/SkeletonUtils.js"
+      ],
+      "eagerInputCount": 169
+    },
+    "src/studio-main.tsx": {
+      "eagerJavaScriptBytes": 2141662,
+      "eagerJavaScriptGzipBytes": 549128,
+      "eagerOutputFiles": [
+        "loading-analysis/chunk-B5SJHDRV.js",
+        "loading-analysis/studio-main.js"
+      ],
+      "eagerStoryFiles": [
+        "src/content/case-v2.json",
+        "src/content/case-v4.json",
+        "src/content/case-v5.json",
+        "src/content/case-v7.json",
+        "src/content/legacy/case-v1.json"
+      ],
+      "eagerWorldFiles": [
+        "src/world/BathWorld.tsx",
+        "src/world/country/CountryWorld.tsx",
+        "src/world/country/profiles.ts",
+        "src/world/mercy/MercyWorld.tsx",
+        "src/world/mercy/profiles.ts",
+        "src/world/rebuild/RebuildWorld.tsx",
+        "src/world/rebuild/profiles.ts"
+      ],
+      "eagerThreeFiles": [
+        "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/build/three.core.js",
+        "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/build/three.module.js",
+        "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/examples/jsm/loaders/GLTFLoader.js",
+        "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/examples/jsm/utils/BufferGeometryUtils.js",
+        "../../workspace/literary-detective/node_modules/.pnpm/three@0.186.1/node_modules/three/examples/jsm/utils/SkeletonUtils.js"
+      ],
+      "eagerInputCount": 176
+    }
+  },
+  "after": {
+    "src/main.tsx": {
+      "eagerJavaScriptBytes": 794266,
+      "eagerJavaScriptGzipBytes": 198538,
+      "eagerOutputFiles": [
+        "loading-analysis/chunk-MHGDTJPH.js",
+        "loading-analysis/chunk-OOJM4CTU.js",
+        "loading-analysis/chunk-QXJFCXHC.js",
+        "loading-analysis/chunk-V2S6YY7N.js",
+        "loading-analysis/main.js"
+      ],
+      "eagerStoryFiles": [],
+      "eagerWorldFiles": [],
+      "eagerThreeFiles": [],
+      "eagerInputCount": 143
+    },
+    "src/studio-main.tsx": {
+      "eagerJavaScriptBytes": 837426,
+      "eagerJavaScriptGzipBytes": 210118,
+      "eagerOutputFiles": [
+        "loading-analysis/chunk-MHGDTJPH.js",
+        "loading-analysis/chunk-OOJM4CTU.js",
+        "loading-analysis/chunk-QXJFCXHC.js",
+        "loading-analysis/chunk-V2S6YY7N.js",
+        "loading-analysis/studio-main.js"
+      ],
+      "eagerStoryFiles": [],
+      "eagerWorldFiles": [],
+      "eagerThreeFiles": [],
+      "eagerInputCount": 150
+    }
+  },
+  "playerEagerJavaScriptReduction": 0.6213579829048421
+}

@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "scope": "Actual Chromium renderer fixture; software WebGL, no hardware FPS claim. Visibility is simulated with document.hidden; offscreen suspension uses actual intersection/scroll.",
+  "contentSha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "sourceSha256": "eb57a5203da3d756cc07ce18e3f0aa32b85c33dadb2260007539e74b28abe014",
+  "checks": [
+    "idle performs zero repeated renders",
+    "camera controls wake at rest without recalculating shadows",
+    "keyboard movement, key release and camera settling remain active",
+    "identical physical scenes reuse their environment while refreshing choices",
+    "changed physical staging replaces the environment",
+    "all current profiles publish exact offered targets, cast and props",
+    "pointer walk and nearby E keep current proximity interaction",
+    "label changes refresh targets without rebuilding physical staging",
+    "disabling while moving stops movement and rejects E",
+    "offscreen progression updates logical metadata and builds only the final visible stage",
+    "visibility suspension retains a pending camera wake",
+    "unmount cleans canvas, pending frames, observers and external listeners; remount works"
+  ],
+  "errors": [],
+  "metrics": {
+    "idle": {
+      "intervalMs": 1200,
+      "renderFrames": 0,
+      "shadowUpdates": 0
+    },
+    "movement": {
+      "renderFrames": 21,
+      "shadowUpdates": 6,
+      "before": {
+        "x": "0.000",
+        "z": "1.000"
+      },
+      "after": {
+        "x": "-0.160",
+        "z": "0.533"
+      }
+    },
+    "reusedPair": {
+      "first": "a0.refusal-plain",
+      "second": "a0.refusal-sharp",
+      "environmentBuilds": 0
+    },
+    "profiles": 130,
+    "cleanup": {
+      "frames": 0,
+      "resize": 0,
+      "intersection": 0,
+      "visibility": 0,
+      "blur": 0
+    }
+  }
+}

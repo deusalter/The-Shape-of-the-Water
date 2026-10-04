@@ -1,0 +1,540 @@
+{
+  "scope": "Node same-machine CPU diagnostics using real final Mercy invitation capture replay; fake IndexedDB reproduces persistence code/checks but not physical disk timing. Three replay/action samples, five scalar samples after warmup; save transactions recorded once each. Engine source unchanged at time of measurement.",
+  "contentHash": "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+  "pins": {
+    "src/content/case-v7.json": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+    "docs/execution/evidence/mercy-content/a2.letter--invitation.encountered-run.json": "46fa5b628fda490714fccde57169c0139a0c09989b79954c142ed97c95da16a5",
+    "src/engine/evidence-runtime.ts": "72b633806f93320e2f987d67b6a000d0ba6c370f30fced9bc6006022a838e7f9",
+    "src/engine/evidence-portable.ts": "e862e2e2acb7242b1b7895fbf948c002496b81500c216c34db4ae937e9946227",
+    "src/engine/evidence-budget.ts": "31de32f49420577b6a14b2e433275b5ecb3c433e106ffd32612a3ae721f174a1",
+    "src/engine/hash.ts": "eaac5792696012f9291d5ba937835ce1f1ef0196e3e0e35262813775ba2a028b",
+    "src/persistence/checkpoint-store.ts": "1537ac200a60987296db7f5c827323b83031b6a31cb4ad18b13bdc458acad28c"
+  },
+  "scalar": [
+    {
+      "revision": 0,
+      "scene": "a0.tribute",
+      "checkpointBytes": 6597,
+      "projection": {
+        "medianMs": 0.07041400000002795,
+        "minMs": 0.06216200000005756,
+        "maxMs": 0.1712039999999888,
+        "samplesMs": [
+          0.08654899999999088,
+          0.06657800000004954,
+          0.06216200000005756,
+          0.07041400000002795,
+          0.1712039999999888
+        ]
+      },
+      "validateReplay": {
+        "medianMs": 0.3606450000000905,
+        "minMs": 0.33436700000004294,
+        "maxMs": 0.36480199999994056,
+        "samplesMs": [
+          0.36480199999994056,
+          0.3606450000000905,
+          0.33436700000004294
+        ]
+      },
+      "stateHash": {
+        "medianMs": 0.1602179999999862,
+        "minMs": 0.15030300000000807,
+        "maxMs": 0.2089899999999716,
+        "samplesMs": [
+          0.1560820000000831,
+          0.16987199999994118,
+          0.15030300000000807,
+          0.2089899999999716,
+          0.1602179999999862
+        ]
+      },
+      "nextCommand": {
+        "medianMs": 0.35494699999992463,
+        "minMs": 0.3362999999999374,
+        "maxMs": 0.36804700000004686,
+        "samplesMs": [
+          0.36804700000004686,
+          0.3362999999999374,
+          0.35494699999992463
+        ]
+      }
+    },
+    {
+      "revision": 1,
+      "scene": "a0.refusal-plain",
+      "checkpointBytes": 8647,
+      "projection": {
+        "medianMs": 0.07929799999999432,
+        "minMs": 0.05072500000005675,
+        "maxMs": 0.1135789999999588,
+        "samplesMs": [
+          0.05072500000005675,
+          0.07929799999999432,
+          0.1135789999999588,
+          0.08324399999992238,
+          0.05429099999992104
+        ]
+      },
+      "validateReplay": {
+        "medianMs": 0.8441540000000032,
+        "minMs": 0.8185659999999189,
+        "maxMs": 1.0547260000000733,
+        "samplesMs": [
+          1.0547260000000733,
+          0.8441540000000032,
+          0.8185659999999189
+        ]
+      },
+      "stateHash": {
+        "medianMs": 0.20655599999997776,
+        "minMs": 0.20270100000004732,
+        "maxMs": 0.23065299999996114,
+        "samplesMs": [
+          0.23065299999996114,
+          0.20655599999997776,
+          0.21082300000000487,
+          0.20270100000004732,
+          0.20523400000001857
+        ]
+      },
+      "nextCommand": {
+        "medianMs": 0.54525000000001,
+        "minMs": 0.5445789999999988,
+        "maxMs": 0.6848170000000664,
+        "samplesMs": [
+          0.6848170000000664,
+          0.54525000000001,
+          0.5445789999999988
+        ]
+      }
+    },
+    {
+      "revision": 25,
+      "scene": "a1.account-candid",
+      "checkpointBytes": 149296,
+      "projection": {
+        "medianMs": 0.5543629999999666,
+        "minMs": 0.47318300000006275,
+        "maxMs": 0.6554129999999532,
+        "samplesMs": [
+          0.5162370000000465,
+          0.5543629999999666,
+          0.567882999999938,
+          0.47318300000006275,
+          0.6554129999999532
+        ]
+      },
+      "validateReplay": {
+        "medianMs": 110.74699699999996,
+        "minMs": 107.96349299999997,
+        "maxMs": 116.12510399999996,
+        "samplesMs": [
+          116.12510399999996,
+          110.74699699999996,
+          107.96349299999997
+        ]
+      },
+      "stateHash": {
+        "medianMs": 4.471050999999989,
+        "minMs": 4.10553700000014,
+        "maxMs": 5.310457000000042,
+        "samplesMs": [
+          4.10553700000014,
+          4.364360999999917,
+          5.310457000000042,
+          4.598840000000109,
+          4.471050999999989
+        ]
+      },
+      "nextCommand": {
+        "medianMs": 7.456895000000031,
+        "minMs": 6.992003999999952,
+        "maxMs": 8.927227999999786,
+        "samplesMs": [
+          6.992003999999952,
+          7.456895000000031,
+          8.927227999999786
+        ]
+      }
+    },
+    {
+      "revision": 48,
+      "scene": "a2.forward",
+      "checkpointBytes": 303418,
+      "projection": {
+        "medianMs": 1.0306800000000749,
+        "minMs": 0.9630310000000009,
+        "maxMs": 1.2367369999999482,
+        "samplesMs": [
+          1.0741860000000543,
+          1.002568999999994,
+          0.9630310000000009,
+          1.2367369999999482,
+          1.0306800000000749
+        ]
+      },
+      "validateReplay": {
+        "medianMs": 369.377749,
+        "minMs": 365.7912269999997,
+        "maxMs": 378.2660390000001,
+        "samplesMs": [
+          369.377749,
+          378.2660390000001,
+          365.7912269999997
+        ]
+      },
+      "stateHash": {
+        "medianMs": 8.774672999999893,
+        "minMs": 8.452184999999645,
+        "maxMs": 12.314840000000004,
+        "samplesMs": [
+          9.292480000000069,
+          8.452184999999645,
+          8.72935600000028,
+          12.314840000000004,
+          8.774672999999893
+        ]
+      },
+      "nextCommand": {
+        "medianMs": 14.224189000000024,
+        "minMs": 13.029829000000063,
+        "maxMs": 14.493697999999767,
+        "samplesMs": [
+          14.493697999999767,
+          14.224189000000024,
+          13.029829000000063
+        ]
+      }
+    },
+    {
+      "revision": 49,
+      "scene": "a2.new-morning",
+      "checkpointBytes": 309693,
+      "projection": {
+        "medianMs": 0.9992809999998826,
+        "minMs": 0.9061219999998684,
+        "maxMs": 1.0399109999998473,
+        "samplesMs": [
+          1.0143029999999271,
+          0.9061219999998684,
+          1.0399109999998473,
+          0.9992809999998826,
+          0.9271140000000742
+        ]
+      },
+      "validateReplay": {
+        "medianMs": 380.21513400000003,
+        "minMs": 373.9986230000004,
+        "maxMs": 387.81386000000066,
+        "samplesMs": [
+          380.21513400000003,
+          387.81386000000066,
+          373.9986230000004
+        ]
+      },
+      "stateHash": {
+        "medianMs": 8.50559500000054,
+        "minMs": 8.215473999999631,
+        "maxMs": 9.779551999999967,
+        "samplesMs": [
+          9.779551999999967,
+          8.770698000000266,
+          8.397853999999825,
+          8.50559500000054,
+          8.215473999999631
+        ]
+      },
+      "nextCommand": {
+        "medianMs": 21.977348000000347,
+        "minMs": 21.67054299999927,
+        "maxMs": 25.22569199999998,
+        "samplesMs": [
+          21.67054299999927,
+          21.977348000000347,
+          25.22569199999998
+        ]
+      }
+    }
+  ],
+  "saves": [
+    {
+      "revision": 0,
+      "ms": 10.934954000000289,
+      "validationCalls": 1,
+      "validationMs": 0.5553630000003977,
+      "validated": [
+        {
+          "revision": 0,
+          "ms": 0.5553630000003977
+        }
+      ],
+      "refreshMs": 2.123837000000094,
+      "refreshValidated": [
+        {
+          "revision": 0,
+          "ms": 0.4463320000004387
+        }
+      ]
+    },
+    {
+      "revision": 1,
+      "ms": 4.683250000000044,
+      "validationCalls": 3,
+      "validationMs": 1.538630000000012,
+      "validated": [
+        {
+          "revision": 1,
+          "ms": 0.8579620000000432
+        },
+        {
+          "revision": 0,
+          "ms": 0.34379900000021735
+        },
+        {
+          "revision": 0,
+          "ms": 0.3368689999997514
+        }
+      ],
+      "refreshMs": 1.8537370000003648,
+      "refreshValidated": [
+        {
+          "revision": 1,
+          "ms": 0.8036810000003243
+        }
+      ]
+    },
+    {
+      "revision": 2,
+      "ms": 7.973917000000256,
+      "validationCalls": 4,
+      "validationMs": 3.1126420000000508,
+      "validated": [
+        {
+          "revision": 2,
+          "ms": 1.660620999999992
+        },
+        {
+          "revision": 1,
+          "ms": 0.7830400000002555
+        },
+        {
+          "revision": 0,
+          "ms": 0.3417859999999564
+        },
+        {
+          "revision": 0,
+          "ms": 0.3271949999998469
+        }
+      ],
+      "refreshMs": 3.0626979999997275,
+      "refreshValidated": [
+        {
+          "revision": 2,
+          "ms": 1.466483000000153
+        }
+      ]
+    },
+    {
+      "revision": 3,
+      "ms": 11.332492999999886,
+      "validationCalls": 4,
+      "validationMs": 4.987010000000737,
+      "validated": [
+        {
+          "revision": 3,
+          "ms": 2.4762790000004316
+        },
+        {
+          "revision": 2,
+          "ms": 1.3938260000004448
+        },
+        {
+          "revision": 1,
+          "ms": 0.7733560000006037
+        },
+        {
+          "revision": 0,
+          "ms": 0.3435489999992569
+        }
+      ],
+      "refreshMs": 4.094707999999628,
+      "refreshValidated": [
+        {
+          "revision": 3,
+          "ms": 2.3891700000003766
+        }
+      ]
+    },
+    {
+      "revision": 4,
+      "ms": 18.45499800000016,
+      "validationCalls": 4,
+      "validationMs": 8.03157199999987,
+      "validated": [
+        {
+          "revision": 4,
+          "ms": 3.514317000000119
+        },
+        {
+          "revision": 3,
+          "ms": 2.3278999999993175
+        },
+        {
+          "revision": 2,
+          "ms": 1.3934049999998024
+        },
+        {
+          "revision": 1,
+          "ms": 0.7959500000006301
+        }
+      ],
+      "refreshMs": 6.009665999999925,
+      "refreshValidated": [
+        {
+          "revision": 4,
+          "ms": 3.596158999999716
+        }
+      ]
+    },
+    {
+      "revision": 44,
+      "ms": 331.31744399999934,
+      "validationCalls": 1,
+      "validationMs": 278.2364340000004,
+      "validated": [
+        {
+          "revision": 44,
+          "ms": 278.2364340000004
+        }
+      ],
+      "refreshMs": 305.7229809999999,
+      "refreshValidated": [
+        {
+          "revision": 44,
+          "ms": 287.5212079999992
+        }
+      ]
+    },
+    {
+      "revision": 45,
+      "ms": 1042.7822480000004,
+      "validationCalls": 3,
+      "validationMs": 914.3389740000002,
+      "validated": [
+        {
+          "revision": 45,
+          "ms": 308.3826170000002
+        },
+        {
+          "revision": 44,
+          "ms": 301.8520669999998
+        },
+        {
+          "revision": 44,
+          "ms": 304.1042900000002
+        }
+      ],
+      "refreshMs": 368.5354269999998,
+      "refreshValidated": [
+        {
+          "revision": 45,
+          "ms": 340.1911970000001
+        }
+      ]
+    },
+    {
+      "revision": 46,
+      "ms": 1531.0555789999999,
+      "validationCalls": 4,
+      "validationMs": 1375.405558999998,
+      "validated": [
+        {
+          "revision": 46,
+          "ms": 357.6103979999998
+        },
+        {
+          "revision": 45,
+          "ms": 373.89583199999925
+        },
+        {
+          "revision": 44,
+          "ms": 322.8045379999994
+        },
+        {
+          "revision": 44,
+          "ms": 321.09479099999953
+        }
+      ],
+      "refreshMs": 411.4092069999988,
+      "refreshValidated": [
+        {
+          "revision": 46,
+          "ms": 384.3913470000007
+        }
+      ]
+    },
+    {
+      "revision": 47,
+      "ms": 1465.2182749999993,
+      "validationCalls": 4,
+      "validationMs": 1310.5183610000022,
+      "validated": [
+        {
+          "revision": 47,
+          "ms": 335.8463810000012
+        },
+        {
+          "revision": 46,
+          "ms": 328.4856600000003
+        },
+        {
+          "revision": 45,
+          "ms": 345.9606590000003
+        },
+        {
+          "revision": 44,
+          "ms": 300.2256610000004
+        }
+      ],
+      "refreshMs": 375.7946209999991,
+      "refreshValidated": [
+        {
+          "revision": 47,
+          "ms": 350.4478020000006
+        }
+      ]
+    },
+    {
+      "revision": 48,
+      "ms": 1523.7813139999998,
+      "validationCalls": 4,
+      "validationMs": 1358.8190639999993,
+      "validated": [
+        {
+          "revision": 48,
+          "ms": 356.07351799999924
+        },
+        {
+          "revision": 47,
+          "ms": 361.3332420000006
+        },
+        {
+          "revision": 46,
+          "ms": 327.3147879999997
+        },
+        {
+          "revision": 45,
+          "ms": 314.0975159999998
+        }
+      ],
+      "refreshMs": 379.6583840000003,
+      "refreshValidated": [
+        {
+          "revision": 48,
+          "ms": 347.90198899999996
+        }
+      ]
+    }
+  ]
+}

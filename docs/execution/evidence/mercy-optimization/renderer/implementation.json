@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "scope": "Renderer scheduling and current-stage reuse only; source unit/type checks and actual source-bundled Chromium fixture, not final production package verification.",
+  "sourcePins": {
+    "src/world/mercy/MercyWorld.tsx": "eb57a5203da3d756cc07ce18e3f0aa32b85c33dadb2260007539e74b28abe014",
+    "src/world/mercy/profiles.ts": "19325569440734681970f9ca328c4020c38dd0f3ef2b0d01983426d9de7ebefa",
+    "src/world/mercy/renderScheduler.ts": "51fa086d2764c7bcddc30b27a5c7898ed2fea5de6b5532816ce6278385f90727",
+    "src/world/mercy/physicalStage.ts": "b732ac8ab20e40fc9a2f756d7a70e1ca83a63c50f2479253ec705646d16bf129",
+    "tests/mercy-demand-renderer.test.ts": "ff45763ebb5eb980595e82cef3cfaf288262a216dffd1773d4fe15cd98fc813b",
+    "tools/optimization/renderer-check.mjs": "2ba1950a1e924490c0286d2593518cf336468a333406cb84553129f793e978dd"
+  },
+  "unchangedFromReleaseHEAD": {
+    "src/world/mercy/geometry.ts": true,
+    "src/world/mercy/navigation.ts": true,
+    "src/world/mercy/staging.json": true,
+    "src/content/case-v7.json": true
+  },
+  "verification": [
+    {
+      "command": "pnpm exec tsc --noEmit",
+      "exitCode": 0
+    },
+    {
+      "command": "pnpm exec vitest run tests/mercy-demand-renderer.test.ts tests/mercy-world.test.ts",
+      "exitCode": 0,
+      "testFiles": 2,
+      "tests": 15
+    },
+    {
+      "command": "node tools/optimization/renderer-check.mjs",
+      "exitCode": 0,
+      "checks": 12,
+      "renderedProfiles": 130,
+      "evidence": "browser-check.json",
+      "sha256": "00f77a810285ecdd4b0fef9a485135fffb61e429d5eb3737c3e601ced6612dd1"
+    }
+  ],
+  "behavior": [
+    "One outstanding requestAnimationFrame at most; no idle polling. Input, stage/choice updates, resize and camera controls wake rendering.",
+    "Movement and camera settling continue until at rest. Document visibility and actual canvas intersection pause scheduling. Logical staging metadata updates even offscreen.",
+    "Prepared current targets and Blaise limbs are cached outside frames; unchanged fixture values avoid DOM writes and projection serialization.",
+    "One live environment only. Reuse requires exact location, gathered-resident condition, ordered props and ordered actor transforms. Changed staging releases the old environment.",
+    "Shadow map updates on avatar pose and stage changes; camera-only and settling frames reuse current shadows. Original pixel ratio, materials, geometry, lighting, antialiasing, tone mapping and shadow settings retained."
+  ],
+  "metrics": {
+    "idle": {
+      "intervalMs": 1200,
+      "renderFrames": 0,
+      "shadowUpdates": 0
+    },
+    "movement": {
+      "renderFrames": 21,
+      "shadowUpdates": 6,
+      "before": {
+        "x": "0.000",
+        "z": "1.000"
+      },
+      "after": {
+        "x": "-0.160",
+        "z": "0.533"
+      }
+    },
+    "reusedPair": {
+      "first": "a0.refusal-plain",
+      "second": "a0.refusal-sharp",
+      "environmentBuilds": 0
+    },
+    "profiles": 130,
+    "cleanup": {
+      "frames": 0,
+      "resize": 0,
+      "intersection": 0,
+      "visibility": 0,
+      "blur": 0
+    }
+  },
+  "limits": [
+    "Chromium software WebGL; no hardware frame-rate or device benchmark.",
+    "Document-hidden visibility is simulated in the fixture; canvas-offscreen behavior uses real browser scroll/intersection.",
+    "Root owns independent final production browser comparison and package verification."
+  ]
+}

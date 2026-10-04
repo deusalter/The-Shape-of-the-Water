@@ -1,0 +1,238 @@
+{
+  "url": "http://127.0.0.1:4190/",
+  "scope": "Same-machine headless Chromium with software WebGL, 1440x1000 at DPR1. Fresh contexts; service worker blocked to isolate startup from offline prefetch. Timing is diagnostic, not a hardware FPS claim.",
+  "runs": [
+    {
+      "index": 0,
+      "firstPassageMs": 248.40000000596046,
+      "firstWorldMs": 789.2000000029802,
+      "jsBytes": 1275892,
+      "resources": [
+        {
+          "name": "/assets/index-BUNibmEw.js",
+          "bytes": 435425,
+          "transferBytes": 435725
+        },
+        {
+          "name": "/assets/case-v7-B8L3mVuJ.js",
+          "bytes": 207272,
+          "transferBytes": 207572
+        },
+        {
+          "name": "/assets/MercyWorld-B7bGGvl1.js",
+          "bytes": 46848,
+          "transferBytes": 47148
+        },
+        {
+          "name": "/assets/BufferGeometryUtils-BEKyyRAD.js",
+          "bytes": 586347,
+          "transferBytes": 586647
+        }
+      ],
+      "idle": {
+        "milliseconds": 2506,
+        "drawCalls": 0,
+        "animationCallbacks": 0,
+        "scriptMilliseconds": 0,
+        "taskMilliseconds": 1.9249999999999545,
+        "heapBytes": 8742256,
+        "nodes": 101
+      },
+      "idleAfterMovement": {
+        "milliseconds": 2505.9000000059605,
+        "drawCalls": 637,
+        "animationCallbacks": 13,
+        "scriptMilliseconds": 22.11300000000005,
+        "taskMilliseconds": 35.85900000000009,
+        "heapBytes": 13291320,
+        "nodes": 101
+      },
+      "transitionsMs": [
+        169.6000000089407,
+        414
+      ],
+      "afterTwoTransitions": {
+        "environmentBuilds": 3,
+        "nodes": 99
+      },
+      "longTasks": [
+        {
+          "start": 65.6000000089407,
+          "duration": 69
+        },
+        {
+          "start": 308.1000000089407,
+          "duration": 255
+        },
+        {
+          "start": 563.9000000059605,
+          "duration": 232
+        },
+        {
+          "start": 8796.40000000596,
+          "duration": 71
+        },
+        {
+          "start": 9179.90000000596,
+          "duration": 130
+        }
+      ],
+      "errors": []
+    },
+    {
+      "index": 1,
+      "firstPassageMs": 239.3999999910593,
+      "firstWorldMs": 977.2999999970198,
+      "jsBytes": 1275892,
+      "resources": [
+        {
+          "name": "/assets/index-BUNibmEw.js",
+          "bytes": 435425,
+          "transferBytes": 435725
+        },
+        {
+          "name": "/assets/case-v7-B8L3mVuJ.js",
+          "bytes": 207272,
+          "transferBytes": 207572
+        },
+        {
+          "name": "/assets/MercyWorld-B7bGGvl1.js",
+          "bytes": 46848,
+          "transferBytes": 47148
+        },
+        {
+          "name": "/assets/BufferGeometryUtils-BEKyyRAD.js",
+          "bytes": 586347,
+          "transferBytes": 586647
+        }
+      ],
+      "idle": {
+        "milliseconds": 2506.5999999940395,
+        "drawCalls": 0,
+        "animationCallbacks": 0,
+        "scriptMilliseconds": 0,
+        "taskMilliseconds": 2.068000000000181,
+        "heapBytes": 14335080,
+        "nodes": 101
+      },
+      "idleAfterMovement": {
+        "milliseconds": 2506.7999999970198,
+        "drawCalls": 637,
+        "animationCallbacks": 13,
+        "scriptMilliseconds": 16.29500000000006,
+        "taskMilliseconds": 28.110000000000078,
+        "heapBytes": 18936292,
+        "nodes": 101
+      },
+      "transitionsMs": [
+        114.30000001192093,
+        406.6000000089407
+      ],
+      "afterTwoTransitions": {
+        "environmentBuilds": 3,
+        "nodes": 99
+      },
+      "longTasks": [
+        {
+          "start": 61.79999999701977,
+          "duration": 65
+        },
+        {
+          "start": 313.8999999910593,
+          "duration": 410
+        },
+        {
+          "start": 724.0999999940395,
+          "duration": 255
+        },
+        {
+          "start": 9662.39999999106,
+          "duration": 68
+        },
+        {
+          "start": 10044.79999999702,
+          "duration": 107
+        }
+      ],
+      "errors": []
+    },
+    {
+      "index": 2,
+      "firstPassageMs": 253.70000000298023,
+      "firstWorldMs": 781.2000000029802,
+      "jsBytes": 1275892,
+      "resources": [
+        {
+          "name": "/assets/index-BUNibmEw.js",
+          "bytes": 435425,
+          "transferBytes": 435725
+        },
+        {
+          "name": "/assets/case-v7-B8L3mVuJ.js",
+          "bytes": 207272,
+          "transferBytes": 207572
+        },
+        {
+          "name": "/assets/MercyWorld-B7bGGvl1.js",
+          "bytes": 46848,
+          "transferBytes": 47148
+        },
+        {
+          "name": "/assets/BufferGeometryUtils-BEKyyRAD.js",
+          "bytes": 586347,
+          "transferBytes": 586647
+        }
+      ],
+      "idle": {
+        "milliseconds": 2504.5,
+        "drawCalls": 0,
+        "animationCallbacks": 0,
+        "scriptMilliseconds": 0,
+        "taskMilliseconds": 1.8689999999998985,
+        "heapBytes": 16216740,
+        "nodes": 101
+      },
+      "idleAfterMovement": {
+        "milliseconds": 2507.0999999940395,
+        "drawCalls": 490,
+        "animationCallbacks": 10,
+        "scriptMilliseconds": 11.342999999999993,
+        "taskMilliseconds": 28.31700000000015,
+        "heapBytes": 15051320,
+        "nodes": 101
+      },
+      "transitionsMs": [
+        124.6000000089407,
+        350
+      ],
+      "afterTwoTransitions": {
+        "environmentBuilds": 3,
+        "nodes": 99
+      },
+      "longTasks": [
+        {
+          "start": 201.79999999701977,
+          "duration": 52
+        },
+        {
+          "start": 323.20000000298023,
+          "duration": 269
+        },
+        {
+          "start": 592.5999999940395,
+          "duration": 189
+        },
+        {
+          "start": 8784.09999999404,
+          "duration": 58
+        },
+        {
+          "start": 9117.79999999702,
+          "duration": 97
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "status": "PASS"
+}
