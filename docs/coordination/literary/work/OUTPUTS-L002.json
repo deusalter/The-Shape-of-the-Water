@@ -1,0 +1,17 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "STATUS.json": "b3a8fef99e260905c4ff4e37d4b9423778227eca9997c0c902b63eed7e7d06c5",
+    "RESPONSE.md": "6113792277030325a8c8d757df420ceddbebbce2cfc52f7a491b914aebe6d3d0",
+    "work/INPUTS-L002.json": "68b80d21a0aa1a80d07009e7a685226644ec6869c4c983c06035383c30c1ede8",
+    "work/L002-CRITIQUE.md": "e5b53f58a5c99080b3d7b2aaf7499dfe5602c73f707ec58e8996294ee6f33f38",
+    "work/L002-MOTIF-VOICE.md": "9b2fb2904aa0cc31bd8c7172210d4abd4d34fb19691d0fc3dc3ecc2ed0755cdb",
+    "work/L002-SECOND-TRAVERSAL.md": "ad3f8d5b522d30ee5d4350438b7be71414448a6246cb0ba479ad4bf2b57148ee",
+    "work/editorial-checks.json": "04ffba5c2f99c653242e82ea2aeff2f45f464b3de4e5d043c1c294b11be871cc",
+    "work/read-routes.mjs": "fb99612a04a5ac910b5978d2839e5df9980a33af7ccfb5dfa0efbc9b7baa2ccb",
+    "work/route-checks.json": "a54cab8ce15af2ab01099f91774da2b8e4b650f0550c1666175e7086d867567c",
+    "work/route-pressed-shamed-public-leave.md": "76bf659ed730e6cae8ff97931793168769af1a29155dc1983dd5ddfe7ca3b1ab",
+    "work/route-reconstruction-intimacies-private-supper.md": "e276a36e49c6dcbf3d3f280c4712563808b4a23ace38dfeb6ac6954776c7c470",
+    "work/route-recording-public-supper.md": "c023a20bfed981f91b1fbfc21b5e488dee022d2d5210cc7beb053caf5bfdee3c"
+  }
+}

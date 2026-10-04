@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "voiceAnchors": [
+    {
+      "anchor": "Exact ordinary anchor, workshop",
+      "exactInLiveManuscript": true
+    },
+    {
+      "anchor": "Exact pressured anchor, shared",
+      "exactInLiveManuscript": true
+    },
+    {
+      "anchor": "Exact intimate anchor, ada_miriam",
+      "exactInLiveManuscript": true
+    },
+    {
+      "anchor": "Exact ordinary anchor, gallery",
+      "exactInLiveManuscript": true
+    },
+    {
+      "anchor": "Exact pressured anchor, simon_account",
+      "exactInLiveManuscript": true
+    },
+    {
+      "anchor": "Exact intimate anchor, simon_ada",
+      "exactInLiveManuscript": true
+    },
+    {
+      "anchor": "Exact ordinary anchor, bench",
+      "exactInLiveManuscript": true
+    },
+    {
+      "anchor": "Exact pressured anchor, optics",
+      "exactInLiveManuscript": true
+    },
+    {
+      "anchor": "Exact intimate anchor, miriam_private",
+      "exactInLiveManuscript": true
+    }
+  ],
+  "allUnchangedReviewedInputsExceptRecordedCoordinatorFollowUp": true,
+  "originalSceneEmDashCount": 0,
+  "checks": "Source hash stability, nine exact anchors, proposal punctuation; not artistic certification",
+  "packetChecker": "python3 tools/check_packet.py passed structural package checks and negative cases; its existing report stayed byte-identical; no game/philosophy/model verification implied"
+}

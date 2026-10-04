@@ -1,0 +1,662 @@
+{
+  "scope": "Three authored first-night routes executed in the actual v2 engine; not UI, exhaustive, human, or recurrence testing",
+  "caseSha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+  "routes": [
+    {
+      "id": "recording-public-supper",
+      "commands": [
+        {
+          "id": "recording-public-supper.0",
+          "expectedRevision": 0,
+          "type": "choose",
+          "choiceId": "arrival-cabinet"
+        },
+        {
+          "id": "recording-public-supper.1",
+          "expectedRevision": 1,
+          "type": "choose",
+          "choiceId": "cabinet-cautious"
+        },
+        {
+          "id": "recording-public-supper.2",
+          "expectedRevision": 2,
+          "type": "choose",
+          "choiceId": "hub-gallery"
+        },
+        {
+          "id": "recording-public-supper.3",
+          "expectedRevision": 3,
+          "type": "choose",
+          "choiceId": "gallery-recording"
+        },
+        {
+          "id": "recording-public-supper.4",
+          "expectedRevision": 4,
+          "type": "choose",
+          "choiceId": "recording-keep"
+        },
+        {
+          "id": "recording-public-supper.5",
+          "expectedRevision": 5,
+          "type": "submitDeduction",
+          "questionId": "accident-sequence",
+          "candidateId": "rescue-then-impact",
+          "selectedRefs": [
+            "continuous-recording"
+          ]
+        },
+        {
+          "id": "recording-public-supper.6",
+          "expectedRevision": 6,
+          "type": "choose",
+          "choiceId": "finding-share"
+        },
+        {
+          "id": "recording-public-supper.7",
+          "expectedRevision": 7,
+          "type": "choose",
+          "choiceId": "shared-optics"
+        },
+        {
+          "id": "recording-public-supper.8",
+          "expectedRevision": 8,
+          "type": "choose",
+          "choiceId": "optics-narrow"
+        },
+        {
+          "id": "recording-public-supper.9",
+          "expectedRevision": 9,
+          "type": "choose",
+          "choiceId": "cabinet-report"
+        },
+        {
+          "id": "recording-public-supper.10",
+          "expectedRevision": 10,
+          "confirmation": {
+            "stateHash": "aa4e6b000966955df6f258f47a40b51bc3008c7f2624121dce4e8ba0d169373a",
+            "actionHash": "e52d9913fa5da7d2e8d6c6361dff6b02e90a17a736aac7fcf4fb92335532c8fb",
+            "acknowledged": true
+          },
+          "type": "choose",
+          "choiceId": "report-public"
+        },
+        {
+          "id": "recording-public-supper.11",
+          "expectedRevision": 11,
+          "type": "choose",
+          "choiceId": "public-next"
+        },
+        {
+          "id": "recording-public-supper.12",
+          "expectedRevision": 12,
+          "confirmation": {
+            "stateHash": "e312ac91e7fc2774ba1c6cee8cc98f100272e059322ea90762fdac495bf9cc41",
+            "actionHash": "c3f66bd950d10b7588766e2491446e520a12cde9672ad15160fc47da2c3bcf69",
+            "acknowledged": true
+          },
+          "type": "choose",
+          "choiceId": "continue-stay"
+        }
+      ],
+      "ended": true,
+      "finalScene": "supper",
+      "passages": [
+        {
+          "scene": "arrival",
+          "variant": "arrival.base"
+        },
+        {
+          "scene": "cabinet",
+          "variant": "cabinet.base"
+        },
+        {
+          "scene": "concourse",
+          "variant": "concourse.base"
+        },
+        {
+          "scene": "gallery",
+          "variant": "gallery.base"
+        },
+        {
+          "scene": "recording",
+          "variant": "recording.base"
+        },
+        {
+          "scene": "concourse",
+          "variant": "concourse.variant4"
+        },
+        {
+          "scene": "finding_notebook",
+          "variant": "finding_notebook.base"
+        },
+        {
+          "scene": "shared",
+          "variant": "shared.base"
+        },
+        {
+          "scene": "optics",
+          "variant": "optics.base"
+        },
+        {
+          "scene": "cabinet",
+          "variant": "cabinet.variant2"
+        },
+        {
+          "scene": "report",
+          "variant": "report.variant1"
+        },
+        {
+          "scene": "public_account",
+          "variant": "public_account.base"
+        },
+        {
+          "scene": "continuation",
+          "variant": "continuation.variant1"
+        },
+        {
+          "scene": "supper",
+          "variant": "supper.base"
+        }
+      ],
+      "passageWords": 4771,
+      "transcriptSha256": "74cd91be67c144d6daf2934d5c7769eda5a8fa4c68a44bc8eb730f991d344464",
+      "confidenceAcquired": false
+    },
+    {
+      "id": "reconstruction-intimacies-private-supper",
+      "commands": [
+        {
+          "id": "reconstruction-intimacies-private-supper.0",
+          "expectedRevision": 0,
+          "type": "choose",
+          "choiceId": "arrival-miriam"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.1",
+          "expectedRevision": 1,
+          "type": "choose",
+          "choiceId": "bench-record"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.2",
+          "expectedRevision": 2,
+          "type": "choose",
+          "choiceId": "hub-workshop"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.3",
+          "expectedRevision": 3,
+          "type": "choose",
+          "choiceId": "workshop-to-test"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.4",
+          "expectedRevision": 4,
+          "type": "choose",
+          "choiceId": "release-record"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.5",
+          "expectedRevision": 5,
+          "type": "choose",
+          "choiceId": "hub-gallery"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.6",
+          "expectedRevision": 6,
+          "type": "choose",
+          "choiceId": "gallery-hub"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.7",
+          "expectedRevision": 7,
+          "type": "choose",
+          "choiceId": "hub-ada-private"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.8",
+          "expectedRevision": 8,
+          "type": "choose",
+          "choiceId": "ada-miriam-leave"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.9",
+          "expectedRevision": 9,
+          "type": "choose",
+          "choiceId": "hub-simon-private"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.10",
+          "expectedRevision": 10,
+          "type": "choose",
+          "choiceId": "simon-ada-leave"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.11",
+          "expectedRevision": 11,
+          "type": "choose",
+          "choiceId": "hub-miriam-private"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.12",
+          "expectedRevision": 12,
+          "type": "choose",
+          "choiceId": "miriam-private-listen"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.13",
+          "expectedRevision": 13,
+          "type": "submitDeduction",
+          "questionId": "accident-sequence",
+          "candidateId": "rescue-then-impact",
+          "selectedRefs": [
+            "request-before-cut",
+            "ada-cut",
+            "binding-test"
+          ]
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.14",
+          "expectedRevision": 14,
+          "type": "choose",
+          "choiceId": "finding-share"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.15",
+          "expectedRevision": 15,
+          "type": "choose",
+          "choiceId": "shared-optics"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.16",
+          "expectedRevision": 16,
+          "type": "choose",
+          "choiceId": "optics-measure"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.17",
+          "expectedRevision": 17,
+          "type": "choose",
+          "choiceId": "cabinet-report"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.18",
+          "expectedRevision": 18,
+          "confirmation": {
+            "stateHash": "74a897af6dbf89e3450b4c688e261a1cb1313810d926ef30cd7b277d933a410d",
+            "actionHash": "2f9d6ca56f7bd8b57e3519146f3784fa09a569135f6cfc9433f0ccd6e883f545",
+            "acknowledged": true
+          },
+          "type": "choose",
+          "choiceId": "report-private"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.19",
+          "expectedRevision": 19,
+          "type": "choose",
+          "choiceId": "private-next"
+        },
+        {
+          "id": "reconstruction-intimacies-private-supper.20",
+          "expectedRevision": 20,
+          "confirmation": {
+            "stateHash": "e015d75006eb94366aac8f7eecb6968cb8f96d2dff0c43dc4e1c114773e9bdb0",
+            "actionHash": "7914a6a2c980939163ac4baf956a7129e2055d0097d3defd07368891ae48aa14",
+            "acknowledged": true
+          },
+          "type": "choose",
+          "choiceId": "continue-supper-only"
+        }
+      ],
+      "ended": true,
+      "finalScene": "supper",
+      "passages": [
+        {
+          "scene": "arrival",
+          "variant": "arrival.base"
+        },
+        {
+          "scene": "bench",
+          "variant": "bench.base"
+        },
+        {
+          "scene": "concourse",
+          "variant": "concourse.variant1"
+        },
+        {
+          "scene": "workshop",
+          "variant": "workshop.base"
+        },
+        {
+          "scene": "release",
+          "variant": "release.base"
+        },
+        {
+          "scene": "concourse",
+          "variant": "concourse.variant4"
+        },
+        {
+          "scene": "gallery",
+          "variant": "gallery.base"
+        },
+        {
+          "scene": "concourse",
+          "variant": "concourse.variant4"
+        },
+        {
+          "scene": "ada_miriam",
+          "variant": "ada_miriam.base"
+        },
+        {
+          "scene": "concourse",
+          "variant": "concourse.variant4"
+        },
+        {
+          "scene": "simon_ada",
+          "variant": "simon_ada.base"
+        },
+        {
+          "scene": "concourse",
+          "variant": "concourse.variant4"
+        },
+        {
+          "scene": "miriam_private",
+          "variant": "miriam_private.base"
+        },
+        {
+          "scene": "concourse",
+          "variant": "concourse.variant4"
+        },
+        {
+          "scene": "finding_notebook",
+          "variant": "finding_notebook.base"
+        },
+        {
+          "scene": "shared",
+          "variant": "shared.base"
+        },
+        {
+          "scene": "optics",
+          "variant": "optics.base"
+        },
+        {
+          "scene": "cabinet",
+          "variant": "cabinet.variant1"
+        },
+        {
+          "scene": "report",
+          "variant": "report.base"
+        },
+        {
+          "scene": "private_account",
+          "variant": "private_account.base"
+        },
+        {
+          "scene": "continuation",
+          "variant": "continuation.variant2"
+        },
+        {
+          "scene": "supper",
+          "variant": "supper.variant1"
+        }
+      ],
+      "passageWords": 6605,
+      "transcriptSha256": "8423325a7785a93e5a991cadc7fc8d343f030b66b8fb37bcc39595986e18cec4",
+      "confidenceAcquired": true
+    },
+    {
+      "id": "pressed-shamed-public-leave",
+      "commands": [
+        {
+          "id": "pressed-shamed-public-leave.0",
+          "expectedRevision": 0,
+          "type": "choose",
+          "choiceId": "arrival-miriam"
+        },
+        {
+          "id": "pressed-shamed-public-leave.1",
+          "expectedRevision": 1,
+          "confirmation": {
+            "stateHash": "25bf8811bd3990b6a007c1bbb8da264d933a83ce1d42b4689fd90125b0122663",
+            "actionHash": "4a327ab78b3a4cf378aad76d8385ba40ea6ae71a0e180bce8c9c0fb7786ea463",
+            "acknowledged": true
+          },
+          "type": "choose",
+          "choiceId": "bench-panic"
+        },
+        {
+          "id": "pressed-shamed-public-leave.2",
+          "expectedRevision": 2,
+          "type": "choose",
+          "choiceId": "miriam-account-record"
+        },
+        {
+          "id": "pressed-shamed-public-leave.3",
+          "expectedRevision": 3,
+          "type": "choose",
+          "choiceId": "hub-workshop"
+        },
+        {
+          "id": "pressed-shamed-public-leave.4",
+          "expectedRevision": 4,
+          "type": "choose",
+          "choiceId": "workshop-to-test"
+        },
+        {
+          "id": "pressed-shamed-public-leave.5",
+          "expectedRevision": 5,
+          "type": "choose",
+          "choiceId": "release-record"
+        },
+        {
+          "id": "pressed-shamed-public-leave.6",
+          "expectedRevision": 6,
+          "type": "choose",
+          "choiceId": "hub-gallery"
+        },
+        {
+          "id": "pressed-shamed-public-leave.7",
+          "expectedRevision": 7,
+          "confirmation": {
+            "stateHash": "44952d7e99e257e2d9034fb7fef661b556f8d5a90453473456c08db23e5dc138",
+            "actionHash": "f51c272a9e914a88b069e91776c9cb12233606cd7f067bb5cdbdb10461077a94",
+            "acknowledged": true
+          },
+          "type": "choose",
+          "choiceId": "gallery-accuse"
+        },
+        {
+          "id": "pressed-shamed-public-leave.8",
+          "expectedRevision": 8,
+          "type": "choose",
+          "choiceId": "simon-account-record"
+        },
+        {
+          "id": "pressed-shamed-public-leave.9",
+          "expectedRevision": 9,
+          "type": "choose",
+          "choiceId": "hub-miriam-private"
+        },
+        {
+          "id": "pressed-shamed-public-leave.10",
+          "expectedRevision": 10,
+          "type": "choose",
+          "choiceId": "miriam-private-listen"
+        },
+        {
+          "id": "pressed-shamed-public-leave.11",
+          "expectedRevision": 11,
+          "type": "choose",
+          "choiceId": "hub-simon-private"
+        },
+        {
+          "id": "pressed-shamed-public-leave.12",
+          "expectedRevision": 12,
+          "type": "choose",
+          "choiceId": "simon-ada-leave"
+        },
+        {
+          "id": "pressed-shamed-public-leave.13",
+          "expectedRevision": 13,
+          "type": "submitDeduction",
+          "questionId": "accident-sequence",
+          "candidateId": "rescue-then-impact",
+          "selectedRefs": [
+            "request-before-cut",
+            "ada-cut",
+            "binding-test"
+          ]
+        },
+        {
+          "id": "pressed-shamed-public-leave.14",
+          "expectedRevision": 14,
+          "type": "choose",
+          "choiceId": "finding-share"
+        },
+        {
+          "id": "pressed-shamed-public-leave.15",
+          "expectedRevision": 15,
+          "type": "choose",
+          "choiceId": "shared-optics"
+        },
+        {
+          "id": "pressed-shamed-public-leave.16",
+          "expectedRevision": 16,
+          "type": "choose",
+          "choiceId": "optics-measure"
+        },
+        {
+          "id": "pressed-shamed-public-leave.17",
+          "expectedRevision": 17,
+          "type": "choose",
+          "choiceId": "cabinet-report"
+        },
+        {
+          "id": "pressed-shamed-public-leave.18",
+          "expectedRevision": 18,
+          "confirmation": {
+            "stateHash": "5b8a84604d8a4f09db689abc2a8c63d5fdb4ee3eaa22c068c59401e72bad40d0",
+            "actionHash": "37c9504449017819183aae17be801d8d8b4bdab4caaa2345e0955bcc85fa696e",
+            "acknowledged": true
+          },
+          "type": "choose",
+          "choiceId": "report-public"
+        },
+        {
+          "id": "pressed-shamed-public-leave.19",
+          "expectedRevision": 19,
+          "type": "choose",
+          "choiceId": "public-next"
+        },
+        {
+          "id": "pressed-shamed-public-leave.20",
+          "expectedRevision": 20,
+          "confirmation": {
+            "stateHash": "349d91b70b1f312d6693a8b49b6f641948d0b61444a7bcb65bf71dc3c361a64b",
+            "actionHash": "0e0b2c3a1a225f99546eb24a7454a08b6c3773a93c9984b392608ab95b8a79c7",
+            "acknowledged": true
+          },
+          "type": "choose",
+          "choiceId": "continue-leave"
+        }
+      ],
+      "ended": true,
+      "finalScene": "leave",
+      "passages": [
+        {
+          "scene": "arrival",
+          "variant": "arrival.base"
+        },
+        {
+          "scene": "bench",
+          "variant": "bench.base"
+        },
+        {
+          "scene": "miriam_account",
+          "variant": "miriam_account.variant1"
+        },
+        {
+          "scene": "concourse",
+          "variant": "concourse.variant1"
+        },
+        {
+          "scene": "workshop",
+          "variant": "workshop.base"
+        },
+        {
+          "scene": "release",
+          "variant": "release.base"
+        },
+        {
+          "scene": "concourse",
+          "variant": "concourse.variant4"
+        },
+        {
+          "scene": "gallery",
+          "variant": "gallery.base"
+        },
+        {
+          "scene": "simon_account",
+          "variant": "simon_account.variant1"
+        },
+        {
+          "scene": "concourse",
+          "variant": "concourse.variant4"
+        },
+        {
+          "scene": "miriam_private",
+          "variant": "miriam_private.variant1"
+        },
+        {
+          "scene": "concourse",
+          "variant": "concourse.variant4"
+        },
+        {
+          "scene": "simon_ada",
+          "variant": "simon_ada.variant1"
+        },
+        {
+          "scene": "concourse",
+          "variant": "concourse.variant4"
+        },
+        {
+          "scene": "finding_notebook",
+          "variant": "finding_notebook.base"
+        },
+        {
+          "scene": "shared",
+          "variant": "shared.base"
+        },
+        {
+          "scene": "optics",
+          "variant": "optics.base"
+        },
+        {
+          "scene": "cabinet",
+          "variant": "cabinet.variant1"
+        },
+        {
+          "scene": "report",
+          "variant": "report.base"
+        },
+        {
+          "scene": "public_account",
+          "variant": "public_account.base"
+        },
+        {
+          "scene": "continuation",
+          "variant": "continuation.variant2"
+        },
+        {
+          "scene": "leave",
+          "variant": "leave.base"
+        }
+      ],
+      "passageWords": 6353,
+      "transcriptSha256": "4c414ad95905938df3be2a8ffffd8e3bade0a968e9892ba60a4d442cae895f16",
+      "confidenceAcquired": false
+    }
+  ],
+  "manuscriptParagraphsMatched": 363,
+  "status": "PASS"
+}

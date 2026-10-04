@@ -1,9 +1,58 @@
 {
   "team": "literary",
-  "phase": "awaiting owner-created chat",
-  "chatId": null,
-  "chatTitle": null,
+  "requestId": "L-002",
+  "phase": "L-002 complete; proposals ready for lead review",
+  "chatId": "01a1042b-7bf0-7787-8a9a-73799016101f",
+  "chatTitle": "Literary Game — Literary Review",
+  "branch": "team/literary",
+  "inputCommit": "69ec3ca3b22238612a5c806c992ed5e212ed2006",
+  "inputHashes": "work/INPUTS-L002.json",
+  "modelConfiguration": {
+    "requested": "Astra / Ultra",
+    "known": "Codex, GPT-6 family stated by session role",
+    "actualBackendModelId": null,
+    "actualReasoningEffort": null,
+    "limitation": "Exact backend model and effort are not exposed in this chat. Astra/Ultra execution is not attested; parent configuration unchanged."
+  },
   "childActive": false,
-  "outputs": [],
-  "blockers": []
+  "permittedSlots": 0,
+  "outputs": [
+    "RESPONSE.md",
+    "work/INPUTS-L002.json",
+    "work/L002-CRITIQUE.md",
+    "work/L002-MOTIF-VOICE.md",
+    "work/L002-SECOND-TRAVERSAL.md",
+    "work/editorial-checks.json",
+    "work/read-routes.mjs",
+    "work/route-checks.json",
+    "work/route-pressed-shamed-public-leave.md",
+    "work/route-reconstruction-intimacies-private-supper.md",
+    "work/route-recording-public-supper.md"
+  ],
+  "blockers": [],
+  "integrationBaseCommit": "70a495a8b6e7a9ec9ed64c281c302b14e0d0ae60",
+  "lastCoordinatorCheckpoint": "70a495a8b6e7a9ec9ed64c281c302b14e0d0ae60",
+  "followUp": "3D/faceless presentation correction read and acknowledged; reviewed narrative/engine unchanged",
+  "tests": {
+    "actualEngineRoutes": "3 PASS",
+    "liveManuscriptParagraphs": "363 matched",
+    "exactVoiceAnchors": "9 matched",
+    "packetChecker": "PASS structural checks only",
+    "sourceStability": "PASS excluding recorded coordinator follow-up",
+    "proposalEmDashCount": 0
+  },
+  "limits": [
+    "No human or blind reading",
+    "No new primary philosophical/name-provenance research",
+    "No browser or 3D verification",
+    "No implemented recurrence route or playtime claim",
+    "Proposals require lead acceptance"
+  ],
+  "publication": {
+    "branch": "team/literary",
+    "identity": "deusalter <212029343+deusalter@users.noreply.github.com>",
+    "coauthorTrailers": false,
+    "commitLocator": "Commit containing this completed L-002 response; exact pushed SHA reported in chat after remote verification"
+  },
+  "updatedAt": "2026-10-04T00:49:32.088452+00:00"
 }
