@@ -1,0 +1,66 @@
+{
+  "status": "Preserved tested499d candidate before authorized limited-account history grounding repair",
+  "contentSha256": "499d5a2ad4fb6f421f636f4c528522f05b6043452cd7f01d6cc4c1270abc8bf9",
+  "files": {
+    "docs/execution/evidence/mercy-content/a3.final-horse--base.encountered-run.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/499d5a2a-before-limited-account-grounding/a3.final-horse--base.encountered-run.json",
+      "sha256": "b1a5fe7853a14327fe759a035daf9706571920c50ac08378906def855b0a3401"
+    },
+    "docs/execution/evidence/mercy-content/source-index.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/499d5a2a-before-limited-account-grounding/source-index.json",
+      "sha256": "dfbbd3ca74cebdcb1c19fd5f0e2181c4cf2d846df76d49568d2ef806473df261"
+    },
+    "docs/execution/evidence/mercy-content/a3.final-horse--base--proof-q.julian-disappearance.encountered-run.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/499d5a2a-before-limited-account-grounding/a3.final-horse--base--proof-q.julian-disappearance.encountered-run.json",
+      "sha256": "356bf042e6826633702e0e9be9f5e3a65b43fcb8627d3deb33b5b92dc244c355"
+    },
+    "docs/execution/evidence/mercy-content/unit-tests.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/499d5a2a-before-limited-account-grounding/unit-tests.json",
+      "sha256": "19ec0b49217facf8c7bf9ab395e700da422a2f10e48faaa5688b56923b5750dd"
+    },
+    "docs/execution/evidence/mercy-content/witnesses.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/499d5a2a-before-limited-account-grounding/witnesses.json",
+      "sha256": "d6389256f4a4b292127344396c219d4132069c5bc78c4a56eaa4c563a7e63e4f"
+    },
+    "docs/execution/evidence/mercy-content/final-continuity-repair.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/499d5a2a-before-limited-account-grounding/final-continuity-repair.json",
+      "sha256": "aeead72353efc9704358ea280c6a44ac947b9922eac2520b80c9ebc7dbb67308"
+    },
+    "docs/execution/evidence/mercy-content/semantic-review.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/499d5a2a-before-limited-account-grounding/semantic-review.json",
+      "sha256": "9c045f2e09fcf3b8a08eec8b6d4cab19aab625d3880a6761970bf41560897d71"
+    },
+    "docs/execution/evidence/mercy-content/source-map.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/499d5a2a-before-limited-account-grounding/source-map.json",
+      "sha256": "d0f50d0367cffe5996a424b0e343d3436ff05284c5b911e874380bd4ed15c256"
+    },
+    "docs/execution/evidence/mercy-content/build.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/499d5a2a-before-limited-account-grounding/build.json",
+      "sha256": "945742437ea624cb59a0e6fedff9eeef1f9ed6064e5e6aad80aa36bd473e4b71"
+    },
+    "docs/execution/evidence/mercy-content/a2.letter--base.encountered-run.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/499d5a2a-before-limited-account-grounding/a2.letter--base.encountered-run.json",
+      "sha256": "b80c593b00755511d6e67b8a054b8109f72aad7b612116e4e907bae891644b10"
+    },
+    "docs/execution/evidence/mercy-content/a2.letter--invitation.encountered-run.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/499d5a2a-before-limited-account-grounding/a2.letter--invitation.encountered-run.json",
+      "sha256": "cb90a95778a513d322887b877ff99b39b5c25e11d1c7ab47914c35cba08ee26c"
+    },
+    "docs/execution/evidence/mercy-content/verification.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/499d5a2a-before-limited-account-grounding/verification.json",
+      "sha256": "4824ce0fda0ebcaa00a4ebb891b63c4a811ec921d1b8456b9b28563304dbb5ea"
+    },
+    "src/content/case-v7.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/499d5a2a-before-limited-account-grounding/case-v7.json",
+      "sha256": "499d5a2ad4fb6f421f636f4c528522f05b6043452cd7f01d6cc4c1270abc8bf9"
+    },
+    "tools/mercy/staging-v7.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/499d5a2a-before-limited-account-grounding/staging-v7.json",
+      "sha256": "24cbe89d201ffc3529ae66d50492e7a9704300419bd1b240f0f45e26ae2a05d4"
+    },
+    "tests/mercy-content.test.ts": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/499d5a2a-before-limited-account-grounding/mercy-content.test.ts",
+      "sha256": "f06b1205945849452aca84e16d9afe46d9669dcaf884af207fa20b655d83753c"
+    }
+  }
+}

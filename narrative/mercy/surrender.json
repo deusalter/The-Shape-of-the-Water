@@ -1,0 +1,818 @@
+{
+  "scenes": [
+    {
+      "id": "a1.witness",
+      "title": "The advantage he wants to lose",
+      "paragraphs": [
+        "Vera had brought the instruments inside to repair a loose joint. She looked up when Blaise entered and immediately put them down.",
+        "“He's alive,” he said.",
+        "She let out a breath she had apparently been preparing to keep until he finished speaking.",
+        "“Good.”",
+        "“He's building the theatre.”",
+        "“Of course he is. Has he measured it?”",
+        "Blaise sat on the lower step. He told her where he had found him, about the door's failed crossing of the stream and the patch on the roof which would not dry to the right color. The facts let him speak for a while without saying what Julian had asked him to acknowledge.",
+        "Vera waited.",
+        "“I don't want to know the answers in advance,” he said.",
+        "“Then stop asking Erasmus to give you the same questions.”",
+        "“I mean I want to stop having the advantage. I could meet him without it.”",
+        "She sat down beside him, leaving enough room for the box between them.",
+        "“You mean another return.”",
+        "“You would be the witness.”",
+        "“Why would I want that?”",
+        "“You could remember your work. All of it, this time. I would be the one who had to learn what happened.”",
+        "The invitation interested her before she could disapprove of it. Blaise saw the movement and was ashamed of how accurately he had placed the offer.",
+        "“Julian is outside,” he said. “He won't be brought back. I wouldn't be taking his knowledge away.”",
+        "“You would be taking yours.”",
+        "“I want to know what happens when I don't arrive with every successful approach prepared. If he loved me before I had that, perhaps I can meet him as that person again.”",
+        "“You would meet the present Julian. He will know what you did. You will have different knowledge, and I will have different knowledge. It cannot prove that your choice came from something outside causes.”",
+        "“It can still be worth doing.”",
+        "Vera looked at the instrument box. Every ordinary morning she had been obliged to discover the previous investigation as someone else's unfinished demand, written in her own hand. Blaise was offering her the continuity he wanted to surrender.",
+        "“Tell me what else you want,” she said.",
+        "Blaise could have said there was nothing else. He had already discovered how much a proposed experiment could shelter.",
+        "“I want not to know what he answered,” he said. “I want to wake before I've done this to him.”",
+        "“You won't wake before it. You'll wake afterward with less knowledge.”",
+        "“It might feel like before.”",
+        "She did not answer. He had at last given her something which was difficult to correct without pretending she did not understand it.",
+        "“I will remember if you insist on asking,” she said. “Because I want my inquiry to continue, and because I will not leave the only remembered account of this request with Erasmus. You will write it down. You will leave me something I can put in your hand.”",
+        "Blaise could still have risen from the step and walked west. He remained seated while she fetched paper."
+      ],
+      "choices": [
+        {
+          "id": "a1.write-candid",
+          "label": "Write the wish to escape Julian's refusal as well as the wish to surrender the advantage.",
+          "target": "a1.account-candid",
+          "effects": [
+            "account_candid"
+          ]
+        },
+        {
+          "id": "a1.write-limited",
+          "label": "Write the request and its proposed test; leave the wish to feel innocent unrecorded.",
+          "target": "a1.account-limited",
+          "effects": [
+            "account_limited"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "src.surrender-spoken"
+      ]
+    },
+    {
+      "id": "a1.account-candid",
+      "title": "An account without innocence",
+      "paragraphs": [
+        "Blaise wrote slowly, partly because the step was a bad desk and partly because each sentence became harder to revise once Vera had read it.",
+        "I have found Julian outside Aubade. He is alive and has not returned through the edge. I asked Erasmus for the morning after he left. I had asked for other returns after arguments in which he said he wanted to go. I remembered those conversations when he did not.",
+        "Now I am asking for another return, with Vera keeping the memory instead of me. I say I want to meet Julian without the advantage. I also want not to know what he said when I found him. I want the feeling of having done less than I have done.",
+        "If I read this without remembering writing it, the absence of the memory will be something I asked for. It will not establish that the request belonged to nobody. Ask Vera what she saw. Ask Erasmus what he did. Ask Julian what he has carried forward.",
+        "He put down the pencil.",
+        "“It sounds like an instruction to somebody I dislike.”",
+        "“It is an instruction to somebody you hope will benefit,” Vera said.",
+        "“Both, then.”",
+        "She read the page again. At the bottom he added the unfinished roof, the stained door and the fact that Julian was still using the ladder when he left. These were modest details, with no obvious interest in proving Blaise a good man.",
+        "Vera took the original to the outside box. When she returned, she carried a copy for Erasmus to read. Blaise watched her fold it. There was still time to refuse the whole arrangement; he found himself worrying instead about whether the earlier man would understand his handwriting."
+      ],
+      "choices": [
+        {
+          "id": "a1.account-candid-take",
+          "label": "Take the copy to Erasmus with Vera.",
+          "target": "a1.account",
+          "actions": [
+            {
+              "type": "disclose",
+              "characterId": "vera-witness",
+              "refId": "src.account-candid"
+            },
+            {
+              "type": "disclose",
+              "characterId": "blaise",
+              "refId": "src.account-candid"
+            },
+            {
+              "type": "disclose",
+              "characterId": "vera-witness",
+              "refId": "src.surrender-spoken"
+            }
+          ]
+        }
+      ],
+      "sourceIds": [
+        "src.account-candid"
+      ]
+    },
+    {
+      "id": "a1.account-limited",
+      "title": "The explanation he leaves",
+      "paragraphs": [
+        "Blaise wrote on the lid of the box. The first sentence came easily.",
+        "I have found Julian outside Aubade. He is alive and has not returned through the edge. I asked Erasmus for the morning after he left. There have been other requests. I retained the knowledge of what happened between the restored mornings.",
+        "Now I am asking for a return in which Vera remembers instead. I want to discover how I will meet Julian without a stock of successful approaches. He remains outside. The return will not bring him into the city.",
+        "If I do not remember writing this, ask Vera what she saw and Erasmus what he did. Julian can describe what continued outside.",
+        "Vera read it.",
+        "“You said something else to me.”",
+        "“I don't want to put every feeling into it.”",
+        "“You want him to have the good explanation first.”",
+        "He did not deny it. Denying it would have required another sentence in the account.",
+        "She let him leave the page as it was. He added details of the unfinished roof, the stained door and Julian at the ladder, then watched her carry the original to the box outside. She returned with a copy for Erasmus.",
+        "Blaise was relieved that the omission remained possible. Then he thought of the man who would wake and discover that even the account prepared for him had been arranged to make one answer easier."
+      ],
+      "choices": [
+        {
+          "id": "a1.account-limited-take",
+          "label": "Take the copy to Erasmus with Vera.",
+          "target": "a1.account",
+          "actions": [
+            {
+              "type": "disclose",
+              "characterId": "vera-witness",
+              "refId": "src.account-limited"
+            },
+            {
+              "type": "disclose",
+              "characterId": "blaise",
+              "refId": "src.account-limited"
+            },
+            {
+              "type": "disclose",
+              "characterId": "vera-witness",
+              "refId": "src.surrender-spoken"
+            }
+          ]
+        }
+      ],
+      "sourceIds": [
+        "src.account-limited"
+      ]
+    },
+    {
+      "id": "a1.account",
+      "title": "Another person remembers",
+      "paragraphs": [
+        "Erasmus read the copy without sitting down.",
+        "“You are sure he remains outside?” he asked.",
+        "“I found him there,” Blaise said. “He was working. He had not come back when I left.”",
+        "“Then the request will not restore him.”",
+        "“I know.”",
+        "The patron gave the paper to Vera.",
+        "“And you want to remember this?”",
+        "“I want to remember several things. This is among them.”",
+        "“It will not tell you what Blaise is apart from everything which has happened to him.”",
+        "“I have told him that.”",
+        "Blaise was tired of being the person whose experiment everybody understood better. He knew the objection. His answer was no longer really an answer to it. He wanted the morning as people wanted sleep after an unbearable conversation, except that sleep was required to return them to a life in which the conversation remained theirs.",
+        "He had offered Vera his advantage and written an account. That could make the act look generous from one direction. From another, he was making her carry what he wished to put down.",
+        "“I said I want to wake before I know Julian's answer,” he told Erasmus. “I know it won't mean the answer never happened.”",
+        "The patron regarded him for some time.",
+        "“Then you are not asking me for innocence.”",
+        "“I'm asking you for the morning.”",
+        "Erasmus took two chairs into the quiet part of the room. Vera sat in one. Blaise remained beside the other. He could remember Julian's head against his shoulder at the unfinished stage. He did not want to surrender that. The gift had never been good at separating one remembered evening into only the parts he regretted.",
+        "Vera folded the copy and put it into her coat. The original remained in the box beyond the edge."
+      ],
+      "choices": [
+        {
+          "id": "a1.request-witness-change",
+          "label": "Ask for the return, with Vera as the witness and Julian remaining outside.",
+          "target": "a1.second-return",
+          "requires": [
+            "account_candid"
+          ],
+          "irreversible": true,
+          "actions": [
+            {
+              "type": "disclose",
+              "characterId": "erasmus",
+              "refId": "src.surrender-spoken"
+            },
+            {
+              "type": "disclose",
+              "characterId": "erasmus",
+              "refId": "src.account-candid"
+            }
+          ]
+        },
+        {
+          "id": "a1.request-witness-change-limited",
+          "label": "Ask for the return, with Vera as the witness and Julian remaining outside.",
+          "target": "a1.second-return",
+          "requires": [
+            "account_limited"
+          ],
+          "irreversible": true,
+          "actions": [
+            {
+              "type": "disclose",
+              "characterId": "erasmus",
+              "refId": "src.surrender-spoken"
+            },
+            {
+              "type": "disclose",
+              "characterId": "erasmus",
+              "refId": "src.account-limited"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1.second-return",
+      "title": "The place beside him",
+      "paragraphs": [
+        "Erasmus sat beside Vera.",
+        "The placement hurt Blaise. He had asked to surrender a privilege and discovered that part of the privilege was a chair from which he would now be absent.",
+        "“I will come to the theatre,” Vera said. “If you aren't here.”",
+        "Blaise nodded. He wondered whether the restored man would like her. He himself found her difficult to dislike at the moment, which was a source of irritation.",
+        "The room began to take on the light of the dedication morning.",
+        "Blaise tried to hold one particular image: Julian on the ladder, his forearm marked with blue paint, the roof which would not dry to the color he wanted. If memory went, could the wish to retain it somehow remain as its own instruction? He recognized the old demand returning in another form, a little owner who would stay outside everything that happened to the owned life.",
+        "There was no second spectator in the room who could take that position for him.",
+        "The chair beside Erasmus became a shape he had not yet thought to envy.",
+        "Then the scene ended."
+      ],
+      "choices": [
+        {
+          "id": "a1.enter-restored-morning",
+          "label": "Enter the restored morning without Blaise's intervening memories.",
+          "target": "a2.reading",
+          "effects": [
+            "second_return_done"
+          ],
+          "actions": [
+            {
+              "type": "disclose",
+              "characterId": "vera-witness",
+              "refId": "src.second-return-observed"
+            }
+          ]
+        }
+      ],
+      "sourceIds": [
+        "src.second-return-observed"
+      ]
+    },
+    {
+      "id": "a2.reading",
+      "title": "His own voice",
+      "paragraphs": [
+        "Blaise was in the theatre with a piece of string around his wrist. The horse and painted door were absent. A woman he knew as an astronomer stood in the doorway holding a page.",
+        "“You asked me to bring this,” Vera said.",
+        "He read the first sentence, then began again aloud in the pompous voice of the judge.",
+        "“I have found Julian outside Aubade.”",
+        "The solemnity improved the sentence. He went on, enjoying the idea of a man who had prepared this much explanation for an ordinary afternoon.",
+        "When he reached the request to forget Julian's refusal, the voice became difficult to continue.",
+        "“Is this a joke?”",
+        "“No.”",
+        "He knew the handwriting. That was not enough. A familiar script could carry a lie; a page could have been planted. Vera did not ask him to mistake recognition for proof. She told him what he had said to her, how they had gone to Erasmus, where she had kept the original, and where he stood while the light changed. She also described the first rescue at the bridge from the accounts her notebook retained, carefully distinguishing that older record from the request she had just witnessed.",
+        "“You said you wanted to wake before you knew what Julian had answered,” she said. “You also said you knew it would not make the answer never have happened.”",
+        "Blaise looked at the cupboard behind the missing door. He remembered Julian working here. He remembered loving him with none of the particular shame the page required him to recover.",
+        "“I don't feel like the person who wrote this.”",
+        "“You made an arrangement which might produce that feeling.”",
+        "It was a cruelly efficient answer. She seemed unhappy with its efficiency.",
+        "“I can show you where Julian is,” she said. “You needn't decide everything from this paper.”",
+        "Blaise folded the account once, then opened it again. He wanted to find a sentence proving that its author was a different sort of man. He kept finding reasons he could recognize."
+      ],
+      "choices": [
+        {
+          "id": "a2.reading-candid-on",
+          "label": "Go with Vera to check the history against what continued outside.",
+          "target": "a2.sequence",
+          "requires": [
+            "account_candid"
+          ],
+          "actions": [
+            {
+              "type": "disclose",
+              "characterId": "blaise-restored",
+              "refId": "src.account-candid"
+            },
+            {
+              "type": "disclose",
+              "characterId": "blaise-restored",
+              "refId": "src.vera-surrender-report"
+            }
+          ]
+        },
+        {
+          "id": "a2.reading-limited-on",
+          "label": "Go with Vera to check the history against what continued outside.",
+          "target": "a2.sequence",
+          "requires": [
+            "account_limited"
+          ],
+          "actions": [
+            {
+              "type": "disclose",
+              "characterId": "blaise-restored",
+              "refId": "src.account-limited"
+            },
+            {
+              "type": "disclose",
+              "characterId": "blaise-restored",
+              "refId": "src.vera-surrender-report"
+            }
+          ]
+        }
+      ],
+      "sourceIds": [
+        "src.vera-surrender-report"
+      ],
+      "variants": [
+        {
+          "id": "limited-account",
+          "requires": [
+            "account_limited"
+          ],
+          "paragraphs": [
+            "Blaise was in the theatre with a piece of string around his wrist. The horse and painted door were absent. A woman he knew as an astronomer stood in the doorway holding a page.",
+            "“You asked me to bring this,” Vera said.",
+            "He read the first sentence, then began again aloud in the pompous voice of the judge.",
+            "“I have found Julian outside Aubade.”",
+            "The solemnity improved the sentence. He went on, enjoying the idea of a man who had prepared this much explanation for an ordinary afternoon.",
+            "When he reached the request to stop possessing the knowledge with which the account had been written, the voice became difficult to continue.",
+            "“Is this a joke?”",
+            "“No.”",
+            "He knew the handwriting. That was not enough. A familiar script could carry a lie; a page could have been planted. Vera did not ask him to mistake recognition for proof. She told him what he had said to her, how they had gone to Erasmus, where she had kept the original, and where he stood while the light changed. She also described the first rescue at the bridge from the accounts her notebook retained, carefully distinguishing that older record from the request she had just witnessed.",
+            "“There was something you left out,” she said. “You told me you wanted to wake before you knew what Julian had answered. At the palace you also said you knew it would not make the answer never have happened.”",
+            "Blaise looked back at the page. Its account of surrendering an advantage was much easier to respect. The omission felt familiar in a way its history did not.",
+            "Blaise looked at the cupboard behind the missing door. He remembered Julian working here. He remembered loving him with none of the particular shame the page required him to recover.",
+            "“I don't feel like the person who wrote this.”",
+            "“You made an arrangement which might produce that feeling.”",
+            "It was a cruelly efficient answer. She seemed unhappy with its efficiency.",
+            "“I can show you where Julian is,” she said. “You needn't decide everything from this paper.”",
+            "Blaise folded the account once, then opened it again. He wanted to find a sentence proving that its author was a different sort of man. He kept finding reasons he could recognize."
+          ],
+          "sourceIds": [
+            "src.vera-surrender-report"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2.sequence",
+      "title": "After the request",
+      "paragraphs": [
+        "The theatre outside had a roof.",
+        "Blaise's account described a ladder, an unfinished section and a patch of paint which Julian hoped would dry lighter. Julian showed him the patch. It had not. The new boards met it at an uneven edge. He described Blaise holding the ladder during their earlier conversation, then leaving to speak to Erasmus.",
+        "“You came back and asked again?” he said.",
+        "Blaise showed him the account.",
+        "Julian read it without performing the voice. He took a long time at the place where Blaise had explained what he hoped not to know.",
+        "“I stayed here,” he said. “I finished that part of the roof. I slept. You didn't come back until now.”",
+        "Vera went to inspect the painted door. She gave the men a little privacy without pretending to have become deaf.",
+        "“I don't remember holding the ladder,” Blaise said.",
+        "“I do.”",
+        "“I believe you. I don't know where to put it.”",
+        "Julian touched the blue stain on his sleeve.",
+        "“It happened here.”",
+        "The reply was too literal to console him. It helped nevertheless. Blaise had been trying to arrange the events around the morning his body and memory presented as a beginning. The world offered another order: a conversation at this roof, a departure, a request witnessed by Vera, another arrival here after the boards were put in place. The earlier-looking condition was part of a later event.",
+        "He could investigate that order. It did not depend on making a memory feel present. Nor did the ability to assemble it reveal a little substantial self which had watched unchanged while every appearance rearranged itself. The ease of saying I would not perform that work for him.",
+        "“Are you going to do it again?” Julian asked.",
+        "Blaise had no right to say that the answer was obvious merely because the question frightened him.",
+        "“I want to tell people what I know,” he said.",
+        "“Then tell them what you don't remember too.”",
+        "Vera came back with a complaint about the sky painted on the door. Julian had turned one constellation around.",
+        "“It looked more like a dog,” he said.",
+        "She began to argue, then discovered that she was standing in somebody else's theatre.",
+        "They left Julian at the theatre and walked back to Aubade. Blaise wanted to hear Erasmus answer the account before the public meal began."
+      ],
+      "choices": [
+        {
+          "id": "a2.sequence-candid",
+          "label": "Return to Aubade and question Erasmus about the request.",
+          "target": "a2.confirmation",
+          "requires": [
+            "account_candid"
+          ],
+          "actions": [
+            {
+              "type": "disclose",
+              "characterId": "blaise-restored",
+              "refId": "src.sequence-outside"
+            },
+            {
+              "type": "disclose",
+              "characterId": "julian",
+              "refId": "src.account-candid"
+            }
+          ]
+        },
+        {
+          "id": "a2.sequence-limited",
+          "label": "Return to Aubade and question Erasmus about the request.",
+          "target": "a2.confirmation",
+          "requires": [
+            "account_limited"
+          ],
+          "actions": [
+            {
+              "type": "disclose",
+              "characterId": "blaise-restored",
+              "refId": "src.sequence-outside"
+            },
+            {
+              "type": "disclose",
+              "characterId": "julian",
+              "refId": "src.account-limited"
+            }
+          ]
+        }
+      ],
+      "sourceIds": [
+        "src.sequence-outside"
+      ]
+    },
+    {
+      "id": "a2.confirmation",
+      "title": "The person who did it",
+      "paragraphs": [
+        "Erasmus met them in the passage outside the dining room. Behind him, people were arguing pleasantly about where to sit.",
+        "“Did I ask?” Blaise said, holding up the page.",
+        "“Yes.”",
+        "“And you did what it says?”",
+        "“You asked for the morning and for Vera to remember instead. I restored it.”",
+        "“Did I understand what would happen to me?”",
+        "“You understood enough to leave that account.”",
+        "“There were other requests. What did I say they were for?”",
+        "“You wanted to have the conversations with Julian again. After he told you he wanted to leave.”",
+        "“Did I tell you that was when I asked?”",
+        "“Yes. More than once.”",
+        "Blaise looked down at the page. He had been ready to ask whether the timing could be proved. The person who heard the requests was answering him. He could question that testimony without pretending it had not been given.",
+        "Blaise looked at Vera. She had seen the request from beside him. Erasmus had heard it and acted. Julian had remained outside while the work there continued. The accounts did not become a view from beyond experience merely because they agreed. They did give him reasons to locate this morning after the act he did not remember.",
+        "“I don't feel guilty in the way the page seems to expect,” he said.",
+        "“I imagine that was part of the appeal,” Erasmus replied.",
+        "The patron could have made this sound like absolution. He had chosen an uglier kindness.",
+        "The diners were taking their seats. Blaise could have remained in the passage and allowed the confirmation to satisfy him privately. He went inside."
+      ],
+      "choices": [
+        {
+          "id": "a2.enter-public-meal",
+          "label": "Interrupt the meal and read the account in your ordinary voice.",
+          "target": "a2.public-meal",
+          "effects": [
+            "reached_sequence_finding"
+          ],
+          "actions": [
+            {
+              "type": "disclose",
+              "characterId": "blaise-restored",
+              "refId": "src.erasmus-second-confirmation"
+            }
+          ]
+        }
+      ],
+      "sourceIds": [
+        "src.erasmus-second-confirmation"
+      ]
+    },
+    {
+      "id": "a2.public-meal",
+      "title": "An interruption at dinner",
+      "paragraphs": [
+        "Blaise read the account without the judge's voice.",
+        "At first the listeners assumed he was part of the meal Erasmus had prepared for them. He watched that assumption fail. A fork stopped halfway to somebody's mouth. A man at the far end began asking a question before Blaise had finished the paragraph which would have answered it.",
+        "He described the bridge and the returns which followed. He said that the document was his, but that the present memory with which he stood before them did not contain writing it. He named the people who could answer that gap with accounts of what they had actually seen.",
+        "“I chose to lose the knowledge,” he said. “I shouldn't make the result of that choice a proof that I was never involved.”",
+        "Erasmus remained at the table. He neither confirmed every sentence by nodding nor interrupted to correct the tone. Blaise found this restraint almost as difficult as contradiction.",
+        "Vera stepped beside him.",
+        "“There is something about the proposed test,” she said.",
+        "Blaise knew what was coming. She would repeat the words he had spoken about wanting to wake before Julian's refusal. The account already admitted that desire, but hearing another person say it aloud would expose it in a different way. He could leave the page on the table and claim he had supplied what was necessary."
+      ],
+      "choices": [
+        {
+          "id": "a2.let-vera-speak",
+          "label": "Let Vera finish her account of what you said.",
+          "target": "a2.public-correction",
+          "effects": [
+            "let_vera_finish"
+          ]
+        },
+        {
+          "id": "a2.interrupt-vera",
+          "label": "Interrupt and insist that the mechanism of the return is the public question.",
+          "target": "a2.public-interruption",
+          "effects": [
+            "interrupted_vera"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "limited-account",
+          "requires": [
+            "account_limited"
+          ],
+          "paragraphs": [
+            "Blaise read the account without the judge's voice.",
+            "At first the listeners assumed he was part of the meal Erasmus had prepared for them. He watched that assumption fail. A fork stopped halfway to somebody's mouth. A man at the far end began asking a question before Blaise had finished the paragraph which would have answered it.",
+            "He described the bridge and the fact that other returns followed. The document did not name the private arguments. He said that the document was his, but that the present memory with which he stood before them did not contain writing it. He named the people who could answer that gap with accounts of what they had actually seen.",
+            "“I chose to lose the knowledge,” he said. “I shouldn't make the result of that choice a proof that I was never involved.”",
+            "Erasmus remained at the table. He neither confirmed every sentence by nodding nor interrupted to correct the tone. Blaise found this restraint almost as difficult as contradiction.",
+            "Vera stepped beside him.",
+            "“There is something about the proposed test,” she said.",
+            "Blaise knew what was coming. She would repeat the words he had spoken about wanting to wake before Julian's refusal. The account had left that desire out. Vera had told him about it in the theatre; she had heard him say it before the return. He could leave the page on the table and claim he had supplied what was necessary."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2.public-correction",
+      "title": "What another person heard",
+      "paragraphs": [
+        "Blaise moved aside.",
+        "Vera described the conversation on the step. She gave both reasons he had offered: the desire to meet Julian without privileged knowledge, and the desire to stop knowing the answer he had received. She did not pretend to know everything he had felt. She had heard these words and witnessed the subsequent request.",
+        "“He could want both,” a woman near the table said.",
+        "“Yes,” Vera replied.",
+        "The answer was a relief Blaise had not earned by correcting anybody. The choice was not between a pure motive and a complete lie. The difficult part was acknowledging which of the mixed desires had been allowed to decide for another person.",
+        "He put the account where the listeners could reach it. Someone asked Erasmus to describe what the return could and could not restore.",
+        "The patron set down his glass."
+      ],
+      "choices": [
+        {
+          "id": "a2.correction-questions",
+          "label": "Hear the residents' questions.",
+          "target": "a2.questions",
+          "effects": [
+            "left_sequence_finding"
+          ],
+          "actions": [
+            {
+              "type": "disclose",
+              "characterId": "erasmus",
+              "refId": "src.public-inquiry"
+            },
+            {
+              "type": "disclose",
+              "characterId": "vera-witness",
+              "refId": "src.public-inquiry"
+            }
+          ]
+        }
+      ],
+      "sourceIds": [
+        "src.public-inquiry"
+      ]
+    },
+    {
+      "id": "a2.public-interruption",
+      "title": "Which question is permitted",
+      "paragraphs": [
+        "“The question is what the return does,” Blaise said. “I've given an account of that. We don't need to examine every private motive in front of a room.”",
+        "Vera looked at him.",
+        "“You made a public claim about why you asked.”",
+        "“I've said enough to show the problem.”",
+        "“You have shown part of it.”",
+        "Erasmus reached for his glass and put it down without drinking. Blaise saw him recognize a familiar method of keeping an awkward question small.",
+        "Vera did not force her way into the next sentence. She stood beside the account and let Blaise experience the silence as something he had arranged.",
+        "A woman at the end of the table asked whether Erasmus could restore a coat which had been carried away. The ordinary question broke the silence. Blaise was grateful for it before he could prevent himself.",
+        "The inquiry went on with less of his explanation exposed than it might have contained."
+      ],
+      "choices": [
+        {
+          "id": "a2.interruption-questions",
+          "label": "Hear the residents' questions.",
+          "target": "a2.questions",
+          "effects": [
+            "left_sequence_finding"
+          ],
+          "actions": [
+            {
+              "type": "disclose",
+              "characterId": "erasmus",
+              "refId": "src.public-inquiry-bounded"
+            },
+            {
+              "type": "disclose",
+              "characterId": "vera-witness",
+              "refId": "src.public-inquiry-bounded"
+            }
+          ]
+        }
+      ],
+      "sourceIds": [
+        "src.public-inquiry-bounded"
+      ]
+    }
+  ],
+  "staging": [
+    {
+      "sceneId": "a1.witness",
+      "location": "edge",
+      "actors": [
+        "blaise",
+        "vera-witness"
+      ],
+      "props": [
+        "instrument-box",
+        "paper",
+        "pencil"
+      ]
+    },
+    {
+      "sceneId": "a1.account-candid",
+      "location": "edge",
+      "actors": [
+        "blaise",
+        "vera-witness"
+      ],
+      "props": [
+        "instrument-box",
+        "account-pages",
+        "pencil"
+      ]
+    },
+    {
+      "sceneId": "a1.account-limited",
+      "location": "edge",
+      "actors": [
+        "blaise",
+        "vera-witness"
+      ],
+      "props": [
+        "instrument-box",
+        "account-pages",
+        "pencil"
+      ]
+    },
+    {
+      "sceneId": "a1.account",
+      "location": "palace",
+      "actors": [
+        "blaise",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "two-chairs",
+        "account-pages"
+      ]
+    },
+    {
+      "sceneId": "a1.second-return",
+      "location": "palace",
+      "actors": [
+        "blaise",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "two-chairs"
+      ]
+    },
+    {
+      "sceneId": "a2.reading",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "vera-witness"
+      ],
+      "props": [
+        "empty-doorway",
+        "account-pages"
+      ]
+    },
+    {
+      "sceneId": "a2.sequence",
+      "location": "rain-stage",
+      "actors": [
+        "blaise-restored",
+        "julian",
+        "vera-witness"
+      ],
+      "props": [
+        "finished-roof",
+        "painted-door",
+        "account-pages"
+      ]
+    },
+    {
+      "sceneId": "a2.confirmation",
+      "location": "palace",
+      "actors": [
+        "blaise-restored",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "account-pages",
+        "long-table"
+      ]
+    },
+    {
+      "sceneId": "a2.public-meal",
+      "location": "palace",
+      "actors": [
+        "blaise-restored",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "long-table",
+        "account-pages",
+        "plates"
+      ]
+    },
+    {
+      "sceneId": "a2.public-correction",
+      "location": "palace",
+      "actors": [
+        "blaise-restored",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "long-table",
+        "account-pages"
+      ]
+    },
+    {
+      "sceneId": "a2.public-interruption",
+      "location": "palace",
+      "actors": [
+        "blaise-restored",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "long-table",
+        "account-pages"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src.surrender-spoken",
+      "title": "Before the second return: Blaise's spoken reasons",
+      "text": "Blaise told Vera he wanted to meet Julian without privileged knowledge. He also said he wanted not to know Julian's answer and to wake before he had done this to him.",
+      "kind": "statement",
+      "provenanceId": "blaise-surrender-request",
+      "speakerId": "blaise"
+    },
+    {
+      "id": "src.account-candid",
+      "title": "The account preserved outside: both motives",
+      "text": "Blaise wrote that he had requested returns after Julian wanted to leave, and was now giving Vera the witness's memory both to lose an advantage and to escape knowing Julian's refusal. He instructed the restored reader to ask Vera, Erasmus and Julian about the history. Vera kept the original outside the edge.",
+      "kind": "document",
+      "provenanceId": "blaise-written-account"
+    },
+    {
+      "id": "src.account-limited",
+      "title": "The account preserved outside: the proposed test",
+      "text": "Blaise wrote that he requested a return to surrender privileged foreknowledge and test how he would meet Julian. He recorded where Julian remained and whom the restored reader should question, but omitted his spoken wish to feel innocent. Vera kept the original outside the edge.",
+      "kind": "document",
+      "provenanceId": "blaise-written-account"
+    },
+    {
+      "id": "src.second-return-observed",
+      "title": "The second witnessed return",
+      "text": "After Blaise requested the return, Erasmus sat with Vera, preserving her memory. Blaise's intervening knowledge was not preserved. Julian remained outside. The player witnessed the request and transition; restored Blaise has not automatically learned this record.",
+      "kind": "observation",
+      "provenanceId": "second-return-player-observation"
+    },
+    {
+      "id": "src.vera-surrender-report",
+      "title": "After the second return: Vera's testimony",
+      "text": "Vera described the earlier bridge rescue from retained accounts, then distinguished her own witness to Blaise's two stated reasons, the preserved original, his request to Erasmus and the restored morning. Her testimony supplies events which restored Blaise does not remember from within.",
+      "kind": "statement",
+      "provenanceId": "vera-second-return-witness",
+      "speakerId": "vera-witness"
+    },
+    {
+      "id": "src.sequence-outside",
+      "title": "The continuing theatre outside",
+      "text": "Restored Blaise found the roof completed, inspected the paint patch mentioned in his preserved account and heard Julian describe their earlier meeting, Blaise's departure and Julian's continued work outside. This encounter constrains the event order despite Blaise's earlier-looking memory.",
+      "kind": "observation",
+      "provenanceId": "restored-blaise-exterior-encounter"
+    },
+    {
+      "id": "src.erasmus-second-confirmation",
+      "title": "Erasmus confirms the requests",
+      "text": "Before entering the public dining room, Erasmus confirmed that Blaise requested the return, assigned Vera the witness's place and knowingly gave up his own intervening memory. Erasmus acknowledged performing it. Asked about the other requests, he said Blaise had more than once asked to have conversations again after Julian said he wanted to leave. This is Erasmus's present testimony, not restored Blaise's recovered memory.",
+      "kind": "statement",
+      "provenanceId": "erasmus-second-return-admission",
+      "speakerId": "erasmus"
+    },
+    {
+      "id": "src.public-inquiry",
+      "title": "The public inquiry, with Vera's account heard",
+      "text": "Blaise publicly read his account and allowed Vera to describe both reasons she heard him give for surrendering memory. The gathering can question a shared factual account; no conclusion about uncaused freedom or a substantial soul was claimed.",
+      "kind": "statement",
+      "provenanceId": "first-public-inquiry",
+      "speakerId": "blaise-restored"
+    },
+    {
+      "id": "src.public-inquiry-bounded",
+      "title": "The public inquiry, with Vera interrupted",
+      "text": "Blaise publicly described the return and the loss of his knowledge, then interrupted Vera's attempt to describe his private motive. He insisted that the mechanism was the public question. The room did not hear her fuller account on this path.",
+      "kind": "statement",
+      "provenanceId": "first-public-inquiry",
+      "speakerId": "blaise-restored"
+    }
+  ],
+  "characters": [],
+  "questions": [],
+  "interpretationRules": [],
+  "hints": [],
+  "beliefIds": [],
+  "notes": {
+    "status": "completed first-pass literary module",
+    "memory": "All pre-return player notebook records remain historical records for the player. Restored Blaise learns only through explicitly performed reading, witnesses and current observations. No old actor state is copied.",
+    "proof": "No philosophical doctrine is a factual candidate. Temporal-order inquiry is performed in the shared scene, not a compulsory doctrine quiz."
+  }
+}

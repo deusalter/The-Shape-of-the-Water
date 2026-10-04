@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "coordinatorChatTitle": "Build literary detective game",
+  "coordinatorChatId": "01a10367-69a8-77c6-baf2-a0225470603b",
+  "workspace": "/workspace/literary-detective",
+  "finalLiteraryAuthority": "lead_writer in coordinator chat",
+  "maxActiveSubagentsIncludingDescendants": 4,
+  "internalReservedSlots": 4,
+  "teams": {
+    "protagonist": {
+      "suggestedTitle": "Literary Game \u2014 Protagonist",
+      "permittedSlots": 0,
+      "externalChatId": "01a1042a-8c74-70cd-924d-aeada8ddd03e",
+      "phase": "Historical assignment superseded. Root and four internal workers are completing Mercy; no external work currently assigned or directly delivered.",
+      "owns": [
+        "docs/coordination/protagonist/STATUS.json",
+        "docs/coordination/protagonist/RESPONSE.md",
+        "docs/coordination/protagonist/work/**"
+      ],
+      "hostId": "durable",
+      "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+      "branch": "team/protagonist",
+      "requestId": "P-003",
+      "lastObservedCursor": "026c2a37-600b-4160-816f-fb5141976f95:3",
+      "historicalPhaseBeforeStoryReplacement": "new world-rebuild request prepared; awaiting owner resume"
+    },
+    "loop-plot": {
+      "suggestedTitle": "Literary Game \u2014 Loop and Plot",
+      "permittedSlots": 0,
+      "externalChatId": "01a1042a-ed4d-771e-8cd5-f21def1bf031",
+      "phase": "Historical assignment superseded. Root and four internal workers are completing Mercy; no external work currently assigned or directly delivered.",
+      "owns": [
+        "docs/coordination/loop-plot/STATUS.json",
+        "docs/coordination/loop-plot/RESPONSE.md",
+        "docs/coordination/loop-plot/work/**"
+      ],
+      "hostId": "durable",
+      "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+      "branch": "team/loop-plot",
+      "requestId": "T-003",
+      "lastObservedCursor": "f37b2c05-5f04-4832-9c4e-1f9ec5daa06d:3",
+      "historicalPhaseBeforeStoryReplacement": "new world-rebuild request prepared; awaiting owner resume"
+    },
+    "literary": {
+      "suggestedTitle": "Literary Game \u2014 Literary Review",
+      "permittedSlots": 0,
+      "externalChatId": "01a1042b-7bf0-7787-8a9a-73799016101f",
+      "phase": "Historical assignment superseded. Root and four internal workers are completing Mercy; no external work currently assigned or directly delivered.",
+      "owns": [
+        "docs/coordination/literary/STATUS.json",
+        "docs/coordination/literary/RESPONSE.md",
+        "docs/coordination/literary/work/**"
+      ],
+      "hostId": "durable",
+      "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+      "branch": "team/literary",
+      "requestId": "L-003",
+      "lastObservedCursor": "c3e7fd20-af5c-413d-9f79-8e36c9131454:3",
+      "historicalPhaseBeforeStoryReplacement": "new world-rebuild request prepared; awaiting owner resume"
+    },
+    "integration-qa": {
+      "suggestedTitle": "Literary Game \u2014 Integration QA",
+      "permittedSlots": 0,
+      "externalChatId": "01a1042b-95ae-70fa-ae28-8f476b95700c",
+      "phase": "Historical assignment superseded. Root and four internal workers are completing Mercy; no external work currently assigned or directly delivered.",
+      "owns": [
+        "docs/coordination/integration-qa/STATUS.json",
+        "docs/coordination/integration-qa/RESPONSE.md",
+        "docs/coordination/integration-qa/work/**"
+      ],
+      "hostId": "durable",
+      "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+      "branch": "team/integration-qa",
+      "requestId": "Q-004",
+      "lastObservedCursor": "9d90f52d-7c30-4eae-9df9-cbe6b1882110:3",
+      "historicalPhaseBeforeStoryReplacement": "new world-rebuild request prepared; awaiting owner resume"
+    }
+  },
+  "repository": "https://github.com/deusalter/The-Shape-of-the-Water",
+  "integrationBranch": "main",
+  "pushed": true,
+  "visibilityObserved": "public; owner-selected destination",
+  "commitAuthor": "deusalter",
+  "coauthorTrailers": false,
+  "publishedCheckpoint": "7bd430eb3b3963b0f0efa6eceeda0f88c0800560",
+  "permitRevision": "2026-10-04-world-rebuild-004",
+  "latestOwnerCorrection": "docs/OWNER-RESUME-PRODUCTION.md",
+  "requestPublication": "P-003/T-003/L-003/Q-004 published on main; native chat delivery unavailable, owner resume needed",
+  "internalActiveAtLastCheck": [
+    "lead_writer",
+    "mercy_content_engineer",
+    "mercy_world_engineer",
+    "world_philosophical_critic"
+  ],
+  "installedStory": "case-v5 d4b4:63scenes86choices52sources; retainedv4/v2",
+  "currentVerification": "Partial modules and 3D fixtures checked; full game verification pending complete writer modules.",
+  "nextProduction": "Finish Mercy manuscript, compile and stage whole story; critique and verify complete playable game.",
+  "externalSnapshotNote": "Compact snapshots during full-game continuation still report already-collected P-002/T-002/L-002/Q-002 completed work. New world requests are published; no native send/wake tool was exposed.",
+  "proposal": "narrative/replacement-proposal-2026-10-04/PROPOSAL.md",
+  "proposalPublicationTarget": "Delivered proposal preserved in history. Current target is complete playable Mercy game."
+}

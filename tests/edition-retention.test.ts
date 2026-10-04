@@ -44,4 +44,20 @@ describe('retained story editions', () => {
       expect(hashes).not.toContain(contentHash(selected.content.value));
     }
   });
+
+  it('retains the country chapter and replays its completed run only against that exact content', () => {
+    const frozen = validateContentV2(read('narrative/accepted/second-mouth-v5-country-r2/case-v5.json'));
+    const retained = editionFromSearch('?edition=second-mouth-v5').content;
+    if (!frozen.ok || !retained.ok) throw Error('Retained country chapter must validate');
+    expect(contentHash(retained.value)).toBe(contentHash(frozen.value));
+    const run = read('narrative/rebuild/readings-v5/kept-test-dry-tracing-pipe-written.run.json');
+    const replayed = importPortableV2(retained.value, run);
+    if (!replayed.ok) throw Error('Historical country run must replay against its frozen content');
+    expect(JSON.parse(exportPortableV2(replayed.value))).toEqual(run);
+    for (const edition of editions) {
+      if (edition.content.ok && contentHash(edition.content.value) !== contentHash(retained.value)) {
+        expect(importPortableV2(edition.content.value, run).ok).toBe(false);
+      }
+    }
+  });
 });

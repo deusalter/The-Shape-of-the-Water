@@ -1,38 +1,41 @@
 # The Shape of the Water
 
-An original literary psychological detective game in active development, following male protagonist Blaise Bloom through a surreal living country. The selected rewrite, **The Second Mouth**, concerns bodily transformation, local recurrence and a deliberately prepared restoration that leaves two independently living continuations. Its concrete investigation and metaphysical arguments must each earn their conclusions.
+**The Mercy of Morning** is a complete playable literary psychological mystery. Blaise Bloom lives in Aubade, a city whose patron can restore one particular morning. When Julian disappears, Blaise investigates a miracle he has already used to change their life together. The shared story follows the disappearance through its explanation, Blaise's own loss of memory, a public performance, and consequential endings.
 
-The owner reopened the earlier bath premise. Read `docs/OWNER-WORLD-REBUILD-2026-10-04.md` and `narrative/rebuild/SELECTION-AND-DISPOSITIONS.md`. The default player now continues through either the orchard or the shed-room theatre to Emil’s house: 63 scenes and 86 authored choices. Six engine-executed routes encounter 7,609–8,131 passage words each; alternatives and notes are not added together as play length. The earlier first movement and bath prototype remain available through edition links with separate saves. The six-movement 65–82k encountered-word structure is a projection, not written length or measured playtime. This is not a completed game.
+Third-person 3D follows Blaise through an uncanny city populated by faceless figures. Sustained dialogue and inner monologues investigate causality, identity, knowledge, God and recurrence. The story draws on research into Kant and Spinoza while keeping its invented rules distinct from their historical arguments.
 
-Actual Hello Charlotte reference research is in `research/reference/hello-charlotte/`. Primary-source Kant and Spinoza inquiry is in `research/philosophy/`, with renewed world research in `world-rebuild/`. Kant concerns phenomena, noumena and the conditions and limits of experience; Spinoza concerns God or Nature and the Ethics through freedom, intellectual love and blessedness. Historical doctrine and original fictional laws remain distinct. No researcher claims to have played Hello Charlotte.
+## Play
 
-The game uses React/TypeScript/Vite, a deterministic evidence engine, IndexedDB, Three.js and original Blender geometry: third-person exploration with faceless block figures. No live AI or paid API is needed to play. Earlier work is preserved, including its runnable edition and exact encountered transcripts.
+Download [The-Shape-of-the-Water.zip](releases/The-Shape-of-the-Water.zip), extract it, and run `python3 play.py` inside the extracted folder. On Windows, use `py -3 play.py`. Python 3 and a modern browser are required. The launcher opens the game and serves it only on your own computer. Keep that terminal open while playing.
 
-## Run in the authorized cloud workspace
+Move with WASD, arrow keys, or a click on the floor. Press E for a nearby action. Every story action is also available beside the text. The header offers text size, a text-focused view, and the encountered-evidence notebook. Progress saves in this browser; export your encountered run to keep an independent copy. After restarting, use **Take over saving** if prompted. Opening `index.html` directly is unsupported.
 
-Requires Node 24 and pnpm 11.19.0.
+No account, live AI, paid API, or network service is needed to play. The browser caches the game for offline use. Content includes emotional manipulation, memory loss, religious coercion and a remembered life-threatening injury.
+
+## Develop and verify
+
+Node 24+ and pnpm 11.19.0:
 
 ```sh
 pnpm install --frozen-lockfile
 pnpm dev:player
 ```
 
-Player: port 4173. Run `pnpm dev:studio` for the author application at port 4174 `/studio.html`. The studio edits the actual version-2 evidence schema, validates in a separate worker, preserves incomplete drafts, and has isolated ordinary and explicitly noncanonical scenario previews. It contains spoilers.
+`pnpm dev:studio` starts the separate authoring interface. It edits and exports validated static content and keeps author projects and previews separate from player saves.
 
 ```sh
+pnpm mercy:compile
+pnpm mercy:verify
 pnpm verify
-pnpm preview:player
-pnpm preview:studio
+pnpm mercy:package
 ```
 
-Builds are in `dist-player` and `dist-studio`. Use localhost or HTTPS; directly opening HTML files is unsupported. Offline play is ready only when the built player's interface confirms verified assets for the installed story hash. No live AI or paid service is required to play.
+The player uses React, TypeScript, Three.js, a deterministic narrative engine and IndexedDB. The Mercy world is original procedural geometry. The literary source is [narrative/mercy](narrative/mercy/); the selected compiled edition is `src/content/case-v7.json`. Compilation preserves the lead writer's exact prose. Retained earlier editions keep their own content identities and saves.
 
-## Verify and continue
+See [the delivery record](docs/execution/HANDOFF.md) for exact build, browser, offline and review evidence and their limits. Automated checks and AI editorial readings do not constitute human playtesting or an assessment of literary greatness. Graphics are stylized and restrained; this is a finished playable first release, open to further owner-directed revision.
 
-`pnpm verify` runs typecheck, tests, current content validation and both builds. For the current country chapter, serve `dist-player` at port 4190 and run `node tools/browser-country-check.mjs` with the six `narrative/rebuild/readings-v5/*.run.json` files, putting `kept-test-dry-tracing-pipe-written.run.json` first for its spatial-action check. `tools/browser-country-studio.mjs` checks the built studio at port 4191. The earlier first-movement runner needs its retained `?edition=second-mouth-v4` URL. The retained-edition/author regression runner is `tools/browser-v2-check.mjs`, using player/studio ports 4183/4184 and `?edition=first-night`. Earlier runners and exact historical reports remain preserved. `/usr/bin/chromium` is expected. `test:a11y` runs the same suite, not a separate accessibility certification.
+## Research and preservation
 
-Read `RESUME.md`, `docs/execution/HANDOFF.md`, `docs/execution/STATE.json`, and `CONTINUE_PROMPT.md` before editing. Newer explicit owner instructions control, followed by `docs/OWNER-KICKOFF-v4.md`, then compatible revision 3 specifications. `baseline/revision3` is the untouched planning package, not an earlier implementation.
+[The philosophy map](narrative/mercy/PHILOSOPHY-MAP.md), [author notes](narrative/mercy/AUTHOR-NOTES.md), [name sources](narrative/mercy/NAMES.md) and [review dispositions](narrative/mercy/REVIEW-DISPOSITION.md) explain the work. Research into Hello Charlotte concerns psychological development, tonal changes and personal stakes; no characters, plot, signature devices or assets were copied. Its source limits are recorded in [the reassessment](research/reference/hello-charlotte/reassessment-2026-10-04/REASSESSMENT.md).
 
-`src/content/selection.json` installs case-v5; case-v4 is the retained first movement, and case-v2 the retained bath prototype. There is no automatic cross-edition save migration. The untouched v1 bundle is retained under `src/content/legacy/`, and `src/content/case.json` remains historical. Read `narrative/rebuild/SELECTION-AND-DISPOSITIONS.md` and its linked new prose; older reading orders describe the preserved bath iteration. Earlier transcripts and accepted/rejected drafts remain preserved.
-
-Separate chats coordinate through the owner-selected GitHub repository and `docs/coordination/GITHUB-WORKFLOW.md`. Each team has its own branch and proposal/report directory. One lead writer integrates final prose. No public deployment or human playtest is claimed. The latest executed checks and remaining gaps are in the handoff and reviews. Current compilation passes 496 automated tests, typecheck, content validation and both builds. Current browser and source evidence is under `docs/execution/evidence/country-integration/`; historical v4 verification remains under `second-mouth-integration/`. The country and first house visits are installed. The deliberate bodily return, washing/Ethics V encounter, comparisons/confrontation and endings remain separate manuscript work with explicit setup debts. The projected full game is unfinished.
+Earlier proposals, rejected drafts, exact voice anchors and source checks remain preserved. The older bodily-support story is not the current premise. [CONTINUE_PROMPT.md](CONTINUE_PROMPT.md) is a self-contained starting point for another chat. The repository and bundled dependencies retain their recorded licensing and provenance; the downloadable player includes third-party notices.

@@ -1,0 +1,368 @@
+from authoring import Module, choice, paragraphs
+m=Module("outside")
+
+m.scene("a1.rain-market","An audience of strangers",'''The market occupied a long pocket of dry ground inside the standing rain. Beyond the stalls, water fell with the patient violence of a storm which had nowhere else to go. People had hung their notices on the dry side of it. One advertised a room with a view of better weather.
+
+A performer in a green coat was trying to persuade a small audience that the rain would obey him. He raised his hands. The water continued falling.
+
+“It has chosen dignity,” he announced.
+
+Blaise laughed. The performer pointed at him.
+
+“You. You look skeptical.”
+
+“I've been disappointed by the weather before.”
+
+“Then come and assist me.”
+
+Blaise could see the apparatus of the joke: a bucket beneath a cloth, a cord, a place where he would stand and be made wet. He had no wish to take part. Then he saw the little audience waiting and discovered that he did.
+
+He stepped into the indicated place with the ceremonious care he used for Julian's judge. The performer lifted the cord. Blaise moved the bucket a few inches with his foot and looked up in great alarm at the harmless sky.
+
+The water struck the performer's coat.
+
+There was a moment in which the man's annoyance was entirely real. Then he bowed to the rain, accepting its judgment, and the audience laughed.
+
+Blaise laughed too. He had made something happen here which did not require Julian to be present. The pleasure was almost immediately followed by the wish to tell him about it. He did not know whether that reduced the pleasure or extended it.
+
+The performer wrung out one sleeve and asked if he belonged to the new company.
+
+“I'm looking for someone who does.”
+
+“The man with the door?”
+
+“Apparently everybody has seen the door.”
+
+“It tried to cross the market before the cart did. Hard to miss.”
+
+He pointed toward the end of the dry hollow. The unfinished theatre was visible there, no more than a raised floor, some roof beams and a hanging strip of canvas. The painted door stood upright at its side. Julian was on a ladder holding a brush between his teeth.
+
+Blaise took several steps before the fact became a thought. The person was there. He had not withdrawn from existence. He was trying to reach a place on a roof which was too far from his ladder.''',[
+choice("a1.approach-stage","Go to Julian at the unfinished theatre.","a1.rain-stage")
+],actors=["blaise","julian"],location="rain-stage",props=["standing-rain","market-stalls","bucket","painted-door","construction-boards"])
+
+m.scene("a1.rain-stage","A man with a brush",'''“That's too far,” Blaise said.
+
+Julian removed the brush from his mouth.
+
+“I know.”
+
+“Then why are you trying?”
+
+“Because moving the ladder will become an event.”
+
+He turned, saw Blaise properly and came down so quickly that the last step struck the ground before his foot had found it. They stood close together without deciding what that closeness permitted.
+
+Julian put a hand on Blaise's arm.
+
+“You came.”
+
+“I thought you were gone.”
+
+“I did go.”
+
+There was no possible way to say that he had thought gone meant more than this without describing what Erasmus had told him. Blaise looked over Julian's shoulder instead.
+
+The painted door had a pale stain across its lower half. Somebody had attempted to wash it and stopped. Its familiar stars were still visible beneath the damage. The cart stood beside the stage, tilted because one wheel had sunk into the wet edge of the ground.
+
+Everything which had failed to return had continued into a place where it could acquire a new stain.
+
+Julian followed his look.
+
+“It wasn't a good bridge.”
+
+“I heard.”
+
+“Of course you did.”
+
+He began to laugh, then stopped because Blaise had not. That attempted adjustment hurt more than the laughter would have done.
+
+“I didn't go back through the edge,” Julian said. “I came here with the cart and stayed. They've let me use the corner behind the canvas.”
+
+He lifted the hanging edge. A blanket lay on a pile of folded cloth. There was a cup beside it, one of the cheap cups which had not come from their room.
+
+“Did he do it?” Julian asked.
+
+Blaise nodded.
+
+“Did you ask?”''',[
+choice("a1.tell-whole-julian","Tell Julian that you asked, and repeat Erasmus's claim that he had withdrawn from existence.","a1.found-whole",effects=["told_julian_whole"]),
+choice("a1.tell-request-only","Admit the request, but keep Erasmus's explanation to yourself.","a1.found-limited",effects=["kept_withdrawal_private"])
+],actors=["blaise","julian"],location="rain-stage",props=["painted-door","cart","construction-boards","ladder","blanket","cheap-cup"],sourceIds=["src.julian-alive","src.julian-outside-account"])
+
+m.scene("a1.found-whole","What he was told",'''“I asked,” Blaise said. “When you weren't there afterward, he said you had withdrawn. Not to a place. He made it sound as though you didn't exist.”
+
+Julian's hand fell away from his arm.
+
+“He knew what the edge does.”
+
+“Yes.”
+
+“And you?”
+
+“Not all of it. I knew things could be carried out. I didn't understand what it meant for a return until you weren't there.”
+
+“You might have asked.”
+
+Blaise almost said he had trusted him. It would have been true, but it was beginning to sound like a way of assigning the act to someone else.
+
+“I wanted the morning,” he said.
+
+Julian leaned against the stage. A painted stripe transferred to his sleeve. He noticed, rubbed at it and made it worse.
+
+“I wanted you to come,” he said. “I didn't mean by being frightened into looking for a dead man.”
+
+“I know that now.”
+
+“You could have known it when I asked.”
+
+The sentence remained between them without acquiring the finality Blaise feared. Julian was still there, with paint on his sleeve and more work than he could do alone.''',[
+choice("a1.whole-finding","Stay with Julian and consider what the evidence establishes.","a1.found",effects=["reached_julian_finding"],actions=[{"type":"disclose","characterId":"julian","refId":"src.first-return"},{"type":"disclose","characterId":"julian","refId":"src.withdrawal-claim"},{"type":"disclose","characterId":"blaise","refId":"src.julian-alive"},{"type":"disclose","characterId":"blaise","refId":"src.julian-outside-account"}])
+],actors=["blaise","julian"],location="rain-stage",props=["painted-door","cart","construction-boards"])
+
+m.scene("a1.found-limited","The request",'''“I asked,” Blaise said.
+
+Julian let go of his arm.
+
+“After I said I was going.”
+
+“I didn't know whether you meant it.”
+
+“You could have come after me.”
+
+“I did.”
+
+Julian looked at him until he could no longer take pleasure in the reply.
+
+“Afterward,” Blaise said. “I came afterward.”
+
+He could have described Erasmus's account. He found himself protecting it, not because he believed it now but because he did not want to explain how completely he had allowed it to frighten him. He would have to tell Julian that he had believed a departure might mean a refusal of existence itself. It was easier to look merely possessive than to reveal the size of the meaning he had attached to being left.
+
+Julian rubbed at a stripe of paint on his sleeve.
+
+“I am glad you've come,” he said. “I'm angry that this is how you've come. I don't know how to make one sentence out of both.”
+
+“You just did.”
+
+For a moment Julian almost smiled.''',[
+choice("a1.limited-finding","Stay with Julian and consider what the evidence establishes.","a1.found",effects=["reached_julian_finding"],actions=[{"type":"disclose","characterId":"julian","refId":"src.first-return"},{"type":"disclose","characterId":"blaise","refId":"src.julian-alive"},{"type":"disclose","characterId":"blaise","refId":"src.julian-outside-account"}])
+],actors=["blaise","julian"],location="rain-stage",props=["painted-door","cart","construction-boards"])
+
+m.scene("a1.found","The disappearance",'''The cart's wheel was slowly sinking. Julian fetched a board and put it under the rim. Blaise helped lift, and between them they got the wheel onto dry ground.
+
+The act gave him something to do with his hands while the discovery became ordinary. Julian was alive. He said he had remained outside since leaving. The cart and scenery had remained with him. The return had restored the city without summoning what was no longer inside its reach.
+
+Blaise had found the man he came to find. Erasmus's account of nonexistence could not survive this encounter. But knowing that account was false did not supply an answer to the question Julian had actually asked him before leaving.
+
+He could record the bounded finding here, using Julian's present existence and his account of the crossing. The papers from Vera and the missing objects were reasons that had led him to look. They did not need to be promoted into independent witnesses of a departure they had not themselves described.
+
+Julian put away the spare board.
+
+“Are you staying long enough to hold the ladder?” he asked.''',[
+choice("a1.continue-without-finding","Continue the conversation without writing a finding.","a1.earlier-love",effects=["left_julian_finding"])
+],actors=["blaise","julian"],location="rain-stage",props=["cart","construction-boards","ladder"],sourceIds=["src.outside-scenery"])
+
+m.scene("a1.earlier-love","What the morning kept",'''Blaise held the ladder. Julian moved the brush into the small space he had been unable to reach.
+
+“Vera showed you the records,” Blaise said.
+
+“Yes.”
+
+“And that made you leave.”
+
+“It helped me decide. I'd already told you I wanted to come here.”
+
+Blaise had been trying to make a single discovery responsible. Then he could blame the interpretation of it, dispute its sufficiency, perhaps recover an earlier answer by showing that the evidence had been misunderstood. Julian's desire had several conditions. Removing one would not necessarily give Blaise the man he wanted.
+
+“I didn't make you happy by force,” he said.
+
+Julian stopped painting.
+
+“I know.”
+
+“Then you can't say those days were false.”
+
+“I haven't.”
+
+“You speak as though all I did was prevent you from leaving.”
+
+“I don't know all you did. That is part of what frightens me.”
+
+The brush dripped onto the ladder. Julian wiped it with the heel of his hand.
+
+“There were things we made,” Blaise said. “The line wasn't something I took from your papers. We changed it in bed. I remember how you laughed. You asked me to keep saying it in the judge's voice.”
+
+Julian came down a step. He was now close enough that Blaise could hear the small movement of his breath before he spoke.
+
+“I'm sorry I don't remember it.”
+
+“I don't want you to be sorry.”
+
+“I am anyway. I'd like to have that.”
+
+For a moment the grief was shared without becoming an agreement about what ought to happen next. Blaise wanted to hold them there. He recognized that desire before it could disguise itself as another principle.
+
+“If we went back,” he began.
+
+“I wouldn't remember it then either. You'd have to make it happen again. Or tell me the answer.”
+
+The distinction was painfully simple. He had wanted restoration to preserve the collaboration whose result he carried. Instead it might give him an earlier person to whom he could supply that result. The work itself would still have happened, but not for the listener he hoped to obtain.
+
+“Perhaps Erasmus knew it would go this way,” Blaise said. “Perhaps he wanted me to ask until I understood.”
+
+Julian set the brush down.
+
+“That would be a very unpleasant favor.”
+
+“It would mean I wasn't arranging all of it.”
+
+“You weren't arranging all of it. You still asked.”
+
+Blaise looked at his hand on the ladder. Explaining the patron's desire would add another cause to the request. It would not put someone else's hand where his had been when he drew his chair closer.
+
+Julian climbed down. The patch of roof he had painted was visibly the wrong shade.
+
+“I thought that would dry lighter,” he said.
+
+“Will it?”
+
+“I would very much like it to.”
+
+Blaise laughed. Julian leaned his forehead briefly against Blaise's shoulder, a tired gesture which asked for no conclusion. Blaise let it last as long as Julian kept it there.''',[
+choice("a1.ask-to-stay","Ask whether Julian still wants you in the company.","a1.company-question"),
+choice("a1.offer-scene","Offer to show Julian what happened with the rain performer.","a1.market-story")
+],actors=["blaise","julian"],location="rain-stage",props=["ladder","construction-boards","paint-brush"])
+
+m.scene("a1.company-question","An unfinished invitation",'''“Do you still want me here?” Blaise asked.
+
+Julian stepped away enough to look at him.
+
+“Yes. Not as an answer to everything.”
+
+“I don't know how to ask it as a smaller question.”
+
+“We could begin with whether you'll be good in the play.”
+
+“You know I will.”
+
+Julian laughed. “There he is.”
+
+Blaise enjoyed the recognition, then felt the familiar temptation to use it as evidence for a larger verdict. This is the man you know. This is the man you wanted. If the feeling could be secured, perhaps the rest would follow.
+
+“I need to speak to Erasmus,” he said.
+
+“I know.”
+
+“Will you remain here?”
+
+“I have a roof to spoil.”
+
+Julian picked up the brush. He had answered the practical question. Blaise had to let that be the answer he carried.''',[
+choice("a1.question-return","Return to Aubade to confront Erasmus's account.","a1.return-patron",effects=["asked_company_place"])
+],actors=["blaise","julian"],location="rain-stage",props=["construction-boards","paint-brush"])
+
+m.scene("a1.market-story","The rain's judgment",'''Blaise showed him the performer's raised hands, then his own solemn attempt to escape the bucket. He made the annoyed bow larger than it had been. The original performer would have resented it.
+
+Julian began laughing before the end.
+
+“You stole his joke.”
+
+“I improved his weather.”
+
+“Did he mind?”
+
+“Very much, for a moment.”
+
+“Then you'll have to apologize before we ask him to play the bishop.”
+
+The casual we was almost too much. Blaise wanted to pretend he had not noticed it, then produce something admirable enough to make it safe.
+
+Instead he asked whether Julian had planned to return to Aubade.
+
+“I promised Vera we'd bring the stage for her demonstration,” Julian said. “She could do it in the square without us. She'd lose everybody after the third mark. I told her there would be a play.”
+
+“You shouldn't come inside if he's going to return it.”
+
+“Then don't ask him to.”
+
+Blaise could not object to the plainness of the reply without explaining what he still hoped to obtain.
+
+“I'll speak to him,” he said.
+
+Julian put the brush into his hand while he fetched a cloth. Blaise held it, absurdly pleased to have been given something to do which Julian expected him to do now.''',[
+choice("a1.story-return","Return to Aubade to confront Erasmus's account.","a1.return-patron",effects=["shared_market_story"])
+],actors=["blaise","julian"],location="rain-stage",props=["construction-boards","paint-brush"])
+
+m.scene("a1.return-patron","The limit he withheld",'''Erasmus was repairing the torn loop on the commemorative cloth. He set it down when Blaise came in.
+
+“He's alive,” Blaise said.
+
+“I'm glad.”
+
+“You told me he'd withdrawn from existence.”
+
+“I told you I could not bring him here.”
+
+“You made one mean the other. I asked you whether he existed. You let me leave believing that he might not.”
+
+The patron looked at the needle in his hand.
+
+“Yes,” he said.
+
+The admission was so small that Blaise wanted him to say it again in a tone appropriate to its effect.
+
+“You know the edge stops the return.”
+
+“I know that I can restore what remains here. I cannot summon what has left.”
+
+“Then why tell me that?”
+
+“Because I thought you would go and find him. Because you would discover that he was not waiting in a perfect place beyond me. Because I hoped you would come back of your own accord.”
+
+Blaise had expected a secret intention large enough to contain his life. The disclosed one was both more ordinary and more humiliating. Erasmus had been willing to frighten him to produce a journey he thought would teach him gratitude.
+
+“That doesn't make it a kindness,” Blaise said.
+
+“I know how it sounds.”
+
+“Do you know how it was?”
+
+The patron put down the needle.
+
+“No. Not as you did.”
+
+Blaise looked at the repaired loop. Erasmus could bring the cloth back to an earlier condition, yet he had been sewing it. The power did not make every other act unintelligible. It made the temptation to use it particular.
+
+“You have told me conversations before they happened,” Blaise said.
+
+“I had heard them before.”
+
+“All of them?”
+
+“Some. Others I could understand well enough to expect. You do the same when you play a scene.”
+
+“You let me think you knew everything.”
+
+“You wanted a knowledge in which nothing you loved could be lost.”
+
+“That isn't an answer.”
+
+“It is one reason I let you think it.”
+
+Blaise sat down without being invited. The patron's finitude did not make the repaired bridge fall again. It did not make Julian's love false. It did remove the person who was supposed to know what all of it ultimately meant.
+
+Erasmus picked up the cloth but did not resume sewing.
+
+“What did he say to you?”
+
+Blaise could tell him. He could also take the answer somewhere the patron would not be the first person to interpret it.''',[
+choice("a1.go-to-witness","Find Vera before making another request.","a1.witness",actions=[{"type":"disclose","characterId":"blaise","refId":"src.erasmus-limit-admission"},{"type":"disclose","characterId":"erasmus","refId":"src.julian-alive"},{"type":"disclose","characterId":"erasmus","refId":"src.julian-outside-account"}])
+],actors=["blaise","erasmus"],location="palace",props=["folded-cloth","needle","chair"],sourceIds=["src.erasmus-limit-admission"])
+
+m.source("src.julian-alive","Outside: Julian encountered alive","Blaise met Julian at the theatre beside the standing rain, spoke with him, touched him and saw him working on the roof. The painted door and cart were present there.",provenance="blaise-julian-encounter")
+m.source("src.julian-outside-account","Julian's account of the crossing","Julian said that he came out with the cart, stayed at the unfinished theatre and did not cross back into Aubade before Blaise found him.",kind="statement",provenance="julian-crossing-account",speakerId="julian")
+m.source("src.outside-scenery","The travelled scenery","Blaise inspected the familiar painted door, now stained after an attempted use as a bridge, and helped move its cart onto dry ground. These objects are present outside after being absent from the restored theatre.",provenance="blaise-julian-encounter")
+m.source("src.erasmus-limit-admission","Erasmus admits the limit and the deception","Erasmus acknowledged allowing Blaise to believe Julian might not exist. He said he can restore what remains in Aubade but cannot summon what has left; some apparent predictions came from prior occurrences and others from understanding people. He hoped Blaise would find the outside disappointing and return voluntarily.",kind="statement",provenance="erasmus-limit-admission",speakerId="erasmus")
+m.questions.append(dict(id="q.julian-disappearance",text="What accounts for Julian's absence after the first witnessed return?",when={"op":"all","args":[{"op":"flag","id":"reached_julian_finding"},{"op":"hasSource","id":"src.julian-alive"},{"op":"hasSource","id":"src.julian-outside-account"},{"op":"not","arg":{"op":"flag","id":"left_julian_finding"}}]},candidates=[dict(id="julian-outside",text="Julian had left the return's reach and remained alive outside."),dict(id="julian-erased",text="The return removed Julian from existence.",contradictedBy=["src.julian-alive"]),dict(id="julian-left-after",text="Julian was restored inside and left again before Blaise arrived.",contradictedBy=["src.julian-outside-account"])],supportedCandidateId="julian-outside",proof={"op":"all","independent":True,"args":[{"op":"ref","refId":"src.julian-alive"},{"op":"ref","refId":"src.julian-outside-account"}]},allowedCorroborators=["src.empty-theatre","src.door-before-anchor","src.vera-log","src.outer-records","src.outside-scenery"],feedback=[dict(code="supported",text="The present encounter establishes Julian is alive; his account locates him outside throughout the return. The earlier traces led to this explanation without themselves proving it."),dict(code="contradictory",text="That account conflicts with the present encounter or Julian's report of when he crossed."),dict(code="unsupported",text="Use the present encounter and Julian's account together. Missing objects alone do not locate him throughout the return.")],effects=["julian_departure_established","left_julian_finding"],target="a1.earlier-love"))
+m.staging[0]["distantActors"]=["julian"]
+m.write(evidence="The supported finding is optional; continuing without writing it does not block the story. Its eligibility closes once this encounter is left, preventing later backtracking via question.target.")

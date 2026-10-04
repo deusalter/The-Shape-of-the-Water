@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "tests": 516,
+  "testFiles": 38,
+  "typecheck": "PASS",
+  "contentValidation": "PASS",
+  "playerBuild": "PASS",
+  "studioBuild": "PASS",
+  "contentSha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "assetBuild": "f50d4556622bbc4d",
+  "canonicalContentHash": "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+  "verificationLog": "verify-final.txt",
+  "finalBuildLog": "build-final.txt",
+  "cleanSource": "CLEAN-SOURCE.json",
+  "scope": "Independently installed dependencies and clean tracked-source export. After full verification only HTML tab titles changed, then both builds repeated. No discarded v6 source or assets. Software browser checks recorded separately."
+}

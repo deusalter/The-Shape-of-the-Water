@@ -1,0 +1,37 @@
+{
+  "earlierContentSha256": "81b60c9c19fe66c5749f02a9f474d55975f00d298e793ed738bd4d3b7e3df938",
+  "finalContentSha256": "499d5a2ad4fb6f421f636f4c528522f05b6043452cd7f01d6cc4c1270abc8bf9",
+  "scope": "Exactly three lead-authored local dialogue corrections. All scene IDs, choices, variants, sources, proof rules and character declarations compare equal to the preserved first complete candidate. Fresh reader packet was not edited.",
+  "changes": [
+    {
+      "sceneId": "a2.a-form-of-love",
+      "beforeParagraphs": 65,
+      "afterParagraphs": 68,
+      "changedText": [
+        "“There is a form of love in that activity,” Vera said.",
+        "“Whose?”",
+        "“Ours. And, through it, God's.”",
+        "“I keep thinking you mean that one learns to admire the arrangement,” Blaise said."
+      ]
+    },
+    {
+      "sceneId": "a2.greenroom",
+      "beforeParagraphs": 11,
+      "afterParagraphs": 12,
+      "changedText": [
+        "“I used my ordinary voice.”",
+        "“Was it harder?”",
+        "“I think so.”"
+      ]
+    },
+    {
+      "sceneId": "a2.erasmus-loss",
+      "beforeParagraphs": 23,
+      "afterParagraphs": 23,
+      "changedText": [
+        "“When I asked you to speak at the meal,” Erasmus said, “you said no. I took down the cloth. That was when I renewed the promise: while you remain in Aubade, I will not return the city without your request.”",
+        "“You allowed the refusal to stand.”"
+      ]
+    }
+  ]
+}

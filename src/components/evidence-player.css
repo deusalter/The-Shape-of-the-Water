@@ -2,3 +2,79 @@
 
 .edition-nav{padding:0 2rem 2rem;text-align:center;font:.8rem/1.6 system-ui,sans-serif;color:#526456}
 .edition-nav p{margin:.5rem 0}
+.evidence-player .notebook[hidden]{display:none}
+.evidence-search{display:block;font: .85rem/1.5 system-ui,sans-serif}
+.evidence-search input{display:block;width:100%;max-width:100%;min-width:0;margin:.4rem 0;padding:.55rem;border:1px solid #83998b;background:#faf9f3;color:#243633}
+.investigation-notebook .search-count{font:.75rem/1.5 system-ui,sans-serif;color:#40584a}
+
+/* The new story keeps its world in view while longer conversations are read. */
+.mercy-reader {
+  color: #302e35;
+  background: radial-gradient(ellipse at 18% 0%, #e9e0d5, transparent 70%), #ddd9d2;
+  min-height: 100svh;
+}
+.mercy-reader .site-header {
+  max-width: 1700px;
+  padding: 1.25rem 2rem;
+  border-color: #bcb5ac;
+}
+.mercy-reader .site-header h1 { font-size: clamp(1.6rem, 2.6vw, 2.5rem); }
+.mercy-reader .eyebrow { color: #655861; }
+.mercy-reader .game-layout {
+  max-width: 1700px;
+  grid-template-columns: minmax(0, 1.2fr) minmax(340px, 1fr);
+  padding: 1.25rem 2rem 2rem;
+  gap: 1.25rem;
+  align-items: start;
+}
+.mercy-reader .mercy-world { grid-column: 1; grid-row: 1; min-width: 0; }
+.mercy-reader .passage-card {
+  grid-column: 2;
+  grid-row: 1;
+  max-height: calc(100svh - 11rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-color: #9e8f82 #eee8df;
+  scrollbar-width: thin;
+  padding: 1.75rem 2rem;
+  border: 1px solid #c9bfb1;
+  border-top: 3px solid #7b4f4f;
+  background: #f5f0e7;
+  box-shadow: 0 8px 30px #342b3310;
+}
+.mercy-reader .passage-card h2 { font-size: clamp(1.6rem, 2.1vw, 2.2rem); }
+.mercy-reader .prose { line-height: 1.75; }
+.mercy-reader .choices { counter-reset: mercy-choice; }
+.mercy-reader .choices button {
+  justify-content: flex-start;
+  gap: .75rem;
+  color: #382e39;
+  background: #e9e1d6;
+  border-color: #c5b7a8;
+}
+.mercy-reader .choices button::before {
+  counter-increment: mercy-choice;
+  content: counter(mercy-choice, decimal-leading-zero);
+  color: #78514e;
+  font: .7rem/1.8 system-ui, sans-serif;
+}
+.mercy-reader .choices button:hover { background: #ddd1c2; border-color: #8e6b63; }
+.mercy-reader .notebook { grid-column: 1 / -1; padding: 1.5rem; background: #eee8df; }
+.mercy-reader .run-tools { grid-column: 1 / -1; border-color: #bcb5ac; }
+.mercy-reader .investigation-feedback { max-width: 1700px; }
+.mercy-reader.text-only .game-layout { grid-template-columns: minmax(0, 850px); justify-content: center; }
+.mercy-reader.text-only .passage-card { grid-column: 1; max-height: none; overflow: visible; }
+@media (max-width: 1000px) {
+  .mercy-reader .game-layout { grid-template-columns: minmax(0, 1fr); }
+  .mercy-reader .mercy-world { grid-column: 1; grid-row: auto; }
+  .mercy-reader .passage-card { grid-column: 1; grid-row: auto; max-height: none; overflow: visible; }
+}
+@media (max-width: 760px) {
+  .mercy-reader .site-header { padding: 1.1rem 1rem; }
+  .mercy-reader .game-layout { padding: 1rem; gap: 1rem; }
+  .mercy-reader .passage-card { padding: 1.5rem 1.15rem; }
+  .mercy-reader .notebook { padding: 1rem; }
+}
+
+.mercy-reader > .saving-warning { position: sticky; top: 0; z-index: 3; max-width: 1636px; margin: .5rem auto; padding: .85rem 1.25rem; box-shadow: 0 2px 12px #342b3318; }
+.mercy-reader > .saving-warning button { margin: .3rem .65rem .3rem 0; }

@@ -1,0 +1,33 @@
+{
+  "contentSha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "originalReadingSha256": "7c01eb89013df0d3e99922c4dbd070083b95f9627035f386faebfd559a41c56a",
+  "scope": "Player-only passages and actually offered/chosen actions for the four requested scenes, plus notebook records acquired there. Built from exact final portable witnesses using the shipped engine. No author explanation, unencountered prose or NPC state is included. Original blind input is unchanged.",
+  "routes": [
+    {
+      "label": "Invitation route",
+      "sourceRun": "docs/execution/evidence/mercy-content/a2.letter--invitation.encountered-run.json",
+      "sourceRunSha256": "46fa5b628fda490714fccde57169c0139a0c09989b79954c142ed97c95da16a5",
+      "scenes": [
+        "a2.confirmation",
+        "a2.greenroom",
+        "a2.a-form-of-love",
+        "a2.erasmus-loss"
+      ],
+      "input": "docs/reviews/MERCY-WHOLE-29/correction-input/invitation.txt",
+      "readingSha256": "68161cc6d2b06991fcb7f233d1f0957ed96fd10782fbede2e75e9b05912feb7e"
+    },
+    {
+      "label": "Limited-account route",
+      "sourceRun": "docs/execution/evidence/mercy-content/a3.final-horse--base--proof-q.julian-disappearance.encountered-run.json",
+      "sourceRunSha256": "8efbbe3c04a61607ae6bd0075f7c105bea3903ce2c8387e25cf3fb2805fa584f",
+      "scenes": [
+        "a2.confirmation",
+        "a2.greenroom",
+        "a2.a-form-of-love",
+        "a2.erasmus-loss"
+      ],
+      "input": "docs/reviews/MERCY-WHOLE-29/correction-input/limited-account.txt",
+      "readingSha256": "2022a47784134011c4901bb02fa99d44678a60691147089eb4b703255a6464d0"
+    }
+  ]
+}

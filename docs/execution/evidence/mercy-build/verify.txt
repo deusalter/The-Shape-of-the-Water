@@ -1,0 +1,165 @@
+Already up to date
+Done in 402ms using pnpm v11.19.0
+$ pnpm typecheck && pnpm test && pnpm content:validate && pnpm build
+$ tsc --noEmit
+$ vitest run
+
+ RUN  v3.2.7 /workspace/literary-detective
+
+ ✓ tests/evidence-budget.test.ts (3 tests) 3288ms
+   ✓ bounded replayable run resources > rejects a would-exceed command, preserves its prior state and permits actual export/reimport  2288ms
+   ✓ bounded replayable run resources > refuses oversized initial state without truncating any authored paragraph  369ms
+   ✓ bounded replayable run resources > refuses a migrated prefix that cannot fit both checkpoint and encountered export  630ms
+ ✓ tests/verification/evidence-v2-independent.test.ts (30 tests) 3360ms
+   ✓ independent closure, schema bounds and command properties > deterministic frozen-input programs roundtrip every internal field; accepted IDs deduplicate  494ms
+   ✓ independent portable replay, reviewed migration and byte limits > valid large multibyte run roundtrips; next passage exceeding byte budget rejects with original state intact  2569ms
+ ✓ tests/verification/properties.test.ts (11 tests) 1321ms
+   ✓ independent properties seed=20261003 runs=120 > replay and save roundtrip deterministically preserve every consequential field  354ms
+   ✓ independent properties seed=20261003 runs=120 > frozen input bytes and literal record/passage occurrences never change  441ms
+ ✓ tests/occasion-legacy.test.ts (56 tests) 3343ms
+ ✓ tests/occasion-validation.test.ts (60 tests) 1363ms
+   ✓ occasion feature gate and bounded semantic validation > rejects an opted-in opening whose duplicated captured prose exceeds the unchanged run budget  1176ms
+ ✓ tests/edition-retention.test.ts (4 tests) 917ms
+   ✓ retained story editions > replays a completed v4 run against its frozen edition and rejects different editions  382ms
+   ✓ retained story editions > retains the country chapter and replays its completed run only against that exact content  452ms
+ ✓ tests/evidence-player-controller.test.ts (22 tests) 1020ms
+   ✓ actual v2 player controller > offers explicit repair for the corrupt-owned-slot reproduction without automatically stealing ownership or replacing memory  333ms
+ ✓ tests/author-draft-durability.test.ts (13 tests) 469ms
+ ✓ tests/installed-case.test.ts (3 tests) 397ms
+ ✓ tests/evidence-engine.test.ts (30 tests) 335ms
+ ✓ tests/verification/authored-routes.test.ts (30 tests) 818ms
+   ✓ authored guarded evidence routes (not v3 submitted-proof semantics) > seeded authored programs preserve immutable history and replay exactly  326ms
+ ✓ tests/verification/installed-v2-routes.test.ts (76 tests) 12485ms
+   ✓ four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-narrow/report-public/continue-stay  301ms
+   ✓ four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-narrow/report-private/continue-stay  471ms
+   ✓ four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-narrow/report-private/continue-supper-only  406ms
+   ✓ four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-narrow/report-private/continue-leave  354ms
+   ✓ four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-measure/report-public/continue-stay  368ms
+   ✓ four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-measure/report-public/continue-supper-only  416ms
+   ✓ signaled interpersonal failure retains plausible factual access > both failures and private refusals still allow 'continuous-recording'  467ms
+   ✓ signaled interpersonal failure retains plausible factual access > both failures and private refusals still allow 'kept-reconstruction'  468ms
+   ✓ signaled interpersonal failure retains plausible factual access > both failures and private refusals still allow 'atomic-acknowledgment'  406ms
+   ✓ signaled interpersonal failure retains plausible factual access > both failures and private refusals still allow 'atomic-fuller-account'  399ms
+ ✓ tests/mercy-world.test.ts (8 tests) 589ms
+   ✓ Mercy current-scene staging and bounded exploration > builds original actual 3D geometry for all locations, with no faces, portraits or fetched textures  460ms
+ ✓ tests/verification/dependencies.test.ts (4 tests) 296ms
+ ✓ tests/return-world-assets.test.ts (8 tests) 249ms
+ ✓ tests/occasion-runtime.test.ts (20 tests) 319ms
+ ✓ tests/ownership.test.ts (18 tests) 259ms
+ ✓ tests/run-metadata.test.ts (3 tests) 118ms
+ ✓ tests/versioned-persistence.test.ts (8 tests) 88ms
+ ✓ tests/occasion-review-regressions.test.ts (6 tests) 73ms
+ ✓ tests/author-project.test.ts (5 tests) 52ms
+ ✓ tests/storage.test.ts (7 tests) 83ms
+ ✓ tests/country-world-assets.test.ts (5 tests) 58ms
+ ✓ tests/verification/persistence.test.ts (8 tests) 94ms
+ ✓ tests/preview-scenario.test.ts (2 tests) 40ms
+ ✓ tests/evidence-migration.test.ts (12 tests) 48ms
+ ✓ tests/replacement-intent.test.ts (7 tests) 61ms
+ ✓ tests/occasion-author-ui.test.ts (7 tests) 58ms
+ ✓ tests/notebook-occasion.test.ts (3 tests) 67ms
+ ✓ tests/offline.test.ts (5 tests) 28ms
+ ✓ tests/case.test.ts (3 tests) 56ms
+ ✓ tests/world-navigation.test.ts (3 tests) 26ms
+ ✓ tests/studio-storage.test.ts (8 tests) 36ms
+ ✓ tests/rebuild-world-assets.test.ts (5 tests) 22ms
+ ✓ tests/engine.test.ts (9 tests) 19ms
+ ✓ tests/rebuild-world-navigation.test.ts (5 tests) 12ms
+ ✓ tests/verification/explorer.test.ts (4 tests) 14ms
+ ✓ tests/world-staging.test.ts (2 tests) 3ms
+ ✓ tests/mercy-content.test.ts (11 tests) 10466ms
+   ✓ The Mercy of Morning complete static candidate > compiles exactly the lead modules, preserving prose and physical staging  727ms
+   ✓ The Mercy of Morning complete static candidate > replays the completed 'a3.final-horse::a3.final-horse.base' coda with exact seen text  1999ms
+   ✓ The Mercy of Morning complete static candidate > replays the completed 'a2.letter::invitation' coda with exact seen text  1877ms
+   ✓ The Mercy of Morning complete static candidate > replays the completed 'a2.letter::a2.letter.base' coda with exact seen text  1664ms
+   ✓ The Mercy of Morning complete static candidate > completes the selected factual finding with the alternate written account and philosophical response  982ms
+   ✓ The Mercy of Morning complete static candidate > shares public testimony only after the player actually gives it  647ms
+   ✓ The Mercy of Morning complete static candidate > tells the returning Julian which public inquiry occurred before its relationship consequence  1935ms
+
+ Test Files  39 passed (39)
+      Tests  524 passed (524)
+   Start at  07:56:51
+   Duration  21.88s (transform 1.59s, setup 0ms, collect 8.28s, tests 42.35s, environment 6ms, prepare 2.78s)
+
+$ node tools/check-content.mjs
+{
+  "status": "PASS",
+  "path": "src/content/case-v7.json",
+  "schemaVersion": 2,
+  "scope": "Content schema, graph references and original-narrative punctuation only; not solvability, playtime or literary quality",
+  "sha256": "81b60c9c19fe66c5749f02a9f474d55975f00d298e793ed738bd4d3b7e3df938",
+  "canonicalContentHash": "43b9a80fe48aed7a515bc6585a5b3ef68682ba3e562eed711696434ade361c63",
+  "scenes": 62,
+  "choices": 75,
+  "authoredWordsIncludingVariantsChoicesAndNotes": 24992,
+  "paragraphs": 1293,
+  "validation": "PASS",
+  "issues": []
+}
+$ tsc -b && vite build --mode player && node tools/engine-offline-manifest.mjs dist-player && vite build --mode studio
+vite v7.3.6 building client environment for player...
+transforming...
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js (74:0): A comment
+
+"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
+ * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
+ * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js (400:0): A comment
+
+"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+✓ 187 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-player/index.html                     0.41 kB │ gzip:   0.29 kB
+dist-player/assets/index-KBZzuDAC.css     25.57 kB │ gzip:   5.55 kB
+dist-player/assets/index-8nE_oPBz.js   1,736.23 kB │ gzip: 472.39 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 3.69s
+Offline manifest: 8 local files, build 8a376fc9e6b082aa
+vite v7.3.6 building client environment for studio...
+transforming...
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js (400:0): A comment
+
+"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js (74:0): A comment
+
+"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
+ * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
+ * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js (74:0): A comment
+
+"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
+ * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
+ * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js (400:0): A comment
+
+"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+✓ 194 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-studio/studio.html                               0.37 kB │ gzip:   0.27 kB
+dist-studio/assets/validation-worker-D_3bKwGY.js    119.67 kB
+dist-studio/assets/studio-XKuJewn-.css               26.18 kB │ gzip:   5.66 kB
+dist-studio/assets/studio-xy2OYywz.js             1,778.05 kB │ gzip: 483.40 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 4.37s

@@ -1,4 +1,5 @@
-import input from './case-v5.json';
+import input from './case-v7.json';
+import firstCountryInput from './case-v5.json';
 import firstMovementInput from './case-v4.json';
 import firstNightInput from './case-v2.json';
 import legacyInput from './legacy/case-v1.json';
@@ -10,6 +11,7 @@ import { contentHash } from '../engine/hash';
 
 export const firstNightCase = validateContentV2(firstNightInput);
 export const firstMovementCase = validateContentV2(firstMovementInput);
+export const firstCountryCase = validateContentV2(firstCountryInput);
 // The rejected expanded bath candidate is archived, not part of the playable build.
 export const installedCase = validateContentV2(input);
 const legacy = validateContent(legacyInput);

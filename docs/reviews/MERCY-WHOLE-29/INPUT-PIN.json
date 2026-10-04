@@ -1,0 +1,8 @@
+{
+  "contentSha256": "81b60c9c19fe66c5749f02a9f474d55975f00d298e793ed738bd4d3b7e3df938",
+  "runSha256": "bdf348b09c055d60a4986a7cec7f46c5115a77f0a4b43264e93b3d455113b772",
+  "readingSha256": "7c01eb89013df0d3e99922c4dbd070083b95f9627035f386faebfd559a41c56a",
+  "sourceRun": "docs/execution/evidence/mercy-content/a2.letter--invitation.encountered-run.json",
+  "input": "/workspace/literary-detective/docs/reviews/MERCY-WHOLE-29/input/reading.txt",
+  "scope": "Only projected encountered passages, offered actions, chosen actions and acquired notebook records."
+}

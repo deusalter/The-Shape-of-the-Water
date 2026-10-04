@@ -1,0 +1,15 @@
+{
+  "fullRead": {
+    "source": "docs/execution/evidence/mercy-content/history/81b60c9c-first-complete-candidate/a2.letter--invitation.encountered-run.json",
+    "sourceSha256": "bdf348b09c055d60a4986a7cec7f46c5115a77f0a4b43264e93b3d455113b772",
+    "content": {
+      "id": "mercy-of-morning",
+      "version": 7,
+      "hash": "43b9a80fe48aed7a515bc6585a5b3ef68682ba3e562eed711696434ade361c63"
+    },
+    "extract": "invitation-route.txt",
+    "extractSha256": "81cdc2ff8f2ecde98bc1a4851ef8d26000730e1a7b92e7d67c280322f063a43f"
+  },
+  "additionalRead": "Distinct passages in the other three actual captured runs; 23-source index; final revised confirmation, greenroom and Erasmus-loss captured passages. Complete JSON modules also read/authored. This is not a claim of a new blind read or human playtest.",
+  "found": "Restored-Blaise canceled-tribute callback; limited-account grounding for the earlier requests. Both revised with performed present testimony and preserved originals."
+}

@@ -1,0 +1,298 @@
+from authoring import Module, choice, paragraphs
+m=Module("performance")
+
+m.scene("a2.company-arrives","The cart comes back",'''The first thing Julian said was that the horse had become heavier.
+
+“Wet,” said the woman pulling the cart. “It's wet.”
+
+“I know why.”
+
+She gave Blaise one of the handles before he could decide whether he had been invited to help. The cart was very heavy. One wheel clicked whenever the load shifted. He began listening for the click and found himself bracing for it even when the cart ran smoothly.
+
+They brought it beneath the theatre window. Julian climbed down and looked toward the palace.
+
+“Is she still in there?”
+
+“Bringing back a plate.”
+
+“Good. We need to start before she decides to bring an instrument as well.”
+
+Vera came down the steps carrying neither. Her pleasure at seeing the cart was so unprotected that Blaise looked away. It occurred to him that he had rarely considered what Julian's arrival could mean to a person who did not want to be loved by him.
+
+“Did you show them?” Julian asked her.
+
+“Some of it. Blaise read the account first. When I tried to tell them what else he had said to me, he interrupted.”
+
+Blaise kept his hands on the cart. Julian looked at him, then asked Vera whether she still wanted the door for her demonstration. She did.
+
+The players began lifting things off the cart. One carried a bishop's costume with the sleeves tied together. Another had brought a pot of paint across the edge and seemed deeply annoyed that it had remained the same color.
+
+“You knew what might happen if you came back,” Blaise said to Julian.
+
+“Yes.”
+
+“You could have waited outside.”
+
+“I could. Vera has waited here for people to look at her work through rather a lot of mornings. I said we'd give her a room full of people who had come to look. And I want to play the piece before taking it further. These people know the jokes it started with.”
+
+He rested a hand on the cart's side.
+
+“I asked her what Erasmus promised. I asked the others if they wanted to come. One stayed at the rain. She says the whole place gives her a headache.”
+
+“Is that all she said?”
+
+“No. I shortened it.”
+
+Blaise wanted to say that Julian was relying on him. That would be true in a particular, unwelcome way: the patron's promise still made Blaise's request consequential. It would also turn the risk Julian had considered with his companions into an offering made to Blaise. He helped lift the door instead.
+
+Julian waited until they had set it inside.
+
+“You are in the play, if you want the part.”
+
+“Does somebody else know it?”
+
+“Somebody else has learned it. You can be jealous later. At present she's got the other end of the horse.”
+
+From inside the paper animal came a muffled request that they stop discussing professional questions and remove the head.''',[
+choice("a2.unload-company","Help unload, then speak to Julian behind the scenery.","a2.greenroom",requires=["interrupted_vera"],actions=[{"type":"disclose","characterId":"julian","refId":"src.public-inquiry-bounded"}]),
+choice("a2.unload-company-full","Help unload, then speak to Julian behind the scenery.","a2.greenroom",requires=["let_vera_finish"],actions=[{"type":"disclose","characterId":"julian","refId":"src.public-inquiry"}])
+],actors=["blaise-restored","julian","vera-witness"],location="theatre",props=["cart","painted-door","paper-horse","bishop-costume","paint-pot"])
+company_full="\n\n".join(m.scenes[-1]["paragraphs"]).replace('“Some of it. Blaise read the account first. When I tried to tell them what else he had said to me, he interrupted.”','“Some of it. Blaise read the account first. Then he let me tell them both reasons he gave for wanting to forget. The part about wanting not to know your answer as well as losing his advantage.”')
+m.scenes[-1]["variants"]=[dict(id="public-account-heard",requires=["let_vera_finish"],paragraphs=paragraphs(company_full))]
+
+m.scene("a2.greenroom","A place in the company",'''The cupboard behind the door had acquired the smell of wet paper. Julian hung the judge's robe on a nail and took a small bottle from his bag. He offered it to Blaise.
+
+“For courage?”
+
+“For the taste. Courage is unreliable.”
+
+It tasted of orange peel and something burnt. Blaise drank too quickly and coughed. Julian took the bottle from him, pleased by the predictable result in a way Blaise found both affectionate and alarming.
+
+They could still know small things about each other without possessing the whole account. A particular kind of drink made him cough; Julian found this funny and tried to hide how funny. These were causes. He did not want them removed. He wanted them to add up to a necessity which would prevent the person holding the bottle from leaving.
+
+But how would they add up? No number of shared tastes could make Julian's future an obligation to repeat them. Blaise could imagine describing their affection so exactly that nothing about it remained mysterious. What frightened him was that the description might include its ending. He had confused intelligibility with a guarantee of continuance, then complained that causes made love cheap when they refused to offer the guarantee.
+
+Julian put the bottle away.
+
+“Vera told me you read the account aloud.”
+
+“Part of it.”
+
+“She said part of it. I wasn't correcting you.”
+
+Blaise touched the robe on its nail. He wanted to ask a question whose answer would tell him what sort of evening this was going to be. Julian had taken out a loose button and was trying to decide whether it belonged to the robe or had simply arrived with it.''',[
+choice("a2.hear-company-plan","Ask about the company's next play and listen to the plan.","a2.greenroom-listen",effects=["greenroom_hear"]),
+choice("a2.ask-return-for-him","Ask whether Julian came back because he wanted to see Blaise.","a2.greenroom-ask",effects=["greenroom_asked"])
+],actors=["blaise-restored","julian"],location="theatre",props=["painted-door","judge-robe","small-bottle","loose-button"])
+
+m.scene("a2.greenroom-listen","A play he does not know",'''“What are you making next?” Blaise asked.
+
+Julian looked up from the button.
+
+“A woman keeps receiving letters from a room she hasn't built yet.”
+
+“That sounds dangerous.”
+
+“She mostly objects to the dimensions.”
+
+Blaise laughed. Julian began explaining the room, then interrupted himself to explain why the first version had failed. The woman was to try living in the space marked out for it before any walls existed. Everybody had liked the idea until they had to decide where the audience would sit.
+
+“I thought they might move,” Julian said.
+
+“During the play?”
+
+“No. Between the plays, when we're old. Yes, during the play.”
+
+The impatience was a pleasure Blaise had not prepared for. He asked how the letters would arrive. Julian demonstrated with the bottle, then needed both hands and gave it back to him.
+
+After a while Blaise found himself suggesting that the room become smaller whenever the woman complained. Julian rejected this, thought about it, and rejected it again for a different reason. Blaise defended the joke. It felt good to want something within the argument which was not an assurance that the argument would go on forever.
+
+“I'd like to see it,” he said.
+
+“I'd like you to.”
+
+“That isn't a request to be in it.”
+
+“I hadn't decided whether I wanted you in it.”
+
+Blaise winced, and Julian laughed at the speed of the reaction. He reached out and straightened the string which had become caught on Blaise's sleeve. The small familiarity nearly made Blaise ask the other question after all. He let Julian finish telling him about the room.''',[
+choice("a2.plan-to-rehearsal","Take the judge's pages to the others and rehearse the changed ending.","a2.new-ending")
+],actors=["blaise-restored","julian"],location="theatre",props=["painted-door","judge-robe","small-bottle","play-pages"])
+
+m.scene("a2.greenroom-ask","Why he came",'''“Did you want to see me?” Blaise asked.
+
+Julian laid the button on a shelf.
+
+“Yes.”
+
+The answer was so immediate that Blaise distrusted it.
+
+“I mean apart from the play.”
+
+“Yes.”
+
+“You don't have to say it.”
+
+“Blaise.”
+
+He stopped. Julian waited until he looked at him.
+
+“I wanted to see you. I wanted to come with these people. I wanted Vera to have the room we promised. I don't want you to make the first answer eat the other ones.”
+
+Blaise held the bottle tightly enough to feel the raised seam in its glass.
+
+“I don't know how to ask without making it sound like that.”
+
+“Ask once.”
+
+“All right.”
+
+Julian picked up the button. Neither of them moved to end the conversation. Blaise had expected the admission of wanting to improve everything around it. It left the shelf damp, the horse heavy and Julian still preparing to go west again.
+
+“I would have liked you to come after me before asking him,” Julian said.
+
+“I know that I should have.”
+
+“I didn't say should.”
+
+Blaise looked at the cupboard's empty hinge marks. The difference was painful. Julian had wanted an act which Blaise could no longer perform at its proper time. He could learn its value without being given another chance to make the first occurrence his.
+
+He gave back the bottle. Julian took it, leaving his fingers against Blaise's for a moment before putting it away.
+
+From the room beyond the scenery someone called for the judge. They both answered, then stopped and looked at each other.''',[
+choice("a2.answer-to-rehearsal","Go to the rehearsal without asking Julian for another assurance.","a2.new-ending")
+],actors=["blaise-restored","julian"],location="theatre",props=["painted-door","judge-robe","small-bottle","loose-button"])
+
+m.scene("a2.new-ending","The part after the verdict",'''The new player had learned the judge too well.
+
+She demonstrated the entrance for Blaise, including the pause he had always considered unteachable. He laughed, then asked her to do it again. She obliged. On the second performance he could tell exactly where she had improved it.
+
+Julian watched him watching. Blaise made himself ask about the pause.
+
+“I wait for the horse to look at me,” she said.
+
+“It doesn't look at anybody.”
+
+“Then you have to wait a long time.”
+
+He tried it. The paper head, supported by somebody inside, dipped toward him with an expression no maker had intended. The laugh came before he spoke. For a moment he resented how available his part was to other people. Then he wanted to do it again while they were all there.
+
+At the end of the old scene the judge had expelled everybody from the room and found that he had no one left to judge. Julian had crossed out the final speech. The substitute began putting on the bishop's costume while they considered what to use instead.
+
+“He could eat the contract,” somebody suggested.
+
+“Then we need more contracts,” Julian said.
+
+“We need a better supplier.”
+
+Blaise took the pages. His own account was folded beneath them. For a moment the two kinds of paper looked indecently alike. He had wanted one to describe an inevitable person and the other to allow him to be someone else for an hour. Both required a living man to do something after reading.
+
+He moved the judge's chair toward the painted door.
+
+“Suppose he gives up the office.”
+
+Julian folded his arms.
+
+“Does he?”
+
+“He says he does.”
+
+That interested him.
+
+Blaise stood beside the chair and announced his retirement with great relief. Nobody moved. He waited for gratitude, then began arranging the characters according to where he thought they ought to go now that they were free of him.
+
+“You may leave by the left door. The bishop first, as a courtesy. No, not you, you have misunderstood the nature of release.”
+
+The bishop sat in the judge's chair.
+
+“That is not what I meant.”
+
+“You may appeal,” she said.
+
+The others laughed. Blaise turned the chair around so that he could no longer see its occupant. This made it worse. When he faced them again, he had nowhere to sit and nobody willing to stand.
+
+He stopped. His pleasure in the scene was so naked that he wanted to conceal it with a criticism.
+
+“Too long,” he said.
+
+“It hasn't got an end,” Julian replied. “You can't call it too long yet.”
+
+They tried it several ways. On one attempt Blaise stole the horse's stool and the whole animal sagged. On another the bishop offered him a place beneath the table. That was the version they kept. He would continue issuing instructions from underneath while the characters ignored them and laid out their supper.
+
+“I want to come out once,” Blaise said. “To see whether they're listening.”
+
+Julian thought about it.
+
+“Only your head.”
+
+“Dignified?”
+
+“Extremely.”
+
+They ran the ending again. Blaise stayed under the table until the silence had almost become awkward, then raised his head beside the bishop's plate. The woman did not look at him. She offered him a piece of bread.
+
+This time he laughed and ruined the scene.
+
+“Keep that,” Julian said.
+
+“The laugh?”
+
+“Trying not to.”
+
+The other players went to fetch what they needed. The bishop tried a second cloak, rejected it and left it on the floor beside the short-legged chair. She went to change the clothes beneath her first costume. Julian carried the horse's stool away to repair it. Vera arrived with her diagram and asked Blaise to hold an end.''',[
+choice("a2.hang-diagram","Help Vera hang her diagram while the company prepares.","a2.a-form-of-love")
+],actors=["blaise-restored","julian","vera-witness"],location="theatre",props=["painted-door","paper-horse","judge-robe","bishop-costume","spare-cloak","table","chair","play-pages","account-pages","sky-cloth"])
+
+m.scene("a2.performance","A room full of people",'''Blaise put the account inside his robe before going out. He could feel the paper when he breathed deeply. He wished he had put it somewhere less expressive.
+
+The room was almost full. People from the meal had brought people who had missed it. Others had come because the notice promised a horse. Erasmus sat in the second row, making room for a late arrival without suggesting that the room belonged to him.
+
+Vera showed her observations first. Julian turned the painted door around for her and steadied it while she marked the outside stars, the instrument box, the place where the city's restored morning ceased to tell her what had happened to the sky.
+
+She described which entries she remembered making and which she had first met in her own handwriting. She put two rejected comparisons beside the one she trusted. A woman at the back wanted to know whether she could come and look through the instrument. Vera said yes, provided they did not all come at once.
+
+“And this proves what?” someone asked.
+
+“That these observations continued outside the return. You can examine the way I compared them.”
+
+“Is he God, then?”
+
+“That is a larger question.”
+
+“You must have an opinion.”
+
+“An extensive one. Tonight I promised you a short demonstration.”
+
+Erasmus laughed. She looked at him before she could help it. Then she turned the door back to its painted side and said she would be available afterward to explain the failed comparisons as well.
+
+Blaise went out with the judge's pages. He waited for the horse to look at him.
+
+It did not. The person inside had missed the cue. He waited longer. Somewhere near the front a listener began to laugh, then stopped, uncertain whether anything had happened yet.
+
+“The court recognizes your attempt to remain anonymous,” Blaise said to the animal.
+
+The head dipped suddenly. The laugh spread. He felt his breathing find the length of the room.
+
+After that he stopped thinking about what the performance would prove. He could still see Julian at the edge of the scenery. Sometimes he wanted him to laugh before anybody else did. Sometimes he was listening for a woman by the window whose sharp, reluctant amusement had become an unreasonable object of ambition. The room kept changing what he attempted.
+
+The horse ate the contract. The bishop denied being a bishop while still wearing the costume. Blaise threatened to expel a witness who could only testify that the weather was poor. When the witness returned with a bucket, Julian's face changed behind the scenery. Blaise had not remembered performing such a joke in the market. He knew only that this player's appearance with the bucket gave him an idea, and that the idea was good enough to use.
+
+He moved the chair into the line of the falling water. The bishop rescued it. The horse got wet.
+
+The person inside made a noise no horse had ever made voluntarily. Blaise had to turn away until he could speak. He wondered afterward whether Julian would remember a different man enjoying this. At the time he wanted to keep the noise from making him laugh.
+
+When the judge announced his retirement, several people applauded too soon. He thanked them, then began directing their applause toward the proper persons. The applause diminished. He corrected their lack of enthusiasm. The bishop sat in his chair.
+
+From beneath the table Blaise could see people's shoes and the corner of Julian's discarded notes. He delivered his last instructions to their feet. Someone laid bread on the table above him. He waited until he could no longer tell whether the silence was working, then raised his head.
+
+The bishop held out the bread without looking at him.
+
+This time he took it. He had to chew before he could say the line he had prepared, and by then there was no need to say it.
+
+He looked toward Julian. Julian was already laughing.
+
+The others came forward. Blaise got out from under the table, caught the back of his robe on a chair and nearly brought the furniture with him. The applause began while he was still disentangling himself.''',[
+choice("a2.speak-after-play","Remain before the audience and take out the account.","a2.testimony")
+],actors=["blaise-restored","julian","vera-witness","erasmus"],location="theatre",props=["painted-door","paper-horse","judge-robe","bishop-costume","table","chair","bread","bucket","sky-cloth","account-pages"])
+
+m.write(privacy="Greenroom speech is heard only by Julian and Blaise. Philosophy backstage is not silently relayed to Julian. The performance and demonstration are public; neither is a proof of metaphysical doctrine.",choices="Listening to the company's plan is a specific performed encounter which can support an eventual invitation. Asking whether Julian wanted to see Blaise remains a real, affectionate alternative, with no doctrine score.")

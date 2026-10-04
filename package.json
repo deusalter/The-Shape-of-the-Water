@@ -1,7 +1,7 @@
 {
-  "name": "literary-detective-provisional",
+  "name": "the-shape-of-the-water",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
@@ -21,7 +21,10 @@
     "content:style": "node tools/check-content.mjs",
     "verify": "pnpm typecheck && pnpm test && pnpm content:validate && pnpm build",
     "test:e2e": "node tools/browser-v2-check.mjs",
-    "test:a11y": "node tools/browser-v2-check.mjs"
+    "test:a11y": "node tools/browser-v2-check.mjs",
+    "mercy:compile": "node tools/mercy/compile.mjs",
+    "mercy:verify": "node tools/mercy/verify.mjs",
+    "mercy:package": "python3 tools/package-mercy.py"
   },
   "dependencies": {
     "react": "19.3.0",

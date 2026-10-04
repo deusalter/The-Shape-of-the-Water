@@ -1,0 +1,12 @@
+{
+  "scope": "Clean index-tree source export. Dependencies independently installed with pnpm install --frozen-lockfile; no untracked rejected v6 source or assets. Final runtime source held during verification.",
+  "tree": "4a5938b113d8717d13629998147135e0339e5ee4",
+  "folder": "/workspace/mercy-clean-delivery",
+  "returnAssetAbsent": true,
+  "returnCodeAbsent": true,
+  "initialCorrection": "First export mixed newly staged source with old receipts and discovered verbatim archived test inputs. Restaged final held receipts/staging; limited Vitest discovery to live tests, preserving archives unchanged.",
+  "finalTree": "d5aefadfcb9597fd27da8432a82eaadeadc31206",
+  "postVerificationChange": "HTML tab titles only; repeat production build before final browser checks.",
+  "unitTests": 516,
+  "testFiles": 38
+}

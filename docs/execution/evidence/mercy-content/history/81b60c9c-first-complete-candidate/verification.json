@@ -1,0 +1,602 @@
+{
+  "outcome": "PASS",
+  "contentSha256": "81b60c9c19fe66c5749f02a9f474d55975f00d298e793ed738bd4d3b7e3df938",
+  "contentHash": "43b9a80fe48aed7a515bc6585a5b3ef68682ba3e562eed711696434ade361c63",
+  "semanticStates": 1041,
+  "transitions": 1127,
+  "maxStates": 20000,
+  "rejectedChecks": 48,
+  "optionalChecks": 0,
+  "sourceStable": true,
+  "sourceHashes": {
+    "narrative/mercy/manifest.json": "cc05d254069ff3ca1f3c7e93178985879fe0a6eed5a3e6b826a32388849d10b1",
+    "narrative/mercy/opening.json": "c12b5d3f79d737ccee12a9479788b5f74f273a6d031a6f59326d54aa43b651b4",
+    "narrative/mercy/investigation.json": "2488aedd8fd857d69a23285b2926fa576434ef0135fec1d43e61bf0f54e92281",
+    "narrative/mercy/outside.json": "dd1faf86c48d2b30ec150c66d15ff38be125ca045f12737c7989e995cc32db03",
+    "narrative/mercy/surrender.json": "ab1f49dd36559281b34f6e1512f2e2729f1d728c5af37cb2e1dcf9ef5c8477d3",
+    "narrative/mercy/argument.json": "fdfac47818a934363d84ed08d0eb57a3c9a120dacd5bac4bdacdbd5f9341867b",
+    "narrative/mercy/performance.json": "ea0b4bcdddf5a92576d95b2fc1187f23e718333fd304ca840fcec752214956da",
+    "narrative/mercy/ending.json": "cf2e64170e3b34ed0dbd9e1738fbec8f67e9eaeaba7ea438e3eddca10fa663e1",
+    "src/engine/evidence-budget.ts": "31de32f49420577b6a14b2e433275b5ecb3c433e106ffd32612a3ae721f174a1",
+    "src/engine/evidence-fixture.ts": "248bdcc1d3a3913abb437945baf6eecc0df237ab88e52a68c9f62febbe48c77c",
+    "src/engine/evidence-migration.ts": "7da526e04438178f7e3cb36f996ea458369dbd50ea1f814d93f1621ef8fead07",
+    "src/engine/evidence-occasion-fixture.ts": "5176cc3c1f8715818704670ec2f01f74ac1c84e010058d7cb4b4b7fe8ffbbf97",
+    "src/engine/evidence-occasion-validation.ts": "6e1479185c899933dc9236ba820f5f6895b94498fd49745b462cad742fab8bee",
+    "src/engine/evidence-occasions.ts": "6a065c700077eeffb0325d05548260a85c37dbe2851d77d2c7cc88b594da2352",
+    "src/engine/evidence-portable.ts": "e862e2e2acb7242b1b7895fbf948c002496b81500c216c34db4ae937e9946227",
+    "src/engine/evidence-proof.ts": "258b136d8d4cf35203c3c37bf8091a8d1f786cb5f4a0ef8ab5c069f72965c16e",
+    "src/engine/evidence-runtime.ts": "72b633806f93320e2f987d67b6a000d0ba6c370f30fced9bc6006022a838e7f9",
+    "src/engine/evidence-schema.ts": "1a2735a144d386ee9ac6d6ce530598b1e515777240674641a5c25f2c400bb767",
+    "src/engine/evidence-types.ts": "1306fb9673ebb267fcf211b6dd663d2a3b065c10ca16039339ba9f3c920a7d85",
+    "src/engine/evidence-v2.ts": "e23776590b33f0d188bd85529e77dc2270a69da31e4c3099036b87e35275db47",
+    "src/engine/evidence-validate.ts": "d7e110682ad7ab21fb2ef5a61521a68e4d8a96351c4134034ddd3d7a18bfe27c",
+    "src/engine/game.ts": "03e6dc0be8b1612ddc57c6f8384b975ca8c83f96195e606b1c01afc4c91e5434",
+    "src/engine/hash.ts": "eaac5792696012f9291d5ba937835ce1f1ef0196e3e0e35262813775ba2a028b",
+    "src/engine/schema.ts": "d32024095103744199d0e675e17e3ce7c8c3d7edafd4688f75476c16300886ae",
+    "src/engine/types.ts": "667836d8e23d2fdd94e53a4f925dc1643b7b394ee426f14e69f9d19353678611",
+    "src/engine/validate.ts": "ebdf96f237c196354e26e27652a82a8ae9c96626530a492e7fc0aebd31539463",
+    "tools/mercy/compile.mjs": "1dd6d6d1c0babb42b2e9a0087897d11f4389244d3504e3ece51df4e751bbfafc",
+    "tools/mercy/runtime.mjs": "b2573b48b55399065b508ea623954b94b4e20c1fd5c6137cfd7d43f437902e19",
+    "tools/mercy/verify.mjs": "3f04aa70bdaa111b0f10ca28f46a88e540b235ca2eb6a40a5971c8d7372f821f",
+    "src/content/case-v7.json": "81b60c9c19fe66c5749f02a9f474d55975f00d298e793ed738bd4d3b7e3df938"
+  },
+  "nonterminalDeadEnds": 0,
+  "statesWithoutEndingPath": 0,
+  "scope": "All reachable content choices and supported minimal proof routes under a semantics-preserving projection of read guards, factual references, deduction ancestry and NPC guard knowledge. Cosmetic dialogue flags and optional already-available notebook readings do not multiply states. Ordinary hints/readings are accepted once each. Repeated transcripts, all corroborator supersets and human comprehension are outside this finite check.",
+  "coverage": {
+    "scenes": [
+      "a0.after-door",
+      "a0.first-return",
+      "a0.gift",
+      "a0.horse",
+      "a0.invitation",
+      "a0.judge",
+      "a0.palace-night",
+      "a0.promise",
+      "a0.refusal-plain",
+      "a0.refusal-sharp",
+      "a0.tribute",
+      "a0.weeds",
+      "a1.account",
+      "a1.account-candid",
+      "a1.account-limited",
+      "a1.company-question",
+      "a1.earlier-love",
+      "a1.empty-theatre",
+      "a1.found",
+      "a1.found-limited",
+      "a1.found-whole",
+      "a1.market-story",
+      "a1.observations",
+      "a1.painted-place",
+      "a1.rain-market",
+      "a1.rain-stage",
+      "a1.return-patron",
+      "a1.second-return",
+      "a1.vera-box",
+      "a1.west-road",
+      "a1.withdrawal",
+      "a1.witness",
+      "a2.a-form-of-love",
+      "a2.company-arrives",
+      "a2.confirmation",
+      "a2.decision",
+      "a2.erasmus-loss",
+      "a2.essence",
+      "a2.forward",
+      "a2.greenroom",
+      "a2.greenroom-ask",
+      "a2.greenroom-listen",
+      "a2.julian-earlier",
+      "a2.letter",
+      "a2.new-ending",
+      "a2.new-morning",
+      "a2.offer",
+      "a2.performance",
+      "a2.public-correction",
+      "a2.public-interruption",
+      "a2.public-meal",
+      "a2.purpose",
+      "a2.questions",
+      "a2.reading",
+      "a2.reason",
+      "a2.sequence",
+      "a2.testimony",
+      "a2.testimony-bounded",
+      "a2.testimony-full",
+      "a2.the-ground",
+      "a3.final-horse",
+      "a3.good-morning"
+    ],
+    "choices": [
+      "a0.ask-first-return",
+      "a0.ask-for-gift",
+      "a0.call-ruin",
+      "a0.cross-after-return",
+      "a0.decline-performance",
+      "a0.decline-purpose",
+      "a0.go-theatre",
+      "a0.horse-onward",
+      "a0.invitation-onward",
+      "a0.judge-onward",
+      "a0.plain-promise",
+      "a0.sharp-promise",
+      "a0.tell-departure",
+      "a0.weeds-onward",
+      "a1.account-candid-take",
+      "a1.account-limited-take",
+      "a1.approach-stage",
+      "a1.ask-to-stay",
+      "a1.climb-to-vera",
+      "a1.continue-without-finding",
+      "a1.enter-market",
+      "a1.enter-restored-morning",
+      "a1.go-to-witness",
+      "a1.limited-finding",
+      "a1.offer-scene",
+      "a1.question-return",
+      "a1.read-boundary",
+      "a1.report-absence",
+      "a1.request-witness-change",
+      "a1.request-witness-change-limited",
+      "a1.return-to-traces",
+      "a1.story-return",
+      "a1.take-west-road",
+      "a1.tell-request-only",
+      "a1.tell-whole-julian",
+      "a1.whole-finding",
+      "a1.write-candid",
+      "a1.write-limited",
+      "a2.answer-to-rehearsal",
+      "a2.ask-ground",
+      "a2.ask-return-for-him",
+      "a2.begin-performance",
+      "a2.bounded-to-offer",
+      "a2.correction-questions",
+      "a2.earlier-to-decision",
+      "a2.enter-public-meal",
+      "a2.essence-reason",
+      "a2.full-to-offer",
+      "a2.go-to-company",
+      "a2.hang-diagram",
+      "a2.hear-company-plan",
+      "a2.interrupt-vera",
+      "a2.interruption-questions",
+      "a2.let-vera-speak",
+      "a2.loss-to-decision",
+      "a2.offer-ask-era",
+      "a2.offer-ask-julian",
+      "a2.open-letter",
+      "a2.plan-to-rehearsal",
+      "a2.press-essence",
+      "a2.press-purpose",
+      "a2.purpose-reason",
+      "a2.reading-candid-on",
+      "a2.reading-limited-on",
+      "a2.refuse-return",
+      "a2.request-return",
+      "a2.say-bounded",
+      "a2.say-whole",
+      "a2.sequence-candid",
+      "a2.sequence-limited",
+      "a2.speak-after-play",
+      "a2.stay-for-morning",
+      "a2.unload-company",
+      "a2.unload-company-full",
+      "a3.carry-horse"
+    ],
+    "variants": [
+      "a0.after-door::a0.after-door.base",
+      "a0.first-return::a0.first-return.base",
+      "a0.gift::a0.gift.base",
+      "a0.horse::a0.horse.base",
+      "a0.invitation::a0.invitation.base",
+      "a0.judge::a0.judge.base",
+      "a0.palace-night::a0.palace-night.base",
+      "a0.palace-night::evasion",
+      "a0.promise::a0.promise.base",
+      "a0.refusal-plain::a0.refusal-plain.base",
+      "a0.refusal-sharp::a0.refusal-sharp.base",
+      "a0.tribute::a0.tribute.base",
+      "a0.weeds::a0.weeds.base",
+      "a1.account-candid::a1.account-candid.base",
+      "a1.account-limited::a1.account-limited.base",
+      "a1.account::a1.account.base",
+      "a1.company-question::a1.company-question.base",
+      "a1.earlier-love::a1.earlier-love.base",
+      "a1.empty-theatre::a1.empty-theatre.base",
+      "a1.found-limited::a1.found-limited.base",
+      "a1.found-whole::a1.found-whole.base",
+      "a1.found::a1.found.base",
+      "a1.market-story::a1.market-story.base",
+      "a1.observations::a1.observations.base",
+      "a1.painted-place::a1.painted-place.base",
+      "a1.rain-market::a1.rain-market.base",
+      "a1.rain-stage::a1.rain-stage.base",
+      "a1.return-patron::a1.return-patron.base",
+      "a1.second-return::a1.second-return.base",
+      "a1.vera-box::a1.vera-box.base",
+      "a1.west-road::a1.west-road.base",
+      "a1.withdrawal::a1.withdrawal.base",
+      "a1.witness::a1.witness.base",
+      "a2.a-form-of-love::a2.a-form-of-love.base",
+      "a2.company-arrives::a2.company-arrives.base",
+      "a2.company-arrives::public-account-heard",
+      "a2.confirmation::a2.confirmation.base",
+      "a2.decision::a2.decision.base",
+      "a2.erasmus-loss::a2.erasmus-loss.base",
+      "a2.essence::a2.essence.base",
+      "a2.forward::a2.forward.base",
+      "a2.forward::invitation",
+      "a2.greenroom-ask::a2.greenroom-ask.base",
+      "a2.greenroom-listen::a2.greenroom-listen.base",
+      "a2.greenroom::a2.greenroom.base",
+      "a2.julian-earlier::a2.julian-earlier.base",
+      "a2.letter::a2.letter.base",
+      "a2.letter::invitation",
+      "a2.new-ending::a2.new-ending.base",
+      "a2.new-morning::a2.new-morning.base",
+      "a2.offer::a2.offer.base",
+      "a2.performance::a2.performance.base",
+      "a2.public-correction::a2.public-correction.base",
+      "a2.public-interruption::a2.public-interruption.base",
+      "a2.public-meal::a2.public-meal.base",
+      "a2.public-meal::limited-account",
+      "a2.purpose::a2.purpose.base",
+      "a2.questions::a2.questions.base",
+      "a2.reading::a2.reading.base",
+      "a2.reading::limited-account",
+      "a2.reason::a2.reason.base",
+      "a2.sequence::a2.sequence.base",
+      "a2.testimony-bounded::a2.testimony-bounded.base",
+      "a2.testimony-full::a2.testimony-full.base",
+      "a2.testimony::a2.testimony.base",
+      "a2.the-ground::a2.the-ground.base",
+      "a3.final-horse::a3.final-horse.base",
+      "a3.good-morning::a3.good-morning.base"
+    ],
+    "sources": [
+      "src.account-candid",
+      "src.account-limited",
+      "src.departing-cart",
+      "src.door-before-anchor",
+      "src.empty-theatre",
+      "src.erasmus-limit-admission",
+      "src.erasmus-second-confirmation",
+      "src.first-return",
+      "src.julian-alive",
+      "src.julian-outside-account",
+      "src.outer-records",
+      "src.outside-scenery",
+      "src.patron-promise",
+      "src.public-final-bounded",
+      "src.public-final-full",
+      "src.public-inquiry",
+      "src.public-inquiry-bounded",
+      "src.second-return-observed",
+      "src.sequence-outside",
+      "src.surrender-spoken",
+      "src.vera-log",
+      "src.vera-surrender-report",
+      "src.withdrawal-claim"
+    ],
+    "questions": [
+      "q.julian-disappearance"
+    ],
+    "proofRoutes": [
+      "q.julian-disappearance:src.julian-alive+src.julian-outside-account"
+    ],
+    "endings": [
+      "a2.letter",
+      "a3.final-horse"
+    ],
+    "relationships": [],
+    "hints": [],
+    "readings": []
+  },
+  "guardOutcomes": {
+    "choice:a0.decline-purpose": [
+      true
+    ],
+    "choice:a0.decline-performance": [
+      true
+    ],
+    "choice:a0.plain-promise": [
+      true
+    ],
+    "choice:a0.sharp-promise": [
+      true
+    ],
+    "choice:a0.go-theatre": [
+      true
+    ],
+    "choice:a0.horse-onward": [
+      true
+    ],
+    "choice:a0.judge-onward": [
+      true
+    ],
+    "choice:a0.invitation-onward": [
+      true
+    ],
+    "choice:a0.weeds-onward": [
+      true
+    ],
+    "choice:a0.tell-departure": [
+      true
+    ],
+    "choice:a0.call-ruin": [
+      true
+    ],
+    "variant:a0.palace-night::evasion": [
+      false,
+      true
+    ],
+    "choice:a0.ask-for-gift": [
+      true
+    ],
+    "choice:a0.ask-first-return": [
+      true
+    ],
+    "choice:a0.cross-after-return": [
+      true
+    ],
+    "choice:a1.report-absence": [
+      true
+    ],
+    "choice:a1.return-to-traces": [
+      true
+    ],
+    "choice:a1.climb-to-vera": [
+      true
+    ],
+    "choice:a1.read-boundary": [
+      true
+    ],
+    "choice:a1.take-west-road": [
+      true
+    ],
+    "choice:a1.enter-market": [
+      true
+    ],
+    "choice:a1.approach-stage": [
+      true
+    ],
+    "choice:a1.tell-whole-julian": [
+      true
+    ],
+    "choice:a1.tell-request-only": [
+      true
+    ],
+    "choice:a1.whole-finding": [
+      true
+    ],
+    "choice:a1.limited-finding": [
+      true
+    ],
+    "choice:a1.continue-without-finding": [
+      true
+    ],
+    "choice:a1.ask-to-stay": [
+      true
+    ],
+    "choice:a1.offer-scene": [
+      true
+    ],
+    "choice:a1.question-return": [
+      true
+    ],
+    "choice:a1.story-return": [
+      true
+    ],
+    "choice:a1.go-to-witness": [
+      true
+    ],
+    "choice:a1.write-candid": [
+      true
+    ],
+    "choice:a1.write-limited": [
+      true
+    ],
+    "choice:a1.account-candid-take": [
+      true
+    ],
+    "choice:a1.account-limited-take": [
+      true
+    ],
+    "choice:a1.request-witness-change": [
+      false,
+      true
+    ],
+    "choice:a1.request-witness-change-limited": [
+      false,
+      true
+    ],
+    "choice:a1.enter-restored-morning": [
+      true
+    ],
+    "variant:a2.reading::limited-account": [
+      false,
+      true
+    ],
+    "choice:a2.reading-candid-on": [
+      false,
+      true
+    ],
+    "choice:a2.reading-limited-on": [
+      false,
+      true
+    ],
+    "choice:a2.sequence-candid": [
+      false,
+      true
+    ],
+    "choice:a2.sequence-limited": [
+      false,
+      true
+    ],
+    "choice:a2.enter-public-meal": [
+      true
+    ],
+    "variant:a2.public-meal::limited-account": [
+      false,
+      true
+    ],
+    "choice:a2.let-vera-speak": [
+      true
+    ],
+    "choice:a2.interrupt-vera": [
+      true
+    ],
+    "choice:a2.correction-questions": [
+      true
+    ],
+    "choice:a2.interruption-questions": [
+      true
+    ],
+    "choice:a2.ask-ground": [
+      true
+    ],
+    "choice:a2.press-essence": [
+      true
+    ],
+    "choice:a2.press-purpose": [
+      true
+    ],
+    "choice:a2.essence-reason": [
+      true
+    ],
+    "choice:a2.purpose-reason": [
+      true
+    ],
+    "choice:a2.go-to-company": [
+      true
+    ],
+    "variant:a2.company-arrives::public-account-heard": [
+      false,
+      true
+    ],
+    "choice:a2.unload-company": [
+      false,
+      true
+    ],
+    "choice:a2.unload-company-full": [
+      false,
+      true
+    ],
+    "choice:a2.hear-company-plan": [
+      true
+    ],
+    "choice:a2.ask-return-for-him": [
+      true
+    ],
+    "choice:a2.plan-to-rehearsal": [
+      true
+    ],
+    "choice:a2.answer-to-rehearsal": [
+      true
+    ],
+    "choice:a2.hang-diagram": [
+      true
+    ],
+    "choice:a2.begin-performance": [
+      true
+    ],
+    "choice:a2.speak-after-play": [
+      true
+    ],
+    "choice:a2.say-whole": [
+      true
+    ],
+    "choice:a2.say-bounded": [
+      true
+    ],
+    "choice:a2.full-to-offer": [
+      true
+    ],
+    "choice:a2.bounded-to-offer": [
+      true
+    ],
+    "choice:a2.offer-ask-era": [
+      true
+    ],
+    "choice:a2.offer-ask-julian": [
+      true
+    ],
+    "choice:a2.loss-to-decision": [
+      true
+    ],
+    "choice:a2.earlier-to-decision": [
+      true
+    ],
+    "choice:a2.refuse-return": [
+      true
+    ],
+    "choice:a2.request-return": [
+      true
+    ],
+    "variant:a2.forward::invitation": [
+      false,
+      true
+    ],
+    "choice:a2.stay-for-morning": [
+      true
+    ],
+    "choice:a3.carry-horse": [
+      true
+    ],
+    "choice:a2.open-letter": [
+      true
+    ]
+  },
+  "unacceptedProofRoutes": {},
+  "missing": {
+    "scenes": [],
+    "choices": [],
+    "variants": [],
+    "sources": [],
+    "questions": [],
+    "proofRoutes": [],
+    "endings": [],
+    "hints": [],
+    "readings": []
+  },
+  "exactReplayedEndings": [
+    {
+      "sceneId": "a3.final-horse",
+      "variantId": "a3.final-horse.base",
+      "exportFile": "docs/execution/evidence/mercy-content/a3.final-horse--base.encountered-run.json",
+      "revisions": 49,
+      "encounteredPassageWords": 18519,
+      "transcriptSha256": "590dbfc5f8bf2b6f28d9f85f10346b360a8fd617eecde87c7c2cb4d13a6062ea",
+      "exportBytes": 296474
+    },
+    {
+      "sceneId": "a2.letter",
+      "variantId": "invitation",
+      "exportFile": "docs/execution/evidence/mercy-content/a2.letter--invitation.encountered-run.json",
+      "revisions": 50,
+      "encounteredPassageWords": 19097,
+      "transcriptSha256": "e19b307d153967551d8e165cb115c898f0799c5c52cfb7c21e172323a420ea6e",
+      "exportBytes": 304657
+    },
+    {
+      "sceneId": "a2.letter",
+      "variantId": "a2.letter.base",
+      "exportFile": "docs/execution/evidence/mercy-content/a2.letter--base.encountered-run.json",
+      "revisions": 50,
+      "encounteredPassageWords": 19023,
+      "transcriptSha256": "09eb213e624cf36967bbede898e6c65f1f93195a8bfe89cbc8dff53308ee2e99",
+      "exportBytes": 303830
+    },
+    {
+      "sceneId": "a3.final-horse",
+      "variantId": "a3.final-horse.base",
+      "exportFile": "docs/execution/evidence/mercy-content/a3.final-horse--base--proof-q.julian-disappearance.encountered-run.json",
+      "revisions": 49,
+      "encounteredPassageWords": 18542,
+      "transcriptSha256": "ff99baa4ce24e5b719d60e9aaa21a698458794f874634866dcc418473dc61445",
+      "exportBytes": 297439
+    }
+  ]
+}

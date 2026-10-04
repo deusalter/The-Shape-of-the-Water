@@ -1,0 +1,362 @@
+{
+  "sourcePins": {
+    "opening.json": "c12b5d3f79d737ccee12a9479788b5f74f273a6d031a6f59326d54aa43b651b4",
+    "investigation.json": "2488aedd8fd857d69a23285b2926fa576434ef0135fec1d43e61bf0f54e92281",
+    "outside.json": "dd1faf86c48d2b30ec150c66d15ff38be125ca045f12737c7989e995cc32db03",
+    "surrender.json": "fa8568ae9b132444b65074daaab1fc15c0369ceeb2b5d12121e6e9170a98018d",
+    "argument.json": "8da313ae84d80be656e0da7b54ffc28564616b05de482148892a8434a3236696",
+    "performance.json": "995a584737a8f66ea04171f222c0d39049bfa951e34075cc65da8ef693de8b4e",
+    "ending.json": "a3dc4c6fdb17d081afc990535770bd8bc836f9f9938c455baa61b1e5918b84bb"
+  },
+  "anchors": [
+    {
+      "id": "MV01",
+      "character": "Blaise",
+      "listener": "Erasmus, public pressure",
+      "module": "opening.json",
+      "sceneId": "a0.refusal-plain",
+      "variantId": "base",
+      "firstParagraph": 1,
+      "paragraphs": [
+        "“I can tell them what you did,” Blaise said. “I can't tell them what it proves about the reason I exist.”",
+        "Erasmus held the plate between them. Blaise took a piece of bread because it seemed rude to leave him holding it.",
+        "“You believe there was a reason.”",
+        "“I want there to have been.”",
+        "“You say that as though wanting were an objection.”",
+        "“It isn't an answer either.”",
+        "The patron looked toward the guests. The child was still being persuaded to surrender the chair. Erasmus set the plate down and told the parent to leave the child where she was."
+      ]
+    },
+    {
+      "id": "MV02",
+      "character": "Blaise",
+      "listener": "private thought during Julian's touch",
+      "module": "opening.json",
+      "sceneId": "a0.judge",
+      "variantId": "base",
+      "firstParagraph": 4,
+      "paragraphs": [
+        "Why did discovering a cause always feel like discovering a substitute?",
+        "If Julian had kissed him for no reason, the act would have belonged to nobody. A twitch could have done as much. Blaise wanted the kiss to follow from Julian's affection, from the particular man who had been here yesterday. Yet once he had given the affection a history, he found himself looking behind it for something that the history had not produced.",
+        "He was easy to love because he was useful, perhaps. Or because he was funny. A funnier, more useful man could then stand in his place. The conditions would be satisfied; the world would proceed without noticing the exchange."
+      ]
+    },
+    {
+      "id": "MV03",
+      "character": "Blaise",
+      "listener": "private thought while Julian considers leaving",
+      "module": "opening.json",
+      "sceneId": "a0.invitation",
+      "variantId": "base",
+      "firstParagraph": 36,
+      "paragraphs": [
+        "Was that wish worth less because it came before this one?",
+        "If the later Julian could overrule the earlier, then tomorrow's wish could overrule this departure too. Why should Blaise cooperate in destroying a happiness merely because its opponent was speaking last? There was no virtue in lateness. A cruel impulse could arrive after a generous one. Discovery could improve a judgment; fatigue could spoil it. Time did not adjudicate between them.",
+        "Erasmus remembered both. Perhaps that was what Blaise needed from him: a judgment which did not mistake the order of desires for their worth.",
+        "Then he noticed where his thought had taken him. He wanted Erasmus to decide which Julian was entitled to answer. Naturally he hoped the entitled one would love him best.",
+        "The hope did not make the argument false. That was the refuge he always reached. A hungry man could correctly identify bread. Wanting a thing did not refute the reasons for wanting it."
+      ]
+    },
+    {
+      "id": "MV04",
+      "character": "Blaise",
+      "listener": "Vera, an intimate admission",
+      "module": "surrender.json",
+      "sceneId": "a1.witness",
+      "variantId": "base",
+      "firstParagraph": 26,
+      "paragraphs": [
+        "“I want not to know what he answered,” he said. “I want to wake before I've done this to him.”",
+        "“You won't wake before it. You'll wake afterward with less knowledge.”",
+        "“It might feel like before.”",
+        "She did not answer. He had at last given her something which was difficult to correct without pretending she did not understand it.",
+        "“I will remember if you insist on asking,” she said. “Because I want my inquiry to continue, and because I will not leave the only remembered account of this request with Erasmus. You will write it down. You will leave me something I can put in your hand.”"
+      ]
+    },
+    {
+      "id": "MV05",
+      "character": "Blaise",
+      "listener": "Vera, contested metaphysical argument",
+      "module": "argument.json",
+      "sceneId": "a2.the-ground",
+      "variantId": "base",
+      "firstParagraph": 38,
+      "paragraphs": [
+        "“I do want a spectator,” Blaise said. “Somebody whose approval would settle what my life meant. You have noticed something about me. It isn't the premise of my objection.”",
+        "“Then separate them for me.”",
+        "“Objective knowledge under the conditions of our experience is knowledge. I don't need to leave the world to know the request happened. But thought's belonging to reality doesn't establish that we know its essence independently of the sensible conditions under which objects are given to us.”",
+        "“And I am contesting your right to make that limit the last word on what thought can understand through itself.”",
+        "“Good. That is where we disagree.”"
+      ]
+    },
+    {
+      "id": "MV06",
+      "character": "Blaise",
+      "listener": "private thought before public action",
+      "module": "argument.json",
+      "sceneId": "a2.reason",
+      "variantId": "base",
+      "firstParagraph": 4,
+      "paragraphs": [
+        "He had written instructions to the person who would wake. Read this. Ask Julian. Do not suppose that feeling innocent proves you have done nothing. He had thought that a reason could have a claim on somebody who had not yet felt its force. Now he wanted to treat the account as merely one more force whenever the claim became unpleasant.",
+        "To regard himself as answerable was not to catch sight of a soul outside time. Nothing in the testimony showed him such an object. The unity with which he said I let him join these appearances in one experience; it did not reveal a simple, indestructible bearer underneath them. How an intelligible author could belong to this naturally caused life remained a serious question. He could not resolve it by admiring the word freedom."
+      ]
+    },
+    {
+      "id": "MV07",
+      "character": "Julian",
+      "listener": "Blaise, ordinary work",
+      "module": "opening.json",
+      "sceneId": "a0.horse",
+      "variantId": "base",
+      "firstParagraph": 22,
+      "paragraphs": [
+        "“I see you checked your measurements.”",
+        "“I checked my confidence.”",
+        "This time Blaise laughed at the right moment."
+      ]
+    },
+    {
+      "id": "MV08",
+      "character": "Julian",
+      "listener": "Blaise, concealed return exposed",
+      "module": "opening.json",
+      "sceneId": "a0.weeds",
+      "variantId": "base",
+      "firstParagraph": 10,
+      "paragraphs": [
+        "“You told me there hadn't been another return while we were writing this,” Julian said.",
+        "Julian took the page. On the back was a single word, written small enough to hide beneath his thumb.",
+        "Blaise could not see it. He knew what it was.",
+        "“Did you look?”",
+        "“At what?”",
+        "Julian turned the paper over. Weeds."
+      ]
+    },
+    {
+      "id": "MV09",
+      "character": "Julian",
+      "listener": "Blaise, loss of a shared evening",
+      "module": "outside.json",
+      "sceneId": "a1.earlier-love",
+      "variantId": "base",
+      "firstParagraph": 17,
+      "paragraphs": [
+        "“I'm sorry I don't remember it.”",
+        "“I don't want you to be sorry.”",
+        "“I am anyway. I'd like to have that.”",
+        "For a moment the grief was shared without becoming an agreement about what ought to happen next. Blaise wanted to hold them there. He recognized that desire before it could disguise itself as another principle."
+      ]
+    },
+    {
+      "id": "MV10",
+      "character": "Julian",
+      "listener": "Blaise, discussing his next play",
+      "module": "performance.json",
+      "sceneId": "a2.greenroom-listen",
+      "variantId": "base",
+      "firstParagraph": 7,
+      "paragraphs": [
+        "“I thought they might move,” Julian said.",
+        "“During the play?”",
+        "“No. Between the plays, when we're old. Yes, during the play.”"
+      ]
+    },
+    {
+      "id": "MV11",
+      "character": "Julian",
+      "listener": "Blaise, wanting him without an exclusive motive",
+      "module": "performance.json",
+      "sceneId": "a2.greenroom-ask",
+      "variantId": "base",
+      "firstParagraph": 10,
+      "paragraphs": [
+        "“I wanted to see you. I wanted to come with these people. I wanted Vera to have the room we promised. I don't want you to make the first answer eat the other ones.”",
+        "Blaise held the bottle tightly enough to feel the raised seam in its glass.",
+        "“I don't know how to ask without making it sound like that.”",
+        "“Ask once.”",
+        "“All right.”"
+      ]
+    },
+    {
+      "id": "MV12",
+      "character": "Julian",
+      "listener": "Blaise and Erasmus, final pressure",
+      "module": "ending.json",
+      "sceneId": "a2.julian-earlier",
+      "variantId": "base",
+      "firstParagraph": 18,
+      "paragraphs": [
+        "“Because I'm answering,” he said. Then, dissatisfied: “That sounds much too neat.”",
+        "“It does.”",
+        "“I don't mean every desire I have now is better. I mean you can ask me about it. You can argue. He can't come into this room and tell you what he thinks about losing everything that happened after him. You'd have to take it away first.”"
+      ]
+    },
+    {
+      "id": "MV13",
+      "character": "Vera",
+      "listener": "Blaise, ordinary breakfast and records",
+      "module": "investigation.json",
+      "sceneId": "a1.vera-box",
+      "variantId": "base",
+      "firstParagraph": 2,
+      "paragraphs": [
+        "“Have I invited you?” she asked.",
+        "“No.”",
+        "“Good. Then I haven't forgotten my manners as well.”"
+      ]
+    },
+    {
+      "id": "MV14",
+      "character": "Vera",
+      "listener": "Blaise, evaluating her own old evidence",
+      "module": "investigation.json",
+      "sceneId": "a1.observations",
+      "variantId": "base",
+      "firstParagraph": 2,
+      "paragraphs": [
+        "“I began by thinking my instruments were bad,” she said. “They are bad. I make them myself. That accounted for quite a lot.”",
+        "“But not all of it.”",
+        "“The most seductive sentence in an investigation.”"
+      ]
+    },
+    {
+      "id": "MV15",
+      "character": "Vera",
+      "listener": "Blaise, choosing witness status",
+      "module": "surrender.json",
+      "sceneId": "a1.witness",
+      "variantId": "base",
+      "firstParagraph": 30,
+      "paragraphs": [
+        "“I will remember if you insist on asking,” she said. “Because I want my inquiry to continue, and because I will not leave the only remembered account of this request with Erasmus. You will write it down. You will leave me something I can put in your hand.”"
+      ]
+    },
+    {
+      "id": "MV16",
+      "character": "Vera",
+      "listener": "Blaise, affection for the patron's recognition",
+      "module": "argument.json",
+      "sceneId": "a2.purpose",
+      "variantId": "base",
+      "firstParagraph": 9,
+      "paragraphs": [
+        "“And you can stop needing Erasmus to approve your diagram?”",
+        "She looked toward the patron. He was trying to work a dried piece of bread free from a plate.",
+        "“I can begin,” she said. “I haven't said knowledge immediately defeats every stronger desire. I would still enjoy it if he told me I was right.”"
+      ]
+    },
+    {
+      "id": "MV17",
+      "character": "Vera",
+      "listener": "Blaise, particular understanding and immanence",
+      "module": "argument.json",
+      "sceneId": "a2.a-form-of-love",
+      "variantId": "base",
+      "firstParagraph": 20,
+      "paragraphs": [
+        "“Suppose you understand a particular existence through the attributes of what it depends on. Thought and extended reality are not two strangers. That finite understanding belongs to the same existence understood. The joy in that activity has its immanent cause within the understanding. That is why I call it intellectual love of God. The mind's act is an expression of God's love of itself.”",
+        "“A very large name for something happening behind a painted door.”",
+        "“Size isn't the claim.”"
+      ]
+    },
+    {
+      "id": "MV18",
+      "character": "Vera",
+      "listener": "Blaise, ordinary attachment under eternity",
+      "module": "argument.json",
+      "sceneId": "a2.a-form-of-love",
+      "variantId": "base",
+      "firstParagraph": 51,
+      "paragraphs": [
+        "“I don't want to lose it.”",
+        "“No.”",
+        "“Do you?”",
+        "“I am very fond of several quite inadequate memories.”"
+      ]
+    },
+    {
+      "id": "MV19",
+      "character": "Erasmus",
+      "listener": "Blaise, irritated after public embarrassment",
+      "module": "opening.json",
+      "sceneId": "a0.promise",
+      "variantId": "base",
+      "firstParagraph": 8,
+      "paragraphs": [
+        "“Will you be angry all day?” he asked.",
+        "“I don't yet know.”",
+        "“You could know.”"
+      ]
+    },
+    {
+      "id": "MV20",
+      "character": "Erasmus",
+      "listener": "Blaise, exposed as a finite deceiver",
+      "module": "outside.json",
+      "sceneId": "a1.return-patron",
+      "variantId": "base",
+      "firstParagraph": 13,
+      "paragraphs": [
+        "“Because I thought you would go and find him. Because you would discover that he was not waiting in a perfect place beyond me. Because I hoped you would come back of your own accord.”"
+      ]
+    },
+    {
+      "id": "MV21",
+      "character": "Erasmus",
+      "listener": "Blaise and Vera, hospitality during argument",
+      "module": "argument.json",
+      "sceneId": "a2.the-ground",
+      "variantId": "base",
+      "firstParagraph": 33,
+      "paragraphs": [
+        "Erasmus put the plate on the floor. “I preferred it when you were deciding whether to be grateful.”",
+        "Vera ignored him, but Blaise saw her hand tighten on the cloth. She still wanted the patron to be impressed. It did not make her wrong."
+      ]
+    },
+    {
+      "id": "MV22",
+      "character": "Erasmus",
+      "listener": "Blaise, private need admitted in public",
+      "module": "ending.json",
+      "sceneId": "a2.erasmus-loss",
+      "variantId": "base",
+      "firstParagraph": 8,
+      "paragraphs": [
+        "“A person who knew what I had done and asked me to do it again,” Erasmus said.",
+        "“You have people who want it.”",
+        "“I was speaking about you.”"
+      ]
+    },
+    {
+      "id": "MV23",
+      "character": "Erasmus",
+      "listener": "Blaise, ordinary breakfast",
+      "module": "ending.json",
+      "sceneId": "a2.new-morning",
+      "variantId": "base",
+      "firstParagraph": 7,
+      "paragraphs": [
+        "“I can do that again.”",
+        "“Make toast?”",
+        "“Yes, Blaise. Make toast.”",
+        "They laughed. Erasmus took the burnt piece back and ate it himself with a quantity of jam Blaise found alarming."
+      ]
+    },
+    {
+      "id": "MV24",
+      "character": "Ensemble",
+      "listener": "Blaise and Julian making a scene with the company",
+      "module": "performance.json",
+      "sceneId": "a2.new-ending",
+      "variantId": "base",
+      "firstParagraph": 14,
+      "paragraphs": [
+        "“Suppose he gives up the office.”",
+        "Julian folded his arms.",
+        "“Does he?”",
+        "“He says he does.”"
+      ]
+    }
+  ]
+}

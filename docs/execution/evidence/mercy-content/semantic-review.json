@@ -1,0 +1,75 @@
+{
+  "status": "Resolved and rechecked against final held candidate after continuity and limited-account witness repairs",
+  "method": "Semantic reading by the coordinating model, plus independent case-specific engine checks. This is not a human playtest or a universal guarantee against prose revealing later events.",
+  "findings": [
+    {
+      "id": "disappearance-submission-window",
+      "reportedBy": "root",
+      "sourceFile": "narrative/mercy/outside.json",
+      "problem": "The two factual sources were acquired in a1.rain-stage. Their availability alone allowed a notebook submission to jump over the whole/limited confession and a1.found.",
+      "requiredBehavior": "Question unavailable in a1.rain-stage, a1.found-whole and a1.found-limited; available in a1.found after either completed disclosure; optional continue remains playable and closes the question.",
+      "verification": "Case-specific invariants in the finite explorer and mercy-content.test.ts",
+      "status": "repaired-and-runtime-verified",
+      "finalModuleSha256": "dd1faf86c48d2b30ec150c66d15ff38be125ca045f12737c7989e995cc32db03",
+      "verificationResult": "Finite verifier PASS for 1041 relevant semantic states; actual early-submission and optional-continuation invariants pass in independent case tests."
+    },
+    {
+      "id": "surrender-source-future-words",
+      "reportedBy": "root",
+      "sourceFile": "narrative/mercy/surrender.json",
+      "sourceId": "src.surrender-spoken",
+      "acquiredSceneId": "a1.witness",
+      "earlierObservationPin": null,
+      "earlierObservation": "Root's earlier direct read observed a longer first-pass source before the lead edit; that observation was not separately hashed.",
+      "observedOffendingExcerpt": "At the palace he repeated the wish to lose that knowledge, acknowledging that the answer would still have happened.",
+      "reportedProblem": "The earlier first-pass source summarized later palace speech before that speech was encountered. The offending excerpt is not attributed to the repaired 3ffd2d module.",
+      "repairedText": "Blaise told Vera he wanted to meet Julian without privileged knowledge. He also said he wanted not to know Julian's answer and to wake before he had done this to him.",
+      "requiredBehavior": "The witness-stage source summarizes only words already spoken there. Later speech receives separate acquisition if it is recorded.",
+      "verification": "Semantic comparison against the exact held witness scene. The disputed words are already present at a1.witness in the pinned module.",
+      "recheckedModuleSha256": "3ffd2d323a20d95e6581b7d62711ca75d6b11bbd226c1a704258b00a1548972b",
+      "groundingText": "“I want not to know what he answered,” he said. “I want to wake before I've done this to him.”",
+      "status": "repaired-and-rechecked-at-held-pin",
+      "finalModuleSha256": "fa8568ae9b132444b65074daaab1fc15c0369ceeb2b5d12121e6e9170a98018d",
+      "finalRecheck": "The current source summarizes the witness-stage speech. Bridge-rescue report is performed in reading paragraph8 in both variants, distinguishing retained older accounts from firsthand witnessing."
+    },
+    {
+      "id": "julian-inquiry-transmission",
+      "reportedBy": "root",
+      "sourceFile": "narrative/mercy/performance.json",
+      "finalModuleSha256": "995a584737a8f66ea04171f222c0d39049bfa951e34075cc65da8ef693de8b4e",
+      "problem": "The public meal occurs while Julian is absent, so its full or interrupted account cannot influence his later invitation through a global flag alone.",
+      "repair": "The company-arrives base/variant performs Vera's report of the actual inquiry. Separate full/bounded onward actions explicitly disclose the matching inquiry source to Julian before the greenroom encounter.",
+      "verification": "Independent tests check no inquiry source reaches Julian during either earlier meal response, and both correct full/bounded transmissions occur at reunion on completed captured routes.",
+      "status": "repaired-and-runtime-verified"
+    },
+    {
+      "id": "final-narrow-continuity",
+      "reportedBy": [
+        "lead_writer",
+        "fresh whole-story model reader"
+      ],
+      "repair": "Erasmus directly recounts the canceled tribute and renewed promise; Vera introduces the form-of-love question on the common path; Blaise correctly says he used his ordinary voice instead of misreporting the public reading.",
+      "sourcePins": {
+        "narrative/mercy/ending.json": "a3dc4c6fdb17d081afc990535770bd8bc836f9f9938c455baa61b1e5918b84bb",
+        "narrative/mercy/argument.json": "8da313ae84d80be656e0da7b54ffc28564616b05de482148892a8434a3236696",
+        "narrative/mercy/performance.json": "995a584737a8f66ea04171f222c0d39049bfa951e34075cc65da8ef693de8b4e"
+      },
+      "verification": "Exact three-scene prose comparison in final-continuity-repair.json; all prior engine structure compares equal. Full finite verification rerun on final candidate, four updated terminal portable witnesses independently replayed.",
+      "status": "repaired-and-rechecked-on-final-held-candidate"
+    },
+    {
+      "id": "limited-account-earlier-requests",
+      "reportedBy": "lead_writer",
+      "sourceFile": "narrative/mercy/surrender.json",
+      "sourceId": "src.erasmus-second-confirmation",
+      "acquiredSceneId": "a2.confirmation",
+      "problem": "The limited written account did not report that earlier requests followed Julian wanting to leave, although restored Blaise's later public testimony could assert that pattern.",
+      "repair": "In a2.confirmation Blaise now asks what the other requests were for. Erasmus explicitly reports more than one request to have the conversations again after Julian said he wanted to leave. The corresponding source records Erasmus's present witness testimony and expressly distinguishes it from recovered memory.",
+      "finalModuleSha256": "fa8568ae9b132444b65074daaab1fc15c0369ceeb2b5d12121e6e9170a98018d",
+      "verification": "limited-account-grounding-repair.json confirms only the performed dialogue and corresponding source title/body changed. All structure and staging compare equal. The complete limited-account proof witness replays and imports exactly; the memory test checks the acquired source is Erasmus's statement at a2.confirmation, while restored Blaise still lacks the old firsthand src.first-return. Final finite exploration passes 1041 semantic states and 1127 transitions; all 11 independent content tests pass.",
+      "correctionInputs": "docs/reviews/MERCY-WHOLE-29/correction-input/INPUT-PINS.json records player-only excerpts from the final invitation and limited-account portable witnesses. The original blind reading remains at its original SHA256.",
+      "status": "repaired-and-runtime-verified"
+    }
+  ],
+  "finalContentSha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475"
+}

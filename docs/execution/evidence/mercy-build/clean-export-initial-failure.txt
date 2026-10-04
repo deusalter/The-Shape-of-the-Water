@@ -1,0 +1,69 @@
+Already up to date
+Done in 368ms using pnpm v11.19.0
+$ pnpm typecheck && pnpm test && pnpm content:validate && pnpm build
+$ tsc --noEmit
+$ vitest run
+
+ RUN  v3.2.7 /workspace/mercy-clean-delivery
+
+ ❯ tests/mercy-world.test.ts (8 tests | 1 failed) 457ms
+   ✓ Mercy current-scene staging and bounded exploration > covers every declared current scene and variant; rejects unknown passages and variants 2ms
+   ✓ Mercy current-scene staging and bounded exploration > keeps every spawn and currently offered action reachable around physical geometry 12ms
+   ✓ Mercy current-scene staging and bounded exploration > does not expose an action through labels, hidden choices, historical notebook entries, or distant proximity 1ms
+   ✓ Mercy current-scene staging and bounded exploration > prevents tunnelling through obstacles and refuses invalid destinations 8ms
+   ✓ Mercy current-scene staging and bounded exploration > builds original actual 3D geometry for all locations, with no faces, portraits or fetched textures  383ms
+   ✓ Mercy current-scene staging and bounded exploration > preserves actual departure absences and the final restored presence 1ms
+   ✓ Mercy current-scene staging and bounded exploration > keeps the rain suspended in depth and reproducible across visits 40ms
+   × Mercy current-scene staging and bounded exploration > joins exact writer choices and variants when canonical staging is available 9ms
+     → expected '24cbe89d201ffc3529ae66d50492e7a970430…' to be 'f089ad55d08e10501151512853f488573ad70…' // Object.is equality
+ ✓ tests/verification/evidence-v2-independent.test.ts (30 tests) 2878ms
+   ✓ independent closure, schema bounds and command properties > deterministic frozen-input programs roundtrip every internal field; accepted IDs deduplicate  424ms
+   ✓ independent portable replay, reviewed migration and byte limits > valid large multibyte run roundtrips; next passage exceeding byte budget rejects with original state intact  2195ms
+ ✓ tests/evidence-budget.test.ts (3 tests) 2761ms
+   ✓ bounded replayable run resources > rejects a would-exceed command, preserves its prior state and permits actual export/reimport  1904ms
+   ✓ bounded replayable run resources > refuses a migrated prefix that cannot fit both checkpoint and encountered export  576ms
+ ❯ tests/mercy-content.test.ts (11 tests | 2 failed) 8158ms
+   × The Mercy of Morning complete static candidate > compiles exactly the lead modules, preserving prose and physical staging 311ms
+     → Compiled artifact differs from exact current modules: tools/mercy/staging-v7.json
+: expected 1 to be +0 // Object.is equality
+   × The Mercy of Morning complete static candidate > records finite complete-path coverage against this exact content 3ms
+     → expected '499d5a2ad4fb6f421f636f4c528522f05b604…' to be 'b7b1a30575d90493f3a4d34a24fcd647955f6…' // Object.is equality
+   ✓ The Mercy of Morning complete static candidate > replays the completed 'a3.final-horse::a3.final-horse.base' coda with exact seen text  1398ms
+   ✓ The Mercy of Morning complete static candidate > replays the completed 'a2.letter::invitation' coda with exact seen text  1199ms
+   ✓ The Mercy of Morning complete static candidate > replays the completed 'a2.letter::a2.letter.base' coda with exact seen text  1200ms
+   ✓ The Mercy of Morning complete static candidate > requires actual selected support for 'q.julian-disappearance:src.julian-ali…' 70ms
+   ✓ The Mercy of Morning complete static candidate > completes the selected factual finding with the alternate written account and philosophical response  819ms
+   ✓ The Mercy of Morning complete static candidate > keeps the disappearance finding after both Julian disclosure responses and allows an optional continuation 255ms
+   ✓ The Mercy of Morning complete static candidate > preserves the player record while a restored Blaise learns the intervening history  421ms
+   ✓ The Mercy of Morning complete static candidate > shares public testimony only after the player actually gives it  603ms
+   ✓ The Mercy of Morning complete static candidate > tells the returning Julian which public inquiry occurred before its relationship consequence  1874ms
+ ✓ tests/verification/installed-v2-routes.test.ts (76 tests) 8886ms
+   ✓ signaled interpersonal failure retains plausible factual access > both failures and private refusals still allow 'continuous-recording'  323ms
+   ✓ signaled interpersonal failure retains plausible factual access > both failures and private refusals still allow 'kept-reconstruction'  304ms
+   ✓ signaled interpersonal failure retains plausible factual access > both failures and private refusals still allow 'atomic-acknowledgment'  311ms
+ ✓ tests/occasion-legacy.test.ts (56 tests) 2456ms
+ ✓ tests/verification/properties.test.ts (11 tests) 1097ms
+   ✓ independent properties seed=20261003 runs=120 > replay and save roundtrip deterministically preserve every consequential field  314ms
+   ✓ independent properties seed=20261003 runs=120 > frozen input bytes and literal record/passage occurrences never change  429ms
+ ✓ tests/occasion-validation.test.ts (60 tests) 706ms
+   ✓ occasion feature gate and bounded semantic validation > rejects an opted-in opening whose duplicated captured prose exceeds the unchanged run budget  609ms
+ ✓ tests/verification/authored-routes.test.ts (30 tests) 495ms
+ ✓ tests/evidence-player-controller.test.ts (22 tests) 508ms
+ ✓ tests/author-draft-durability.test.ts (13 tests) 308ms
+ ✓ tests/edition-retention.test.ts (4 tests) 424ms
+ ✓ tests/installed-case.test.ts (3 tests) 227ms
+ ✓ tests/evidence-engine.test.ts (30 tests) 159ms
+ ✓ tests/occasion-runtime.test.ts (20 tests) 171ms
+ ✓ tests/verification/dependencies.test.ts (4 tests) 154ms
+ ✓ tests/occasion-review-regressions.test.ts (6 tests) 61ms
+ ✓ tests/ownership.test.ts (18 tests) 103ms
+ ✓ tests/run-metadata.test.ts (3 tests) 120ms
+ ✓ tests/country-world-assets.test.ts (5 tests) 62ms
+ ✓ tests/storage.test.ts (7 tests) 53ms
+ ✓ tests/versioned-persistence.test.ts (8 tests) 69ms
+ ✓ tests/author-project.test.ts (5 tests) 42ms
+ ✓ tests/verification/persistence.test.ts (8 tests) 54ms
+ ✓ tests/evidence-migration.test.ts (12 tests) 41ms
+ ✓ tests/occasion-author-ui.test.ts (7 tests) 55ms
+ ✓ tests/replacement-intent.test.ts (7 tests) 51ms
+ ✓ tests/notebook-occasion.test.ts (3 tests) 42ms

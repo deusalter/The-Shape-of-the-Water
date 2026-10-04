@@ -1,0 +1,47 @@
+{
+  "status": "Resolved and rechecked against the complete held candidate",
+  "method": "Semantic reading by the coordinating model, plus independent case-specific engine checks. This is not a human playtest or a universal guarantee against prose revealing later events.",
+  "findings": [
+    {
+      "id": "disappearance-submission-window",
+      "reportedBy": "root",
+      "sourceFile": "narrative/mercy/outside.json",
+      "problem": "The two factual sources were acquired in a1.rain-stage. Their availability alone allowed a notebook submission to jump over the whole/limited confession and a1.found.",
+      "requiredBehavior": "Question unavailable in a1.rain-stage, a1.found-whole and a1.found-limited; available in a1.found after either completed disclosure; optional continue remains playable and closes the question.",
+      "verification": "Case-specific invariants in the finite explorer and mercy-content.test.ts",
+      "status": "repaired-and-runtime-verified",
+      "finalModuleSha256": "dd1faf86c48d2b30ec150c66d15ff38be125ca045f12737c7989e995cc32db03",
+      "verificationResult": "Finite verifier PASS for 1041 relevant semantic states; actual early-submission and optional-continuation invariants pass in independent case tests."
+    },
+    {
+      "id": "surrender-source-future-words",
+      "reportedBy": "root",
+      "sourceFile": "narrative/mercy/surrender.json",
+      "sourceId": "src.surrender-spoken",
+      "acquiredSceneId": "a1.witness",
+      "earlierObservationPin": null,
+      "earlierObservation": "Root's earlier direct read observed a longer first-pass source before the lead edit; that observation was not separately hashed.",
+      "observedOffendingExcerpt": "At the palace he repeated the wish to lose that knowledge, acknowledging that the answer would still have happened.",
+      "reportedProblem": "The earlier first-pass source summarized later palace speech before that speech was encountered. The offending excerpt is not attributed to the repaired 3ffd2d module.",
+      "repairedText": "Blaise told Vera he wanted to meet Julian without privileged knowledge. He also said he wanted not to know Julian's answer and to wake before he had done this to him.",
+      "requiredBehavior": "The witness-stage source summarizes only words already spoken there. Later speech receives separate acquisition if it is recorded.",
+      "verification": "Semantic comparison against the exact held witness scene. The disputed words are already present at a1.witness in the pinned module.",
+      "recheckedModuleSha256": "3ffd2d323a20d95e6581b7d62711ca75d6b11bbd226c1a704258b00a1548972b",
+      "groundingText": "“I want not to know what he answered,” he said. “I want to wake before I've done this to him.”",
+      "status": "repaired-and-rechecked-at-held-pin",
+      "finalModuleSha256": "ab1f49dd36559281b34f6e1512f2e2729f1d728c5af37cb2e1dcf9ef5c8477d3",
+      "finalRecheck": "The current source summarizes the witness-stage speech. Bridge-rescue report is performed in reading paragraph8 in both variants, distinguishing retained older accounts from firsthand witnessing."
+    },
+    {
+      "id": "julian-inquiry-transmission",
+      "reportedBy": "root",
+      "sourceFile": "narrative/mercy/performance.json",
+      "finalModuleSha256": "ea0b4bcdddf5a92576d95b2fc1187f23e718333fd304ca840fcec752214956da",
+      "problem": "The public meal occurs while Julian is absent, so its full or interrupted account cannot influence his later invitation through a global flag alone.",
+      "repair": "The company-arrives base/variant performs Vera's report of the actual inquiry. Separate full/bounded onward actions explicitly disclose the matching inquiry source to Julian before the greenroom encounter.",
+      "verification": "Independent tests check no inquiry source reaches Julian during either earlier meal response, and both correct full/bounded transmissions occur at reunion on completed captured routes.",
+      "status": "repaired-and-runtime-verified"
+    }
+  ],
+  "finalContentSha256": "81b60c9c19fe66c5749f02a9f474d55975f00d298e793ed738bd4d3b7e3df938"
+}

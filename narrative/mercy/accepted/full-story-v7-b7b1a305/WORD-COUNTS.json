@@ -1,0 +1,69 @@
+{
+  "contentSha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "contentHash": "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+  "method": "Unicode word tokens in encountered passage paragraphs only; excludes titles, action labels, notebook, research, waiting and other routes.",
+  "routes": [
+    {
+      "file": "docs/execution/evidence/mercy-content/a2.letter--base.encountered-run.json",
+      "sha256": "758b531e6244fbe26034c026cd7dd10b7cb454f5ce5344e94a21e6575f1dbc70",
+      "passages": 51,
+      "words": 19133
+    },
+    {
+      "file": "docs/execution/evidence/mercy-content/a2.letter--invitation.encountered-run.json",
+      "sha256": "46fa5b628fda490714fccde57169c0139a0c09989b79954c142ed97c95da16a5",
+      "passages": 51,
+      "words": 19207
+    },
+    {
+      "file": "docs/execution/evidence/mercy-content/a3.final-horse--base--proof-q.julian-disappearance.encountered-run.json",
+      "sha256": "8efbbe3c04a61607ae6bd0075f7c105bea3903ce2c8387e25cf3fb2805fa584f",
+      "passages": 50,
+      "words": 18653
+    },
+    {
+      "file": "docs/execution/evidence/mercy-content/a3.final-horse--base.encountered-run.json",
+      "sha256": "cf54b22c4b9e6f86c17257274b040dfcecfef7300b2bf2a6bb66b09c16ab269f",
+      "passages": 50,
+      "words": 18630
+    }
+  ],
+  "moduleCounts": [
+    {
+      "module": "opening.json",
+      "scenes": 12,
+      "baseWordsIncludingExclusiveScenes": 4106
+    },
+    {
+      "module": "investigation.json",
+      "scenes": 6,
+      "baseWordsIncludingExclusiveScenes": 1966
+    },
+    {
+      "module": "outside.json",
+      "scenes": 9,
+      "baseWordsIncludingExclusiveScenes": 2460
+    },
+    {
+      "module": "surrender.json",
+      "scenes": 11,
+      "baseWordsIncludingExclusiveScenes": 3006
+    },
+    {
+      "module": "argument.json",
+      "scenes": 6,
+      "baseWordsIncludingExclusiveScenes": 3786
+    },
+    {
+      "module": "performance.json",
+      "scenes": 6,
+      "baseWordsIncludingExclusiveScenes": 2607
+    },
+    {
+      "module": "ending.json",
+      "scenes": 12,
+      "baseWordsIncludingExclusiveScenes": 3553
+    }
+  ],
+  "warning": "Module totals include mutually exclusive scenes and both endings; they are not one playthrough. No human reading or playing duration has been measured. Prior long-form planning targets are not claimed."
+}

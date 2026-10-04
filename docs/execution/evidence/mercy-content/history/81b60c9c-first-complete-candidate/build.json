@@ -1,0 +1,32 @@
+{
+  "status": "Complete deterministic compiler candidate, not owner acceptance.",
+  "contentId": "mercy-of-morning",
+  "version": 7,
+  "schemaVersion": 2,
+  "contentSha256": "81b60c9c19fe66c5749f02a9f474d55975f00d298e793ed738bd4d3b7e3df938",
+  "contentHash": "43b9a80fe48aed7a515bc6585a5b3ef68682ba3e562eed711696434ade361c63",
+  "sourceHashes": {
+    "narrative/mercy/manifest.json": "cc05d254069ff3ca1f3c7e93178985879fe0a6eed5a3e6b826a32388849d10b1",
+    "narrative/mercy/opening.json": "c12b5d3f79d737ccee12a9479788b5f74f273a6d031a6f59326d54aa43b651b4",
+    "narrative/mercy/investigation.json": "2488aedd8fd857d69a23285b2926fa576434ef0135fec1d43e61bf0f54e92281",
+    "narrative/mercy/outside.json": "dd1faf86c48d2b30ec150c66d15ff38be125ca045f12737c7989e995cc32db03",
+    "narrative/mercy/surrender.json": "ab1f49dd36559281b34f6e1512f2e2729f1d728c5af37cb2e1dcf9ef5c8477d3",
+    "narrative/mercy/argument.json": "fdfac47818a934363d84ed08d0eb57a3c9a120dacd5bac4bdacdbd5f9341867b",
+    "narrative/mercy/performance.json": "ea0b4bcdddf5a92576d95b2fc1187f23e718333fd304ca840fcec752214956da",
+    "narrative/mercy/ending.json": "cf2e64170e3b34ed0dbd9e1738fbec8f67e9eaeaba7ea438e3eddca10fa663e1"
+  },
+  "compilerSha256": "1dd6d6d1c0babb42b2e9a0087897d11f4389244d3504e3ece51df4e751bbfafc",
+  "engineLoaderSha256": "b2573b48b55399065b508ea623954b94b4e20c1fd5c6137cfd7d43f437902e19",
+  "sceneCount": 62,
+  "choiceCount": 75,
+  "sourceCount": 23,
+  "questionCount": 1,
+  "paragraphCount": 1293,
+  "endingScenes": [
+    "a2.letter",
+    "a3.final-horse"
+  ],
+  "literaryAuthority": "lead_writer",
+  "sourceMap": "docs/execution/evidence/mercy-content/source-map.json",
+  "memoryContract": "Accumulated player transcript and notebook persist. Restored Blaise knowledge belongs to a distinct character and is acquired explicitly in new scenes. No occasion transition, invisible replay or implicit NPC disclosure."
+}

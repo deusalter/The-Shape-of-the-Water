@@ -1,0 +1,37 @@
+{
+  "earlierContentSha256": "499d5a2ad4fb6f421f636f4c528522f05b6043452cd7f01d6cc4c1270abc8bf9",
+  "finalContentSha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "scope": "Bounded repair: a2.confirmation performed testimony plus corresponding source title/body. All scene/variant/choice IDs, proof guards, actions, characters and physical staging remain unchanged. The new history is learned from present testimony, not transferred as old firsthand memory.",
+  "sceneChanges": [
+    {
+      "sceneId": "a2.confirmation",
+      "changedText": [
+        "“There were other requests. What did I say they were for?”",
+        "“You wanted to have the conversations with Julian again. After he told you he wanted to leave.”",
+        "“Did I tell you that was when I asked?”",
+        "“Yes. More than once.”",
+        "Blaise looked down at the page. He had been ready to ask whether the timing could be proved. The person who heard the requests was answering him. He could question that testimony without pretending it had not been given."
+      ]
+    }
+  ],
+  "sourceChanges": [
+    {
+      "before": {
+        "id": "src.erasmus-second-confirmation",
+        "title": "Erasmus confirms the second request",
+        "text": "Before entering the public dining room, Erasmus confirmed that Blaise requested the return, assigned Vera the witness's place and knowingly gave up his own intervening memory. Erasmus acknowledged performing it.",
+        "kind": "statement",
+        "provenanceId": "erasmus-second-return-admission",
+        "speakerId": "erasmus"
+      },
+      "after": {
+        "id": "src.erasmus-second-confirmation",
+        "title": "Erasmus confirms the requests",
+        "text": "Before entering the public dining room, Erasmus confirmed that Blaise requested the return, assigned Vera the witness's place and knowingly gave up his own intervening memory. Erasmus acknowledged performing it. Asked about the other requests, he said Blaise had more than once asked to have conversations again after Julian said he wanted to leave. This is Erasmus's present testimony, not restored Blaise's recovered memory.",
+        "kind": "statement",
+        "provenanceId": "erasmus-second-return-admission",
+        "speakerId": "erasmus"
+      }
+    }
+  ]
+}

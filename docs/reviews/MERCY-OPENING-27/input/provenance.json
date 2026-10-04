@@ -1,0 +1,51 @@
+{
+  "source": "narrative/mercy/opening.json",
+  "sha256": "2835abc7958be49093c817ece65d6bf49d6afa6aefcb74424fa924454df47d2e",
+  "scope": "Prose-only authored opening encounter sequence, constructed from base text and selected first choices; not an executed engine witness or whole game.",
+  "trace": [
+    {
+      "sceneId": "a0.tribute",
+      "choiceId": "a0.decline-purpose"
+    },
+    {
+      "sceneId": "a0.refusal-plain",
+      "choiceId": "a0.plain-promise"
+    },
+    {
+      "sceneId": "a0.promise",
+      "choiceId": "a0.go-theatre"
+    },
+    {
+      "sceneId": "a0.horse",
+      "choiceId": "a0.horse-onward"
+    },
+    {
+      "sceneId": "a0.judge",
+      "choiceId": "a0.judge-onward"
+    },
+    {
+      "sceneId": "a0.invitation",
+      "choiceId": "a0.invitation-onward"
+    },
+    {
+      "sceneId": "a0.weeds",
+      "choiceId": "a0.weeds-onward"
+    },
+    {
+      "sceneId": "a0.after-door",
+      "choiceId": "a0.tell-departure"
+    },
+    {
+      "sceneId": "a0.palace-night",
+      "choiceId": "a0.ask-for-gift"
+    },
+    {
+      "sceneId": "a0.gift",
+      "choiceId": "a0.ask-first-return"
+    },
+    {
+      "sceneId": "a0.first-return",
+      "choiceId": "a0.cross-after-return"
+    }
+  ]
+}

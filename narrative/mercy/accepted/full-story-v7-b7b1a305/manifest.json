@@ -1,0 +1,8 @@
+{
+  "id": "mercy-of-morning",
+  "title": "The Mercy of Morning",
+  "version": 7,
+  "schemaVersion": 2,
+  "start": "a0.tribute",
+  "modules": ["opening.json", "investigation.json", "outside.json", "surrender.json", "argument.json", "performance.json", "ending.json"]
+}

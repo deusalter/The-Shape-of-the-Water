@@ -1,10 +1,10 @@
-# Provisional literary detective workspace
+# The Shape of the Water workspace
 
-Latest owner direction: **stop the bodily-support plot and all further implementation**. Read [OWNER-STORY-REPLACEMENT-2026-10-04.md](docs/OWNER-STORY-REPLACEMENT-2026-10-04.md) first. Preserve earlier work, but none of its plot premises is an obligation. The sole current deliverable is one researched, critically revised replacement story proposal and substantial sample scene for owner review. Do not implement the replacement before that review.
+Latest owner direction: **resume production and finish the replacement game**. Read [OWNER-RESUME-PRODUCTION.md](docs/OWNER-RESUME-PRODUCTION.md). The full replacement proposal and sample were presented; the newer request is treated as authorization to implement The Mercy of Morning. Preserve the rejected bodily-support plot and existing code as earlier work; do not resume its premises. The proposal is the lead-selected production basis, not a claim of approval of every provisional detail.
 
 Earlier world-rebuild direction, subordinate to the replacement-proposal request: docs/OWNER-WORLD-REBUILD-2026-10-04.md. The owner has reopened the entire bath narrative, setting and all names except Blaise Bloom. Research Hello Charlotte and develop a longer, substantially stranger world with deeper metaphysical consequences. Preserve the earlier prototype; do not install or keep polishing its expanded bath candidate. Reusable engineering remains valid subject to its recorded checks.
 
-The broader completion objective in docs/OWNER-FULL-GAME-GOAL-2026-10-04.md is paused at the owner’s explicit proposal-review boundary. It does not authorize further implementation now.
+The complete shared story and its playable implementation are now authored. Current selection is case-v7, The Mercy of Morning. Read the final delivery status and exact checks in STATE and HANDOFF; earlier chapter checkpoints do not establish completion of this release. Continue from owner feedback without reopening a rejected premise by accident.
 
 Read docs/OWNER-3D-FACELESS-2026-10-04.md (latest 3D/faceless direction), docs/OWNER-KICKOFF-v4.md in full, RESUME.md, docs/execution/STATE.json and docs/execution/HANDOFF.md before continuing. User instructions override this file.
 

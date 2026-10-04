@@ -1,0 +1,181 @@
+PLAYER READING
+
+This reading contains the passages and actions of one completed playthrough. Notebook records are shown when acquired. Other authored scenes, hidden history and author explanations are not included.
+
+First arrival
+
+Only the actual first arrival is captured. ORIGINAL_OCCASION_TEXT
+
+Notebook, Observation: Dry ring
+
+First visit
+
+The earlier ring was dry.
+
+Available actions:
+
+* Inspect the earlier recording.
+
+* Perform the earlier rinse test.
+
+* Hear the actual private confidence.
+
+* Decline the private conversation.
+
+* Perform the chair event and mark the exterior object.
+
+Chosen action: Inspect the earlier recording.
+
+First arrival
+
+Only the actual first arrival is captured. ORIGINAL_OCCASION_TEXT
+
+Notebook, Document: Earlier recording
+
+First visit
+
+An actually inspected recording. ORIGINAL_FILM_TEXT
+
+Available actions:
+
+* Inspect the earlier recording.
+
+* Perform the earlier rinse test.
+
+* Hear the actual private confidence.
+
+* Decline the private conversation.
+
+* Perform the chair event and mark the exterior object.
+
+Chosen action: The selected observations support this account.
+
+The selected material supports this factual account.
+
+Notebook, Supported conclusion: 
+
+First visit
+
+The selected observations support this account.
+
+Evidence submitted:
+
+* Earlier recording (First visit)
+
+Available actions:
+
+* Inspect the earlier recording.
+
+* Perform the earlier rinse test.
+
+* Hear the actual private confidence.
+
+* Decline the private conversation.
+
+* Tell the first speaker the selected finding.
+
+* Perform the chair event and mark the exterior object.
+
+Chosen action: Hear the actual private confidence.
+
+First arrival
+
+Only the actual first arrival is captured. ORIGINAL_OCCASION_TEXT
+
+Notebook, Statement: Actually heard confidence
+
+First visit
+
+A private confidence actually delivered to Blaise.
+
+Available actions:
+
+* Inspect the earlier recording.
+
+* Perform the earlier rinse test.
+
+* Hear the actual private confidence.
+
+* Tell the first speaker the selected finding.
+
+* Perform the chair event and mark the exterior object.
+
+Chosen action: Perform the chair event and mark the exterior object.
+
+Observed departure
+
+The marking and custody are actually performed.
+
+Notebook, Observation: Chair contact
+
+First visit
+
+Blaise hears the exact words at the chair.
+
+Notebook, Observation: Marked exterior object
+
+First visit
+
+A mark is made and the object placed outside.
+
+Available actions:
+
+* Watch the front departure.
+
+Chosen action: Watch the front departure.
+
+The service handle
+
+Blaise carries the weight. The wrapping catches. BEFORE_CROSSING_TEXT
+
+Notebook, Observation: Observed front departure
+
+First visit
+
+Miriam goes out through the front before the service crossing.
+
+Available actions:
+
+* Take the weight through the service door.
+
+Chosen action: Take the weight through the service door.
+
+Renewed arrival
+
+The handle is empty. Only the renewed tableau is delivered. RETURN_OCCASION_TEXT
+
+Notebook, Observation: Service crossing
+
+First visit
+
+Cardboard catches at the handle.
+
+Notebook, Observation: Current tableau
+
+After the return
+
+The renewed interior has the anchor arrangement.
+
+Available actions:
+
+* Actually inspect the present recording.
+
+* Describe the earlier recording from memory.
+
+* Describe the earlier accepted finding from memory.
+
+* Inspect the new photograph.
+
+* Actually hear both speakers and the bounded chair account.
+
+* Show the exterior speaker the current comparison.
+
+* Discuss the optional second trial with its actual audience.
+
+* Decline another service trial and leave through the front.
+
+Chosen action: Decline another service trial and leave through the front.
+
+A refusal ending
+
+No second occasion is asserted on this route.

@@ -1,0 +1,6 @@
+import {chromium} from '@playwright/test';
+const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+const page=await browser.newPage({viewport:{width:650,height:850},deviceScaleFactor:1});await page.goto('http://localhost:4173/visual/mercy/fixture.html');await page.waitForFunction(()=>document.querySelector('.mercy-world-canvas')?.dataset.loaded==='true');
+const profiles=await page.evaluate(()=>window.mercyFixture.profiles);const captured=new Set();for(const profile of profiles){if(profile.variant||captured.has(profile.location))continue;captured.add(profile.location);await page.evaluate(p=>window.mercyFixture.setScene(p.scene),profile);await page.waitForFunction(id=>document.querySelector('.mercy-world-canvas')?.dataset.sceneId===id,profile.scene);await page.screenshot({path:`visual/mercy/screenshots/halfwidth-${profile.location}.png`});}
+if(profiles.some(p=>p.scene==='a1.rain-market')){await page.evaluate(()=>window.mercyFixture.setScene('a1.rain-market'));await page.waitForFunction(()=>document.querySelector('.mercy-world-canvas')?.dataset.sceneId==='a1.rain-market');await page.screenshot({path:'visual/mercy/screenshots/halfwidth-market-reunion.png'});}
+await browser.close();

@@ -1,0 +1,1198 @@
+{
+  "contentSha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "stagingSha256": "f089ad55d08e10501151512853f488573ad70be1b633b6383c049876b099f88b",
+  "rendererStagingSha256": "0e01e977099c30f606b47472c4e8ec3c01eba29d02cea01da5c32c9b481517cf",
+  "rendererSourceHashes": {
+    "src/world/mercy/MercyWorld.tsx": "1d61c64712f91ebf041a9562fd2525a61e9c98a4db8984121f10bf1b6b0cf909",
+    "src/world/mercy/profiles.ts": "cb1b045a448939edb61eeae7a5c9980e182a2e7de849d92ddca3a76fa1ce67e2",
+    "src/world/mercy/navigation.ts": "68177d88f8bfc0e26f77c661f77d68f774bd60a4b4f6ac33365587b32567b8cd",
+    "src/world/mercy/geometry.ts": "fa14e814a4a2c97c0d208b77995c64e534f680594b5459ebd510f03b050c8dcc",
+    "src/world/mercy/mercy.css": "eb0ce18816e6cb986b9c0d7ff637f8726392717bb6c3d2886584a194a72835fa"
+  },
+  "checkedAt": "2026-10-04T08:11:42.553Z",
+  "fixture": "isolated renderer, exact current compiler staging; no engine progression",
+  "profileCount": 130,
+  "coverage": [
+    {
+      "scene": "a0.tribute",
+      "variant": "",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "commemorative-cloth,star-cups,long-table",
+      "drawCalls": 94,
+      "triangles": 33000
+    },
+    {
+      "scene": "a0.tribute",
+      "variant": "a0.tribute.base",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "commemorative-cloth,star-cups,long-table",
+      "drawCalls": 94,
+      "triangles": 33000
+    },
+    {
+      "scene": "a0.refusal-plain",
+      "variant": "",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "commemorative-cloth,long-table",
+      "drawCalls": 86,
+      "triangles": 32488
+    },
+    {
+      "scene": "a0.refusal-plain",
+      "variant": "a0.refusal-plain.base",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "commemorative-cloth,long-table",
+      "drawCalls": 86,
+      "triangles": 32488
+    },
+    {
+      "scene": "a0.refusal-sharp",
+      "variant": "",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "commemorative-cloth,long-table",
+      "drawCalls": 86,
+      "triangles": 32488
+    },
+    {
+      "scene": "a0.refusal-sharp",
+      "variant": "a0.refusal-sharp.base",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "commemorative-cloth,long-table",
+      "drawCalls": 86,
+      "triangles": 32488
+    },
+    {
+      "scene": "a0.promise",
+      "variant": "",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "folded-cloth",
+      "drawCalls": 82,
+      "triangles": 32440
+    },
+    {
+      "scene": "a0.promise",
+      "variant": "a0.promise.base",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "folded-cloth",
+      "drawCalls": 82,
+      "triangles": 32440
+    },
+    {
+      "scene": "a0.horse",
+      "variant": "",
+      "location": "theatre",
+      "models": "Julian",
+      "props": "horse,judge-robe,painted-door,play-pages",
+      "drawCalls": 169,
+      "triangles": 25996
+    },
+    {
+      "scene": "a0.horse",
+      "variant": "a0.horse.base",
+      "location": "theatre",
+      "models": "Julian",
+      "props": "horse,judge-robe,painted-door,play-pages",
+      "drawCalls": 169,
+      "triangles": 25996
+    },
+    {
+      "scene": "a0.judge",
+      "variant": "",
+      "location": "theatre",
+      "models": "Julian",
+      "props": "horse,judge-robe,painted-door,play-pages",
+      "drawCalls": 169,
+      "triangles": 25996
+    },
+    {
+      "scene": "a0.judge",
+      "variant": "a0.judge.base",
+      "location": "theatre",
+      "models": "Julian",
+      "props": "horse,judge-robe,painted-door,play-pages",
+      "drawCalls": 169,
+      "triangles": 25996
+    },
+    {
+      "scene": "a0.invitation",
+      "variant": "",
+      "location": "theatre",
+      "models": "Julian",
+      "props": "horse,judge-robe,painted-door,play-pages",
+      "drawCalls": 169,
+      "triangles": 25996
+    },
+    {
+      "scene": "a0.invitation",
+      "variant": "a0.invitation.base",
+      "location": "theatre",
+      "models": "Julian",
+      "props": "horse,judge-robe,painted-door,play-pages",
+      "drawCalls": 169,
+      "triangles": 25996
+    },
+    {
+      "scene": "a0.weeds",
+      "variant": "",
+      "location": "theatre",
+      "models": "Julian",
+      "props": "horse,judge-robe,painted-door,play-pages",
+      "drawCalls": 169,
+      "triangles": 25996
+    },
+    {
+      "scene": "a0.weeds",
+      "variant": "a0.weeds.base",
+      "location": "theatre",
+      "models": "Julian",
+      "props": "horse,judge-robe,painted-door,play-pages",
+      "drawCalls": 169,
+      "triangles": 25996
+    },
+    {
+      "scene": "a0.after-door",
+      "variant": "",
+      "location": "theatre",
+      "models": "",
+      "props": "play-pages,empty-doorway",
+      "drawCalls": 74,
+      "triangles": 24848
+    },
+    {
+      "scene": "a0.after-door",
+      "variant": "a0.after-door.base",
+      "location": "theatre",
+      "models": "",
+      "props": "play-pages,empty-doorway",
+      "drawCalls": 74,
+      "triangles": 24848
+    },
+    {
+      "scene": "a0.palace-night",
+      "variant": "",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "soup-bowls,stacked-plates",
+      "drawCalls": 96,
+      "triangles": 33440
+    },
+    {
+      "scene": "a0.palace-night",
+      "variant": "a0.palace-night.base",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "soup-bowls,stacked-plates",
+      "drawCalls": 96,
+      "triangles": 33440
+    },
+    {
+      "scene": "a0.palace-night",
+      "variant": "evasion",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "soup-bowls,stacked-plates",
+      "drawCalls": 96,
+      "triangles": 33440
+    },
+    {
+      "scene": "a0.gift",
+      "variant": "",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "soup-bowls,kitchen-window",
+      "drawCalls": 86,
+      "triangles": 32800
+    },
+    {
+      "scene": "a0.gift",
+      "variant": "a0.gift.base",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "soup-bowls,kitchen-window",
+      "drawCalls": 86,
+      "triangles": 32800
+    },
+    {
+      "scene": "a0.first-return",
+      "variant": "",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "whole-bowl,bean-pot",
+      "drawCalls": 84,
+      "triangles": 32672
+    },
+    {
+      "scene": "a0.first-return",
+      "variant": "a0.first-return.base",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "whole-bowl,bean-pot",
+      "drawCalls": 84,
+      "triangles": 32672
+    },
+    {
+      "scene": "a1.empty-theatre",
+      "variant": "",
+      "location": "theatre",
+      "models": "",
+      "props": "empty-doorway,empty-coat-hook,cup",
+      "drawCalls": 72,
+      "triangles": 24824
+    },
+    {
+      "scene": "a1.empty-theatre",
+      "variant": "a1.empty-theatre.base",
+      "location": "theatre",
+      "models": "",
+      "props": "empty-doorway,empty-coat-hook,cup",
+      "drawCalls": 72,
+      "triangles": 24824
+    },
+    {
+      "scene": "a1.withdrawal",
+      "variant": "",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "bean-pot,whole-bowl",
+      "drawCalls": 84,
+      "triangles": 32672
+    },
+    {
+      "scene": "a1.withdrawal",
+      "variant": "a1.withdrawal.base",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "bean-pot,whole-bowl",
+      "drawCalls": 84,
+      "triangles": 32672
+    },
+    {
+      "scene": "a1.painted-place",
+      "variant": "",
+      "location": "theatre",
+      "models": "",
+      "props": "empty-doorway,hinge-pins,old-reminder",
+      "drawCalls": 76,
+      "triangles": 24976
+    },
+    {
+      "scene": "a1.painted-place",
+      "variant": "a1.painted-place.base",
+      "location": "theatre",
+      "models": "",
+      "props": "empty-doorway,hinge-pins,old-reminder",
+      "drawCalls": 76,
+      "triangles": 24976
+    },
+    {
+      "scene": "a1.vera-box",
+      "variant": "",
+      "location": "edge",
+      "models": "Vera",
+      "props": "instrument-box,telescope,sky-cloth,notebook,breakfast-cup",
+      "drawCalls": 90,
+      "triangles": 23168
+    },
+    {
+      "scene": "a1.vera-box",
+      "variant": "a1.vera-box.base",
+      "location": "edge",
+      "models": "Vera",
+      "props": "instrument-box,telescope,sky-cloth,notebook,breakfast-cup",
+      "drawCalls": 90,
+      "triangles": 23168
+    },
+    {
+      "scene": "a1.observations",
+      "variant": "",
+      "location": "edge",
+      "models": "Vera",
+      "props": "instrument-box,sky-cloth,notebook,stage-sketch",
+      "drawCalls": 90,
+      "triangles": 23064
+    },
+    {
+      "scene": "a1.observations",
+      "variant": "a1.observations.base",
+      "location": "edge",
+      "models": "Vera",
+      "props": "instrument-box,sky-cloth,notebook,stage-sketch",
+      "drawCalls": 90,
+      "triangles": 23064
+    },
+    {
+      "scene": "a1.west-road",
+      "variant": "",
+      "location": "market",
+      "models": "",
+      "props": "bread,standing-rain",
+      "drawCalls": 80,
+      "triangles": 15588
+    },
+    {
+      "scene": "a1.west-road",
+      "variant": "a1.west-road.base",
+      "location": "market",
+      "models": "",
+      "props": "bread,standing-rain",
+      "drawCalls": 80,
+      "triangles": 15588
+    },
+    {
+      "scene": "a1.rain-market",
+      "variant": "",
+      "location": "market",
+      "models": "Julian",
+      "props": "standing-rain,market-stalls,bucket,painted-door,construction-boards",
+      "drawCalls": 139,
+      "triangles": 16848
+    },
+    {
+      "scene": "a1.rain-market",
+      "variant": "a1.rain-market.base",
+      "location": "market",
+      "models": "Julian",
+      "props": "standing-rain,market-stalls,bucket,painted-door,construction-boards",
+      "drawCalls": 139,
+      "triangles": 16848
+    },
+    {
+      "scene": "a1.rain-stage",
+      "variant": "",
+      "location": "outside-theatre",
+      "models": "Julian",
+      "props": "painted-door,cart,construction-boards,ladder,blanket,cheap-cup",
+      "drawCalls": 157,
+      "triangles": 7240
+    },
+    {
+      "scene": "a1.rain-stage",
+      "variant": "a1.rain-stage.base",
+      "location": "outside-theatre",
+      "models": "Julian",
+      "props": "painted-door,cart,construction-boards,ladder,blanket,cheap-cup",
+      "drawCalls": 157,
+      "triangles": 7240
+    },
+    {
+      "scene": "a1.found-whole",
+      "variant": "",
+      "location": "outside-theatre",
+      "models": "Julian",
+      "props": "painted-door,cart,construction-boards",
+      "drawCalls": 129,
+      "triangles": 6696
+    },
+    {
+      "scene": "a1.found-whole",
+      "variant": "a1.found-whole.base",
+      "location": "outside-theatre",
+      "models": "Julian",
+      "props": "painted-door,cart,construction-boards",
+      "drawCalls": 129,
+      "triangles": 6696
+    },
+    {
+      "scene": "a1.found-limited",
+      "variant": "",
+      "location": "outside-theatre",
+      "models": "Julian",
+      "props": "painted-door,cart,construction-boards",
+      "drawCalls": 129,
+      "triangles": 6696
+    },
+    {
+      "scene": "a1.found-limited",
+      "variant": "a1.found-limited.base",
+      "location": "outside-theatre",
+      "models": "Julian",
+      "props": "painted-door,cart,construction-boards",
+      "drawCalls": 129,
+      "triangles": 6696
+    },
+    {
+      "scene": "a1.found",
+      "variant": "",
+      "location": "outside-theatre",
+      "models": "Julian",
+      "props": "cart,construction-boards,ladder",
+      "drawCalls": 126,
+      "triangles": 6548
+    },
+    {
+      "scene": "a1.found",
+      "variant": "a1.found.base",
+      "location": "outside-theatre",
+      "models": "Julian",
+      "props": "cart,construction-boards,ladder",
+      "drawCalls": 126,
+      "triangles": 6548
+    },
+    {
+      "scene": "a1.earlier-love",
+      "variant": "",
+      "location": "outside-theatre",
+      "models": "Julian",
+      "props": "ladder,construction-boards,paint-brush",
+      "drawCalls": 124,
+      "triangles": 6420
+    },
+    {
+      "scene": "a1.earlier-love",
+      "variant": "a1.earlier-love.base",
+      "location": "outside-theatre",
+      "models": "Julian",
+      "props": "ladder,construction-boards,paint-brush",
+      "drawCalls": 124,
+      "triangles": 6420
+    },
+    {
+      "scene": "a1.company-question",
+      "variant": "",
+      "location": "outside-theatre",
+      "models": "Julian",
+      "props": "construction-boards,paint-brush",
+      "drawCalls": 100,
+      "triangles": 6028
+    },
+    {
+      "scene": "a1.company-question",
+      "variant": "a1.company-question.base",
+      "location": "outside-theatre",
+      "models": "Julian",
+      "props": "construction-boards,paint-brush",
+      "drawCalls": 100,
+      "triangles": 6028
+    },
+    {
+      "scene": "a1.market-story",
+      "variant": "",
+      "location": "outside-theatre",
+      "models": "Julian",
+      "props": "construction-boards,paint-brush",
+      "drawCalls": 100,
+      "triangles": 6028
+    },
+    {
+      "scene": "a1.market-story",
+      "variant": "a1.market-story.base",
+      "location": "outside-theatre",
+      "models": "Julian",
+      "props": "construction-boards,paint-brush",
+      "drawCalls": 100,
+      "triangles": 6028
+    },
+    {
+      "scene": "a1.return-patron",
+      "variant": "",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "folded-cloth,needle,chair",
+      "drawCalls": 84,
+      "triangles": 32464
+    },
+    {
+      "scene": "a1.return-patron",
+      "variant": "a1.return-patron.base",
+      "location": "patron",
+      "models": "Erasmus",
+      "props": "folded-cloth,needle,chair",
+      "drawCalls": 84,
+      "triangles": 32464
+    },
+    {
+      "scene": "a1.witness",
+      "variant": "",
+      "location": "edge",
+      "models": "Vera",
+      "props": "instrument-box,paper,pencil",
+      "drawCalls": 90,
+      "triangles": 23168
+    },
+    {
+      "scene": "a1.witness",
+      "variant": "a1.witness.base",
+      "location": "edge",
+      "models": "Vera",
+      "props": "instrument-box,paper,pencil",
+      "drawCalls": 90,
+      "triangles": 23168
+    },
+    {
+      "scene": "a1.account-candid",
+      "variant": "",
+      "location": "edge",
+      "models": "Vera",
+      "props": "instrument-box,account,pencil",
+      "drawCalls": 88,
+      "triangles": 23040
+    },
+    {
+      "scene": "a1.account-candid",
+      "variant": "a1.account-candid.base",
+      "location": "edge",
+      "models": "Vera",
+      "props": "instrument-box,account,pencil",
+      "drawCalls": 88,
+      "triangles": 23040
+    },
+    {
+      "scene": "a1.account-limited",
+      "variant": "",
+      "location": "edge",
+      "models": "Vera",
+      "props": "instrument-box,account,pencil",
+      "drawCalls": 88,
+      "triangles": 23040
+    },
+    {
+      "scene": "a1.account-limited",
+      "variant": "a1.account-limited.base",
+      "location": "edge",
+      "models": "Vera",
+      "props": "instrument-box,account,pencil",
+      "drawCalls": 88,
+      "triangles": 23040
+    },
+    {
+      "scene": "a1.account",
+      "variant": "",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "two-chairs,account",
+      "drawCalls": 108,
+      "triangles": 32856
+    },
+    {
+      "scene": "a1.account",
+      "variant": "a1.account.base",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "two-chairs,account",
+      "drawCalls": 108,
+      "triangles": 32856
+    },
+    {
+      "scene": "a1.second-return",
+      "variant": "",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "two-chairs",
+      "drawCalls": 104,
+      "triangles": 32704
+    },
+    {
+      "scene": "a1.second-return",
+      "variant": "a1.second-return.base",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "two-chairs",
+      "drawCalls": 104,
+      "triangles": 32704
+    },
+    {
+      "scene": "a2.reading",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Vera",
+      "props": "empty-doorway,account",
+      "drawCalls": 110,
+      "triangles": 26288
+    },
+    {
+      "scene": "a2.reading",
+      "variant": "a2.reading.base",
+      "location": "late-theatre",
+      "models": "Vera",
+      "props": "empty-doorway,account",
+      "drawCalls": 110,
+      "triangles": 26288
+    },
+    {
+      "scene": "a2.reading",
+      "variant": "limited-account",
+      "location": "late-theatre",
+      "models": "Vera",
+      "props": "empty-doorway,account",
+      "drawCalls": 110,
+      "triangles": 26288
+    },
+    {
+      "scene": "a2.sequence",
+      "variant": "",
+      "location": "outside-theatre",
+      "models": "Julian,Vera",
+      "props": "finished-roof,painted-door,account",
+      "drawCalls": 141,
+      "triangles": 6856
+    },
+    {
+      "scene": "a2.sequence",
+      "variant": "a2.sequence.base",
+      "location": "outside-theatre",
+      "models": "Julian,Vera",
+      "props": "finished-roof,painted-door,account",
+      "drawCalls": 141,
+      "triangles": 6856
+    },
+    {
+      "scene": "a2.confirmation",
+      "variant": "",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "account,long-table",
+      "drawCalls": 116,
+      "triangles": 33880
+    },
+    {
+      "scene": "a2.confirmation",
+      "variant": "a2.confirmation.base",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "account,long-table",
+      "drawCalls": 116,
+      "triangles": 33880
+    },
+    {
+      "scene": "a2.public-meal",
+      "variant": "",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "long-table,account,plates",
+      "drawCalls": 118,
+      "triangles": 34008
+    },
+    {
+      "scene": "a2.public-meal",
+      "variant": "a2.public-meal.base",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "long-table,account,plates",
+      "drawCalls": 118,
+      "triangles": 34008
+    },
+    {
+      "scene": "a2.public-meal",
+      "variant": "limited-account",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "long-table,account,plates",
+      "drawCalls": 118,
+      "triangles": 34008
+    },
+    {
+      "scene": "a2.public-correction",
+      "variant": "",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "long-table,account",
+      "drawCalls": 116,
+      "triangles": 33880
+    },
+    {
+      "scene": "a2.public-correction",
+      "variant": "a2.public-correction.base",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "long-table,account",
+      "drawCalls": 116,
+      "triangles": 33880
+    },
+    {
+      "scene": "a2.public-interruption",
+      "variant": "",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "long-table,account",
+      "drawCalls": 116,
+      "triangles": 33880
+    },
+    {
+      "scene": "a2.public-interruption",
+      "variant": "a2.public-interruption.base",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "long-table,account",
+      "drawCalls": 116,
+      "triangles": 33880
+    },
+    {
+      "scene": "a2.questions",
+      "variant": "",
+      "location": "patron",
+      "models": "Erasmus,Vera",
+      "props": "long-table,sky-cloth,account",
+      "drawCalls": 118,
+      "triangles": 33904
+    },
+    {
+      "scene": "a2.questions",
+      "variant": "a2.questions.base",
+      "location": "patron",
+      "models": "Erasmus,Vera",
+      "props": "long-table,sky-cloth,account",
+      "drawCalls": 118,
+      "triangles": 33904
+    },
+    {
+      "scene": "a2.the-ground",
+      "variant": "",
+      "location": "patron",
+      "models": "Erasmus,Vera",
+      "props": "long-table,sky-cloth,account",
+      "drawCalls": 120,
+      "triangles": 34032
+    },
+    {
+      "scene": "a2.the-ground",
+      "variant": "a2.the-ground.base",
+      "location": "patron",
+      "models": "Erasmus,Vera",
+      "props": "long-table,sky-cloth,account",
+      "drawCalls": 120,
+      "triangles": 34032
+    },
+    {
+      "scene": "a2.essence",
+      "variant": "",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "account,stacked-plates",
+      "drawCalls": 126,
+      "triangles": 34520
+    },
+    {
+      "scene": "a2.essence",
+      "variant": "a2.essence.base",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "account,stacked-plates",
+      "drawCalls": 126,
+      "triangles": 34520
+    },
+    {
+      "scene": "a2.purpose",
+      "variant": "",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "account,stacked-plates",
+      "drawCalls": 126,
+      "triangles": 34520
+    },
+    {
+      "scene": "a2.purpose",
+      "variant": "a2.purpose.base",
+      "location": "patron",
+      "models": "Vera,Erasmus",
+      "props": "account,stacked-plates",
+      "drawCalls": 126,
+      "triangles": 34520
+    },
+    {
+      "scene": "a2.reason",
+      "variant": "",
+      "location": "late-square",
+      "models": "Vera",
+      "props": "account,sky-cloth",
+      "drawCalls": 98,
+      "triangles": 29496
+    },
+    {
+      "scene": "a2.reason",
+      "variant": "a2.reason.base",
+      "location": "late-square",
+      "models": "Vera",
+      "props": "account,sky-cloth",
+      "drawCalls": 98,
+      "triangles": 29496
+    },
+    {
+      "scene": "a2.a-form-of-love",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Vera",
+      "props": "sky-cloth,painted-door,chair",
+      "drawCalls": 127,
+      "triangles": 26500
+    },
+    {
+      "scene": "a2.a-form-of-love",
+      "variant": "a2.a-form-of-love.base",
+      "location": "late-theatre",
+      "models": "Vera",
+      "props": "sky-cloth,painted-door,chair",
+      "drawCalls": 127,
+      "triangles": 26500
+    },
+    {
+      "scene": "a2.company-arrives",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Julian,Vera",
+      "props": "cart,painted-door,horse,bishop-costume,paint-pot",
+      "drawCalls": 217,
+      "triangles": 27988
+    },
+    {
+      "scene": "a2.company-arrives",
+      "variant": "a2.company-arrives.base",
+      "location": "late-theatre",
+      "models": "Julian,Vera",
+      "props": "cart,painted-door,horse,bishop-costume,paint-pot",
+      "drawCalls": 217,
+      "triangles": 27988
+    },
+    {
+      "scene": "a2.company-arrives",
+      "variant": "public-account-heard",
+      "location": "late-theatre",
+      "models": "Julian,Vera",
+      "props": "cart,painted-door,horse,bishop-costume,paint-pot",
+      "drawCalls": 217,
+      "triangles": 27988
+    },
+    {
+      "scene": "a2.greenroom",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Julian",
+      "props": "painted-door,judge-robe,small-bottle,loose-button",
+      "drawCalls": 133,
+      "triangles": 26884
+    },
+    {
+      "scene": "a2.greenroom",
+      "variant": "a2.greenroom.base",
+      "location": "late-theatre",
+      "models": "Julian",
+      "props": "painted-door,judge-robe,small-bottle,loose-button",
+      "drawCalls": 133,
+      "triangles": 26884
+    },
+    {
+      "scene": "a2.greenroom-listen",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Julian",
+      "props": "painted-door,judge-robe,small-bottle,play-pages",
+      "drawCalls": 131,
+      "triangles": 26652
+    },
+    {
+      "scene": "a2.greenroom-listen",
+      "variant": "a2.greenroom-listen.base",
+      "location": "late-theatre",
+      "models": "Julian",
+      "props": "painted-door,judge-robe,small-bottle,play-pages",
+      "drawCalls": 131,
+      "triangles": 26652
+    },
+    {
+      "scene": "a2.greenroom-ask",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Julian",
+      "props": "painted-door,judge-robe,small-bottle,loose-button",
+      "drawCalls": 131,
+      "triangles": 26756
+    },
+    {
+      "scene": "a2.greenroom-ask",
+      "variant": "a2.greenroom-ask.base",
+      "location": "late-theatre",
+      "models": "Julian",
+      "props": "painted-door,judge-robe,small-bottle,loose-button",
+      "drawCalls": 131,
+      "triangles": 26756
+    },
+    {
+      "scene": "a2.new-ending",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Julian,Vera",
+      "props": "painted-door,horse,judge-robe,bishop-costume,spare-cloak,table,chair,play-pages,account,sky-cloth",
+      "drawCalls": 213,
+      "triangles": 27524
+    },
+    {
+      "scene": "a2.new-ending",
+      "variant": "a2.new-ending.base",
+      "location": "late-theatre",
+      "models": "Julian,Vera",
+      "props": "painted-door,horse,judge-robe,bishop-costume,spare-cloak,table,chair,play-pages,account,sky-cloth",
+      "drawCalls": 213,
+      "triangles": 27524
+    },
+    {
+      "scene": "a2.performance",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Julian,Vera,Erasmus",
+      "props": "painted-door,horse,judge-robe,bishop-costume,table,chair,bread,bucket,sky-cloth,account",
+      "drawCalls": 239,
+      "triangles": 27940
+    },
+    {
+      "scene": "a2.performance",
+      "variant": "a2.performance.base",
+      "location": "late-theatre",
+      "models": "Julian,Vera,Erasmus",
+      "props": "painted-door,horse,judge-robe,bishop-costume,table,chair,bread,bucket,sky-cloth,account",
+      "drawCalls": 239,
+      "triangles": 27940
+    },
+    {
+      "scene": "a2.testimony",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Julian,Vera,Erasmus",
+      "props": "painted-door,horse,account",
+      "drawCalls": 227,
+      "triangles": 27804
+    },
+    {
+      "scene": "a2.testimony",
+      "variant": "a2.testimony.base",
+      "location": "late-theatre",
+      "models": "Julian,Vera,Erasmus",
+      "props": "painted-door,horse,account",
+      "drawCalls": 227,
+      "triangles": 27804
+    },
+    {
+      "scene": "a2.testimony-full",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Julian,Vera,Erasmus",
+      "props": "painted-door,horse,account",
+      "drawCalls": 225,
+      "triangles": 27676
+    },
+    {
+      "scene": "a2.testimony-full",
+      "variant": "a2.testimony-full.base",
+      "location": "late-theatre",
+      "models": "Julian,Vera,Erasmus",
+      "props": "painted-door,horse,account",
+      "drawCalls": 225,
+      "triangles": 27676
+    },
+    {
+      "scene": "a2.testimony-bounded",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Julian,Vera,Erasmus",
+      "props": "painted-door,horse,account",
+      "drawCalls": 225,
+      "triangles": 27676
+    },
+    {
+      "scene": "a2.testimony-bounded",
+      "variant": "a2.testimony-bounded.base",
+      "location": "late-theatre",
+      "models": "Julian,Vera,Erasmus",
+      "props": "painted-door,horse,account",
+      "drawCalls": 225,
+      "triangles": 27676
+    },
+    {
+      "scene": "a2.offer",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Julian,Vera,Erasmus",
+      "props": "painted-door,horse,account",
+      "drawCalls": 227,
+      "triangles": 27804
+    },
+    {
+      "scene": "a2.offer",
+      "variant": "a2.offer.base",
+      "location": "late-theatre",
+      "models": "Julian,Vera,Erasmus",
+      "props": "painted-door,horse,account",
+      "drawCalls": 227,
+      "triangles": 27804
+    },
+    {
+      "scene": "a2.erasmus-loss",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Julian,Vera,Erasmus",
+      "props": "painted-door,horse,account",
+      "drawCalls": 225,
+      "triangles": 27676
+    },
+    {
+      "scene": "a2.erasmus-loss",
+      "variant": "a2.erasmus-loss.base",
+      "location": "late-theatre",
+      "models": "Julian,Vera,Erasmus",
+      "props": "painted-door,horse,account",
+      "drawCalls": 225,
+      "triangles": 27676
+    },
+    {
+      "scene": "a2.julian-earlier",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Julian,Vera,Erasmus",
+      "props": "painted-door,horse,account",
+      "drawCalls": 225,
+      "triangles": 27676
+    },
+    {
+      "scene": "a2.julian-earlier",
+      "variant": "a2.julian-earlier.base",
+      "location": "late-theatre",
+      "models": "Julian,Vera,Erasmus",
+      "props": "painted-door,horse,account",
+      "drawCalls": 225,
+      "triangles": 27676
+    },
+    {
+      "scene": "a2.decision",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Julian,Vera,Erasmus",
+      "props": "painted-door,horse,account",
+      "drawCalls": 227,
+      "triangles": 27804
+    },
+    {
+      "scene": "a2.decision",
+      "variant": "a2.decision.base",
+      "location": "late-theatre",
+      "models": "Julian,Vera,Erasmus",
+      "props": "painted-door,horse,account",
+      "drawCalls": 227,
+      "triangles": 27804
+    },
+    {
+      "scene": "a2.forward",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Erasmus,Vera",
+      "props": "table,chair,judge-robe,account",
+      "drawCalls": 126,
+      "triangles": 26376
+    },
+    {
+      "scene": "a2.forward",
+      "variant": "a2.forward.base",
+      "location": "late-theatre",
+      "models": "Erasmus,Vera",
+      "props": "table,chair,judge-robe,account",
+      "drawCalls": 126,
+      "triangles": 26376
+    },
+    {
+      "scene": "a2.forward",
+      "variant": "invitation",
+      "location": "late-theatre",
+      "models": "Erasmus,Vera",
+      "props": "table,chair,judge-robe,account",
+      "drawCalls": 126,
+      "triangles": 26376
+    },
+    {
+      "scene": "a2.new-morning",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Erasmus,Vera",
+      "props": "table,chair,judge-robe,account,letter,breakfast-dish,torn-diagram",
+      "drawCalls": 128,
+      "triangles": 26400
+    },
+    {
+      "scene": "a2.new-morning",
+      "variant": "a2.new-morning.base",
+      "location": "late-theatre",
+      "models": "Erasmus,Vera",
+      "props": "table,chair,judge-robe,account,letter,breakfast-dish,torn-diagram",
+      "drawCalls": 128,
+      "triangles": 26400
+    },
+    {
+      "scene": "a2.letter",
+      "variant": "",
+      "location": "late-theatre",
+      "models": "Erasmus,Vera",
+      "props": "table,chair,judge-robe,account,letter,breakfast-dish,torn-diagram",
+      "drawCalls": 126,
+      "triangles": 26272
+    },
+    {
+      "scene": "a2.letter",
+      "variant": "a2.letter.base",
+      "location": "late-theatre",
+      "models": "Erasmus,Vera",
+      "props": "table,chair,judge-robe,account,letter,breakfast-dish,torn-diagram",
+      "drawCalls": 126,
+      "triangles": 26272
+    },
+    {
+      "scene": "a2.letter",
+      "variant": "invitation",
+      "location": "late-theatre",
+      "models": "Erasmus,Vera",
+      "props": "table,chair,judge-robe,account,letter,breakfast-dish,torn-diagram",
+      "drawCalls": 126,
+      "triangles": 26272
+    },
+    {
+      "scene": "a3.good-morning",
+      "variant": "",
+      "location": "theatre",
+      "models": "Julian",
+      "props": "painted-door,horse",
+      "drawCalls": 165,
+      "triangles": 25948
+    },
+    {
+      "scene": "a3.good-morning",
+      "variant": "a3.good-morning.base",
+      "location": "theatre",
+      "models": "Julian",
+      "props": "painted-door,horse",
+      "drawCalls": 165,
+      "triangles": 25948
+    },
+    {
+      "scene": "a3.final-horse",
+      "variant": "",
+      "location": "theatre",
+      "models": "Julian",
+      "props": "painted-door,horse",
+      "drawCalls": 163,
+      "triangles": 25820
+    },
+    {
+      "scene": "a3.final-horse",
+      "variant": "a3.final-horse.base",
+      "location": "theatre",
+      "models": "Julian",
+      "props": "painted-door,horse",
+      "drawCalls": 163,
+      "triangles": 25820
+    }
+  ],
+  "moved": {
+    "x": -0.113,
+    "z": 0.669
+  },
+  "dispatch": [
+    "a0.decline-purpose"
+  ],
+  "disabledDispatch": 1,
+  "hiddenDispatch": 1,
+  "errors": [],
+  "overflow": false
+}

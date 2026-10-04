@@ -8,10 +8,10 @@
   "internalReservedSlots": 0,
   "teams": {
     "protagonist": {
-      "suggestedTitle": "Literary Game — Protagonist",
+      "suggestedTitle": "Literary Game \u2014 Protagonist",
       "permittedSlots": 0,
       "externalChatId": "01a1042a-8c74-70cd-924d-aeada8ddd03e",
-      "phase": "Older production request superseded by owner. Replacement proposal awaiting review; do not resume implementation.",
+      "phase": "Historical assignment superseded. Internal Mercy workers completed; no new external task assigned or directly delivered.",
       "owns": [
         "docs/coordination/protagonist/STATUS.json",
         "docs/coordination/protagonist/RESPONSE.md",
@@ -25,10 +25,10 @@
       "historicalPhaseBeforeStoryReplacement": "new world-rebuild request prepared; awaiting owner resume"
     },
     "loop-plot": {
-      "suggestedTitle": "Literary Game — Loop and Plot",
+      "suggestedTitle": "Literary Game \u2014 Loop and Plot",
       "permittedSlots": 0,
       "externalChatId": "01a1042a-ed4d-771e-8cd5-f21def1bf031",
-      "phase": "Older production request superseded by owner. Replacement proposal awaiting review; do not resume implementation.",
+      "phase": "Historical assignment superseded. Internal Mercy workers completed; no new external task assigned or directly delivered.",
       "owns": [
         "docs/coordination/loop-plot/STATUS.json",
         "docs/coordination/loop-plot/RESPONSE.md",
@@ -42,10 +42,10 @@
       "historicalPhaseBeforeStoryReplacement": "new world-rebuild request prepared; awaiting owner resume"
     },
     "literary": {
-      "suggestedTitle": "Literary Game — Literary Review",
+      "suggestedTitle": "Literary Game \u2014 Literary Review",
       "permittedSlots": 0,
       "externalChatId": "01a1042b-7bf0-7787-8a9a-73799016101f",
-      "phase": "Older production request superseded by owner. Replacement proposal awaiting review; do not resume implementation.",
+      "phase": "Historical assignment superseded. Internal Mercy workers completed; no new external task assigned or directly delivered.",
       "owns": [
         "docs/coordination/literary/STATUS.json",
         "docs/coordination/literary/RESPONSE.md",
@@ -59,10 +59,10 @@
       "historicalPhaseBeforeStoryReplacement": "new world-rebuild request prepared; awaiting owner resume"
     },
     "integration-qa": {
-      "suggestedTitle": "Literary Game — Integration QA",
+      "suggestedTitle": "Literary Game \u2014 Integration QA",
       "permittedSlots": 0,
       "externalChatId": "01a1042b-95ae-70fa-ae28-8f476b95700c",
-      "phase": "Older production request superseded by owner. Replacement proposal awaiting review; do not resume implementation.",
+      "phase": "Historical assignment superseded. Internal Mercy workers completed; no new external task assigned or directly delivered.",
       "owns": [
         "docs/coordination/integration-qa/STATUS.json",
         "docs/coordination/integration-qa/RESPONSE.md",
@@ -78,19 +78,21 @@
   },
   "repository": "https://github.com/deusalter/The-Shape-of-the-Water",
   "integrationBranch": "main",
-  "pushed": true,
   "visibilityObserved": "public; owner-selected destination",
   "commitAuthor": "deusalter",
   "coauthorTrailers": false,
-  "publishedCheckpoint": "02856f66df6f764f6a63f947d27290f6f74614a1",
   "permitRevision": "2026-10-04-world-rebuild-004",
-  "latestOwnerCorrection": "docs/OWNER-STORY-REPLACEMENT-2026-10-04.md",
+  "latestOwnerCorrection": "docs/OWNER-RESUME-PRODUCTION.md",
   "requestPublication": "P-003/T-003/L-003/Q-004 published on main; native chat delivery unavailable, owner resume needed",
   "internalActiveAtLastCheck": [],
   "installedStory": "case-v5 d4b4:63scenes86choices52sources; retainedv4/v2",
-  "currentVerification": "Proposal and scene reviews only; old game checks remain historical.",
-  "nextProduction": "Await owner review of replacement proposal. Do not implement or resume rejected plot.",
+  "currentVerification": "Partial modules and 3D fixtures checked; full game verification pending complete writer modules.",
+  "nextProduction": "Finish Mercy manuscript, compile and stage whole story; critique and verify complete playable game.",
   "externalSnapshotNote": "Compact snapshots during full-game continuation still report already-collected P-002/T-002/L-002/Q-002 completed work. New world requests are published; no native send/wake tool was exposed.",
   "proposal": "narrative/replacement-proposal-2026-10-04/PROPOSAL.md",
-  "proposalPublicationTarget": "main; documentation only, preserving older implementation separately"
+  "proposalPublicationTarget": "Delivered proposal preserved in history. Current target is complete playable Mercy game.",
+  "phase": "Complete playable first release verified; root publishing exact source and package. All workers completed.",
+  "previousPublishedCheckpoint": "7bd430eb3b3963b0f0efa6eceeda0f88c0800560",
+  "previousPublicationVerified": true,
+  "publicationIdentity": "Resolve Git history and remote main; the source checkpoint pins files without embedding its own commit."
 }

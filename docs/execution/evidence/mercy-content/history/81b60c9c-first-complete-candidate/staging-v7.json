@@ -1,0 +1,930 @@
+{
+  "status": "Complete compiler candidate; root controls installation.",
+  "contentId": "mercy-of-morning",
+  "version": 7,
+  "contentSha256": "81b60c9c19fe66c5749f02a9f474d55975f00d298e793ed738bd4d3b7e3df938",
+  "contentHash": "43b9a80fe48aed7a515bc6585a5b3ef68682ba3e562eed711696434ade361c63",
+  "scenes": [
+    {
+      "sceneId": "a0.tribute",
+      "location": "palace",
+      "actors": [
+        "blaise",
+        "erasmus"
+      ],
+      "props": [
+        "commemorative-cloth",
+        "star-cups",
+        "long-table"
+      ],
+      "sourceFile": "narrative/mercy/opening.json"
+    },
+    {
+      "sceneId": "a0.refusal-plain",
+      "location": "palace",
+      "actors": [
+        "blaise",
+        "erasmus"
+      ],
+      "props": [
+        "commemorative-cloth",
+        "long-table"
+      ],
+      "sourceFile": "narrative/mercy/opening.json"
+    },
+    {
+      "sceneId": "a0.refusal-sharp",
+      "location": "palace",
+      "actors": [
+        "blaise",
+        "erasmus"
+      ],
+      "props": [
+        "commemorative-cloth",
+        "long-table"
+      ],
+      "sourceFile": "narrative/mercy/opening.json"
+    },
+    {
+      "sceneId": "a0.promise",
+      "location": "palace",
+      "actors": [
+        "blaise",
+        "erasmus"
+      ],
+      "props": [
+        "folded-cloth"
+      ],
+      "sourceFile": "narrative/mercy/opening.json"
+    },
+    {
+      "sceneId": "a0.horse",
+      "location": "theatre",
+      "actors": [
+        "blaise",
+        "julian"
+      ],
+      "props": [
+        "paper-horse",
+        "judge-robe",
+        "painted-door",
+        "play-pages"
+      ],
+      "sourceFile": "narrative/mercy/opening.json"
+    },
+    {
+      "sceneId": "a0.judge",
+      "location": "theatre",
+      "actors": [
+        "blaise",
+        "julian"
+      ],
+      "props": [
+        "paper-horse",
+        "judge-robe",
+        "painted-door",
+        "play-pages"
+      ],
+      "sourceFile": "narrative/mercy/opening.json"
+    },
+    {
+      "sceneId": "a0.invitation",
+      "location": "theatre",
+      "actors": [
+        "blaise",
+        "julian"
+      ],
+      "props": [
+        "paper-horse",
+        "judge-robe",
+        "painted-door",
+        "play-pages"
+      ],
+      "sourceFile": "narrative/mercy/opening.json"
+    },
+    {
+      "sceneId": "a0.weeds",
+      "location": "theatre",
+      "actors": [
+        "blaise",
+        "julian"
+      ],
+      "props": [
+        "paper-horse",
+        "judge-robe",
+        "painted-door",
+        "play-pages"
+      ],
+      "sourceFile": "narrative/mercy/opening.json"
+    },
+    {
+      "sceneId": "a0.after-door",
+      "location": "theatre",
+      "actors": [
+        "blaise"
+      ],
+      "props": [
+        "play-pages",
+        "empty-doorway"
+      ],
+      "sourceFile": "narrative/mercy/opening.json"
+    },
+    {
+      "sceneId": "a0.palace-night",
+      "location": "palace",
+      "actors": [
+        "blaise",
+        "erasmus"
+      ],
+      "props": [
+        "soup-bowls",
+        "stacked-plates"
+      ],
+      "sourceFile": "narrative/mercy/opening.json"
+    },
+    {
+      "sceneId": "a0.gift",
+      "location": "palace",
+      "actors": [
+        "blaise",
+        "erasmus"
+      ],
+      "props": [
+        "soup-bowls",
+        "kitchen-window"
+      ],
+      "sourceFile": "narrative/mercy/opening.json"
+    },
+    {
+      "sceneId": "a0.first-return",
+      "location": "palace",
+      "actors": [
+        "blaise",
+        "erasmus"
+      ],
+      "props": [
+        "whole-bowl",
+        "bean-pot"
+      ],
+      "sourceFile": "narrative/mercy/opening.json"
+    },
+    {
+      "sceneId": "a1.empty-theatre",
+      "location": "theatre",
+      "actors": [
+        "blaise"
+      ],
+      "props": [
+        "empty-doorway",
+        "empty-coat-hook",
+        "cup"
+      ],
+      "sourceFile": "narrative/mercy/investigation.json"
+    },
+    {
+      "sceneId": "a1.withdrawal",
+      "location": "palace",
+      "actors": [
+        "blaise",
+        "erasmus"
+      ],
+      "props": [
+        "bean-pot",
+        "whole-bowl"
+      ],
+      "sourceFile": "narrative/mercy/investigation.json"
+    },
+    {
+      "sceneId": "a1.painted-place",
+      "location": "theatre",
+      "actors": [
+        "blaise"
+      ],
+      "props": [
+        "empty-doorway",
+        "hinge-pins",
+        "old-reminder"
+      ],
+      "sourceFile": "narrative/mercy/investigation.json"
+    },
+    {
+      "sceneId": "a1.vera-box",
+      "location": "edge",
+      "actors": [
+        "blaise",
+        "vera-witness"
+      ],
+      "props": [
+        "instrument-box",
+        "telescope",
+        "sky-cloth",
+        "notebook",
+        "breakfast-cup"
+      ],
+      "sourceFile": "narrative/mercy/investigation.json"
+    },
+    {
+      "sceneId": "a1.observations",
+      "location": "edge",
+      "actors": [
+        "blaise",
+        "vera-witness"
+      ],
+      "props": [
+        "instrument-box",
+        "sky-cloth",
+        "notebook",
+        "stage-sketch"
+      ],
+      "sourceFile": "narrative/mercy/investigation.json"
+    },
+    {
+      "sceneId": "a1.west-road",
+      "location": "west-road",
+      "actors": [
+        "blaise"
+      ],
+      "props": [
+        "bread",
+        "standing-rain"
+      ],
+      "sourceFile": "narrative/mercy/investigation.json"
+    },
+    {
+      "sceneId": "a1.rain-market",
+      "location": "rain-stage",
+      "actors": [
+        "blaise",
+        "julian"
+      ],
+      "props": [
+        "standing-rain",
+        "market-stalls",
+        "bucket",
+        "painted-door",
+        "construction-boards"
+      ],
+      "distantActors": [
+        "julian"
+      ],
+      "sourceFile": "narrative/mercy/outside.json"
+    },
+    {
+      "sceneId": "a1.rain-stage",
+      "location": "rain-stage",
+      "actors": [
+        "blaise",
+        "julian"
+      ],
+      "props": [
+        "painted-door",
+        "cart",
+        "construction-boards",
+        "ladder",
+        "blanket",
+        "cheap-cup"
+      ],
+      "sourceFile": "narrative/mercy/outside.json"
+    },
+    {
+      "sceneId": "a1.found-whole",
+      "location": "rain-stage",
+      "actors": [
+        "blaise",
+        "julian"
+      ],
+      "props": [
+        "painted-door",
+        "cart",
+        "construction-boards"
+      ],
+      "sourceFile": "narrative/mercy/outside.json"
+    },
+    {
+      "sceneId": "a1.found-limited",
+      "location": "rain-stage",
+      "actors": [
+        "blaise",
+        "julian"
+      ],
+      "props": [
+        "painted-door",
+        "cart",
+        "construction-boards"
+      ],
+      "sourceFile": "narrative/mercy/outside.json"
+    },
+    {
+      "sceneId": "a1.found",
+      "location": "rain-stage",
+      "actors": [
+        "blaise",
+        "julian"
+      ],
+      "props": [
+        "cart",
+        "construction-boards",
+        "ladder"
+      ],
+      "sourceFile": "narrative/mercy/outside.json"
+    },
+    {
+      "sceneId": "a1.earlier-love",
+      "location": "rain-stage",
+      "actors": [
+        "blaise",
+        "julian"
+      ],
+      "props": [
+        "ladder",
+        "construction-boards",
+        "paint-brush"
+      ],
+      "sourceFile": "narrative/mercy/outside.json"
+    },
+    {
+      "sceneId": "a1.company-question",
+      "location": "rain-stage",
+      "actors": [
+        "blaise",
+        "julian"
+      ],
+      "props": [
+        "construction-boards",
+        "paint-brush"
+      ],
+      "sourceFile": "narrative/mercy/outside.json"
+    },
+    {
+      "sceneId": "a1.market-story",
+      "location": "rain-stage",
+      "actors": [
+        "blaise",
+        "julian"
+      ],
+      "props": [
+        "construction-boards",
+        "paint-brush"
+      ],
+      "sourceFile": "narrative/mercy/outside.json"
+    },
+    {
+      "sceneId": "a1.return-patron",
+      "location": "palace",
+      "actors": [
+        "blaise",
+        "erasmus"
+      ],
+      "props": [
+        "folded-cloth",
+        "needle",
+        "chair"
+      ],
+      "sourceFile": "narrative/mercy/outside.json"
+    },
+    {
+      "sceneId": "a1.witness",
+      "location": "edge",
+      "actors": [
+        "blaise",
+        "vera-witness"
+      ],
+      "props": [
+        "instrument-box",
+        "paper",
+        "pencil"
+      ],
+      "sourceFile": "narrative/mercy/surrender.json"
+    },
+    {
+      "sceneId": "a1.account-candid",
+      "location": "edge",
+      "actors": [
+        "blaise",
+        "vera-witness"
+      ],
+      "props": [
+        "instrument-box",
+        "account-pages",
+        "pencil"
+      ],
+      "sourceFile": "narrative/mercy/surrender.json"
+    },
+    {
+      "sceneId": "a1.account-limited",
+      "location": "edge",
+      "actors": [
+        "blaise",
+        "vera-witness"
+      ],
+      "props": [
+        "instrument-box",
+        "account-pages",
+        "pencil"
+      ],
+      "sourceFile": "narrative/mercy/surrender.json"
+    },
+    {
+      "sceneId": "a1.account",
+      "location": "palace",
+      "actors": [
+        "blaise",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "two-chairs",
+        "account-pages"
+      ],
+      "sourceFile": "narrative/mercy/surrender.json"
+    },
+    {
+      "sceneId": "a1.second-return",
+      "location": "palace",
+      "actors": [
+        "blaise",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "two-chairs"
+      ],
+      "sourceFile": "narrative/mercy/surrender.json"
+    },
+    {
+      "sceneId": "a2.reading",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "vera-witness"
+      ],
+      "props": [
+        "empty-doorway",
+        "account-pages"
+      ],
+      "sourceFile": "narrative/mercy/surrender.json"
+    },
+    {
+      "sceneId": "a2.sequence",
+      "location": "rain-stage",
+      "actors": [
+        "blaise-restored",
+        "julian",
+        "vera-witness"
+      ],
+      "props": [
+        "finished-roof",
+        "painted-door",
+        "account-pages"
+      ],
+      "sourceFile": "narrative/mercy/surrender.json"
+    },
+    {
+      "sceneId": "a2.confirmation",
+      "location": "palace",
+      "actors": [
+        "blaise-restored",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "account-pages",
+        "long-table"
+      ],
+      "sourceFile": "narrative/mercy/surrender.json"
+    },
+    {
+      "sceneId": "a2.public-meal",
+      "location": "palace",
+      "actors": [
+        "blaise-restored",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "long-table",
+        "account-pages",
+        "plates"
+      ],
+      "sourceFile": "narrative/mercy/surrender.json"
+    },
+    {
+      "sceneId": "a2.public-correction",
+      "location": "palace",
+      "actors": [
+        "blaise-restored",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "long-table",
+        "account-pages"
+      ],
+      "sourceFile": "narrative/mercy/surrender.json"
+    },
+    {
+      "sceneId": "a2.public-interruption",
+      "location": "palace",
+      "actors": [
+        "blaise-restored",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "long-table",
+        "account-pages"
+      ],
+      "sourceFile": "narrative/mercy/surrender.json"
+    },
+    {
+      "sceneId": "a2.questions",
+      "location": "palace",
+      "actors": [
+        "blaise-restored",
+        "erasmus",
+        "vera-witness"
+      ],
+      "props": [
+        "long-table",
+        "sky-cloth",
+        "account-pages"
+      ],
+      "sourceFile": "narrative/mercy/argument.json"
+    },
+    {
+      "sceneId": "a2.the-ground",
+      "location": "palace",
+      "actors": [
+        "blaise-restored",
+        "erasmus",
+        "vera-witness"
+      ],
+      "props": [
+        "long-table",
+        "sky-cloth",
+        "account-pages"
+      ],
+      "sourceFile": "narrative/mercy/argument.json"
+    },
+    {
+      "sceneId": "a2.essence",
+      "location": "palace",
+      "actors": [
+        "blaise-restored",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "account-pages",
+        "stacked-plates"
+      ],
+      "sourceFile": "narrative/mercy/argument.json"
+    },
+    {
+      "sceneId": "a2.purpose",
+      "location": "palace",
+      "actors": [
+        "blaise-restored",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "account-pages",
+        "stacked-plates"
+      ],
+      "sourceFile": "narrative/mercy/argument.json"
+    },
+    {
+      "sceneId": "a2.reason",
+      "location": "square",
+      "actors": [
+        "blaise-restored",
+        "vera-witness"
+      ],
+      "props": [
+        "account-pages",
+        "sky-cloth"
+      ],
+      "sourceFile": "narrative/mercy/argument.json"
+    },
+    {
+      "sceneId": "a2.a-form-of-love",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "vera-witness"
+      ],
+      "props": [
+        "sky-cloth",
+        "painted-door",
+        "chair"
+      ],
+      "sourceFile": "narrative/mercy/argument.json"
+    },
+    {
+      "sceneId": "a2.company-arrives",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "julian",
+        "vera-witness"
+      ],
+      "props": [
+        "cart",
+        "painted-door",
+        "paper-horse",
+        "bishop-costume",
+        "paint-pot"
+      ],
+      "sourceFile": "narrative/mercy/performance.json"
+    },
+    {
+      "sceneId": "a2.greenroom",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "julian"
+      ],
+      "props": [
+        "painted-door",
+        "judge-robe",
+        "small-bottle",
+        "loose-button"
+      ],
+      "sourceFile": "narrative/mercy/performance.json"
+    },
+    {
+      "sceneId": "a2.greenroom-listen",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "julian"
+      ],
+      "props": [
+        "painted-door",
+        "judge-robe",
+        "small-bottle",
+        "play-pages"
+      ],
+      "sourceFile": "narrative/mercy/performance.json"
+    },
+    {
+      "sceneId": "a2.greenroom-ask",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "julian"
+      ],
+      "props": [
+        "painted-door",
+        "judge-robe",
+        "small-bottle",
+        "loose-button"
+      ],
+      "sourceFile": "narrative/mercy/performance.json"
+    },
+    {
+      "sceneId": "a2.new-ending",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "julian",
+        "vera-witness"
+      ],
+      "props": [
+        "painted-door",
+        "paper-horse",
+        "judge-robe",
+        "bishop-costume",
+        "spare-cloak",
+        "table",
+        "chair",
+        "play-pages",
+        "account-pages",
+        "sky-cloth"
+      ],
+      "sourceFile": "narrative/mercy/performance.json"
+    },
+    {
+      "sceneId": "a2.performance",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "julian",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "painted-door",
+        "paper-horse",
+        "judge-robe",
+        "bishop-costume",
+        "table",
+        "chair",
+        "bread",
+        "bucket",
+        "sky-cloth",
+        "account-pages"
+      ],
+      "sourceFile": "narrative/mercy/performance.json"
+    },
+    {
+      "sceneId": "a2.testimony",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "julian",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "painted-door",
+        "paper-horse",
+        "account-pages"
+      ],
+      "sourceFile": "narrative/mercy/ending.json"
+    },
+    {
+      "sceneId": "a2.testimony-full",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "julian",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "painted-door",
+        "paper-horse",
+        "account-pages"
+      ],
+      "sourceFile": "narrative/mercy/ending.json"
+    },
+    {
+      "sceneId": "a2.testimony-bounded",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "julian",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "painted-door",
+        "paper-horse",
+        "account-pages"
+      ],
+      "sourceFile": "narrative/mercy/ending.json"
+    },
+    {
+      "sceneId": "a2.offer",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "julian",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "painted-door",
+        "paper-horse",
+        "account-pages"
+      ],
+      "sourceFile": "narrative/mercy/ending.json"
+    },
+    {
+      "sceneId": "a2.erasmus-loss",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "julian",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "painted-door",
+        "paper-horse",
+        "account-pages"
+      ],
+      "sourceFile": "narrative/mercy/ending.json"
+    },
+    {
+      "sceneId": "a2.julian-earlier",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "julian",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "painted-door",
+        "paper-horse",
+        "account-pages"
+      ],
+      "sourceFile": "narrative/mercy/ending.json"
+    },
+    {
+      "sceneId": "a2.decision",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "julian",
+        "vera-witness",
+        "erasmus"
+      ],
+      "props": [
+        "painted-door",
+        "paper-horse",
+        "account-pages"
+      ],
+      "sourceFile": "narrative/mercy/ending.json"
+    },
+    {
+      "sceneId": "a2.forward",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "erasmus",
+        "vera-witness"
+      ],
+      "props": [
+        "table",
+        "chair",
+        "judge-robe",
+        "account-pages"
+      ],
+      "sourceFile": "narrative/mercy/ending.json"
+    },
+    {
+      "sceneId": "a2.new-morning",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "erasmus",
+        "vera-witness"
+      ],
+      "props": [
+        "table",
+        "chair",
+        "judge-robe",
+        "account-pages",
+        "letter",
+        "breakfast-dish",
+        "torn-diagram"
+      ],
+      "sourceFile": "narrative/mercy/ending.json"
+    },
+    {
+      "sceneId": "a2.letter",
+      "location": "theatre",
+      "actors": [
+        "blaise-restored",
+        "erasmus",
+        "vera-witness"
+      ],
+      "props": [
+        "table",
+        "chair",
+        "judge-robe",
+        "account-pages",
+        "letter",
+        "breakfast-dish",
+        "torn-diagram"
+      ],
+      "sourceFile": "narrative/mercy/ending.json"
+    },
+    {
+      "sceneId": "a3.good-morning",
+      "location": "theatre",
+      "actors": [
+        "blaise-final",
+        "julian-restored"
+      ],
+      "props": [
+        "painted-door",
+        "paper-horse"
+      ],
+      "offscreenActors": [
+        "erasmus"
+      ],
+      "sourceFile": "narrative/mercy/ending.json"
+    },
+    {
+      "sceneId": "a3.final-horse",
+      "location": "theatre",
+      "actors": [
+        "blaise-final",
+        "julian-restored"
+      ],
+      "props": [
+        "painted-door",
+        "paper-horse"
+      ],
+      "offscreenActors": [
+        "erasmus"
+      ],
+      "sourceFile": "narrative/mercy/ending.json"
+    }
+  ]
+}

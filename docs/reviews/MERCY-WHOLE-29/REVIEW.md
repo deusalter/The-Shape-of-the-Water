@@ -1,0 +1,35 @@
+# MERCY-WHOLE-29 — blind whole-playthrough review
+
+**Scope:** AI reading, not a human playtest. I read all 2,581 lines of `input/reading.txt`, in consecutive paged chunks, including the offered/chosen actions and acquired notebook entries. I consulted no other story, implementation, or review material. Conclusions concern this encountered route only.
+
+**Verdict:** The whole story works. The disappearance is answered; the emotional ending follows from Blaise's conduct rather than a philosophical verdict granting him innocence. I found two small continuity defects in the encountered dialogue, neither requiring a new plot or blocking comprehension.
+
+## Strongest earned features
+
+- **Blaise has a continuous, uncomfortable desire.** At the opening he wants rescue to establish his importance: “gratitude had made him important.” With Julian, the same demand becomes a wish for affection whose causes guarantee its continuation. Remembering the shared revision really preserves something precious, while using it on the unremembering Julian really violates the relationship. His second request is credibly compromised: he wants to surrender his advantage and “the feeling of having done less than I have done.” The account, corroboration, public disclosure, rehearsal, and final temptation give the eventual refusal enough resistance to overcome. It does not make him suddenly purified or assure him Julian will stay.
+- **The central mystery has an actual answer.** Missing scenery establishes a material question; Vera's outside records justify a route of investigation without being treated as infallible; Julian's living presence, crossing account, and travelled objects answer where he went. Erasmus then admits both the boundary and his misleading account: “I cannot summon what has left.” His motive—frightening Blaise into a journey he hoped would restore dependence—is intelligible and culpable. The player declines to write a finding, but the encountered evidence and confession still resolve the disappearance. Questions about substance, freedom, or the soul remain open without substituting for that solution.
+- **Philosophy changes what the characters attempt.** The conflict between earlier and present desires makes another return tempting. The failure of memory to establish innocence makes the second request answerable. The substance/knowledge dispute includes real objections rather than an uncontested sage, particularly “Suppose that if it exists, it exists necessarily. How have you shown that it does exist?” Understanding as activity later helps Blaise recognize the demand concealed in asking Julian to judge his worth. The longer discussions sometimes adopt a seminar cadence, but they have substantial arguments and consequences; disagreement survives their usefulness.
+- **The world and relationship have lives beyond the thesis.** Upward dust, a standing rain used for washing, ruined scenery, failed measurements, unwanted paint shades, a goat, Vera's damaged instruments, and the coat owner's practical concern make the return's world habitable. Julian wants performances, collaborators, and work that can develop; returning for Vera and the local audience gives him reasons beyond Blaise. The judge's replaceability both wounds Blaise and improves the play. The final letter answers the immediate relationship question with a visit and continued collaboration, leaving intimacy uncertain.
+- **The consequential choices are legible.** Telling Julian about Erasmus, preserving both motives, allowing Vera to speak, admitting the private purpose before Julian, and refusing the final return do what their labels promise. Disclosure reaches Julian through Vera and then directly in the theatre. The many single available actions are transitions rather than misleading alternatives. I cannot infer unseen branch consequences from this transcript. The one disclosure-continuity exception is below.
+
+## Substantive issues — smallest repairs
+
+1. **A philosophical callback lacks an antecedent on this route.** In **“What the word claims,”** Blaise says, “You called understanding a form of love,” then “Earlier.” This reading's earlier discussion, including the chosen essence question in **“More than a description,”** has not made that claim. The explicit account of intellectual love first appears immediately after this callback. That briefly makes the reader search for a missing conversation, especially in a story where missing memories matter. **Smallest repair:** introduce the love claim here before Blaise questions it, or replace the retrospective setup with a present question. No expansion of the argument is needed.
+
+2. **The later dialogue incorrectly narrows the public disclosure.** The chosen action in **“An interruption at dinner”** is “read the account in your ordinary voice”; the narration says “Blaise read the account,” and explicitly says it “already admitted that desire.” In **“The cart comes back,”** Vera reports, “Blaise read the account first.” But in **“A place in the company,”** Blaise answers “Part of it,” and Julian says, “She said part of it. I wasn't correcting you.” That quotation of Vera's report does not match the report this player encountered, and it leaves unnecessary uncertainty about whether an ostensibly candid choice withheld part of the document. **Smallest repair:** make these two replies acknowledge the actual disclosure on this route. If an abridgment is intended, establish it at the reading and in Vera's report instead.
+
+## Voice check with identifying cues removed
+
+I isolated these short samples without speaker labels, personal names, or unique story nouns:
+
+> A. “What would satisfy you? A word which had no relation to anything he had ever known? A gesture from a man who had no reason to distinguish you from the chair?”
+>
+> B. “I read them. Then I try the things which can still be tried. My handwriting isn't a guarantee that I've become sensible.”
+>
+> C. “I'm sorry I don't remember it.” / “I am anyway. I'd like to have that.”
+
+A is Erasmus: he broadens an intimate objection into an impossible demand and uses his interlocutor's desires to regain argumentative control. B is Vera: she distinguishes records from warranted belief and includes herself among possible sources of error. C is Julian: he acknowledges a particular loss without conceding the demand built upon it. These would not exchange cleanly without changing the speaker's conduct.
+
+The brief jokes are more interchangeable: Vera's “We mustn't promise too much” and Julian's “For the taste. Courage is unreliable” share the narration's dry reversal. Blaise and Vera also share polished argumentative syntax during the extended discussion. That is a recognizable common authorial register, but it does not flatten their motives, habits of reply, or relationships enough to warrant a separate repair here.
+
+The closing movement from holding the horse to answering an actual letter is earned. It gives Blaise something specific to continue doing, after he accepts that neither gratitude nor understanding can guarantee another person's answer.

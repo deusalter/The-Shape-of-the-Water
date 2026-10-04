@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "packageSha256": "8b9a51cf64966f621d470613036c4dc3c78a414abebe72442e1c1d3a140c44e1",
+  "assetBuild": "f50d4556622bbc4d",
+  "contentHash": "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+  "scope": "Actual extracted final ZIP, provided Python launcher, fresh Chromium context, opening, movement, first ordinary story action, saved export and exact reload. Not whole-game verification.",
+  "checks": [
+    "Provided launcher serves the extracted current Mercy build on 127.0.0.1 and the 3D opening loads.",
+    "Actual keyboard movement changes Blaise position and leaves the encountered run exactly unchanged.",
+    "First ordinary story action saves, replays against exact current content, and survives reload/takeover with an identical complete export.",
+    "All observed runtime HTTP requests stay on the local launcher; external HTTP requests were blocked and none were attempted."
+  ],
+  "pageErrors": [],
+  "externalRequests": [],
+  "localRequests": [
+    "/",
+    "/assets/index-Donl8rkY.js",
+    "/assets/index-KBZzuDAC.css",
+    "/sw.js",
+    "/asset-manifest.json",
+    "/art/release-binding.svg",
+    "/assets/index-Donl8rkY.js",
+    "/assets/index-KBZzuDAC.css",
+    "/index.html",
+    "/world/bath-faceless.glb",
+    "/world/country/first-country-locations.glb",
+    "/world/rebuild/second-mouth-supper.glb",
+    "/",
+    "/",
+    "/assets/index-KBZzuDAC.css",
+    "/assets/index-Donl8rkY.js",
+    "/favicon.ico"
+  ],
+  "limits": [
+    "One opening action only",
+    "Headless Chromium with software WebGL",
+    "Python 3 available in this workspace; no Windows/macOS installation test",
+    "No human playtest, duration or hardware performance claim"
+  ],
+  "launcherURL": "http://127.0.0.1:4173/",
+  "launcherPid": 109071,
+  "openingScene": "a0.tribute",
+  "openingTitle": "Late for his miracle",
+  "movement": {
+    "beforeX": "0.000",
+    "afterX": "-0.166"
+  },
+  "firstAction": {
+    "id": "a0.decline-purpose",
+    "label": "Say that you can thank Erasmus but cannot claim to know why you were chosen.",
+    "sceneId": "a0.refusal-plain",
+    "passageTitle": "The part he cannot say"
+  },
+  "takeoverUsed": true,
+  "launcherExitCode": 0,
+  "launcherSignal": null,
+  "launcherTerminated": true,
+  "launcherOutput": "The Shape of the Water: http://127.0.0.1:4173/\nKeep this window open while playing. Ctrl+C closes the local server.\nProgress is saved in this browser. Export your run before moving browsers or ports.\n127.0.0.1 - - [04/Oct/2026 08:20:01] \"GET / HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 08:20:01] \"GET /assets/index-Donl8rkY.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 08:20:01] \"GET /assets/index-KBZzuDAC.css HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 08:20:03] \"GET /sw.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 08:20:03] \"GET /asset-manifest.json HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 08:20:03] \"GET /art/release-binding.svg HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 08:20:03] \"GET /assets/index-Donl8rkY.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 08:20:03] \"GET /assets/index-KBZzuDAC.css HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 08:20:03] \"GET /index.html HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 08:20:03] \"GET /world/bath-faceless.glb HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 08:20:03] \"GET /world/country/first-country-locations.glb HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 08:20:03] \"GET /world/rebuild/second-mouth-supper.glb HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 08:20:05] \"GET /asset-manifest.json HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 08:20:10] \"GET / HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 08:20:12] code 404, message File not found\n127.0.0.1 - - [04/Oct/2026 08:20:12] \"GET /favicon.ico HTTP/1.1\" 404 -\n127.0.0.1 - - [04/Oct/2026 08:20:15] \"GET /sw.js HTTP/1.1\" 304 -\n",
+  "temporaryExtractionRemoved": true
+}

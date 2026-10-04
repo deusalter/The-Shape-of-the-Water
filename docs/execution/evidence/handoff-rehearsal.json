@@ -3,7 +3,7 @@
   "baseline": {
     "status": "PASS",
     "scope": "Static snapshot integrity and claim consistency only; not a fresh-chat resume or new gameplay test",
-    "pinnedFiles": 1874,
+    "pinnedFiles": 2214,
     "errors": []
   },
   "checks": [
@@ -19,7 +19,7 @@
       "name": "missing_voice_anchor",
       "status": "PASS",
       "detected": [
-        "Missing or unreadable critical file: narrative/rebuild/VOICE-V5.md"
+        "Missing or unreadable critical file: narrative/mercy/VOICE.md"
       ]
     },
     {
@@ -34,7 +34,7 @@
       "name": "changed_selected_content",
       "status": "PASS",
       "detected": [
-        "Changed snapshot file: src/content/case-v5.json"
+        "Changed snapshot file: src/content/case-v7.json"
       ]
     },
     {

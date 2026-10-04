@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "packageSha256": "8b9a51cf64966f621d470613036c4dc3c78a414abebe72442e1c1d3a140c44e1",
+  "packageBytes": 1267120,
+  "assetBuild": "f50d4556622bbc4d",
+  "contentHash": "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+  "files": [
+    "The-Shape-of-the-Water/art/release-binding.svg",
+    "The-Shape-of-the-Water/asset-manifest.json",
+    "The-Shape-of-the-Water/assets/index-Donl8rkY.js",
+    "The-Shape-of-the-Water/assets/index-KBZzuDAC.css",
+    "The-Shape-of-the-Water/index.html",
+    "The-Shape-of-the-Water/sw.js",
+    "The-Shape-of-the-Water/world/bath-faceless.glb",
+    "The-Shape-of-the-Water/world/country/first-country-locations.glb",
+    "The-Shape-of-the-Water/world/rebuild/second-mouth-supper.glb",
+    "The-Shape-of-the-Water/play.py",
+    "The-Shape-of-the-Water/START-HERE.txt",
+    "The-Shape-of-the-Water/THIRD-PARTY-NOTICES.txt"
+  ],
+  "manifestAssetCount": 7,
+  "safeArchivePaths": true,
+  "uniqueEntries": true,
+  "zipCRC": true,
+  "assetHashesMatch": true,
+  "exactRequiredFiles": true,
+  "workerVersionMatches": true,
+  "rejectedReturnAssetAbsent": true,
+  "notices": [
+    "react",
+    "react-dom",
+    "three",
+    "zod",
+    "vite",
+    "scheduler"
+  ],
+  "extractionRoot": "/tmp/mercy-release-smoke-p_5jci1i",
+  "scope": "Independent static checks of final ZIP; browser smoke follows separately."
+}

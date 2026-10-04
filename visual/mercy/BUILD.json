@@ -1,0 +1,74 @@
+{
+  "heldAt": "2026-10-04T08:13:02.590391+00:00",
+  "status": "Complete procedural renderer; root controls integration and publication.",
+  "contentSha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "stagingSha256": "f089ad55d08e10501151512853f488573ad70be1b633b6383c049876b099f88b",
+  "sceneCount": 62,
+  "sceneVariantProfiles": 130,
+  "checks": {
+    "worldTests": 8,
+    "browserProfileVisits": 130,
+    "keyboardMovement": true,
+    "pointerWalkAndProximityE": true,
+    "disabledAndHiddenChoiceRejection": true,
+    "mobileWidths": [
+      320,
+      390
+    ],
+    "halfWidthComposition": 650,
+    "browserErrors": [],
+    "overflow": false,
+    "typecheck": true
+  },
+  "artProvenance": "Original Three.js geometry and palette authored for The Mercy of Morning. No facial images, fetched models, copied artwork or external textures. Navigation reuses the project\u2019s own bounded country movement/pathfinding design. Distant city/background geometry is combined by material; current proof props and figures are separate.",
+  "locations": [
+    "patron",
+    "theatre",
+    "edge",
+    "market",
+    "outside-theatre",
+    "late-theatre",
+    "late-square"
+  ],
+  "limits": [
+    "Isolated renderer fixture; root verifies actual complete game routes and persistence.",
+    "Software Chromium WebGL; no human playtest or hardware benchmark.",
+    "No Blender generation was used; geometry is authored directly in Three.js."
+  ],
+  "sourceHashes": {
+    "src/world/mercy/MercyWorld.tsx": "1d61c64712f91ebf041a9562fd2525a61e9c98a4db8984121f10bf1b6b0cf909",
+    "src/world/mercy/profiles.ts": "cb1b045a448939edb61eeae7a5c9980e182a2e7de849d92ddca3a76fa1ce67e2",
+    "src/world/mercy/navigation.ts": "68177d88f8bfc0e26f77c661f77d68f774bd60a4b4f6ac33365587b32567b8cd",
+    "src/world/mercy/geometry.ts": "fa14e814a4a2c97c0d208b77995c64e534f680594b5459ebd510f03b050c8dcc",
+    "src/world/mercy/mercy.css": "eb0ce18816e6cb986b9c0d7ff637f8726392717bb6c3d2886584a194a72835fa",
+    "src/world/mercy/staging.json": "0e01e977099c30f606b47472c4e8ec3c01eba29d02cea01da5c32c9b481517cf",
+    "tests/mercy-world.test.ts": "beeed7368f5f3a8d62c3cffb8a8d38fe303476138cfb4dc59aa3a91e3f4bb4ce",
+    "visual/mercy/fixture.html": "0076a918099b86a81951d4e7f7cd3f3d3f862f9f10ef78ebd09af946c8a6ff56",
+    "visual/mercy/fixture.tsx": "2da4086f2d92c27993ca69440314e7a016e178de520366cbe73e18f5d84c3fff",
+    "visual/mercy/browser-check.mjs": "707bbecbf8c235a0293dbec819f0d599f4e0e37024ba0bb71ad709c99925ae06",
+    "visual/mercy/capture-composition.mjs": "159eb5aa839acf4f68e08206e2aac963ee0f5d03303e04971f698e50b65560e9",
+    "visual/mercy/sync-staging.mjs": "5ccca26c2a996163d01ae822b6e2827be9618994bdeca603478df3e539d256bf",
+    "visual/mercy/README.md": "59bc8dd15012c1e258edd2439f04d32186f4c190066274eadb3b1ce21bd12f3f"
+  },
+  "evidenceHashes": {
+    "visual/mercy/BROWSER-CHECK.json": "ed193e448dd05d691f79c6ff230dd72f5ad40e51c2c12990e3ca5633a06d1dc9",
+    "visual/mercy/screenshots/mobile-390.png": "806d0414e3644525b6206b312c903ca5ddb037f4c5a15f0ff834470601e91795",
+    "visual/mercy/screenshots/halfwidth-theatre.png": "eed266fc9726ecff5c0afae6f75a98150c55811213c28460b987bb6ccfa65e5c",
+    "visual/mercy/screenshots/halfwidth-market-reunion.png": "6ffbf83d0359883ba5d0d0f0caf7f94ad18decce8900c2a9611315148751ac17",
+    "visual/mercy/screenshots/halfwidth-outside-theatre.png": "984dc17708121938525cd079ca576a340ce435159062e3518ff023fd422b98bd",
+    "visual/mercy/screenshots/outside-theatre.png": "ee79c274e33b61e9134bb3417b2c9fbeffefddc6be92ad7c4419936149c1a718",
+    "visual/mercy/screenshots/halfwidth-late-square.png": "fa896e62ca6f39f089ee5beaf32340d86237f02984183fa85d6f8cb875896eb1",
+    "visual/mercy/screenshots/edge.png": "a713a517586e4fca744f4707611a057e9a5b684f6720e0d0674cb38019052ea6",
+    "visual/mercy/screenshots/halfwidth-edge.png": "f3befca572aee18462fce63e33994783688b8e42454b0b70b6635e0c9fd38d89",
+    "visual/mercy/screenshots/theatre.png": "81bc476397666707feca113de72455a74757a10645e0fde66d485b7bc82788bd",
+    "visual/mercy/screenshots/late-theatre.png": "de4c8e72e303d59e5704598471aa9045443158fc68f22a287f58275ea4772cc5",
+    "visual/mercy/screenshots/late-square.png": "7f64f4c52f27c1ff1890144d2f97e8f47f6da6db3f77a5ded6b18d4e3d19a312",
+    "visual/mercy/screenshots/market.png": "342925ec4b4f94b6546dd008fbcfd8f23c5c8edcf55830bb151500f1cdf89348",
+    "visual/mercy/screenshots/halfwidth-market.png": "b00f39d1fd29058522abd310203fd91738ef465e2cb8daae86cc3e7582115e45",
+    "visual/mercy/screenshots/mobile-320.png": "87b6a22449808bd9f5c0fde0c2d4a91c64fef0e125f34a6d47d4d5f1d505ae73",
+    "visual/mercy/screenshots/halfwidth-patron.png": "d52e5333ff16da3fad2ec7c853b0b556b4212d614cdc6d753fe22c87ce6c8e19",
+    "visual/mercy/screenshots/patron.png": "fdff83746a55298cc73b6bfd6f4570cedaf40928d15be3f81938baad7a68de8f",
+    "visual/mercy/screenshots/halfwidth-late-theatre.png": "daf9d67198faa85cf81366deb0dc4de0e3b813009cbb3b1bb074049bd907a5e0"
+  },
+  "rendererStagingSha256": "0e01e977099c30f606b47472c4e8ec3c01eba29d02cea01da5c32c9b481517cf"
+}

@@ -13,12 +13,16 @@ export function InvestigationNotebook({content,state,disabled,onAction}:{content
   const view=projectPlayerV2(content,state);
   const [selections,setSelections]=useState<Record<string,string[]>>({});
   const [candidates,setCandidates]=useState<Record<string,string>>({});
+  const [search,setSearch]=useState('');
+  const query=search.trim().toLocaleLowerCase();
+  const matchingSources=view.sources.filter(source=>`${source.title}\n${source.text}`.toLocaleLowerCase().includes(query));
   const references=[...view.sources.map(source=>({id:source.id,label:source.title+(source.occasionLabel?` (${source.occasionLabel})`:''),text:source.text,kind:source.kind})),...view.deductions.map(deduction=>({id:deduction.id,label:deduction.text+(deduction.occasionLabel?` (${deduction.occasionLabel})`:''),text:'A conclusion you supported with selected evidence.',kind:'deduction'}))];
   return <div className="investigation-notebook">
     <section aria-labelledby="evidence-title"><h3 id="evidence-title">Encountered evidence</h3>
-      {view.sources.length?<ul>{view.sources.map(source=><li key={source.id}><strong>{source.title}</strong><OccasionLabel record={source}/><span className="source-kind">{source.kind==='statement'?'Statement':source.kind==='document'?'Document':'Observation'}</span><p>{source.text}</p></li>)}</ul>:<p>No evidence has been recorded yet.</p>}
+      <label className="evidence-search">Search encountered evidence<input type="search" value={search} onChange={event=>setSearch(event.target.value)}/></label>
+      {view.sources.length ? <><p className="search-count" role="status">{matchingSources.length} of {view.sources.length} records</p>{matchingSources.length ? <ul>{matchingSources.map(source=><li key={source.id}><strong>{source.title}</strong><OccasionLabel record={source}/><span className="source-kind">{source.kind==='statement'?'Statement':source.kind==='document'?'Document':'Observation'}</span><p>{source.text}</p></li>)}</ul> : <p>No encountered evidence matches this search.</p>}</> : <p>No evidence has been recorded yet.</p>}
     </section>
-    <section aria-labelledby="questions-title"><h3 id="questions-title">Questions to investigate</h3><p>Choose a factual claim and the specific evidence that supports it. Statements are records of what someone said.</p>
+    <section aria-labelledby="questions-title"><h3 id="questions-title" tabIndex={-1}>Questions to investigate</h3><p>Choose a factual claim and the specific evidence that supports it. Statements are records of what someone said.</p>
       {view.questions.length?view.questions.map(question=>{
         const selected=(selections[question.id]??[]).filter(id=>references.some(ref=>ref.id===id));
         const candidate=candidates[question.id]??'';

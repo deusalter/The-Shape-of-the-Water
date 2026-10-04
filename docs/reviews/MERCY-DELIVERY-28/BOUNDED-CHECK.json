@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "scope": "Only isolated review fixtures. No canonical story, shared browser, or implementation edited.",
+  "reader": {
+    "exitCode": 0,
+    "seenSourceKinds": [
+      "observation",
+      "document",
+      "statement"
+    ],
+    "seenOccasionLabels": [
+      "First visit",
+      "After the return"
+    ],
+    "capturedOccasionLabelsIncluded": [
+      "First visit",
+      "After the return"
+    ],
+    "typedCategoriesPreserved": true,
+    "submittedEvidenceLabelPreserved": true,
+    "hiddenSentinelsExcluded": true
+  },
+  "packaging": {
+    "exitCode": 1,
+    "selectedSourceCanonicalHash": "682658eb0b12f473aab4dd027df1b9b6a511ea867c4fef22763dec3fae5362fb",
+    "staleBuildContentHash": "cf2af7418826e5bcbd9797e6d2b1822e63f242ae3e4adf97cd3d5d64abc75622",
+    "staleBuildRejected": true,
+    "rejection": "The build does not contain the selected current Mercy content. Rebuild before packaging."
+  },
+  "sourcePins": {
+    "tools/package-mercy.py": "cd9c55b5074fae4b1462cc9134898f0748d9a89d2d1fcb9d136f06faf4925b50",
+    "tools/mercy-reader-input.mjs": "828d7a1040a3eb77176bd7c3989d54c00e882717b8cc49bdd0e1fa898874cd0b",
+    "tools/browser-mercy-check.mjs": "792dde578dfba9ce55ac3ebee5aaead16d7c3351cc0374a7af40607548c28aab",
+    "tools/browser-mercy-studio.mjs": "15997b53f0d9ae68758cdec2171b0d9ac70a43cb26db717e33aa2661d6118190",
+    "src/components/EvidencePlayer.tsx": "9b30552e13089ea3bca05200d943d99fa4c2de504d20e79959b144a9d4e8e596"
+  }
+}

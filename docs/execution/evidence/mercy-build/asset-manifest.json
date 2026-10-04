@@ -1,0 +1,28 @@
+{
+  "version": "f50d4556622bbc4d",
+  "contentHash": "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+  "contentHashes": [
+    "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+    "cf2af7418826e5bcbd9797e6d2b1822e63f242ae3e4adf97cd3d5d64abc75622",
+    "b6738dcb83d1fd0f6d95265896263af7f95544beae713a80d7fc9bd3220d1423",
+    "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d"
+  ],
+  "files": [
+    "art/release-binding.svg",
+    "assets/index-Donl8rkY.js",
+    "assets/index-KBZzuDAC.css",
+    "index.html",
+    "world/bath-faceless.glb",
+    "world/country/first-country-locations.glb",
+    "world/rebuild/second-mouth-supper.glb"
+  ],
+  "hashes": {
+    "art/release-binding.svg": "438580f7908badb831454979a5713d8c21f4be8ccacae2cf01f68d3092c2ccd4",
+    "assets/index-Donl8rkY.js": "494020e2a4ac719f392fe273b3fd6b95c18209239bd9d937d6171fa969231965",
+    "assets/index-KBZzuDAC.css": "606aa0f447e541a124744462fa2cb23c86ae6c48313cec2cb17a78a9c0f3d9b3",
+    "index.html": "5747d3efa235df847084e6b912d2f6b130b51b3e8c7650d5ef5aca3f53457c65",
+    "world/bath-faceless.glb": "fca0c41c1fe8536f5e852530d22c36f3e77ddf7730e7db51a0fe58187ff73b59",
+    "world/country/first-country-locations.glb": "7430d726d32d892fbfe1dc01555884c6bea96dded6b45986785bd99537cd01a7",
+    "world/rebuild/second-mouth-supper.glb": "114ddc2339ab2d3293a7dfbdf31ccdbb92757cb961005a7723fc702ecb6762b4"
+  }
+}

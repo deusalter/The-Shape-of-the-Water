@@ -1,0 +1,151 @@
+{
+  "status": "PASS",
+  "scope": "Actual built Chromium UI witnesses, saving, replay, offline and layout; not human playtesting or literary acceptance.",
+  "contentSha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "harnessSha256": "c9c7e611acb949c7681065fe534fa61d1dcbcebcf48919da5f8d3714cb77333f",
+  "assetManifestSha256": "ac6468686e95b1145f951e363353fd0fadaf8d9a2e783d56b88dc33f7cd7d779",
+  "assetManifest": {
+    "version": "f50d4556622bbc4d",
+    "contentHash": "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+    "contentHashes": [
+      "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+      "cf2af7418826e5bcbd9797e6d2b1822e63f242ae3e4adf97cd3d5d64abc75622",
+      "b6738dcb83d1fd0f6d95265896263af7f95544beae713a80d7fc9bd3220d1423",
+      "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d"
+    ],
+    "files": [
+      "art/release-binding.svg",
+      "assets/index-Donl8rkY.js",
+      "assets/index-KBZzuDAC.css",
+      "index.html",
+      "world/bath-faceless.glb",
+      "world/country/first-country-locations.glb",
+      "world/rebuild/second-mouth-supper.glb"
+    ],
+    "hashes": {
+      "art/release-binding.svg": "438580f7908badb831454979a5713d8c21f4be8ccacae2cf01f68d3092c2ccd4",
+      "assets/index-Donl8rkY.js": "494020e2a4ac719f392fe273b3fd6b95c18209239bd9d937d6171fa969231965",
+      "assets/index-KBZzuDAC.css": "606aa0f447e541a124744462fa2cb23c86ae6c48313cec2cb17a78a9c0f3d9b3",
+      "index.html": "5747d3efa235df847084e6b912d2f6b130b51b3e8c7650d5ef5aca3f53457c65",
+      "world/bath-faceless.glb": "fca0c41c1fe8536f5e852530d22c36f3e77ddf7730e7db51a0fe58187ff73b59",
+      "world/country/first-country-locations.glb": "7430d726d32d892fbfe1dc01555884c6bea96dded6b45986785bd99537cd01a7",
+      "world/rebuild/second-mouth-supper.glb": "114ddc2339ab2d3293a7dfbdf31ccdbb92757cb961005a7723fc702ecb6762b4"
+    }
+  },
+  "witnesses": [
+    {
+      "path": "docs/execution/evidence/mercy-content/a2.letter--invitation.encountered-run.json",
+      "sha256": "46fa5b628fda490714fccde57169c0139a0c09989b79954c142ed97c95da16a5"
+    },
+    {
+      "path": "docs/execution/evidence/mercy-content/a2.letter--base.encountered-run.json",
+      "sha256": "758b531e6244fbe26034c026cd7dd10b7cb454f5ce5344e94a21e6575f1dbc70"
+    },
+    {
+      "path": "docs/execution/evidence/mercy-content/a3.final-horse--base.encountered-run.json",
+      "sha256": "cf54b22c4b9e6f86c17257274b040dfcecfef7300b2bf2a6bb66b09c16ab269f"
+    },
+    {
+      "path": "docs/execution/evidence/mercy-content/a3.final-horse--base--proof-q.julian-disappearance.encountered-run.json",
+      "sha256": "8efbbe3c04a61607ae6bd0075f7c105bea3903ce2c8387e25cf3fb2805fa584f"
+    }
+  ],
+  "checks": [
+    "Keyboard exploration and reading-mode changes do not acquire evidence or dispatch story actions.",
+    "Actual pointer walk and nearby E dispatched a0.decline-purpose to the game.",
+    "Whole witness 1 completed through ordinary controls; exact prose/evidence and reload checked.",
+    "Completed-run offline reload, accepted closing action with save/reload, retained v5/v4/v2 isolation, and return to Mercy verified. Three widths checked for overflow and axe violations.",
+    "Whole witness 2 completed through ordinary controls; exact prose/evidence and reload checked.",
+    "Whole witness 3 completed through ordinary controls; exact prose/evidence and reload checked.",
+    "Whole witness 4 completed through ordinary controls; exact prose/evidence and reload checked."
+  ],
+  "scenes": [
+    "a0.refusal-plain",
+    "a0.promise",
+    "a0.horse",
+    "a0.judge",
+    "a0.invitation",
+    "a0.weeds",
+    "a0.after-door",
+    "a0.palace-night",
+    "a0.gift",
+    "a0.first-return",
+    "a1.empty-theatre",
+    "a1.withdrawal",
+    "a1.painted-place",
+    "a1.vera-box",
+    "a1.observations",
+    "a1.west-road",
+    "a1.rain-market",
+    "a1.rain-stage",
+    "a1.found-whole",
+    "a1.found",
+    "a1.earlier-love",
+    "a1.company-question",
+    "a1.return-patron",
+    "a1.witness",
+    "a1.account-candid",
+    "a1.account",
+    "a1.second-return",
+    "a2.reading",
+    "a2.sequence",
+    "a2.confirmation",
+    "a2.public-meal",
+    "a2.public-correction",
+    "a2.questions",
+    "a2.the-ground",
+    "a2.essence",
+    "a2.reason",
+    "a2.company-arrives",
+    "a2.greenroom",
+    "a2.greenroom-listen",
+    "a2.new-ending",
+    "a2.a-form-of-love",
+    "a2.performance",
+    "a2.testimony",
+    "a2.testimony-full",
+    "a2.offer",
+    "a2.erasmus-loss",
+    "a2.decision",
+    "a2.forward",
+    "a2.new-morning",
+    "a2.letter",
+    "a2.testimony-bounded",
+    "a3.good-morning",
+    "a3.final-horse",
+    "a1.account-limited",
+    "a2.public-interruption",
+    "a2.purpose"
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "accessibility": [
+    {
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    }
+  ],
+  "limits": [
+    "Supplied witnesses, not every input permutation",
+    "Software WebGL in Chromium",
+    "No human duration measurement"
+  ],
+  "sourceAndBuildStable": true
+}

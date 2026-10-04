@@ -1,0 +1,62 @@
+{
+  "status": "Preserved first complete tested candidate before authorized narrow ending knowledge repair",
+  "contentSha256": "81b60c9c19fe66c5749f02a9f474d55975f00d298e793ed738bd4d3b7e3df938",
+  "files": {
+    "docs/execution/evidence/mercy-content/a3.final-horse--base.encountered-run.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/81b60c9c-first-complete-candidate/a3.final-horse--base.encountered-run.json",
+      "sha256": "559cfadbd0afdb28e96598422366a438e54fe77aba8f048c479cc86c92611a10"
+    },
+    "docs/execution/evidence/mercy-content/source-index.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/81b60c9c-first-complete-candidate/source-index.json",
+      "sha256": "049f70bc79efc5f14673c25eecc8f40921bcf8b58182ba9213071dda3230b70c"
+    },
+    "docs/execution/evidence/mercy-content/a3.final-horse--base--proof-q.julian-disappearance.encountered-run.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/81b60c9c-first-complete-candidate/a3.final-horse--base--proof-q.julian-disappearance.encountered-run.json",
+      "sha256": "a36846e25a6f657f5b4ab56a67c71c193e8c56b43d98dab6958484fd1f140d89"
+    },
+    "docs/execution/evidence/mercy-content/unit-tests.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/81b60c9c-first-complete-candidate/unit-tests.json",
+      "sha256": "5b3d1ab56bb0d07cd9e672ca3df41eed7b1d6afb1693cde6d81dddf75107759f"
+    },
+    "docs/execution/evidence/mercy-content/witnesses.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/81b60c9c-first-complete-candidate/witnesses.json",
+      "sha256": "fa2026bb77e7eeb15e8ee893d28cdfb44316843dddeda63dc2af25af2c853bac"
+    },
+    "docs/execution/evidence/mercy-content/semantic-review.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/81b60c9c-first-complete-candidate/semantic-review.json",
+      "sha256": "449da01515a756ab6ba09f03d96b41eb78de11ea34ef4068118687d59a87f696"
+    },
+    "docs/execution/evidence/mercy-content/source-map.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/81b60c9c-first-complete-candidate/source-map.json",
+      "sha256": "bd2189bc45e5ed73920add8bfd1e58e5ad7411b85ab2ae4f1667b036e40b1460"
+    },
+    "docs/execution/evidence/mercy-content/build.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/81b60c9c-first-complete-candidate/build.json",
+      "sha256": "312911854677e305583086aff523ce7bbd1437cc3294545d066695696762efcd"
+    },
+    "docs/execution/evidence/mercy-content/a2.letter--base.encountered-run.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/81b60c9c-first-complete-candidate/a2.letter--base.encountered-run.json",
+      "sha256": "836a1d30d69ba715af199e244eead5eb3750c4c55c8c396d36ffd5fe3580bdde"
+    },
+    "docs/execution/evidence/mercy-content/a2.letter--invitation.encountered-run.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/81b60c9c-first-complete-candidate/a2.letter--invitation.encountered-run.json",
+      "sha256": "bdf348b09c055d60a4986a7cec7f46c5115a77f0a4b43264e93b3d455113b772"
+    },
+    "docs/execution/evidence/mercy-content/verification.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/81b60c9c-first-complete-candidate/verification.json",
+      "sha256": "2676adad5d2aa70ae6f0712463e7d24c1a37c86d4a18d4ce7fc3b3df82c0f897"
+    },
+    "src/content/case-v7.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/81b60c9c-first-complete-candidate/case-v7.json",
+      "sha256": "81b60c9c19fe66c5749f02a9f474d55975f00d298e793ed738bd4d3b7e3df938"
+    },
+    "tools/mercy/staging-v7.json": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/81b60c9c-first-complete-candidate/staging-v7.json",
+      "sha256": "938b9dea515ad9797bfc580bdfc0fbdc79e282b3f2195f4a2bb37df6fc08eb74"
+    },
+    "tests/mercy-content.test.ts": {
+      "savedAs": "docs/execution/evidence/mercy-content/history/81b60c9c-first-complete-candidate/mercy-content.test.ts",
+      "sha256": "f06b1205945849452aca84e16d9afe46d9669dcaf884af207fa20b655d83753c"
+    }
+  }
+}
