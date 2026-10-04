@@ -14,14 +14,18 @@
     "root": [
       "integration and shared contracts",
       "root manifests/continuity",
-      "src/studio/**",
+      "src/world/**",
+      "tools/blender/**",
+      "visual/world/** and public/world/**",
+      "src/components/EvidencePlayer.tsx and EncounterArt.tsx",
+      "src/studio/** until delegated",
       "src/Release.tsx and entrypoints",
       "src/content/load-evidence.ts and compatibility/**",
-      "tools/browser-v2-check.mjs"
+      "tools/browser-*-check.mjs"
     ],
     "lead_writer": [
       "narrative/**",
-      "src/content/case-v2.json (currently frozen by agreement)"
+      "src/content/case-expanded.json (development only; case-v2.json frozen)"
     ],
     "kant_researcher": [
       "research/philosophy/KANT.md",
@@ -32,12 +36,9 @@
       "research/philosophy/sources/spinoza-*"
     ],
     "engineer": [
-      "src/persistence/checkpoint-store.ts",
-      "src/components/EvidencePlayer.tsx",
-      "tests/ownership.test.ts",
-      "tests/evidence-player-controller.test.ts",
-      "docs/reviews/evidence-player-repair/**",
-      "src/studio/EvidenceStudio.tsx (bounded Undo fix complete)"
+      "src/engine/evidence-*",
+      "tests/occasion-*.test.ts",
+      "docs/contracts/OCCASIONS-ENGINE-PROPOSAL.md"
     ],
     "verification_engineer": [
       "tests/verification/**",
@@ -67,7 +68,10 @@
   "controlling_kickoff_revision": 4,
   "currentContentSha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
   "canonicalContentHash": "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d",
-  "activeWorkers": [],
+  "activeWorkers": [
+    "lead_writer",
+    "engineer"
+  ],
   "editorialAuthority": "lead_writer; accepted baseline in narrative/accepted/MANIFEST.json; root does not independently rewrite canon",
   "tasks": {
     "T00": {
@@ -191,7 +195,7 @@
       "detail": "Static manifest integrity and four safe-copy fault-injection cases passed; no fresh-chat execution claimed."
     }
   },
-  "nextTask": "Push current preserved history and establish team branches; finish actual v2 browser checks; implement occasion semantics and integrate developed recurrence middle/endings.",
+  "nextTask": "Verify built faceless 3D player; reconcile completed P-002/T-002/L-002/Q-002; repair author durability; integrate occasion-aware expanded content.",
   "testClaims": [
     {
       "name": "unit/property/typecheck/content/build commands",
@@ -234,7 +238,8 @@
     "docs/OWNER-NAMING-CLARIFICATION-2026-10-03.md",
     "docs/OWNER-LOOP-AND-TEAM-2026-10-03.md",
     "docs/OWNER-PSYCHOLOGICAL-MALE-PROTAGONIST-2026-10-03.md",
-    "docs/OWNER-GITHUB-AUTHORIZATION-2026-10-04.md"
+    "docs/OWNER-GITHUB-AUTHORIZATION-2026-10-04.md",
+    "docs/OWNER-3D-FACELESS-2026-10-04.md"
   ],
   "chatCreationCapability": "four chats created by owner; list/read/wait available; direct create/send unavailable",
   "taskProgressScope": "Legacy compact-game checklist below is historical; not expanded-goal acceptance.",
@@ -245,7 +250,7 @@
   "repository": {
     "url": "https://github.com/deusalter/The-Shape-of-the-Water",
     "localBranch": "main",
-    "pushed": false,
+    "pushed": true,
     "visibilityObserved": "public",
     "requestedWorkflow": "owner-selected repository; commit/push authorized, observed public disclosed to owner",
     "author": "deusalter",
@@ -256,10 +261,11 @@
     "previewScenario": "2 tests PASS",
     "typecheck": "PASS before latest browser wave",
     "bothBuilds": "PASS before latest browser wave",
-    "integratedV2Browser": "RUNNING; no PASS claim",
+    "integratedV2Browser": "7 groups PASS at69ec3ca, before new3D presentation",
     "independentV2PureEngine": "34 PASS at pinned prior runtime",
     "saveRepair": "engineer reports56 targeted PASS; independent integration pending",
-    "fullVerify": "231 tests in22files, typecheck, content, both builds PASS"
+    "fullVerify": "231 tests in22files, typecheck, content, both builds PASS",
+    "faceless3D": "Development Chromium movement/proximity/layout/axe PASS; built/offline test pending."
   },
   "reservedWorkers": [
     "lead_writer: sole canon authority; next integration",
@@ -267,7 +273,7 @@
   ],
   "github": {
     "repository": "https://github.com/deusalter/The-Shape-of-the-Water",
-    "publishedCheckpoint": "9f4928617fb88ad695e3d1262f25b19029045968",
+    "publishedCheckpoint": "70a495a8b6e7a9ec9ed64c281c302b14e0d0ae60",
     "coordination": "docs/coordination/WORK-BOARD.json",
     "author": "deusalter",
     "coauthorTrailers": false

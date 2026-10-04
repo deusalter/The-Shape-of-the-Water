@@ -24,3 +24,6 @@ For integration, root first checks that the team's diff stays within ownership, 
 Native cross-chat send/dispatch is unavailable in the coordinator's current tool catalog. GitHub provides durable exchange; it does not automatically wake an idle chat. Active chats can fetch requests at checkpoints. The owner can resume an idle chat with “Read the latest team request on origin/main and continue.” No chat should poll forever after completing its bounded task.
 
 Repository publication status and current integration revision are recorded in the work board and main chat; a configured origin is not proof of a successful push. No public site deployment, paid APIs, billing operations or personal-machine access is authorized.
+
+
+If authenticated smart-HTTP git push returns 401 in the managed cloud, use the checked-in `python tools/publish-git-via-api.py --repository deusalter/The-Shape-of-the-Water --branch team/YOUR-TEAM --ref HEAD`. This uses authenticated gh REST, preserves exact Git object identities and refuses forced/non-ancestor ref updates. Fetch first and preserve remote work. The coordinator successfully used this fallback; do not print or paste credentials.

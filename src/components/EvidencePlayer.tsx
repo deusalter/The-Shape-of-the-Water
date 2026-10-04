@@ -15,6 +15,7 @@ import type { OwnershipReceipt } from '../persistence/ownership';
 import { useOfflineStatus } from '../offline';
 import { InvestigationNotebook, type InvestigationAction } from './InvestigationNotebook';
 import { EncounterArt } from './EncounterArt';
+import { BathWorld } from '../world/BathWorld';
 import { ConfirmationDialog, download, type PendingAction } from './RunControls';
 import './evidence-player.css';
 
@@ -275,18 +276,18 @@ export class EvidencePlayerController {
   exportRun() { return exportPortableV2(this.status.game); }
 }
 
-export interface EvidencePlayerProps { content: ContentV2; persistence?: EvidenceStore; context?: ReplayContextV2; preview?: boolean }
-export function EvidencePlayer({ content, persistence, context, preview = false }: EvidencePlayerProps) {
+export interface EvidencePlayerProps { content: ContentV2; persistence?: EvidenceStore; context?: ReplayContextV2; preview?: boolean; worldContentId?:string }
+export function EvidencePlayer({ content, persistence, context, preview = false, worldContentId }: EvidencePlayerProps) {
   const InitializationContainer = preview ? 'div' : 'main';
   const [prepared] = useState(() => {
     try { return { controller: new EvidencePlayerController(content, persistence ?? new EvidenceStore(globalThis.indexedDB, preview ? 'literary-detective-studio-preview-v2' : 'literary-detective-v1', context), context, undefined, documentOwner(preview ? 'preview' : 'player')), error: undefined }; }
     catch (error) { return { controller: undefined, error: error instanceof Error ? error.message : 'The run could not be initialized.' }; }
   });
   if (!prepared.controller) return <InitializationContainer className="evidence-player initialization-error"><h1>Unable to open this text</h1><p role="alert">{prepared.error}</p><p>The supplied text exceeds or does not satisfy the supported runtime bounds.</p></InitializationContainer>;
-  return <EvidencePlayerView controller={prepared.controller} preview={preview} />;
+  return <EvidencePlayerView controller={prepared.controller} preview={preview} worldContentId={worldContentId??content.id} />;
 }
 
-function EvidencePlayerView({ controller, preview }: { controller: EvidencePlayerController; preview: boolean }) {
+function EvidencePlayerView({ controller, preview, worldContentId }: { controller: EvidencePlayerController; preview: boolean; worldContentId:string }) {
   const ReadingContainer = preview ? 'div' : 'main';
   const status = useSyncExternalStore(controller.subscribe, controller.getSnapshot, controller.getSnapshot);
   const view = projectPlayerV2(controller.content, status.game);
@@ -312,7 +313,8 @@ function EvidencePlayerView({ controller, preview }: { controller: EvidencePlaye
     <header className="site-header"><div><p className="eyebrow">{preview ? 'Studio preview · separate local saves' : 'A literary investigation'}</p><h1>{view.title}</h1></div><div className="reader-controls"><label>Text size<select value={textSize} onChange={event => setTextSize(event.target.value)}><option value="small">Small</option><option value="normal">Standard</option><option value="large">Large</option></select></label><button className="quiet" aria-expanded={showNotebook} aria-controls="investigation-notebook" onClick={() => setShowNotebook(!showNotebook)}>{showNotebook ? 'Close notebook' : 'Open notebook'}</button></div></header>
     <div className="investigation-feedback" role="status" aria-live="polite" aria-atomic="true">{status.feedback && <p key={status.feedback.sequence}>{status.feedback.message}</p>}</div>
     <ReadingContainer id="evidence-reading" className={`game-layout ${showNotebook ? '' : 'notebook-closed'}`}>
-      <article className="passage-card" aria-labelledby="passage-title"><p className="eyebrow">{view.ended ? 'Closing passage' : `Accepted actions: ${view.revision}`}</p><h2 id="passage-title" ref={heading} tabIndex={-1}>{view.passage.title}</h2><EncounterArt sceneId={view.passage.sceneId} /><div className="prose">{view.passage.paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}</div>
+      {worldContentId==='shape-of-the-water'&&<BathWorld sceneId={view.passage.sceneId} choices={view.choices} disabled={disabled||!!pendingAction||view.ended} onChoose={choiceId=>act({type:'choose',choiceId})}/>}
+      <article className="passage-card" aria-labelledby="passage-title"><p className="eyebrow">{view.ended ? 'Closing passage' : 'The saltwater bath'}</p><h2 id="passage-title" ref={heading} tabIndex={-1}>{view.passage.title}</h2><EncounterArt sceneId={view.passage.sceneId} contentId={worldContentId} /><div className="prose">{view.passage.paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}</div>
         <div className="choices" aria-label="Available actions">{view.choices.map(choice => <button key={choice.id} disabled={disabled} onClick={() => act({ type: 'choose', choiceId: choice.id })}>{choice.label}</button>)}</div>
         {view.ended && <p className="ending-note">This run has ended. Your encountered passages and notes remain available.</p>}
         {!view.ended && status.ready && view.choices.length === 0 && view.questions.length === 0 && <p className="warning">No actions or factual questions are available here. Export your run before starting again.</p>}

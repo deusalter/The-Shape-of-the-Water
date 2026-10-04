@@ -11,3 +11,6 @@ checkpoints/*-SHA256.txt
 dist-player/
 dist-studio/
 *.tsbuildinfo
+
+# Blender local previous-save backups
+*.blend1

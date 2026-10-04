@@ -5,13 +5,13 @@
   "workspace": "/workspace/literary-detective",
   "finalLiteraryAuthority": "lead_writer in coordinator chat",
   "maxActiveSubagentsIncludingDescendants": 4,
-  "internalReservedSlots": 2,
+  "internalReservedSlots": 4,
   "teams": {
     "protagonist": {
       "suggestedTitle": "Literary Game \u2014 Protagonist",
-      "permittedSlots": 1,
+      "permittedSlots": 0,
       "externalChatId": "01a1042a-8c74-70cd-924d-aeada8ddd03e",
-      "phase": "active; owner follow-up observed 2026-10-04",
+      "phase": "completed and published; coordinator integration",
       "owns": [
         "docs/coordination/protagonist/STATUS.json",
         "docs/coordination/protagonist/RESPONSE.md",
@@ -25,9 +25,9 @@
     },
     "loop-plot": {
       "suggestedTitle": "Literary Game \u2014 Loop and Plot",
-      "permittedSlots": 1,
+      "permittedSlots": 0,
       "externalChatId": "01a1042a-ed4d-771e-8cd5-f21def1bf031",
-      "phase": "active; owner follow-up observed 2026-10-04",
+      "phase": "completed and published; coordinator integration",
       "owns": [
         "docs/coordination/loop-plot/STATUS.json",
         "docs/coordination/loop-plot/RESPONSE.md",
@@ -43,7 +43,7 @@
       "suggestedTitle": "Literary Game \u2014 Literary Review",
       "permittedSlots": 0,
       "externalChatId": "01a1042b-7bf0-7787-8a9a-73799016101f",
-      "phase": "active; owner follow-up observed 2026-10-04",
+      "phase": "completed and published; coordinator integration",
       "owns": [
         "docs/coordination/literary/STATUS.json",
         "docs/coordination/literary/RESPONSE.md",
@@ -59,7 +59,7 @@
       "suggestedTitle": "Literary Game \u2014 Integration QA",
       "permittedSlots": 0,
       "externalChatId": "01a1042b-95ae-70fa-ae28-8f476b95700c",
-      "phase": "active; owner follow-up observed 2026-10-04",
+      "phase": "completed and published; coordinator integration",
       "owns": [
         "docs/coordination/integration-qa/STATUS.json",
         "docs/coordination/integration-qa/RESPONSE.md",
@@ -78,7 +78,7 @@
   "visibilityObserved": "public; owner-selected destination",
   "commitAuthor": "deusalter",
   "coauthorTrailers": false,
-  "publishedCheckpoint": "9f4928617fb88ad695e3d1262f25b19029045968",
-  "permitRevision": "2026-10-04-external-followup-002",
+  "publishedCheckpoint": "70a495a8b6e7a9ec9ed64c281c302b14e0d0ae60",
+  "permitRevision": "2026-10-04-integration-003",
   "latestOwnerCorrection": "docs/OWNER-3D-FACELESS-2026-10-04.md"
 }

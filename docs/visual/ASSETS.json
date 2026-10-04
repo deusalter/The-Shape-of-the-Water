@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-03",
-  "selectedTreatment": "B",
+  "selectedTreatment": "Faceless 3D, superseding B",
   "creativeAuthority": "lead_writer",
   "ownerApproval": false,
   "licensing": "Generated original project art via built-in imagegen; no third-party artwork imported; no separate license supplied by tool and no extra copyright guarantee claimed. SVG is authored project source.",
@@ -33,7 +33,7 @@
       "notes": "Original treatment B audition: graphite and pale watercolor with wide architectural space"
     },
     {
-      "path": "public/art/bath-shallow-end.png",
+      "path": "visual/rejected/bath-shallow-end-2d.png",
       "operation": "reference edit",
       "tool": "image_gen__imagegen",
       "originalPath": "/workspace/generated_images/exec-a2bb8e27-623d-4c01-b3fa-c7e822e69da8.png",
@@ -45,10 +45,11 @@
       "byteCount": 2924375,
       "sha256": "c5c44f48bf9782b952d15b14882f5c243355e8969a21055acae55839a0f61801",
       "inspected": true,
-      "notes": "Removed participants and broom from selected B, preserved bath composition/materials"
+      "notes": "Removed participants and broom from selected B, preserved bath composition/materials",
+      "status": "superseded by 3D environment"
     },
     {
-      "path": "public/art/ada-march.png",
+      "path": "visual/rejected/facial-portraits/ada-march.png",
       "operation": "reference generation",
       "tool": "image_gen__imagegen",
       "originalPath": "/workspace/generated_images/exec-6ca94ddd-935c-42cf-aaaa-966bb13130dc.png",
@@ -61,10 +62,11 @@
       "byteCount": 2893831,
       "sha256": "87f4ec57e4c09ba5acf459ebe248b7bdbc6168164a362d3e6fa2ef1be7c65715",
       "inspected": true,
-      "notes": "Original Ada portrait matching selected material treatment and established character identity"
+      "notes": "Original Ada portrait matching selected material treatment and established character identity",
+      "status": "rejected portrait direction"
     },
     {
-      "path": "public/art/simon-vane.png",
+      "path": "visual/rejected/facial-portraits/simon-vane.png",
       "operation": "reference generation",
       "tool": "image_gen__imagegen",
       "originalPath": "/workspace/generated_images/exec-1eb9558e-a289-4cd8-ad86-4f000276b62b.png",
@@ -78,7 +80,8 @@
       "byteCount": 2914537,
       "sha256": "a171b648d5f91d7ea41938ed1ba55ad18d6a4ddb2473da79f7719b7cb48dec00",
       "inspected": true,
-      "notes": "Original Simon portrait; Ada reference maintains materials, auditions maintain distinct identity"
+      "notes": "Original Simon portrait; Ada reference maintains materials, auditions maintain distinct identity",
+      "status": "rejected portrait direction"
     },
     {
       "path": "public/art/release-binding.svg",
@@ -95,6 +98,18 @@
       "sha256": "438580f7908badb831454979a5713d8c21f4be8ccacae2cf01f68d3092c2ccd4",
       "inspected": true,
       "notes": "Controlled reconstruction: external binding, independent latch, outward swing stopped before pier, impact above low pad; glass fragments omitted"
+    },
+    {
+      "path": "public/world/bath-faceless.glb",
+      "operation": "authored Blender geometry exported to glTF",
+      "tool": "Blender 4.3.2 Python",
+      "source": "tools/blender/build-bath.py",
+      "editableSource": "visual/world/bath-faceless.blend",
+      "sha256": "fca0c41c1fe8536f5e852530d22c36f3e77ddf7730e7db51a0fe58187ff73b59",
+      "byteCount": 345160,
+      "status": "integrated first-night 3D scene; provisional staging",
+      "licensing": "Original project geometry/materials; no imported third-party artwork"
     }
-  ]
+  ],
+  "ownerDirection": "docs/OWNER-3D-FACELESS-2026-10-04.md"
 }
