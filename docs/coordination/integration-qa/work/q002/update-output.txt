@@ -1,0 +1,11 @@
+U01 Verified old build remains active while an update waits; new build activates after old clients close
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "id": "U01",
+      "status": "PASS"
+    }
+  ],
+  "pageErrors": []
+}

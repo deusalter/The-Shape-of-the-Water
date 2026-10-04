@@ -1,0 +1,358 @@
+[
+  {
+    "at": "2026-10-04T00:44:45.342651+00:00",
+    "originMain": "70a495a8b6e7a9ec9ed64c281c302b14e0d0ae60",
+    "request": "# Q-002 \u2014 integration-qa continuation\n\nRequested configuration: Sol 6.1 / Extra High. Report substitutions honestly. Branch: team/integration-qa. The live board controls subordinate permits; never infer a permit from this prose.\n\nRead AGENTS.md, the full docs/OWNER-KICKOFF-v4.md, newer OWNER-* supplements, docs/coordination/GITHUB-WORKFLOW.md and the live WORK-BOARD.json on origin/main. User instructions override older package restrictions. Clone or fetch https://github.com/deusalter/The-Shape-of-the-Water into this chat's authorized cloud workspace; do not assume shared files or memory. Preserve existing work. Commit and push only your assigned outputs to your team branch as deusalter <212029343+deusalter@users.noreply.github.com>, with no coauthor trailers. GitHub publication to this owner-selected repository is authorized; public site deployment is not.\n\nWrite only this team's STATUS.json, RESPONSE.md and work/**. Root owns REQUEST.md and WORK-BOARD.json. Record input commit and file hashes, actual model/configuration known, sources inspected, tests performed and limits. Fetch origin/main at meaningful checkpoints for follow-up instructions. A branch push does not make prose canonical: the coordinator's lead_writer is the single final literary authority. Do not wait for permission to do assigned proposal/review work. Do not poll indefinitely after the bounded assignment.\n\nBlaise Bloom is the male protagonist, deliberately named from Blaise Pascal and Leopold Bloom. Henrietta/job/rent/room-arrangement stakes are superseded. Miriam Verney is a separate established character, named from Miriam Makeba and Lionel Verney; no replacement for her is recorded. All character names need intentional historical-given/literary-surname significance. Kant concerns reality, phenomena/noumena and the conditions and limits of experience. Spinoza concerns God or Nature, substance/attributes/modes/immanence and the ethical development through understanding, freedom, intellectual love and blessedness. Keep historical arguments distinct from fictional commitments. No generic solemnity, bureaucratic metaphysics, em dashes in original narrative or uniform character eloquence.\n\nThe live v2 first-night case is installed but short; the L3 recurrence scenes are development selections, not implemented or owner-approved canon. Read narrative/CURRENT-READING.md if present, NAMES.md, VOICE.md, MANUSCRIPT.md, loop/SELECTED-LEDGER-L2.md, loop/BLAISE-FIRST-RETURN.md, loop/BLAISE-ALLOWED.md, loop/RETURN-INVESTIGATION-L3.md, loop/ENDING-L3-AUDITIONS.md and loop/OCCASION-REQUIREMENTS-L3.md. Read docs/reviews/L3-PHILOSOPHY-AND-CAUSALITY-04.md when available; preserve its repaired camera/audience/departure and soul-argument continuity.\n\nIndependently test the actual installed v2 player and structured author studio through real browser controls. The pure-engine installed-case wave has 76 passing cases and 55 terminal traces; its bounded graph exploration is explicitly INCONCLUSIVE. Read docs/reviews/INSTALLED-V2-04.md when available and prior ownership/corruption review. Do not merely rerun those tests.\n\nPrioritize author undo/redo across blur and toolbar actions (the title undo defect is repaired and the seven built-browser groups now pass), invalid-draft save/recovery, OR-proof export/reimport, annotation exclusion, worker cancellation and isolated injected preview. Then test accessibility/reflow/offline illustrated assets and two-tab ownership/confirmed corrupt-slot recovery as time allows. Read the latest tools/browser-v2-check.mjs and report.json; advance with adversarial interactions beyond those seven passing groups. Preserve accessibility incomplete items as limits. Write harnesses, traces, screenshots, minimal reproductions and proposed patches only in this team's work/ directory. Never change canonical source or shared tests. Pin tested source hashes; distinguish existing bugs, harness errors, untested features and passed behavior. Do not certify L3 runtime, which does not exist yet. No child permit initially. Answer Q-002.\n\n\n## New owner correction, after dispatch\n\nRead docs/OWNER-3D-FACELESS-2026-10-04.md on current origin/main. The game is now explicitly 3D with faceless, block-like uncanny figures. Painted facial portraits and the older 2D default are superseded. Root implements Three.js presentation; continue your assigned work without restarting it. QA must distinguish the pinned earlier 2D build from any newer 3D revision and check which bytes are actually being tested.\n",
+    "board": {
+      "schemaVersion": 1,
+      "coordinatorChatTitle": "Build literary detective game",
+      "coordinatorChatId": "01a10367-69a8-77c6-baf2-a0225470603b",
+      "workspace": "/workspace/literary-detective",
+      "finalLiteraryAuthority": "lead_writer in coordinator chat",
+      "maxActiveSubagentsIncludingDescendants": 4,
+      "internalReservedSlots": 2,
+      "teams": {
+        "protagonist": {
+          "suggestedTitle": "Literary Game \u2014 Protagonist",
+          "permittedSlots": 1,
+          "externalChatId": "01a1042a-8c74-70cd-924d-aeada8ddd03e",
+          "phase": "active; owner follow-up observed 2026-10-04",
+          "owns": [
+            "docs/coordination/protagonist/STATUS.json",
+            "docs/coordination/protagonist/RESPONSE.md",
+            "docs/coordination/protagonist/work/**"
+          ],
+          "hostId": "durable",
+          "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+          "branch": "team/protagonist",
+          "requestId": "P-002",
+          "lastObservedCursor": "026c2a37-600b-4160-816f-fb5141976f95:2"
+        },
+        "loop-plot": {
+          "suggestedTitle": "Literary Game \u2014 Loop and Plot",
+          "permittedSlots": 1,
+          "externalChatId": "01a1042a-ed4d-771e-8cd5-f21def1bf031",
+          "phase": "active; owner follow-up observed 2026-10-04",
+          "owns": [
+            "docs/coordination/loop-plot/STATUS.json",
+            "docs/coordination/loop-plot/RESPONSE.md",
+            "docs/coordination/loop-plot/work/**"
+          ],
+          "hostId": "durable",
+          "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+          "branch": "team/loop-plot",
+          "requestId": "T-002",
+          "lastObservedCursor": "f37b2c05-5f04-4832-9c4e-1f9ec5daa06d:2"
+        },
+        "literary": {
+          "suggestedTitle": "Literary Game \u2014 Literary Review",
+          "permittedSlots": 0,
+          "externalChatId": "01a1042b-7bf0-7787-8a9a-73799016101f",
+          "phase": "active; owner follow-up observed 2026-10-04",
+          "owns": [
+            "docs/coordination/literary/STATUS.json",
+            "docs/coordination/literary/RESPONSE.md",
+            "docs/coordination/literary/work/**"
+          ],
+          "hostId": "durable",
+          "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+          "branch": "team/literary",
+          "requestId": "L-002",
+          "lastObservedCursor": "c3e7fd20-af5c-413d-9f79-8e36c9131454:2"
+        },
+        "integration-qa": {
+          "suggestedTitle": "Literary Game \u2014 Integration QA",
+          "permittedSlots": 0,
+          "externalChatId": "01a1042b-95ae-70fa-ae28-8f476b95700c",
+          "phase": "active; owner follow-up observed 2026-10-04",
+          "owns": [
+            "docs/coordination/integration-qa/STATUS.json",
+            "docs/coordination/integration-qa/RESPONSE.md",
+            "docs/coordination/integration-qa/work/**"
+          ],
+          "hostId": "durable",
+          "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+          "branch": "team/integration-qa",
+          "requestId": "Q-002",
+          "lastObservedCursor": "9d90f52d-7c30-4eae-9df9-cbe6b1882110:2"
+        }
+      },
+      "repository": "https://github.com/deusalter/The-Shape-of-the-Water",
+      "integrationBranch": "main",
+      "pushed": true,
+      "visibilityObserved": "public; owner-selected destination",
+      "commitAuthor": "deusalter",
+      "coauthorTrailers": false,
+      "publishedCheckpoint": "9f4928617fb88ad695e3d1262f25b19029045968",
+      "permitRevision": "2026-10-04-external-followup-002",
+      "latestOwnerCorrection": "docs/OWNER-3D-FACELESS-2026-10-04.md"
+    }
+  },
+  {
+    "at": "2026-10-04T00:48:44.039181+00:00",
+    "originMain": "70a495a8b6e7a9ec9ed64c281c302b14e0d0ae60",
+    "request": "# Q-002 \u2014 integration-qa continuation\n\nRequested configuration: Sol 6.1 / Extra High. Report substitutions honestly. Branch: team/integration-qa. The live board controls subordinate permits; never infer a permit from this prose.\n\nRead AGENTS.md, the full docs/OWNER-KICKOFF-v4.md, newer OWNER-* supplements, docs/coordination/GITHUB-WORKFLOW.md and the live WORK-BOARD.json on origin/main. User instructions override older package restrictions. Clone or fetch https://github.com/deusalter/The-Shape-of-the-Water into this chat's authorized cloud workspace; do not assume shared files or memory. Preserve existing work. Commit and push only your assigned outputs to your team branch as deusalter <212029343+deusalter@users.noreply.github.com>, with no coauthor trailers. GitHub publication to this owner-selected repository is authorized; public site deployment is not.\n\nWrite only this team's STATUS.json, RESPONSE.md and work/**. Root owns REQUEST.md and WORK-BOARD.json. Record input commit and file hashes, actual model/configuration known, sources inspected, tests performed and limits. Fetch origin/main at meaningful checkpoints for follow-up instructions. A branch push does not make prose canonical: the coordinator's lead_writer is the single final literary authority. Do not wait for permission to do assigned proposal/review work. Do not poll indefinitely after the bounded assignment.\n\nBlaise Bloom is the male protagonist, deliberately named from Blaise Pascal and Leopold Bloom. Henrietta/job/rent/room-arrangement stakes are superseded. Miriam Verney is a separate established character, named from Miriam Makeba and Lionel Verney; no replacement for her is recorded. All character names need intentional historical-given/literary-surname significance. Kant concerns reality, phenomena/noumena and the conditions and limits of experience. Spinoza concerns God or Nature, substance/attributes/modes/immanence and the ethical development through understanding, freedom, intellectual love and blessedness. Keep historical arguments distinct from fictional commitments. No generic solemnity, bureaucratic metaphysics, em dashes in original narrative or uniform character eloquence.\n\nThe live v2 first-night case is installed but short; the L3 recurrence scenes are development selections, not implemented or owner-approved canon. Read narrative/CURRENT-READING.md if present, NAMES.md, VOICE.md, MANUSCRIPT.md, loop/SELECTED-LEDGER-L2.md, loop/BLAISE-FIRST-RETURN.md, loop/BLAISE-ALLOWED.md, loop/RETURN-INVESTIGATION-L3.md, loop/ENDING-L3-AUDITIONS.md and loop/OCCASION-REQUIREMENTS-L3.md. Read docs/reviews/L3-PHILOSOPHY-AND-CAUSALITY-04.md when available; preserve its repaired camera/audience/departure and soul-argument continuity.\n\nIndependently test the actual installed v2 player and structured author studio through real browser controls. The pure-engine installed-case wave has 76 passing cases and 55 terminal traces; its bounded graph exploration is explicitly INCONCLUSIVE. Read docs/reviews/INSTALLED-V2-04.md when available and prior ownership/corruption review. Do not merely rerun those tests.\n\nPrioritize author undo/redo across blur and toolbar actions (the title undo defect is repaired and the seven built-browser groups now pass), invalid-draft save/recovery, OR-proof export/reimport, annotation exclusion, worker cancellation and isolated injected preview. Then test accessibility/reflow/offline illustrated assets and two-tab ownership/confirmed corrupt-slot recovery as time allows. Read the latest tools/browser-v2-check.mjs and report.json; advance with adversarial interactions beyond those seven passing groups. Preserve accessibility incomplete items as limits. Write harnesses, traces, screenshots, minimal reproductions and proposed patches only in this team's work/ directory. Never change canonical source or shared tests. Pin tested source hashes; distinguish existing bugs, harness errors, untested features and passed behavior. Do not certify L3 runtime, which does not exist yet. No child permit initially. Answer Q-002.\n\n\n## New owner correction, after dispatch\n\nRead docs/OWNER-3D-FACELESS-2026-10-04.md on current origin/main. The game is now explicitly 3D with faceless, block-like uncanny figures. Painted facial portraits and the older 2D default are superseded. Root implements Three.js presentation; continue your assigned work without restarting it. QA must distinguish the pinned earlier 2D build from any newer 3D revision and check which bytes are actually being tested.\n",
+    "board": {
+      "schemaVersion": 1,
+      "coordinatorChatTitle": "Build literary detective game",
+      "coordinatorChatId": "01a10367-69a8-77c6-baf2-a0225470603b",
+      "workspace": "/workspace/literary-detective",
+      "finalLiteraryAuthority": "lead_writer in coordinator chat",
+      "maxActiveSubagentsIncludingDescendants": 4,
+      "internalReservedSlots": 2,
+      "teams": {
+        "protagonist": {
+          "suggestedTitle": "Literary Game \u2014 Protagonist",
+          "permittedSlots": 1,
+          "externalChatId": "01a1042a-8c74-70cd-924d-aeada8ddd03e",
+          "phase": "active; owner follow-up observed 2026-10-04",
+          "owns": [
+            "docs/coordination/protagonist/STATUS.json",
+            "docs/coordination/protagonist/RESPONSE.md",
+            "docs/coordination/protagonist/work/**"
+          ],
+          "hostId": "durable",
+          "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+          "branch": "team/protagonist",
+          "requestId": "P-002",
+          "lastObservedCursor": "026c2a37-600b-4160-816f-fb5141976f95:2"
+        },
+        "loop-plot": {
+          "suggestedTitle": "Literary Game \u2014 Loop and Plot",
+          "permittedSlots": 1,
+          "externalChatId": "01a1042a-ed4d-771e-8cd5-f21def1bf031",
+          "phase": "active; owner follow-up observed 2026-10-04",
+          "owns": [
+            "docs/coordination/loop-plot/STATUS.json",
+            "docs/coordination/loop-plot/RESPONSE.md",
+            "docs/coordination/loop-plot/work/**"
+          ],
+          "hostId": "durable",
+          "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+          "branch": "team/loop-plot",
+          "requestId": "T-002",
+          "lastObservedCursor": "f37b2c05-5f04-4832-9c4e-1f9ec5daa06d:2"
+        },
+        "literary": {
+          "suggestedTitle": "Literary Game \u2014 Literary Review",
+          "permittedSlots": 0,
+          "externalChatId": "01a1042b-7bf0-7787-8a9a-73799016101f",
+          "phase": "active; owner follow-up observed 2026-10-04",
+          "owns": [
+            "docs/coordination/literary/STATUS.json",
+            "docs/coordination/literary/RESPONSE.md",
+            "docs/coordination/literary/work/**"
+          ],
+          "hostId": "durable",
+          "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+          "branch": "team/literary",
+          "requestId": "L-002",
+          "lastObservedCursor": "c3e7fd20-af5c-413d-9f79-8e36c9131454:2"
+        },
+        "integration-qa": {
+          "suggestedTitle": "Literary Game \u2014 Integration QA",
+          "permittedSlots": 0,
+          "externalChatId": "01a1042b-95ae-70fa-ae28-8f476b95700c",
+          "phase": "active; owner follow-up observed 2026-10-04",
+          "owns": [
+            "docs/coordination/integration-qa/STATUS.json",
+            "docs/coordination/integration-qa/RESPONSE.md",
+            "docs/coordination/integration-qa/work/**"
+          ],
+          "hostId": "durable",
+          "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+          "branch": "team/integration-qa",
+          "requestId": "Q-002",
+          "lastObservedCursor": "9d90f52d-7c30-4eae-9df9-cbe6b1882110:2"
+        }
+      },
+      "repository": "https://github.com/deusalter/The-Shape-of-the-Water",
+      "integrationBranch": "main",
+      "pushed": true,
+      "visibilityObserved": "public; owner-selected destination",
+      "commitAuthor": "deusalter",
+      "coauthorTrailers": false,
+      "publishedCheckpoint": "9f4928617fb88ad695e3d1262f25b19029045968",
+      "permitRevision": "2026-10-04-external-followup-002",
+      "latestOwnerCorrection": "docs/OWNER-3D-FACELESS-2026-10-04.md"
+    }
+  },
+  {
+    "at": "2026-10-04T00:52:22.684461+00:00",
+    "originMain": "70a495a8b6e7a9ec9ed64c281c302b14e0d0ae60",
+    "request": "# Q-002 \u2014 integration-qa continuation\n\nRequested configuration: Sol 6.1 / Extra High. Report substitutions honestly. Branch: team/integration-qa. The live board controls subordinate permits; never infer a permit from this prose.\n\nRead AGENTS.md, the full docs/OWNER-KICKOFF-v4.md, newer OWNER-* supplements, docs/coordination/GITHUB-WORKFLOW.md and the live WORK-BOARD.json on origin/main. User instructions override older package restrictions. Clone or fetch https://github.com/deusalter/The-Shape-of-the-Water into this chat's authorized cloud workspace; do not assume shared files or memory. Preserve existing work. Commit and push only your assigned outputs to your team branch as deusalter <212029343+deusalter@users.noreply.github.com>, with no coauthor trailers. GitHub publication to this owner-selected repository is authorized; public site deployment is not.\n\nWrite only this team's STATUS.json, RESPONSE.md and work/**. Root owns REQUEST.md and WORK-BOARD.json. Record input commit and file hashes, actual model/configuration known, sources inspected, tests performed and limits. Fetch origin/main at meaningful checkpoints for follow-up instructions. A branch push does not make prose canonical: the coordinator's lead_writer is the single final literary authority. Do not wait for permission to do assigned proposal/review work. Do not poll indefinitely after the bounded assignment.\n\nBlaise Bloom is the male protagonist, deliberately named from Blaise Pascal and Leopold Bloom. Henrietta/job/rent/room-arrangement stakes are superseded. Miriam Verney is a separate established character, named from Miriam Makeba and Lionel Verney; no replacement for her is recorded. All character names need intentional historical-given/literary-surname significance. Kant concerns reality, phenomena/noumena and the conditions and limits of experience. Spinoza concerns God or Nature, substance/attributes/modes/immanence and the ethical development through understanding, freedom, intellectual love and blessedness. Keep historical arguments distinct from fictional commitments. No generic solemnity, bureaucratic metaphysics, em dashes in original narrative or uniform character eloquence.\n\nThe live v2 first-night case is installed but short; the L3 recurrence scenes are development selections, not implemented or owner-approved canon. Read narrative/CURRENT-READING.md if present, NAMES.md, VOICE.md, MANUSCRIPT.md, loop/SELECTED-LEDGER-L2.md, loop/BLAISE-FIRST-RETURN.md, loop/BLAISE-ALLOWED.md, loop/RETURN-INVESTIGATION-L3.md, loop/ENDING-L3-AUDITIONS.md and loop/OCCASION-REQUIREMENTS-L3.md. Read docs/reviews/L3-PHILOSOPHY-AND-CAUSALITY-04.md when available; preserve its repaired camera/audience/departure and soul-argument continuity.\n\nIndependently test the actual installed v2 player and structured author studio through real browser controls. The pure-engine installed-case wave has 76 passing cases and 55 terminal traces; its bounded graph exploration is explicitly INCONCLUSIVE. Read docs/reviews/INSTALLED-V2-04.md when available and prior ownership/corruption review. Do not merely rerun those tests.\n\nPrioritize author undo/redo across blur and toolbar actions (the title undo defect is repaired and the seven built-browser groups now pass), invalid-draft save/recovery, OR-proof export/reimport, annotation exclusion, worker cancellation and isolated injected preview. Then test accessibility/reflow/offline illustrated assets and two-tab ownership/confirmed corrupt-slot recovery as time allows. Read the latest tools/browser-v2-check.mjs and report.json; advance with adversarial interactions beyond those seven passing groups. Preserve accessibility incomplete items as limits. Write harnesses, traces, screenshots, minimal reproductions and proposed patches only in this team's work/ directory. Never change canonical source or shared tests. Pin tested source hashes; distinguish existing bugs, harness errors, untested features and passed behavior. Do not certify L3 runtime, which does not exist yet. No child permit initially. Answer Q-002.\n\n\n## New owner correction, after dispatch\n\nRead docs/OWNER-3D-FACELESS-2026-10-04.md on current origin/main. The game is now explicitly 3D with faceless, block-like uncanny figures. Painted facial portraits and the older 2D default are superseded. Root implements Three.js presentation; continue your assigned work without restarting it. QA must distinguish the pinned earlier 2D build from any newer 3D revision and check which bytes are actually being tested.\n",
+    "board": {
+      "schemaVersion": 1,
+      "coordinatorChatTitle": "Build literary detective game",
+      "coordinatorChatId": "01a10367-69a8-77c6-baf2-a0225470603b",
+      "workspace": "/workspace/literary-detective",
+      "finalLiteraryAuthority": "lead_writer in coordinator chat",
+      "maxActiveSubagentsIncludingDescendants": 4,
+      "internalReservedSlots": 2,
+      "teams": {
+        "protagonist": {
+          "suggestedTitle": "Literary Game \u2014 Protagonist",
+          "permittedSlots": 1,
+          "externalChatId": "01a1042a-8c74-70cd-924d-aeada8ddd03e",
+          "phase": "active; owner follow-up observed 2026-10-04",
+          "owns": [
+            "docs/coordination/protagonist/STATUS.json",
+            "docs/coordination/protagonist/RESPONSE.md",
+            "docs/coordination/protagonist/work/**"
+          ],
+          "hostId": "durable",
+          "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+          "branch": "team/protagonist",
+          "requestId": "P-002",
+          "lastObservedCursor": "026c2a37-600b-4160-816f-fb5141976f95:2"
+        },
+        "loop-plot": {
+          "suggestedTitle": "Literary Game \u2014 Loop and Plot",
+          "permittedSlots": 1,
+          "externalChatId": "01a1042a-ed4d-771e-8cd5-f21def1bf031",
+          "phase": "active; owner follow-up observed 2026-10-04",
+          "owns": [
+            "docs/coordination/loop-plot/STATUS.json",
+            "docs/coordination/loop-plot/RESPONSE.md",
+            "docs/coordination/loop-plot/work/**"
+          ],
+          "hostId": "durable",
+          "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+          "branch": "team/loop-plot",
+          "requestId": "T-002",
+          "lastObservedCursor": "f37b2c05-5f04-4832-9c4e-1f9ec5daa06d:2"
+        },
+        "literary": {
+          "suggestedTitle": "Literary Game \u2014 Literary Review",
+          "permittedSlots": 0,
+          "externalChatId": "01a1042b-7bf0-7787-8a9a-73799016101f",
+          "phase": "active; owner follow-up observed 2026-10-04",
+          "owns": [
+            "docs/coordination/literary/STATUS.json",
+            "docs/coordination/literary/RESPONSE.md",
+            "docs/coordination/literary/work/**"
+          ],
+          "hostId": "durable",
+          "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+          "branch": "team/literary",
+          "requestId": "L-002",
+          "lastObservedCursor": "c3e7fd20-af5c-413d-9f79-8e36c9131454:2"
+        },
+        "integration-qa": {
+          "suggestedTitle": "Literary Game \u2014 Integration QA",
+          "permittedSlots": 0,
+          "externalChatId": "01a1042b-95ae-70fa-ae28-8f476b95700c",
+          "phase": "active; owner follow-up observed 2026-10-04",
+          "owns": [
+            "docs/coordination/integration-qa/STATUS.json",
+            "docs/coordination/integration-qa/RESPONSE.md",
+            "docs/coordination/integration-qa/work/**"
+          ],
+          "hostId": "durable",
+          "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+          "branch": "team/integration-qa",
+          "requestId": "Q-002",
+          "lastObservedCursor": "9d90f52d-7c30-4eae-9df9-cbe6b1882110:2"
+        }
+      },
+      "repository": "https://github.com/deusalter/The-Shape-of-the-Water",
+      "integrationBranch": "main",
+      "pushed": true,
+      "visibilityObserved": "public; owner-selected destination",
+      "commitAuthor": "deusalter",
+      "coauthorTrailers": false,
+      "publishedCheckpoint": "9f4928617fb88ad695e3d1262f25b19029045968",
+      "permitRevision": "2026-10-04-external-followup-002",
+      "latestOwnerCorrection": "docs/OWNER-3D-FACELESS-2026-10-04.md"
+    }
+  },
+  {
+    "at": "2026-10-04T00:55:19.866603+00:00",
+    "originMain": "70a495a8b6e7a9ec9ed64c281c302b14e0d0ae60",
+    "request": "# Q-002 \u2014 integration-qa continuation\n\nRequested configuration: Sol 6.1 / Extra High. Report substitutions honestly. Branch: team/integration-qa. The live board controls subordinate permits; never infer a permit from this prose.\n\nRead AGENTS.md, the full docs/OWNER-KICKOFF-v4.md, newer OWNER-* supplements, docs/coordination/GITHUB-WORKFLOW.md and the live WORK-BOARD.json on origin/main. User instructions override older package restrictions. Clone or fetch https://github.com/deusalter/The-Shape-of-the-Water into this chat's authorized cloud workspace; do not assume shared files or memory. Preserve existing work. Commit and push only your assigned outputs to your team branch as deusalter <212029343+deusalter@users.noreply.github.com>, with no coauthor trailers. GitHub publication to this owner-selected repository is authorized; public site deployment is not.\n\nWrite only this team's STATUS.json, RESPONSE.md and work/**. Root owns REQUEST.md and WORK-BOARD.json. Record input commit and file hashes, actual model/configuration known, sources inspected, tests performed and limits. Fetch origin/main at meaningful checkpoints for follow-up instructions. A branch push does not make prose canonical: the coordinator's lead_writer is the single final literary authority. Do not wait for permission to do assigned proposal/review work. Do not poll indefinitely after the bounded assignment.\n\nBlaise Bloom is the male protagonist, deliberately named from Blaise Pascal and Leopold Bloom. Henrietta/job/rent/room-arrangement stakes are superseded. Miriam Verney is a separate established character, named from Miriam Makeba and Lionel Verney; no replacement for her is recorded. All character names need intentional historical-given/literary-surname significance. Kant concerns reality, phenomena/noumena and the conditions and limits of experience. Spinoza concerns God or Nature, substance/attributes/modes/immanence and the ethical development through understanding, freedom, intellectual love and blessedness. Keep historical arguments distinct from fictional commitments. No generic solemnity, bureaucratic metaphysics, em dashes in original narrative or uniform character eloquence.\n\nThe live v2 first-night case is installed but short; the L3 recurrence scenes are development selections, not implemented or owner-approved canon. Read narrative/CURRENT-READING.md if present, NAMES.md, VOICE.md, MANUSCRIPT.md, loop/SELECTED-LEDGER-L2.md, loop/BLAISE-FIRST-RETURN.md, loop/BLAISE-ALLOWED.md, loop/RETURN-INVESTIGATION-L3.md, loop/ENDING-L3-AUDITIONS.md and loop/OCCASION-REQUIREMENTS-L3.md. Read docs/reviews/L3-PHILOSOPHY-AND-CAUSALITY-04.md when available; preserve its repaired camera/audience/departure and soul-argument continuity.\n\nIndependently test the actual installed v2 player and structured author studio through real browser controls. The pure-engine installed-case wave has 76 passing cases and 55 terminal traces; its bounded graph exploration is explicitly INCONCLUSIVE. Read docs/reviews/INSTALLED-V2-04.md when available and prior ownership/corruption review. Do not merely rerun those tests.\n\nPrioritize author undo/redo across blur and toolbar actions (the title undo defect is repaired and the seven built-browser groups now pass), invalid-draft save/recovery, OR-proof export/reimport, annotation exclusion, worker cancellation and isolated injected preview. Then test accessibility/reflow/offline illustrated assets and two-tab ownership/confirmed corrupt-slot recovery as time allows. Read the latest tools/browser-v2-check.mjs and report.json; advance with adversarial interactions beyond those seven passing groups. Preserve accessibility incomplete items as limits. Write harnesses, traces, screenshots, minimal reproductions and proposed patches only in this team's work/ directory. Never change canonical source or shared tests. Pin tested source hashes; distinguish existing bugs, harness errors, untested features and passed behavior. Do not certify L3 runtime, which does not exist yet. No child permit initially. Answer Q-002.\n\n\n## New owner correction, after dispatch\n\nRead docs/OWNER-3D-FACELESS-2026-10-04.md on current origin/main. The game is now explicitly 3D with faceless, block-like uncanny figures. Painted facial portraits and the older 2D default are superseded. Root implements Three.js presentation; continue your assigned work without restarting it. QA must distinguish the pinned earlier 2D build from any newer 3D revision and check which bytes are actually being tested.\n",
+    "board": {
+      "schemaVersion": 1,
+      "coordinatorChatTitle": "Build literary detective game",
+      "coordinatorChatId": "01a10367-69a8-77c6-baf2-a0225470603b",
+      "workspace": "/workspace/literary-detective",
+      "finalLiteraryAuthority": "lead_writer in coordinator chat",
+      "maxActiveSubagentsIncludingDescendants": 4,
+      "internalReservedSlots": 2,
+      "teams": {
+        "protagonist": {
+          "suggestedTitle": "Literary Game \u2014 Protagonist",
+          "permittedSlots": 1,
+          "externalChatId": "01a1042a-8c74-70cd-924d-aeada8ddd03e",
+          "phase": "active; owner follow-up observed 2026-10-04",
+          "owns": [
+            "docs/coordination/protagonist/STATUS.json",
+            "docs/coordination/protagonist/RESPONSE.md",
+            "docs/coordination/protagonist/work/**"
+          ],
+          "hostId": "durable",
+          "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+          "branch": "team/protagonist",
+          "requestId": "P-002",
+          "lastObservedCursor": "026c2a37-600b-4160-816f-fb5141976f95:2"
+        },
+        "loop-plot": {
+          "suggestedTitle": "Literary Game \u2014 Loop and Plot",
+          "permittedSlots": 1,
+          "externalChatId": "01a1042a-ed4d-771e-8cd5-f21def1bf031",
+          "phase": "active; owner follow-up observed 2026-10-04",
+          "owns": [
+            "docs/coordination/loop-plot/STATUS.json",
+            "docs/coordination/loop-plot/RESPONSE.md",
+            "docs/coordination/loop-plot/work/**"
+          ],
+          "hostId": "durable",
+          "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+          "branch": "team/loop-plot",
+          "requestId": "T-002",
+          "lastObservedCursor": "f37b2c05-5f04-4832-9c4e-1f9ec5daa06d:2"
+        },
+        "literary": {
+          "suggestedTitle": "Literary Game \u2014 Literary Review",
+          "permittedSlots": 0,
+          "externalChatId": "01a1042b-7bf0-7787-8a9a-73799016101f",
+          "phase": "active; owner follow-up observed 2026-10-04",
+          "owns": [
+            "docs/coordination/literary/STATUS.json",
+            "docs/coordination/literary/RESPONSE.md",
+            "docs/coordination/literary/work/**"
+          ],
+          "hostId": "durable",
+          "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+          "branch": "team/literary",
+          "requestId": "L-002",
+          "lastObservedCursor": "c3e7fd20-af5c-413d-9f79-8e36c9131454:2"
+        },
+        "integration-qa": {
+          "suggestedTitle": "Literary Game \u2014 Integration QA",
+          "permittedSlots": 0,
+          "externalChatId": "01a1042b-95ae-70fa-ae28-8f476b95700c",
+          "phase": "active; owner follow-up observed 2026-10-04",
+          "owns": [
+            "docs/coordination/integration-qa/STATUS.json",
+            "docs/coordination/integration-qa/RESPONSE.md",
+            "docs/coordination/integration-qa/work/**"
+          ],
+          "hostId": "durable",
+          "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+          "branch": "team/integration-qa",
+          "requestId": "Q-002",
+          "lastObservedCursor": "9d90f52d-7c30-4eae-9df9-cbe6b1882110:2"
+        }
+      },
+      "repository": "https://github.com/deusalter/The-Shape-of-the-Water",
+      "integrationBranch": "main",
+      "pushed": true,
+      "visibilityObserved": "public; owner-selected destination",
+      "commitAuthor": "deusalter",
+      "coauthorTrailers": false,
+      "publishedCheckpoint": "9f4928617fb88ad695e3d1262f25b19029045968",
+      "permitRevision": "2026-10-04-external-followup-002",
+      "latestOwnerCorrection": "docs/OWNER-3D-FACELESS-2026-10-04.md"
+    }
+  }
+]

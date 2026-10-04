@@ -1,0 +1,16 @@
+R01 Confirm imported-new-ID draft saving failure
+R02 Confirm source-provenance draft save and export failures
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "id": "R01",
+      "status": "PASS"
+    },
+    {
+      "id": "R02",
+      "status": "PASS"
+    }
+  ],
+  "pageErrors": []
+}

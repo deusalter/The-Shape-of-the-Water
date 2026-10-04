@@ -1,0 +1,48 @@
+{
+  "suite": "draft-boundaries-recheck",
+  "inputCommit": "69ec3ca3b22238612a5c806c992ed5e212ed2006",
+  "startedAt": "2026-10-04T00:48:42.537Z",
+  "checks": [
+    {
+      "id": "D01",
+      "name": "Blank editable source provenance can be durably saved/exported and recovered",
+      "status": "FAIL",
+      "startedAt": "2026-10-04T00:48:42.732Z",
+      "error": "Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"saved separately\"\nReceived string:    \"Save failed. content.sources.0.provenanceId: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/ Download the draft to preserve it.\"",
+      "stack": "Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"saved separately\"\nReceived string:    \"Save failed. content.sources.0.provenanceId: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/ Download the draft to preserve it.\"\n    at captureRawStack (/workspace/literary-detective/node_modules/.pnpm/playwright-core@1.63.0/node_modules/playwright-core/lib/coreBundle.js:8588:17)\n    at callMatcherAsStep (/workspace/literary-detective/node_modules/.pnpm/playwright@1.63.0/node_modules/playwright/lib/matchers/expect.js:13310:57)\n    at Object.toContain (/workspace/literary-detective/node_modules/.pnpm/playwright@1.63.0/node_modules/playwright/lib/matchers/expect.js:13302:23)\n    at /workspace/literary-detective/docs/coordination/integration-qa/work/q002/draft-boundaries.mjs:7:696\n    at async Object.check (/workspace/literary-detective/docs/coordination/integration-qa/work/q002/browser-common.mjs:38:20)\n    at async file:///workspace/literary-detective/docs/coordination/integration-qa/work/q002/draft-boundaries.mjs:3:1",
+      "trace": [
+        {
+          "at": "2026-10-04T00:48:43.298Z",
+          "label": "Clear a normal structured source provenance field and blur"
+        },
+        {
+          "at": "2026-10-04T00:48:43.510Z",
+          "label": "Attempt built-in author export; preserve the exact current raw project through advanced editor"
+        },
+        {
+          "at": "2026-10-04T00:48:45.458Z",
+          "label": "Reload and request saved draft; preserve the observed loss"
+        }
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "externalRequests": [],
+  "trace": [
+    {
+      "at": "2026-10-04T00:48:43.298Z",
+      "label": "Clear a normal structured source provenance field and blur"
+    },
+    {
+      "at": "2026-10-04T00:48:43.510Z",
+      "label": "Attempt built-in author export; preserve the exact current raw project through advanced editor"
+    },
+    {
+      "at": "2026-10-04T00:48:45.458Z",
+      "label": "Reload and request saved draft; preserve the observed loss"
+    }
+  ],
+  "finishedAt": "2026-10-04T00:48:46.249Z",
+  "status": "FAIL",
+  "browserVersion": "151.0.7922.173"
+}

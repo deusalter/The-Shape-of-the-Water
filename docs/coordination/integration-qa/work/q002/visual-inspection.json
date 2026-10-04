@@ -1,0 +1,16 @@
+{
+  "scope": "AI visual inspection using view_image; no human review or real assistive technology.",
+  "screenshotsInspected": [
+    "screenshots/A04-failure.png",
+    "screenshots/E02-studio-320.png",
+    "screenshots/D01-viewport.png",
+    "screenshots/P03-protected-branch.png"
+  ],
+  "observations": [
+    "Invalid imported project shows save failure while preserving editable prose.",
+    "Narrow studio screenshot has a single-column layout and locally scrolling dependency table.",
+    "Invalid provenance screenshot shows both export error and validation diagnostics.",
+    "Canonical protected branch screenshot shows alternate completed ending, saved branch note and two retained archives."
+  ],
+  "presentation": "Earlier 2D build only, superseded by newer 3D owner direction."
+}

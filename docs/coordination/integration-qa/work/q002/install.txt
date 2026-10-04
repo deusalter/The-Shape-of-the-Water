@@ -1,0 +1,20 @@
+? Verifying lockfile against supply-chain policies (164 entries)...
+../../../../../..                        | Progress: resolved 1, reused 0, downloaded 0, added 0
+../../../../../..                        | +114 +++++++++++
+
+   ╭─────────────────────────────────────────╮
+   │                                         │
+   │   Update available! 11.19.0 → 12.9.1.   │
+   │   Changelog: https://pnpm.io/v/12.9.1   │
+   │    To update, run: pnpm add -g pnpm     │
+   │                                         │
+   ╰─────────────────────────────────────────╯
+
+../../../../../..                        | Progress: resolved 114, reused 0, downloaded 0, added 0
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: /home/agent/.local/share/pnpm/store/v11
+  Virtual store is at:             ../../../../../../node_modules/.pnpm
+../../../../../..                        | Progress: resolved 114, reused 0, downloaded 64, added 64
+../../../../../..                        | Progress: resolved 114, reused 0, downloaded 114, added 114, done
+✓ Lockfile passes supply-chain policies (164 entries in 3.6s)
+Done in 4s using pnpm v11.19.0

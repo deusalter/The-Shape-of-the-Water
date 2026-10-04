@@ -1,0 +1,62 @@
+A01 Pending blur followed directly by toolbar and two-level undo/redo
+A02 Reference-aware start rename, protected delete, undo and redo
+A03 Invalid multi-field draft survives save/load without contaminating last-valid preview
+A04 Imported invalid independent project can persist and recover its draft
+Error: expect(locator).toContainText(expected) failed
+
+Locator: getByRole('status').first()
+Expected substring: "saved separately"
+Received string:    "Save failed. The saved last-valid preview failed validation or belongs to another project. Download the draft to preserve it."
+Timeout: 5000ms
+
+Call log:
+  - Expect "toContainText" getByRole('status').first() with timeout 5000ms
+  - waiting for getByRole('status').first()
+    14 × locator resolved to <p role="status">Save failed. The saved last-valid preview failed …</p>
+       - unexpected value "Save failed. The saved last-valid preview failed validation or belongs to another project. Download the draft to preserve it."
+
+A05 Real validation worker cancellation, rapid replacement and failed-worker recovery
+Error: expect(locator).toContainText(expected) failed
+
+Locator: getByRole('region', { name: 'Content diagnostics' })
+Expected substring: "Content validation passed"
+Received string:    "DiagnosticsValidating in a separate worker. Editing remains available.Cancel validation"
+Timeout: 5000ms
+
+Call log:
+  - Expect "toContainText" getByRole('region', { name: 'Content diagnostics' }) with timeout 5000ms
+  - waiting for getByRole('region', { name: 'Content diagnostics' })
+    14 × locator resolved to <section class="diagnostics" aria-label="Content diagnostics">…</section>
+       - unexpected value "DiagnosticsValidating in a separate worker. Editing remains available.Cancel validation"
+
+A06 Ordinary preview and injected scenario retain separate runs and annotations remain excluded
+{
+  "status": "FAIL",
+  "checks": [
+    {
+      "id": "A01",
+      "status": "PASS"
+    },
+    {
+      "id": "A02",
+      "status": "PASS"
+    },
+    {
+      "id": "A03",
+      "status": "PASS"
+    },
+    {
+      "id": "A04",
+      "status": "FAIL"
+    },
+    {
+      "id": "A05",
+      "status": "FAIL"
+    },
+    {
+      "id": "A06",
+      "status": "PASS"
+    }
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,24 @@
+A04 Imported invalid independent project can persist and recover its draft
+Error: expect(locator).toContainText(expected) failed
+
+Locator: getByRole('status').first()
+Expected substring: "saved separately"
+Received string:    "Save failed. The saved last-valid preview failed validation or belongs to another project. Download the draft to preserve it."
+Timeout: 5000ms
+
+Call log:
+  - Expect "toContainText" getByRole('status').first() with timeout 5000ms
+  - waiting for getByRole('status').first()
+    14 × locator resolved to <p role="status">Save failed. The saved last-valid preview failed …</p>
+       - unexpected value "Save failed. The saved last-valid preview failed validation or belongs to another project. Download the draft to preserve it."
+
+{
+  "status": "FAIL",
+  "checks": [
+    {
+      "id": "A04",
+      "status": "FAIL"
+    }
+  ],
+  "pageErrors": []
+}

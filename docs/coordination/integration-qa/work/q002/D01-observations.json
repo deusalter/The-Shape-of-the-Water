@@ -1,0 +1,9 @@
+{
+  "original": "simon-visitors-message",
+  "saveNotice": "Save failed. content.sources.0.provenanceId: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/ Download the draft to preserve it.",
+  "exportNotice": "Error: content.sources.0.provenanceId: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/",
+  "downloaded": false,
+  "loadNotice": "No saved draft for this project.",
+  "reloaded": "simon-visitors-message",
+  "sourceId": "present-sabotage-message"
+}

@@ -1,0 +1,146 @@
+{
+  "baseDirectory": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+  "note": "Initial drivers returned exit 0 even when report FAIL. Final drivers set exit 1 on report FAIL. Reports, not initial process success, determine outcomes. Test reports retain their own execution timestamps.",
+  "commands": [
+    {
+      "command": "pnpm install --frozen-lockfile --ignore-scripts",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002/runtime",
+      "observedExitCode": 0,
+      "output": "install.txt",
+      "outcome": "dependency setup"
+    },
+    {
+      "command": "pnpm build",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002/runtime",
+      "observedExitCode": 0,
+      "output": "build.txt",
+      "outcome": "PASS"
+    },
+    {
+      "command": "node author-adversarial.mjs",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 1,
+      "output": "harness-startup-error.txt",
+      "outcome": "harness import-path error; no product result"
+    },
+    {
+      "command": "node author-adversarial.mjs",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 0,
+      "output": "author-output.txt",
+      "outcome": "report FAIL; A04 defect plus A05 harness error"
+    },
+    {
+      "command": "QA_ONLY=A04,A05 QA_SUFFIX=-recheck node author-adversarial.mjs",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 0,
+      "output": "author-recheck-output.txt",
+      "outcome": "A04 FAIL; A05 PASS"
+    },
+    {
+      "command": "node player-adversarial.mjs",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 0,
+      "output": "player-output.txt",
+      "outcome": "PASS P01-P05"
+    },
+    {
+      "command": "node extended-integration.mjs",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 0,
+      "output": "extended-output.txt",
+      "outcome": "E01 harness locator error; E02-E04 PASS"
+    },
+    {
+      "command": "QA_ONLY=E01 QA_SUFFIX=-recheck node extended-integration.mjs",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 0,
+      "output": "extended-recheck-output.txt",
+      "outcome": "PASS E01"
+    },
+    {
+      "command": "node offline-update.mjs",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 0,
+      "output": "update-output.txt",
+      "outcome": "PASS U01"
+    },
+    {
+      "command": "node draft-boundaries.mjs",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 0,
+      "output": "draft-boundaries-output.txt",
+      "outcome": "harness advanced-editor locator error"
+    },
+    {
+      "command": "QA_SUFFIX=-recheck node draft-boundaries.mjs",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 0,
+      "output": "draft-boundaries-recheck-output.txt",
+      "outcome": "D01 FAIL"
+    },
+    {
+      "command": "node minimal-repros.mjs",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 0,
+      "output": "minimal-repros-output.txt",
+      "outcome": "PASS reproducing both defects; desired behavior remains FAIL"
+    },
+    {
+      "command": "QA_ONLY=A04 QA_SUFFIX=-exitcheck node author-adversarial.mjs",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 1,
+      "output": "author-exitcheck-output.txt",
+      "outcome": "A04 FAIL, CLI failure exit verified"
+    },
+    {
+      "command": "QA_SUFFIX=-exitcheck node draft-boundaries.mjs",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 1,
+      "output": "draft-boundaries-exitcheck-output.txt",
+      "outcome": "D01 FAIL, CLI failure exit verified"
+    },
+    {
+      "command": "python3 prepare-runtime.py",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 0,
+      "output": null,
+      "outcome": "PASS exact Git-source restoration"
+    },
+    {
+      "command": "pnpm --dir runtime --ignore-workspace install --frozen-lockfile --ignore-scripts",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 0,
+      "output": "reproduction-install.txt",
+      "outcome": "PASS isolated setup"
+    },
+    {
+      "command": "pnpm --dir runtime --ignore-workspace build",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 0,
+      "output": "reproduction-build.txt",
+      "outcome": "PASS; identical build hashes"
+    },
+    {
+      "command": "python3 pack-traces.py",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 0,
+      "output": null,
+      "outcome": "PASS deduplicated exact trace entries"
+    },
+    {
+      "command": "trace archive per-entry SHA-256 verification",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 0,
+      "output": "trace-verification.json",
+      "outcome": "PASS"
+    },
+    {
+      "command": "QA_SUFFIX=-isolated node minimal-repros.mjs",
+      "cwd": "/workspace/literary-detective/docs/coordination/integration-qa/work/q002",
+      "observedExitCode": 0,
+      "output": "minimal-repros-isolated-output.txt",
+      "outcome": "PASS confirming both defects with isolated runtime dependencies; desired behavior remains FAIL"
+    }
+  ]
+}
