@@ -83,7 +83,7 @@
   "coauthorTrailers": false,
   "permitRevision": "2026-10-04-world-rebuild-004",
   "latestOwnerCorrection": "docs/OWNER-RESUME-PRODUCTION.md",
-  "requestPublication": "P-003/T-003/L-003/Q-004 published on main; native chat delivery unavailable, owner resume needed",
+  "requestPublication": "Historical external requests preserved; no active external assignment or direct native message claim.",
   "internalActiveAtLastCheck": [],
   "installedStory": "case-v5 d4b4:63scenes86choices52sources; retainedv4/v2",
   "currentVerification": "Partial modules and 3D fixtures checked; full game verification pending complete writer modules.",
@@ -91,8 +91,10 @@
   "externalSnapshotNote": "Compact snapshots during full-game continuation still report already-collected P-002/T-002/L-002/Q-002 completed work. New world requests are published; no native send/wake tool was exposed.",
   "proposal": "narrative/replacement-proposal-2026-10-04/PROPOSAL.md",
   "proposalPublicationTarget": "Delivered proposal preserved in history. Current target is complete playable Mercy game.",
-  "phase": "Complete playable first release verified; root publishing exact source and package. All workers completed.",
+  "phase": "Complete playable first release published and exact download verified. All internal workers completed; await owner feedback.",
   "previousPublishedCheckpoint": "7bd430eb3b3963b0f0efa6eceeda0f88c0800560",
   "previousPublicationVerified": true,
-  "publicationIdentity": "Resolve Git history and remote main; the source checkpoint pins files without embedding its own commit."
+  "publicationIdentity": "Resolve Git history and remote main; the source checkpoint pins files without embedding its own commit.",
+  "publishedCheckpoint": "c94bbfdb5df99f2b2512e470738164cf718b1bdf",
+  "pushed": true
 }

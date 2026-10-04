@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "repository": "deusalter/The-Shape-of-the-Water",
+  "releaseCommit": "c94bbfdb5df99f2b2512e470738164cf718b1bdf",
+  "branch": "main",
+  "remoteHeadVerified": true,
+  "commitAuthor": "deusalter",
+  "coauthorTrailers": false,
+  "packageURL": "https://raw.githubusercontent.com/deusalter/The-Shape-of-the-Water/c94bbfdb5df99f2b2512e470738164cf718b1bdf/releases/The-Shape-of-the-Water.zip",
+  "httpStatus": 200,
+  "downloadBytes": 1267120,
+  "downloadSha256": "8b9a51cf64966f621d470613036c4dc3c78a414abebe72442e1c1d3a140c44e1",
+  "assetBuild": "f50d4556622bbc4d",
+  "scope": "Exact release commit and raw downloadable package verified after non-force publication; subsequent documentation-only commit may advance main."
+}

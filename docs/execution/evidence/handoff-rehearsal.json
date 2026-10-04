@@ -3,7 +3,7 @@
   "baseline": {
     "status": "PASS",
     "scope": "Static snapshot integrity and claim consistency only; not a fresh-chat resume or new gameplay test",
-    "pinnedFiles": 2214,
+    "pinnedFiles": 2215,
     "errors": []
   },
   "checks": [

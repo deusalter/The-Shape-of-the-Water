@@ -20,7 +20,15 @@
   "package": "releases/The-Shape-of-the-Water.zip",
   "packageReceipt": "releases/PACKAGE.json",
   "repository": "https://github.com/deusalter/The-Shape-of-the-Water",
-  "publication": "Authorized source/package destination is the existing repository. Commit and push as deusalter without coauthor tags; Git history/remote HEAD identify delivery commit. No public website deployment.",
+  "publication": {
+    "status": "PASS",
+    "releaseCommit": "c94bbfdb5df99f2b2512e470738164cf718b1bdf",
+    "receipt": "docs/execution/evidence/mercy-build/PUBLICATION.json",
+    "destination": "https://github.com/deusalter/The-Shape-of-the-Water",
+    "author": "deusalter",
+    "coauthorTrailers": false,
+    "publicSiteDeployed": false
+  },
   "finalLiteraryAuthority": "lead_writer",
   "maxActiveSubagents": 4,
   "activeWorkers": [],
@@ -132,6 +140,12 @@
       "evidence": "docs/execution/evidence/mercy-build/SOURCE-PINS.json",
       "field": "status",
       "expected": "PASS"
+    },
+    {
+      "name": "published release and exact downloaded ZIP",
+      "evidence": "docs/execution/evidence/mercy-build/PUBLICATION.json",
+      "field": "status",
+      "expected": "PASS"
     }
   ],
   "limits": [
@@ -150,6 +164,6 @@
   },
   "priorContinuity": "docs/execution/archives/before-mercy-delivery/",
   "rejectedLocalFiles": "Uninstalled v6 manuscripts/code/assets remain preserved locally and excluded from publication. Its modified development registry is preserved verbatim in narrative/archived/second-mouth-documents/.",
-  "nextExecutableTask": "Publish this verified release, then respond to owner feedback on the playable game. No unfinished story chapter or scheduled autonomous revision remains.",
+  "nextExecutableTask": "Respond to owner feedback on the published playable first release. No unfinished story chapter, blocked publication or scheduled autonomous revision remains.",
   "backgroundWork": "No promised work or shared chat memory after active execution ends."
 }
