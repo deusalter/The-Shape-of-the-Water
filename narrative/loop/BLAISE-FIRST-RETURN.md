@@ -152,7 +152,7 @@ Miriam asks you to set the phone down. There is a chair beside the bench. You pu
 
 - **“Say you believe the day has returned, and ask them to help you find something your memory can predict.”**
 
-  Simon asks what you expect to happen next. You almost tell him the thing he said on the first occasion. Then you remember saying Blue, or holding the entrance open, and the reply that followed it. You have already interfered with what you were going to use as a test. You ask for something you have not yet changed.
+  Simon asks what you expect to happen next. You almost tell him the thing he said on the first occasion. Then you remember how you held up the conversation by the entrance, and the reply that followed. You have already interfered with what you were going to use as a test. You ask for something you have not yet changed.
 
 Both routes preserve a current statement of Blaise's recollection, not an accepted deduction that objective time has reversed. Any exact prediction must be earned from the earlier encountered route and lodged before its outcome; no fixed message oracle is assumed after changed outgoing communication.
 

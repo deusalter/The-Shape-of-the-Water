@@ -1,6 +1,6 @@
 import { useEffect,useRef,useState } from 'react';
 import { validateContentV2,type ContentV2,type ChoiceV2,type SourceV2,type ReplayContextV2 } from '../engine/evidence-v2';
-import { contentHash } from '../engine/hash';
+import { canonicalJSON,contentHash } from '../engine/hash';
 import { EvidencePlayer } from '../components/EvidencePlayer';
 import { download } from '../components/RunControls';
 import { AuthorProjectStore } from '../persistence/author-project';
@@ -20,15 +20,16 @@ export function EvidenceStudio({initial,context,onExit}:{initial:ContentV2;conte
   const [generation,setGeneration]=useState(0),[validating,setValidating]=useState(false),[errors,setErrors]=useState<string[]>([]),[status,setStatus]=useState('Author changes remain in this workspace until exported or saved.');
   const [scenario,setScenario]=useState<ContentV2|null>(null),[scenarioScene,setScenarioScene]=useState(initial.start),[scenarioFlags,setScenarioFlags]=useState(''),[scenarioSources,setScenarioSources]=useState(''),[scenarioCharacters,setScenarioCharacters]=useState('[]');
   const undo=useRef<AuthorProject[]>([]),redo=useRef<AuthorProject[]>([]);
+  const currentProject=useRef(project);
   const validator=useRef<ValidationTask|null>(null);
   if(!validator.current)validator.current=new ValidationTask(()=>new Worker(new URL('./validation-worker.ts',import.meta.url),{type:'module'}) as unknown as ValidationWorker);
   useEffect(()=>{setValidating(true);validator.current!.run(project.content,result=>{setValidating(false);setErrors(result.ok?[]:result.errors);if(result.ok)setLastValid(freezeValidated(result.value));});return()=>validator.current!.cancel();},[project.content]);
   useEffect(()=>{setScenario(null);setScenarioScene(lastValid.start);},[lastValid]);
   const content=project.content,scene=content.scenes.find(item=>item.id===selected)??content.scenes[0];
-  function adopt(next:AuthorProject,resetFields=false){setProject(next);if(resetFields)setGeneration(value=>value+1);setValidating(true);setSelected(value=>next.content.scenes.some(item=>item.id===value)?value:next.content.start);}
-  function edit(label:string,mutate:(next:AuthorProject)=>void){try{const next=structuredClone(project);mutate(next);undo.current.push(project);if(undo.current.length>30)undo.current.shift();redo.current=[];adopt(next);setStatus(label);}catch(error){setStatus(error instanceof Error?error.message:'Edit failed; the draft is unchanged.');}}
+  function adopt(next:AuthorProject,resetFields=false){currentProject.current=next;setProject(next);if(resetFields)setGeneration(value=>value+1);setValidating(true);setSelected(value=>next.content.scenes.some(item=>item.id===value)?value:next.content.start);}
+  function edit(label:string,mutate:(next:AuthorProject)=>void){try{const current=currentProject.current,next=structuredClone(current);mutate(next);if(canonicalJSON(next)===canonicalJSON(current))return;undo.current.push(current);if(undo.current.length>30)undo.current.shift();redo.current=[];adopt(next);setStatus(label);}catch(error){setStatus(error instanceof Error?error.message:'Edit failed; the draft is unchanged.');}}
   function replace(label:string,next:AuthorProject){edit(label,current=>Object.assign(current,next));setGeneration(value=>value+1);}
-  function history(direction:'undo'|'redo'){const from=direction==='undo'?undo.current:redo.current,to=direction==='undo'?redo.current:undo.current,next=from.pop();if(next){to.push(project);adopt(next,true);setStatus(direction==='undo'?'Edit undone.':'Edit restored.');}}
+  function history(direction:'undo'|'redo'){const from=direction==='undo'?undo.current:redo.current,to=direction==='undo'?redo.current:undo.current,next=from.pop();if(next){to.push(currentProject.current);adopt(next,true);setStatus(direction==='undo'?'Edit undone.':'Edit restored.');}}
   function editScene(label:string,mutate:(item:ContentV2['scenes'][number])=>void){edit(label,next=>mutate(next.content.scenes.find(item=>item.id===scene.id)!));}
   function editChoice(index:number,label:string,mutate:(item:ChoiceV2)=>void){editScene(label,item=>mutate(item.choices[index]));}
   function importProject(text:string){try{const parsed=JSON.parse(text),next=parsed.kind==='author-project'?checkedProject(parsed):checkedProject(newProject(parsed));replace('Imported author content; validation running.',next);}catch(error){setStatus(`Import rejected. ${error instanceof Error?error.message:'Invalid JSON.'}`);}}

@@ -1,0 +1,17 @@
+{
+  "outcome": "PASS",
+  "scope": "Final artifact and source consistency only; universal navigation remains INCONCLUSIVE",
+  "tests": 76,
+  "terminalTraces": 55,
+  "legacyHistories": 8,
+  "typecheck": {
+    "command": "pnpm typecheck > tests/verification/artifacts/installed-v2/typecheck-output.txt 2>&1",
+    "exitStatus": 0
+  },
+  "sourceStableAfterReport": true,
+  "reportSha256": "4c22d2f0c5a1077cdc8a200f9314f59b62b7512572c837c2f9e62ce67979a63f",
+  "artifactSha256": {
+    "tests/verification/artifacts/installed-v2/latest.json": "e33bd605ed4bd436ff74381ac62f3b8be63a410cf0fa5990e433396f14be0e61",
+    "tests/verification/artifacts/installed-v2/route-traces.json": "6ab66d934ed2c9d834e36c2683ec64dbd023b75d0f1236829cb01ba0b95c1b19"
+  }
+}

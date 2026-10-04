@@ -36,7 +36,8 @@
       "src/components/EvidencePlayer.tsx",
       "tests/ownership.test.ts",
       "tests/evidence-player-controller.test.ts",
-      "docs/reviews/evidence-player-repair/**"
+      "docs/reviews/evidence-player-repair/**",
+      "src/studio/EvidenceStudio.tsx (bounded Undo fix complete)"
     ],
     "verification_engineer": [
       "tests/verification/**",
@@ -66,16 +67,7 @@
   "controlling_kickoff_revision": 4,
   "currentContentSha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
   "canonicalContentHash": "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d",
-  "activeWorkers": [
-    {
-      "owner": "lead_writer",
-      "task": "ending-first recurrence scenes, exact occasion requirements and sole canon authority"
-    },
-    {
-      "owner": "verification_engineer",
-      "task": "independent installed v2 proof/privacy/migration/ending checks"
-    }
-  ],
+  "activeWorkers": [],
   "editorialAuthority": "lead_writer; accepted baseline in narrative/accepted/MANIFEST.json; root does not independently rewrite canon",
   "tasks": {
     "T00": {
@@ -268,5 +260,16 @@
     "independentV2PureEngine": "34 PASS at pinned prior runtime",
     "saveRepair": "engineer reports56 targeted PASS; independent integration pending",
     "fullVerify": "231 tests in22files, typecheck, content, both builds PASS"
+  },
+  "reservedWorkers": [
+    "lead_writer: sole canon authority; next integration",
+    "engineer: occasion runtime after contract acceptance"
+  ],
+  "github": {
+    "repository": "https://github.com/deusalter/The-Shape-of-the-Water",
+    "publishedCheckpoint": "9f4928617fb88ad695e3d1262f25b19029045968",
+    "coordination": "docs/coordination/WORK-BOARD.json",
+    "author": "deusalter",
+    "coauthorTrailers": false
   }
 }

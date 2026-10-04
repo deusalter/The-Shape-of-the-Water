@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-04",
+  "word_definition": "Unicode word groups with internal apostrophes or hyphens. Stored totals include metadata and mutually exclusive alternatives; they are not played length.",
+  "drafts": [
+    {
+      "file": "narrative/loop/ENDING-L3-AUDITIONS.md",
+      "stored_words_including_metadata_and_alternatives": 5677,
+      "em_dashes": 0,
+      "sha256": "7154aac4ecbe2ac515184c0da80816faddc7675dfb8c42db3dfd6977ee29b79f"
+    },
+    {
+      "file": "narrative/loop/RETURN-INVESTIGATION-L3.md",
+      "stored_words_including_metadata_and_alternatives": 3838,
+      "em_dashes": 0,
+      "sha256": "2e54f9b844bbd6eacdaa4f202584c90fd3a8d8a3c9a3f80422bada119ec6cc36"
+    },
+    {
+      "file": "narrative/loop/BLAISE-FIRST-RETURN.md",
+      "stored_words_including_metadata_and_alternatives": 2356,
+      "em_dashes": 0,
+      "sha256": "53058900402c71cc898750090f70d2d729efcfad944ad0909b5983b3a50a605e"
+    },
+    {
+      "file": "narrative/loop/BLAISE-ALLOWED.md",
+      "stored_words_including_metadata_and_alternatives": 1610,
+      "em_dashes": 0,
+      "sha256": "ab95d4f6b526e376bfa7b502ce0ab9c625ef278cfe2ecfdf32bcc17b4e102bf6"
+    },
+    {
+      "file": "narrative/loop/OCCASION-REQUIREMENTS-L3.md",
+      "stored_words_including_metadata_and_alternatives": 2354,
+      "em_dashes": 0,
+      "sha256": "540a1348eb5d66e9eb66ac285692652acd00d679b9a843d76dcf5b20d9073594"
+    },
+    {
+      "file": "narrative/loop/PARALOGISMS-WORKING-NOTE.md",
+      "stored_words_including_metadata_and_alternatives": 898,
+      "em_dashes": 0,
+      "sha256": "25828b3e9924cbc45a3eea87ae4bc3d1e4158412bf95853b16956daff72e5af8"
+    },
+    {
+      "file": "narrative/loop/SELECTED-LEDGER-L2.md",
+      "stored_words_including_metadata_and_alternatives": 1142,
+      "em_dashes": 0,
+      "sha256": "b46674abcc3f30246a6c868f5115bc00b8d4d8189627342cc05c1d093d0cde29"
+    }
+  ],
+  "new_scene_document_stored_total": 9515,
+  "selected_ending_readings": {
+    "scope": "Ending fragments with one explicit selection per branch; not whole-game routes or engine tests.",
+    "source": "narrative/loop/ENDING-L3-AUDITIONS.md",
+    "sourceSha256": "7154aac4ecbe2ac515184c0da80816faddc7675dfb8c42db3dfd6977ee29b79f",
+    "choicesCommonToTheseReadings": [
+      "B-E01-A: another man with my memories",
+      "B-E01-B: hear a voice without testing",
+      "B-E02-B: hear Ada's answer before deciding",
+      "earlier B-R03: no requested hand-touch"
+    ],
+    "wordDefinition": "Unicode word groups with internal apostrophe or hyphen; passage text only, excluding reading headings and editorial context.",
+    "readings": [
+      {
+        "path": "narrative/loop/readings/ENDING-REFUSAL.md",
+        "passageWords": 2560,
+        "sha256": "e417b8577b31fd9743b99ccb5b18d56eab87ff4086be2d1b64ec2f2d7ba3969b"
+      },
+      {
+        "path": "narrative/loop/readings/ENDING-CANCELED-TEST.md",
+        "passageWords": 2961,
+        "sha256": "5e068c044bfac0101a34a988dc085903c46919d3fe300e0f6255225586c6cd57"
+      },
+      {
+        "path": "narrative/loop/readings/ENDING-SECOND-CROSSING.md",
+        "passageWords": 2917,
+        "sha256": "1f74e9bc34ef47849d90b458bad4e179cac4d2668e99d4509f2fad0d3a0dd16b"
+      }
+    ]
+  },
+  "full_route_word_count": null,
+  "human_playtime": null,
+  "scope": "Unintegrated draft wave; no whole-game duration claim."
+}

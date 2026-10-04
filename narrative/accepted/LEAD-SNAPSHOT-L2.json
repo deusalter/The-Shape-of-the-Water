@@ -1,0 +1,35 @@
+{
+  "legacy_unchanged": true,
+  "candidate_anchor_scene_text_unchanged": [
+    "workshop",
+    "shared",
+    "ada_miriam",
+    "gallery",
+    "simon_account",
+    "simon_ada",
+    "optics",
+    "miriam_private",
+    "bench"
+  ],
+  "candidate_file_sha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+  "drafts": [
+    {
+      "file": "narrative/loop/BLAISE-FIRST-RETURN.md",
+      "stored_words_including_metadata_and_alternatives": 2355,
+      "em_dashes": 0,
+      "sha256": "8f3077f9c38313bb394813c5db4b7c97c68a395664dc24038b66db220c28324a"
+    },
+    {
+      "file": "narrative/loop/BLAISE-ALLOWED.md",
+      "stored_words_including_metadata_and_alternatives": 1537,
+      "em_dashes": 0,
+      "sha256": "4ccecbca3a55329d8a1de58a130fcd3a8840df50aab841acfd11b3341079dc29"
+    },
+    {
+      "file": "narrative/loop/SELECTED-LEDGER-L2.md",
+      "stored_words_including_metadata_and_alternatives": 1142,
+      "em_dashes": 0,
+      "sha256": "b46674abcc3f30246a6c868f5115bc00b8d4d8189627342cc05c1d093d0cde29"
+    }
+  ]
+}

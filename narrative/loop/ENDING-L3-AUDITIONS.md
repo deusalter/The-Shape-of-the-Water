@@ -36,8 +36,8 @@ Reject as the principal ending. Its practical action is readable, and the last m
 
 1. In the common original Sunday setup, Miriam leaves through the front entrance before Blaise crosses the service exit. This is a new, explicit staging addition to the still-unintegrated pre-return scene. She sees Ada steady his chair before leaving. She waits outside; she does not pass through the service door.
 2. The first return produces the existing Saturday-looking tableau, including Miriam on the bench. A subsequent encounter brings the Miriam who waited outside face to face with that Miriam. Two separately moving, simultaneously visible bodies are established through ordinary shared observation. A reflection, a recording, ventriloquism and a single person changing clothes cannot account for the simultaneous interaction that is actually shown. No claim about two immaterial souls follows.
-3. The exterior Miriam retains her witnessed Sunday history and the player-specific conversations she actually had. The interior Miriam remembers the fixed accident but has not had those later conversations. Neither receives the other's knowledge merely because their names match. Their accounts overlap substantially before the anchor. That overlap does not count as two independent original witnesses to the accident.
-4. A marked piece of material placed outside before the crossing is found still marked, alongside the unmarked counterpart in the bath. The marking is actually made and witnessed before the first crossing. The body encounter and the material comparison warrant a bounded finding: at least one exterior continuation and one renewed local state coexist. They do not establish the fate of every person elsewhere, a universal reset, numerical identity of a soul, or the cause of the event.
+3. The exterior Miriam retains her witnessed Sunday history and the player-specific conversations she actually had. The interior Miriam remembers the fixed accident but has not had those later conversations. Neither receives the other's knowledge merely because their names match. Their accounts overlap substantially before the anchor. That overlap does not count as two independent original witnesses to the accident. In B-E01 the exterior witness sits by the sink; the renewed interior speaker sits by the workshop door. Her coat position can change later without silently swapping the speakers.
+4. A marked wooden packing strip placed outside before the crossing is found still marked, alongside a closely corresponding unmarked strip in the bath. The marking is actually made and witnessed before the first crossing. Matching old stock remains an explicit alternative for the pair alone. The sustained body encounter is stronger evidence of co-presence. Together they support a bounded account involving at least one exterior continuation and a renewed local state; they do not establish the fate of every person elsewhere, a universal reset, numerical identity of a soul, or the cause of the event.
 5. The local physical routes remain usable. In an observed test a person can take the front entrance without the represented return. The service exit has not been tested a second time on the refusal route. A second crossing is optional, clearly described, and requires an explicit account of whose present memories may no longer be shared afterward.
 
 These prerequisites are not granted to the player by this file. The ending cannot be installed until the corresponding scenes and current sources exist. Runtime IDs for the two Miriams are references to encountered speakers, not verdicts about which person is original or real.
@@ -52,7 +52,7 @@ Ada brings a second plate. She sets it beneath the first.
 
 Both women look at the plate. You had been waiting for them to do something together, and the small agreement makes you feel worse than the differences did.
 
-Simon has put the marked material in the middle of the table. Beside it lies the unmarked piece. They are the same size. One corner of each turns up. When he flattens one corner, the other remains curled.
+Simon has put the marked strip in the middle of the table. Beside it lies the unmarked piece. They are the same size. A splinter rises beside the split in each. When he presses one down, the other remains raised.
 
 “Leave them,” Ada says. “We can see.”
 
@@ -154,6 +154,18 @@ You do not know where to put your eyes now. Simon offers you his chair, which fa
 
   “Yes. Here you are doing it, with your hands on this table. That doesn't yet tell us that you could do it without any body, or that we have found a part of you that cannot be divided.”
 
+  “I didn't say without a body.”
+
+  She looks at your hands. “No. I went past what you claimed.”
+
+  “Would I have to find that part before you'd recognize me?”
+
+  “I recognize you, Blaise. I'm trying to distinguish that from knowing what has endured through the crossing.”
+
+  “And if it's only somebody remembering?”
+
+  “Then we have to find out what that involves too.”
+
   You take your hands off the table. You had put them there without noticing.
 
 - **“Say another man with your memories would frighten you even if he had as much evidence as you.”**
@@ -204,13 +216,11 @@ Their voices resemble each other most when they are quiet. From the concourse, s
 
 Simon asks whether they would prefer him to leave. Both say no. This time you can tell which no was first.
 
-“What did you think was going to be left?” you ask.
+“Is there anything about a person that you think death can't take?” you ask.
 
-The woman by the door turns the plate a little. “When?”
+The woman by the door turns the plate a little. She looks across the table before answering.
 
-“When you talked about understanding. Something that death couldn't take from it.”
-
-She looks across the table before answering. “I was not promising that all this would be kept.”
+“I think there is something eternal about understanding. But I don't mean that this whole life is kept running, somewhere out of sight.”
 
 “She knows a day you don't.”
 
@@ -229,6 +239,18 @@ You look from her wrapped hand to the dry dressing on the other hand. You can un
 The woman at the sink speaks.
 
 “I don't think the value of understanding lies in having a recording that runs forever. When I understand why something follows, I am doing something I couldn't do by keeping every picture of it. I mean that activity when I speak of a mind taking part in the understanding of Nature.”
+
+“You're saying a truth doesn't stop being true when the person dies. How does that keep any of the person who understood it?”
+
+“I'm saying more than that. A mind's understanding belongs to the nature it knows. Insofar as it understands how its own existence follows from that nature, it's a particular way that nature understands itself. I think that has an eternity which doesn't consist in carrying this afternoon into another afternoon.”
+
+“Both of you?”
+
+“That claim could apply to both of us. It doesn't tell us why there are two people at this table. I haven't arrived at that understanding by looking at these pieces of wood.”
+
+“And it doesn't tell me which of you I could lose.”
+
+“No.”
 
 “And she could do that without remembering what you remember.”
 
@@ -428,11 +450,19 @@ Return to B-E02-A's two action choices. The offer persists on either route until
 
 ### B-E03. Refusal: the front entrance
 
-You tell Simon to turn the camera off. He checks whether you want the recording so far kept. You say yes. He closes the small cover over its screen.
+You tell Simon you are not going through. He lifts the camera from its stand and closes the small cover over its screen. It has remained off.
 
 The sound of the service door shutting is less distinct than you expected. The latch catches; Ada pulls once to check it. She leaves the block on the floor.
 
+#### If Blaise refused before the second-test setup
+
 At the workshop table, you say you are leaving through the front. You ask whether anyone wants to come with you. The Miriam with the coat lifts it from the chair. The other looks beneath the bench for her shoes, then remembers they are beside her.
+
+#### If Blaise canceled after the exterior departure
+
+You go to the front and tell Miriam you stopped the test. She asks whether you crossed. You say no. She comes inside while you get the others, keeping her coat on. At the workshop table, the other Miriam looks beneath the bench for her shoes, then remembers they are beside her.
+
+#### Common
 
 She puts one foot in. The wet sock resists the shoe. She takes it out again.
 
@@ -472,7 +502,7 @@ Miriam with the coat looks up at it. “That one caught me earlier.”
 
 She nods.
 
-The other Miriam moves half a step farther from the wall. You watch her make room for an event she has only been told about.
+The other Miriam looks at the cuff across the road and waits for the next drop.
 
 Simon brings the camera out. Ada takes the bag of peas to the bin and returns without it. While she is away, the two Miriams examine the dressing again. One holds the other's wrist. The hand receiving help has begun to shake. The hand giving it is no steadier.
 
@@ -502,7 +532,7 @@ You say what you mean to do. You will cross outward without carrying the glass. 
 
 “Then I won't stand in the yard,” she says.
 
-She means the service yard. She will wait by the front, where she waited before. The distinction has become important without anyone proving why it should be.
+She means the service yard. She will wait by the front entrance this time, on this side of the road. The distinction has become important without anyone proving why it should be.
 
 Ada asks whether you intend to bring her to the chair again. You say you will not arrange the chair behind your legs.
 
@@ -516,12 +546,20 @@ Simon says he will stay beside the camera on the room side. The Miriam without t
 
 “Say when you've decided to go. Don't count us down.”
 
+You go with the woman carrying her coat as far as the front entrance. She puts the coat on, passes you and steps onto the pavement. You remain on the tiles, holding the door. She moves to the left of the doorway, clear of the opening, and rests her good hand against the wall.
+
+“Here,” she says.
+
+You tell her you have seen where she is. You let the entrance close and go back through the bath. She has not accompanied you back to the service passage.
+
+Simon asks whether he may start the camera. He shows you the frame: your lower legs, the threshold and the bottom of the outside wall. You say yes. He asks Ada and Miriam to stay behind it if they do not want to be included. Both move beside him. He starts recording and tells you it has started. You have not yet decided to cross.
+
 #### Choice B-E04-A: final confirmation in the story
 
 - **“Cross the service threshold empty-handed. The present conversation may cease to be shared by the people inside.”** Irreversible occasion transition if chosen. Go to B-E05.
 - **“Stop the test and take the front entrance.”** Go to B-E03, with its first paragraph replaced by: You tell Simon you have changed your mind. He turns the camera off and asks whether the recording so far should be kept. You say yes. Nobody asks you to state a better reason.
 
-The scene's clear consent is consent to participation under stated uncertainty, not a magical condition of the return. No belief flag changes the outcome. The initial accident remains before the destination.
+The scene's clear consent is consent to participation under stated uncertainty, not a magical condition of the return. No belief flag changes the outcome. The initial accident remains before the destination. The exterior departure and the start of recording are now actually performed. A recording inside the bath is not presumed to remain currently available after the next return; the scene makes an attempt, not a guaranteed retained exhibit.
 
 ### B-E05. The sentence does not finish first
 
@@ -569,19 +607,21 @@ You ask the woman outside whether she remembers the last conversation.
 
 She tells you what you asked her to do. She tells you where she said she would wait. She remembers your saying that she might not be safe just because she had remained outside once before.
 
-You ask her whether Ada offered to come out through the front with you.
-
 #### If the offer was actually encountered at B-E02-B
 
-“You said she did,” Miriam answers. “I wasn't there when she asked.”
+You ask her whether Ada offered to come out through the front with you.
 
-You had told her while they were gathering in the passage. She does not give you the sentence in Ada's voice.
+“I wasn't with you,” Miriam answers. “I heard you call us to the passage.”
+
+You had not told her what Ada offered. You look past her, into the room. Ada is still helping the other woman stand.
 
 #### Otherwise
 
-“You haven't told me that,” she says.
+You ask whether Ada said she would answer your questions again.
 
-You look at Ada. She is still helping the other woman stand. You do not ask her to agree to something because it might have been said.
+“She said you could still ask her things,” Miriam answers. “And to tell her why.”
+
+You look at Ada. She is still helping the other woman stand. You do not ask her to agree to something because another person remembers her saying it.
 
 #### Common
 

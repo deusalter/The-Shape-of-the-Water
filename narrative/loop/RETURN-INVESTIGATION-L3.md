@@ -34,7 +34,7 @@ Miriam has her coat on. She takes the longer strip in her good hand.
 
 She looks at you and lifts the wood a little. “I'll wait over there.”
 
-You hold the entrance while she goes through. She lays the strip on the low outside sill, burned end toward the laundry. You can see the pencil mark on the side. She crosses the pavement and stops clear of the row of dripping overalls.
+You hold the entrance while she goes through. She lays the strip on the low outside sill, burned end toward the laundry. You can see the pencil mark on the side. She crosses the road and waits beside the laundry, under the row of overalls.
 
 You let the entrance shut. Simon asks you to come back to the glass. The shorter strip is still in his hand. He sets it beside the door and begins folding the cardboard over the last uncovered corner.
 
@@ -376,7 +376,7 @@ Simon asks you to point to the one you remember carrying. You point to the mark.
 
 “I know.”
 
-He touches the curled corner, releases it, and watches it rise.
+He presses the splinter beside the split, releases it, and watches it rise.
 
 Ada says the woman in the other room can tell them which piece she carried. You ask whether she is willing to ask. Ada says she can ask; that is all she is offering.
 

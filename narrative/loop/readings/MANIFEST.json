@@ -1,0 +1,29 @@
+{
+  "scope": "Ending fragments with one explicit selection per branch; not whole-game routes or engine tests.",
+  "source": "narrative/loop/ENDING-L3-AUDITIONS.md",
+  "sourceSha256": "7154aac4ecbe2ac515184c0da80816faddc7675dfb8c42db3dfd6977ee29b79f",
+  "choicesCommonToTheseReadings": [
+    "B-E01-A: another man with my memories",
+    "B-E01-B: hear a voice without testing",
+    "B-E02-B: hear Ada's answer before deciding",
+    "earlier B-R03: no requested hand-touch"
+  ],
+  "wordDefinition": "Unicode word groups with internal apostrophe or hyphen; passage text only, excluding reading headings and editorial context.",
+  "readings": [
+    {
+      "path": "narrative/loop/readings/ENDING-REFUSAL.md",
+      "passageWords": 2560,
+      "sha256": "e417b8577b31fd9743b99ccb5b18d56eab87ff4086be2d1b64ec2f2d7ba3969b"
+    },
+    {
+      "path": "narrative/loop/readings/ENDING-CANCELED-TEST.md",
+      "passageWords": 2961,
+      "sha256": "5e068c044bfac0101a34a988dc085903c46919d3fe300e0f6255225586c6cd57"
+    },
+    {
+      "path": "narrative/loop/readings/ENDING-SECOND-CROSSING.md",
+      "passageWords": 2917,
+      "sha256": "1f74e9bc34ef47849d90b458bad4e179cac4d2668e99d4509f2fad0d3a0dd16b"
+    }
+  ]
+}

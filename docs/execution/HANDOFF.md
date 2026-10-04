@@ -22,7 +22,7 @@ L2 first return preserves the exact post-accident anchor and distinguishes remem
 
 ## Verification and remaining work
 
-Latest full `pnpm verify`:231tests in22files PASS, typecheck PASS, active content validation PASS, player/studio builds PASS. Log is docs/execution/evidence/v2-integration/verify.log after checkpoint preparation. Existing independent v2 wave34PASS remains pinned to its reported source. A new independent installed-case wave is active:48ending routes, actual proof alternatives, interpersonal failures and migration/privacy checks.
+Latest full `pnpm verify`:231tests in22files PASS, typecheck PASS, active content validation PASS, player/studio builds PASS. Log is docs/execution/evidence/v2-integration/verify.txt after checkpoint preparation. Existing independent v2 wave34PASS remains pinned to its reported source. A new independent installed-case wave is active:48ending routes, actual proof alternatives, interpersonal failures and migration/privacy checks.
 
 Root's actual v2 browser suite is tools/browser-v2-check.mjs. Its first harness run stalled because the harness treated an open details attribute as false; corrected explicit null check and bounded action timeouts. New run is active. Browser report status is authoritative; do not invent PASS from build success. Legacy browser tests/reports remain preserved and do not certify this replacement UI.
 
@@ -34,4 +34,9 @@ Owner supplied https://github.com/deusalter/The-Shape-of-the-Water and instructe
 
 Four owner-created chats were found and read; each has a separate filesystem and ended its initial turn for missing project files. No shared mailbox existed. Use GitHub branches and docs/coordination/GITHUB-WORKFLOW.md to continue. Native cross-chat send/create is unavailable; read/list/wait exist. An idle chat needs a user continuation; root cannot claim to dispatch it.
 
-Current internal active workers: lead_writer and verification_engineer; engineer has completed/frozen repair and released its slot. No active descendants. External-child permits are zero pending explicit allocation on origin/main. Maximum four active subagents including descendants. Requested configurations are recorded, not backend-attested model claims.
+Current bounded internal waves have completed; two internal slots are reserved for lead_writer and engineer. External protagonist and loop-plot each have one child permit; the other two teams have zero. Consult WORK-BOARD.json on origin/main. Maximum four active subagents including descendants. Requested configurations are recorded, not backend-attested model claims.
+
+
+GitHub checkpoint `9f4928617fb88ad695e3d1262f25b19029045968` is verified published with complete prior history, preserving object identities. Smart HTTP push failed; tools/publish-git-via-api.py uses authenticated gh REST, exact object SHA checks and non-forced ref updates. Repository-local new commit author/committer is deusalter, with no coauthor trailers. The destination is public as supplied by the owner. Team branches and requests P-002/T-002/L-002/Q-002 carry the external continuation; native send/wake is absent.
+
+The independent installed v2 wave passed 76 tests with 55 terminal traces; broad bounded navigation remains INCONCLUSIVE, explicitly reported in docs/reviews/INSTALLED-V2-04.md. The L3 philosophy review and source records are saved. A built-browser studio Undo failure was reproduced and fixed by skipping no-op edits and reading synchronous current project state; source Chromium regression checks passed, with built rerun tracked in docs/execution/evidence/browser-v2/report.json. The earlier failure is retained as report-before-undo-repair.json.

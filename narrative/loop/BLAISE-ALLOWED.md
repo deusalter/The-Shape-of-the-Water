@@ -4,6 +4,8 @@ Selected male-protagonist revision. This supersedes the Henrietta/job version wh
 
 Second actual loop audition, after Blaise has reported the recurrence and a current test has produced a result worth discussing. The opening differs by the test actually performed; no result is granted by entering the scene. Simon and Miriam have heard Blaise's claim. Ada is present only if explicitly included in the test, and leaves to work in this version. Philosophical attraction belongs to Blaise, not merely to an NPC explaining why his inference is invalid.
 
+L3 integration clarification: the performed material trial in RETURN-INVESTIGATION-L3, B-R06, now earns the prediction/result paper. In that construction the Miriam in this conversation is the renewed interior speaker, already told Blaise's account at the returned arrival. The exterior witness is resting elsewhere after the material identification. Nothing in this scene automatically discloses its conversation to her. On the selected material route Ada was present and can make the stated departure.
+
 ## Passage
 
 Simon has put a second piece of paper beneath your prediction so it will not pick up moisture from the table. You had expected him to keep finding reasons to put it aside. Now you want him to stop looking at it.
@@ -84,7 +86,7 @@ Miriam asks what you mean by God giving the opportunity. You say you do not mean
 
 “It may not be less hopeful. It makes a different claim. I think the activity of understanding is itself a real part of that nature's understanding. Not a message sent to us by something that stands apart from everything it has made.”
 
-“You said love.”
+“Would you call that love?”
 
 “Yes.”
 

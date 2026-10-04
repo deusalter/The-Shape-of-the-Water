@@ -1,0 +1,18 @@
+{
+  "url": "https://plato.stanford.edu/entries/spinoza/",
+  "status": 200,
+  "retrievedOn": "2026-10-04",
+  "htmlSha256": "bede8d577ffaf69ce394d3746a5c01224d2a5d585ea909a7dee907afab2f5bb4",
+  "htmlBytes": 112794,
+  "author": "Steven Nadler",
+  "title": "Baruch Spinoza",
+  "publication": "Stanford Encyclopedia of Philosophy",
+  "method": "Python urllib through inherited environment; targeted paragraphs parsed in memory; full text not retained.",
+  "inspectedScope": "Targeted article paragraphs containing mind and body, intellectual love, or immortal, as displayed in bounded tool output. No claim to complete article reading.",
+  "paragraphIndices": [
+    3,
+    53,
+    76
+  ],
+  "summary": "Nadler presents mind and body as the same thing expressed through different attributes; interprets intellectual love as active joy and rational freedom, and eternity without personal-memory immortality. This broad exposition does not settle the particular-mind individuation puzzle raised by L3."
+}

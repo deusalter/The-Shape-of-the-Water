@@ -28,3 +28,11 @@ If two bodily continuations with overlapping memories become observable, their c
 - Literal reverse travel in the same objective time would remain a substantive fictional challenge to the Second Analogy, as recorded in the loop research. The game presently represents later experience followed by an earlier-looking local state, not an omniscient chronology of the universe.
 
 Any extraordinary bodily or material continuation selected for the fiction is an author stipulation, not an event deduced from Kant or Spinoza. The new ending auditions will distinguish what occurs from what their speakers take it to establish.
+
+## Follow-up inspection for L3's eternity exchange, 2026-10-04
+
+Reinspected the retained Elwes *Ethics* extraction `research/philosophy/sources/spinoza-ethics-inspection.txt`, lines 8050–8135 (V.21–26, especially 21–23 and its scholium), 8170–8245 (V.29 scholium through V.33), and 8260–8338 (V.34 scholium through V.37). The distinction is positive as well as restrictive: V.22–23 claims an idea of this body's essence under eternity; V.29–31 connects the mind's understanding of itself and its body to God; V.32–36 makes intellectual love an activity of God's self-love insofar explained through the particular mind. V.34s expressly rejects the ordinary confusion of eternity with surviving memory.
+
+The ending gives Blaise the objection that a truth remaining true does not by itself preserve its knower. Miriam answers with her stronger immanent account of a particular mind's activity, while conceding that the body's co-presence and the wooden strips have not established that account. This is an adaptation of the argument's pressure, not a complete demonstration of V.23 or a settled scholarly account of what “remains.” The hard question about individual eternity remains contested; the scene must not reduce it either to endless duration or to the harmless assertion that facts stay true.
+
+Nothing here identifies one of the two Miriams as the eternal component of the other. Both are embodied contemporary speakers. Neither composure nor willingness to help is a test that she possesses intuitive knowledge.

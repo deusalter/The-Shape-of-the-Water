@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-04",
+  "scope": "L3 bounded philosophical/causal critique. Complete named loop drafts read, source note checked. Current first-night manuscript inspected at arrival, bench and relevant prior history; not newly read whole current v2. Earlier whole v1 reading reused with limits.",
+  "sources": [
+    {
+      "label": "Kant primary",
+      "path": "research/philosophy/sources/kant-critique-gutenberg.txt",
+      "sha256": "642bd845dd0315ac76399d5d1663e7ed75247e065251833bd47ef051fd997ebe",
+      "translator": "J. M. D. Meiklejohn",
+      "url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+      "method": "Actual reinspection of retained extracted text; local line numbers, not printed pagination.",
+      "inspected": [
+        {
+          "locator": "Paralogisms opening, numbered claims and initial syllogism diagnosis",
+          "lines": [
+            9020,
+            9278
+          ]
+        },
+        {
+          "locator": "Conclusion and General Remark opening",
+          "lines": [
+            9560,
+            9656
+          ]
+        },
+        {
+          "locator": "Aesthetic spatial conclusions, empirical reality and transcendental ideality",
+          "lines": [
+            2248,
+            2290
+          ]
+        },
+        {
+          "locator": "Aesthetic time §5 and §6 heading",
+          "lines": [
+            2299,
+            2340
+          ]
+        },
+        {
+          "locator": "Second Analogy directional passage and context",
+          "lines": [
+            6013,
+            6036
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Spinoza primary",
+      "path": "research/philosophy/sources/spinoza-ethics-inspection.txt",
+      "sha256": "6d9c85ac448e0f6acfbdce43715e18c50ac5ef78c2634cb3e43f84f0ef8a0b55",
+      "translator": "R. H. M. Elwes",
+      "url": "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm",
+      "method": "Actual reinspection of retained extracted text; local line numbers, not printed pagination.",
+      "inspected": [
+        {
+          "locator": "I D2–8, initial tail of D1",
+          "lines": [
+            30,
+            67
+          ]
+        },
+        {
+          "locator": "I Appendix, divine ends/perfection and ignorance",
+          "lines": [
+            1245,
+            1307
+          ]
+        },
+        {
+          "locator": "II7/s and II8 opening",
+          "lines": [
+            1580,
+            1630
+          ]
+        },
+        {
+          "locator": "II13 and opening scholium",
+          "lines": [
+            1798,
+            1834
+          ]
+        },
+        {
+          "locator": "II13 physical interlude, lemmas/individual/postulates",
+          "lines": [
+            1834,
+            2008
+          ]
+        },
+        {
+          "locator": "II18 memory/scholium and II19 opening",
+          "lines": [
+            2116,
+            2171
+          ]
+        },
+        {
+          "locator": "IV38–39 with scholium and IV40–42 opening",
+          "lines": [
+            6424,
+            6501
+          ]
+        },
+        {
+          "locator": "V21–26 selected",
+          "lines": [
+            8060,
+            8135
+          ]
+        },
+        {
+          "locator": "V29 proof tail/scholium through V33",
+          "lines": [
+            8170,
+            8245
+          ]
+        },
+        {
+          "locator": "V32 corollary tail through V34 proof",
+          "lines": [
+            8238,
+            8267
+          ]
+        },
+        {
+          "locator": "V34 proof tail/scholium through V36 scholium",
+          "lines": [
+            8260,
+            8328
+          ]
+        },
+        {
+          "locator": "V41–42, final scholium opening",
+          "lines": [
+            8436,
+            8499
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Grier scholarship",
+      "path": "research/philosophy/sources/kant-sep-metaphysics.txt",
+      "sha256": "c4b94708f752dde59474b9a616fabe79b5f15b4d3690c0167871309162b59cb0",
+      "translator": null,
+      "url": "https://plato.stanford.edu/entries/kant-metaphysics/",
+      "method": "Actual reinspection of retained extracted text; local line numbers, not printed pagination.",
+      "inspected": [
+        {
+          "locator": "Rational psychology, equivocation and controversies",
+          "lines": [
+            520,
+            615
+          ]
+        }
+      ]
+    }
+  ],
+  "newScholarship": "research/philosophy/sources/l3-critic-nadler.json",
+  "reviewedFiles": [
+    {
+      "path": "narrative/loop/ENDING-L3-AUDITIONS.md",
+      "sha256": "40899d020650e9153066c48635982e8b01216d0919e136ea4b0cc9ff9b475fd3"
+    },
+    {
+      "path": "narrative/loop/RETURN-INVESTIGATION-L3.md",
+      "sha256": "f9b5c80c6c6ac6f06e245fdbaf8212769e56af9c0ca09f833c0427fd50b0fc06"
+    },
+    {
+      "path": "narrative/loop/OCCASION-REQUIREMENTS-L3.md",
+      "sha256": "540a1348eb5d66e9eb66ac285692652acd00d679b9a843d76dcf5b20d9073594"
+    },
+    {
+      "path": "narrative/loop/BLAISE-ALLOWED.md",
+      "sha256": "ab95d4f6b526e376bfa7b502ce0ab9c625ef278cfe2ecfdf32bcc17b4e102bf6"
+    },
+    {
+      "path": "narrative/loop/PARALOGISMS-WORKING-NOTE.md",
+      "sha256": "25828b3e9924cbc45a3eea87ae4bc3d1e4158412bf95853b16956daff72e5af8"
+    },
+    {
+      "path": "narrative/loop/SELECTED-LEDGER-L2.md",
+      "sha256": "b46674abcc3f30246a6c868f5115bc00b8d4d8189627342cc05c1d093d0cde29"
+    },
+    {
+      "path": "narrative/loop/BLAISE-FIRST-RETURN.md",
+      "sha256": "53058900402c71cc898750090f70d2d729efcfad944ad0909b5983b3a50a605e"
+    },
+    {
+      "path": "narrative/MANUSCRIPT.md",
+      "sha256": "efc3ab03a9c2201b4c179481f7f6210936e445d42dd9de8cb45af32a67afe88c"
+    },
+    {
+      "path": "src/content/case-v2.json",
+      "sha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751"
+    }
+  ],
+  "revisionWarning": "Complete initial named loop drafts read; targeted revisions and dependent routes reread. Initial fault passages are quoted in report; no invented initial whole-file hash. Final hashes below identify the checked text.",
+  "limits": [
+    "No German/Latin collation or primary A/B pagination verification.",
+    "No clinical identification or personal-identity theory established from a fictional duplicate.",
+    "No physical apparatus prototype, gameplay test or integrated route execution.",
+    "No claim of whole expanded manuscript approval.",
+    "Actual backend model and effort not exposed or verified."
+  ],
+  "targetedFinalRechecks": [
+    "Ending B-E01-A first branch: admitted overreach/empirical recognition.",
+    "Ending B-E03 base refusal and canceled-test reunion; opposite laundry placement.",
+    "Ending B-E04 actual public audience, exterior departure, camera start, confirmation/cancel.",
+    "Ending B-E05 exterior witness callbacks and current co-presence.",
+    "Return P01 crossing road/exterior marking; rest of complete draft previously read this wave.",
+    "BLAISE-ALLOWED present-tense love question."
+  ]
+}

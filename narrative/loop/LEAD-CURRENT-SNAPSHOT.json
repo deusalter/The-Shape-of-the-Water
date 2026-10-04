@@ -1,6 +1,13 @@
 {
+  "date": "2026-10-04",
+  "status": "live v2 first-night; L3 selected development draft",
+  "owner_approval": "none for particular new fictional decisions",
+  "live_file": "src/content/case-v2.json",
+  "live_file_sha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+  "legacy_file": "src/content/case.json",
   "legacy_unchanged": true,
-  "candidate_anchor_scene_text_unchanged": [
+  "legacy_sha256": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+  "exact_anchor_scene_text_unchanged": [
     "workshop",
     "shared",
     "ada_miriam",
@@ -11,19 +18,42 @@
     "miriam_private",
     "bench"
   ],
-  "candidate_file_sha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
   "drafts": [
     {
-      "file": "narrative/loop/BLAISE-FIRST-RETURN.md",
-      "stored_words_including_metadata_and_alternatives": 2355,
+      "file": "narrative/loop/ENDING-L3-AUDITIONS.md",
+      "stored_words_including_metadata_and_alternatives": 5677,
       "em_dashes": 0,
-      "sha256": "8f3077f9c38313bb394813c5db4b7c97c68a395664dc24038b66db220c28324a"
+      "sha256": "7154aac4ecbe2ac515184c0da80816faddc7675dfb8c42db3dfd6977ee29b79f"
+    },
+    {
+      "file": "narrative/loop/RETURN-INVESTIGATION-L3.md",
+      "stored_words_including_metadata_and_alternatives": 3838,
+      "em_dashes": 0,
+      "sha256": "2e54f9b844bbd6eacdaa4f202584c90fd3a8d8a3c9a3f80422bada119ec6cc36"
+    },
+    {
+      "file": "narrative/loop/BLAISE-FIRST-RETURN.md",
+      "stored_words_including_metadata_and_alternatives": 2356,
+      "em_dashes": 0,
+      "sha256": "53058900402c71cc898750090f70d2d729efcfad944ad0909b5983b3a50a605e"
     },
     {
       "file": "narrative/loop/BLAISE-ALLOWED.md",
-      "stored_words_including_metadata_and_alternatives": 1537,
+      "stored_words_including_metadata_and_alternatives": 1610,
       "em_dashes": 0,
-      "sha256": "4ccecbca3a55329d8a1de58a130fcd3a8840df50aab841acfd11b3341079dc29"
+      "sha256": "ab95d4f6b526e376bfa7b502ce0ab9c625ef278cfe2ecfdf32bcc17b4e102bf6"
+    },
+    {
+      "file": "narrative/loop/OCCASION-REQUIREMENTS-L3.md",
+      "stored_words_including_metadata_and_alternatives": 2354,
+      "em_dashes": 0,
+      "sha256": "540a1348eb5d66e9eb66ac285692652acd00d679b9a843d76dcf5b20d9073594"
+    },
+    {
+      "file": "narrative/loop/PARALOGISMS-WORKING-NOTE.md",
+      "stored_words_including_metadata_and_alternatives": 898,
+      "em_dashes": 0,
+      "sha256": "25828b3e9924cbc45a3eea87ae4bc3d1e4158412bf95853b16956daff72e5af8"
     },
     {
       "file": "narrative/loop/SELECTED-LEDGER-L2.md",
@@ -31,5 +61,33 @@
       "em_dashes": 0,
       "sha256": "b46674abcc3f30246a6c868f5115bc00b8d4d8189627342cc05c1d093d0cde29"
     }
-  ]
+  ],
+  "ending_fragments": [
+    {
+      "path": "narrative/loop/readings/ENDING-REFUSAL.md",
+      "passageWords": 2560,
+      "sha256": "e417b8577b31fd9743b99ccb5b18d56eab87ff4086be2d1b64ec2f2d7ba3969b"
+    },
+    {
+      "path": "narrative/loop/readings/ENDING-CANCELED-TEST.md",
+      "passageWords": 2961,
+      "sha256": "5e068c044bfac0101a34a988dc085903c46919d3fe300e0f6255225586c6cd57"
+    },
+    {
+      "path": "narrative/loop/readings/ENDING-SECOND-CROSSING.md",
+      "passageWords": 2917,
+      "sha256": "1f74e9bc34ef47849d90b458bad4e179cac4d2668e99d4509f2fad0d3a0dd16b"
+    }
+  ],
+  "review": "docs/reviews/L3-PHILOSOPHY-AND-CAUSALITY-04.md",
+  "review_scope": "Bounded source/prose review; its checked hashes precede the notified corner-to-splinter material edit. No new engine or human tests.",
+  "remaining": [
+    "Root-owned occasion contract and implementation",
+    "Actual integration of the loop sources and performed transitions",
+    "Developed protagonist-centered middle after co-presence",
+    "Ordinary and pressured encounters with each Miriam",
+    "Whole-route lengths and human playtest"
+  ],
+  "active_child_workers": 0,
+  "json_mutated_in_this_wave": false
 }

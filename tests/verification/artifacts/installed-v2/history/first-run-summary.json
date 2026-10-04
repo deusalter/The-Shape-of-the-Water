@@ -1,0 +1,11 @@
+{
+  "outcome": "FAIL",
+  "command": "pnpm exec vitest run tests/verification/installed-v2-routes.test.ts --reporter=verbose",
+  "startedAt": "2026-10-04T00:09:50Z",
+  "passed": 74,
+  "failed": 2,
+  "total": 76,
+  "scope": "Observed initial direct-run summary; full stdout not redirected",
+  "reason": "Two verifier assertions compared all interpretations to a snapshot taken before cabinet-revise, which intentionally adds revised-exit. Not a production defect; original card records and flags remained preserved.",
+  "caseSha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751"
+}

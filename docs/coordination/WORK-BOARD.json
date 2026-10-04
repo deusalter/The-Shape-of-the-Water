@@ -9,65 +9,71 @@
   "teams": {
     "protagonist": {
       "suggestedTitle": "Literary Game \u2014 Protagonist",
-      "permittedSlots": 0,
+      "permittedSlots": 1,
       "externalChatId": "01a1042a-8c74-70cd-924d-aeada8ddd03e",
-      "phase": "isolated chat awaiting populated repository",
+      "phase": "repository available; owner resume message required",
       "owns": [
         "docs/coordination/protagonist/STATUS.json",
         "docs/coordination/protagonist/RESPONSE.md",
         "docs/coordination/protagonist/work/**"
       ],
       "hostId": "durable",
-      "coordinationMode": "GitHub branches after owner creates empty private repository; creation permission denied to integration",
-      "branch": "team/protagonist"
+      "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+      "branch": "team/protagonist",
+      "requestId": "P-002"
     },
     "loop-plot": {
       "suggestedTitle": "Literary Game \u2014 Loop and Plot",
-      "permittedSlots": 0,
+      "permittedSlots": 1,
       "externalChatId": "01a1042a-ed4d-771e-8cd5-f21def1bf031",
-      "phase": "isolated chat awaiting populated repository",
+      "phase": "repository available; owner resume message required",
       "owns": [
         "docs/coordination/loop-plot/STATUS.json",
         "docs/coordination/loop-plot/RESPONSE.md",
         "docs/coordination/loop-plot/work/**"
       ],
       "hostId": "durable",
-      "coordinationMode": "GitHub branches after owner creates empty private repository; creation permission denied to integration",
-      "branch": "team/loop-plot"
+      "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+      "branch": "team/loop-plot",
+      "requestId": "T-002"
     },
     "literary": {
       "suggestedTitle": "Literary Game \u2014 Literary Review",
       "permittedSlots": 0,
       "externalChatId": "01a1042b-7bf0-7787-8a9a-73799016101f",
-      "phase": "isolated chat awaiting populated repository",
+      "phase": "repository available; owner resume message required",
       "owns": [
         "docs/coordination/literary/STATUS.json",
         "docs/coordination/literary/RESPONSE.md",
         "docs/coordination/literary/work/**"
       ],
       "hostId": "durable",
-      "coordinationMode": "GitHub branches after owner creates empty private repository; creation permission denied to integration",
-      "branch": "team/literary"
+      "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+      "branch": "team/literary",
+      "requestId": "L-002"
     },
     "integration-qa": {
       "suggestedTitle": "Literary Game \u2014 Integration QA",
       "permittedSlots": 0,
       "externalChatId": "01a1042b-95ae-70fa-ae28-8f476b95700c",
-      "phase": "isolated chat awaiting populated repository",
+      "phase": "repository available; owner resume message required",
       "owns": [
         "docs/coordination/integration-qa/STATUS.json",
         "docs/coordination/integration-qa/RESPONSE.md",
         "docs/coordination/integration-qa/work/**"
       ],
       "hostId": "durable",
-      "coordinationMode": "GitHub branches after owner creates empty private repository; creation permission denied to integration",
-      "branch": "team/integration-qa"
+      "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
+      "branch": "team/integration-qa",
+      "requestId": "Q-002"
     }
   },
   "repository": "https://github.com/deusalter/The-Shape-of-the-Water",
   "integrationBranch": "main",
-  "pushed": false,
+  "pushed": true,
   "visibilityObserved": "public; owner-selected destination",
   "commitAuthor": "deusalter",
-  "coauthorTrailers": false
+  "coauthorTrailers": false,
+  "publishedCheckpoint": "9f4928617fb88ad695e3d1262f25b19029045968",
+  "permitRevision": "2026-10-04-external-followup-002"
 }

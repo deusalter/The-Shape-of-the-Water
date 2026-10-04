@@ -1,0 +1,87 @@
+
+ RUN  v3.2.7 /workspace/literary-detective
+
+ ✓ tests/verification/installed-v2-routes.test.ts > the activated player entrypoint and installed legacy compatibility refer to the pinned authored v2 bundle 2ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > continuous-recording/optics-narrow/report-public/continue-stay 144ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > continuous-recording/optics-narrow/report-public/continue-supper-only 119ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > continuous-recording/optics-narrow/report-public/continue-leave 115ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > continuous-recording/optics-narrow/report-private/continue-stay 111ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > continuous-recording/optics-narrow/report-private/continue-supper-only 119ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > continuous-recording/optics-narrow/report-private/continue-leave 119ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > continuous-recording/optics-measure/report-public/continue-stay 110ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > continuous-recording/optics-measure/report-public/continue-supper-only 111ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > continuous-recording/optics-measure/report-public/continue-leave 110ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > continuous-recording/optics-measure/report-private/continue-stay 112ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > continuous-recording/optics-measure/report-private/continue-supper-only 114ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > continuous-recording/optics-measure/report-private/continue-leave 113ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > kept-reconstruction/optics-narrow/report-public/continue-stay 111ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > kept-reconstruction/optics-narrow/report-public/continue-supper-only 111ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > kept-reconstruction/optics-narrow/report-public/continue-leave 110ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > kept-reconstruction/optics-narrow/report-private/continue-stay 111ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > kept-reconstruction/optics-narrow/report-private/continue-supper-only 109ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > kept-reconstruction/optics-narrow/report-private/continue-leave 110ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > kept-reconstruction/optics-measure/report-public/continue-stay 110ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > kept-reconstruction/optics-measure/report-public/continue-supper-only 117ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > kept-reconstruction/optics-measure/report-public/continue-leave 111ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > kept-reconstruction/optics-measure/report-private/continue-stay 117ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > kept-reconstruction/optics-measure/report-private/continue-supper-only 124ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > kept-reconstruction/optics-measure/report-private/continue-leave 111ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-acknowledgment/optics-narrow/report-public/continue-stay 108ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-acknowledgment/optics-narrow/report-public/continue-supper-only 108ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-acknowledgment/optics-narrow/report-public/continue-leave 109ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-acknowledgment/optics-narrow/report-private/continue-stay 108ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-acknowledgment/optics-narrow/report-private/continue-supper-only 109ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-acknowledgment/optics-narrow/report-private/continue-leave 108ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-acknowledgment/optics-measure/report-public/continue-stay 109ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-acknowledgment/optics-measure/report-public/continue-supper-only 107ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-acknowledgment/optics-measure/report-public/continue-leave 107ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-acknowledgment/optics-measure/report-private/continue-stay 107ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-acknowledgment/optics-measure/report-private/continue-supper-only 107ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-acknowledgment/optics-measure/report-private/continue-leave 108ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-narrow/report-public/continue-stay 153ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-narrow/report-public/continue-supper-only 150ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-narrow/report-public/continue-leave 154ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-narrow/report-private/continue-stay 152ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-narrow/report-private/continue-supper-only 153ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-narrow/report-private/continue-leave 150ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-measure/report-public/continue-stay 150ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-measure/report-public/continue-supper-only 155ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-measure/report-public/continue-leave 151ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-measure/report-private/continue-stay 155ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-measure/report-private/continue-supper-only 154ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > atomic-fuller-account/optics-measure/report-private/continue-leave 151ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > every proper selected subset of 'continuous-recording' fails without using other notebook possessions 8ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > every proper selected subset of 'kept-reconstruction' fails without using other notebook possessions 10ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > every proper selected subset of 'atomic-acknowledgment' fails without using other notebook possessions 18ms
+ ✓ tests/verification/installed-v2-routes.test.ts > four declared minimal factual routes and all first-night dispositions > every proper selected subset of 'atomic-fuller-account' fails without using other notebook possessions 29ms
+ ✓ tests/verification/installed-v2-routes.test.ts > signaled interpersonal failure retains plausible factual access > pressing Miriam leads to a private refusal but a completed physical route 140ms
+ ✓ tests/verification/installed-v2-routes.test.ts > signaled interpersonal failure retains plausible factual access > accusing Simon closes private address but retains the actual recording and an ending 153ms
+ ✓ tests/verification/installed-v2-routes.test.ts > signaled interpersonal failure retains plausible factual access > both failures and private refusals still allow 'continuous-recording' 290ms
+ ✓ tests/verification/installed-v2-routes.test.ts > signaled interpersonal failure retains plausible factual access > both failures and private refusals still allow 'kept-reconstruction' 278ms
+ ✓ tests/verification/installed-v2-routes.test.ts > signaled interpersonal failure retains plausible factual access > both failures and private refusals still allow 'atomic-acknowledgment' 275ms
+ ✓ tests/verification/installed-v2-routes.test.ts > signaled interpersonal failure retains plausible factual access > both failures and private refusals still allow 'atomic-fuller-account' 282ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed knowledge, selection and historical reading boundaries > factual support remains private until actual disclosure, with belief and prior claim separate 16ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed knowledge, selection and historical reading boundaries > earned private confidence is not disclosed by sharing the factual account or reporting publicly 138ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed knowledge, selection and historical reading boundaries > selecting the whole notebook cannot turn private confidence or intent claims into factual proof 30ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed knowledge, selection and historical reading boundaries > progression flags alone cannot share a finding, and unavailable source IDs reject generically 9ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed knowledge, selection and historical reading boundaries > initial projection/export omit hidden literal sources, NPC internals, ending paragraphs and unavailable readings 2ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed knowledge, selection and historical reading boundaries > early inference, literal latch record and past passage survive test, explicit reading and return 21ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed knowledge, selection and historical reading boundaries > revisiting after optics-narrow cannot acquire the contradictory card commitment 36ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed knowledge, selection and historical reading boundaries > revisiting after optics-measure cannot acquire the contradictory card commitment 36ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed knowledge, selection and historical reading boundaries > actual hint stays unavailable until a source is encountered and never submits the answer 6ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed exact legacy bundle and reviewed manifest on problematic histories > 'early-wrong-latch-inference' preserves exact past and invents no selected proof 96ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed exact legacy bundle and reviewed manifest on problematic histories > 'both-interpersonal-failures-and-priva…' preserves exact past and invents no selected proof 140ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed exact legacy bundle and reviewed manifest on problematic histories > 'heard-private-care-without-new-source…' preserves exact past and invents no selected proof 114ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed exact legacy bundle and reviewed manifest on problematic histories > 'old-implicit-factual-progress' preserves exact past and invents no selected proof 85ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed exact legacy bundle and reviewed manifest on problematic histories > 'committed-optics-before-report' preserves exact past and invents no selected proof 110ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed exact legacy bundle and reviewed manifest on problematic histories > 'public-report-before-ending' preserves exact past and invents no selected proof 45ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed exact legacy bundle and reviewed manifest on problematic histories > 'private-report-ended-leave' preserves exact past and invents no selected proof 41ms
+ ✓ tests/verification/installed-v2-routes.test.ts > installed exact legacy bundle and reviewed manifest on problematic histories > 'public-report-ended-supper' preserves exact past and invents no selected proof 42ms
+
+ Test Files  1 passed (1)
+      Tests  76 passed (76)
+   Start at  00:16:43
+   Duration  8.83s (transform 141ms, setup 0ms, collect 279ms, tests 8.35s, environment 0ms, prepare 57ms)
+
+INCONCLUSIVE conditional navigation: states=11257, transitions=24960, frontier=5841, stop=time-budget
+INCONCLUSIVE installed-case verification; tests=PASS; sourceStable=true

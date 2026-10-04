@@ -10,6 +10,6 @@ Kant: reality, sensibility, objective experience, phenomena, things in themselve
 
 No em dashes in original narrative. Historical given names plus literary surnames, verified provenance and intentional character-specific symbolic significance (see docs/OWNER-NAMING-CLARIFICATION-2026-10-03.md). Idiosyncrasy varies; ordinary life matters. No cosmic registries or bureaucratic metaphysics. Keep the causal mystery solvable separately from metaphysical interpretation.
 
-Use React/TypeScript/Vite, pure deterministic engine, validated static content and IndexedDB. No runtime AI. Preserve transcript text as seen. Test actual behavior and record limits; simulated readers are not human playtests. No deployment, pushes, paid services, credentials or account operations.
+Use React/TypeScript/Vite, pure deterministic engine, validated static content and IndexedDB. No runtime AI. Preserve transcript text as seen. Test actual behavior and record limits; simulated readers are not human playtests. The owner subsequently authorized commits and pushes to https://github.com/deusalter/The-Shape-of-the-Water as deusalter, without coauthor trailers; read docs/OWNER-GITHUB-AUTHORIZATION-2026-10-04.md. No public site deployment, paid services, credential disclosure or unrelated account operations.
 
 Current ownership is recorded in docs/execution/STATE.json. Workers must stay in their assigned paths. Preserve accepted and rejected drafts, exact voice anchors, source evidence and continuation files. Active revision ends when this session ends; promise no background work.
