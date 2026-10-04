@@ -1,0 +1,288 @@
+{
+  "kind": "author-review-outline-not-runtime",
+  "inputCommit": "69ec3ca3b22238612a5c806c992ed5e212ed2006",
+  "start": "start",
+  "nodes": [
+    {
+      "id": "start",
+      "occasion": "o0",
+      "description": "First-night arrival",
+      "terminal": false
+    },
+    {
+      "id": "proof_film",
+      "occasion": "o0",
+      "description": "Actual selected film proof",
+      "terminal": false
+    },
+    {
+      "id": "proof_reconstruct",
+      "occasion": "o0",
+      "description": "Actual selected reconstruction and testimony proof",
+      "terminal": false
+    },
+    {
+      "id": "sunday",
+      "occasion": "o0",
+      "description": "Sunday bridge, chair contact, marking and witnessed front departure",
+      "terminal": false
+    },
+    {
+      "id": "first_return",
+      "occasion": "o1",
+      "description": "First service discontinuity and exact anchor",
+      "terminal": false
+    },
+    {
+      "id": "intervene",
+      "occasion": "o1",
+      "description": "Blue/silence and three Saturday labels",
+      "terminal": false
+    },
+    {
+      "id": "ada",
+      "occasion": "o1",
+      "description": "Current Ada encounter",
+      "terminal": false
+    },
+    {
+      "id": "co_presence",
+      "occasion": "o1",
+      "description": "Knock and simultaneous encounter",
+      "terminal": false
+    },
+    {
+      "id": "calendar",
+      "occasion": "o1",
+      "description": "Three Sunday screens and differentiated histories",
+      "terminal": false
+    },
+    {
+      "id": "material_choice",
+      "occasion": "o1",
+      "description": "Register bounded description",
+      "terminal": false
+    },
+    {
+      "id": "watch_box",
+      "occasion": "o1",
+      "description": "B watches box; Ada retrieves outside",
+      "terminal": false
+    },
+    {
+      "id": "retrieve_front",
+      "occasion": "o1",
+      "description": "B/A retrieve; S reports box",
+      "terminal": false
+    },
+    {
+      "id": "pair",
+      "occasion": "o1",
+      "description": "Current pair and new circle",
+      "terminal": false
+    },
+    {
+      "id": "allowed",
+      "occasion": "o1",
+      "description": "Interior Miriam God/intention argument",
+      "terminal": false
+    },
+    {
+      "id": "table",
+      "occasion": "o1",
+      "description": "Identity/eternity exchange",
+      "terminal": false
+    },
+    {
+      "id": "offer_choice",
+      "occasion": "o1",
+      "description": "B-E02 optional private encounter",
+      "terminal": false
+    },
+    {
+      "id": "private_offer",
+      "occasion": "o1",
+      "description": "Ada offer heard without E",
+      "terminal": false
+    },
+    {
+      "id": "ending_choice",
+      "occasion": "o1",
+      "description": "Direct refusal or public trial discussion",
+      "terminal": false
+    },
+    {
+      "id": "direct_refusal",
+      "occasion": "o1",
+      "description": "Front departure after refusing trial",
+      "terminal": true
+    },
+    {
+      "id": "risk",
+      "occasion": "o1",
+      "description": "LP-E04 public risk and everyone-outside alternative",
+      "terminal": false
+    },
+    {
+      "id": "postpone",
+      "occasion": "o1",
+      "description": "All-front preservation, no service trial",
+      "terminal": true
+    },
+    {
+      "id": "roles",
+      "occasion": "o1",
+      "description": "Independent role decisions and exterior paper",
+      "terminal": false
+    },
+    {
+      "id": "departure",
+      "occasion": "o1",
+      "description": "E puts coat on, pockets paper and visibly departs front",
+      "terminal": false
+    },
+    {
+      "id": "camera",
+      "occasion": "o1",
+      "description": "Frame agreed, recording begins, final confirmation",
+      "terminal": false
+    },
+    {
+      "id": "cancel",
+      "occasion": "o1",
+      "description": "Stop recording, reunion, front departure",
+      "terminal": true
+    },
+    {
+      "id": "second_return",
+      "occasion": "o2",
+      "description": "Confirmed empty-handed trial to renewed anchor",
+      "terminal": false
+    },
+    {
+      "id": "ending_repeat",
+      "occasion": "o2",
+      "description": "E, proposed paper reinspection, protected callback, I2 encounter",
+      "terminal": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "start",
+      "to": "proof_film"
+    },
+    {
+      "from": "start",
+      "to": "proof_reconstruct"
+    },
+    {
+      "from": "proof_film",
+      "to": "sunday"
+    },
+    {
+      "from": "proof_reconstruct",
+      "to": "sunday"
+    },
+    {
+      "from": "sunday",
+      "to": "first_return"
+    },
+    {
+      "from": "first_return",
+      "to": "intervene"
+    },
+    {
+      "from": "intervene",
+      "to": "ada"
+    },
+    {
+      "from": "ada",
+      "to": "co_presence"
+    },
+    {
+      "from": "co_presence",
+      "to": "calendar"
+    },
+    {
+      "from": "calendar",
+      "to": "material_choice"
+    },
+    {
+      "from": "material_choice",
+      "to": "watch_box"
+    },
+    {
+      "from": "material_choice",
+      "to": "retrieve_front"
+    },
+    {
+      "from": "watch_box",
+      "to": "pair"
+    },
+    {
+      "from": "retrieve_front",
+      "to": "pair"
+    },
+    {
+      "from": "pair",
+      "to": "allowed"
+    },
+    {
+      "from": "allowed",
+      "to": "table"
+    },
+    {
+      "from": "table",
+      "to": "offer_choice"
+    },
+    {
+      "from": "offer_choice",
+      "to": "private_offer"
+    },
+    {
+      "from": "offer_choice",
+      "to": "ending_choice"
+    },
+    {
+      "from": "private_offer",
+      "to": "ending_choice"
+    },
+    {
+      "from": "ending_choice",
+      "to": "direct_refusal"
+    },
+    {
+      "from": "ending_choice",
+      "to": "risk"
+    },
+    {
+      "from": "risk",
+      "to": "postpone"
+    },
+    {
+      "from": "risk",
+      "to": "roles"
+    },
+    {
+      "from": "roles",
+      "to": "departure"
+    },
+    {
+      "from": "departure",
+      "to": "camera"
+    },
+    {
+      "from": "camera",
+      "to": "cancel"
+    },
+    {
+      "from": "camera",
+      "to": "second_return"
+    },
+    {
+      "from": "second_return",
+      "to": "ending_repeat"
+    }
+  ],
+  "limits": "Abstracts source microchoices, not complete v2 engine states or a playable bundle. Choice of philosophy never controls an edge. New circle and retained paper require lead selection as a bundle with dependent joins."
+}
