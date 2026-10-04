@@ -1,45 +1,41 @@
-# Current handoff: active expanded development, 2026-10-04
+# Active integration handoff, 2026-10-04
 
-The game is not complete. The owner requires a substantially developed psychological literary mystery, possible horror influence, a complex male protagonist, consequential Kant/Spinoza inquiry, and a4–6-hour first-play design target. No human duration, artistic success, approval or full acceptance is claimed. New explicit instructions override v4, then compatible revision3.
+The owner requires a substantially developed psychological literary mystery with male protagonist Blaise Bloom, recurrence, primary-source Kant and Spinoza inquiry, and intentional historical-given/literary-surname names. The game is not complete. No measured duration or literary acceptance is claimed. Newer owner decisions override v4 and compatible revision3.
 
-## Actual current application
+## Current playable build
 
-`src/main.tsx` now opens `Release`, the v2 evidence player and corrected Blaise case. `src/studio-main.tsx` opens the v2 author studio. The case is22scenes/52choices/19sources/one factual question, a short first-night case only. SHA256:8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751; semantic hash8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d. Lead has frozen JSON for root integration.
+The first-night case is now a real faceless 3D browser game: editable Blender bath, exported GLB, Three.js elevated third-person camera following Blaise, floor-click and keyboard movement, collision, and nearby authored interactions. React presents dialogue/notebook; the pure evidence engine and IndexedDB preserve progress. Disco Elysium is the owner's presentation reference. No GUI computer-use tool was available; Blender Python actually built the models. Rejected portraits are archived outside public assets.
 
-The unchanged v1 bundle is under src/content/legacy/case-v1.json, with installed reviewed compatibility mapping. Migration preserves exact previously encountered text and endings; it never invents selected deductions or private confidence from old flags. Earlier source and tested checkpoint c6c6845 remain in Git and archives.
+Current installed text is still frozen src/content/case-v2.json:22scenes,52choices,19sources, one factual question; SHA256 8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751. Earlier v1 and reviewed migration remain intact. This short case is not the complete game. See docs/ARCHITECTURE.md and docs/visual/3D-WORLD.md.
 
-Evidence runtime includes nested selected-reference AND/OR proof routes, provenance, separate NPC knowledge/beliefs/claims, explicit disclosure, guarded feedback, reveal receipts, monotonic readings, deterministic replay and encountered-only portable exports. Storage includes compare-and-swap ownership, run lineage, protected branches, retained versions and atomic corrupt-save repair with explicit confirmation. The new repair's own58tests and9Chromium groups passed; see docs/reviews/CORRUPT-OWNED-SLOT-REPAIR-2026-10-04.md.
+## Verified snapshot
 
-Author studio includes structured scene/source/question/condition/proof/character/reading editing, undo/redo, reference-aware scene rename/delete, full project versus compiled player exports, invalid-draft persistence, cancellable worker validation and isolated scenario injection. An injected scenario receives a different content identity; it cannot import as a normal player run. Actual integrated studio browser checks are running; no full author acceptance yet.
+Root isolated the frozen 3D tree in /workspace/literary-3d-verification. At 2e8b3c9, full verify passed310tests plus typecheck/content/both builds. Zoom-toolbar and studio-asset fixes were rebuilt; at828db5c, real built 3D browser checks and seven player/studio integration groups passed, including offline GLB loading. docs/execution/evidence/3d-built/VERIFICATION.md records hashes, screenshots, limitations and earlier failures. Chromium/software WebGL only; zero page errors, axe zero violations/two incomplete items. Neither recurrence nor the subsequent author repair is covered by this snapshot.
 
-Graphite/watercolor art is installed in the empty cabinet test, with location, Ada/Simon portraits and controlled evidence diagram. Source assets and generated-image provenance are saved. Broader cast/location production remains work.
+## Current active work and ownership
 
-## Current literary work
+- lead_writer alone owns final prose/canon, narrative/** and new src/content/case-expanded.json. It preserves v2 and compiles namespaced first-night prose plus Sunday inquiry, actual first crossing, co-presence, L4 ordinary middle and consequential endings. Target same content id with version3; no automatic old-save migration. Await candidate and route/staging map.
+- engineer owns src/engine/evidence-* and tests/occasion-*.test.ts. Finite scoped occasions, actual actor snapshots, historical/current evidence and recollection provenance are being implemented under docs/contracts/OCCASIONS-V2.md. No code-review or complete-game certification yet.
+- verification_engineer repairs two independently reproduced author draft durability bugs under src/studio/** and src/persistence/author-project.ts. Own tests and docs/reviews/AUTHOR-DURABILITY-03. Preserve strict player export and a nullable identity-scoped last-valid preview.
+- philosophical_critic owns docs/reviews/CROSS-TEAM-PHILOSOPHY-05.md and its source records. Bounded cross-team doctrine/causality review, not canon edits.
+- root owns 3D world, player/notebook labels, integration/loading/offline/shared contracts, acceptance and coordination. Some current root occasion-label changes remain uncommitted pending engine checks.
 
-Blaise Bloom joins Pascal and Leopold Bloom provisionally and intentionally. Male/trippy correction controls. Rejected Henrietta/job/room-appointment versions are archived. Read narrative/CURRENT-READING-ORDER.md and current loop files.
+Maximum four active subagents including descendants. Current four root workers fill the cap. External child slots are released and now zero in WORK-BOARD.json. Do not spawn recursively.
 
-L2 first return preserves the exact post-accident anchor and distinguishes remembered voice from currently heard sound. L3 selected development escalates to a retained exterior Miriam coexisting with a renewed interior Miriam. Read ENDING-L3-AUDITIONS.md, RETURN-INVESTIGATION-L3.md and OCCASION-REQUIREMENTS-L3.md. These are performed draft scenes and explicit requirements, not an implemented loop or a proof of historical doctrine. Single lead_writer decides integrated canon. Root must critique continuity/knowledge and define occasion runtime before installation.
+## Four external chats: collected
 
-## Verification and remaining work
+P-002, T-002, L-002 and Q-002 have all finished and published. Their branch histories and owned proposal/evidence files were merged at2e8b3c9; merging a proposal is not canon acceptance. Read each docs/coordination/<team>/RESPONSE.md and STATUS.json. Protagonist and loop teams used and released their permitted children. Requested models/efforts were not independently backend-attested.
 
-Latest full `pnpm verify`:231tests in22files PASS, typecheck PASS, active content validation PASS, player/studio builds PASS. Log is docs/execution/evidence/v2-integration/verify.txt after checkpoint preparation. Existing independent v2 wave34PASS remains pinned to its reported source. A new independent installed-case wave is active:48ending routes, actual proof alternatives, interpersonal failures and migration/privacy checks.
+Lead is adapting P-A music/admission and private/public promise, keeping its mutually exclusive alternative; T's registered-description correction, mandatory loss-of-access risk and all-front postponement; L's route-aware attention repairs. L4 remains the selected ordinary middle. Circle/paper test is unselected pending joins. Critic caught an Ada remembered-speech callback unavailable on two routes; lead is repairing it. Exact first-night paragraphs stay frozen; proposals to reopen them are deferred.
 
-Root's actual v2 browser suite is tools/browser-v2-check.mjs. Its first harness run stalled because the harness treated an open details attribute as false; corrected explicit null check and bounded action timeouts. New run is active. Browser report status is authoritative; do not invent PASS from build success. Legacy browser tests/reports remain preserved and do not certify this replacement UI.
+Q-002 reports15browser groups PASS and two author draft durability FAIL: different-ID invalid import cannot save because preview belongs to old project; clearing provenance makes save/export reject. Q-003 repair is active. Q-002 tested the older2D revision and does not certify the3D conversion.
 
-Next: finish repository handoff and actual v2 browser checks; review L3 and implement explicit occasion/current-evidence semantics; integrate substantial middle/endings; source-critical and blind reading review; complete remaining acceptance gaps and expanded art; preserve tested checkpoint then continue.
+## Next executable work
 
-## Teams and repository
+Finish Q-003 and occasion tests/review; freeze/review expanded candidate and actual route/privacy guards; add expanded3D staging with two independently placed, identically modeled Miriams; support encountered-only occasion labels and a separately retained first-night edition; run actual expanded routes/browser/offline checks; obtain bounded blind/causal review and revise. Update current accepted snapshots and continuation after each integrated wave. Do not stop at this technical checkpoint if authorized active work remains.
 
-Owner supplied https://github.com/deusalter/The-Shape-of-the-Water and instructed commits as deusalter without co-author tags. Local author/committer are configured accordingly. Repository is public as supplied; integration denied creating repositories and changing visibility. Latest explicit instruction authorizes pushing to this owner-specified destination. Push status is in WORK-BOARD.json. No public website deployment or paid service is authorized.
+## Repository and continuity
 
-Four owner-created chats were found and read; each has a separate filesystem and ended its initial turn for missing project files. No shared mailbox existed. Use GitHub branches and docs/coordination/GITHUB-WORKFLOW.md to continue. Native cross-chat send/create is unavailable; read/list/wait exist. An idle chat needs a user continuation; root cannot claim to dispatch it.
+Owner repository: https://github.com/deusalter/The-Shape-of-the-Water. Author and committer deusalter <212029343+deusalter@users.noreply.github.com>, no coauthor trailers. All historical work retained. Normal smart-HTTP push lacks credentials; authenticated non-forced tools/publish-git-via-api.py preserves/verifies exact object IDs. Fetch first; never force or reset. Published head is recorded in WORK-BOARD, with later publication receipt in Git/tool logs. Repository is public as supplied; no public site deployment is authorized.
 
-Current bounded internal waves have completed; two internal slots are reserved for lead_writer and engineer. External protagonist and loop-plot each have one child permit; the other two teams have zero. Consult WORK-BOARD.json on origin/main. Maximum four active subagents including descendants. Requested configurations are recorded, not backend-attested model claims.
-
-
-GitHub checkpoint `9f4928617fb88ad695e3d1262f25b19029045968` is verified published with complete prior history, preserving object identities. Smart HTTP push failed; tools/publish-git-via-api.py uses authenticated gh REST, exact object SHA checks and non-forced ref updates. Repository-local new commit author/committer is deusalter, with no coauthor trailers. The destination is public as supplied by the owner. Team branches and requests P-002/T-002/L-002/Q-002 carry the external continuation; native send/wake is absent.
-
-The independent installed v2 wave passed 76 tests with 55 terminal traces; broad bounded navigation remains INCONCLUSIVE, explicitly reported in docs/reviews/INSTALLED-V2-04.md. The L3 philosophy review and source records are saved. A built-browser studio Undo failure was reproduced and fixed by skipping no-op edits and reading synchronous current project state; source Chromium regression checks passed, with built rerun tracked in docs/execution/evidence/browser-v2/report.json. The earlier failure is retained as report-before-undo-repair.json.
-
-
-Final built Chromium rerun: all seven browser groups PASS, no page errors or external requests, unchanged active case hash. This includes the repaired Undo path, invalid-draft recovery, actual edited OR-proof export/reimport/execution, separate injected preview, artwork/reflow, offline behavior and ownership/ending branching. Both axe scans have zero reported violations and one incomplete item each; this is not a human accessibility certification. Source build/typecheck passed. Harness locator failures during the rerun were corrected to match actual accessible labels. The final report and exported runs are retained in docs/execution/evidence/browser-v2/.
+The four owner-created chats have separate filesystems. Native read/list/wait tools exist but native send/wake/create are unavailable here. Their completed work is now in this repository. Provide concrete new GitHub-backed tasks if further external work is needed; do not claim messages were sent. Internal subagents are directly messaged. Preserve decisions, rejected work, exact voice anchors, source records and this usable continuation. No background work is promised after active execution ends.

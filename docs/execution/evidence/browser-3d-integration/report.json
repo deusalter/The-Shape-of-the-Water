@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "scope": "Actual built v2 first-night case and author UI in Chromium; no human duration or full-game acceptance",
+  "sourceCaseSha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+  "manifest": {
+    "version": "4761e2f21d7251f2",
+    "contentHash": "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d",
+    "files": [
+      "art/release-binding.svg",
+      "assets/index-ColQprKF.css",
+      "assets/index-DCW1s-lE.js",
+      "index.html",
+      "world/bath-faceless.glb"
+    ],
+    "hashes": {
+      "art/release-binding.svg": "438580f7908badb831454979a5713d8c21f4be8ccacae2cf01f68d3092c2ccd4",
+      "assets/index-ColQprKF.css": "2c937fa887c1e7bbdf9ab7cbcfbd90abce0887e1c352882bcbcbb14efca3d89e",
+      "assets/index-DCW1s-lE.js": "1ff135c51f213790fc96e5d9b93f17fb8fa8132098ec10bee4b245dd4c49557d",
+      "index.html": "d45be121c33e77289d17447d37b929456a3a101201d32f16743968c33ea16e9f",
+      "world/bath-faceless.glb": "fca0c41c1fe8536f5e852530d22c36f3e77ddf7730e7db51a0fe58187ff73b59"
+    }
+  },
+  "checks": [
+    {
+      "name": "Actual v2 opening, keyboard selected-proof route and negative feedback",
+      "status": "PASS",
+      "detail": {
+        "acceptedCommands": 12,
+        "ending": true
+      }
+    },
+    {
+      "name": "Reload ownership and protected ending branch use actual controls",
+      "status": "PASS",
+      "detail": "Completed ending retained; branch changed the final decision."
+    },
+    {
+      "name": "Physical proof encounter, controlled diagram, responsive reading and axe",
+      "status": "PASS",
+      "detail": {
+        "imagesDecoded": 1,
+        "widths": [
+          1440,
+          390,
+          320
+        ],
+        "zoom": "CSS 200% plus large text",
+        "violations": 0,
+        "incomplete": 2
+      }
+    },
+    {
+      "name": "Built player, 3D model and diagram reload offline; corrupted cache never claims ready",
+      "status": "PASS",
+      "detail": "Real offline model loading, choices, saves and diagram work; altered cached bytes fail readiness."
+    },
+    {
+      "name": "Structured author edit, undo, invalid-draft persistence and worker validation",
+      "status": "PASS",
+      "detail": "Blank title survives storage; dedicated worker reports invalid draft; earlier valid preview still plays."
+    },
+    {
+      "name": "Author OR editing round-trip, annotations excluded and alternative actually executes",
+      "status": "PASS",
+      "detail": "UI-added noncanonical OR route survives author export/import and executes in real engine; annotations stay out of player content."
+    },
+    {
+      "name": "Injected preview is separately identified, export-incompatible, accessible and isolated",
+      "status": "PASS",
+      "detail": {
+        "violations": 0,
+        "incomplete": 2
+      }
+    }
+  ],
+  "pageErrors": [],
+  "externalRequests": [],
+  "notTested": [
+    "Firefox",
+    "WebKit",
+    "human reading time",
+    "real screen reader",
+    "unimplemented recurrence runtime",
+    "whole-game literary acceptance"
+  ],
+  "sourceCaseSha256After": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+  "sourceStable": true
+}

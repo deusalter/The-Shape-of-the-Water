@@ -14,7 +14,7 @@ The diagnostic cabinet drawing remains a separately authored accessible reconstr
 
 ## Verification
 
-Three navigation tests pass, including routes around the pool and collision sliding. The actual Chromium 3D check at `tools/browser-3d-check.mjs` loads the GLB, moves Blaise with real keys, performs a proximity action through the real engine, checks travel staging and controlled evidence, and captures 1440/390/320 layouts. The latest report has no page errors, zero axe violations and two incomplete axe items. It uses software WebGL in the cloud; that is not a hardware/performance or human-accessibility certification. Exact source/model pins and screenshots are in docs/execution/evidence/3d-first-bath/. Built/offline verification is recorded separately when executed.
+Three navigation tests pass, including routes around the pool and collision sliding. The actual Chromium 3D check at `tools/browser-3d-check.mjs` loads the GLB, moves Blaise with real keys, performs a proximity action through the real engine, checks travel staging and controlled evidence, and captures 1440/390/320 layouts. The latest report has no page errors, zero axe violations and two incomplete axe items. It uses software WebGL in the cloud; that is not a hardware/performance or human-accessibility certification. Exact source/model pins and screenshots are in docs/execution/evidence/3d-first-bath/. Built/offline verification passed at 828db5c; see docs/execution/evidence/3d-built/VERIFICATION.md for exact scope, repaired zoom issue and harness limits.
 
 ## Preserved rejected work
 

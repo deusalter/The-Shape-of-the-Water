@@ -41,17 +41,17 @@
       "docs/contracts/OCCASIONS-ENGINE-PROPOSAL.md"
     ],
     "verification_engineer": [
-      "tests/verification/**",
-      "tools/verify-*",
-      "docs/reviews/ENGINE-VERIFICATION.md"
+      "src/studio/**",
+      "src/persistence/author-project.ts",
+      "tests/author-draft-durability*.test.ts",
+      "docs/reviews/AUTHOR-DURABILITY-03/**"
     ],
     "critics": [
       "assigned docs/reviews/*.md only; no canonical edits"
     ],
     "philosophical_critic": [
-      "research/philosophy/CONTINUATION-CHECKS.md",
-      "research/philosophy/sources/expansion-*",
-      "docs/reviews/PHILOSOPHY-EXPANSION-02.md"
+      "docs/reviews/CROSS-TEAM-PHILOSOPHY-05.md",
+      "research/philosophy/sources/cross-team-05-*"
     ],
     "visual_producer": [
       "public/art/**",
@@ -70,7 +70,9 @@
   "canonicalContentHash": "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d",
   "activeWorkers": [
     "lead_writer",
-    "engineer"
+    "engineer",
+    "verification_engineer: Q-003 repair",
+    "philosophical_critic: cross-team review"
   ],
   "editorialAuthority": "lead_writer; accepted baseline in narrative/accepted/MANIFEST.json; root does not independently rewrite canon",
   "tasks": {
@@ -265,7 +267,8 @@
     "independentV2PureEngine": "34 PASS at pinned prior runtime",
     "saveRepair": "engineer reports56 targeted PASS; independent integration pending",
     "fullVerify": "231 tests in22files, typecheck, content, both builds PASS",
-    "faceless3D": "Development Chromium movement/proximity/layout/axe PASS; built/offline test pending."
+    "faceless3D": "Built Chromium movement/proximity/layout/axe PASS; seven integration groups including offline GLB and author preview PASS at828db5c. 310 tests and both builds PASS before bounded presentation fixes; rebuilt after fixes.",
+    "externalQ002": "15 PASS, 2 author durability FAIL; separate Q-003 repair underway."
   },
   "reservedWorkers": [
     "lead_writer: sole canon authority; next integration",

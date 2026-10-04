@@ -1,0 +1,71 @@
+{
+  "status": "FAIL",
+  "scope": "Actual built v2 first-night case and author UI in Chromium; no human duration or full-game acceptance",
+  "sourceCaseSha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+  "manifest": {
+    "version": "27d19cbd46f3912c",
+    "contentHash": "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d",
+    "files": [
+      "art/release-binding.svg",
+      "assets/index-BcdLdMHb.js",
+      "assets/index-ColQprKF.css",
+      "index.html",
+      "world/bath-faceless.glb"
+    ],
+    "hashes": {
+      "art/release-binding.svg": "438580f7908badb831454979a5713d8c21f4be8ccacae2cf01f68d3092c2ccd4",
+      "assets/index-BcdLdMHb.js": "8c208321beb44e71e5928abad2abca11b43612bb5980e738d096223ea8576337",
+      "assets/index-ColQprKF.css": "2c937fa887c1e7bbdf9ab7cbcfbd90abce0887e1c352882bcbcbb14efca3d89e",
+      "index.html": "f19424d7e4d9809df3bcca369eef90d077061dc2c1b6fdcb9106b47fe6973d16",
+      "world/bath-faceless.glb": "fca0c41c1fe8536f5e852530d22c36f3e77ddf7730e7db51a0fe58187ff73b59"
+    }
+  },
+  "checks": [
+    {
+      "name": "Actual v2 opening, keyboard selected-proof route and negative feedback",
+      "status": "PASS",
+      "detail": {
+        "acceptedCommands": 12,
+        "ending": true
+      }
+    },
+    {
+      "name": "Reload ownership and protected ending branch use actual controls",
+      "status": "PASS",
+      "detail": "Completed ending retained; branch changed the final decision."
+    },
+    {
+      "name": "Physical proof encounter, controlled diagram, responsive reading and axe",
+      "status": "PASS",
+      "detail": {
+        "imagesDecoded": 1,
+        "widths": [
+          1440,
+          390,
+          320
+        ],
+        "zoom": "CSS 200% plus large text",
+        "violations": 0,
+        "incomplete": 2
+      }
+    },
+    {
+      "name": "Built player, 3D model and diagram reload offline; corrupted cache never claims ready",
+      "status": "FAIL",
+      "error": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.bath-world-canvas')\nExpected: \"true\"\nReceived: \"\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.bath-world-canvas') with timeout 5000ms\n  - waiting for locator('.bath-world-canvas')\n"
+    }
+  ],
+  "pageErrors": [],
+  "externalRequests": [],
+  "notTested": [
+    "Firefox",
+    "WebKit",
+    "human reading time",
+    "real screen reader",
+    "unimplemented recurrence runtime",
+    "whole-game literary acceptance"
+  ],
+  "failure": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.bath-world-canvas')\nExpected: \"true\"\nReceived: \"\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.bath-world-canvas') with timeout 5000ms\n  - waiting for locator('.bath-world-canvas')\n",
+  "sourceCaseSha256After": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+  "sourceStable": true
+}

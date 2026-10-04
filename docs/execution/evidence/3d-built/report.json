@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "model": "fca0c41c1fe8536f5e852530d22c36f3e77ddf7730e7db51a0fe58187ff73b59",
+  "sourceHashes": {
+    "src/world/BathWorld.tsx": "b9b17cc843000955e1569fde1c2107040be5332c9e2051793d881faa9c456999",
+    "src/world/navigation.ts": "f02950942d40e033bcde7c4061d739f1ed355576d8b5afbb8dd2c97400c3a16d",
+    "src/world/staging.ts": "031dad12390fa9e8eb9c2c01ca8b3fe1c256d793970c5528f4c959c407301da1",
+    "src/components/EvidencePlayer.tsx": "f9c46d7e1af10fe8dc5d5cc7012b419a475fbb5059ec6f38d0156a4239709c9b"
+  },
+  "checks": [
+    "Real keyboard movement in loaded Blender model",
+    "Proximity interaction dispatches a real authored choice through the existing engine",
+    "Authored travel stages Blaise at the current conversation",
+    "Controlled evidence diagram remains accessible without portraits",
+    {
+      "accessibilityViolations": 0,
+      "incomplete": 2
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "first-night world only",
+    "Blender scene is provisional spatial staging, not a measured apparatus",
+    "no human playtest",
+    "Chromium only"
+  ]
+}
