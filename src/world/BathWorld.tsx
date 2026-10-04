@@ -16,7 +16,7 @@ export function BathWorld(props:Props){
   const keys=new Set<string>(),scene=new THREE.Scene();scene.background=new THREE.Color('#1a2321');scene.fog=new THREE.Fog('#1a2321',48,90);
   let renderer:THREE.WebGLRenderer;
   try{renderer=new THREE.WebGLRenderer({antialias:true,alpha:false,powerPreference:'low-power'});}catch{setStatus('The 3D view could not start. Dialogue and all actions remain available below.');setFailed(true);return;}
-  renderer.setPixelRatio(Math.min(devicePixelRatio,1.7));renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.25;
+  renderer.setPixelRatio(Math.min(devicePixelRatio,1.7));renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFShadowMap;renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.25;
   renderer.domElement.setAttribute('aria-hidden','true');host.appendChild(renderer.domElement);
   const camera=new THREE.OrthographicCamera(-14,14,9,-9,0.1,120);camera.position.set(15,18,25);
   const ambient=new THREE.HemisphereLight('#c7d6d0','#4e4635',1.15);scene.add(ambient);
