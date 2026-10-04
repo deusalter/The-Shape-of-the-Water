@@ -16,3 +16,5 @@ Continue in response to the owner's next concrete feedback. No background activi
 Optimized release publication is verified at commit `2709f78a74b416afd4b46ed7b24eaf966cf92d6d`; inspect `docs/execution/evidence/mercy-optimization/PUBLICATION.json` for its immutable download and digest. No publication blocker remains.
 
 Mac app publication is verified at `53c2e39c6f063dd2f567b64a49c57b4ad3ff4c31`; the exact download and digest are in `docs/execution/evidence/mac-launcher/PUBLICATION.json`. Startup on a native Mac remains the stated unverified platform check.
+
+Visual update publication is verified at `82dd0c87d1c9dfce10d31336722be07bac62d620`, as deusalter without coauthor trailers. Both downloaded archives returned HTTP200 and exactly matched their recorded bytes/SHA256. Current game asset build is `61a21436c14afcbc`; see `docs/execution/evidence/visual-design/PUBLICATION.json`. A subsequent documentation-only commit records this receipt and does not change the tested game or packages.

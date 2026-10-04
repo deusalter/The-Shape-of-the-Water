@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "date": "2026-10-04",
-  "status": "visual-design-verified-publication-pending",
+  "status": "visual-design-published",
   "baseline": {
     "revision3": "baseline/revision3",
     "archiveSha256": "9ac1a34024dc678267cb0dda059b06ac7fd151d4db4c91a2ec509331ed77f7df",
@@ -218,6 +218,12 @@
       "evidence": "docs/execution/evidence/mercy-content/verification.json",
       "field": "outcome",
       "expected": "PASS"
+    },
+    {
+      "name": "published visual release and both exact downloaded archives",
+      "evidence": "docs/execution/evidence/visual-design/PUBLICATION.json",
+      "field": "status",
+      "expected": "PASS"
     }
   ],
   "releaseVersion": "1.0.2",
@@ -231,12 +237,13 @@
     "publicSiteDeployed": false
   },
   "publication": {
-    "status": "PENDING",
+    "status": "PASS",
     "receipt": "docs/execution/evidence/visual-design/PUBLICATION.json",
     "destination": "https://github.com/deusalter/The-Shape-of-the-Water",
     "author": "deusalter",
     "coauthorTrailers": false,
-    "publicSiteDeployed": false
+    "publicSiteDeployed": false,
+    "releaseCommit": "82dd0c87d1c9dfce10d31336722be07bac62d620"
   },
   "currentVerification": {
     "unitBuild": "docs/execution/evidence/visual-design/VERIFY.json",
@@ -285,8 +292,11 @@
     "nativeMacExecutionVerified": false,
     "notarized": false,
     "publication": {
-      "status": "PENDING",
-      "receipt": "docs/execution/evidence/visual-design/PUBLICATION.json"
+      "status": "PASS",
+      "receipt": "docs/execution/evidence/visual-design/PUBLICATION.json",
+      "releaseCommit": "82dd0c87d1c9dfce10d31336722be07bac62d620",
+      "author": "deusalter",
+      "coauthorTrailers": false
     },
     "previousPublication": {
       "status": "PASS",

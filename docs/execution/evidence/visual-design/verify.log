@@ -1,0 +1,194 @@
+Already up to date
+Done in 473ms using pnpm v11.19.0
+$ pnpm typecheck && pnpm test && pnpm content:validate && pnpm build
+$ tsc --noEmit
+$ vitest run
+
+ RUN  v3.2.7 /workspace/mercy-visual-clean
+
+ ✓ tests/evidence-player-controller.test.ts (22 tests) 669ms
+ ✓ tests/occasion-runtime.test.ts (20 tests) 275ms
+ ✓ tests/evidence-engine.test.ts (30 tests) 157ms
+ ✓ tests/verification/evidence-v2-independent.test.ts (30 tests) 4409ms
+   ✓ independent closure, schema bounds and command properties > deterministic frozen-input programs roundtrip every internal field; accepted IDs deduplicate  679ms
+   ✓ independent portable replay, reviewed migration and byte limits > valid large multibyte run roundtrips; next passage exceeding byte budget rejects with original state intact  3325ms
+ ✓ tests/ownership.test.ts (18 tests) 112ms
+ ✓ tests/occasion-legacy.test.ts (56 tests) 4007ms
+ ✓ tests/occasion-validation.test.ts (60 tests) 1213ms
+   ✓ occasion feature gate and bounded semantic validation > rejects an opted-in opening whose duplicated captured prose exceeds the unchanged run budget  1070ms
+ ✓ tests/verification/authored-routes.test.ts (30 tests) 879ms
+   ✓ authored guarded evidence routes (not v3 submitted-proof semantics) > seeded authored programs preserve immutable history and replay exactly  465ms
+ ✓ tests/verification/properties.test.ts (11 tests) 2030ms
+   ✓ independent properties seed=20261003 runs=120 > replay and save roundtrip deterministically preserve every consequential field  649ms
+   ✓ independent properties seed=20261003 runs=120 > frozen input bytes and literal record/passage occurrences never change  674ms
+ ✓ tests/verification/persistence.test.ts (8 tests) 93ms
+ ✓ tests/storage.test.ts (9 tests) 123ms
+ ✓ tests/evidence-migration.test.ts (12 tests) 118ms
+ ✓ tests/verification/installed-v2-routes.test.ts (76 tests) 14254ms
+   ✓ signaled interpersonal failure retains plausible factual access > both failures and private refusals still allow 'continuous-recording'  462ms
+   ✓ signaled interpersonal failure retains plausible factual access > both failures and private refusals still allow 'kept-reconstruction'  479ms
+   ✓ signaled interpersonal failure retains plausible factual access > both failures and private refusals still allow 'atomic-acknowledgment'  436ms
+   ✓ signaled interpersonal failure retains plausible factual access > both failures and private refusals still allow 'atomic-fuller-account'  456ms
+ ✓ tests/occasion-author-ui.test.ts (7 tests) 110ms
+ ✓ tests/author-draft-durability.test.ts (13 tests) 538ms
+ ✓ tests/engine.test.ts (9 tests) 24ms
+ ✓ tests/versioned-persistence.test.ts (8 tests) 179ms
+ ✓ tests/mercy-world.test.ts (8 tests) 1464ms
+   ✓ Mercy current-scene staging and bounded exploration > builds original actual 3D geometry for all locations, with no faces, portraits or fetched textures  1281ms
+ ✓ tests/mercy-content.test.ts (11 tests) 12313ms
+   ✓ The Mercy of Morning complete static candidate > compiles exactly the lead modules, preserving prose and physical staging  979ms
+   ✓ The Mercy of Morning complete static candidate > replays the completed 'a3.final-horse::a3.final-horse.base' coda with exact seen text  2082ms
+   ✓ The Mercy of Morning complete static candidate > replays the completed 'a2.letter::invitation' coda with exact seen text  1920ms
+   ✓ The Mercy of Morning complete static candidate > replays the completed 'a2.letter::a2.letter.base' coda with exact seen text  1542ms
+   ✓ The Mercy of Morning complete static candidate > completes the selected factual finding with the alternate written account and philosophical response  982ms
+   ✓ The Mercy of Morning complete static candidate > keeps the disappearance finding after both Julian disclosure responses and allows an optional continuation  401ms
+   ✓ The Mercy of Morning complete static candidate > preserves the player record while a restored Blaise learns the intervening history  547ms
+   ✓ The Mercy of Morning complete static candidate > shares public testimony only after the player actually gives it  717ms
+   ✓ The Mercy of Morning complete static candidate > tells the returning Julian which public inquiry occurred before its relationship consequence  3035ms
+ ✓ tests/country-world-assets.test.ts (5 tests) 135ms
+ ✓ tests/edition-loading.test.ts (3 tests) 1091ms
+   ✓ edition loading from the browser registry > opens only the requested text, caches validation, and keeps exact retained replay identities  1087ms
+ ✓ tests/mercy-demand-renderer.test.ts (7 tests) 332ms
+ ✓ tests/replacement-intent.test.ts (7 tests) 94ms
+ ✓ tests/verification/dependencies.test.ts (4 tests) 269ms
+ ✓ tests/author-project.test.ts (5 tests) 93ms
+ ✓ tests/occasion-review-regressions.test.ts (6 tests) 114ms
+ ✓ tests/rebuild-world-assets.test.ts (5 tests) 19ms
+ ✓ tests/run-metadata.test.ts (3 tests) 134ms
+ ✓ tests/studio-storage.test.ts (8 tests) 73ms
+ ✓ tests/installed-case.test.ts (3 tests) 476ms
+ ✓ tests/case.test.ts (3 tests) 81ms
+ ✓ tests/offline.test.ts (5 tests) 34ms
+ ✓ tests/edition-retention.test.ts (4 tests) 663ms
+   ✓ retained story editions > retains the country chapter and replays its completed run only against that exact content  368ms
+ ✓ tests/rebuild-world-navigation.test.ts (5 tests) 46ms
+ ✓ tests/notebook-occasion.test.ts (3 tests) 97ms
+ ✓ tests/verification/explorer.test.ts (4 tests) 36ms
+ ✓ tests/player-loading-ui.test.ts (2 tests) 82ms
+ ✓ tests/world-navigation.test.ts (3 tests) 54ms
+ ✓ tests/preview-scenario.test.ts (2 tests) 74ms
+ ✓ tests/world-staging.test.ts (2 tests) 3ms
+ ✓ tests/evidence-budget.test.ts (3 tests) 4181ms
+   ✓ bounded replayable run resources > rejects a would-exceed command, preserves its prior state and permits actual export/reimport  3049ms
+   ✓ bounded replayable run resources > refuses oversized initial state without truncating any authored paragraph  367ms
+   ✓ bounded replayable run resources > refuses a migrated prefix that cannot fit both checkpoint and encountered export  764ms
+
+ Test Files  41 passed (41)
+      Tests  530 passed (530)
+   Start at  22:58:51
+   Duration  25.76s (transform 1.81s, setup 0ms, collect 9.95s, tests 51.15s, environment 6ms, prepare 3.88s)
+
+$ node tools/check-content.mjs
+{
+  "status": "PASS",
+  "path": "src/content/case-v7.json",
+  "schemaVersion": 2,
+  "scope": "Content schema, graph references and original-narrative punctuation only; not solvability, playtime or literary quality",
+  "sha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "canonicalContentHash": "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+  "scenes": 62,
+  "choices": 75,
+  "authoredWordsIncludingVariantsChoicesAndNotes": 25132,
+  "paragraphs": 1302,
+  "validation": "PASS",
+  "issues": []
+}
+$ tsc -b && vite build --mode player && node tools/engine-offline-manifest.mjs dist-player && vite build --mode studio
+vite v7.3.6 building client environment for player...
+transforming...
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js (74:0): A comment
+
+"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
+ * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
+ * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js (400:0): A comment
+
+"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+✓ 193 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-player/index.html                                0.41 kB │ gzip:   0.29 kB
+dist-player/assets/MercyWorld-C5mF38X8.css            2.22 kB │ gzip:   0.89 kB
+dist-player/assets/RebuildWorld-8fDb1NT9.css          2.42 kB │ gzip:   0.87 kB
+dist-player/assets/CountryWorld-z_TKLLza.css          2.42 kB │ gzip:   0.87 kB
+dist-player/assets/BathWorld-DdzgXQUT.css             2.83 kB │ gzip:   1.04 kB
+dist-player/assets/index-UDZfP3Mt.css                17.83 kB │ gzip:   4.42 kB
+dist-player/assets/profiles-DJgg0Y7U.js               9.32 kB │ gzip:   3.01 kB
+dist-player/assets/CountryWorld-B2eoY0az.js          10.07 kB │ gzip:   4.41 kB
+dist-player/assets/BathWorld-DSWBst7A.js             10.55 kB │ gzip:   4.60 kB
+dist-player/assets/RebuildWorld-CQw8DFKj.js          19.75 kB │ gzip:   7.31 kB
+dist-player/assets/GLTFLoader-D_f0fob5.js            44.77 kB │ gzip:  13.51 kB
+dist-player/assets/MercyWorld-DYsKVOGQ.js            52.15 kB │ gzip:  17.00 kB
+dist-player/assets/case-v4-Do3QT9UZ.js               67.89 kB │ gzip:  19.34 kB
+dist-player/assets/load-compatibility-Bg_McB7r.js    83.14 kB │ gzip:  23.41 kB
+dist-player/assets/case-v2-BZmxKTkW.js              102.13 kB │ gzip:  27.69 kB
+dist-player/assets/case-v5-WMV-7END.js              119.79 kB │ gzip:  32.36 kB
+dist-player/assets/case-v7-B8L3mVuJ.js              207.27 kB │ gzip:  56.98 kB
+dist-player/assets/index-DoP7UUU0.js                435.43 kB │ gzip: 130.74 kB
+dist-player/assets/BufferGeometryUtils-ndc3YYxy.js  587.55 kB │ gzip: 147.84 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 4.81s
+Offline manifest: 23 local files, build e4eb157aa0fc60a4
+vite v7.3.6 building client environment for studio...
+transforming...
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js (400:0): A comment
+
+"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js (74:0): A comment
+
+"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
+ * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
+ * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js (74:0): A comment
+
+"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
+ * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
+ * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js (400:0): A comment
+
+"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+✓ 200 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-studio/studio.html                               0.39 kB │ gzip:   0.28 kB
+dist-studio/assets/validation-worker-D_3bKwGY.js    119.67 kB
+dist-studio/assets/MercyWorld-C5mF38X8.css            2.22 kB │ gzip:   0.89 kB
+dist-studio/assets/RebuildWorld-8fDb1NT9.css          2.42 kB │ gzip:   0.87 kB
+dist-studio/assets/CountryWorld-z_TKLLza.css          2.42 kB │ gzip:   0.87 kB
+dist-studio/assets/BathWorld-DdzgXQUT.css             2.83 kB │ gzip:   1.04 kB
+dist-studio/assets/studio-Aco3YXSB.css               18.44 kB │ gzip:   4.54 kB
+dist-studio/assets/profiles-DJgg0Y7U.js               9.32 kB │ gzip:   3.01 kB
+dist-studio/assets/CountryWorld-9x_ICxOT.js          10.07 kB │ gzip:   4.41 kB
+dist-studio/assets/BathWorld-Ik2UnSuI.js             10.55 kB │ gzip:   4.60 kB
+dist-studio/assets/RebuildWorld-WWd_B2TU.js          19.75 kB │ gzip:   7.31 kB
+dist-studio/assets/GLTFLoader-D_f0fob5.js            44.77 kB │ gzip:  13.51 kB
+dist-studio/assets/MercyWorld-Bx5B1lQV.js            52.15 kB │ gzip:  17.00 kB
+dist-studio/assets/case-v4-Do3QT9UZ.js               67.89 kB │ gzip:  19.34 kB
+dist-studio/assets/load-compatibility-8fgl7IX5.js    83.14 kB │ gzip:  23.41 kB
+dist-studio/assets/case-v2-BZmxKTkW.js              102.13 kB │ gzip:  27.69 kB
+dist-studio/assets/case-v5-WMV-7END.js              119.79 kB │ gzip:  32.36 kB
+dist-studio/assets/case-v7-B8L3mVuJ.js              207.27 kB │ gzip:  56.98 kB
+dist-studio/assets/studio-GiiYIZi4.js               477.50 kB │ gzip: 141.81 kB
+dist-studio/assets/BufferGeometryUtils-ndc3YYxy.js  587.55 kB │ gzip: 147.84 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 5.82s

@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "verifiedAtUTC": "2026-10-04T23:13:51.258047+00:00",
+  "repository": "deusalter/The-Shape-of-the-Water",
+  "branch": "main",
+  "releaseCommit": "82dd0c87d1c9dfce10d31336722be07bac62d620",
+  "verifiedRemoteHead": "82dd0c87d1c9dfce10d31336722be07bac62d620",
+  "author": {
+    "name": "deusalter",
+    "email": "212029343+deusalter@users.noreply.github.com",
+    "date": "2026-10-04T23:12:01Z"
+  },
+  "committer": {
+    "name": "deusalter",
+    "email": "212029343+deusalter@users.noreply.github.com",
+    "date": "2026-10-04T23:12:01Z"
+  },
+  "coauthorTrailers": false,
+  "publicSiteDeployed": false,
+  "packages": [
+    {
+      "path": "releases/The-Shape-of-the-Water.zip",
+      "url": "https://raw.githubusercontent.com/deusalter/The-Shape-of-the-Water/82dd0c87d1c9dfce10d31336722be07bac62d620/releases/The-Shape-of-the-Water.zip",
+      "httpStatus": 200,
+      "bytes": 1289104,
+      "sha256": "dddd076616c80b80da333aeff76d47be7a0b4443c918abc55f4b22b1b918633c",
+      "assetBuild": "61a21436c14afcbc"
+    },
+    {
+      "path": "releases/The-Shape-of-the-Water-Mac.zip",
+      "url": "https://raw.githubusercontent.com/deusalter/The-Shape-of-the-Water/82dd0c87d1c9dfce10d31336722be07bac62d620/releases/The-Shape-of-the-Water-Mac.zip",
+      "httpStatus": 200,
+      "bytes": 9166616,
+      "sha256": "214e3fb66dcb0f1bc7a453cf8f33f96147bd3bbd304f8ec7010f458d4103927e",
+      "assetBuild": "61a21436c14afcbc"
+    }
+  ]
+}
