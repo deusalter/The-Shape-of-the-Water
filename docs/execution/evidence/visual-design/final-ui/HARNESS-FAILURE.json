@@ -1,0 +1,10 @@
+{
+  "status": "FAIL",
+  "scope": "Final CSS-only contrast revision: actual built player with open notebook, save takeover alert, text-focus/large reading controls, narrow layout, browser axe and exact saved-action reload. Earlier four full story witnesses retain unchanged renderer/story/engine inputs.",
+  "assetBuild": "61a21436c14afcbc",
+  "cssSha256": "1859f00d6f58428856c9c5812d897fea54d3c226d146f9198d749329df5f32b6",
+  "checks": [],
+  "accessibility": [],
+  "errors": [],
+  "failure": "Error: Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+}

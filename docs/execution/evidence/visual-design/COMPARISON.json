@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "Two sequential fresh-context samples before then after on this Linux machine in software Chromium; adaptive settle replaces the previous fixed-delay diagnostic. This is a bounded diagnostic, not Mac/hardware FPS certification.",
+  "sameStory": true,
+  "storySha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "idleDrawCallsBefore": [
+    0,
+    0
+  ],
+  "idleDrawCallsAfter": [
+    0,
+    0
+  ],
+  "settledIdleDrawCallsAfter": [
+    0,
+    0
+  ],
+  "javascriptBytesBefore": 1275892,
+  "javascriptBytesAfter": 1282401,
+  "firstWorldMillisecondsBefore": [
+    683.7999999970198,
+    757.7000000029802
+  ],
+  "firstWorldMillisecondsAfter": [
+    983.4000000059605,
+    936.4000000059605
+  ],
+  "tradeoff": "More geometry, per-location lights and 2048 shadow map add active render work and initial software-WebGL startup cost. There is still no continuous rendering or shadow recalculation at idle. No textures, postprocessing render targets or remote asset requests were introduced."
+}

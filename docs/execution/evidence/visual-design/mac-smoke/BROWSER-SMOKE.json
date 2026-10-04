@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "scope": "Actual Chromium migration from original ZIP to exact Mac ZIP game resources, served by Linux compilation of the same Go launcher source. No native Mac execution.",
+  "packageSha256": "699c2205e956a652e0ed8965b9fd59cc0173912dd0ece7b92e3d1885a01e7598",
+  "linuxDiagnosticSha256": "94ed1f35d9fb6e28537d7236f5b880495a7bfe24c10434d86bd718a8e0591cf4",
+  "checks": [
+    "Published original package established an ordinary saved action and controlling service worker at the exact fixed origin.",
+    "Old offline worker installs the visual update; closing all controlled game/launcher tabs activates it. New assets render while the exact prior save survives. No storage clearing or forced worker activation.",
+    "Go-served control page remains live under the original SW, opens Play in a separate tab, and restores the original saved run byte-for-byte.",
+    "Actual movement, another saved action, reload, old-run import and imported-run reload preserve exact encountered exports and matching content identity.",
+    "Live control uses no-store; unrelated Host, GET Quit, foreign/missing Origin and wrong token are rejected. A second Linux launcher process reuses the same server session without changing its token or identity.",
+    "Quit updates the live page from its successful POST, hides Play, and terminates the server; the existing game still reloads offline with an unchanged saved run.",
+    "Fresh server restart reopens the live control page on the same origin after Quit."
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "subprocessLogs": [
+    {
+      "command": "python3",
+      "args": [
+        "-u",
+        "-m",
+        "http.server",
+        "4173",
+        "--bind",
+        "127.0.0.1",
+        "--directory",
+        "/workspace/mercy-visual-before"
+      ],
+      "stdout": "Serving HTTP on 127.0.0.1 port 4173 (http://127.0.0.1:4173/) ...\n",
+      "stderr": "127.0.0.1 - - [04/Oct/2026 23:03:07] \"GET / HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:07] \"GET / HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:07] \"GET /assets/index-CdM7Yvcg.css HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:07] \"GET /assets/index-BUNibmEw.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/case-v7-B8L3mVuJ.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] code 404, message File not found\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /favicon.ico HTTP/1.1\" 404 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/MercyWorld-BDPTRHvx.css HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/MercyWorld-B7bGGvl1.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/BufferGeometryUtils-BEKyyRAD.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /sw.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /asset-manifest.json HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /art/release-binding.svg HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/BathWorld-DdzgXQUT.css HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/BathWorld-T1TpocLQ.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/BufferGeometryUtils-BEKyyRAD.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/CountryWorld-CGqD_iKw.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/CountryWorld-z_TKLLza.css HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/GLTFLoader-CIZKKhb0.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/MercyWorld-B7bGGvl1.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/MercyWorld-BDPTRHvx.css HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/RebuildWorld-8fDb1NT9.css HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/RebuildWorld-DjMrco3f.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/case-v2-BZmxKTkW.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/case-v4-Do3QT9UZ.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/case-v5-WMV-7END.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/case-v7-B8L3mVuJ.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/index-BUNibmEw.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/index-CdM7Yvcg.css HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/load-compatibility-DO1gFECy.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /assets/profiles-DJgg0Y7U.js HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /index.html HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /world/bath-faceless.glb HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /world/country/first-country-locations.glb HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:08] \"GET /world/rebuild/second-mouth-supper.glb HTTP/1.1\" 200 -\n127.0.0.1 - - [04/Oct/2026 23:03:09] \"GET / HTTP/1.1\" 304 -\n"
+    },
+    {
+      "command": "/workspace/mercy-visual-mac-smoke/The Shape of the Water.app/Contents/MacOS/launcher",
+      "args": [
+        "--headless"
+      ],
+      "stdout": "Launcher ready at http://127.0.0.1:4173/__launcher/\n",
+      "stderr": ""
+    },
+    {
+      "command": "/workspace/mercy-visual-mac-smoke/The Shape of the Water.app/Contents/MacOS/launcher",
+      "args": [
+        "--headless"
+      ],
+      "stdout": "Launcher ready at http://127.0.0.1:4173/__launcher/\n",
+      "stderr": ""
+    }
+  ],
+  "originalContent": {
+    "id": "mercy-of-morning",
+    "version": 7,
+    "hash": "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b"
+  },
+  "originalActions": 1,
+  "controlWorker": "http://127.0.0.1:4173/sw.js",
+  "actualUpdatedAssetBuild": "e4eb157aa0fc60a4",
+  "duplicateLaunch": {
+    "stdout": "",
+    "stderr": ""
+  },
+  "quitResponse": "A LITERARY DETECTIVE GAME\n\nThe Shape of the Water\nThe Mercy of Morning\n\nYour game is ready. Play opens it in a new browser tab.\n\nKeep this launcher running while you play. When you finish, return here and use Quit launcher.\n\nSaved games belong to this browser. Use the game’s export controls to move a save to another browser.\n\nThe launcher is closed. You can close this tab. Open the app to play again.\n\nLocal launcher 1.0.0 · No internet connection needed"
+}

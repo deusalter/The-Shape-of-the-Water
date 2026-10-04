@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-04",
+  "status": "mac-app-published",
+  "baseline": {
+    "revision3": "baseline/revision3",
+    "archiveSha256": "9ac1a34024dc678267cb0dda059b06ac7fd151d4db4c91a2ec509331ed77f7df",
+    "kickoff": "docs/OWNER-KICKOFF-v4.md",
+    "priorImplementation": "none supplied, per owner clarification",
+    "taskGraph": "tools/task-dependencies.json"
+  },
+  "latestOwnerDirection": "docs/OWNER-MAC-LAUNCHER.md",
+  "ownerApproval": "Owner requested easier startup without terminal commands and selected Mac. Existing authorization permits commit/push as deusalter without coauthor tags; no public site or paid signing service.",
+  "project": "The Shape of the Water",
+  "currentNewNarrative": "The Mercy of Morning: complete shared narrative and both final decisions, implemented as a playable first release.",
+  "activeContent": "src/content/case-v7.json",
+  "currentContentSha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "canonicalContentHash": "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+  "assetBuild": "7524dd0797af0673",
+  "package": "releases/The-Shape-of-the-Water.zip",
+  "packageReceipt": "releases/PACKAGE.json",
+  "repository": "https://github.com/deusalter/The-Shape-of-the-Water",
+  "finalLiteraryAuthority": "lead_writer",
+  "maxActiveSubagents": 4,
+  "activeWorkers": [],
+  "ownership": {
+    "root": [
+      "Game and Mac launcher integration, verified package delivery, publication and continuity; engineering workers complete."
+    ],
+    "lead_writer": [
+      "Final narrative prose and canon remain frozen; performance update makes no literary changes."
+    ],
+    "reviewers": [
+      "Completed review/evidence files only; no running workers."
+    ]
+  },
+  "modelCapability": "Requested role-specific model/effort controls were supplied to actual internal workers where supported. Backend identities and parent selection are not independently attested. No prompt changed the parent model.",
+  "chatCreationCapability": "four chats created by owner; list/read/wait available; direct create/send unavailable",
+  "externalCoordination": "Prior user-created chats/readable history preserved. Native cross-chat send/create/wake was not available; no claim of direct messages. Actual internal agents were messaged and reviewed work.",
+  "currentManuscript": {
+    "manifest": "narrative/mercy/manifest.json",
+    "freeze": "narrative/mercy/CURRENT-FREEZE.json",
+    "scenes": 62,
+    "choices": 75,
+    "sources": 23,
+    "status": "Lead-selected, complete authored arc and both endings; exact integrated captures, not human acceptance."
+  },
+  "currentVoicePath": "narrative/mercy/VOICE.md",
+  "continuityFiles": [
+    "narrative/mercy/CURRENT-FREEZE.json",
+    "narrative/mercy/manifest.json",
+    "narrative/mercy/VOICE.md",
+    "narrative/mercy/VOICE-ANCHORS.json",
+    "narrative/mercy/AUTHOR-NOTES.md",
+    "narrative/mercy/PHILOSOPHY-MAP.md",
+    "narrative/mercy/NAMES.md",
+    "narrative/mercy/REVIEW-DISPOSITION.md",
+    "narrative/mercy/CURRENT-READING-ORDER.md",
+    "narrative/CURRENT-READING-ORDER.md",
+    "narrative/PHILOSOPHY-MAP.md",
+    "docs/OWNER-RESUME-PRODUCTION.md",
+    "releases/PACKAGE.json",
+    "docs/OWNER-OPTIMIZATION.md",
+    "docs/execution/evidence/mercy-optimization/README.md",
+    "docs/OWNER-MAC-LAUNCHER.md",
+    "releases/MAC-PACKAGE.json",
+    "docs/execution/evidence/mac-launcher/README.md"
+  ],
+  "referenceResearch": "research/reference/hello-charlotte/reassessment-2026-10-04/REASSESSMENT.md. Creator/official/critical source checks; no complete game playthrough or script reading claim.",
+  "limits": [
+    "No human playtest, measured playtime or claim of literary greatness.",
+    "AI reviews are bounded by their exact inputs; philosophical review preceded the final narrow continuity fixes.",
+    "Software Chromium WebGL; no physical-device performance or real assistive-technology certification.",
+    "Finite verifier uses an explicitly documented semantics-preserving projection; not every transcript permutation.",
+    "Full authored arc complete. Historical duration/word projections are not certified.",
+    "Mac binaries cross-built and inspected; shared launcher tested on Linux. Native Finder, AppleScript, Gatekeeper, App Translocation and Safari are unverified. App is not Apple-notarized."
+  ],
+  "archiveBeforeRejection": {
+    "path": "checkpoints/second-mouth-rejected-draft-20261004T060039Z.tar.gz",
+    "sha256": "f47522d69d9feb8e25c80aa8858c452f86001fd0b2919f82c373b98f14d515ec",
+    "receipt": "docs/execution/archives/SECOND-MOUTH-REJECTED-20261004T060039Z.json",
+    "files": 1992,
+    "changedDuringCapture": 0
+  },
+  "priorContinuity": "docs/execution/archives/before-mercy-delivery/",
+  "rejectedLocalFiles": "Uninstalled v6 manuscripts/code/assets remain preserved locally and excluded from publication. Its modified development registry is preserved verbatim in narrative/archived/second-mouth-documents/.",
+  "nextExecutableTask": "Continue from owner feedback on the published Mac app and game. If Mac launch fails, inspect native platform behavior first; preserve the exact game and saved-run identity.",
+  "backgroundWork": "No promised work or shared chat memory after active execution ends.",
+  "optimizationRequest": "Owner: can you optimize it? Scope: measured loading/rendering/UI performance; exact story and saved-run identity preserved.",
+  "priorReleaseVerification": {
+    "unitBuild": "docs/execution/evidence/mercy-build/VERIFY.json",
+    "finiteEngine": "docs/execution/evidence/mercy-content/verification.json",
+    "world": "visual/mercy/BUILD.json",
+    "studio": "docs/execution/evidence/mercy-studio/CHECK.json",
+    "player": "docs/execution/evidence/mercy-browser/report.json",
+    "package": "docs/reviews/MERCY-DELIVERY-28/package/ARCHIVE-CHECK.json",
+    "packageSmoke": "docs/reviews/MERCY-DELIVERY-28/package/BROWSER-SMOKE.json",
+    "wholeReader": "docs/reviews/MERCY-WHOLE-29/REVIEW.md",
+    "readerCorrections": "docs/reviews/MERCY-WHOLE-29/CORRECTION-RECHECK.md",
+    "philosophicalReview": "docs/reviews/MERCY-PRODUCTION-26/CONSOLIDATED-CLOSE.md",
+    "browserSummary": {
+      "witnesses": 4,
+      "commands": 198,
+      "distinctScenes": 56,
+      "axeViolations": 0,
+      "axeManualIncomplete": [
+        "color-contrast"
+      ],
+      "widths": [
+        1440,
+        390,
+        320
+      ],
+      "sourceAndBuildStable": true
+    }
+  },
+  "priorReleaseTestClaims": [
+    {
+      "name": "clean-source unit and production build verification",
+      "evidence": "docs/execution/evidence/mercy-build/VERIFY.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "complete finite authored-path exploration",
+      "evidence": "docs/execution/evidence/mercy-content/verification.json",
+      "field": "outcome",
+      "expected": "PASS"
+    },
+    {
+      "name": "built author editor and isolated preview",
+      "evidence": "docs/execution/evidence/mercy-studio/CHECK.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "independent final ZIP inspection",
+      "evidence": "docs/reviews/MERCY-DELIVERY-28/package/ARCHIVE-CHECK.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "actual extracted local package opening and saved action",
+      "evidence": "docs/reviews/MERCY-DELIVERY-28/package/BROWSER-SMOKE.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "four actual built full-story witnesses and offline/reload checks",
+      "evidence": "docs/execution/evidence/mercy-browser/report.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "selected runtime matches clean build source",
+      "evidence": "docs/execution/evidence/mercy-build/SOURCE-PINS.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "published release and exact downloaded ZIP",
+      "evidence": "docs/execution/evidence/mercy-build/PUBLICATION.json",
+      "field": "status",
+      "expected": "PASS"
+    }
+  ],
+  "testClaims": [
+    {
+      "name": "unitBuild",
+      "evidence": "docs/execution/evidence/mercy-optimization/VERIFY.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "sourcePins",
+      "evidence": "docs/execution/evidence/mercy-optimization/SOURCE-PINS.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "comparison",
+      "evidence": "docs/execution/evidence/mercy-optimization/COMPARISON.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "renderer",
+      "evidence": "docs/execution/evidence/mercy-optimization/renderer/browser-check.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "studio",
+      "evidence": "docs/execution/evidence/mercy-optimization/studio/CHECK.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "player",
+      "evidence": "docs/execution/evidence/mercy-optimization/player/report.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "independentReview",
+      "evidence": "docs/reviews/MERCY-OPTIMIZATION-30/FINAL-PINS.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "package",
+      "evidence": "docs/reviews/MERCY-OPTIMIZATION-30/package/ARCHIVE-CHECK.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "packageSmoke",
+      "evidence": "docs/reviews/MERCY-OPTIMIZATION-30/package/BROWSER-SMOKE.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "unchanged finite authored-path verification",
+      "evidence": "docs/execution/evidence/mercy-content/verification.json",
+      "field": "outcome",
+      "expected": "PASS"
+    },
+    {
+      "name": "optimized release and exact downloaded ZIP",
+      "evidence": "docs/execution/evidence/mercy-optimization/PUBLICATION.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "Mac cross-build, exact assets, shared launcher and browser continuity",
+      "evidence": "docs/execution/evidence/mac-launcher/VERIFY.json",
+      "field": "status",
+      "expected": "PASS"
+    },
+    {
+      "name": "published Mac app and exact downloaded bytes",
+      "evidence": "docs/execution/evidence/mac-launcher/PUBLICATION.json",
+      "field": "status",
+      "expected": "PASS"
+    }
+  ],
+  "releaseVersion": "1.0.1",
+  "priorPublication": {
+    "status": "PASS",
+    "releaseCommit": "c94bbfdb5df99f2b2512e470738164cf718b1bdf",
+    "receipt": "docs/execution/evidence/mercy-build/PUBLICATION.json",
+    "destination": "https://github.com/deusalter/The-Shape-of-the-Water",
+    "author": "deusalter",
+    "coauthorTrailers": false,
+    "publicSiteDeployed": false
+  },
+  "publication": {
+    "status": "PASS",
+    "releaseCommit": "2709f78a74b416afd4b46ed7b24eaf966cf92d6d",
+    "receipt": "docs/execution/evidence/mercy-optimization/PUBLICATION.json",
+    "destination": "https://github.com/deusalter/The-Shape-of-the-Water",
+    "author": "deusalter",
+    "coauthorTrailers": false,
+    "publicSiteDeployed": false
+  },
+  "currentVerification": {
+    "unitBuild": "docs/execution/evidence/mercy-optimization/VERIFY.json",
+    "sourcePins": "docs/execution/evidence/mercy-optimization/SOURCE-PINS.json",
+    "comparison": "docs/execution/evidence/mercy-optimization/COMPARISON.json",
+    "renderer": "docs/execution/evidence/mercy-optimization/renderer/browser-check.json",
+    "studio": "docs/execution/evidence/mercy-optimization/studio/CHECK.json",
+    "player": "docs/execution/evidence/mercy-optimization/player/report.json",
+    "independentReview": "docs/reviews/MERCY-OPTIMIZATION-30/FINAL-PINS.json",
+    "package": "docs/reviews/MERCY-OPTIMIZATION-30/package/ARCHIVE-CHECK.json",
+    "packageSmoke": "docs/reviews/MERCY-OPTIMIZATION-30/package/BROWSER-SMOKE.json",
+    "unchangedStoryVerification": "docs/execution/evidence/mercy-content/verification.json",
+    "browserSummary": {
+      "witnesses": 4,
+      "commands": 198,
+      "distinctScenes": 56,
+      "axeViolations": 0,
+      "widths": [
+        1440,
+        390,
+        320
+      ],
+      "sourceAndBuildStable": true
+    },
+    "macLauncher": "docs/execution/evidence/mac-launcher/VERIFY.json"
+  },
+  "optimizationResults": {
+    "initialJavaScriptReductionPercent": 26.55,
+    "idleDrawCallsBeforeMedian": 1692,
+    "idleDrawCallsAfterMedian": 0,
+    "lateSaveReplayCallsBefore": 8,
+    "lateSaveReplayCallsAfter": 4,
+    "scope": "Same-machine software Chromium3samples; separate one-sample fake-IndexedDB save diagnostic. No physical-device claims; story and save identities unchanged."
+  },
+  "macApp": {
+    "package": "releases/The-Shape-of-the-Water-Mac.zip",
+    "receipt": "releases/MAC-PACKAGE.json",
+    "sha256": "c4cfdb90c5fe230e9b36d54dfc695ba810eddb84a358904e0150be447c5513a9",
+    "minimumMacOS": "13.0",
+    "architectures": [
+      "x86_64",
+      "arm64"
+    ],
+    "nativeMacExecutionVerified": false,
+    "notarized": false,
+    "publication": {
+      "status": "PASS",
+      "releaseCommit": "53c2e39c6f063dd2f567b64a49c57b4ad3ff4c31",
+      "receipt": "docs/execution/evidence/mac-launcher/PUBLICATION.json",
+      "author": "deusalter",
+      "coauthorTrailers": false
+    }
+  }
+}

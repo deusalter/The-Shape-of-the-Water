@@ -1,0 +1,175 @@
+{
+  "url": "http://127.0.0.1:4187",
+  "scope": "Same-machine headless Chromium with software WebGL, 1440x1000 at DPR1. Fresh contexts; service worker blocked to isolate startup from offline prefetch. Timing is diagnostic, not a hardware FPS claim.",
+  "runs": [
+    {
+      "index": 0,
+      "firstPassageMs": 250.20000000298023,
+      "firstWorldMs": 983.4000000059605,
+      "jsBytes": 1282401,
+      "resources": [
+        {
+          "name": "/assets/index-CIXHSjnr.js",
+          "bytes": 435425,
+          "transferBytes": 435725
+        },
+        {
+          "name": "/assets/case-v7-B8L3mVuJ.js",
+          "bytes": 207272,
+          "transferBytes": 207572
+        },
+        {
+          "name": "/assets/MercyWorld-baXUUyY9.js",
+          "bytes": 52153,
+          "transferBytes": 52453
+        },
+        {
+          "name": "/assets/BufferGeometryUtils-ndc3YYxy.js",
+          "bytes": 587551,
+          "transferBytes": 587851
+        }
+      ],
+      "idle": {
+        "milliseconds": 2506.4000000059605,
+        "drawCalls": 0,
+        "animationCallbacks": 0,
+        "scriptMilliseconds": 0,
+        "taskMilliseconds": 1.5279999999999738,
+        "heapBytes": 17357024,
+        "nodes": 101
+      },
+      "movementAndSettling": {
+        "milliseconds": 6309.0999999940395,
+        "drawCalls": 1758,
+        "animationCallbacks": 25,
+        "scriptMilliseconds": 77.32800000000006,
+        "taskMilliseconds": 204.22699999999995,
+        "heapBytes": 21496356,
+        "nodes": 101
+      },
+      "idleAfterMovement": {
+        "milliseconds": 2506.7000000029802,
+        "drawCalls": 0,
+        "animationCallbacks": 0,
+        "scriptMilliseconds": 0,
+        "taskMilliseconds": 0.8029999999998871,
+        "heapBytes": 21514156,
+        "nodes": 101
+      },
+      "transitionsMs": [
+        242.79999999701977,
+        667.7000000029802
+      ],
+      "afterTwoTransitions": {
+        "environmentBuilds": 3,
+        "nodes": 99
+      },
+      "longTasks": [
+        {
+          "start": 58.900000005960464,
+          "duration": 67
+        },
+        {
+          "start": 303.70000000298023,
+          "duration": 252
+        },
+        {
+          "start": 556.5,
+          "duration": 429
+        },
+        {
+          "start": 14056.5,
+          "duration": 160
+        },
+        {
+          "start": 14706.59999999404,
+          "duration": 197
+        }
+      ],
+      "errors": []
+    },
+    {
+      "index": 1,
+      "firstPassageMs": 188.70000000298023,
+      "firstWorldMs": 936.4000000059605,
+      "jsBytes": 1282401,
+      "resources": [
+        {
+          "name": "/assets/index-CIXHSjnr.js",
+          "bytes": 435425,
+          "transferBytes": 435725
+        },
+        {
+          "name": "/assets/case-v7-B8L3mVuJ.js",
+          "bytes": 207272,
+          "transferBytes": 207572
+        },
+        {
+          "name": "/assets/MercyWorld-baXUUyY9.js",
+          "bytes": 52153,
+          "transferBytes": 52453
+        },
+        {
+          "name": "/assets/BufferGeometryUtils-ndc3YYxy.js",
+          "bytes": 587551,
+          "transferBytes": 587851
+        }
+      ],
+      "idle": {
+        "milliseconds": 2506.2000000029802,
+        "drawCalls": 0,
+        "animationCallbacks": 0,
+        "scriptMilliseconds": 0,
+        "taskMilliseconds": 1.6609999999999125,
+        "heapBytes": 11759660,
+        "nodes": 101
+      },
+      "movementAndSettling": {
+        "milliseconds": 6678.5,
+        "drawCalls": 1934,
+        "animationCallbacks": 27,
+        "scriptMilliseconds": 67.241,
+        "taskMilliseconds": 125.12900000000027,
+        "heapBytes": 16107468,
+        "nodes": 101
+      },
+      "idleAfterMovement": {
+        "milliseconds": 2505.0999999940395,
+        "drawCalls": 0,
+        "animationCallbacks": 0,
+        "scriptMilliseconds": 0,
+        "taskMilliseconds": 0.6349999999999412,
+        "heapBytes": 16122300,
+        "nodes": 101
+      },
+      "transitionsMs": [
+        225.5,
+        724.4000000059605
+      ],
+      "afterTwoTransitions": {
+        "environmentBuilds": 3,
+        "nodes": 99
+      },
+      "longTasks": [
+        {
+          "start": 270.1000000089407,
+          "duration": 280
+        },
+        {
+          "start": 551,
+          "duration": 389
+        },
+        {
+          "start": 14460.40000000596,
+          "duration": 157
+        },
+        {
+          "start": 15160.29999999702,
+          "duration": 198
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "status": "PASS"
+}

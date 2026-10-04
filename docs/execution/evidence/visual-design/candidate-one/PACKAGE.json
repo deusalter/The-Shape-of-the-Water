@@ -1,0 +1,8 @@
+{
+  "path": "releases/The-Shape-of-the-Water.zip",
+  "sha256": "817fb4bdbba1c20de51b0e2729a5e9592e2099ffeecfdc9089030185b54c6362",
+  "bytes": 1289091,
+  "contentHash": "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+  "assetBuild": "e4eb157aa0fc60a4",
+  "scope": "Static player and local-only launcher; no public deployment."
+}

@@ -78,3 +78,32 @@
 
 .mercy-reader > .saving-warning { position: sticky; top: 0; z-index: 3; max-width: 1636px; margin: .5rem auto; padding: .85rem 1.25rem; box-shadow: 0 2px 12px #342b3318; }
 .mercy-reader > .saving-warning button { margin: .3rem .65rem .3rem 0; }
+
+/* An ink-dark frame keeps the world luminous and the reading surface quiet. */
+.mercy-reader{background:radial-gradient(ellipse at 25% 0,#35434b 0,transparent 65%),#1b242d;color:#eee2cd;min-height:100svh}
+.mercy-reader>.site-header{border-bottom-color:#bca47d40;padding-top:1.4rem;padding-bottom:1.4rem}
+.mercy-reader .eyebrow{color:#bba78d;letter-spacing:.16em}
+.mercy-reader .reader-controls{color:#dbcdbb}
+.mercy-reader .reader-controls button{color:#eadbc3;border-color:#a7997e70;background:#202e36}
+.mercy-reader .reader-controls button:hover{background:#36434a}
+.mercy-reader .reader-controls select{background:#29343c;color:#f4e9d7;border-color:#a7997e70}
+.mercy-reader .passage-card{color:#312d32;background:linear-gradient(120deg,#f4ecdd,#eae1d3);border-color:#baaa925c;border-top:3px solid #b59469;box-shadow:0 18px 45px #080d1530}
+.mercy-reader .passage-card .eyebrow{color:#78624e}
+.mercy-reader .passage-card h2{letter-spacing:-.025em}
+.mercy-reader .choices button{background:#e7ddca;border-color:#b7a58c;color:#3f3936}
+.mercy-reader .choices button:hover{background:#d8c7a8;border-color:#9c784f}
+.mercy-reader .choices button::before{color:#80674b}
+.mercy-reader .run-tools{border-color:#a7997e45}
+.mercy-reader .run-tools .quiet,.mercy-reader .run-tools summary,.mercy-reader .file-label{color:#e5d6be;border-color:#a7997e70}
+.mercy-reader .run-tools .quiet:hover{background:#35434b}
+.mercy-reader .offline-status,.mercy-reader footer{color:#b8b2a7}
+.mercy-reader .transcript>summary{color:#e5d6be}
+.mercy-reader .transcript>div{color:#312d32}
+.mercy-reader .notebook{color:#312d32;border-top-color:#b59469}
+.mercy-reader :focus-visible{outline-color:#d5a866}
+@media(max-width:760px){.mercy-reader>.site-header{padding:1.1rem 1rem}.mercy-reader .game-layout{padding-top:1rem}}
+.mercy-reader .warning,.mercy-reader .migration-preview{color:#312d32}
+.mercy-reader .edition-nav{color:#d9cdbb;border-color:#a7997e45}
+.mercy-reader .edition-nav a{color:#ecd6ad}
+.mercy-reader .notebook .eyebrow{color:#78624e}
+.mercy-reader .run-tools .branch-note{color:#d9cdbb}

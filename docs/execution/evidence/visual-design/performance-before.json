@@ -1,0 +1,88 @@
+{
+  "url": "http://127.0.0.1:4186",
+  "scope": "Same-machine headless Chromium with software WebGL, 1440x1000 at DPR1. Fresh contexts; service worker blocked to isolate startup from offline prefetch. Timing is diagnostic, not a hardware FPS claim.",
+  "runs": [
+    {
+      "index": 0,
+      "firstPassageMs": 347.90000000596046,
+      "firstWorldMs": 1108.4000000059605,
+      "jsBytes": 1275892,
+      "resources": [
+        {
+          "name": "/assets/index-BUNibmEw.js",
+          "bytes": 435425,
+          "transferBytes": 435725
+        },
+        {
+          "name": "/assets/case-v7-B8L3mVuJ.js",
+          "bytes": 207272,
+          "transferBytes": 207572
+        },
+        {
+          "name": "/assets/MercyWorld-B7bGGvl1.js",
+          "bytes": 46848,
+          "transferBytes": 47148
+        },
+        {
+          "name": "/assets/BufferGeometryUtils-BEKyyRAD.js",
+          "bytes": 586347,
+          "transferBytes": 586647
+        }
+      ],
+      "idle": {
+        "milliseconds": 2515.7000000029802,
+        "drawCalls": 0,
+        "animationCallbacks": 0,
+        "scriptMilliseconds": 0,
+        "taskMilliseconds": 1.771000000000189,
+        "heapBytes": 11938748,
+        "nodes": 101
+      },
+      "idleAfterMovement": {
+        "milliseconds": 2510,
+        "drawCalls": 784,
+        "animationCallbacks": 16,
+        "scriptMilliseconds": 56.47599999999997,
+        "taskMilliseconds": 76.6009999999997,
+        "heapBytes": 9819068,
+        "nodes": 101
+      },
+      "transitionsMs": [
+        701,
+        292.79999999701977
+      ],
+      "afterTwoTransitions": {
+        "environmentBuilds": 3,
+        "nodes": 99
+      },
+      "longTasks": [
+        {
+          "start": 135.20000000298023,
+          "duration": 74
+        },
+        {
+          "start": 289.30000001192093,
+          "duration": 58
+        },
+        {
+          "start": 442.80000001192093,
+          "duration": 329
+        },
+        {
+          "start": 772.4000000059605,
+          "duration": 338
+        },
+        {
+          "start": 10747.40000000596,
+          "duration": 360
+        },
+        {
+          "start": 11315.20000000298,
+          "duration": 73
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "status": "PASS"
+}

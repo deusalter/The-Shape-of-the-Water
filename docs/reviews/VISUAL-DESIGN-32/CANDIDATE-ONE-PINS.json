@@ -1,0 +1,23 @@
+{
+  "src/world/mercy/MercyWorld.tsx": "42f39fba268b31205818f24b864c8e13c67f2f9615091bae87b603df56edd008",
+  "src/world/mercy/lighting.ts": "b8f68445fcd8136e760788252bdb703a25653622be63c9f3f616eb3c46e21cab",
+  "src/world/mercy/geometry.ts": "1cee9f093fdfa90435b95bd911fec283a7da0fab351ea04cd1d2e472bed1b711",
+  "src/world/mercy/mercy.css": "68d3c2933a0d6db9422229ca5fc1bea78a7dad6ed6a558dafec581c6954e73ab",
+  "src/components/evidence-player.css": "aa82e3fa9d2ea70dbd760f31e9a7556b9c1b43519ffaf1270bafda02402183c1",
+  "src/content/case-v7.json": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "docs/execution/evidence/visual-design/final-renderer/browser-check.json": "8f2d433bcb4b35bbd60be7ecd59cdef106ae52181250bcfa2d26b498aa3cd4af",
+  "docs/execution/evidence/visual-design/player/route-0-opening.png": "c9b686cdb119956a3f5920f28470221d48b378c759ca4d00f3459e0bb4f96c1a",
+  "docs/execution/evidence/visual-design/VERIFY.json": "b7912458c928485da374c262f894c1c6123e7ca673073ad2a36cf88acfc5dd07",
+  "releases/PACKAGE.json": "4b692d827745fa3b001773cb28c5de5ffb1105f58c970d94aec05c30413451f8",
+  "releases/MAC-PACKAGE.json": "0db0c38dc2331e4a3f7da906eee33273198ba604b7c3d295c550e39b0e92e63b",
+  "releases/The-Shape-of-the-Water.zip": "817fb4bdbba1c20de51b0e2729a5e9592e2099ffeecfdc9089030185b54c6362",
+  "releases/The-Shape-of-the-Water-Mac.zip": "699c2205e956a652e0ed8965b9fd59cc0173912dd0ece7b92e3d1885a01e7598",
+  "docs/reviews/VISUAL-DESIGN-32/PACKAGE-CHECK.json": "c582d1b9c57d9748b5479c25495559928a9a55bab5c4eee4dad9375c3a960614",
+  "docs/execution/evidence/visual-design/final-renderer/edge.png": "1439fce3da467d13f5c096c53b3ce57ea5dbb875b7e2e64c2913efbe1ac01ef6",
+  "docs/execution/evidence/visual-design/final-renderer/late-square.png": "f83ffb5158893b9681a39bb5549e169b8857a6a588681d04f336d00ac84e76ab",
+  "docs/execution/evidence/visual-design/final-renderer/late-theatre.png": "6a8f64ffa89a58f1584c687f22c2c5bc3b75101740532f9a68aaaedd5419db75",
+  "docs/execution/evidence/visual-design/final-renderer/market.png": "a18e8224467db41081db91d45c052682bff20506664dcd0c3f349a65e74a4a74",
+  "docs/execution/evidence/visual-design/final-renderer/outside-theatre.png": "d313a46a90b53fa4137c034c78c0b957a3ecb1a9924499874efa30fa5302ba34",
+  "docs/execution/evidence/visual-design/final-renderer/patron.png": "31471391e45d4c1dc66edab1a04fa6c22f95fcfa8478950617de57adfcb1ec6d",
+  "docs/execution/evidence/visual-design/final-renderer/theatre.png": "d359fe59f6ab635e8122360794199818bfbb79fe6c2b5b4ccc05ce4279a4ba05"
+}

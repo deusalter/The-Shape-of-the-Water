@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "scope": "Actual Chromium renderer fixture; software WebGL, no hardware FPS claim. Visibility is simulated with document.hidden; offscreen suspension uses actual intersection/scroll.",
+  "contentSha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "sourceSha256": "42f39fba268b31205818f24b864c8e13c67f2f9615091bae87b603df56edd008",
+  "sourcePins": {
+    "src/world/mercy/MercyWorld.tsx": "42f39fba268b31205818f24b864c8e13c67f2f9615091bae87b603df56edd008",
+    "src/world/mercy/geometry.ts": "1cee9f093fdfa90435b95bd911fec283a7da0fab351ea04cd1d2e472bed1b711",
+    "src/world/mercy/lighting.ts": "b8f68445fcd8136e760788252bdb703a25653622be63c9f3f616eb3c46e21cab",
+    "src/world/mercy/mercy.css": "68d3c2933a0d6db9422229ca5fc1bea78a7dad6ed6a558dafec581c6954e73ab"
+  },
+  "checks": [
+    "idle performs zero repeated renders",
+    "camera controls wake at rest without recalculating shadows",
+    "keyboard movement, key release and camera settling remain active",
+    "identical physical scenes reuse their environment while refreshing choices",
+    "changed physical staging replaces the environment",
+    "all current profiles publish exact offered targets, cast and props",
+    "pointer walk and nearby E keep current proximity interaction",
+    "label changes refresh targets without rebuilding physical staging",
+    "disabling while moving stops movement and rejects E",
+    "offscreen progression updates logical metadata and builds only the final visible stage",
+    "visibility suspension retains a pending camera wake",
+    "unmount cleans canvas, pending frames, observers and external listeners; remount works"
+  ],
+  "errors": [],
+  "metrics": {
+    "idle": {
+      "intervalMs": 1200,
+      "renderFrames": 0,
+      "shadowUpdates": 0
+    },
+    "movement": {
+      "renderFrames": 4,
+      "shadowUpdates": 4,
+      "before": {
+        "x": "0.000",
+        "z": "1.000"
+      },
+      "after": {
+        "x": "-0.090",
+        "z": "0.736"
+      }
+    },
+    "reusedPair": {
+      "first": "a0.refusal-plain",
+      "second": "a0.refusal-sharp",
+      "environmentBuilds": 0
+    },
+    "profiles": 130,
+    "cleanup": {
+      "frames": 0,
+      "resize": 0,
+      "intersection": 0,
+      "visibility": 0,
+      "blur": 0
+    }
+  }
+}

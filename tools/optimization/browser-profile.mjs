@@ -15,6 +15,11 @@ async function metrics(page, cdp) {
     renderFrames: Number(document.querySelector('.mercy-world-canvas')?.dataset.renderFrames ?? 0),
   }))), cdp: Object.fromEntries(result.metrics.map(item => [item.name, item.value])) };
 }
+async function settle(world,page){
+  let prior=-1,stable=0;
+  for(let i=0;i<75;i++){const frame=Number(await world.getAttribute('data-render-frames'));stable=frame===prior?stable+1:0;if(stable>=3)return;prior=frame;await page.waitForTimeout(200);}
+  throw Error('Renderer did not settle in15seconds');
+}
 const delta = (a, b) => ({ milliseconds: b.now - a.now, drawCalls: b.drawCalls - a.drawCalls,
   animationCallbacks: b.animationCallbacks - a.animationCallbacks,
   scriptMilliseconds: (b.cdp.ScriptDuration - a.cdp.ScriptDuration) * 1000,
@@ -51,14 +56,14 @@ try {
     const world = page.locator('.mercy-world-canvas');
     await expect(world).toHaveAttribute('data-loaded', 'true');
     await expect(page.locator('.save-status')).toContainText('Progress saved');
-    await page.waitForTimeout(1000);
+    await settle(world,page);
     const start = await metrics(page, cdp);
     await page.waitForTimeout(2500);
     const rested = await metrics(page, cdp);
     await world.focus(); const x = await world.getAttribute('data-player-x');
     await page.keyboard.down('KeyA'); await page.waitForTimeout(450); await page.keyboard.up('KeyA');
     await expect(world).not.toHaveAttribute('data-player-x', x);
-    await page.waitForTimeout(1400);
+    await settle(world,page);
     const settled = await metrics(page, cdp);
     await page.waitForTimeout(2500);
     const afterMovement = await metrics(page, cdp);
@@ -79,7 +84,7 @@ try {
     const resources = await page.evaluate(() => performance.getEntriesByType('resource').filter(entry => /\.js(?:\?|$)/.test(entry.name)).map(entry => ({ name: new URL(entry.name).pathname, bytes: entry.decodedBodySize, transferBytes: entry.transferSize })));
     const run = { index, firstPassageMs: start.firstPassage, firstWorldMs: start.firstWorld,
       jsBytes: resources.reduce((sum, resource) => sum + resource.bytes, 0), resources,
-      idle: delta(start, rested), idleAfterMovement: delta(settled, afterMovement), transitionsMs: transitions,
+      idle: delta(start, rested), movementAndSettling:delta(rested,settled), idleAfterMovement: delta(settled, afterMovement), transitionsMs: transitions,
       afterTwoTransitions: { environmentBuilds: final.environmentBuilds, nodes: final.nodes },
       longTasks: final.longTasks, errors };
     expect(errors).toEqual([]); report.runs.push(run);

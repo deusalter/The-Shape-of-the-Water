@@ -1,3 +1,7 @@
+# Current visual design update
+
+Owner requested nicer lighting and a stronger visual design. Update1.0.2 adds six authored lighting looks across seven normalized locations, warm practical lamps/stage light, a static gradient atmosphere, refined stone facades/paving, theatre wood/velvet/brass details, figure contact shadows and a dark frame around the cream reading panel. The selected story and staging are byte-identical. Demand rendering and explicit shadow invalidation remain intact. Both packages are rebuilt from a clean tracked export. Read `evidence/visual-design/README.md`, current receipts and publication record for exact results and limits.
+
 # The Mercy of Morning: Mac app for the optimized release
 
 The latest owner request asks for easier startup without terminal commands and specifies Mac. The new universal app is a local launcher around the exact optimized release. The preceding owner request asked to optimize the delivered game. Update 1.0.1 preserves its exact story and saved-run identities while improving loading, rendering and save work. The preceding owner request resumed production after the replacement proposal. The shared story is implemented from its opening through the disappearance's resolution, Blaise's deliberate second return and lost witness memory, the argument and public performance, and both final decisions. This is a complete playable first release. It is not a claim of literary greatness, human acceptance, or the historical proposed duration.

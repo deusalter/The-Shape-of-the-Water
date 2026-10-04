@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "Clean tracked index-tree export with separately installed frozen-lockfile dependencies; typecheck, live tests, content validation, both production builds. Rejected untracked v6 absent.",
+  "tree": "619d001aecd25f5c517031d5e8ebf1fabac05297",
+  "testFiles": 41,
+  "tests": 530,
+  "assetBuild": "e4eb157aa0fc60a4",
+  "logSha256": "3f523d4e8aa3c3e420e1efd4570efcbcda321db422cefee26ece80fcc36870a2"
+}

@@ -1,11 +1,11 @@
 {
   "path": "releases/The-Shape-of-the-Water-Mac.zip",
-  "bytes": 9163637,
-  "sha256": "c4cfdb90c5fe230e9b36d54dfc695ba810eddb84a358904e0150be447c5513a9",
+  "bytes": 9166616,
+  "sha256": "214e3fb66dcb0f1bc7a453cf8f33f96147bd3bbd304f8ec7010f458d4103927e",
   "launcherVersion": "1.0.0",
-  "assetBuild": "7524dd0797af0673",
+  "assetBuild": "61a21436c14afcbc",
   "contentHash": "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
-  "sourcePlayerArchiveSha256": "d5b7b0e679a71d5933b6709256c89f5ce8e49e109a5166d319730229cfc4eaab",
+  "sourcePlayerArchiveSha256": "dddd076616c80b80da333aeff76d47be7a0b4443c918abc55f4b22b1b918633c",
   "gameFilesCopiedUnchanged": 25,
   "minimumMacOS": "13.0",
   "architectures": [

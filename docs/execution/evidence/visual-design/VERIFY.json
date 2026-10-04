@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "Clean tracked index-tree export with separately installed frozen-lockfile dependencies; typecheck, live tests, content validation, both production builds. Rejected untracked v6 absent. Final build follows two CSS-only contrast corrections to notebook headings and branch metadata; unchanged engine/world source tests not repeated.",
+  "testFiles": 41,
+  "tests": 530,
+  "assetBuild": "61a21436c14afcbc",
+  "logSha256": "3f523d4e8aa3c3e420e1efd4570efcbcda321db422cefee26ece80fcc36870a2",
+  "unitSuiteTree": "619d001aecd25f5c517031d5e8ebf1fabac05297",
+  "finalBuildLogSha256": "d6e41069ec9f52ceea26d7d055f9835566de533e680f6e06eb7cb3c63eb1c0db"
+}

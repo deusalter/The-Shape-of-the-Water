@@ -4,6 +4,8 @@
 
 Third-person 3D follows Blaise through an uncanny city populated by faceless figures. Sustained dialogue and inner monologues investigate causality, identity, knowledge, God and recurrence. The story draws on research into Kant and Spinoza while keeping its invented rules distinct from their historical arguments.
 
+Update 1.0.2 adds location-specific warm/cool lighting, deeper atmosphere, finer stonework, crafted theatre seating, glowing lanterns and a redesigned reading frame. The story and existing save format are unchanged.
+
 ## Play on Mac
 
 **[Download the Mac app](https://github.com/deusalter/The-Shape-of-the-Water/raw/refs/heads/main/releases/The-Shape-of-the-Water-Mac.zip)** (macOS 13 Ventura or later; Apple silicon and Intel).
@@ -15,6 +17,8 @@ Third-person 3D follows Blaise through an uncanny city populated by faceless fig
 Play opens a separate tab. Return to the launcher's tab and click **Quit** when finished. Double-click the app again if you need to reopen the launcher.
 
 The app is not Apple-notarized. If macOS blocks the first opening, use **System Settings → Privacy & Security → Open Anyway**, then confirm **Open**. See [Apple's instructions](https://support.apple.com/en-us/102445). The package was cross-built and inspected on Linux; native Finder/Gatekeeper/Safari execution has not been verified in this workspace.
+
+When replacing an older app, quit its launcher and close all game and launcher tabs. If an offline browser still shows the previous look, close those tabs once more and reopen the app; the prepared update activates without clearing your saves.
 
 Use the same browser to keep existing saves. The app uses the previous launcher's default local address; close an older running launcher before opening the app. Saves made on a different fallback port need an exported run imported into this app. Progress stays in the browser, and **Export encountered run** keeps an independent copy. After restarting, choose **Take over saving** if prompted.
 

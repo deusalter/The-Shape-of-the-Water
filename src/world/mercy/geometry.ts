@@ -1,11 +1,13 @@
 import * as THREE from 'three';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
 import type { MercyProfile, ActorName } from './profiles';
-const palette = { stone: '#eee0c5', wall: '#c9bca6', dark: '#343c45', wood: '#695447', coral: '#bb7660', blue: '#527a87', gold: '#bba474', green: '#627e71', paper: '#e2d5b2' };
+const palette = { stone: '#bfb59e', wall: '#a7a393', dark: '#263b3e', wood: '#594842', coral: '#a86f60', blue: '#38656b', gold: '#a48b57', green: '#617469', paper: '#d4c8aa', plum: '#594653', glass: '#233f45' };
+function material(color:string){return new THREE.MeshStandardMaterial({color,roughness:color===palette.gold?.49:color===palette.blue?.65:.92,metalness:color===palette.gold?.32:0});}
+function glow(mesh:THREE.Mesh,intensity=.65){const finish=mesh.material as THREE.MeshStandardMaterial;finish.emissive.set('#efb76c');finish.emissiveIntensity=intensity;finish.roughness=.42;mesh.castShadow=false;return mesh;}
 export function box(parent:THREE.Object3D,name:string,color:string,x:number,y:number,z:number,w:number,h:number,d:number,rotation=0){
- const mesh=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),new THREE.MeshStandardMaterial({color,roughness:.88}));mesh.name=name;mesh.position.set(x,y,z);mesh.rotation.y=rotation;mesh.castShadow=true;mesh.receiveShadow=true;parent.add(mesh);return mesh;
+ const mesh=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),material(color));mesh.name=name;mesh.position.set(x,y,z);mesh.rotation.y=rotation;mesh.castShadow=true;mesh.receiveShadow=true;parent.add(mesh);return mesh;
 }
-function cylinder(parent:THREE.Object3D,name:string,color:string,x:number,y:number,z:number,r:number,h:number){const mesh=new THREE.Mesh(new THREE.CylinderGeometry(r,r,h,16),new THREE.MeshStandardMaterial({color,roughness:.8}));mesh.name=name;mesh.position.set(x,y,z);mesh.castShadow=true;mesh.receiveShadow=true;parent.add(mesh);return mesh;}
+function cylinder(parent:THREE.Object3D,name:string,color:string,x:number,y:number,z:number,r:number,h:number){const mesh=new THREE.Mesh(new THREE.CylinderGeometry(r,r,h,16),material(color));mesh.name=name;mesh.position.set(x,y,z);mesh.castShadow=true;mesh.receiveShadow=true;parent.add(mesh);return mesh;}
 function beam(parent:THREE.Object3D,color:string,a:THREE.Vector3,b:THREE.Vector3,width=.12){const mesh=box(parent,'Timber',color,0,0,0,width,a.distanceTo(b),width);mesh.position.copy(a).add(b).multiplyScalar(.5);mesh.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),b.clone().sub(a).normalize());return mesh;}
 export function figure(name:ActorName | 'Blaise'){
  const root=new THREE.Group();root.name=name;
@@ -22,21 +24,45 @@ export function figure(name:ActorName | 'Blaise'){
  if(name==='Julian'){limbs[1].rotation.z=.21;limbs[3].rotation.x=-.3;box(root,'PaintApron','#dbcfae',0,.9,-.205,.36,.56,.04);}
  if(name==='Erasmus'){limbs[1].rotation.z=.13;limbs[3].rotation.z=-.13;coat.scale.z=1.25;}
  if(name==='Vera'){beam(root,palette.gold,new THREE.Vector3(.36,.05,.2),new THREE.Vector3(.5,1.04,.05),.06);limbs[3].rotation.x=-.34;}
+ box(root,`${name}_CoatSeam`,name==='Blaise'?'#304650':palette.dark,0,.95,.184,.018,.72,.012);
+ // Small geometric contact patches remain attached to the feet, including on raised stages.
+ for(const [radius,opacity] of [[.36,.14],[.53,.06]]){const contact=new THREE.Mesh(new THREE.CircleGeometry(radius,24),new THREE.MeshBasicMaterial({color:'#172429',transparent:true,opacity,depthWrite:false}));contact.name='Foot contact';contact.rotation.x=-Math.PI/2;contact.scale.y=.72;contact.position.y=.003;root.add(contact);}
  root.userData.faceless=true;return root;
 }
 function paving(root:THREE.Group,size=20,urban=true){
- box(root,'Ground',urban?palette.stone:'#9caca0',0,-.18,0,70,.35,70);
+ box(root,'Ground',urban?'#827d6e':'#79867b',0,-.18,0,70,.35,70);
  if(!urban){for(let i=0;i<35;i++){const stone=box(root,'Dry ground stone',i%3?'#92a396':'#acb6a3',Math.sin(i*47)*9,.003,Math.cos(i*23)*8,.3+(i%3)*.1,.04,.2, i);stone.rotation.z=.05;}return;}
- for(let z=-8;z<=8;z+=2)for(let x=-9;x<=9;x+=2)box(root,'Paving joint','#d0c3af',x+(z%4?1:0),.001,z,1.96,.013,1.96);
+ const stones=[palette.stone,'#b5ac98','#c4baa3','#aaa48f'];
+ for(let row=0;row<19;row++)for(let column=0;column<19;column++){
+  const x=-9+column+(row%2?.5:0),z=-8+row*.88;
+  box(root,'Dressed paving stone',stones[(row*7+column*3)%stones.length],x,.003,z,.96,.014,.84);
+ }
+ // Flush stone borders give the square a clear scale without adding obstacles.
+ for(const x of [-7.9,7.9])box(root,'Square edging',palette.paper,x,.01,0,.18,.04,size);
 }
 function house(root:THREE.Object3D,x:number,z:number,height:number,color:string,width=2.6){
- box(root,'House',color,x,height/2,z,width,height,2.2);box(root,'Roof',palette.paper,x,height+.1,z,width+.25,.2,2.45);
- for(let row=.8;row<height-.3;row+=1.35)for(const dx of [-.65,.65]){box(root,'Window shadow',palette.blue,x+dx,row,z+1.11,.45,.67,.035);box(root,'Window ledge',palette.paper,x+dx,row-.35,z+1.18,.6,.08,.17);box(root,'Rear window',palette.blue,x+dx,row,z-1.11,.45,.67,.035);box(root,'Rear ledge',palette.paper,x+dx,row-.35,z-1.18,.6,.08,.17);}
+ box(root,'House',color,x,height/2,z,width,height,2.2);
+ box(root,'Stone plinth',palette.wall,x,.17,z,width+.1,.34,2.3);
+ box(root,'Roof cornice',palette.paper,x,height-.08,z,width+.23,.18,2.43);
+ box(root,'Roof',palette.dark,x,height+.08,z,width+.12,.14,2.32);
+ for(const side of [-1,1]){
+  const face=z+side*1.11;
+  for(const dx of [-width*.44,width*.44])box(root,'Facade pilaster',palette.wall,x+dx,height*.5,face,.12,height-.4,.07);
+  for(let row=.9;row<height-.3;row+=1.35)for(const dx of [-.65,.65]){
+   box(root,'Window stone surround',palette.paper,x+dx,row,face,.59,.82,.075);
+   box(root,'Recessed window',palette.glass,x+dx,row,face+side*.043,.43,.66,.024);
+   box(root,'Window mullion',palette.wood,x+dx,row,face+side*.065,.035,.66,.025);
+   box(root,'Window crossbar',palette.wood,x+dx,row+.06,face+side*.066,.43,.035,.025);
+   box(root,'Window ledge',palette.paper,x+dx,row-.42,face+side*.08,.71,.08,.24);
+  }
+ }
 }
 function compactStatic(group:THREE.Group){
- group.updateMatrixWorld(true);const originals:THREE.Mesh[]=[];const bins=new Map<string,{geometries:THREE.BufferGeometry[];material:THREE.MeshStandardMaterial}>();
- group.traverse(object=>{if(object instanceof THREE.Mesh&&object.material instanceof THREE.MeshStandardMaterial){originals.push(object);const key=object.material.color.getHexString();let bin=bins.get(key);if(!bin){bin={geometries:[],material:object.material.clone()};bins.set(key,bin);}bin.geometries.push(object.geometry.clone().applyMatrix4(object.matrixWorld));}});
- for(const original of originals){original.removeFromParent();original.geometry.dispose();(original.material as THREE.Material).dispose();}for(const bin of bins.values()){const geometry=mergeGeometries(bin.geometries);for(const part of bin.geometries)part.dispose();if(!geometry){bin.material.dispose();continue;}const mesh=new THREE.Mesh(geometry,bin.material);mesh.castShadow=true;mesh.receiveShadow=true;group.add(mesh);}
+ group.updateMatrixWorld(true);const originals:THREE.Mesh[]=[];const bins=new Map<string,{geometries:THREE.BufferGeometry[];material:THREE.MeshStandardMaterial;castShadow:boolean;receiveShadow:boolean}>();
+ group.traverse(object=>{if(object instanceof THREE.Mesh&&object.material instanceof THREE.MeshStandardMaterial){originals.push(object);const finish=object.material;
+  const key=JSON.stringify([finish.color.getHexString(),finish.emissive.getHexString(),finish.emissiveIntensity,finish.roughness,finish.metalness,finish.opacity,finish.transparent,finish.side,finish.depthWrite,finish.flatShading,object.castShadow,object.receiveShadow]);
+  let bin=bins.get(key);if(!bin){bin={geometries:[],material:finish.clone(),castShadow:object.castShadow,receiveShadow:object.receiveShadow};bins.set(key,bin);}bin.geometries.push(object.geometry.clone().applyMatrix4(object.matrixWorld));}});
+ for(const original of originals){original.removeFromParent();original.geometry.dispose();(original.material as THREE.Material).dispose();}for(const bin of bins.values()){const geometry=mergeGeometries(bin.geometries);for(const part of bin.geometries)part.dispose();if(!geometry){bin.material.dispose();continue;}const mesh=new THREE.Mesh(geometry,bin.material);mesh.castShadow=bin.castShadow;mesh.receiveShadow=bin.receiveShadow;group.add(mesh);}
 }
 function innerSky(root:THREE.Group,late:boolean){
  // Distant city terraces rise around the inner curve. They are scenery, never reachable story locations.
@@ -54,7 +80,7 @@ function innerSky(root:THREE.Group,late:boolean){
  for(let j=0;j<8;j++)box(inverted,'Hanging washing',j%2?'#c7a08d':'#e1d9bf',-10+j*2.6,1.0,-2.5,.95,.72,.04);
  compactStatic(curve);
 }
-function tree(root:THREE.Group,x:number,z:number){cylinder(root,'Tree trunk',palette.wood,x,.7,z,.16,1.4);for(const [dx,dy,dz] of [[0,2,0],[-.45,1.7,.2],[.5,1.8,-.2]]){const mesh=new THREE.Mesh(new THREE.IcosahedronGeometry(.92,1),new THREE.MeshStandardMaterial({color:palette.green,roughness:1}));mesh.position.set(x+dx,dy,z+dz);mesh.castShadow=true;root.add(mesh);}}
+function tree(root:THREE.Group,x:number,z:number){cylinder(root,'Tree trunk',palette.wood,x,.7,z,.16,1.4);for(const [dx,dy,dz] of [[0,2,0],[-.45,1.7,.2],[.5,1.8,-.2]]){const mesh=new THREE.Mesh(new THREE.IcosahedronGeometry(.92,1),new THREE.MeshStandardMaterial({color:palette.green,roughness:1,flatShading:true}));mesh.position.set(x+dx,dy,z+dz);mesh.castShadow=true;root.add(mesh);}}
 function table(root:THREE.Object3D,name:string,x:number,z:number,w=3,d=1.4){const group=new THREE.Group();group.name=name;group.position.set(x,0,z);root.add(group);box(group,'Tabletop',palette.wood,0,.9,0,w,.16,d);for(const dx of [-w/2+.15,w/2-.15])for(const dz of [-d/2+.15,d/2-.15])box(group,'Table leg',palette.dark,dx,.42,dz,.12,.84,.12);return group;}
 function door(root:THREE.Group,x:number,z:number){const g=new THREE.Group();g.name='painted-door';g.position.set(x,0,z);g.rotation.y=-.22;root.add(g);box(g,'Door panel',palette.blue,0,1.4,0,1.2,2.8,.13);box(g,'Painted sky', '#bfceca',0,1.65,.075,.96,1.9,.025);
  const moon=new THREE.Mesh(new THREE.CircleGeometry(.21,20),new THREE.MeshStandardMaterial({color:'#eedabc',roughness:1}));moon.position.set(.13,2.2,.095);g.add(moon);for(let i=0;i<5;i++)box(g,'Painted cloud','#e1d9c3',-.3+i*.12,1.6+Math.sin(i)*.2,.095,.26,.06,.017);box(g,'Paint dribble','#6f949d',-.33,.54,.085,.04,.8,.02);for(const dx of [-.7,.7])box(g,'Door jamb',palette.gold,dx,1.5,0,.14,3,.22);box(g,'Lintel',palette.gold,0,3,0,1.55,.14,.22);cylinder(g,'Door handle',palette.gold,.38,1.25,.15,.06,.07);return g;}
@@ -70,23 +96,35 @@ function rain(root:THREE.Group){
  for(let i=0;i<7;i++){const ripple=new THREE.Mesh(new THREE.TorusGeometry(.27+i*.05,.008,4,32),new THREE.MeshBasicMaterial({color:'#cae0d5',transparent:true,opacity:.5}));ripple.rotation.x=Math.PI/2;ripple.position.set(-7+i*2.2,.02,-7);root.add(ripple);}
 }
 function theatre(root:THREE.Group,outside:boolean,late:boolean,complete=false){
- box(root,'Rehearsal runner',outside?'#829b90':'#af7c69',0,.015,-.4,9,.024,3.2);
+ box(root,'Rehearsal runner',outside?'#687f75':palette.plum,0,.015,-.4,9,.024,3.2);
+ for(const z of [-1.87,1.07])box(root,'Runner woven border',palette.gold,0,.03,z,8.8,.006,.05);
  box(root,'Stage apron',palette.wood,0,.15,-5,15,.3,5);box(root,'Stage back',outside?'#768b82':palette.dark,outside?0:2.6,2.5,-7.7,outside?15:9.6,5,.2);
+ for(let index=0;index<20;index++)box(root,'Stage floorboard',index%3?'#665247':'#76604c',-7.1+index*.74,.308,-5,.7,.015,4.96);
+ box(root,'Apron brass line',palette.gold,0,.24,-2.48,14.9,.025,.045);
+ for(const x of [-5,-2.5,0,2.5,5]){box(root,'Footlight housing',palette.dark,x,.4,-2.62,.48,.18,.2);glow(box(root,'Footlight pane',palette.gold,x,.47,-2.61,.35,.05,.14),.8);}
  for(const x of [-7.1,7.1]){box(root,'Stage post',palette.wood,x,2.9,-5,.22,5.8,.22);beam(root,palette.wood,new THREE.Vector3(x,5.5,-5),new THREE.Vector3(x,4,-7.5),.15);}
  if(outside){for(const x of [-5,-1,3,7])beam(root,palette.wood,new THREE.Vector3(x,5.5,-7.5),new THREE.Vector3(x,5.5,-1),.12);rain(root);if(complete){for(const x of [-4.5,0,4.5]){box(root,'Finished roof',palette.paper,x,5.6,-6.3,4.45,.13,3);box(root,'Roof edge',palette.wood,x,5.55,-4.8,4.5,.15,.15);}}else box(root,'Unfinished roof',palette.paper,4,5.6,-4,6,.08,5);for(const z of [-5.5,-2])box(root,'Scaffolding crossbar',palette.wood,7.6,1.9,z,.12,.12,3);box(root,'Stacked planks',palette.wood,-6,.26,-.5,1.3,.52,3.4);for(const x of [-6.7,-5.3])box(root,'Discarded roof boards',palette.wood,x,.08,-.5,.09,.15,3.7);}
- else{for(const x of [-1.5,6]){box(root,'Velvet curtain',late?'#648783':'#a25f54',x,2.45,-7.4,2,4.8,.12);for(let j=0;j<7;j++)box(root,'Curtain fold',late?'#547671':'#925447',x-.9+j*.3,2.45,-7.3,.11,4.8,.11);}
+ else{for(const x of [-1.5,6]){box(root,'Velvet curtain',late?palette.blue:palette.plum,x,2.45,-7.4,2,4.8,.12);for(let j=0;j<9;j++)box(root,'Curtain fold',late?'#2c5157':'#473843',x-.91+j*.225,2.45,-7.28,.12,4.8,.14);box(root,'Curtain hem',palette.gold,x,.14,-7.25,2,.07,.03);}
+  box(root,'Stage pelmet',palette.plum,2.2,4.95,-7.25,9.7,.28,.2);box(root,'Pelmet brass trim',palette.gold,2.2,4.8,-7.1,9.7,.035,.045);
  box(root,'Dining room back wall',palette.wall,3.7,3.3,-8.4,12.6,6.6,.3);box(root,'Window low wall',palette.wall,-5.6,.8,-8.4,5.7,1.6,.3);box(root,'Window high wall',palette.wall,-5.6,5.7,-8.4,5.7,1.8,.3);
   for(const x of [-8.6,-2.65])box(root,'Window jamb',palette.paper,x,3.1,-8.3,.2,3.2,.4);for(const x of [-7.1,-5.6,-4.1])box(root,'Window mullion',palette.paper,x,3.1,-8.3,.13,3.1,.18);box(root,'Long window sill',palette.paper,-5.6,1.7,-8.1,6.2,.18,.7);
-  box(root,'Dining room side wall',palette.wall,-8.7,2.5,-1.4,.24,5,13.5);for(const z of [-5.5,-1.4,2.7]){box(root,'Wall wainscot',palette.wood,-8.52,.65,z,.12,1.3,3.85);box(root,'Wall molding',palette.gold,-8.49,1.35,z,.14,.08,4);}
+  box(root,'Dining room side wall',palette.wall,-8.7,2.5,-1.4,.24,5,13.5);for(const z of [-5.5,-1.4,2.7]){box(root,'Wall wainscot',palette.wood,-8.52,.65,z,.12,1.3,3.85);box(root,'Wall molding',palette.gold,-8.49,1.35,z,.14,.08,4);for(const dz of [-1.3,0,1.3]){box(root,'Wainscot panel inset',palette.dark,-8.44,.65,z+dz,.018,.95,1.1);box(root,'Panel upper rail',palette.gold,-8.43,1.15,z+dz,.02,.028,1.1);}}
   for(const z of [-7.9,-3,2.6]){box(root,'Ceiling beam',palette.wood,0,5.4,z,18,.18,.2);box(root,'Dining room column',palette.paper,-8.4,2.7,z,.3,5.4,.3);}innerSky(root,late);}
- for(let row=0;row<3;row++)for(let column=0;column<6;column++){const x=-5+column*2,z=2+row*1.55;box(root,'Audience seat',palette.wood,x,.49,z,.95,.15,.72);box(root,'Chair back',palette.wood,x,.88,z+.31,.95,.82,.13);}
+ for(let row=0;row<3;row++)for(let column=0;column<6;column++){const x=-5+column*2,z=2+row*1.55;box(root,'Audience seat',palette.wood,x,.49,z,.95,.15,.72);box(root,'Chair back',palette.wood,x,.88,z+.31,.95,.82,.13);box(root,'Seat cushion',palette.plum,x,.58,z-.03,.82,.07,.58);for(const dx of [-.36,.36])for(const dz of [-.25,.25])box(root,'Chair leg',palette.dark,x+dx,.23,z+dz,.075,.46,.075);}
  table(root,'Worktable',5,-1.8,2.7,1.2);for(let i=0;i<4;i++)cylinder(root,'Paint pot',[palette.coral,palette.blue,palette.gold,palette.green][i],4.1+i*.55,1.07,-1.8,.15,.2);
 }
-function publicSquare(root:THREE.Group,late:boolean){innerSky(root,late);for(const x of [-9,9])for(let z=-6;z<=4;z+=5)house(root,x,z,3.5+(z+6)*.12,x<0?palette.coral:palette.wall,3);tree(root,-6,4);tree(root,7,4);cylinder(root,'Fountain basin',palette.wall,-5,0,-3,1.25,.35);cylinder(root,'Fountain water',palette.blue,-5,.18,-3,1,.04);cylinder(root,'Fountain column',palette.paper,-5,.7,-3,.17,1.3);for(const x of [-2,2])box(root,'Street bench',palette.wood,x,.48,5.7,2.7,.2,.55);}
+function publicSquare(root:THREE.Group,late:boolean){innerSky(root,late);for(const x of [-9,9])for(let z=-6;z<=4;z+=5)house(root,x,z,3.5+(z+6)*.12,x<0?palette.coral:palette.wall,3);tree(root,-6,4);tree(root,7,4);cylinder(root,'Fountain basin',palette.wall,-5,0,-3,1.25,.35);cylinder(root,'Fountain water',palette.blue,-5,.18,-3,1,.04);cylinder(root,'Fountain column',palette.paper,-5,.7,-3,.17,1.3);
+ const rim=new THREE.Mesh(new THREE.TorusGeometry(1.13,.095,6,32),material(palette.paper));rim.name='Fountain stone rim';rim.rotation.x=Math.PI/2;rim.position.set(-5,.19,-3);rim.castShadow=true;rim.receiveShadow=true;root.add(rim);
+ for(const x of [-2,2]){box(root,'Street bench',palette.wood,x,.48,5.7,2.7,.2,.55);for(const dx of [-1,1])box(root,'Bench support',palette.dark,x+dx,.23,5.7,.12,.46,.48);for(const dz of [-.12,.12])box(root,'Bench slat seam',palette.dark,x,.586,5.7+dz,2.65,.008,.012);}}
 export function buildEnvironment(profile:MercyProfile){
  const root=new THREE.Group();root.name=profile.location;paving(root,20,!['market','outside-theatre'].includes(profile.location));
  const paperPoint=['patron','late-square'].includes(profile.location)?{x:0,z:-3}:profile.location==='edge'?{x:-4,z:-3}:{x:4.8,z:-1.8};
- for(const [x,z] of [[-7.5,6.6],[7.5,6.6]]){cylinder(root,'Lamp pedestal',palette.dark,x,.15,z,.27,.3);cylinder(root,'Lamp pole',palette.dark,x,1.5,z,.06,3);box(root,'Lamp glass',palette.gold,x,3.12,z,.35,.48,.35);}
+ for(const [x,z] of [[-7.5,6.6],[7.5,6.6]]){
+  cylinder(root,'Lamp pedestal',palette.dark,x,.15,z,.27,.3);cylinder(root,'Lamp pole',palette.dark,x,1.5,z,.06,3);
+  glow(box(root,'Lamp glass',palette.gold,x,3.12,z,.31,.43,.31),.85);
+  for(const dx of [-.19,.19])for(const dz of [-.19,.19])box(root,'Lantern corner',palette.dark,x+dx,3.12,z+dz,.035,.55,.035);
+  box(root,'Lantern cap',palette.dark,x,3.41,z,.46,.1,.46);box(root,'Lantern base',palette.dark,x,2.85,z,.43,.06,.43);
+ }
 const late=profile.location.startsWith('late-');
  if(profile.location==='theatre'||profile.location==='late-theatre')theatre(root,false,late);
  else if(profile.location==='outside-theatre')theatre(root,true,late,profile.props.includes('finished-roof'));

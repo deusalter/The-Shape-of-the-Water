@@ -5,6 +5,7 @@ import {moveWithinArea,walkPath,type Point} from './navigation';
 import {profileFor,targetsFor,nearestPreparedTarget,type WorldChoice,type WorldTarget} from './profiles';
 import {physicalStageKey} from './physicalStage';
 import {createRenderScheduler} from './renderScheduler';
+import {createLighting} from './lighting';
 import './mercy.css';
 export interface MercyWorldProps {sceneId:string;variantId?:string;encounteredSourceIds?:readonly string[];choices:readonly WorldChoice[];disabled:boolean;onChoose:(id:string)=>void;}
 const movementKeys=['KeyW','KeyA','KeyS','KeyD','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'];
@@ -20,11 +21,11 @@ export function MercyWorld(props:MercyWorldProps){
   const host=mount.current;if(!host||!profile)return;setNear(null);setFailed(false);
   let renderer:THREE.WebGLRenderer;
   try{renderer=new THREE.WebGLRenderer({antialias:true,powerPreference:'low-power'});}catch{setFailed(true);return;}
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio,1.5));renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.shadowMap.autoUpdate=false;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;renderer.outputColorSpace=THREE.SRGBColorSpace;
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio,1.5));renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFShadowMap;renderer.shadowMap.autoUpdate=false;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;renderer.outputColorSpace=THREE.SRGBColorSpace;
   renderer.domElement.setAttribute('aria-hidden','true');host.appendChild(renderer.domElement);
   const scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(48,1,.1,130),metadataCamera=new THREE.PerspectiveCamera(48,1,.1,130),avatar=figure('Blaise');scene.add(avatar);
   const limbs=([['LeftLeg',1],['RightLeg',-1],['LeftArm',-1],['RightArm',1]] as const).map(([part,sign])=>({object:avatar.getObjectByName(`Blaise_${part}`)!,sign}));
-  const sun=new THREE.DirectionalLight('#ffe5bd',2.7);sun.position.set(-9,18,9);sun.castShadow=true;sun.shadow.mapSize.set(1024,1024);Object.assign(sun.shadow.camera,{left:-17,right:17,top:17,bottom:-17,near:1,far:55});sun.shadow.bias=-.001;scene.add(sun,new THREE.HemisphereLight('#c3dbdc','#766451',1.45));
+  const lighting=createLighting(scene,renderer);
   let environment:THREE.Group|undefined,markers:THREE.Group|undefined,staged='',physicalKey='',yaw=profile.cameraYaw,path:Point[]=[],phase=0,nearKey='',inViewport=true,projectionDirty=true;
   let renderFrames=0,environmentBuilds=0,shadowUpdates=0;
   const keys=new Set<string>(),follow=new THREE.Vector3(),desired=new THREE.Vector3(),ray=new THREE.Raycaster(),pointer=new THREE.Vector2(),projection=new THREE.Vector3(),floor=new THREE.Plane(new THREE.Vector3(0,1,0),0);
@@ -56,7 +57,7 @@ export function MercyWorld(props:MercyWorldProps){
     if(markers){scene.remove(markers);release(markers);}markers=new THREE.Group();scene.add(markers);
     for(const target of current.targets){const mesh=new THREE.Mesh(new THREE.RingGeometry(.28,.34,32),new THREE.MeshBasicMaterial({color:'#dbc092',side:THREE.DoubleSide,transparent:true,opacity:.72}));mesh.rotation.x=-Math.PI/2;mesh.position.set(target.x,.045,target.z);mesh.userData.choiceId=target.choiceId;markers.add(mesh);}
     avatar.position.set(p.spawn.x,0,p.spawn.z);follow.set(p.spawn.x,1.1,p.spawn.z);
-    const outside=['market','outside-theatre','edge'].includes(p.location);scene.background=new THREE.Color(outside?'#8faeb0':'#c2d0ca');scene.fog=new THREE.Fog(outside?'#8faeb0':'#c2d0ca',35,85);
+    lighting.apply(p.location);
     publishStageMetadata();
    }
    let dx=0,dz=0;
@@ -99,7 +100,7 @@ export function MercyWorld(props:MercyWorldProps){
   const pointerup=(e:PointerEvent)=>{if(!down)return;const start=down;down=undefined;const p=stage.current.profile;if(!p||latest.current.disabled||Math.hypot(e.clientX-start.x,e.clientY-start.y)>10)return;const bounds=host.getBoundingClientRect();pointer.set((e.clientX-bounds.left)/bounds.width*2-1,-(e.clientY-bounds.top)/bounds.height*2+1);ray.setFromCamera(pointer,camera);const point=new THREE.Vector3();if(ray.ray.intersectPlane(floor,point)){path=walkPath(p.navigation,avatar.position,{x:point.x,z:point.z});scheduler.wake();}};
   host.addEventListener('keydown',keydown);host.addEventListener('keyup',keyup);host.addEventListener('blur',blur);window.addEventListener('blur',blur);host.addEventListener('pointerdown',pointerdown);host.addEventListener('pointerup',pointerup);
   scheduler.wake();
-  return()=>{scheduler.dispose();observer.disconnect();intersection?.disconnect();document.removeEventListener('visibilitychange',visibility);controls.current=undefined;host.removeEventListener('keydown',keydown);host.removeEventListener('keyup',keyup);host.removeEventListener('blur',blur);window.removeEventListener('blur',blur);host.removeEventListener('pointerdown',pointerdown);host.removeEventListener('pointerup',pointerup);release(scene);sun.shadow.dispose();renderer.dispose();renderer.domElement.remove();delete host.dataset.loaded;};
+  return()=>{scheduler.dispose();observer.disconnect();intersection?.disconnect();document.removeEventListener('visibilitychange',visibility);controls.current=undefined;host.removeEventListener('keydown',keydown);host.removeEventListener('keyup',keyup);host.removeEventListener('blur',blur);window.removeEventListener('blur',blur);host.removeEventListener('pointerdown',pointerdown);host.removeEventListener('pointerup',pointerup);release(scene);lighting.dispose();renderer.dispose();renderer.domElement.remove();delete host.dataset.loaded;};
  },[!!profile]);
  // Prop changes wake the renderer even when it has no pending animation frame.
  useEffect(()=>{controls.current?.refresh();},[prepared,props.disabled]);

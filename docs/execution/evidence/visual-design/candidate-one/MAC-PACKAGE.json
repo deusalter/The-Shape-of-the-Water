@@ -1,0 +1,32 @@
+{
+  "path": "releases/The-Shape-of-the-Water-Mac.zip",
+  "bytes": 9166607,
+  "sha256": "699c2205e956a652e0ed8965b9fd59cc0173912dd0ece7b92e3d1885a01e7598",
+  "launcherVersion": "1.0.0",
+  "assetBuild": "e4eb157aa0fc60a4",
+  "contentHash": "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+  "sourcePlayerArchiveSha256": "817fb4bdbba1c20de51b0e2729a5e9592e2099ffeecfdc9089030185b54c6362",
+  "gameFilesCopiedUnchanged": 25,
+  "minimumMacOS": "13.0",
+  "architectures": [
+    "x86_64",
+    "arm64"
+  ],
+  "compiler": "go version go1.27.1 linux/amd64",
+  "slices": {
+    "amd64": {
+      "offset": 16384,
+      "bytes": 10153664,
+      "sha256": "908af85d3eed3a54c5f9179afc7a25552e7d70818e5d31fae3ae07a3964879e2"
+    },
+    "arm64": {
+      "offset": 10174464,
+      "bytes": 9464786,
+      "sha256": "2db39bc181e53392707da1dace4e133765b5146aa3ba032a37f992ac8c27bb90"
+    }
+  },
+  "universalExecutableSha256": "923895d799501bdc5420c246ad01e7ad588fea1a3e5c092da3180ceeca4fadd8",
+  "notarized": false,
+  "nativeMacExecutionVerified": false,
+  "scope": "Universal Mac launcher around exact optimized player assets; local browser, no runtime installation or terminal commands required."
+}

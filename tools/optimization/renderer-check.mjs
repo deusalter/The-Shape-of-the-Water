@@ -6,10 +6,10 @@ import {join,resolve} from 'node:path';
 import {createServer} from 'node:http';
 import {createHash} from 'node:crypto';
 
-const output=resolve('docs/execution/evidence/mercy-optimization/renderer');mkdirSync(output,{recursive:true});
+const output=resolve(process.env.RENDERER_REPORT_DIR??'docs/execution/evidence/mercy-optimization/renderer');mkdirSync(output,{recursive:true});
 const temporary=mkdtempSync(join(tmpdir(),'mercy-renderer-'));
 const hash=path=>createHash('sha256').update(readFileSync(path)).digest('hex');
-const report={status:'RUNNING',scope:'Actual Chromium renderer fixture; software WebGL, no hardware FPS claim. Visibility is simulated with document.hidden; offscreen suspension uses actual intersection/scroll.',contentSha256:hash('src/content/case-v7.json'),sourceSha256:hash('src/world/mercy/MercyWorld.tsx'),checks:[],errors:[],metrics:{}};
+const report={status:'RUNNING',scope:'Actual Chromium renderer fixture; software WebGL, no hardware FPS claim. Visibility is simulated with document.hidden; offscreen suspension uses actual intersection/scroll.',contentSha256:hash('src/content/case-v7.json'),sourceSha256:hash('src/world/mercy/MercyWorld.tsx'),sourcePins:Object.fromEntries(['src/world/mercy/MercyWorld.tsx','src/world/mercy/geometry.ts','src/world/mercy/lighting.ts','src/world/mercy/mercy.css'].map(path=>[path,hash(path)])),checks:[],errors:[],metrics:{}};
 const bundle=await build({stdin:{contents:`
  import React,{useState} from 'react';import {createRoot} from 'react-dom/client';
  import {MercyWorld} from './src/world/mercy/MercyWorld';import {sceneProfiles} from './src/world/mercy/profiles';import {physicalStageKey} from './src/world/mercy/physicalStage';
@@ -38,6 +38,7 @@ await page.addInitScript(()=>{
  }
 });
 page.on('pageerror',error=>report.errors.push(String(error)));
+page.on('console',message=>{if(message.type()==='error')report.errors.push(message.text());});
 const host=page.locator('.mercy-world-canvas');
 const data=()=>host.evaluate(el=>({...el.dataset}));
 async function settle(){let last=-1;for(let i=0;i<40;i++){const frames=Number((await data()).renderFrames);await page.waitForTimeout(150);const next=Number((await data()).renderFrames);if(frames===next&&next===last)return next;last=next;}throw Error('Renderer did not settle');}
@@ -62,6 +63,7 @@ try{
  await check('offscreen progression updates logical metadata and builds only the final visible stage',async()=>{await page.evaluate(()=>window.scrollTo(0,1500));await page.waitForTimeout(300);const before=await data();const different=profiles.find(p=>p.physicalKey!==walking.physicalKey);await select(different);await page.waitForTimeout(200);expect((await data()).renderFrames).toBe(before.renderFrames);expect((await data()).environmentBuilds).toBe(before.environmentBuilds);expect(JSON.parse((await data()).targets).map(t=>t.choiceId)).toEqual(different.choiceIds);await select(walking);await page.evaluate(()=>window.scrollTo(0,0));await settle();expect((await data()).environmentBuilds).toBe(before.environmentBuilds);});
  await check('visibility suspension retains a pending camera wake',async()=>{await page.evaluate(()=>{Object.defineProperty(document,'hidden',{configurable:true,value:true});document.dispatchEvent(new Event('visibilitychange'));});const before=await data();await page.evaluate(()=>document.querySelector('[aria-label="Turn camera left"]').click());await page.waitForTimeout(250);expect((await data()).renderFrames).toBe(before.renderFrames);await page.evaluate(()=>{delete document.hidden;document.dispatchEvent(new Event('visibilitychange'));});await settle();expect(Number((await data()).renderFrames)).toBeGreaterThan(Number(before.renderFrames));});
  await check('unmount cleans canvas, pending frames, observers and external listeners; remount works',async()=>{await page.evaluate(()=>window.fixtureSet({visible:false}));await expect(host).toHaveCount(0);await page.waitForTimeout(200);const cleanup=await page.evaluate(()=>window.fixtureLifecycle);expect(cleanup).toEqual({frames:0,resize:0,intersection:0,visibility:0,blur:0});report.metrics.cleanup=cleanup;await page.evaluate(()=>window.fixtureSet({visible:true}));await expect(host).toHaveAttribute('data-render-frames',/^[1-9]/);await settle();expect((await data()).environmentBuilds).toBe('1');expect(await page.evaluate(()=>window.fixtureLifecycle)).toEqual({frames:0,resize:1,intersection:1,visibility:1,blur:1});});
+ for(const location of [...new Set(profiles.map(p=>p.location))]){const p=profiles.find(p=>p.location===location);await select(p);await settle();await page.locator('.mercy-world').screenshot({path:join(output,location+'.png')});}
  expect(report.errors).toEqual([]);report.status='PASS';
 }catch(error){report.status='FAIL';report.errors.push(String(error));throw error;}
 finally{writeFileSync(join(output,'browser-check.json'),JSON.stringify(report,null,2)+'\n');await browser.close();await new Promise(done=>server.close(done));rmSync(temporary,{recursive:true,force:true});}

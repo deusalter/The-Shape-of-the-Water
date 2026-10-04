@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "contentSha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+  "scope": "Built studio, exact installed and retained bundles, saved prose edit, separate preview and noncanonical injection. No literary acceptance claim.",
+  "checks": [
+    "Installed content exports exactly. A saved one-paragraph edit survives explicit draft reload while the installed default remains unchanged.",
+    "Edited preview shows its exact prose and loaded Mercy world. Injected author scenario uses a different content identity; neither can replace the canonical run.",
+    "All three retained editions export their exact frozen bundles."
+  ],
+  "pageErrors": [],
+  "externalRequests": [],
+  "databases": [
+    "literary-detective-author-projects-v2",
+    "literary-detective-studio-preview-v2"
+  ]
+}

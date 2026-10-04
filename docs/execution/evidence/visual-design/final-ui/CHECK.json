@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "scope": "Final CSS-only contrast revision: actual built player with open notebook, save takeover alert, text-focus/large reading controls, narrow layout, browser axe and exact saved-action reload. Earlier four full story witnesses retain unchanged renderer/story/engine inputs.",
+  "assetBuild": "61a21436c14afcbc",
+  "cssSha256": "1859f00d6f58428856c9c5812d897fea54d3c226d146f9198d749329df5f32b6",
+  "checks": [
+    "New build verified in browser; notebook open at1440/390/320 has no overflow or axe violations. Incomplete checks remain manual limits.",
+    "Large reading/text-focus and world remount work; actual saved action reload/takeover preserves exact export and readable pale alert.",
+    "Final build reloads offline with the exact saved run."
+  ],
+  "accessibility": [
+    {
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    }
+  ],
+  "errors": []
+}
