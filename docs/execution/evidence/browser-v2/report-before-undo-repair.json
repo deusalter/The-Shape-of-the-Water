@@ -1,5 +1,5 @@
 {
-  "status": "PASS",
+  "status": "FAIL",
   "scope": "Actual built v2 first-night case and author UI in Chromium; no human duration or full-game acceptance",
   "sourceCaseSha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
   "manifest": {
@@ -60,21 +60,8 @@
     },
     {
       "name": "Structured author edit, undo, invalid-draft persistence and worker validation",
-      "status": "PASS",
-      "detail": "Blank title survives storage; dedicated worker reports invalid draft; earlier valid preview still plays."
-    },
-    {
-      "name": "Author OR editing round-trip, annotations excluded and alternative actually executes",
-      "status": "PASS",
-      "detail": "UI-added noncanonical OR route survives author export/import and executes in real engine; annotations stay out of player content."
-    },
-    {
-      "name": "Injected preview is separately identified, export-incompatible, accessible and isolated",
-      "status": "PASS",
-      "detail": {
-        "violations": 0,
-        "incomplete": 1
-      }
+      "status": "FAIL",
+      "error": "Error: expect(locator).toHaveValue(expected) failed\n\nLocator:  getByLabel('Scene title', { exact: true })\nExpected: \"The Shape of the Water\"\nReceived: \"A browser title\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveValue\" getByLabel('Scene title', { exact: true }) with timeout 5000ms\n  - waiting for getByLabel('Scene title', { exact: true })\n    14 × locator resolved to <input value=\"A browser title\"/>\n       - unexpected value \"A browser title\"\n"
     }
   ],
   "pageErrors": [],
@@ -87,6 +74,7 @@
     "unimplemented recurrence runtime",
     "whole-game literary acceptance"
   ],
+  "failure": "Error: expect(locator).toHaveValue(expected) failed\n\nLocator:  getByLabel('Scene title', { exact: true })\nExpected: \"The Shape of the Water\"\nReceived: \"A browser title\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveValue\" getByLabel('Scene title', { exact: true }) with timeout 5000ms\n  - waiting for getByLabel('Scene title', { exact: true })\n    14 × locator resolved to <input value=\"A browser title\"/>\n       - unexpected value \"A browser title\"\n",
   "sourceCaseSha256After": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
   "sourceStable": true
 }
