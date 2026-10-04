@@ -19,6 +19,9 @@ export function checkHandoff(root) {
     if(!manifest.files?.[path])errors.push(`Required pin absent: ${path}`);
   }
   if(state.baseline?.archiveSha256!==manifest.baselineArchiveSha256)errors.push('Stale baseline identity');
+  for(const path of state.continuityFiles??[]){
+    if(!manifest.files?.[path])errors.push(`Required current continuity pin absent: ${path}`);
+  }
   try {
     const selection=JSON.parse(read('src/content/selection.json'));
     if(typeof selection.file!=='string'||!/^case[-a-z0-9]*\.json$/.test(selection.file))throw Error('Invalid selected content file');

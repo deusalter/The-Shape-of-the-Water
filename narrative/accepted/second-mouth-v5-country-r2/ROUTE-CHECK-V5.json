@@ -1,0 +1,115 @@
+{
+  "contentSha256": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8",
+  "validation": true,
+  "engineSources": [
+    {
+      "file": "src/engine/evidence-budget.ts",
+      "sha256": "31de32f49420577b6a14b2e433275b5ecb3c433e106ffd32612a3ae721f174a1"
+    },
+    {
+      "file": "src/engine/evidence-fixture.ts",
+      "sha256": "248bdcc1d3a3913abb437945baf6eecc0df237ab88e52a68c9f62febbe48c77c"
+    },
+    {
+      "file": "src/engine/evidence-migration.ts",
+      "sha256": "7da526e04438178f7e3cb36f996ea458369dbd50ea1f814d93f1621ef8fead07"
+    },
+    {
+      "file": "src/engine/evidence-occasion-fixture.ts",
+      "sha256": "5176cc3c1f8715818704670ec2f01f74ac1c84e010058d7cb4b4b7fe8ffbbf97"
+    },
+    {
+      "file": "src/engine/evidence-occasion-validation.ts",
+      "sha256": "6e1479185c899933dc9236ba820f5f6895b94498fd49745b462cad742fab8bee"
+    },
+    {
+      "file": "src/engine/evidence-occasions.ts",
+      "sha256": "6a065c700077eeffb0325d05548260a85c37dbe2851d77d2c7cc88b594da2352"
+    },
+    {
+      "file": "src/engine/evidence-portable.ts",
+      "sha256": "e862e2e2acb7242b1b7895fbf948c002496b81500c216c34db4ae937e9946227"
+    },
+    {
+      "file": "src/engine/evidence-proof.ts",
+      "sha256": "258b136d8d4cf35203c3c37bf8091a8d1f786cb5f4a0ef8ab5c069f72965c16e"
+    },
+    {
+      "file": "src/engine/evidence-runtime.ts",
+      "sha256": "72b633806f93320e2f987d67b6a000d0ba6c370f30fced9bc6006022a838e7f9"
+    },
+    {
+      "file": "src/engine/evidence-schema.ts",
+      "sha256": "1a2735a144d386ee9ac6d6ce530598b1e515777240674641a5c25f2c400bb767"
+    },
+    {
+      "file": "src/engine/evidence-types.ts",
+      "sha256": "1306fb9673ebb267fcf211b6dd663d2a3b065c10ca16039339ba9f3c920a7d85"
+    },
+    {
+      "file": "src/engine/evidence-v2.ts",
+      "sha256": "e23776590b33f0d188bd85529e77dc2270a69da31e4c3099036b87e35275db47"
+    },
+    {
+      "file": "src/engine/evidence-validate.ts",
+      "sha256": "d7e110682ad7ab21fb2ef5a61521a68e4d8a96351c4134034ddd3d7a18bfe27c"
+    }
+  ],
+  "routes": [
+    {
+      "name": "kept-test-dry-tracing-pipe-written",
+      "commands": 45,
+      "passageWords": 8084,
+      "ending": "o0.rene-arrival",
+      "passed": true
+    },
+    {
+      "name": "closed-private-proof-orchard-loan-oral",
+      "commands": 41,
+      "passageWords": 7891,
+      "ending": "o0.rene-arrival",
+      "passed": true
+    },
+    {
+      "name": "closed-private-confession-dry-panel-invitation-written",
+      "commands": 45,
+      "passageWords": 8131,
+      "ending": "o0.rene-arrival",
+      "passed": true
+    },
+    {
+      "name": "closed-public-confession-orchard-rubbing-written",
+      "commands": 39,
+      "passageWords": 7848,
+      "ending": "o0.rene-arrival",
+      "passed": true
+    },
+    {
+      "name": "kept-declined-orchard-loan-written",
+      "commands": 38,
+      "passageWords": 7644,
+      "ending": "o0.rene-arrival",
+      "passed": true
+    },
+    {
+      "name": "kept-declined-dry-panel-pipe-oral",
+      "commands": 39,
+      "passageWords": 7609,
+      "ending": "o0.rene-arrival",
+      "passed": true
+    }
+  ],
+  "checks": [
+    "Explicit selected private proof remains private in later reports.",
+    "Checked and oral Emil accounts retain one witness origin.",
+    "Rubbings/tracings inherit actual encountered material and account ancestry.",
+    "No unperformed physical fit, borrowed object, bodily recovery or opposite-route source is acquired.",
+    "Private audiences and current house-arrival variants are checked.",
+    "Wrong/incomplete proof rejects without mutation; exact old passage history and portable replay preserved."
+  ],
+  "limits": [
+    "Automated authored routes, not human playtests.",
+    "First country journey and house chapter only; no physical-fit/confrontation, bodily-return, later washing or ending implementation claim.",
+    "No browser or 3D assertions in this script."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "scope": "Original bounded first-country country geometry and explicit current passage staging",
+  "contentPin": "1ff7b7d98abdf20428bb80dcd0436377422505c3e6622bf6c1c9c1dde51ddb8f",
+  "sourceHashes": {
+    "tools/blender/build-country.py": "6ada1accc72b08e8d34e7174482b92ea6e0edf7dce2e6c74f5c1be3ec831a05b",
+    "visual/country/first-country-locations.blend": "f73dad2688c92ed1c9b937e6b5af35c981989e73abbbab0b9a8fd619565369a5",
+    "public/world/country/first-country-locations.glb": "7430d726d32d892fbfe1dc01555884c6bea96dded6b45986785bd99537cd01a7",
+    "src/world/country/CountryWorld.tsx": "450e141cef835282a7a4cbbd174d001296d6b7f8b7fb3f3d16637b89dfbac34e",
+    "src/world/country/profiles.ts": "5fb3a924db393ae55cc0e55d695b76752d4232955c131f6cedd4727ee2293f67",
+    "src/world/country/navigation.ts": "68177d88f8bfc0e26f77c661f77d68f774bd60a4b4f6ac33365587b32567b8cd",
+    "src/world/country/country.css": "4f7a76c3aef2401bd5926135a8f17a93652f4d51c1e76b1fb3bb783ee983c777",
+    "src/content/case-v5.json": "1ff7b7d98abdf20428bb80dcd0436377422505c3e6622bf6c1c9c1dde51ddb8f",
+    "narrative/rebuild/STAGING-V5.json": "794e67206c6f769b073f41526cb3606f3e8084e7150ed38598f4f647377a1163",
+    "docs/visual/COUNTRY-WORLD.md": "8b6979a08688da95546d137abf826fbd0128e413967653d4b3b9834400779045"
+  },
+  "modelStats": {
+    "bytes": 3108896,
+    "nodes": 416,
+    "meshes": 371,
+    "materials": 36,
+    "triangles": 84896
+  },
+  "productionMethod": "Blender 4.3.2 CLI original geometry; no GUI computer use or borrowed assets",
+  "geometryGroups": [
+    "OrchardWedding",
+    "DryTheatre",
+    "LowHouse"
+  ]
+}

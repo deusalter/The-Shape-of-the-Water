@@ -1,0 +1,24 @@
+{
+  "reviewType": "Author-informed narrow manuscript recheck of bodily-return overlap timing.",
+  "reviewPath": "docs/reviews/BLAISE-RETURN-15/RECHECK.md",
+  "date": "2026-10-04",
+  "sourcePath": "narrative/rebuild/LATER-BLAISE-FIRST-RETURN-AUDITION.md",
+  "sourceSha256": "34c0f5ac9714a2bbfca476fd11727d19bd06ddb5fcc779574d5f82bcb16c06c2",
+  "sourceLineCount": 233,
+  "readRanges": [
+    {"start": 61, "end": 87},
+    {"start": 113, "end": 175}
+  ],
+  "hashVerification": "Full-file SHA-256 computed at scoped read; surrounding source not reread beyond the listed ranges.",
+  "priorReviewSourceSha256": "2428a2d6369f5ce1ad18397a76821db5a34e6aff73a7b5024ec6bd45a4a27ede",
+  "preservedFiles": [
+    "docs/reviews/BLAISE-RETURN-15/REVIEW.md",
+    "docs/reviews/BLAISE-RETURN-15/SOURCE-PINS.json"
+  ],
+  "limits": [
+    "Only the previously identified inward-overlap timing issue and its immediate transition were rechecked.",
+    "Onward refusal routing remains future and was not re-reviewed.",
+    "No canon, runtime, compiler, or commit changes.",
+    "No UI, human-playtest, or whole-game verification."
+  ]
+}

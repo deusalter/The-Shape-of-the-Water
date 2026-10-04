@@ -1,0 +1,32 @@
+{
+  "reviewType": "Author-informed simulated encountered-text reading; not blind reading or human playtesting.",
+  "reviewPath": "docs/reviews/COUNTRY-READER-17/REVIEW.md",
+  "date": "2026-10-04",
+  "sources": [
+    {
+      "path": "narrative/rebuild/readings-v5/kept-test-dry-tracing-pipe-written.md",
+      "sha256": "724e2bd119dd490b1d396f6f78ba3a764140af7074922c42fa790482c5581b9d",
+      "lineCount": 1121,
+      "readScope": "Complete captured route, read in full, including opening and continuation."
+    },
+    {
+      "path": "narrative/rebuild/readings-v5/kept-declined-orchard-loan-written.md",
+      "sha256": "9689fe0f585fbb457a1b72a4b665ecfc77c6d8135142dbd6ae42712b85818746",
+      "lineCount": 1027,
+      "readScope": "Section headings inspected to locate continuation; prose read only at lines 653-840, from Into the moving country through departure for the house. Full-file hash identifies the exact capture, not a claim of a full-route read."
+    }
+  ],
+  "candidateStability": {
+    "confirmedBy": "/root/lead_writer",
+    "sourceSha256ReportedByLead": "1ff7b7d98abdf20428bb80dcd0436377422505c3e6622bf6c1c9c1dde51ddb8f",
+    "basis": "Lead confirmed the intended current captured snapshot and no prose/content edits in flight. Underlying case source was not opened or independently hashed for this review."
+  },
+  "priorKnowledge": "Reviewer previously read the opening and a separate future bodily-return audition. Those future events are not credited as encountered in the captured v5 route.",
+  "limits": [
+    "No current design manifests, compiler sources, or run JSON read.",
+    "No route rerun, UI, performance, or human-playtest verification.",
+    "No whole-game or other-route quality verdict.",
+    "No production edits, final prose ownership, commits, or subagents.",
+    "Only files under docs/reviews/COUNTRY-READER-17 were written."
+  ]
+}

@@ -1,0 +1,46 @@
+Playing narrative/rebuild/readings-v5/kept-test-dry-tracing-pipe-written.run.json: 45 controls
+Route 0: 10/45
+Route 0: 20/45
+Route 0: 30/45
+Route 0: 40/45
+[
+  {
+    "name": "Actual keyboard exploration does not grant evidence or dispatch story actions",
+    "status": "PASS"
+  },
+  {
+    "name": "Country near-E action dispatches to the actual story engine and replayed save",
+    "status": "PASS",
+    "choiceId": "o0.inspect-source-floor"
+  },
+  {
+    "name": "Offline retained editions, exact save/reload, responsive widths and axe",
+    "status": "PASS",
+    "violations": 0,
+    "incomplete": 1
+  },
+  {
+    "name": "narrative/rebuild/readings-v5/kept-test-dry-tracing-pipe-written.run.json",
+    "status": "PASS",
+    "commands": 45,
+    "countryScenes": [
+      "o0.dry-rehearsal",
+      "o0.source-floor",
+      "o0.floor-tracing",
+      "o0.pipe-discovery",
+      "o0.pipe-rehearsal",
+      "o0.dry-house-lead",
+      "o0.dry-house-departure",
+      "o0.house-window",
+      "o0.emil-account",
+      "o0.account-written",
+      "o0.leaf-return",
+      "o0.emil-control",
+      "o0.house-door",
+      "o0.rene-arrival"
+    ],
+    "narrativeMatchAfterCommandReceiptNormalization": true,
+    "exactBrowserExportReplays": true,
+    "canceledConfirmation": true
+  }
+]

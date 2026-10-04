@@ -1,0 +1,43 @@
+{
+  "status": "Lead candidate for validation; not installed or owner-approved. First country journey and house boundary, not full game.",
+  "contentSha256": "1ff7b7d98abdf20428bb80dcd0436377422505c3e6622bf6c1c9c1dde51ddb8f",
+  "baseSha256": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+  "sceneCount": 63,
+  "newSceneCount": 24,
+  "choiceCount": 86,
+  "sourceCount": 52,
+  "questionCount": 1,
+  "rawStoredBaseParagraphWords": 10649,
+  "newSceneIds": [
+    "o0.orchard-roof",
+    "o0.rain-strip",
+    "o0.cradle-account",
+    "o0.cradle-rubbing",
+    "o0.cradle-loan",
+    "o0.orchard-report",
+    "o0.orchard-house-departure",
+    "o0.dry-rehearsal",
+    "o0.source-floor",
+    "o0.floor-tracing",
+    "o0.panel-arrangement",
+    "o0.pipe-discovery",
+    "o0.pipe-rehearsal",
+    "o0.whistle-invitation",
+    "o0.dry-house-lead",
+    "o0.dry-house-departure",
+    "o0.house-window",
+    "o0.emil-account",
+    "o0.account-written",
+    "o0.account-oral",
+    "o0.leaf-return",
+    "o0.emil-control",
+    "o0.house-door",
+    "o0.rene-arrival"
+  ],
+  "notIncluded": [
+    "Washing/Ethics V encounter",
+    "First deliberate bodily return audition",
+    "Either whole-game ending",
+    "Physical tool/panel fit and full culprit confrontation"
+  ]
+}

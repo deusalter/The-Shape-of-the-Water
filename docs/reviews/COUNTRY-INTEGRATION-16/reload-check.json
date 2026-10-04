@@ -1,0 +1,210 @@
+{
+  "status": "PASS",
+  "date": "2026-10-04T04:37:26.511Z",
+  "scope": "Actual frozen built Chromium reload/explicit ownership recovery and offline retained-edition roundtrip, followed by newly persisted v5 actions. No production mutation or full route regression.",
+  "manifestVersion": "c55a98a279612e95",
+  "url": "http://localhost:4190/",
+  "pinsBefore": {
+    "src/components/EvidencePlayer.tsx": "6beb0b5b11632f7d18a713e6447f25b9e0312009b5bdaa37d69746d10e274b9e",
+    "src/content/editions.ts": "da8dcbb517477ba2225818e563db726a2feec9d1331d2c421e18e0c1f1c441e3",
+    "src/content/selection.json": "f39a79d7b70184cbf29c8155b24d0e68e31ebc5268ffdddfd5bfb8874fab3879",
+    "src/content/load-evidence.ts": "3d09fb89787a178fbc35cbf373a7bf332bf3b5b9b2bdc4e20d4d67a4d581a41b",
+    "src/content/case-v5.json": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8",
+    "src/content/case-v4.json": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+    "src/content/case-v2.json": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+    "src/persistence/checkpoint-store.ts": "0fc1adb12415cf90084e298827e34ccc9460750b22cdd6d30369ecbbaacd487e",
+    "src/persistence/evidence-store.ts": "50064d86ac208e65c22da6ab970255f68deeed1d0ccd2cb86f75d34bf32fa3d4",
+    "src/persistence/ownership.ts": "4200fb98453c3deae636670458f279153893884bda8fee6bc3578ade10f2d424",
+    "src/offline.ts": "266d5d24a3af5c93d0674c458a50f519d1338b93fb1b9e765ffa5c228d9b5522",
+    "public/sw.js": "c6adde5191637ef3d5675e75b809b1b92626ea714c19ef87d5503fe4e55036e9",
+    "dist-player/asset-manifest.json": "9db51c2c44c122b2f6b4f2abf905ecd1493228320d8aa834e5106790567c6b9a",
+    "dist-player/sw.js": "667c6aa235955844a28788ddac6b4225c62cc05bea0a4d2e131e47ff32bb972b",
+    "dist-player/art/release-binding.svg": "438580f7908badb831454979a5713d8c21f4be8ccacae2cf01f68d3092c2ccd4",
+    "dist-player/assets/index-DXrcFo1Y.css": "15e482fed9f840de3d0a94b5f4f8c98cddc893b795d8826f65f518f6546ae22a",
+    "dist-player/assets/index-DqB-BfKt.js": "21a9d4c1d942a5869183b2630f6bcc07948268586017224316d7486238d06f36",
+    "dist-player/index.html": "492f5aec4a03ca2baf412e5436ef416c12ac4fc2e4f25bc6ec2afd1767f1e617",
+    "dist-player/world/bath-faceless.glb": "fca0c41c1fe8536f5e852530d22c36f3e77ddf7730e7db51a0fe58187ff73b59",
+    "dist-player/world/country/first-country-locations.glb": "7430d726d32d892fbfe1dc01555884c6bea96dded6b45986785bd99537cd01a7",
+    "dist-player/world/rebuild/second-mouth-supper.glb": "114ddc2339ab2d3293a7dfbdf31ccdbb92757cb961005a7723fc702ecb6762b4"
+  },
+  "checkpoints": [
+    {
+      "label": "fresh v5",
+      "takeoverOffered": false,
+      "statusBefore": "Progress saved in this browser.",
+      "statusAfter": "Progress saved in this browser.",
+      "actionsEnabled": true
+    },
+    {
+      "label": "online-action-1",
+      "durable": true,
+      "version": 5,
+      "revision": 1,
+      "commit": 3,
+      "ownershipEpoch": 1,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "before reload",
+      "durable": true,
+      "version": 5,
+      "revision": 1,
+      "commit": 3,
+      "ownershipEpoch": 1,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "online reload",
+      "takeoverOffered": true,
+      "statusBefore": "Another tab or prior session controls saving. This tab is read-only until you explicitly take over.",
+      "statusAfter": "Saving taken over. The latest committed progress is loaded.",
+      "actionsEnabled": true
+    },
+    {
+      "label": "after online claim",
+      "durable": true,
+      "version": 5,
+      "revision": 1,
+      "commit": 4,
+      "ownershipEpoch": 2,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "online-action-2",
+      "durable": true,
+      "version": 5,
+      "revision": 2,
+      "commit": 5,
+      "ownershipEpoch": 2,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "offline retained v4",
+      "takeoverOffered": false,
+      "statusBefore": "A new run for this text revision is saved. Earlier incompatible runs remain retained below.",
+      "statusAfter": "A new run for this text revision is saved. Earlier incompatible runs remain retained below.",
+      "actionsEnabled": true
+    },
+    {
+      "label": "v4 distinct saved slot",
+      "durable": true,
+      "version": 4,
+      "revision": 0,
+      "commit": 2,
+      "ownershipEpoch": 1,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "offline retained v2",
+      "takeoverOffered": false,
+      "statusBefore": "A new run for this text revision is saved. Earlier incompatible runs remain retained below.",
+      "statusAfter": "A new run for this text revision is saved. Earlier incompatible runs remain retained below.",
+      "actionsEnabled": true
+    },
+    {
+      "label": "v2 distinct saved slot",
+      "durable": true,
+      "version": 2,
+      "revision": 0,
+      "commit": 2,
+      "ownershipEpoch": 1,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "offline return to v5",
+      "takeoverOffered": true,
+      "statusBefore": "Another tab or prior session controls saving. This tab is read-only until you explicitly take over.",
+      "statusAfter": "Saving taken over. The latest committed progress is loaded.",
+      "actionsEnabled": true
+    },
+    {
+      "label": "unchanged v5 on return",
+      "durable": true,
+      "version": 5,
+      "revision": 2,
+      "commit": 6,
+      "ownershipEpoch": 3,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "offline-action-3",
+      "durable": true,
+      "version": 5,
+      "revision": 3,
+      "commit": 7,
+      "ownershipEpoch": 3,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "offline reload",
+      "takeoverOffered": true,
+      "statusBefore": "Another tab or prior session controls saving. This tab is read-only until you explicitly take over.",
+      "statusAfter": "Saving taken over. The latest committed progress is loaded.",
+      "actionsEnabled": true
+    },
+    {
+      "label": "offline third action survives reload",
+      "durable": true,
+      "version": 5,
+      "revision": 3,
+      "commit": 8,
+      "ownershipEpoch": 4,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "offline-action-4",
+      "durable": true,
+      "version": 5,
+      "revision": 4,
+      "commit": 9,
+      "ownershipEpoch": 4,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "final offline reload",
+      "takeoverOffered": true,
+      "statusBefore": "Another tab or prior session controls saving. This tab is read-only until you explicitly take over.",
+      "statusAfter": "Saving taken over. The latest committed progress is loaded.",
+      "actionsEnabled": true
+    },
+    {
+      "label": "final exact persisted replay",
+      "durable": true,
+      "version": 5,
+      "revision": 4,
+      "commit": 10,
+      "ownershipEpoch": 5,
+      "portableMatchesCurrentExport": true
+    }
+  ],
+  "checks": [
+    "After ready settles, reload visibly requires explicit takeover; confirmation removes read-only state, changes ownership epoch and allows a second action that matches the persisted slot.",
+    "Offline v5 → v4 → v2 → v5 navigation preserves distinct exact editions and saved slots; explicit claim on return enables the next real v5 action and persists it.",
+    "A further offline reload/claim enables another action; a final reload/claim retains its exact four-command run and leaves saving owned with the next action enabled."
+  ],
+  "pageErrors": [],
+  "pinsAfter": {
+    "src/components/EvidencePlayer.tsx": "6beb0b5b11632f7d18a713e6447f25b9e0312009b5bdaa37d69746d10e274b9e",
+    "src/content/editions.ts": "da8dcbb517477ba2225818e563db726a2feec9d1331d2c421e18e0c1f1c441e3",
+    "src/content/selection.json": "f39a79d7b70184cbf29c8155b24d0e68e31ebc5268ffdddfd5bfb8874fab3879",
+    "src/content/load-evidence.ts": "3d09fb89787a178fbc35cbf373a7bf332bf3b5b9b2bdc4e20d4d67a4d581a41b",
+    "src/content/case-v5.json": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8",
+    "src/content/case-v4.json": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+    "src/content/case-v2.json": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+    "src/persistence/checkpoint-store.ts": "0fc1adb12415cf90084e298827e34ccc9460750b22cdd6d30369ecbbaacd487e",
+    "src/persistence/evidence-store.ts": "50064d86ac208e65c22da6ab970255f68deeed1d0ccd2cb86f75d34bf32fa3d4",
+    "src/persistence/ownership.ts": "4200fb98453c3deae636670458f279153893884bda8fee6bc3578ade10f2d424",
+    "src/offline.ts": "266d5d24a3af5c93d0674c458a50f519d1338b93fb1b9e765ffa5c228d9b5522",
+    "public/sw.js": "c6adde5191637ef3d5675e75b809b1b92626ea714c19ef87d5503fe4e55036e9",
+    "dist-player/asset-manifest.json": "9db51c2c44c122b2f6b4f2abf905ecd1493228320d8aa834e5106790567c6b9a",
+    "dist-player/sw.js": "667c6aa235955844a28788ddac6b4225c62cc05bea0a4d2e131e47ff32bb972b",
+    "dist-player/art/release-binding.svg": "438580f7908badb831454979a5713d8c21f4be8ccacae2cf01f68d3092c2ccd4",
+    "dist-player/assets/index-DXrcFo1Y.css": "15e482fed9f840de3d0a94b5f4f8c98cddc893b795d8826f65f518f6546ae22a",
+    "dist-player/assets/index-DqB-BfKt.js": "21a9d4c1d942a5869183b2630f6bcc07948268586017224316d7486238d06f36",
+    "dist-player/index.html": "492f5aec4a03ca2baf412e5436ef416c12ac4fc2e4f25bc6ec2afd1767f1e617",
+    "dist-player/world/bath-faceless.glb": "fca0c41c1fe8536f5e852530d22c36f3e77ddf7730e7db51a0fe58187ff73b59",
+    "dist-player/world/country/first-country-locations.glb": "7430d726d32d892fbfe1dc01555884c6bea96dded6b45986785bd99537cd01a7",
+    "dist-player/world/rebuild/second-mouth-supper.glb": "114ddc2339ab2d3293a7dfbdf31ccdbb92757cb961005a7723fc702ecb6762b4"
+  },
+  "stable": true
+}

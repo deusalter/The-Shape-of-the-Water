@@ -1,0 +1,160 @@
+{
+  "status": "PASS",
+  "checks": [
+    "After ready settles, reload visibly requires explicit takeover; confirmation removes read-only state, changes ownership epoch and allows a second action that matches the persisted slot.",
+    "Offline v5 → v4 → v2 → v5 navigation preserves distinct exact editions and saved slots; explicit claim on return enables the next real v5 action and persists it.",
+    "A further offline reload/claim enables another action; a final reload/claim retains its exact four-command run and leaves saving owned with the next action enabled."
+  ],
+  "checkpoints": [
+    {
+      "label": "fresh v5",
+      "takeoverOffered": false,
+      "statusBefore": "Progress saved in this browser.",
+      "statusAfter": "Progress saved in this browser.",
+      "actionsEnabled": true
+    },
+    {
+      "label": "online-action-1",
+      "durable": true,
+      "version": 5,
+      "revision": 1,
+      "commit": 3,
+      "ownershipEpoch": 1,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "before reload",
+      "durable": true,
+      "version": 5,
+      "revision": 1,
+      "commit": 3,
+      "ownershipEpoch": 1,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "online reload",
+      "takeoverOffered": true,
+      "statusBefore": "Another tab or prior session controls saving. This tab is read-only until you explicitly take over.",
+      "statusAfter": "Saving taken over. The latest committed progress is loaded.",
+      "actionsEnabled": true
+    },
+    {
+      "label": "after online claim",
+      "durable": true,
+      "version": 5,
+      "revision": 1,
+      "commit": 4,
+      "ownershipEpoch": 2,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "online-action-2",
+      "durable": true,
+      "version": 5,
+      "revision": 2,
+      "commit": 5,
+      "ownershipEpoch": 2,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "offline retained v4",
+      "takeoverOffered": false,
+      "statusBefore": "A new run for this text revision is saved. Earlier incompatible runs remain retained below.",
+      "statusAfter": "A new run for this text revision is saved. Earlier incompatible runs remain retained below.",
+      "actionsEnabled": true
+    },
+    {
+      "label": "v4 distinct saved slot",
+      "durable": true,
+      "version": 4,
+      "revision": 0,
+      "commit": 2,
+      "ownershipEpoch": 1,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "offline retained v2",
+      "takeoverOffered": false,
+      "statusBefore": "A new run for this text revision is saved. Earlier incompatible runs remain retained below.",
+      "statusAfter": "A new run for this text revision is saved. Earlier incompatible runs remain retained below.",
+      "actionsEnabled": true
+    },
+    {
+      "label": "v2 distinct saved slot",
+      "durable": true,
+      "version": 2,
+      "revision": 0,
+      "commit": 2,
+      "ownershipEpoch": 1,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "offline return to v5",
+      "takeoverOffered": true,
+      "statusBefore": "Another tab or prior session controls saving. This tab is read-only until you explicitly take over.",
+      "statusAfter": "Saving taken over. The latest committed progress is loaded.",
+      "actionsEnabled": true
+    },
+    {
+      "label": "unchanged v5 on return",
+      "durable": true,
+      "version": 5,
+      "revision": 2,
+      "commit": 6,
+      "ownershipEpoch": 3,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "offline-action-3",
+      "durable": true,
+      "version": 5,
+      "revision": 3,
+      "commit": 7,
+      "ownershipEpoch": 3,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "offline reload",
+      "takeoverOffered": true,
+      "statusBefore": "Another tab or prior session controls saving. This tab is read-only until you explicitly take over.",
+      "statusAfter": "Saving taken over. The latest committed progress is loaded.",
+      "actionsEnabled": true
+    },
+    {
+      "label": "offline third action survives reload",
+      "durable": true,
+      "version": 5,
+      "revision": 3,
+      "commit": 8,
+      "ownershipEpoch": 4,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "offline-action-4",
+      "durable": true,
+      "version": 5,
+      "revision": 4,
+      "commit": 9,
+      "ownershipEpoch": 4,
+      "portableMatchesCurrentExport": true
+    },
+    {
+      "label": "final offline reload",
+      "takeoverOffered": true,
+      "statusBefore": "Another tab or prior session controls saving. This tab is read-only until you explicitly take over.",
+      "statusAfter": "Saving taken over. The latest committed progress is loaded.",
+      "actionsEnabled": true
+    },
+    {
+      "label": "final exact persisted replay",
+      "durable": true,
+      "version": 5,
+      "revision": 4,
+      "commit": 10,
+      "ownershipEpoch": 5,
+      "portableMatchesCurrentExport": true
+    }
+  ],
+  "pageErrors": [],
+  "stable": true
+}

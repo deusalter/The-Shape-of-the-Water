@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "name": "closed-private-confession-dry-panel-invitation-written.run.json",
+      "exactNonAccountTextAndCommands": true,
+      "oldSha256": "701b838623ba823c9e16a2c4a07a800aa29b03337f69b8b91b68bd132d7e56e9",
+      "newSha256": "87151271b308b46d466fc701eb18b582e5af751ec694f36867132a2945495480"
+    },
+    {
+      "name": "closed-private-proof-orchard-loan-oral.run.json",
+      "exactNonAccountTextAndCommands": true,
+      "oldSha256": "9e313df0d3aa3dca2264ef22b70394fc41eff3cc25f5479a05fd36320bb16804",
+      "newSha256": "e035d2c093a51c46b91d4d3c6a3a22455606793c15aaa8ddd41d5ad137325a8e"
+    },
+    {
+      "name": "closed-public-confession-orchard-rubbing-written.run.json",
+      "exactNonAccountTextAndCommands": true,
+      "oldSha256": "360ca9941bd60cf766837644601c5090cf3c4d1a369ff43bc12cb8c15ca4a58f",
+      "newSha256": "7829ddc9d5ed1505e3ade157adc9f7c4ba2688a4d50ba2b56607329a83c5fd57"
+    },
+    {
+      "name": "kept-declined-dry-panel-pipe-oral.run.json",
+      "exactNonAccountTextAndCommands": true,
+      "oldSha256": "a4516b7b7d8acd028411c5bdfee5a62fe24cb8af8ba15a65c3d57ca548da8ba6",
+      "newSha256": "c0adc272da80b7e2c82a0869e74c229ad993a9fe8fc238781a2e9cda2fc80758"
+    },
+    {
+      "name": "kept-declined-orchard-loan-written.run.json",
+      "exactNonAccountTextAndCommands": true,
+      "oldSha256": "ff4bf64c56c763c3e4e2a7405cc484bd8b2519c0a359c945a978b649db5e4def",
+      "newSha256": "26776a3f7c9637c230166f79947663983a43c12cc8e8db4b6c05b06872cca837"
+    },
+    {
+      "name": "kept-test-dry-tracing-pipe-written.run.json",
+      "exactNonAccountTextAndCommands": true,
+      "oldSha256": "4c7432aa30ce9a16522ee53d8a5ba365fb47ce4d73be08bdb0d711144769c834",
+      "newSha256": "a1e32a0889dc2338a82322dede9ec434e13619bff98b9f79b6141aed33229a80"
+    }
+  ],
+  "metadataDifferences": {
+    "BUILD-V5.json": [
+      {
+        "path": "contentSha256",
+        "before": "1ff7b7d98abdf20428bb80dcd0436377422505c3e6622bf6c1c9c1dde51ddb8f",
+        "after": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8"
+      },
+      {
+        "path": "rawStoredBaseParagraphWords",
+        "before": 10649,
+        "after": 10664
+      }
+    ],
+    "STAGING-V5.json": [
+      {
+        "path": "contentSha256",
+        "before": "1ff7b7d98abdf20428bb80dcd0436377422505c3e6622bf6c1c9c1dde51ddb8f",
+        "after": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8"
+      }
+    ],
+    "ROUTE-CHECK-V5.json": [
+      {
+        "path": "contentSha256",
+        "before": "1ff7b7d98abdf20428bb80dcd0436377422505c3e6622bf6c1c9c1dde51ddb8f",
+        "after": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8"
+      },
+      {
+        "path": "routes.0.passageWords",
+        "before": 8069,
+        "after": 8084
+      },
+      {
+        "path": "routes.2.passageWords",
+        "before": 8116,
+        "after": 8131
+      },
+      {
+        "path": "routes.3.passageWords",
+        "before": 7833,
+        "after": 7848
+      },
+      {
+        "path": "routes.4.passageWords",
+        "before": 7629,
+        "after": 7644
+      }
+    ]
+  }
+}

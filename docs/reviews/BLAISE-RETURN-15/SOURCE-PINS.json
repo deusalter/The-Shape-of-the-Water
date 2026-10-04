@@ -1,0 +1,39 @@
+{
+  "reviewType": "Author-informed dramatic review of a separate, uncompiled future audition; not blind reading.",
+  "reviewPath": "docs/reviews/BLAISE-RETURN-15/REVIEW.md",
+  "date": "2026-10-04",
+  "sources": [
+    {
+      "path": "narrative/rebuild/LATER-BLAISE-FIRST-RETURN-AUDITION.md",
+      "sha256": "2428a2d6369f5ce1ad18397a76821db5a34e6aff73a7b5024ec6bd45a4a27ede",
+      "readScope": "Read in full, 225 lines. Reread in full after a concurrent edit to catch placement; findings apply to this final read version.",
+      "currentHashAtPinWrite": "2428a2d6369f5ce1ad18397a76821db5a34e6aff73a7b5024ec6bd45a4a27ede",
+      "unchangedSinceFinalRead": true
+    },
+    {
+      "path": "narrative/rebuild/LATER-STRUCTURE-AND-DISCLOSURE.md",
+      "sha256": "706f21341bd2e00c96a54a82b81886cb86d4f88c68cf37fef206d88bf26dd102",
+      "readScope": "Read in full, 101 lines.",
+      "currentHashAtPinWrite": "706f21341bd2e00c96a54a82b81886cb86d4f88c68cf37fef206d88bf26dd102",
+      "unchangedSinceFinalRead": true
+    },
+    {
+      "path": "narrative/rebuild/A-CAUSAL-LEDGER.md",
+      "sha256": "b0f7ead6fa75ae38faef15e252d58933c38680faf0c673cc75c01d1289b917ae",
+      "readScope": "Consulted headings/keyword excerpts for support and continuity; read lines 1-44 and 72-81 in context. Full-file hash records exact source version, not a claim of a full-file close reading.",
+      "currentHashAtPinWrite": "b0f7ead6fa75ae38faef15e252d58933c38680faf0c673cc75c01d1289b917ae",
+      "unchangedSinceFinalRead": true
+    }
+  ],
+  "initialAuditionReadSha256": "9092ec47ce7209009a99dbb6cd5b4129dae6b95cd52aae04a215acfa4ed76717",
+  "installedCasePin": {
+    "sha256": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+    "basis": "Reported by LATER-STRUCTURE-AND-DISCLOSURE.md; underlying case not opened or changed for this review."
+  },
+  "verificationLimits": [
+    "No installed runtime or compiler changes.",
+    "No UI or human-playtest assessment.",
+    "No whole-game or executable refusal-route verification.",
+    "Only REVIEW.md and this SOURCE-PINS.json were written."
+  ]
+}

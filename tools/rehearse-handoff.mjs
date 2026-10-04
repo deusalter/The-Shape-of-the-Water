@@ -4,18 +4,24 @@ import { join, dirname, resolve } from 'node:path';
 import { checkHandoff } from './check-handoff.mjs';
 
 const root=resolve('.'), manifest=JSON.parse(readFileSync('docs/execution/CHECKPOINT.json','utf8'));
+const selection=JSON.parse(readFileSync('src/content/selection.json','utf8'));
+if(!/^case[-a-z0-9]*\.json$/.test(selection.file))throw Error('Invalid selected content path');
+const selectedContentPath=`src/content/${selection.file}`;
+const state=JSON.parse(readFileSync('docs/execution/STATE.json','utf8'));
+const currentVoicePath=state.currentVoicePath??'narrative/rebuild/VOICE-V4.md';
+if(!/^narrative\/[a-zA-Z0-9/_-]+\.md$/.test(currentVoicePath))throw Error('Invalid current voice path');
 const report={scope:'Static checks and safe-copy fault injection. No new chat, transferred memory or human reader.',baseline:checkHandoff(root),checks:[]};
 const mutations={
   stale_baseline:(copy)=>edit(copy,'docs/execution/STATE.json',s=>{s.baseline.archiveSha256='older-unverified-package';}),
-  missing_voice_anchor:(copy)=>rmSync(join(copy,'narrative/rebuild/VOICE-V4.md')),
+  missing_voice_anchor:(copy)=>rmSync(join(copy,currentVoicePath)),
   stale_active_content:(copy)=>edit(copy,'docs/execution/STATE.json',s=>{s.activeContent='src/content/case-v2.json';}),
-  changed_selected_content:(copy)=>writeFileSync(join(copy,'src/content/case-v4.json'),'{}'),
+  changed_selected_content:(copy)=>writeFileSync(join(copy,selectedContentPath),'{}'),
   missing_retained_content:(copy)=>rmSync(join(copy,'src/content/case-v2.json')),
   unsafe_selection:(copy)=>edit(copy,'src/content/selection.json',s=>{s.file='../private.json';}),
   unknown_worker_ownership:(copy)=>edit(copy,'docs/execution/STATE.json',s=>{s.activeWorkers=[{owner:'unassigned_worker'}];}),
   unverified_test_claim:(copy)=>edit(copy,'docs/execution/STATE.json',s=>{s.testClaims.push({name:'invented human playtest',evidence:'never-run.json',field:'status',expected:'PASS'});}),
 };
-const expected={stale_baseline:'Stale baseline identity',missing_voice_anchor:'Missing or unreadable critical file: narrative/rebuild/VOICE-V4.md',stale_active_content:'Stale selected content path',changed_selected_content:'Changed snapshot file: src/content/case-v4.json',missing_retained_content:'Missing or unreadable critical file: src/content/case-v2.json',unsafe_selection:'Invalid content selection: Invalid selected content file',unknown_worker_ownership:'Unknown worker ownership: unassigned_worker',unverified_test_claim:'Unverified test claim invented human playtest'};
+const expected={stale_baseline:'Stale baseline identity',missing_voice_anchor:`Missing or unreadable critical file: ${currentVoicePath}`,stale_active_content:'Stale selected content path',changed_selected_content:`Changed snapshot file: ${selectedContentPath}`,missing_retained_content:'Missing or unreadable critical file: src/content/case-v2.json',unsafe_selection:'Invalid content selection: Invalid selected content file',unknown_worker_ownership:'Unknown worker ownership: unassigned_worker',unverified_test_claim:'Unverified test claim invented human playtest'};
 function edit(copy,path,fn){const file=join(copy,path),value=JSON.parse(readFileSync(file,'utf8'));fn(value);writeFileSync(file,JSON.stringify(value));}
 for(const [name,mutate] of Object.entries(mutations)){
   const copy=mkdtempSync(join(tmpdir(),'literary-handoff-'));

@@ -1,0 +1,231 @@
+{
+  "status": "Exact compiled v5 anchors selected by lead for development. Not a blind voice attribution test or owner approval.",
+  "contentSha256": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8",
+  "inheritedFirstMovementAnchors": 12,
+  "compiledCountryHouseAnchors": 15,
+  "anchors": [
+    {
+      "speakerContext": "Blaise / ordinary / Noor",
+      "text": "“It's three screws.”",
+      "sceneOrVariantIds": [
+        "o0.promise"
+      ],
+      "earlierAnchorFile": "VOICE-V4.md"
+    },
+    {
+      "speakerContext": "Blaise / pressured / Noor",
+      "text": "“Just my mouth.”",
+      "sceneOrVariantIds": [
+        "o0.close-mouth"
+      ],
+      "earlierAnchorFile": "VOICE-V4.md"
+    },
+    {
+      "speakerContext": "Blaise / intimate / orchard Dora",
+      "text": "“I closed it,” you say. “After I told Noor I would leave it.”",
+      "sceneOrVariantIds": [
+        "o0.private-confession"
+      ],
+      "earlierAnchorFile": "VOICE-V4.md"
+    },
+    {
+      "speakerContext": "Blaise / inquiry / Noor",
+      "text": "“Something that doesn't depend on a room, or a root. Otherwise what am I going to get back to?”",
+      "sceneOrVariantIds": [
+        "o0.god-argument",
+        "o0.argument-handover"
+      ],
+      "earlierAnchorFile": "VOICE-V4.md"
+    },
+    {
+      "speakerContext": "Noor / ordinary / table Dora",
+      "text": "“I forgot it.”",
+      "sceneOrVariantIds": [
+        "o0.invitations"
+      ],
+      "earlierAnchorFile": "VOICE-V4.md"
+    },
+    {
+      "speakerContext": "Noor / pressure / Blaise and table Dora",
+      "text": "“Round the root,” Noor says. “That thick part. Leave the wrist clear.”",
+      "sceneOrVariantIds": [
+        "o0.catch-tree"
+      ],
+      "earlierAnchorFile": "VOICE-V4.md"
+    },
+    {
+      "speakerContext": "Noor / apology / orchard Dora",
+      "text": "“I'm sorry.” Noor keeps her hands still. “I needed to check the join.”",
+      "sceneOrVariantIds": [
+        "o0.sill"
+      ],
+      "earlierAnchorFile": "VOICE-V4.md"
+    },
+    {
+      "speakerContext": "Noor / inquiry / Blaise",
+      "text": "“That plaster isn't God. It would be a very poor God. It comes off in the wet.”",
+      "sceneOrVariantIds": [
+        "o0.god-argument",
+        "o0.argument-handover"
+      ],
+      "earlierAnchorFile": "VOICE-V4.md"
+    },
+    {
+      "speakerContext": "Dora before interruption / ordinary / Blaise",
+      "text": "“I ate the difficult part.”",
+      "sceneOrVariantIds": [
+        "o0.supper"
+      ],
+      "earlierAnchorFile": "VOICE-V4.md"
+    },
+    {
+      "speakerContext": "Table Dora / pressure / Blaise",
+      "text": "“You can ask what happened this morning. That's useful. I'm not doing the other thing.”",
+      "sceneOrVariantIds": [
+        "o0.table-refusal"
+      ],
+      "earlierAnchorFile": "VOICE-V4.md"
+    },
+    {
+      "speakerContext": "Orchard Dora / ordinary limit / Blaise",
+      "text": "“I don't need a view of everything you do.”",
+      "sceneOrVariantIds": [
+        "o0.root-conversation"
+      ],
+      "earlierAnchorFile": "VOICE-V4.md"
+    },
+    {
+      "speakerContext": "Orchard Dora / intimate / Blaise",
+      "text": "“I used to like that.”",
+      "sceneOrVariantIds": [
+        "o0.private-confession"
+      ],
+      "earlierAnchorFile": "VOICE-V4.md"
+    },
+    {
+      "speakerContext": "Blaise",
+      "text": "“Will you listen when I can?”",
+      "sceneOrVariantIds": [
+        "o0.whistle-invitation"
+      ],
+      "earlierAnchorFile": "VOICE-LATER.md"
+    },
+    {
+      "speakerContext": "The continuing orchard Dora",
+      "text": "“This is all of me today,” Dora says.",
+      "sceneOrVariantIds": [
+        "o0.orchard-roof"
+      ],
+      "earlierAnchorFile": "VOICE-LATER.md"
+    },
+    {
+      "speakerContext": "The woman from the table",
+      "text": "“Stop before the corner,” she says. “You're trying to take it round.”",
+      "sceneOrVariantIds": [
+        "o0.dry-rehearsal"
+      ],
+      "earlierAnchorFile": "VOICE-LATER.md"
+    },
+    {
+      "speakerContext": "The woman from the table",
+      "text": "“To put where people can see it.”",
+      "sceneOrVariantIds": [
+        "o0.dry-house-lead"
+      ],
+      "earlierAnchorFile": "VOICE-LATER.md"
+    },
+    {
+      "speakerContext": "Alma Norton",
+      "text": "“Too much,” she says. “I know. I've made forty.”",
+      "sceneOrVariantIds": [
+        "o0.rain-strip"
+      ],
+      "earlierAnchorFile": "VOICE-LATER.md"
+    },
+    {
+      "speakerContext": "Alma Norton",
+      "text": "“And I want those two tables off the mud.”",
+      "sceneOrVariantIds": [
+        "o0.cradle-account"
+      ],
+      "earlierAnchorFile": "VOICE-LATER.md"
+    },
+    {
+      "speakerContext": "Alma Norton",
+      "text": "“If it wasn't him, tell me that too.”",
+      "sceneOrVariantIds": [
+        "o0.cradle-loan"
+      ],
+      "earlierAnchorFile": "VOICE-LATER.md"
+    },
+    {
+      "speakerContext": "Basil Boffin",
+      "text": "“I've rehearsed it away.”",
+      "sceneOrVariantIds": [
+        "o0.dry-rehearsal"
+      ],
+      "earlierAnchorFile": "VOICE-LATER.md"
+    },
+    {
+      "speakerContext": "Basil Boffin",
+      "text": "“I was holding this end. I wanted him to cut where I could hide it under the sea. He wanted the repair left on the bit he took. We were very careful about different things.”",
+      "sceneOrVariantIds": [
+        "o0.source-floor"
+      ],
+      "earlierAnchorFile": "VOICE-LATER.md"
+    },
+    {
+      "speakerContext": "Basil Boffin",
+      "text": "“Let me finish being brave.”",
+      "sceneOrVariantIds": [
+        "o0.pipe-rehearsal"
+      ],
+      "earlierAnchorFile": "VOICE-LATER.md"
+    },
+    {
+      "speakerContext": "Emil Ekdal",
+      "text": "“Don't finish it to be agreeable. I've got more.”",
+      "sceneOrVariantIds": [
+        "o0.leaf-return"
+      ],
+      "earlierAnchorFile": "VOICE-LATER.md"
+    },
+    {
+      "speakerContext": "Emil Ekdal",
+      "text": "“I didn't agree to a replacement. I didn't know there'd be one.”",
+      "sceneOrVariantIds": [
+        "o0.account-written"
+      ],
+      "earlierAnchorFile": "VOICE-LATER.md"
+    },
+    {
+      "speakerContext": "Emil Ekdal",
+      "text": "“He comes through the door with the good part of an answer. Then he won't sit down until I've agreed to it.”",
+      "sceneOrVariantIds": [
+        "o0.emil-control"
+      ],
+      "earlierAnchorFile": "VOICE-LATER.md"
+    },
+    {
+      "speakerContext": "René Lydgate",
+      "text": "“I should have come back before supper.”",
+      "sceneOrVariantIds": [
+        "o0.rene-arrival"
+      ],
+      "earlierAnchorFile": "VOICE-LATER.md"
+    },
+    {
+      "speakerContext": "René Lydgate",
+      "text": "“I had to wait for the lower return. There wasn't a safe point to leave.”",
+      "sceneOrVariantIds": [
+        "o0.rene-arrival"
+      ],
+      "earlierAnchorFile": "VOICE-LATER.md"
+    }
+  ],
+  "limits": [
+    "René currently has only two pressured replies; his ordinary/intimate/defended encounter is still owed.",
+    "Alma has no intimate confidence in this edition.",
+    "The later washing, ending and bodily-return anchors remain separate uncompiled source references."
+  ]
+}

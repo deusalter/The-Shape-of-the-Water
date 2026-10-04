@@ -1,0 +1,101 @@
+{
+  "status": "Preserved review input before COUNTRY-READER-17 written-account revision. Not a final release or owner approval.",
+  "utc": "2026-10-04T04:25:43.917901+00:00",
+  "files": [
+    {
+      "source": "src/content/case-v5.json",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/case-v5.json",
+      "sha256": "1ff7b7d98abdf20428bb80dcd0436377422505c3e6622bf6c1c9c1dde51ddb8f"
+    },
+    {
+      "source": "narrative/rebuild/build-country-movement.py",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/build-country-movement.py",
+      "sha256": "de2aefecd213b08feed9ca7429f6e1d485638cd61b14694488d9c63398ea0204"
+    },
+    {
+      "source": "narrative/rebuild/check-country-movement.mjs",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/check-country-movement.mjs",
+      "sha256": "3d61f40cf483662d0e389b2585eca2d63f8a72044bb959d525ea8e1a692850af"
+    },
+    {
+      "source": "narrative/rebuild/MANUSCRIPT-V5.md",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/MANUSCRIPT-V5.md",
+      "sha256": "21bc4fb145442a503f9c83203c015d124b8001714a47d43dac2636a72e0b2eb8"
+    },
+    {
+      "source": "narrative/rebuild/BUILD-V5.json",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/BUILD-V5.json",
+      "sha256": "29fc8af163aaf6d77d7317ed5d06294480c69c4283570bbd7e8f0869d8028c99"
+    },
+    {
+      "source": "narrative/rebuild/STAGING-V5.json",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/STAGING-V5.json",
+      "sha256": "794e67206c6f769b073f41526cb3606f3e8084e7150ed38598f4f647377a1163"
+    },
+    {
+      "source": "narrative/rebuild/ROUTE-CHECK-V5.json",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/ROUTE-CHECK-V5.json",
+      "sha256": "d49f06d0d4cd8dc0463b27dcfa3db6b55f5ef595b4573e13c4baf49a3605b8df"
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/closed-private-confession-dry-panel-invitation-written.md",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/readings/closed-private-confession-dry-panel-invitation-written.md",
+      "sha256": "ea3ee610fe8501a5cad66a28d6088248daf9e496c8fd9d979699a382b82fd2fe"
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/closed-private-confession-dry-panel-invitation-written.run.json",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/readings/closed-private-confession-dry-panel-invitation-written.run.json",
+      "sha256": "701b838623ba823c9e16a2c4a07a800aa29b03337f69b8b91b68bd132d7e56e9"
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/closed-private-proof-orchard-loan-oral.md",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/readings/closed-private-proof-orchard-loan-oral.md",
+      "sha256": "c13e5942e69089e85058d8a1209f95176ce1f8abb63ff0670366a5c5141b7ded"
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/closed-private-proof-orchard-loan-oral.run.json",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/readings/closed-private-proof-orchard-loan-oral.run.json",
+      "sha256": "9e313df0d3aa3dca2264ef22b70394fc41eff3cc25f5479a05fd36320bb16804"
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/closed-public-confession-orchard-rubbing-written.md",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/readings/closed-public-confession-orchard-rubbing-written.md",
+      "sha256": "00cd0526df5aea667b45a64d01a57ca1c3ba4d3025ceaa109786baac1f6caf2a"
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/closed-public-confession-orchard-rubbing-written.run.json",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/readings/closed-public-confession-orchard-rubbing-written.run.json",
+      "sha256": "360ca9941bd60cf766837644601c5090cf3c4d1a369ff43bc12cb8c15ca4a58f"
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/kept-declined-dry-panel-pipe-oral.md",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/readings/kept-declined-dry-panel-pipe-oral.md",
+      "sha256": "cdd140ac19458cd222f86e57dc32dc28fdbfb5b9307d58b4398d636d0b9d644f"
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/kept-declined-dry-panel-pipe-oral.run.json",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/readings/kept-declined-dry-panel-pipe-oral.run.json",
+      "sha256": "a4516b7b7d8acd028411c5bdfee5a62fe24cb8af8ba15a65c3d57ca548da8ba6"
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/kept-declined-orchard-loan-written.md",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/readings/kept-declined-orchard-loan-written.md",
+      "sha256": "9689fe0f585fbb457a1b72a4b665ecfc77c6d8135142dbd6ae42712b85818746"
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/kept-declined-orchard-loan-written.run.json",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/readings/kept-declined-orchard-loan-written.run.json",
+      "sha256": "ff4bf64c56c763c3e4e2a7405cc484bd8b2519c0a359c945a978b649db5e4def"
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/kept-test-dry-tracing-pipe-written.md",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/readings/kept-test-dry-tracing-pipe-written.md",
+      "sha256": "724e2bd119dd490b1d396f6f78ba3a764140af7074922c42fa790482c5581b9d"
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/kept-test-dry-tracing-pipe-written.run.json",
+      "copy": "narrative/accepted/second-mouth-v5-review-1/readings/kept-test-dry-tracing-pipe-written.run.json",
+      "sha256": "4c7432aa30ce9a16522ee53d8a5ba365fb47ce4d73be08bdb0d711144769c834"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "utc": "2026-10-04T04:33:52.947562+00:00",
+  "status": "Lead accepts this bounded country-to-house edition within development for root integration. Not owner approval or completed long game. Root controls runtime/browser acceptance.",
+  "contentSha256": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8",
+  "baseSha256": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+  "sceneCount": 63,
+  "choiceCount": 86,
+  "sourceCount": 52,
+  "questionCount": 1,
+  "occasionCount": 1,
+  "exactCompiledAnchorCount": 27,
+  "files": [
+    {
+      "source": "src/content/case-v5.json",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/case-v5.json",
+      "sha256": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8",
+      "bytes": 152259
+    },
+    {
+      "source": "narrative/rebuild/build-country-movement.py",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/build-country-movement.py",
+      "sha256": "10e7c45263dd6c4bb66d81277008b5fbc53ef4585dbe57acf5783e4473453c5e",
+      "bytes": 30868
+    },
+    {
+      "source": "narrative/rebuild/check-country-movement.mjs",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/check-country-movement.mjs",
+      "sha256": "3d61f40cf483662d0e389b2585eca2d63f8a72044bb959d525ea8e1a692850af",
+      "bytes": 16439
+    },
+    {
+      "source": "narrative/rebuild/V5-SOURCE-ADDENDUM.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/V5-SOURCE-ADDENDUM.md",
+      "sha256": "cf7a3e4581b077723e5113ff99a37f8229f731bca9a4262e5b9a3e2890c75a62",
+      "bytes": 2112
+    },
+    {
+      "source": "narrative/rebuild/LATER-COUNTRY-FIRST-VISITS.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/LATER-COUNTRY-FIRST-VISITS.md",
+      "sha256": "1eaa0e7c69a4deda42b1dde3fc5014e5bdabc6216d8d8dfaf99d8635dedaca16",
+      "bytes": 16936
+    },
+    {
+      "source": "narrative/rebuild/LATER-HOUSE-THE-OPEN-LEAF.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/LATER-HOUSE-THE-OPEN-LEAF.md",
+      "sha256": "67f44cf82c4e68d0d881b0c105fe75bf3599588fcbec3cd6a3845031155653be",
+      "bytes": 10392
+    },
+    {
+      "source": "narrative/rebuild/LATER-STRUCTURE-AND-DISCLOSURE.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/LATER-STRUCTURE-AND-DISCLOSURE.md",
+      "sha256": "706f21341bd2e00c96a54a82b81886cb86d4f88c68cf37fef206d88bf26dd102",
+      "bytes": 19930
+    },
+    {
+      "source": "narrative/rebuild/MANUSCRIPT-V5.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/MANUSCRIPT-V5.md",
+      "sha256": "a19f9f3299d885fc4d0ed794c722773a29f9179191917dc95e03d859369a682f",
+      "bytes": 79443
+    },
+    {
+      "source": "narrative/rebuild/BUILD-V5.json",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/BUILD-V5.json",
+      "sha256": "8c38915dbea1a15c9597be659153467f12a365896f96b47c5eee4d90c0cd92f2",
+      "bytes": 1270
+    },
+    {
+      "source": "narrative/rebuild/STAGING-V5.json",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/STAGING-V5.json",
+      "sha256": "403a0e4545591692f5f2204e5964b50005f7bb9b8f47bd8f19de05158ba3aec3",
+      "bytes": 8714
+    },
+    {
+      "source": "narrative/rebuild/ROUTE-CHECK-V5.json",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/ROUTE-CHECK-V5.json",
+      "sha256": "3d730d641b31ff49099d05e061e0400af6a3d312ea4b7ad84bb2ac5e3bb1dbe0",
+      "bytes": 3907
+    },
+    {
+      "source": "narrative/rebuild/VOICE-V5.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/VOICE-V5.md",
+      "sha256": "daf164d2d20e958bc098530d5005d9d1e18429cb2b649f832d4f0a663183dc64",
+      "bytes": 4793
+    },
+    {
+      "source": "narrative/rebuild/VOICE-V5-ANCHORS.json",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/VOICE-V5-ANCHORS.json",
+      "sha256": "162fe4d396577aae461f3109ba254ba63d75876a13f4190bd72bd404b0e0ef9a",
+      "bytes": 7309
+    },
+    {
+      "source": "narrative/rebuild/VOICE-V4.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/VOICE-V4.md",
+      "sha256": "9ccf35ff43a53730632266e6509a7160cae8a795bf090b7e267a28214044bcde",
+      "bytes": 2122
+    },
+    {
+      "source": "narrative/rebuild/CAST-V4.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/CAST-V4.md",
+      "sha256": "240d0ba7b0781052ac5c9227c5fbe5fe5847d117960f3446a978aa15a1ca9ae0",
+      "bytes": 3318
+    },
+    {
+      "source": "narrative/CURRENT-READING-ORDER.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/CURRENT-READING-ORDER.md",
+      "sha256": "7ff98e61c006dc9a6d1eff8caf6b32a635e2ff20ce5ddfd05dfcc27683ad8e77",
+      "bytes": 5578
+    },
+    {
+      "source": "narrative/PHILOSOPHY-MAP.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/PHILOSOPHY-MAP.md",
+      "sha256": "ddda2311dbb21e8427ee8bd96c262965104a9ff7d2932fb2ec56d257037ab079",
+      "bytes": 7804
+    },
+    {
+      "source": "narrative/REVISION-LOG.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/REVISION-LOG.md",
+      "sha256": "4486ec0d46dbef75d4b7e9af83243a45a19d18d2a0ce357993ff6f88ed9484c9",
+      "bytes": 35405
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/closed-private-confession-dry-panel-invitation-written.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/readings-v5/closed-private-confession-dry-panel-invitation-written.md",
+      "sha256": "8b85b480b9941bfc180cf45c4f447c00fdda08171b3e1ba0421ce6ebab312491",
+      "bytes": 47862
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/closed-private-confession-dry-panel-invitation-written.run.json",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/readings-v5/closed-private-confession-dry-panel-invitation-written.run.json",
+      "sha256": "87151271b308b46d466fc701eb18b582e5af751ec694f36867132a2945495480",
+      "bytes": 169075
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/closed-private-proof-orchard-loan-oral.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/readings-v5/closed-private-proof-orchard-loan-oral.md",
+      "sha256": "c13e5942e69089e85058d8a1209f95176ce1f8abb63ff0670366a5c5141b7ded",
+      "bytes": 46279
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/closed-private-proof-orchard-loan-oral.run.json",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/readings-v5/closed-private-proof-orchard-loan-oral.run.json",
+      "sha256": "e035d2c093a51c46b91d4d3c6a3a22455606793c15aaa8ddd41d5ad137325a8e",
+      "bytes": 159132
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/closed-public-confession-orchard-rubbing-written.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/readings-v5/closed-public-confession-orchard-rubbing-written.md",
+      "sha256": "798cb15152689b6c0847df0e132e89c576864f14d759014576418b83cfdd0428",
+      "bytes": 45955
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/closed-public-confession-orchard-rubbing-written.run.json",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/readings-v5/closed-public-confession-orchard-rubbing-written.run.json",
+      "sha256": "7829ddc9d5ed1505e3ade157adc9f7c4ba2688a4d50ba2b56607329a83c5fd57",
+      "bytes": 158419
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/kept-declined-dry-panel-pipe-oral.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/readings-v5/kept-declined-dry-panel-pipe-oral.md",
+      "sha256": "cdd140ac19458cd222f86e57dc32dc28fdbfb5b9307d58b4398d636d0b9d644f",
+      "bytes": 44506
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/kept-declined-dry-panel-pipe-oral.run.json",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/readings-v5/kept-declined-dry-panel-pipe-oral.run.json",
+      "sha256": "c0adc272da80b7e2c82a0869e74c229ad993a9fe8fc238781a2e9cda2fc80758",
+      "bytes": 152298
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/kept-declined-orchard-loan-written.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/readings-v5/kept-declined-orchard-loan-written.md",
+      "sha256": "588cd4f8414f820ba2922b1454ce48394aefae17a602c0df387de7ce97d8b902",
+      "bytes": 44809
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/kept-declined-orchard-loan-written.run.json",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/readings-v5/kept-declined-orchard-loan-written.run.json",
+      "sha256": "26776a3f7c9637c230166f79947663983a43c12cc8e8db4b6c05b06872cca837",
+      "bytes": 153341
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/kept-test-dry-tracing-pipe-written.md",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/readings-v5/kept-test-dry-tracing-pipe-written.md",
+      "sha256": "45047bc1baecc144d3982c87dfe211d7118f2b582a9c187c8937dd137ba0b53c",
+      "bytes": 47508
+    },
+    {
+      "source": "narrative/rebuild/readings-v5/kept-test-dry-tracing-pipe-written.run.json",
+      "copy": "narrative/accepted/second-mouth-v5-country-r2/readings-v5/kept-test-dry-tracing-pipe-written.run.json",
+      "sha256": "a1e32a0889dc2338a82322dede9ec434e13619bff98b9f79b6141aed33229a80",
+      "bytes": 165098
+    }
+  ],
+  "reviews": [
+    {
+      "path": "docs/reviews/COUNTRY-READER-17/REVIEW.md",
+      "sha256": "be9df0f986f685a4ea14272abfd03a0e5014b2825908c91a1c9f28e08886eb0c"
+    },
+    {
+      "path": "docs/reviews/COUNTRY-READER-17/RECHECK.md",
+      "sha256": "49b8d23342a0f291614776f61c490b1fd9007a9c1df341879d86d59ecb5ff5a8"
+    },
+    {
+      "path": "docs/reviews/COUNTRY-INTEGRATION-16/REPORT.md",
+      "sha256": "041af575bc208bd5b2c4bb1bb36a4d1f640417cba6d73e19769071445266f009"
+    }
+  ],
+  "reviewDispositions": {
+    "COUNTRY-READER-17": "Accepted sole priority; faithful initial account plus explicit added nonagreement. Narrow recheck resolves at current captured text; prior review remains separately pinned.",
+    "COUNTRY-INTEGRATION-16": "Independent complete continuation expansion from six actual prefixes: 303 states, 36 terminal combinations, all24newscenes/29continuationchoices/4newvariants. Final d4b4 recheck passes. Earlier optional first-movement loops not exhaustively explored."
+  },
+  "authoredRoutes": [
+    {
+      "name": "kept-test-dry-tracing-pipe-written",
+      "commands": 45,
+      "passageWords": 8084,
+      "ending": "o0.rene-arrival",
+      "passed": true
+    },
+    {
+      "name": "closed-private-proof-orchard-loan-oral",
+      "commands": 41,
+      "passageWords": 7891,
+      "ending": "o0.rene-arrival",
+      "passed": true
+    },
+    {
+      "name": "closed-private-confession-dry-panel-invitation-written",
+      "commands": 45,
+      "passageWords": 8131,
+      "ending": "o0.rene-arrival",
+      "passed": true
+    },
+    {
+      "name": "closed-public-confession-orchard-rubbing-written",
+      "commands": 39,
+      "passageWords": 7848,
+      "ending": "o0.rene-arrival",
+      "passed": true
+    },
+    {
+      "name": "kept-declined-orchard-loan-written",
+      "commands": 38,
+      "passageWords": 7644,
+      "ending": "o0.rene-arrival",
+      "passed": true
+    },
+    {
+      "name": "kept-declined-dry-panel-pipe-oral",
+      "commands": 39,
+      "passageWords": 7609,
+      "ending": "o0.rene-arrival",
+      "passed": true
+    }
+  ],
+  "routeWordDefinition": "Encountered passage words on each actual exported route; alternative stored scenes, source labels, menus, metadata and research are not added together as one playthrough.",
+  "runtimeLimits": [
+    "Root browser/3D/save/offline checks are separate; no such verification is claimed by this manifest.",
+    "First country visit and house chapter only; physical fits, full confrontation, bodily return, washing and whole-game endings remain outside this bundle.",
+    "No human playtest or measured duration;65–82k whole-route plan remains unfinished."
+  ],
+  "nextAuthoring": "narrative/rebuild/LATER-COMPARISONS-AND-CONFRONTATION.md, outside frozen runtime content."
+}

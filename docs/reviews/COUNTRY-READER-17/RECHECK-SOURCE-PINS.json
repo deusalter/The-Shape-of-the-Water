@@ -1,0 +1,25 @@
+{
+  "reviewType": "Author-informed narrow encountered-text recheck of the written-account revision.",
+  "reviewPath": "docs/reviews/COUNTRY-READER-17/RECHECK.md",
+  "date": "2026-10-04",
+  "sourcePath": "narrative/rebuild/readings-v5/kept-test-dry-tracing-pipe-written.md",
+  "sourceSha256": "45047bc1baecc144d3982c87dfe211d7118f2b582a9c187c8937dd137ba0b53c",
+  "sourceLineCount": 1125,
+  "readRanges": [
+    {"start": 975, "end": 1022}
+  ],
+  "readScope": "Only What he saw and The sentence he adds, including selected actions and immediate transition. Full-file SHA-256 computed to pin the exact capture; no broader route reread.",
+  "priorReviewSourceSha256": "724e2bd119dd490b1d396f6f78ba3a764140af7074922c42fa790482c5581b9d",
+  "candidateSourceSha256ReportedByLeadAndRoot": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8",
+  "candidateSourceVerification": "Underlying case source not opened or independently hashed for this recheck.",
+  "preservedReviewFiles": [
+    "docs/reviews/COUNTRY-READER-17/REVIEW.md",
+    "docs/reviews/COUNTRY-READER-17/SOURCE-PINS.json"
+  ],
+  "limits": [
+    "No broad route reread.",
+    "No canon, compiler, runtime, or production edits.",
+    "No human playtest or UI verification.",
+    "No subagents or commits."
+  ]
+}

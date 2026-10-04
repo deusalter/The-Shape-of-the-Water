@@ -5,10 +5,10 @@
   "workspace": "/workspace/literary-detective",
   "finalLiteraryAuthority": "lead_writer in coordinator chat",
   "maxActiveSubagentsIncludingDescendants": 4,
-  "internalReservedSlots": 4,
+  "internalReservedSlots": 2,
   "teams": {
     "protagonist": {
-      "suggestedTitle": "Literary Game — Protagonist",
+      "suggestedTitle": "Literary Game \u2014 Protagonist",
       "permittedSlots": 0,
       "externalChatId": "01a1042a-8c74-70cd-924d-aeada8ddd03e",
       "phase": "new world-rebuild request prepared; awaiting owner resume",
@@ -24,7 +24,7 @@
       "lastObservedCursor": "026c2a37-600b-4160-816f-fb5141976f95:2"
     },
     "loop-plot": {
-      "suggestedTitle": "Literary Game — Loop and Plot",
+      "suggestedTitle": "Literary Game \u2014 Loop and Plot",
       "permittedSlots": 0,
       "externalChatId": "01a1042a-ed4d-771e-8cd5-f21def1bf031",
       "phase": "new world-rebuild request prepared; awaiting owner resume",
@@ -40,7 +40,7 @@
       "lastObservedCursor": "f37b2c05-5f04-4832-9c4e-1f9ec5daa06d:2"
     },
     "literary": {
-      "suggestedTitle": "Literary Game — Literary Review",
+      "suggestedTitle": "Literary Game \u2014 Literary Review",
       "permittedSlots": 0,
       "externalChatId": "01a1042b-7bf0-7787-8a9a-73799016101f",
       "phase": "new world-rebuild request prepared; awaiting owner resume",
@@ -56,7 +56,7 @@
       "lastObservedCursor": "c3e7fd20-af5c-413d-9f79-8e36c9131454:2"
     },
     "integration-qa": {
-      "suggestedTitle": "Literary Game — Integration QA",
+      "suggestedTitle": "Literary Game \u2014 Integration QA",
       "permittedSlots": 0,
       "externalChatId": "01a1042b-95ae-70fa-ae28-8f476b95700c",
       "phase": "new world-rebuild request prepared; awaiting owner resume",
@@ -84,9 +84,9 @@
   "requestPublication": "P-003/T-003/L-003/Q-004 published on main; native chat delivery unavailable, owner resume needed",
   "internalActiveAtLastCheck": [
     "lead_writer",
-    "new_world_engineer"
+    "world_dramaturg"
   ],
-  "installedStory": "src/content/case-v4.json; first movement0d20; whole game unfinished",
-  "currentVerification": "488 tests and five built routes PASS; see docs/execution/evidence/second-mouth-integration/README.md",
-  "nextProduction": "case-v5 country-to-house candidate plus first deliberate-return audition; not installed"
+  "installedStory": "case-v5 d4b4:63scenes86choices52sources; retainedv4/v2",
+  "currentVerification": "496 tests,6 built routes247actions, independent303states/36endings, studio and explicit offline reload saving PASS; current evidence/country-integration",
+  "nextProduction": "Separate comparisons/confrontation manuscript, then new guarded return/refusal edition. Full long game unfinished."
 }

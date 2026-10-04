@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Country rendering fixture</title><style>body{margin:1rem;background:#ece4d6;font:16px/1.5 system-ui;color:#241d29}main{max-width:1000px;margin:auto}nav{display:flex;flex-wrap:wrap;gap:.5rem}button{padding:.55rem .8rem;cursor:pointer}h1{font-size:1.2rem}</style></head><body><main><h1>Noncanonical rendering fixture</h1><div id="root"></div></main><script type="module">
+import '/src/styles.css';
+import '/src/world/world.css';
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import content from '/src/content/case-v5.json';
+import {CountryWorld} from '/src/world/country/CountryWorld.tsx';
+function Preview(){
+ const [scene,setScene]=React.useState('o0.orchard-roof'),[mounted,setMounted]=React.useState(true),[offered,setOffered]=React.useState(true),[disabled,setDisabled]=React.useState(false),[log,setLog]=React.useState([]),[loan,setLoan]=React.useState(false),[variant,setVariant]=React.useState(null);
+ window.stageFixture=(id,currentVariant)=>{setScene(id);setVariant(currentVariant??`${id}.base`);};
+ const choices=offered?(content.scenes.find(item=>item.id===scene)?.choices??[]).map(({id,label})=>({id,label})):[];
+ return React.createElement(React.Fragment,null,
+ React.createElement('nav',null,...['o0.orchard-roof','o0.cradle-account','o0.orchard-report','o0.dry-rehearsal','o0.source-floor','o0.panel-arrangement','o0.pipe-rehearsal','o0.house-window','o0.leaf-return','o0.house-door','o0.rene-arrival','unmapped-passage'].map(id=>React.createElement('button',{key:id,onClick:()=>{setScene(id);setVariant(null);}},id)),React.createElement('button',{onClick:()=>setMounted(!mounted)},'Toggle mounted'),React.createElement('button',{onClick:()=>setOffered(!offered)},'Toggle offered choices'),React.createElement('button',{onClick:()=>setDisabled(!disabled)},'Toggle disabled'),React.createElement('button',{onClick:()=>setLoan(!loan)},'Toggle current cradle variant')),
+ React.createElement('output',{'aria-label':'Fixture callbacks'},JSON.stringify(log)),
+ mounted&&React.createElement(CountryWorld,{sceneId:scene,variantId:variant??(scene==='o0.orchard-report'&&loan?'o0.orchard-report-with-cradle':`${scene}.base`),choices,disabled,onChoose:id=>setLog(previous=>[...previous,id])}));
+}
+createRoot(document.getElementById('root')).render(React.createElement(Preview));
+</script></body></html>

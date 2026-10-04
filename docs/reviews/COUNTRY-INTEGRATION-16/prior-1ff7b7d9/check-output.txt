@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Earlier text and evidence contracts remain exact; only four first-movement scene choice lists changed to open the two country departures.",
+    "All 24 new scenes and every continuation choice are reached across 36 complete branch combinations from six genuine first-movement prefixes; no offered-branch dead end or orphan new source.",
+    "At every reached state, absent listeners remain unchanged, the distant root receives no Alma original source, house testimony stays private, and physical-loan/document/arrangement branches remain mutually exclusive.",
+    "Checked documents and oral forms preserve expected ancestral origins; no new culprit or performed-fit deduction is generated. Terminal confirmation is required and all endpoint exports replay exactly.",
+    "Real completed v4 archive rejects in v5; v2 rejects in v5; v5 rejects in v4/v2, and a same-version prose change rejects the original v5 export. No migration or remapping was supplied."
+  ],
+  "coverage": {
+    "statesVisited": 303,
+    "terminalCombinations": 36,
+    "negativeShortcuts": 303,
+    "endingConfirmations": 36,
+    "newScenesReached": 24,
+    "newSceneTotal": 24,
+    "newChoicesReached": 29,
+    "newChoiceTotal": 29,
+    "missingScenes": [],
+    "missingChoices": [],
+    "newVariantsReached": [
+      "o0.orchard-report-with-cradle",
+      "o0.orchard-departure-with-frame",
+      "o0.house-window-with-cradle",
+      "o0.house-window-with-lamp"
+    ],
+    "missingNewSources": []
+  },
+  "failures": [],
+  "stable": true
+}

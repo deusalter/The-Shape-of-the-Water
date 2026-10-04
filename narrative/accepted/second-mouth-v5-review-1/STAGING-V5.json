@@ -1,0 +1,440 @@
+{
+  "status": "New country/house entries only; frozen v4 profiles still stage unchanged first passages. End-of-passage positions; audience is separately authored in runtime actions.",
+  "contentSha256": "1ff7b7d98abdf20428bb80dcd0436377422505c3e6622bf6c1c9c1dde51ddb8f",
+  "newScenes": [
+    {
+      "sceneId": "o0.orchard-roof",
+      "area": "orchard-roof",
+      "actors": [
+        "blaise",
+        "alma",
+        "dora-orchard"
+      ],
+      "props": [
+        "cakes",
+        "yellow-dress",
+        "leaf-roof",
+        "rain-bowl",
+        "root-piece"
+      ],
+      "choiceIds": [
+        "o0.follow-rain-strip"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.rain-strip",
+      "area": "orchard-roof",
+      "actors": [
+        "blaise",
+        "alma",
+        "dora-orchard"
+      ],
+      "props": [
+        "rain-strip",
+        "yellow-dress",
+        "cakes",
+        "root-piece"
+      ],
+      "choiceIds": [
+        "o0.ask-about-cradle"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.cradle-account",
+      "area": "orchard-cradle",
+      "actors": [
+        "blaise",
+        "alma"
+      ],
+      "props": [
+        "cradle",
+        "grooves",
+        "distant-root"
+      ],
+      "choiceIds": [
+        "o0.make-cradle-rubbing",
+        "o0.borrow-cradle"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.cradle-rubbing",
+      "area": "orchard-cradle",
+      "actors": [
+        "blaise",
+        "alma"
+      ],
+      "props": [
+        "cradle",
+        "rubbing",
+        "tables"
+      ],
+      "choiceIds": [
+        "o0.rubbing-to-root"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.cradle-loan",
+      "area": "orchard-cradle",
+      "actors": [
+        "blaise",
+        "alma"
+      ],
+      "props": [
+        "carried-cradle",
+        "tables"
+      ],
+      "choiceIds": [
+        "o0.loan-to-root"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.orchard-report",
+      "area": "orchard-root",
+      "actors": [
+        "blaise",
+        "dora-orchard",
+        "alma"
+      ],
+      "props": [
+        "root-piece",
+        "cakes",
+        "rubbing"
+      ],
+      "choiceIds": [
+        "o0.tell-orchard-departure"
+      ],
+      "variantIds": [
+        "o0.orchard-report-with-cradle"
+      ]
+    },
+    {
+      "sceneId": "o0.orchard-house-departure",
+      "area": "orchard-path",
+      "actors": [
+        "blaise"
+      ],
+      "props": [
+        "cakes"
+      ],
+      "choiceIds": [
+        "o0.orchard-reach-house"
+      ],
+      "variantIds": [
+        "o0.orchard-departure-with-frame"
+      ]
+    },
+    {
+      "sceneId": "o0.dry-rehearsal",
+      "area": "theatre",
+      "actors": [
+        "blaise",
+        "dora-table",
+        "basil"
+      ],
+      "props": [
+        "painting",
+        "seed-tray",
+        "mountain-panel"
+      ],
+      "choiceIds": [
+        "o0.inspect-source-floor"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.source-floor",
+      "area": "theatre-floor",
+      "actors": [
+        "blaise",
+        "dora-table",
+        "basil"
+      ],
+      "props": [
+        "floor-panel",
+        "repair-edge",
+        "saw-overrun",
+        "painting"
+      ],
+      "choiceIds": [
+        "o0.trace-floor",
+        "o0.arrange-panel"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.floor-tracing",
+      "area": "theatre-floor",
+      "actors": [
+        "blaise",
+        "dora-table",
+        "basil"
+      ],
+      "props": [
+        "floor-panel",
+        "tracing",
+        "painting"
+      ],
+      "choiceIds": [
+        "o0.tracing-to-pipe"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.panel-arrangement",
+      "area": "theatre",
+      "actors": [
+        "blaise",
+        "dora-table",
+        "basil"
+      ],
+      "props": [
+        "floor-on-blocks",
+        "replacement-scenery",
+        "painting"
+      ],
+      "choiceIds": [
+        "o0.panel-to-pipe"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.pipe-discovery",
+      "area": "theatre",
+      "actors": [
+        "blaise",
+        "dora-table",
+        "basil"
+      ],
+      "props": [
+        "split-pipe",
+        "painting"
+      ],
+      "choiceIds": [
+        "o0.accept-pipe-part",
+        "o0.prefer-bodily-whistle"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.pipe-rehearsal",
+      "area": "theatre-stage",
+      "actors": [
+        "blaise",
+        "dora-table",
+        "basil"
+      ],
+      "props": [
+        "split-pipe",
+        "stage-chair",
+        "mountain-panel",
+        "painting"
+      ],
+      "choiceIds": [
+        "o0.rehearsal-next"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.whistle-invitation",
+      "area": "theatre",
+      "actors": [
+        "blaise",
+        "dora-table",
+        "basil"
+      ],
+      "props": [
+        "pipe-with-basil",
+        "painting"
+      ],
+      "choiceIds": [
+        "o0.invitation-next"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.dry-house-lead",
+      "area": "theatre-door",
+      "actors": [
+        "blaise",
+        "dora-table",
+        "basil"
+      ],
+      "props": [
+        "painting",
+        "seed-tray"
+      ],
+      "choiceIds": [
+        "o0.tell-dry-departure"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.dry-house-departure",
+      "area": "theatre-door",
+      "actors": [
+        "blaise",
+        "dora-table",
+        "basil"
+      ],
+      "props": [
+        "painting-on-wall",
+        "lamp-with-blaise"
+      ],
+      "choiceIds": [
+        "o0.dry-reach-house"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.house-window",
+      "area": "house",
+      "actors": [
+        "blaise",
+        "emil"
+      ],
+      "props": [
+        "window-plant",
+        "open-leaf",
+        "dishes",
+        "two-chairs"
+      ],
+      "choiceIds": [
+        "o0.tell-emil-mechanism"
+      ],
+      "variantIds": [
+        "o0.house-window-with-cradle",
+        "o0.house-window-with-lamp"
+      ]
+    },
+    {
+      "sceneId": "o0.emil-account",
+      "area": "house",
+      "actors": [
+        "blaise",
+        "emil"
+      ],
+      "props": [
+        "open-leaf",
+        "flake-dish",
+        "window-plant"
+      ],
+      "choiceIds": [
+        "o0.write-emil-account",
+        "o0.keep-emil-oral"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.account-written",
+      "area": "house",
+      "actors": [
+        "blaise",
+        "emil"
+      ],
+      "props": [
+        "written-account",
+        "open-leaf",
+        "flake-dish"
+      ],
+      "choiceIds": [
+        "o0.written-to-leaf"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.account-oral",
+      "area": "house",
+      "actors": [
+        "blaise",
+        "emil"
+      ],
+      "props": [
+        "open-leaf",
+        "flake-dish"
+      ],
+      "choiceIds": [
+        "o0.oral-to-leaf"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.leaf-return",
+      "area": "house",
+      "actors": [
+        "blaise",
+        "emil"
+      ],
+      "props": [
+        "open-leaf",
+        "window-band",
+        "two-flakes",
+        "fruit-jar"
+      ],
+      "choiceIds": [
+        "o0.ask-emil-drawing"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.emil-control",
+      "area": "house",
+      "actors": [
+        "blaise",
+        "emil"
+      ],
+      "props": [
+        "drawing",
+        "open-leaf",
+        "fruit-jar"
+      ],
+      "choiceIds": [
+        "o0.wait-house-door"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.house-door",
+      "area": "house",
+      "actors": [
+        "blaise",
+        "emil",
+        "rene"
+      ],
+      "props": [
+        "clean-strips",
+        "open-leaf",
+        "flake-dish"
+      ],
+      "choiceIds": [
+        "o0.tell-rene-cast"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.rene-arrival",
+      "area": "house",
+      "actors": [
+        "blaise",
+        "emil",
+        "rene"
+      ],
+      "props": [
+        "rene-seated",
+        "clean-strips",
+        "fruit-jar"
+      ],
+      "choiceIds": [],
+      "variantIds": []
+    }
+  ],
+  "routeLimits": {
+    "orchardPrivate": "Blaise and Alma speak at distant cradle tables while Dora stays at the trough under rain. Only explicit orchard-report gives her this account.",
+    "dry": "Only table Dora, Basil and Blaise attend. Noor and orchard Dora hear none of it.",
+    "house": "Only Emil and Blaise until house-door. Rene does not hear preceding private testimony or former-marriage confidence."
+  }
+}

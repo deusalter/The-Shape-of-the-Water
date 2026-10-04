@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "scope": "Actual built Chromium routes performed through controls; automated verification, not human playtesting or duration evidence.",
+  "harnessSha256": "388aeb2986079a285d59bb8b553b66d6d77c621f389f9fd0c6544dba7113cd9d",
+  "caseSha256": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8",
+  "routePins": [
+    {
+      "path": "narrative/rebuild/readings-v5/kept-test-dry-tracing-pipe-written.run.json",
+      "sha256": "a1e32a0889dc2338a82322dede9ec434e13619bff98b9f79b6141aed33229a80"
+    }
+  ],
+  "manifest": {
+    "version": "c55a98a279612e95",
+    "contentHash": "cf2af7418826e5bcbd9797e6d2b1822e63f242ae3e4adf97cd3d5d64abc75622",
+    "contentHashes": [
+      "cf2af7418826e5bcbd9797e6d2b1822e63f242ae3e4adf97cd3d5d64abc75622",
+      "b6738dcb83d1fd0f6d95265896263af7f95544beae713a80d7fc9bd3220d1423",
+      "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d"
+    ],
+    "files": [
+      "art/release-binding.svg",
+      "assets/index-DXrcFo1Y.css",
+      "assets/index-DqB-BfKt.js",
+      "index.html",
+      "world/bath-faceless.glb",
+      "world/country/first-country-locations.glb",
+      "world/rebuild/second-mouth-supper.glb"
+    ],
+    "hashes": {
+      "art/release-binding.svg": "438580f7908badb831454979a5713d8c21f4be8ccacae2cf01f68d3092c2ccd4",
+      "assets/index-DXrcFo1Y.css": "15e482fed9f840de3d0a94b5f4f8c98cddc893b795d8826f65f518f6546ae22a",
+      "assets/index-DqB-BfKt.js": "21a9d4c1d942a5869183b2630f6bcc07948268586017224316d7486238d06f36",
+      "index.html": "492f5aec4a03ca2baf412e5436ef416c12ac4fc2e4f25bc6ec2afd1767f1e617",
+      "world/bath-faceless.glb": "fca0c41c1fe8536f5e852530d22c36f3e77ddf7730e7db51a0fe58187ff73b59",
+      "world/country/first-country-locations.glb": "7430d726d32d892fbfe1dc01555884c6bea96dded6b45986785bd99537cd01a7",
+      "world/rebuild/second-mouth-supper.glb": "114ddc2339ab2d3293a7dfbdf31ccdbb92757cb961005a7723fc702ecb6762b4"
+    }
+  },
+  "checks": [
+    {
+      "name": "Actual keyboard exploration does not grant evidence or dispatch story actions",
+      "status": "PASS"
+    },
+    {
+      "name": "Country near-E action dispatches to the actual story engine and replayed save",
+      "status": "PASS",
+      "choiceId": "o0.inspect-source-floor"
+    },
+    {
+      "name": "Offline retained editions, exact save/reload, responsive widths and axe",
+      "status": "PASS",
+      "violations": 0,
+      "incomplete": 1
+    },
+    {
+      "name": "narrative/rebuild/readings-v5/kept-test-dry-tracing-pipe-written.run.json",
+      "status": "PASS",
+      "commands": 45,
+      "countryScenes": [
+        "o0.dry-rehearsal",
+        "o0.source-floor",
+        "o0.floor-tracing",
+        "o0.pipe-discovery",
+        "o0.pipe-rehearsal",
+        "o0.dry-house-lead",
+        "o0.dry-house-departure",
+        "o0.house-window",
+        "o0.emil-account",
+        "o0.account-written",
+        "o0.leaf-return",
+        "o0.emil-control",
+        "o0.house-door",
+        "o0.rene-arrival"
+      ],
+      "narrativeMatchAfterCommandReceiptNormalization": true,
+      "exactBrowserExportReplays": true,
+      "canceledConfirmation": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "limits": [
+    "Only supplied routes",
+    "Software WebGL in Chromium",
+    "No human timing or literary acceptance",
+    "No hardware graphics benchmark"
+  ],
+  "caseSha256After": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8",
+  "sourceStable": true
+}

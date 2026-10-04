@@ -1,14 +1,14 @@
 {
   "status": "PASS",
-  "path": "src/content/case-v4.json",
+  "path": "src/content/case-v5.json",
   "schemaVersion": 2,
   "scope": "Content schema, graph references and original-narrative punctuation only; not solvability, playtime or literary quality",
-  "sha256": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
-  "canonicalContentHash": "b6738dcb83d1fd0f6d95265896263af7f95544beae713a80d7fc9bd3220d1423",
-  "scenes": 39,
-  "choices": 57,
-  "authoredWordsIncludingVariantsChoicesAndNotes": 9007,
-  "paragraphs": 450,
+  "sha256": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8",
+  "canonicalContentHash": "cf2af7418826e5bcbd9797e6d2b1822e63f242ae3e4adf97cd3d5d64abc75622",
+  "scenes": 63,
+  "choices": 86,
+  "authoredWordsIncludingVariantsChoicesAndNotes": 15370,
+  "paragraphs": 735,
   "validation": "PASS",
   "issues": []
 }

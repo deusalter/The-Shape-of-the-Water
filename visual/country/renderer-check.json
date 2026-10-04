@@ -1,0 +1,26 @@
+{
+  "scope": "Actual CountryWorld fixture with compiled offered ids, not integrated narrative playthrough",
+  "status": "PASS",
+  "checks": [
+    "Keyboard moves male faceless Blaise in the original GLB",
+    "Far offered action rejects E",
+    "Floor click routes around furniture; near E dispatches exact offered choice",
+    "Disabled and withdrawn stale actions reject E",
+    "All 24 exact new scenes and 28 scene/variant projections use their actual authored area",
+    "Global-styles fixture fits 390px and 320px widths",
+    "Unknown scene fallback and cleanup/remount succeed"
+  ],
+  "errors": [],
+  "limits": [
+    "Chromium software WebGL only",
+    "No engine action dispatch or human playtesting in this fixture",
+    "No assistive technology or hardware performance certification"
+  ],
+  "sourceHashes": {
+    "src/world/country/CountryWorld.tsx": "450e141cef835282a7a4cbbd174d001296d6b7f8b7fb3f3d16637b89dfbac34e",
+    "src/world/country/profiles.ts": "5fb3a924db393ae55cc0e55d695b76752d4232955c131f6cedd4727ee2293f67",
+    "src/world/country/navigation.ts": "68177d88f8bfc0e26f77c661f77d68f774bd60a4b4f6ac33365587b32567b8cd",
+    "public/world/country/first-country-locations.glb": "7430d726d32d892fbfe1dc01555884c6bea96dded6b45986785bd99537cd01a7",
+    "src/content/case-v5.json": "1ff7b7d98abdf20428bb80dcd0436377422505c3e6622bf6c1c9c1dde51ddb8f"
+  }
+}

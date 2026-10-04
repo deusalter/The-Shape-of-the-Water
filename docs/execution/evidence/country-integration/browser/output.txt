@@ -1,0 +1,185 @@
+Playing narrative/rebuild/readings-v5/kept-test-dry-tracing-pipe-written.run.json: 45 controls
+Route 0: 10/45
+Route 0: 20/45
+Route 0: 30/45
+Route 0: 40/45
+Playing narrative/rebuild/readings-v5/closed-private-proof-orchard-loan-oral.run.json: 41 controls
+Route 1: 10/41
+Route 1: 20/41
+Route 1: 30/41
+Route 1: 40/41
+Playing narrative/rebuild/readings-v5/closed-private-confession-dry-panel-invitation-written.run.json: 45 controls
+Route 2: 10/45
+Route 2: 20/45
+Route 2: 30/45
+Route 2: 40/45
+Playing narrative/rebuild/readings-v5/closed-public-confession-orchard-rubbing-written.run.json: 39 controls
+Route 3: 10/39
+Route 3: 20/39
+Route 3: 30/39
+Playing narrative/rebuild/readings-v5/kept-declined-orchard-loan-written.run.json: 38 controls
+Route 4: 10/38
+Route 4: 20/38
+Route 4: 30/38
+Playing narrative/rebuild/readings-v5/kept-declined-dry-panel-pipe-oral.run.json: 39 controls
+Route 5: 10/39
+Route 5: 20/39
+Route 5: 30/39
+[
+  {
+    "name": "Actual keyboard exploration does not grant evidence or dispatch story actions",
+    "status": "PASS"
+  },
+  {
+    "name": "Country near-E action dispatches to the actual story engine and replayed save",
+    "status": "PASS",
+    "choiceId": "o0.inspect-source-floor"
+  },
+  {
+    "name": "Offline retained editions, exact save/reload, responsive widths and axe",
+    "status": "PASS",
+    "violations": 0,
+    "incomplete": 1
+  },
+  {
+    "name": "narrative/rebuild/readings-v5/kept-test-dry-tracing-pipe-written.run.json",
+    "status": "PASS",
+    "commands": 45,
+    "countryScenes": [
+      "o0.dry-rehearsal",
+      "o0.source-floor",
+      "o0.floor-tracing",
+      "o0.pipe-discovery",
+      "o0.pipe-rehearsal",
+      "o0.dry-house-lead",
+      "o0.dry-house-departure",
+      "o0.house-window",
+      "o0.emil-account",
+      "o0.account-written",
+      "o0.leaf-return",
+      "o0.emil-control",
+      "o0.house-door",
+      "o0.rene-arrival"
+    ],
+    "narrativeMatchAfterCommandReceiptNormalization": true,
+    "exactBrowserExportReplays": true,
+    "canceledConfirmation": true
+  },
+  {
+    "name": "narrative/rebuild/readings-v5/closed-private-proof-orchard-loan-oral.run.json",
+    "status": "PASS",
+    "commands": 41,
+    "countryScenes": [
+      "o0.orchard-roof",
+      "o0.rain-strip",
+      "o0.cradle-account",
+      "o0.cradle-loan",
+      "o0.orchard-report",
+      "o0.orchard-house-departure",
+      "o0.house-window",
+      "o0.emil-account",
+      "o0.account-oral",
+      "o0.leaf-return",
+      "o0.emil-control",
+      "o0.house-door",
+      "o0.rene-arrival"
+    ],
+    "narrativeMatchAfterCommandReceiptNormalization": true,
+    "exactBrowserExportReplays": true,
+    "canceledConfirmation": true
+  },
+  {
+    "name": "narrative/rebuild/readings-v5/closed-private-confession-dry-panel-invitation-written.run.json",
+    "status": "PASS",
+    "commands": 45,
+    "countryScenes": [
+      "o0.dry-rehearsal",
+      "o0.source-floor",
+      "o0.panel-arrangement",
+      "o0.pipe-discovery",
+      "o0.whistle-invitation",
+      "o0.dry-house-lead",
+      "o0.dry-house-departure",
+      "o0.house-window",
+      "o0.emil-account",
+      "o0.account-written",
+      "o0.leaf-return",
+      "o0.emil-control",
+      "o0.house-door",
+      "o0.rene-arrival"
+    ],
+    "narrativeMatchAfterCommandReceiptNormalization": true,
+    "exactBrowserExportReplays": true,
+    "canceledConfirmation": true
+  },
+  {
+    "name": "narrative/rebuild/readings-v5/closed-public-confession-orchard-rubbing-written.run.json",
+    "status": "PASS",
+    "commands": 39,
+    "countryScenes": [
+      "o0.orchard-roof",
+      "o0.rain-strip",
+      "o0.cradle-account",
+      "o0.cradle-rubbing",
+      "o0.orchard-report",
+      "o0.orchard-house-departure",
+      "o0.house-window",
+      "o0.emil-account",
+      "o0.account-written",
+      "o0.leaf-return",
+      "o0.emil-control",
+      "o0.house-door",
+      "o0.rene-arrival"
+    ],
+    "narrativeMatchAfterCommandReceiptNormalization": true,
+    "exactBrowserExportReplays": true,
+    "canceledConfirmation": true
+  },
+  {
+    "name": "narrative/rebuild/readings-v5/kept-declined-orchard-loan-written.run.json",
+    "status": "PASS",
+    "commands": 38,
+    "countryScenes": [
+      "o0.orchard-roof",
+      "o0.rain-strip",
+      "o0.cradle-account",
+      "o0.cradle-loan",
+      "o0.orchard-report",
+      "o0.orchard-house-departure",
+      "o0.house-window",
+      "o0.emil-account",
+      "o0.account-written",
+      "o0.leaf-return",
+      "o0.emil-control",
+      "o0.house-door",
+      "o0.rene-arrival"
+    ],
+    "narrativeMatchAfterCommandReceiptNormalization": true,
+    "exactBrowserExportReplays": true,
+    "canceledConfirmation": true
+  },
+  {
+    "name": "narrative/rebuild/readings-v5/kept-declined-dry-panel-pipe-oral.run.json",
+    "status": "PASS",
+    "commands": 39,
+    "countryScenes": [
+      "o0.dry-rehearsal",
+      "o0.source-floor",
+      "o0.panel-arrangement",
+      "o0.pipe-discovery",
+      "o0.pipe-rehearsal",
+      "o0.dry-house-lead",
+      "o0.dry-house-departure",
+      "o0.house-window",
+      "o0.emil-account",
+      "o0.account-oral",
+      "o0.leaf-return",
+      "o0.emil-control",
+      "o0.house-door",
+      "o0.rene-arrival"
+    ],
+    "narrativeMatchAfterCommandReceiptNormalization": true,
+    "exactBrowserExportReplays": true,
+    "canceledConfirmation": true
+  }
+]

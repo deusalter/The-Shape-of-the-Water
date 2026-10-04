@@ -1,0 +1,73 @@
+{
+  "scope": "Static checks and safe-copy fault injection. No new chat, transferred memory or human reader.",
+  "baseline": {
+    "status": "PASS",
+    "scope": "Static snapshot integrity and claim consistency only; not a fresh-chat resume or new gameplay test",
+    "pinnedFiles": 1489,
+    "errors": []
+  },
+  "checks": [
+    {
+      "name": "stale_baseline",
+      "status": "PASS",
+      "detected": [
+        "Changed snapshot file: docs/execution/STATE.json",
+        "Stale baseline identity"
+      ]
+    },
+    {
+      "name": "missing_voice_anchor",
+      "status": "PASS",
+      "detected": [
+        "Missing or unreadable critical file: narrative/rebuild/VOICE-V4.md"
+      ]
+    },
+    {
+      "name": "stale_active_content",
+      "status": "PASS",
+      "detected": [
+        "Changed snapshot file: docs/execution/STATE.json",
+        "Stale selected content path"
+      ]
+    },
+    {
+      "name": "changed_selected_content",
+      "status": "PASS",
+      "detected": [
+        "Changed snapshot file: src/content/case-v4.json"
+      ]
+    },
+    {
+      "name": "missing_retained_content",
+      "status": "PASS",
+      "detected": [
+        "Missing or unreadable critical file: src/content/case-v2.json"
+      ]
+    },
+    {
+      "name": "unsafe_selection",
+      "status": "PASS",
+      "detected": [
+        "Changed snapshot file: src/content/selection.json",
+        "Invalid content selection: Invalid selected content file"
+      ]
+    },
+    {
+      "name": "unknown_worker_ownership",
+      "status": "PASS",
+      "detected": [
+        "Changed snapshot file: docs/execution/STATE.json",
+        "Unknown worker ownership: unassigned_worker"
+      ]
+    },
+    {
+      "name": "unverified_test_claim",
+      "status": "PASS",
+      "detected": [
+        "Changed snapshot file: docs/execution/STATE.json",
+        "Unverified test claim invented human playtest: Evidence is not pinned"
+      ]
+    }
+  ],
+  "status": "PASS"
+}

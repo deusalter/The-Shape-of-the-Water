@@ -1,0 +1,90 @@
+{
+  "previousSha256": "1ff7b7d98abdf20428bb80dcd0436377422505c3e6622bf6c1c9c1dde51ddb8f",
+  "currentSha256": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8",
+  "allowedOnly": true,
+  "differences": [
+    {
+      "path": "sources.44.text",
+      "before": "Emil read Blaise’s written account of his sight of the cut and its limits. He required “agreed to the replacement” to be corrected to “asked him to keep the return.” He permitted Blaise to show the checked account to both women. They had not yet received it.",
+      "after": "Emil read Blaise’s written account of his sight of the cut, its limits and his request to keep the return while knowing Dora wanted to leave. He added that he had neither agreed to a replacement nor known there would be one. He permitted Blaise to show the checked account to both women. They had not yet received it."
+    },
+    {
+      "path": "scenes.57.title",
+      "before": "The sentence he changes",
+      "after": "The sentence he adds"
+    },
+    {
+      "path": "scenes.57.paragraphs.0",
+      "before": "You write that he saw René make the cut, and what he did not see. When he reads it, he makes you replace *agreed to the replacement* with *asked him to keep the return*.",
+      "after": "You write that he saw René make the cut, and what he did not see. Beneath that you put down his request: he asked René to keep the return, knowing Dora wanted to go."
+    },
+    {
+      "path": "scenes.57.paragraphs.1",
+      "before": "“I didn't agree to a replacement. I didn't know there'd be one.”",
+      "after": "Emil reads the page, then puts his finger below the last line."
+    },
+    {
+      "path": "scenes.57.paragraphs.2",
+      "before": "You cross out the sentence. He reads the correction, then the whole account again.",
+      "after": "“Put this in as well.”"
+    },
+    {
+      "path": "scenes.57.paragraphs.3",
+      "before": "“You can show them. Both of them.”",
+      "after": "“I didn't agree to a replacement. I didn't know there'd be one.”"
+    },
+    {
+      "path": "scenes.57.paragraphs.4",
+      "after": "You add the sentence. He reads it, then the whole account again."
+    },
+    {
+      "path": "scenes.57.paragraphs.5",
+      "after": "“You can show them. Both of them.”"
+    }
+  ],
+  "scene": {
+    "id": "o0.account-written",
+    "occasionId": "o0",
+    "title": "The sentence he adds",
+    "paragraphs": [
+      "You write that he saw René make the cut, and what he did not see. Beneath that you put down his request: he asked René to keep the return, knowing Dora wanted to go.",
+      "Emil reads the page, then puts his finger below the last line.",
+      "“Put this in as well.”",
+      "“I didn't agree to a replacement. I didn't know there'd be one.”",
+      "You add the sentence. He reads it, then the whole account again.",
+      "“You can show them. Both of them.”"
+    ],
+    "choices": [
+      {
+        "id": "o0.written-to-leaf",
+        "label": "Put away the checked account and ask Emil about the answering leaf.",
+        "target": "o0.leaf-return",
+        "effects": [
+          "o0.emil_account_written"
+        ],
+        "actions": [
+          {
+            "type": "witnessSource",
+            "characterId": "o0.emil",
+            "sourceId": "o0.emil-written"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "o0.emil-written"
+    ]
+  },
+  "source": {
+    "id": "o0.emil-written",
+    "occasionId": "o0",
+    "title": "The account Emil checked",
+    "text": "Emil read Blaise’s written account of his sight of the cut, its limits and his request to keep the return while knowing Dora wanted to leave. He added that he had neither agreed to a replacement nor known there would be one. He permitted Blaise to show the checked account to both women. They had not yet received it.",
+    "kind": "document",
+    "provenanceId": "o0.emil-written",
+    "derivedFrom": [
+      "o0.emil-cut-account",
+      "o0.emil-consent-account"
+    ]
+  }
+}
