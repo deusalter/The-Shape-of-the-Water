@@ -1,0 +1,9 @@
+{
+  "compiler": "go1.27.1",
+  "host": "linux/amd64",
+  "source": "https://go.dev/dl/go1.27.1.linux-amd64.tar.gz",
+  "sha256": "63d339f0da5ab53635a56f2490a7984dfe12dfcff22ad749f63edaf590168445",
+  "bytes": 70553950,
+  "path": "/workspace/.toolchains/go1.27.1/go/bin/go",
+  "checked": "Official download bytes matched published SHA256; actual executable reports go version go1.27.1 linux/amd64. The unrelated /usr/bin/go was not used."
+}

@@ -4,15 +4,27 @@
 
 Third-person 3D follows Blaise through an uncanny city populated by faceless figures. Sustained dialogue and inner monologues investigate causality, identity, knowledge, God and recurrence. The story draws on research into Kant and Spinoza while keeping its invented rules distinct from their historical arguments.
 
-## Play
+## Play on Mac
 
-Download [The-Shape-of-the-Water.zip](releases/The-Shape-of-the-Water.zip), extract it, and run `python3 play.py` inside the extracted folder. On Windows, use `py -3 play.py`. Python 3 and a modern browser are required. The launcher opens the game and serves it only on your own computer. Keep that terminal open while playing.
+**[Download the Mac app](https://github.com/deusalter/The-Shape-of-the-Water/raw/refs/heads/main/releases/The-Shape-of-the-Water-Mac.zip)** (macOS 13 Ventura or later; Apple silicon and Intel).
 
-Move with WASD, arrow keys, or a click on the floor. Press E for a nearby action. Every story action is also available beside the text. The header offers text size, a text-focused view, and the encountered-evidence notebook. Progress saves in this browser; export your encountered run to keep an independent copy. After restarting, use **Take over saving** if prompted. Opening `index.html` directly is unsupported.
+1. Extract the download.
+2. Double-click **The Shape of the Water.app**. You can also move it to Applications.
+3. Click **Play**. The game opens in your usual browser. No Python, Node or terminal commands are needed.
+
+Play opens a separate tab. Return to the launcher's tab and click **Quit** when finished. Double-click the app again if you need to reopen the launcher.
+
+The app is not Apple-notarized. If macOS blocks the first opening, use **System Settings → Privacy & Security → Open Anyway**, then confirm **Open**. See [Apple's instructions](https://support.apple.com/en-us/102445). The package was cross-built and inspected on Linux; native Finder/Gatekeeper/Safari execution has not been verified in this workspace.
+
+Use the same browser to keep existing saves. The app uses the previous launcher's default local address; close an older running launcher before opening the app. Saves made on a different fallback port need an exported run imported into this app. Progress stays in the browser, and **Export encountered run** keeps an independent copy. After restarting, choose **Take over saving** if prompted.
+
+Move with WASD, arrow keys, or a click on the floor. Press E for a nearby action. Every story action is also available beside the text. The header offers text size, a text-focused view, and the encountered-evidence notebook.
 
 No account, live AI, paid API, or network service is needed to play. The browser caches the game for offline use. Content includes emotional manipulation, memory loss, religious coercion and a remembered life-threatening injury.
 
-Version 1.0.1 improves selected-story loading, stops idle 3D rendering and reduces repeated save validation. Existing text editions and save identities are unchanged. See the [performance measurements and limits](docs/execution/evidence/mercy-optimization/README.md).
+The [original cross-platform ZIP](releases/The-Shape-of-the-Water.zip) remains available for Python 3 users: extract it and run `python3 play.py` (Windows: `py -3 play.py`). Opening `index.html` directly is unsupported.
+
+The Mac app contains the unchanged optimized game, version 1.0.1. See the [performance measurements](docs/execution/evidence/mercy-optimization/README.md) and [Mac launcher verification](docs/execution/evidence/mac-launcher/README.md).
 
 ## Develop and verify
 

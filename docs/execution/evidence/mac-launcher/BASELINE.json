@@ -1,0 +1,12 @@
+{
+  "sourceCommit": "6516378255872b35e5da976f6c146592f540b93b",
+  "scope": "No game rebuild; new Mac app copies the exact verified player bytes. Existing general ZIP is preserved.",
+  "files": {
+    "src/content/case-v7.json": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475",
+    "tools/mercy/staging-v7.json": "f089ad55d08e10501151512853f488573ad70be1b633b6383c049876b099f88b",
+    "releases/The-Shape-of-the-Water.zip": "d5b7b0e679a71d5933b6709256c89f5ce8e49e109a5166d319730229cfc4eaab",
+    "releases/PACKAGE.json": "43390b5ed6086144d33cec6e0f9c66f67c0625eb20f223cbccb9083401c71dea",
+    "public/sw.js": "c6adde5191637ef3d5675e75b809b1b92626ea714c19ef87d5503fe4e55036e9",
+    "dist-player/asset-manifest.json": "956c8c27845a8da9c05a38e271349948eab7d5680cf23e8979e727a040658b56"
+  }
+}

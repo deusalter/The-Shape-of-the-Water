@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "date": "2026-10-04",
-  "status": "mac-app-verified",
+  "status": "mercy-optimized-release-published",
   "baseline": {
     "revision3": "baseline/revision3",
     "archiveSha256": "9ac1a34024dc678267cb0dda059b06ac7fd151d4db4c91a2ec509331ed77f7df",
@@ -9,8 +9,8 @@
     "priorImplementation": "none supplied, per owner clarification",
     "taskGraph": "tools/task-dependencies.json"
   },
-  "latestOwnerDirection": "docs/OWNER-MAC-LAUNCHER.md",
-  "ownerApproval": "Owner requested easier startup without terminal commands and selected Mac. Existing authorization permits commit/push as deusalter without coauthor tags; no public site or paid signing service.",
+  "latestOwnerDirection": "docs/OWNER-OPTIMIZATION.md",
+  "ownerApproval": "Owner requested optimization of the delivered game; no story revision implied. Prior authorization permits commit/push as deusalter without coauthor tags.",
   "project": "The Shape of the Water",
   "currentNewNarrative": "The Mercy of Morning: complete shared narrative and both final decisions, implemented as a playable first release.",
   "activeContent": "src/content/case-v7.json",
@@ -25,7 +25,7 @@
   "activeWorkers": [],
   "ownership": {
     "root": [
-      "Game and Mac launcher integration, verified package delivery, publication and continuity; engineering workers complete."
+      "Performance integration, verification, release and continuity. Engineering worker ownership returned after completion."
     ],
     "lead_writer": [
       "Final narrative prose and canon remain frozen; performance update makes no literary changes."
@@ -61,10 +61,7 @@
     "docs/OWNER-RESUME-PRODUCTION.md",
     "releases/PACKAGE.json",
     "docs/OWNER-OPTIMIZATION.md",
-    "docs/execution/evidence/mercy-optimization/README.md",
-    "docs/OWNER-MAC-LAUNCHER.md",
-    "releases/MAC-PACKAGE.json",
-    "docs/execution/evidence/mac-launcher/README.md"
+    "docs/execution/evidence/mercy-optimization/README.md"
   ],
   "referenceResearch": "research/reference/hello-charlotte/reassessment-2026-10-04/REASSESSMENT.md. Creator/official/critical source checks; no complete game playthrough or script reading claim.",
   "limits": [
@@ -72,8 +69,7 @@
     "AI reviews are bounded by their exact inputs; philosophical review preceded the final narrow continuity fixes.",
     "Software Chromium WebGL; no physical-device performance or real assistive-technology certification.",
     "Finite verifier uses an explicitly documented semantics-preserving projection; not every transcript permutation.",
-    "Full authored arc complete. Historical duration/word projections are not certified.",
-    "Mac binaries cross-built and inspected; shared launcher tested on Linux. Native Finder, AppleScript, Gatekeeper, App Translocation and Safari are unverified. App is not Apple-notarized."
+    "Full authored arc complete. Historical duration/word projections are not certified."
   ],
   "archiveBeforeRejection": {
     "path": "checkpoints/second-mouth-rejected-draft-20261004T060039Z.tar.gz",
@@ -84,7 +80,7 @@
   },
   "priorContinuity": "docs/execution/archives/before-mercy-delivery/",
   "rejectedLocalFiles": "Uninstalled v6 manuscripts/code/assets remain preserved locally and excluded from publication. Its modified development registry is preserved verbatim in narrative/archived/second-mouth-documents/.",
-  "nextExecutableTask": "Publish and verify the Mac ZIP, then continue from owner feedback; game content and save identity remain unchanged.",
+  "nextExecutableTask": "Continue from owner feedback on the published optimized playable release; no unfinished authorized performance work or background execution is promised.",
   "backgroundWork": "No promised work or shared chat memory after active execution ends.",
   "optimizationRequest": "Owner: can you optimize it? Scope: measured loading/rendering/UI performance; exact story and saved-run identity preserved.",
   "priorReleaseVerification": {
@@ -230,12 +226,6 @@
       "evidence": "docs/execution/evidence/mercy-optimization/PUBLICATION.json",
       "field": "status",
       "expected": "PASS"
-    },
-    {
-      "name": "Mac cross-build, exact assets, shared launcher and browser continuity",
-      "evidence": "docs/execution/evidence/mac-launcher/VERIFY.json",
-      "field": "status",
-      "expected": "PASS"
     }
   ],
   "releaseVersion": "1.0.1",
@@ -279,8 +269,7 @@
         320
       ],
       "sourceAndBuildStable": true
-    },
-    "macLauncher": "docs/execution/evidence/mac-launcher/VERIFY.json"
+    }
   },
   "optimizationResults": {
     "initialJavaScriptReductionPercent": 26.55,
@@ -289,20 +278,5 @@
     "lateSaveReplayCallsBefore": 8,
     "lateSaveReplayCallsAfter": 4,
     "scope": "Same-machine software Chromium3samples; separate one-sample fake-IndexedDB save diagnostic. No physical-device claims; story and save identities unchanged."
-  },
-  "macApp": {
-    "package": "releases/The-Shape-of-the-Water-Mac.zip",
-    "receipt": "releases/MAC-PACKAGE.json",
-    "sha256": "c4cfdb90c5fe230e9b36d54dfc695ba810eddb84a358904e0150be447c5513a9",
-    "minimumMacOS": "13.0",
-    "architectures": [
-      "x86_64",
-      "arm64"
-    ],
-    "nativeMacExecutionVerified": false,
-    "notarized": false,
-    "publication": {
-      "status": "PENDING"
-    }
   }
 }

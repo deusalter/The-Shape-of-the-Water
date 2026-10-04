@@ -1,0 +1,244 @@
+{"Time":"2026-10-04T22:25:54.1414339Z","Action":"start","Package":"shapeofwater.local/launcher"}
+{"Time":"2026-10-04T22:25:54.144334098Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestDetachedParentStartsAndReopensReadyChild"}
+{"Time":"2026-10-04T22:25:54.144395129Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestDetachedParentStartsAndReopensReadyChild","Output":"=== RUN   TestDetachedParentStartsAndReopensReadyChild\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.157910471Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestDetachedParentStartsAndReopensReadyChild","Output":"--- PASS: TestDetachedParentStartsAndReopensReadyChild (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.157938863Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestDetachedParentStartsAndReopensReadyChild","Elapsed":0.01}
+{"Time":"2026-10-04T22:25:54.157965332Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestDetachedParentCollisionReportsFailureWithoutOpening"}
+{"Time":"2026-10-04T22:25:54.157967896Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestDetachedParentCollisionReportsFailureWithoutOpening","Output":"=== RUN   TestDetachedParentCollisionReportsFailureWithoutOpening\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.162762541Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestDetachedParentCollisionReportsFailureWithoutOpening","Output":"--- PASS: TestDetachedParentCollisionReportsFailureWithoutOpening (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.162781559Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestDetachedParentCollisionReportsFailureWithoutOpening","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.162787047Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestDetachedParentStopsItsChildOnInvalidReadiness"}
+{"Time":"2026-10-04T22:25:54.162789631Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestDetachedParentStopsItsChildOnInvalidReadiness","Output":"=== RUN   TestDetachedParentStopsItsChildOnInvalidReadiness\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.165481687Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestDetachedParentStopsItsChildOnInvalidReadiness","Output":"--- PASS: TestDetachedParentStopsItsChildOnInvalidReadiness (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.165499793Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestDetachedParentStopsItsChildOnInvalidReadiness","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.165526824Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestDetachedBrowserFailureLeavesReusableServer"}
+{"Time":"2026-10-04T22:25:54.165529788Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestDetachedBrowserFailureLeavesReusableServer","Output":"=== RUN   TestDetachedBrowserFailureLeavesReusableServer\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.174772534Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestDetachedBrowserFailureLeavesReusableServer","Output":"--- PASS: TestDetachedBrowserFailureLeavesReusableServer (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.174789319Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestDetachedBrowserFailureLeavesReusableServer","Elapsed":0.01}
+{"Time":"2026-10-04T22:25:54.174808688Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestProcessOptionsRejectUnexpectedArguments"}
+{"Time":"2026-10-04T22:25:54.174810971Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestProcessOptionsRejectUnexpectedArguments","Output":"=== RUN   TestProcessOptionsRejectUnexpectedArguments\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.174901065Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestProcessOptionsRejectUnexpectedArguments","Output":"--- PASS: TestProcessOptionsRejectUnexpectedArguments (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.17490437Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestProcessOptionsRejectUnexpectedArguments","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.174920324Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestSignalStopsDetachedServer"}
+{"Time":"2026-10-04T22:25:54.174923138Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestSignalStopsDetachedServer","Output":"=== RUN   TestSignalStopsDetachedServer\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.189080142Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestSignalStopsDetachedServer","Output":"--- PASS: TestSignalStopsDetachedServer (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.189100893Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestSignalStopsDetachedServer","Elapsed":0.01}
+{"Time":"2026-10-04T22:25:54.189107172Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestControlPageAndStatus"}
+{"Time":"2026-10-04T22:25:54.189112881Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestControlPageAndStatus","Output":"=== RUN   TestControlPageAndStatus\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.191231515Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestControlPageAndStatus","Output":"--- PASS: TestControlPageAndStatus (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.191266046Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestControlPageAndStatus","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.191270923Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly"}
+{"Time":"2026-10-04T22:25:54.191273006Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly","Output":"=== RUN   TestAssetsExactMIMEAndReadOnly\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.192017912Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//asset-manifest.json"}
+{"Time":"2026-10-04T22:25:54.192029079Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//asset-manifest.json","Output":"=== RUN   TestAssetsExactMIMEAndReadOnly//asset-manifest.json\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.19265017Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//asset-manifest.json","Output":"--- PASS: TestAssetsExactMIMEAndReadOnly//asset-manifest.json (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.192661597Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//asset-manifest.json","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.192666204Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//world/room.glb"}
+{"Time":"2026-10-04T22:25:54.192668137Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//world/room.glb","Output":"=== RUN   TestAssetsExactMIMEAndReadOnly//world/room.glb\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.193206356Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//world/room.glb","Output":"--- PASS: TestAssetsExactMIMEAndReadOnly//world/room.glb (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.193217582Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//world/room.glb","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.193234097Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//assets/game.js"}
+{"Time":"2026-10-04T22:25:54.19323603Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//assets/game.js","Output":"=== RUN   TestAssetsExactMIMEAndReadOnly//assets/game.js\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.193446392Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//assets/game.js","Output":"--- PASS: TestAssetsExactMIMEAndReadOnly//assets/game.js (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.193459101Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//assets/game.js","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.193461825Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//sw.js"}
+{"Time":"2026-10-04T22:25:54.193463457Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//sw.js","Output":"=== RUN   TestAssetsExactMIMEAndReadOnly//sw.js\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.193769842Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//sw.js","Output":"--- PASS: TestAssetsExactMIMEAndReadOnly//sw.js (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.193787207Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//sw.js","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.193789571Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//assets/game.css"}
+{"Time":"2026-10-04T22:25:54.193791284Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//assets/game.css","Output":"=== RUN   TestAssetsExactMIMEAndReadOnly//assets/game.css\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.194224617Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//assets/game.css","Output":"--- PASS: TestAssetsExactMIMEAndReadOnly//assets/game.css (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.194235162Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//assets/game.css","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.194237726Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//art/card.svg"}
+{"Time":"2026-10-04T22:25:54.194239619Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//art/card.svg","Output":"=== RUN   TestAssetsExactMIMEAndReadOnly//art/card.svg\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.194577861Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//art/card.svg","Output":"--- PASS: TestAssetsExactMIMEAndReadOnly//art/card.svg (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.194586103Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//art/card.svg","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.194588637Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//data.bin"}
+{"Time":"2026-10-04T22:25:54.194590349Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//data.bin","Output":"=== RUN   TestAssetsExactMIMEAndReadOnly//data.bin\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.197940286Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//data.bin","Output":"--- PASS: TestAssetsExactMIMEAndReadOnly//data.bin (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.197965062Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//data.bin","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.197968217Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//"}
+{"Time":"2026-10-04T22:25:54.19797016Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//","Output":"=== RUN   TestAssetsExactMIMEAndReadOnly//\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.198170808Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//","Output":"--- PASS: TestAssetsExactMIMEAndReadOnly// (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.19820582Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.19822624Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//index.html"}
+{"Time":"2026-10-04T22:25:54.198228513Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//index.html","Output":"=== RUN   TestAssetsExactMIMEAndReadOnly//index.html\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.19865098Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//index.html","Output":"--- PASS: TestAssetsExactMIMEAndReadOnly//index.html (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.198661977Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly//index.html","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.199747758Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly","Output":"--- PASS: TestAssetsExactMIMEAndReadOnly (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.199771603Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestAssetsExactMIMEAndReadOnly","Elapsed":0.01}
+{"Time":"2026-10-04T22:25:54.19977588Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries"}
+{"Time":"2026-10-04T22:25:54.199777803Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries","Output":"=== RUN   TestStaticBoundaries\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.200063677Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets"}
+{"Time":"2026-10-04T22:25:54.200072971Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets","Output":"=== RUN   TestStaticBoundaries//assets\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.200498031Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets","Output":"--- PASS: TestStaticBoundaries//assets (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.200519654Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.200555066Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets/"}
+{"Time":"2026-10-04T22:25:54.20055752Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets/","Output":"=== RUN   TestStaticBoundaries//assets/\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.201033366Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets/","Output":"--- PASS: TestStaticBoundaries//assets/ (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.201059685Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets/","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.201062309Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets//game.js"}
+{"Time":"2026-10-04T22:25:54.201064382Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets//game.js","Output":"=== RUN   TestStaticBoundaries//assets//game.js\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.201600688Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets//game.js","Output":"--- PASS: TestStaticBoundaries//assets//game.js (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.201612155Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets//game.js","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.201614809Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//../secret.txt"}
+{"Time":"2026-10-04T22:25:54.201627157Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//../secret.txt","Output":"=== RUN   TestStaticBoundaries//../secret.txt\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.201940652Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//../secret.txt","Output":"--- PASS: TestStaticBoundaries//../secret.txt (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.201951689Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//../secret.txt","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.201954453Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//%2e%2e/secret.txt"}
+{"Time":"2026-10-04T22:25:54.201956115Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//%2e%2e/secret.txt","Output":"=== RUN   TestStaticBoundaries//%2e%2e/secret.txt\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.202023345Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//%2e%2e/secret.txt","Output":"--- PASS: TestStaticBoundaries//%2e%2e/secret.txt (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.202038267Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//%2e%2e/secret.txt","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.202052378Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets/%2e%2e/index.html"}
+{"Time":"2026-10-04T22:25:54.202054251Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets/%2e%2e/index.html","Output":"=== RUN   TestStaticBoundaries//assets/%2e%2e/index.html\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.202435096Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets/%2e%2e/index.html","Output":"--- PASS: TestStaticBoundaries//assets/%2e%2e/index.html (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.202446032Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets/%2e%2e/index.html","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.202449928Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets/./game.js"}
+{"Time":"2026-10-04T22:25:54.202452472Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets/./game.js","Output":"=== RUN   TestStaticBoundaries//assets/./game.js\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.20272716Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets/./game.js","Output":"--- PASS: TestStaticBoundaries//assets/./game.js (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.202732808Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets/./game.js","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.202735081Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//escape.txt"}
+{"Time":"2026-10-04T22:25:54.202736984Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//escape.txt","Output":"=== RUN   TestStaticBoundaries//escape.txt\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.203088556Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//escape.txt","Output":"--- PASS: TestStaticBoundaries//escape.txt (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.20309769Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//escape.txt","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.203100193Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//escape-dir/secret.txt"}
+{"Time":"2026-10-04T22:25:54.203102026Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//escape-dir/secret.txt","Output":"=== RUN   TestStaticBoundaries//escape-dir/secret.txt\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.203404114Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//escape-dir/secret.txt","Output":"--- PASS: TestStaticBoundaries//escape-dir/secret.txt (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.203413859Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//escape-dir/secret.txt","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.203415942Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets%5cgame.js"}
+{"Time":"2026-10-04T22:25:54.203417775Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets%5cgame.js","Output":"=== RUN   TestStaticBoundaries//assets%5cgame.js\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.203628367Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets%5cgame.js","Output":"--- PASS: TestStaticBoundaries//assets%5cgame.js (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.203635127Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//assets%5cgame.js","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.203671251Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//%00"}
+{"Time":"2026-10-04T22:25:54.203673204Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//%00","Output":"=== RUN   TestStaticBoundaries//%00\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.203917967Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//%00","Output":"--- PASS: TestStaticBoundaries//%00 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.203941171Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//%00","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.203943885Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//missing"}
+{"Time":"2026-10-04T22:25:54.203945327Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//missing","Output":"=== RUN   TestStaticBoundaries//missing\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.204294706Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//missing","Output":"--- PASS: TestStaticBoundaries//missing (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.204307745Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//missing","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.204310269Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//__launcher/missing"}
+{"Time":"2026-10-04T22:25:54.204312312Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//__launcher/missing","Output":"=== RUN   TestStaticBoundaries//__launcher/missing\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.204639377Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//__launcher/missing","Output":"--- PASS: TestStaticBoundaries//__launcher/missing (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.204646909Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries//__launcher/missing","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.206286892Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries","Output":"--- PASS: TestStaticBoundaries (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.20629895Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestStaticBoundaries","Elapsed":0.01}
+{"Time":"2026-10-04T22:25:54.206304178Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestStrictHost"}
+{"Time":"2026-10-04T22:25:54.206306301Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStrictHost","Output":"=== RUN   TestStrictHost\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.212999384Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestStrictHost","Output":"--- PASS: TestStrictHost (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.213020064Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestStrictHost","Elapsed":0.01}
+{"Time":"2026-10-04T22:25:54.213024852Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce"}
+{"Time":"2026-10-04T22:25:54.213027355Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce","Output":"=== RUN   TestQuitRejectsCrossSiteAndBadNonce\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.213674926Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/get"}
+{"Time":"2026-10-04T22:25:54.213686373Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/get","Output":"=== RUN   TestQuitRejectsCrossSiteAndBadNonce/get\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.214348266Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/get","Output":"--- PASS: TestQuitRejectsCrossSiteAndBadNonce/get (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.214359963Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/get","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.214362657Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/missing-origin"}
+{"Time":"2026-10-04T22:25:54.21436455Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/missing-origin","Output":"=== RUN   TestQuitRejectsCrossSiteAndBadNonce/missing-origin\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.214959703Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/missing-origin","Output":"--- PASS: TestQuitRejectsCrossSiteAndBadNonce/missing-origin (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.214970018Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/missing-origin","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.214972963Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/foreign-origin"}
+{"Time":"2026-10-04T22:25:54.214974996Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/foreign-origin","Output":"=== RUN   TestQuitRejectsCrossSiteAndBadNonce/foreign-origin\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.215566323Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/foreign-origin","Output":"--- PASS: TestQuitRejectsCrossSiteAndBadNonce/foreign-origin (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.215576148Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/foreign-origin","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.215579573Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/null-origin"}
+{"Time":"2026-10-04T22:25:54.215581686Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/null-origin","Output":"=== RUN   TestQuitRejectsCrossSiteAndBadNonce/null-origin\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.216371999Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/null-origin","Output":"--- PASS: TestQuitRejectsCrossSiteAndBadNonce/null-origin (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.216385609Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/null-origin","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.216388553Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/cross-site"}
+{"Time":"2026-10-04T22:25:54.216390386Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/cross-site","Output":"=== RUN   TestQuitRejectsCrossSiteAndBadNonce/cross-site\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.217095973Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/cross-site","Output":"--- PASS: TestQuitRejectsCrossSiteAndBadNonce/cross-site (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.2171076Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/cross-site","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.217110525Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/foreign-referrer"}
+{"Time":"2026-10-04T22:25:54.217112538Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/foreign-referrer","Output":"=== RUN   TestQuitRejectsCrossSiteAndBadNonce/foreign-referrer\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.217461115Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/foreign-referrer","Output":"--- PASS: TestQuitRejectsCrossSiteAndBadNonce/foreign-referrer (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.217469918Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/foreign-referrer","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.217473193Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/foreign-host"}
+{"Time":"2026-10-04T22:25:54.217474926Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/foreign-host","Output":"=== RUN   TestQuitRejectsCrossSiteAndBadNonce/foreign-host\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.218014646Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/foreign-host","Output":"--- PASS: TestQuitRejectsCrossSiteAndBadNonce/foreign-host (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.218025903Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/foreign-host","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.218029549Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/wrong-nonce"}
+{"Time":"2026-10-04T22:25:54.218031572Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/wrong-nonce","Output":"=== RUN   TestQuitRejectsCrossSiteAndBadNonce/wrong-nonce\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.219105225Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/wrong-nonce","Output":"--- PASS: TestQuitRejectsCrossSiteAndBadNonce/wrong-nonce (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.219116171Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/wrong-nonce","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.219118875Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/query-only-nonce"}
+{"Time":"2026-10-04T22:25:54.219120718Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/query-only-nonce","Output":"=== RUN   TestQuitRejectsCrossSiteAndBadNonce/query-only-nonce\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.220245116Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/query-only-nonce","Output":"--- PASS: TestQuitRejectsCrossSiteAndBadNonce/query-only-nonce (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.220258316Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/query-only-nonce","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.22026107Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/duplicate-nonce"}
+{"Time":"2026-10-04T22:25:54.220263133Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/duplicate-nonce","Output":"=== RUN   TestQuitRejectsCrossSiteAndBadNonce/duplicate-nonce\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.220902252Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/duplicate-nonce","Output":"--- PASS: TestQuitRejectsCrossSiteAndBadNonce/duplicate-nonce (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.22092822Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/duplicate-nonce","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.220932046Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/json"}
+{"Time":"2026-10-04T22:25:54.220934179Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/json","Output":"=== RUN   TestQuitRejectsCrossSiteAndBadNonce/json\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.221559627Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/json","Output":"--- PASS: TestQuitRejectsCrossSiteAndBadNonce/json (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.221571585Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/json","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.221574159Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/oversized-body"}
+{"Time":"2026-10-04T22:25:54.221575891Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/oversized-body","Output":"=== RUN   TestQuitRejectsCrossSiteAndBadNonce/oversized-body\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.222084606Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/oversized-body","Output":"--- PASS: TestQuitRejectsCrossSiteAndBadNonce/oversized-body (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.222117295Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce/oversized-body","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.772640143Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce","Output":"--- PASS: TestQuitRejectsCrossSiteAndBadNonce (0.56s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.773687898Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestQuitRejectsCrossSiteAndBadNonce","Elapsed":0.56}
+{"Time":"2026-10-04T22:25:54.77372298Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestGracefulQuitAfterCompleteResponse"}
+{"Time":"2026-10-04T22:25:54.773727146Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestGracefulQuitAfterCompleteResponse","Output":"=== RUN   TestGracefulQuitAfterCompleteResponse\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.776295558Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestGracefulQuitAfterCompleteResponse","Output":"--- PASS: TestGracefulQuitAfterCompleteResponse (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.776338492Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestGracefulQuitAfterCompleteResponse","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.776355737Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestDuplicateInstanceReusesOneListener"}
+{"Time":"2026-10-04T22:25:54.776358471Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestDuplicateInstanceReusesOneListener","Output":"=== RUN   TestDuplicateInstanceReusesOneListener\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.778808798Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestDuplicateInstanceReusesOneListener","Output":"--- PASS: TestDuplicateInstanceReusesOneListener (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.778847265Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestDuplicateInstanceReusesOneListener","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.77885745Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestDuplicateVersionOrGameBuildRejected"}
+{"Time":"2026-10-04T22:25:54.778860234Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestDuplicateVersionOrGameBuildRejected","Output":"=== RUN   TestDuplicateVersionOrGameBuildRejected\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.782090753Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestDuplicateVersionOrGameBuildRejected","Output":"--- PASS: TestDuplicateVersionOrGameBuildRejected (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.782125875Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestDuplicateVersionOrGameBuildRejected","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.782130272Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestSimultaneousLaunchesSettleOnOneServer"}
+{"Time":"2026-10-04T22:25:54.782156Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestSimultaneousLaunchesSettleOnOneServer","Output":"=== RUN   TestSimultaneousLaunchesSettleOnOneServer\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.78225715Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestSimultaneousLaunchesSettleOnOneServer","Output":"--- PASS: TestSimultaneousLaunchesSettleOnOneServer (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.782260806Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestSimultaneousLaunchesSettleOnOneServer","Elapsed":0}
+{"Time":"2026-10-04T22:25:54.782265222Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestUnrelatedPortOwnerIsNeverReplaced"}
+{"Time":"2026-10-04T22:25:54.782266755Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestUnrelatedPortOwnerIsNeverReplaced","Output":"=== RUN   TestUnrelatedPortOwnerIsNeverReplaced\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:54.782269118Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestUnrelatedPortOwnerIsNeverReplaced/python"}
+{"Time":"2026-10-04T22:25:54.782272693Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestUnrelatedPortOwnerIsNeverReplaced/python","Output":"=== RUN   TestUnrelatedPortOwnerIsNeverReplaced/python\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.107169338Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestUnrelatedPortOwnerIsNeverReplaced/python","Output":"--- PASS: TestUnrelatedPortOwnerIsNeverReplaced/python (0.32s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.107219713Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestUnrelatedPortOwnerIsNeverReplaced/python","Elapsed":0.32}
+{"Time":"2026-10-04T22:25:55.107226393Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestUnrelatedPortOwnerIsNeverReplaced/fake-json"}
+{"Time":"2026-10-04T22:25:55.107228676Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestUnrelatedPortOwnerIsNeverReplaced/fake-json","Output":"=== RUN   TestUnrelatedPortOwnerIsNeverReplaced/fake-json\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.434670583Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestUnrelatedPortOwnerIsNeverReplaced/fake-json","Output":"--- PASS: TestUnrelatedPortOwnerIsNeverReplaced/fake-json (0.33s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.434720647Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestUnrelatedPortOwnerIsNeverReplaced/fake-json","Elapsed":0.33}
+{"Time":"2026-10-04T22:25:55.434740757Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestUnrelatedPortOwnerIsNeverReplaced/redirect"}
+{"Time":"2026-10-04T22:25:55.434743691Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestUnrelatedPortOwnerIsNeverReplaced/redirect","Output":"=== RUN   TestUnrelatedPortOwnerIsNeverReplaced/redirect\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.759728875Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestUnrelatedPortOwnerIsNeverReplaced/redirect","Output":"--- PASS: TestUnrelatedPortOwnerIsNeverReplaced/redirect (0.32s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.75977903Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestUnrelatedPortOwnerIsNeverReplaced/redirect","Elapsed":0.32}
+{"Time":"2026-10-04T22:25:55.759786591Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestUnrelatedPortOwnerIsNeverReplaced","Output":"--- PASS: TestUnrelatedPortOwnerIsNeverReplaced (0.98s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.759790457Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestUnrelatedPortOwnerIsNeverReplaced","Elapsed":0.98}
+{"Time":"2026-10-04T22:25:55.759793321Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestBundledPathAndStableSaveOrigin"}
+{"Time":"2026-10-04T22:25:55.759795734Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestBundledPathAndStableSaveOrigin","Output":"=== RUN   TestBundledPathAndStableSaveOrigin\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.759936674Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestBundledPathAndStableSaveOrigin","Output":"--- PASS: TestBundledPathAndStableSaveOrigin (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.75994133Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestBundledPathAndStableSaveOrigin","Elapsed":0}
+{"Time":"2026-10-04T22:25:55.759943514Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening"}
+{"Time":"2026-10-04T22:25:55.759945086Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening","Output":"=== RUN   TestIncompleteAssetsFailBeforeListening\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.75994804Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/missing-directory"}
+{"Time":"2026-10-04T22:25:55.759949813Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/missing-directory","Output":"=== RUN   TestIncompleteAssetsFailBeforeListening/missing-directory\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.760098844Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/missing-directory","Output":"--- PASS: TestIncompleteAssetsFailBeforeListening/missing-directory (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.760102299Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/missing-directory","Elapsed":0}
+{"Time":"2026-10-04T22:25:55.760107096Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/missing-index"}
+{"Time":"2026-10-04T22:25:55.760108739Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/missing-index","Output":"=== RUN   TestIncompleteAssetsFailBeforeListening/missing-index\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.760275436Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/missing-index","Output":"--- PASS: TestIncompleteAssetsFailBeforeListening/missing-index (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.760280654Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/missing-index","Elapsed":0}
+{"Time":"2026-10-04T22:25:55.760288035Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/missing-manifest"}
+{"Time":"2026-10-04T22:25:55.760290378Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/missing-manifest","Output":"=== RUN   TestIncompleteAssetsFailBeforeListening/missing-manifest\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.760416205Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/missing-manifest","Output":"--- PASS: TestIncompleteAssetsFailBeforeListening/missing-manifest (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.76041966Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/missing-manifest","Elapsed":0}
+{"Time":"2026-10-04T22:25:55.760421713Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/bad-manifest"}
+{"Time":"2026-10-04T22:25:55.760423576Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/bad-manifest","Output":"=== RUN   TestIncompleteAssetsFailBeforeListening/bad-manifest\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.760582061Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/bad-manifest","Output":"--- PASS: TestIncompleteAssetsFailBeforeListening/bad-manifest (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.760585366Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/bad-manifest","Elapsed":0}
+{"Time":"2026-10-04T22:25:55.760587099Z","Action":"run","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/directory-index"}
+{"Time":"2026-10-04T22:25:55.760588811Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/directory-index","Output":"=== RUN   TestIncompleteAssetsFailBeforeListening/directory-index\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.760710141Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/directory-index","Output":"--- PASS: TestIncompleteAssetsFailBeforeListening/directory-index (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.760712545Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening/directory-index","Elapsed":0}
+{"Time":"2026-10-04T22:25:55.760715419Z","Action":"output","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening","Output":"--- PASS: TestIncompleteAssetsFailBeforeListening (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.760720967Z","Action":"pass","Package":"shapeofwater.local/launcher","Test":"TestIncompleteAssetsFailBeforeListening","Elapsed":0}
+{"Time":"2026-10-04T22:25:55.760723151Z","Action":"output","Package":"shapeofwater.local/launcher","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-10-04T22:25:55.761880318Z","Action":"output","Package":"shapeofwater.local/launcher","Output":"ok  \tshapeofwater.local/launcher\t1.620s\n"}
+{"Time":"2026-10-04T22:25:55.761892015Z","Action":"pass","Package":"shapeofwater.local/launcher","Elapsed":1.62}

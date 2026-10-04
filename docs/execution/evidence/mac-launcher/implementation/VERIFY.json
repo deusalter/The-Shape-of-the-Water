@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "timestampUTC": "2026-10-04T22:26:40.117736+00:00",
+  "status": "PASS",
+  "launcherVersion": "1.0.0",
+  "gameVersion": "1.0.1",
+  "toolchain": "go1.27.1 linux/amd64",
+  "minimumBuildGo": "1.24.0",
+  "runtimeDependencies": "Go standard library compiled into binary; modern browser and macOS system open/osascript commands",
+  "productionOrigin": "http://127.0.0.1:4173",
+  "controls": {
+    "page": "/__launcher/",
+    "recognition": "/__launcher/status",
+    "quit": "POST /__launcher/quit"
+  },
+  "testCounts": {
+    "topLevel": 18,
+    "parameterizedSubtests": 42,
+    "totalPassEvents": 60
+  },
+  "checks": [
+    {
+      "command": "GOTOOLCHAIN=local /workspace/.toolchains/go1.27.1/go/bin/go test -count=1 -json ./...",
+      "exitCode": 0,
+      "evidence": "UNIT-EVENTS.jsonl",
+      "stderrBytes": 0
+    },
+    {
+      "command": "GOTOOLCHAIN=local /workspace/.toolchains/go1.27.1/go/bin/go test -race -count=1 ./...",
+      "exitCode": 0,
+      "output": "ok  shapeofwater.local/launcher  2.739s"
+    },
+    {
+      "command": "GOTOOLCHAIN=local /workspace/.toolchains/go1.27.1/go/bin/go vet ./...",
+      "exitCode": 0,
+      "output": ""
+    }
+  ],
+  "passedTests": [
+    "TestDetachedParentStartsAndReopensReadyChild",
+    "TestDetachedParentCollisionReportsFailureWithoutOpening",
+    "TestDetachedParentStopsItsChildOnInvalidReadiness",
+    "TestDetachedBrowserFailureLeavesReusableServer",
+    "TestProcessOptionsRejectUnexpectedArguments",
+    "TestSignalStopsDetachedServer",
+    "TestControlPageAndStatus",
+    "TestAssetsExactMIMEAndReadOnly//asset-manifest.json",
+    "TestAssetsExactMIMEAndReadOnly//world/room.glb",
+    "TestAssetsExactMIMEAndReadOnly//assets/game.js",
+    "TestAssetsExactMIMEAndReadOnly//sw.js",
+    "TestAssetsExactMIMEAndReadOnly//assets/game.css",
+    "TestAssetsExactMIMEAndReadOnly//art/card.svg",
+    "TestAssetsExactMIMEAndReadOnly//data.bin",
+    "TestAssetsExactMIMEAndReadOnly//",
+    "TestAssetsExactMIMEAndReadOnly//index.html",
+    "TestAssetsExactMIMEAndReadOnly",
+    "TestStaticBoundaries//assets",
+    "TestStaticBoundaries//assets/",
+    "TestStaticBoundaries//assets//game.js",
+    "TestStaticBoundaries//../secret.txt",
+    "TestStaticBoundaries//%2e%2e/secret.txt",
+    "TestStaticBoundaries//assets/%2e%2e/index.html",
+    "TestStaticBoundaries//assets/./game.js",
+    "TestStaticBoundaries//escape.txt",
+    "TestStaticBoundaries//escape-dir/secret.txt",
+    "TestStaticBoundaries//assets%5cgame.js",
+    "TestStaticBoundaries//%00",
+    "TestStaticBoundaries//missing",
+    "TestStaticBoundaries//__launcher/missing",
+    "TestStaticBoundaries",
+    "TestStrictHost",
+    "TestQuitRejectsCrossSiteAndBadNonce/get",
+    "TestQuitRejectsCrossSiteAndBadNonce/missing-origin",
+    "TestQuitRejectsCrossSiteAndBadNonce/foreign-origin",
+    "TestQuitRejectsCrossSiteAndBadNonce/null-origin",
+    "TestQuitRejectsCrossSiteAndBadNonce/cross-site",
+    "TestQuitRejectsCrossSiteAndBadNonce/foreign-referrer",
+    "TestQuitRejectsCrossSiteAndBadNonce/foreign-host",
+    "TestQuitRejectsCrossSiteAndBadNonce/wrong-nonce",
+    "TestQuitRejectsCrossSiteAndBadNonce/query-only-nonce",
+    "TestQuitRejectsCrossSiteAndBadNonce/duplicate-nonce",
+    "TestQuitRejectsCrossSiteAndBadNonce/json",
+    "TestQuitRejectsCrossSiteAndBadNonce/oversized-body",
+    "TestQuitRejectsCrossSiteAndBadNonce",
+    "TestGracefulQuitAfterCompleteResponse",
+    "TestDuplicateInstanceReusesOneListener",
+    "TestDuplicateVersionOrGameBuildRejected",
+    "TestSimultaneousLaunchesSettleOnOneServer",
+    "TestUnrelatedPortOwnerIsNeverReplaced/python",
+    "TestUnrelatedPortOwnerIsNeverReplaced/fake-json",
+    "TestUnrelatedPortOwnerIsNeverReplaced/redirect",
+    "TestUnrelatedPortOwnerIsNeverReplaced",
+    "TestBundledPathAndStableSaveOrigin",
+    "TestIncompleteAssetsFailBeforeListening/missing-directory",
+    "TestIncompleteAssetsFailBeforeListening/missing-index",
+    "TestIncompleteAssetsFailBeforeListening/missing-manifest",
+    "TestIncompleteAssetsFailBeforeListening/bad-manifest",
+    "TestIncompleteAssetsFailBeforeListening/directory-index",
+    "TestIncompleteAssetsFailBeforeListening"
+  ],
+  "sourcePins": {
+    "desktop/launcher/go.mod": {
+      "bytes": 46,
+      "sha256": "41113605a3839c7c425fc8d174249d1fd6daa45f213456c322bc0383754590ab",
+      "role": "production"
+    },
+    "desktop/launcher/main.go": {
+      "bytes": 3814,
+      "sha256": "2de6a4be3b7e68cba8b371e8fa21b8999e627570ec37f48446a7d6cc74fcaf08",
+      "role": "production"
+    },
+    "desktop/launcher/process.go": {
+      "bytes": 3386,
+      "sha256": "6dbdc5ed430cf16f95c68669758b926339e466727e329937bb06855e840311c1",
+      "role": "production"
+    },
+    "desktop/launcher/detach_unix.go": {
+      "bytes": 167,
+      "sha256": "c56539ef02b59de8f26e0094b0c31c1a7825b633c7d681b0c12102f2aab03b20",
+      "role": "production"
+    },
+    "desktop/launcher/server.go": {
+      "bytes": 12955,
+      "sha256": "a2f2a2029b0612a2c0ed4ec07c23e5092f6c9993e4ac1e7b3be74cf36547f958",
+      "role": "production"
+    },
+    "desktop/launcher/control.html": {
+      "bytes": 4223,
+      "sha256": "8875466e91e6446c86b76d529559753a051e725c299427462a411e0ea0558218",
+      "role": "production"
+    },
+    "desktop/launcher/process_test.go": {
+      "bytes": 8293,
+      "sha256": "c7d6589640440e7c5b795a08a374cf1af5d6dca6295297c438f6fceabbc953bb",
+      "role": "test"
+    },
+    "desktop/launcher/server_test.go": {
+      "bytes": 16273,
+      "sha256": "1d0b1592d4b902d43bb3f08d430299ea8680ae254c03d4f3b733d92b069223ca",
+      "role": "test"
+    }
+  },
+  "ownership": {
+    "worker": "desktop/launcher/** and docs/execution/evidence/mac-launcher/implementation/**",
+    "root": "Mac packaging, integration, notices, publication and root continuity"
+  },
+  "limits": [
+    "Tests executed on Linux using temporary loopback ports; no native Mac execution.",
+    "Finder, native browser opening, native alert appearance, Safari, quarantine/Gatekeeper, signing and notarization are not tested here.",
+    "Crosscompiled Mac artifacts and archive/browser migration checks belong to root and independent reviewer receipts.",
+    "Existing service worker remains exact; after Quit, a manual control-page reload can show its cached game navigation fallback.",
+    "Browser saves previously created at a different Python fallback port remain at that other origin.",
+    "Model request settings do not attest actual backend model identity."
+  ]
+}

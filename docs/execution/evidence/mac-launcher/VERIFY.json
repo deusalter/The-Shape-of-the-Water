@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "scope": "Mac cross-build and ZIP inspection plus actual shared Go/Chromium tests on Linux; native Mac launch remains unverified.",
+  "launcherVersion": "1.0.0",
+  "gameAssetBuild": "7524dd0797af0673",
+  "packageSha256": "c4cfdb90c5fe230e9b36d54dfc695ba810eddb84a358904e0150be447c5513a9",
+  "packageBytes": 9163637,
+  "gameFilesUnchanged": 25,
+  "goTests": {
+    "topLevel": 18,
+    "subcases": 42,
+    "race": "PASS",
+    "vet": "PASS"
+  },
+  "nativeMacExecutionVerified": false,
+  "notarized": false,
+  "evidence": {
+    "unit": "implementation/VERIFY.json",
+    "buildSource": "BUILD-SOURCE-PINS.json",
+    "archive": "../../../reviews/MAC-LAUNCH-31/PACKAGE-CHECK.json",
+    "browser": "../../../reviews/MAC-LAUNCH-31/BROWSER-SMOKE.json",
+    "independentReview": "../../../reviews/MAC-LAUNCH-31/FINAL-REVIEW.md"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Source held while both Mac slices were built. Later changes require rebuilding.",
+  "files": {
+    "desktop/launcher/control.html": "8875466e91e6446c86b76d529559753a051e725c299427462a411e0ea0558218",
+    "desktop/launcher/detach_unix.go": "c56539ef02b59de8f26e0094b0c31c1a7825b633c7d681b0c12102f2aab03b20",
+    "desktop/launcher/go.mod": "41113605a3839c7c425fc8d174249d1fd6daa45f213456c322bc0383754590ab",
+    "desktop/launcher/main.go": "2de6a4be3b7e68cba8b371e8fa21b8999e627570ec37f48446a7d6cc74fcaf08",
+    "desktop/launcher/process.go": "6dbdc5ed430cf16f95c68669758b926339e466727e329937bb06855e840311c1",
+    "desktop/launcher/server.go": "a2f2a2029b0612a2c0ed4ec07c23e5092f6c9993e4ac1e7b3be74cf36547f958"
+  },
+  "builderSha256": "f53494cc128a97cfccac37212058cf9f6ba9f6c023ec2e90a68f9253e36722cb"
+}

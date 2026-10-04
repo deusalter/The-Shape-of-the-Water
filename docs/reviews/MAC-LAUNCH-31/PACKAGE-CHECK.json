@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "scope": "Linux structural and cryptographic inspection, not native macOS execution",
+  "path": "releases/The-Shape-of-the-Water-Mac.zip",
+  "sha256": "c4cfdb90c5fe230e9b36d54dfc695ba810eddb84a358904e0150be447c5513a9",
+  "bytes": 9163637,
+  "entries": 40,
+  "bundle": "The Shape of the Water.app/",
+  "infoPlist": {
+    "CFBundleDisplayName": "The Shape of the Water",
+    "CFBundleExecutable": "launcher",
+    "CFBundleIdentifier": "io.github.deusalter.the-shape-of-the-water",
+    "CFBundleInfoDictionaryVersion": "6.0",
+    "CFBundleName": "The Shape of the Water",
+    "CFBundlePackageType": "APPL",
+    "CFBundleShortVersionString": "1.0.0",
+    "CFBundleSupportedPlatforms": [
+      "MacOSX"
+    ],
+    "CFBundleVersion": "1",
+    "LSMinimumSystemVersion": "13.0",
+    "LSUIElement": true,
+    "NSHighResolutionCapable": true
+  },
+  "launcherMode": "0o100755",
+  "assetBuild": "7524dd0797af0673",
+  "contentHash": "09fc3576b1c788c95989c18b2fafa3fd53c8ad540549b904a995e54bf03f504b",
+  "exactPublishedGameFiles": 25,
+  "verifiedManifestAssets": 23,
+  "executable": [
+    {
+      "cpu": "0x1000007",
+      "cpuSubtype": "0x3",
+      "bytes": 10153664,
+      "sha256": "908af85d3eed3a54c5f9179afc7a25552e7d70818e5d31fae3ae07a3964879e2",
+      "minimumMacOS": "13.0.0",
+      "sdk": "26.2.0",
+      "offset": 16384,
+      "alignment": 16384
+    },
+    {
+      "cpu": "0x100000c",
+      "cpuSubtype": "0x0",
+      "bytes": 9464786,
+      "sha256": "2db39bc181e53392707da1dace4e133765b5146aa3ba032a37f992ac8c27bb90",
+      "minimumMacOS": "13.0.0",
+      "sdk": "26.2.0",
+      "adHocSignature": [
+        {
+          "flags": "0x20002",
+          "version": "0x20400",
+          "sha256PagesVerified": 2293
+        }
+      ],
+      "offset": 10174464,
+      "alignment": 16384
+    }
+  ]
+}

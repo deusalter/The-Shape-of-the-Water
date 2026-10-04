@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>The Shape of the Water</title>
+  <style>
+    :root { color-scheme: dark; font-family: Georgia, 'Times New Roman', serif; color: #efe6d7; background: #101820; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 28px; background: radial-gradient(ellipse at 20% 15%, #293d42 0, transparent 58%), radial-gradient(ellipse at 90% 90%, #252333 0, transparent 55%), #101820; }
+    main { width: min(100%, 660px); border-top: 1px solid #bca782; border-bottom: 1px solid #647172; padding: 50px 12px 38px; }
+    .eyebrow, .edition, button, .play { font-family: system-ui, -apple-system, sans-serif; }
+    .eyebrow { color: #c2b798; text-transform: uppercase; letter-spacing: .2em; font-size: 11px; margin: 0 0 26px; }
+    h1 { font-size: clamp(34px, 7vw, 56px); font-weight: normal; line-height: 1.1; margin: 0 0 14px; }
+    h2 { font-size: clamp(21px, 4vw, 28px); font-style: italic; font-weight: normal; color: #c9d6cf; margin: 0 0 28px; }
+    p { line-height: 1.65; color: #d8d3c7; margin: 0 0 20px; }
+    .actions { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; margin: 32px 0 26px; }
+    .actions[hidden] { display: none; }
+    .play, button { font-size: 16px; border-radius: 3px; min-height: 48px; padding: 12px 26px; cursor: pointer; }
+    .play { color: #15201f; background: #ded0ab; border: 1px solid #ded0ab; text-decoration: none; font-weight: 650; }
+    .play:hover { background: #efe3c5; }
+    button { color: #ddd7c8; background: transparent; border: 1px solid #7d8581; }
+    button:hover { background: #ffffff0b; }
+    button:disabled { opacity: .6; cursor: default; }
+    a:focus-visible, button:focus-visible { outline: 3px solid #eacb78; outline-offset: 5px; }
+    form { margin: 0; }
+    .small { font-size: 15px; max-width: 53ch; color: #b4c1ba; }
+    .edition { margin-top: 32px; font-size: 11px; color: #a4b0a9; letter-spacing: .03em; }
+    #status { font-size: 15px; min-height: 1.65em; color: #efd3a2; }
+    @media (max-width: 420px) { body { padding: 20px; } main { padding: 32px 0; } .play, button { padding-inline: 22px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">A literary detective game</p>
+    <h1>The Shape of the Water</h1>
+    <h2>The Mercy of Morning</h2>
+    <p>Your game is ready. Play opens it in a new browser tab.</p>
+    <div class="actions">
+      <a class="play" href="/" target="_blank" rel="noopener">Play</a>
+      <form id="quit-form" action="/__launcher/quit" method="post">
+        <input type="hidden" name="nonce" value="{{.Nonce}}">
+        <button type="submit">Quit launcher</button>
+      </form>
+    </div>
+    <p class="small">Keep this launcher running while you play. When you finish, return here and use Quit launcher.</p>
+    <p class="small">Saved games belong to this browser. Use the game’s export controls to move a save to another browser.</p>
+    <p id="status" role="status" aria-live="polite"></p>
+    <p class="edition">Local launcher {{.Version}} · No internet connection needed</p>
+  </main>
+  <script nonce="{{.Nonce}}">
+    const form = document.getElementById('quit-form');
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
+      const button = form.querySelector('button');
+      const status = document.getElementById('status');
+      button.disabled = true;
+      status.textContent = 'Closing the launcher…';
+      try {
+        const response = await fetch(form.action, { method: 'POST', body: new URLSearchParams(new FormData(form)), credentials: 'same-origin', cache: 'no-store' });
+        if (!response.ok) throw new Error('Quit was not accepted');
+        document.querySelector('.actions').hidden = true;
+        status.textContent = 'The launcher is closed. You can close this tab. Open the app to play again.';
+      } catch {
+        status.textContent = 'Unable to close the launcher. Reopen the app, then try Quit launcher again.';
+        button.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "Exact independent review inputs and outputs; Linux verification only, no native Mac execution.",
+  "files": {
+    "desktop/launcher/control.html": "8875466e91e6446c86b76d529559753a051e725c299427462a411e0ea0558218",
+    "desktop/launcher/detach_unix.go": "c56539ef02b59de8f26e0094b0c31c1a7825b633c7d681b0c12102f2aab03b20",
+    "desktop/launcher/go.mod": "41113605a3839c7c425fc8d174249d1fd6daa45f213456c322bc0383754590ab",
+    "desktop/launcher/main.go": "2de6a4be3b7e68cba8b371e8fa21b8999e627570ec37f48446a7d6cc74fcaf08",
+    "desktop/launcher/process.go": "6dbdc5ed430cf16f95c68669758b926339e466727e329937bb06855e840311c1",
+    "desktop/launcher/server.go": "a2f2a2029b0612a2c0ed4ec07c23e5092f6c9993e4ac1e7b3be74cf36547f958",
+    "tools/package-mercy-mac.py": "f53494cc128a97cfccac37212058cf9f6ba9f6c023ec2e90a68f9253e36722cb",
+    "releases/The-Shape-of-the-Water-Mac.zip": "c4cfdb90c5fe230e9b36d54dfc695ba810eddb84a358904e0150be447c5513a9",
+    "releases/The-Shape-of-the-Water.zip": "d5b7b0e679a71d5933b6709256c89f5ce8e49e109a5166d319730229cfc4eaab",
+    "docs/reviews/MAC-LAUNCH-31/BROWSER-SMOKE.json": "198d14b02c570ee47f0c968c98cbd0bb0eb297031d39c9e5fb12ccc27e57b8d8",
+    "docs/reviews/MAC-LAUNCH-31/FINAL-REVIEW.md": "abdf268f1447441ccb2d27f86ff2ba8a87707942c3f8cd2debecdb5b66750b72",
+    "docs/reviews/MAC-LAUNCH-31/PACKAGE-CHECK.json": "46197fd6c2b440522b6a7f3fc71bebf0c46fb379a46a15318b37268e6f631c9e",
+    "docs/reviews/MAC-LAUNCH-31/REVIEW-CONTRACT.md": "376caf66bf293ae7b09c838340cbfa2c20c226b90e55681d7c2a0bf39b6cf723",
+    "docs/reviews/MAC-LAUNCH-31/browser-smoke.mjs": "a5fc6511e65c6435aaa5395d257bc78e4aa20419bca31db437a6c97a22122758",
+    "docs/reviews/MAC-LAUNCH-31/check-package.py": "529abcc5ddede7c4de90749f14f0ff276b57e302566e72a0074720627508450e",
+    "docs/reviews/MAC-LAUNCH-31/launcher.png": "eae1b7d831b071bb774fee01dda4272d4063be8bb092b2cab665d2b15ac646a6"
+  }
+}

@@ -1,6 +1,6 @@
-# The Mercy of Morning: Mac app for the optimized release
+# The Mercy of Morning: optimized playable release 1.0.1
 
-The latest owner request asks for easier startup without terminal commands and specifies Mac. The new universal app is a local launcher around the exact optimized release. The preceding owner request asked to optimize the delivered game. Update 1.0.1 preserves its exact story and saved-run identities while improving loading, rendering and save work. The preceding owner request resumed production after the replacement proposal. The shared story is implemented from its opening through the disappearance's resolution, Blaise's deliberate second return and lost witness memory, the argument and public performance, and both final decisions. This is a complete playable first release. It is not a claim of literary greatness, human acceptance, or the historical proposed duration.
+The latest owner request asked to optimize the delivered game. Update 1.0.1 preserves its exact story and saved-run identities while improving loading, rendering and save work. The preceding owner request resumed production after the replacement proposal. The shared story is implemented from its opening through the disappearance's resolution, Blaise's deliberate second return and lost witness memory, the argument and public performance, and both final decisions. This is a complete playable first release. It is not a claim of literary greatness, human acceptance, or the historical proposed duration.
 
 ## Current source and story
 
@@ -14,23 +14,13 @@ Kant's account of objective experience constrains the inference from memory and 
 
 ## Build and play
 
-For Mac, `releases/The-Shape-of-the-Water-Mac.zip` contains **The Shape of the Water.app**. Extract it, double-click the app and choose **Play**. It runs on Apple silicon and Intel Macs with macOS 13 Ventura or later. No Python, Node or terminal commands are needed. Play opens the game in the default browser; the launcher page supplies Quit. Reopening the app returns to that page and reuses the matching existing game process. The fixed browser origin preserves saves from the previous launcher when the same browser is used. Close an older running launcher first.
-
-The app is not Apple-notarized. First opening can require System Settings → Privacy & Security → Open Anyway, then Open. Native Finder, Gatekeeper, AppleScript alerts, App Translocation and Safari execution are unverified because this workspace is Linux. The archive and its exact executable slices are recorded in `releases/MAC-PACKAGE.json`. The Mac startup source is `desktop/launcher/`; `tools/package-mercy-mac.py` compiles and assembles it using Go 1.27.1. The app copies the verified player archive rather than rebuilding game assets.
-
-The original cross-platform fallback remains unchanged: `releases/The-Shape-of-the-Water.zip` contains the static player, local-only Python launcher, instructions and dependency notices. Its exact package digest is in `releases/PACKAGE.json`. Extract and run `python3 play.py` (Windows: `py -3 play.py`). Python 3 and a modern browser are required. Keep the launcher open; it binds only 127.0.0.1, prefers port4173 and chooses a free local port if occupied. Browser saves are origin-specific; export before changing browsers or ports.
+`releases/The-Shape-of-the-Water.zip` contains the static player, local-only Python launcher, instructions and dependency notices. Its exact package digest is in `releases/PACKAGE.json`. Extract and run `python3 play.py` (Windows: `py -3 play.py`). Python 3 and a modern browser are required. Keep the launcher open; it binds only 127.0.0.1, prefers port4173 and chooses a free local port if occupied. Browser saves are origin-specific; export before changing browsers or ports.
 
 Third-person 3D follows faceless Blaise, with WASD/arrows, click-to-walk and proximity E. Every current action is also a text control. Text size, text-focused reading, searchable encountered evidence, exact transcript exports and protected final-scene recovery are available. That recovery returns to the closing scene immediately before completion, not to the earlier metaphysical decision.
 
 React/TypeScript/Three.js, a deterministic static-content engine and IndexedDB run without live AI or paid services. The current world is authored directly as original procedural geometry, with 130 scene/variant profiles. No Blender GUI, generated facial portraits or fetched assets were used for Mercy. The old v5/v4/v2 builds remain exact separately saved editions; uninstalled v6 is excluded.
 
 `pnpm install --frozen-lockfile`, `pnpm dev:player` and `pnpm dev:studio` run the sources with Node24+ and pnpm11.19.0. `pnpm mercy:compile`, `pnpm mercy:verify`, `pnpm verify` and `pnpm mercy:package` reproduce the main production steps. The current player asset build is `7524dd0797af0673`; package SHA-256 is `d5b7b0e679a71d5933b6709256c89f5ce8e49e109a5166d319730229cfc4eaab`.
-
-## Mac launch verification
-
-`evidence/mac-launcher/README.md` describes the source, build and verified limits. `BASELINE.json` and `BUILD-SOURCE-PINS.json` pin the unchanged game and actual compiled launcher source. The package has 40 safe entries, a mode-0755 executable and traversable directories. Both universal slices declare macOS 13 minimum; all 2,293 arm64 ad-hoc signature page hashes verify. Ad-hoc integrity checking is not Developer ID signing, notarization or native Gatekeeper approval.
-
-`../reviews/MAC-LAUNCH-31/PACKAGE-CHECK.json` independently verifies all 25 copied game files against the published optimized archive and all 23 manifest hashes. `BROWSER-SMOKE.json` establishes a save and service worker using the old launcher first, then restores the exact run through the new shared Go server at the same origin. Play, movement, saved action/reload, import/reload, duplicate-launch reuse, rejected invalid requests, Quit, offline saved reload and restart passed with no page errors or external requests. Root and reviewer visually inspected the launcher screenshot. This ran the same Go source compiled for Linux; it did not execute the Mac binary. `FINAL-REVIEW.md` records the independent disposition and exact pins. `evidence/mac-launcher/implementation/VERIFY.json` records 18 top-level Go tests, 42 subcases, race detection and vet passing, including detached startup, failed-child cleanup, simultaneous launches, port collisions and graceful shutdown. `evidence/mac-launcher/VERIFY.json` records final bounded acceptance.
 
 ## Current optimization verification
 
