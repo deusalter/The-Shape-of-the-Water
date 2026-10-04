@@ -13,3 +13,8 @@ The live v2 first-night case is installed but short; the L3 recurrence scenes ar
 Advance Blaise's psychological arc in the actual L3 material. Audit what he wants before, during and after simultaneous encounter with the two embodied continuations; the inherited draft can be challenged. The protagonist must carry the game, not serve as a neutral recipient of other people's philosophy. Identify where his bodily attention, involuntary anticipation, pleasure, fear, desire for God or aversion to being anticipated changes an action. Avoid a generic trauma/amnesia/delusion explanation.
 
 Deliver a route-aware arc map and two substantial connected scene alternatives, with choices and consequences, addressing the strongest observed weakness. Preserve earlier encountered words and privacy conditions; do not invent a shared confidence on an unvisited route. Explain which alternatives replace or extend which exact passages. Protect ensemble independence, humor and ordinary speech. Recommend concrete acceptance/revision decisions. Use at most the live board's allocated one child for a bounded blind critique of a player-only packet; record its inputs and release. Answer P-002.
+
+
+## New owner correction, after dispatch
+
+Read docs/OWNER-3D-FACELESS-2026-10-04.md on current origin/main. The game is now explicitly 3D with faceless, block-like uncanny figures. Painted facial portraits and the older 2D default are superseded. Root implements Three.js presentation; continue your assigned work without restarting it. QA must distinguish the pinned earlier 2D build from any newer 3D revision and check which bytes are actually being tested.

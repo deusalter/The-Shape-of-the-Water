@@ -13,3 +13,8 @@ The live v2 first-night case is installed but short; the L3 recurrence scenes ar
 Read actual routes through the first night, return, co-presence and proposed endings. Review narrative distance, protagonist voice, character differentiation, imagery, symbolism and structural parallelism together. Concentrate on a few consequential repetitions: anticipated sound, touch, mirror/water, weight, bodily position. Do not make every object a symbol or every sentence an aphorism.
 
 Deliver a prioritized passage-specific critique, protected strengths, a motif/voice map and a substantial alternative ending or second-traversal scene transforming an earlier encountered passage. Evaluate the two-Miriam construction as drama, not only as a philosophical thought experiment. Test whether the ending earns its emotional and metaphysical consequence without a lesson or forced replay. Preserve exact voice anchors and necessary argumentative complexity; avoid blanket simplification and flaw quotas. Your revisions are proposals, not canon. No child permit initially. Answer L-002.
+
+
+## New owner correction, after dispatch
+
+Read docs/OWNER-3D-FACELESS-2026-10-04.md on current origin/main. The game is now explicitly 3D with faceless, block-like uncanny figures. Painted facial portraits and the older 2D default are superseded. Root implements Three.js presentation; continue your assigned work without restarting it. QA must distinguish the pinned earlier 2D build from any newer 3D revision and check which bytes are actually being tested.

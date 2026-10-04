@@ -11,7 +11,7 @@
       "suggestedTitle": "Literary Game \u2014 Protagonist",
       "permittedSlots": 1,
       "externalChatId": "01a1042a-8c74-70cd-924d-aeada8ddd03e",
-      "phase": "repository available; owner resume message required",
+      "phase": "active; owner follow-up observed 2026-10-04",
       "owns": [
         "docs/coordination/protagonist/STATUS.json",
         "docs/coordination/protagonist/RESPONSE.md",
@@ -20,13 +20,14 @@
       "hostId": "durable",
       "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
       "branch": "team/protagonist",
-      "requestId": "P-002"
+      "requestId": "P-002",
+      "lastObservedCursor": "026c2a37-600b-4160-816f-fb5141976f95:2"
     },
     "loop-plot": {
       "suggestedTitle": "Literary Game \u2014 Loop and Plot",
       "permittedSlots": 1,
       "externalChatId": "01a1042a-ed4d-771e-8cd5-f21def1bf031",
-      "phase": "repository available; owner resume message required",
+      "phase": "active; owner follow-up observed 2026-10-04",
       "owns": [
         "docs/coordination/loop-plot/STATUS.json",
         "docs/coordination/loop-plot/RESPONSE.md",
@@ -35,13 +36,14 @@
       "hostId": "durable",
       "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
       "branch": "team/loop-plot",
-      "requestId": "T-002"
+      "requestId": "T-002",
+      "lastObservedCursor": "f37b2c05-5f04-4832-9c4e-1f9ec5daa06d:2"
     },
     "literary": {
       "suggestedTitle": "Literary Game \u2014 Literary Review",
       "permittedSlots": 0,
       "externalChatId": "01a1042b-7bf0-7787-8a9a-73799016101f",
-      "phase": "repository available; owner resume message required",
+      "phase": "active; owner follow-up observed 2026-10-04",
       "owns": [
         "docs/coordination/literary/STATUS.json",
         "docs/coordination/literary/RESPONSE.md",
@@ -50,13 +52,14 @@
       "hostId": "durable",
       "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
       "branch": "team/literary",
-      "requestId": "L-002"
+      "requestId": "L-002",
+      "lastObservedCursor": "c3e7fd20-af5c-413d-9f79-8e36c9131454:2"
     },
     "integration-qa": {
       "suggestedTitle": "Literary Game \u2014 Integration QA",
       "permittedSlots": 0,
       "externalChatId": "01a1042b-95ae-70fa-ae28-8f476b95700c",
-      "phase": "repository available; owner resume message required",
+      "phase": "active; owner follow-up observed 2026-10-04",
       "owns": [
         "docs/coordination/integration-qa/STATUS.json",
         "docs/coordination/integration-qa/RESPONSE.md",
@@ -65,7 +68,8 @@
       "hostId": "durable",
       "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
       "branch": "team/integration-qa",
-      "requestId": "Q-002"
+      "requestId": "Q-002",
+      "lastObservedCursor": "9d90f52d-7c30-4eae-9df9-cbe6b1882110:2"
     }
   },
   "repository": "https://github.com/deusalter/The-Shape-of-the-Water",
@@ -75,5 +79,6 @@
   "commitAuthor": "deusalter",
   "coauthorTrailers": false,
   "publishedCheckpoint": "9f4928617fb88ad695e3d1262f25b19029045968",
-  "permitRevision": "2026-10-04-external-followup-002"
+  "permitRevision": "2026-10-04-external-followup-002",
+  "latestOwnerCorrection": "docs/OWNER-3D-FACELESS-2026-10-04.md"
 }

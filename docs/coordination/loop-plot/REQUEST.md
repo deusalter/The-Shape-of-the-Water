@@ -13,3 +13,8 @@ The live v2 first-night case is installed but short; the L3 recurrence scenes ar
 Challenge and strengthen the L3 recurrence investigation as written. Do not restart from a different premise. Work through exact departure, object custody, calendar comparison, simultaneous encounter, front crossing and optional empty-handed service crossing. Find the most serious rival explanation, overlooked obvious player action, causal inconsistency or unearned ending. Unknown wider scope is allowed; convenient local contradictions are not. The original cabinet accident remains before the return.
 
 Deliver a finite occasion/event/knowledge ledger and route graph, plus two performed encounter revisions that materially improve the mystery or philosophical stakes. Distinguish remembered reports from current exhibits and overlapping historical testimony from independent origins. Refusing another crossing must produce a consequential ending. Investigate any new metaphysical claims in primary Kant/Spinoza passages plus scholarship; do not reopen resolved findings without evidence. Philosophical agreement never awards factual proof. Propose engine contract requirements under work/, without editing runtime. At most one child if the live board permits, for an independent causal or scholarly challenge. Answer T-002.
+
+
+## New owner correction, after dispatch
+
+Read docs/OWNER-3D-FACELESS-2026-10-04.md on current origin/main. The game is now explicitly 3D with faceless, block-like uncanny figures. Painted facial portraits and the older 2D default are superseded. Root implements Three.js presentation; continue your assigned work without restarting it. QA must distinguish the pinned earlier 2D build from any newer 3D revision and check which bytes are actually being tested.

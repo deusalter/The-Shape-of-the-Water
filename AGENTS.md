@@ -1,6 +1,6 @@
 # Provisional literary detective workspace
 
-Read docs/OWNER-KICKOFF-v4.md in full, RESUME.md, docs/execution/STATE.json and docs/execution/HANDOFF.md before continuing. User instructions override this file.
+Read docs/OWNER-3D-FACELESS-2026-10-04.md (latest 3D/faceless direction), docs/OWNER-KICKOFF-v4.md in full, RESUME.md, docs/execution/STATE.json and docs/execution/HANDOFF.md before continuing. User instructions override this file.
 
 The revision-3 specification package arrived during execution on 2026-10-03 and is preserved in baseline/revision3/. It is not a previous implementation; none was supplied. Current active specifications reconcile it with v4 and newer owner instructions. Read docs/execution/BASELINE-RECONCILIATION.md. Do not import Herte content or reset current work to the package seed.
 
