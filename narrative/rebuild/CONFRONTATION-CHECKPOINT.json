@@ -1,0 +1,187 @@
+{
+  "utc": "2026-10-04T05:08:47.414955+00:00",
+  "status": "Selected and preserved by the sole lead within development after bounded reviews and resolved narrow findings. Not owner approval, compiled gameplay or full story lock.",
+  "manuscriptSha256": "12a957630add5a2a137340bd5605fcc3042671e0bc9aaa8125cc7018a7663599",
+  "baseRuntimeSha256": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8",
+  "rawSourceWords": 6917,
+  "wordDefinition": "Raw source includes exclusive alternatives, actions, author notes and review disposition. Not one encountered route or measured duration.",
+  "performedSceneGroups": 7,
+  "files": [
+    {
+      "source": "narrative/rebuild/LATER-COMPARISONS-AND-CONFRONTATION.md",
+      "copy": "narrative/accepted/second-mouth-confrontation-2026-10-04/LATER-COMPARISONS-AND-CONFRONTATION.md",
+      "sha256": "12a957630add5a2a137340bd5605fcc3042671e0bc9aaa8125cc7018a7663599",
+      "bytes": 40207
+    },
+    {
+      "source": "narrative/rebuild/VOICE-CONFRONTATION.md",
+      "copy": "narrative/accepted/second-mouth-confrontation-2026-10-04/VOICE-CONFRONTATION.md",
+      "sha256": "e3a0765a8fdf927939fdd1fd2823e60f07e7e89172f610e621fac2fc98946f88",
+      "bytes": 3432
+    },
+    {
+      "source": "narrative/rebuild/INTEGRATION-CONFRONTATION-RETURN.md",
+      "copy": "narrative/accepted/second-mouth-confrontation-2026-10-04/INTEGRATION-CONFRONTATION-RETURN.md",
+      "sha256": "5e20e568f49852d383ffc3b21db1aa947b3fa12ae08a1a5d8efe1e31db347cf2",
+      "bytes": 10091
+    },
+    {
+      "source": "narrative/rebuild/LATER-BLAISE-FIRST-RETURN-AUDITION.md",
+      "copy": "narrative/accepted/second-mouth-confrontation-2026-10-04/LATER-BLAISE-FIRST-RETURN-AUDITION.md",
+      "sha256": "34c0f5ac9714a2bbfca476fd11727d19bd06ddb5fcc779574d5f82bcb16c06c2",
+      "bytes": 16789
+    },
+    {
+      "source": "narrative/rebuild/history/LATER-COMPARISONS-AND-CONFRONTATION-first-pass.md",
+      "copy": "narrative/accepted/second-mouth-confrontation-2026-10-04/LATER-COMPARISONS-AND-CONFRONTATION-first-pass.md",
+      "sha256": "79e979419fda3e40875a670de909f92b326a84de5b9ae6a3e7808a46e32776aa",
+      "bytes": 37995
+    },
+    {
+      "source": "narrative/CURRENT-READING-ORDER.md",
+      "copy": "narrative/accepted/second-mouth-confrontation-2026-10-04/CURRENT-READING-ORDER.md",
+      "sha256": "2153eeb83b22e6d880189a99827e453d216358b8226176baa466d6a9e18537f2",
+      "bytes": 6341
+    },
+    {
+      "source": "narrative/PHILOSOPHY-MAP.md",
+      "copy": "narrative/accepted/second-mouth-confrontation-2026-10-04/PHILOSOPHY-MAP.md",
+      "sha256": "eb2c12cda27bced5a78e24d379259faabf1ede3af4df196a6e002cfe3db17c47",
+      "bytes": 9019
+    },
+    {
+      "source": "narrative/REVISION-LOG.md",
+      "copy": "narrative/accepted/second-mouth-confrontation-2026-10-04/REVISION-LOG.md",
+      "sha256": "98b545e674de7f01ed24d65c8c6cde315b3d96a5fcb1fb2d486223cf48950162",
+      "bytes": 39119
+    }
+  ],
+  "exactAnchorCount": 20,
+  "anchors": [
+    {
+      "context": "Blaise / ordinary appetite / Basil",
+      "text": "“I want to see if it carries to the door.”",
+      "sourceLine": 389
+    },
+    {
+      "context": "Blaise / an ill-timed request / René, with Emil present",
+      "text": "“Just look at it first,” you say. “I want to know whether it's still usable.”",
+      "sourceLine": 143
+    },
+    {
+      "context": "Blaise / continuity and desire / the public gathering",
+      "text": "“I want the movement back,” you say. “I still want to be the one who gets it.”",
+      "sourceLine": 611
+    },
+    {
+      "context": "Blaise / answer under pressure / René and Noor",
+      "text": "“Then I want to keep the question going through it,” you say.",
+      "sourceLine": 623
+    },
+    {
+      "context": "René / ordinary unfinished work / Emil",
+      "text": "“I was going to replace it.”",
+      "sourceLine": 177
+    },
+    {
+      "context": "René / admission / Emil",
+      "text": "“You would have stopped me.”",
+      "sourceLine": 119
+    },
+    {
+      "context": "René / particular preparation / Blaise and Emil",
+      "text": "“I cut it to the cord.”",
+      "sourceLine": 93
+    },
+    {
+      "context": "René / defense of standing / both women and the gathering",
+      "text": "“An earlier person isn't worth less because she wants something earlier.”",
+      "sourceLine": 579
+    },
+    {
+      "context": "René / first-person objection / Blaise",
+      "text": "“So would the person you met at supper.”",
+      "sourceLine": 617
+    },
+    {
+      "context": "Emil / taking his food / Blaise",
+      "text": "“Now it can come.”",
+      "sourceLine": 187
+    },
+    {
+      "context": "Emil / interruption / Blaise and René",
+      "text": "“I want to hear about the woman before he fixes you.”",
+      "sourceLine": 83
+    },
+    {
+      "context": "Emil / an actual condition / René and the gathering",
+      "text": "“I want to know whether this can be made to answer me. You don't get to keep saying I'm the reason before we've tried the part I asked for.”",
+      "sourceLine": 605
+    },
+    {
+      "context": "Continuing Dora / present bodily loss / René",
+      "text": "“The part that went through the room is gone,” the voice says. “I can feel where it used to answer. When you speak on that side I still turn toward it.”",
+      "sourceLine": 555
+    },
+    {
+      "context": "Continuing Dora / exploration / René",
+      "text": "“Then I want to find that out.”",
+      "sourceLine": 601
+    },
+    {
+      "context": "Table Dora / disagreement about her picture / the other woman",
+      "text": "“I didn't say I wouldn't.”",
+      "sourceLine": 593
+    },
+    {
+      "context": "Table Dora / shared earlier bodily history / René",
+      "text": "“Last time you did mine, I kept answering while it changed,” the standing woman says.",
+      "sourceLine": 561
+    },
+    {
+      "context": "Table Dora / present wishes / René and the gathering",
+      "text": "“I want my picture where people can see it. I want to go back and decide whether it's finished. I want her to keep going if that's what she's doing.”",
+      "sourceLine": 585
+    },
+    {
+      "context": "Noor / an offered procedure / Blaise",
+      "text": "“I can keep an outside path answering with you. We'll have to inspect the edge first.”",
+      "sourceLine": 627
+    },
+    {
+      "context": "Alma / her own occasion / the arriving group",
+      "text": "“Then don't finish them.”",
+      "sourceLine": 439
+    },
+    {
+      "context": "Basil / rehearsal pressure / Blaise",
+      "text": "“There are two pages after that,” he says. “Don't spend all of it here.”",
+      "sourceLine": 401
+    }
+  ],
+  "reviews": [
+    {
+      "path": "docs/reviews/COMPARISONS-CONFRONTATION-19/REVIEW.md",
+      "sha256": "4a95cc4c4541fc1fa437629aafddba8341725f96db27d42eca84c6dba4d6d152",
+      "scope": "Complete held79e979 first pass plus separately recorded narrow12a957 revision check, not new whole-pass or runtime verification."
+    },
+    {
+      "path": "docs/reviews/CONFRONTATION-PHILOSOPHY-20/REVIEW.md",
+      "sha256": "20e579b841e47079fe7229e1c975fd663beb3c0e070d01cc6278e30f6d85a9f0",
+      "scope": "Complete held79e979 first pass plus separately recorded narrow12a957 revision check, not new whole-pass or runtime verification."
+    }
+  ],
+  "dispositions": {
+    "panelMove": "Accepted root/critic19 finding as one issue. Actual guarded move, cleared trestles and isolated smaller square; narrow revised join checked.",
+    "handRepair": "Accepted critic20 referent finding. Shared pre-cast repair explicitly distinguished from current reinstatement; narrow revised referent checked.",
+    "pipeNarration": "Lead cut redundant not-X/yes-Y certification; performed entrance and separate full-performance obligation preserved."
+  },
+  "integration": "INTEGRATION-CONFRONTATION-RETURN.md specifies next content groups, evidence, custody, audiences, local bodily operation/refusal and required actual checks. Root owns shared API and release decision.",
+  "remaining": [
+    "Compile and actually test comparison/confrontation plus first deliberate bodily return and refusal.",
+    "Write Emil’s low-house control comparison with actual notes and fallback, not merely a promised destination.",
+    "Perform distinct support alternatives, later repeat, play/wedding commitments and complete both ending constructions.",
+    "Write no-recovery variants for later prose if first bodily return was refused.",
+    "Whole65–82k encountered-word direction remains unfinished; no completed long-game or human-duration claim."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-04",
+  "reviewer": "world_dramaturg",
+  "status": "Bounded complete-manuscript review; uncompiled first pass; no runtime acceptance.",
+  "files": [
+    {
+      "path": "narrative/rebuild/LATER-COMPARISONS-AND-CONFRONTATION.md",
+      "sha256": "79e979419fda3e40875a670de909f92b326a84de5b9ae6a3e7808a46e32776aa",
+      "inspection": "Complete held first pass read in full, with C4 reread after output truncation."
+    },
+    {
+      "path": "narrative/rebuild/A-CAUSAL-LEDGER.md",
+      "sha256": "b0f7ead6fa75ae38faef15e252d58933c38680faf0c673cc75c01d1289b917ae",
+      "inspection": "Read in full for P/Q, local recurrence, custody and first-event history; historical unselected-dependent note is superseded by compiled v5."
+    },
+    {
+      "path": "src/content/case-v5.json",
+      "sha256": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8",
+      "inspection": "Source hash verified; prose inspected through captured actual paths below, not a new execution."
+    },
+    {
+      "path": "narrative/accepted/second-mouth-v5-country-r2/readings-v5/closed-private-proof-orchard-loan-oral.md",
+      "sha256": "c13e5942e69089e85058d8a1209f95176ce1f8abb63ff0670366a5c5141b7ded",
+      "inspection": "Read country-to-house tail in full and checked original departure references."
+    },
+    {
+      "path": "narrative/accepted/second-mouth-v5-country-r2/readings-v5/kept-test-dry-tracing-pipe-written.md",
+      "sha256": "45047bc1baecc144d3982c87dfe211d7118f2b582a9c187c8937dd137ba0b53c",
+      "inspection": "Read country-to-house tail in full."
+    },
+    {
+      "path": "narrative/accepted/second-mouth-v5-country-r2/readings-v5/closed-public-confession-orchard-rubbing-written.md",
+      "sha256": "798cb15152689b6c0847df0e132e89c576864f14d759014576418b83cfdd0428",
+      "inspection": "Selected rubbing, disclosure, departure and house sections inspected."
+    },
+    {
+      "path": "narrative/accepted/second-mouth-v5-country-r2/readings-v5/kept-declined-dry-panel-pipe-oral.md",
+      "sha256": "cdd140ac19458cd222f86e57dc32dc28fdbfb5b9307d58b4398d636d0b9d644f",
+      "inspection": "Selected panel-arrangement, departure and house sections inspected."
+    },
+    {
+      "path": "narrative/rebuild/V5-SOURCE-ADDENDUM.md",
+      "sha256": "cf7a3e4581b077723e5113ff99a37f8229f731bca9a4262e5b9a3e2890c75a62",
+      "inspection": "Read in full for faithful checked Emil account and testimonial ancestry."
+    },
+    {
+      "path": "narrative/rebuild/LATER-BLAISE-FIRST-RETURN-AUDITION.md",
+      "sha256": "34c0f5ac9714a2bbfca476fd11727d19bd06ddb5fcc779574d5f82bcb16c06c2",
+      "inspection": "Read in full for desire, procedure, refusal, recovered capacity and onward obligations."
+    },
+    {
+      "path": "narrative/rebuild/LATER-STRUCTURE-AND-DISCLOSURE.md",
+      "sha256": "706f21341bd2e00c96a54a82b81886cb86d4f88c68cf37fef206d88bf26dd102",
+      "inspection": "Inspected selected people, fixed later history and movement/recurrence sections as development context."
+    },
+    {
+      "path": "docs/OWNER-WORLD-REBUILD-2026-10-04.md",
+      "sha256": "ed19d9e5bced44ee35d41dca292db0006af64ca8592f36c44e91b505b74a0a95",
+      "inspection": "Read current controlling world/length direction."
+    },
+    {
+      "path": "docs/OWNER-PSYCHOLOGICAL-MALE-PROTAGONIST-2026-10-03.md",
+      "sha256": "237c131fb559b204d9d7adb3b3ab3d219cf426a72bd7bb0c013e0fb909eb434f",
+      "inspection": "Read current protagonist/psychological priority."
+    }
+  ],
+  "limits": [
+    "No new engine or browser execution.",
+    "Captured paths are prior automated routes, not human playtests.",
+    "No complete long-game review or elapsed-time estimate.",
+    "One present correction; future support trials remain explicitly unwritten."
+  ]
+}

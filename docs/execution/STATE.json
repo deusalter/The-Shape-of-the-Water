@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-04",
-  "status": "country-house-chapter-integrated-long-game-in-production",
+  "status": "country-house-chapter-published-reviewed-next-manuscript-preserved",
   "baseline": {
     "revision3": "baseline/revision3",
     "archiveSha256": "9ac1a34024dc678267cb0dda059b06ac7fd151d4db4c91a2ec509331ed77f7df",
@@ -24,9 +24,9 @@
       "tools/browser-*-check.mjs"
     ],
     "lead_writer": [
-      "narrative/**",
-      "src/content/case-v5.json (froze d4b4, no edits during verification)",
-      "src/content/case-v4.json (frozen0d20, no edits)"
+      "narrative/** (final literary authority; completed current checkpoint, inspect live status before reassignment)",
+      "src/content/case-v5.json (frozen d4b4, no edits)",
+      "src/content/case-v4.json (frozen 0d20, no edits)"
     ],
     "kant_researcher": [
       "research/philosophy/KANT.md",
@@ -69,17 +69,13 @@
       "docs/reviews/COMPARISONS-CONFRONTATION-19/** (source-pinned manuscript review only)"
     ],
     "new_world_engineer": [
-      "src/world/country/**",
-      "tools/blender/build-country.py",
-      "visual/country/**",
-      "public/world/country/**",
-      "tests/country-world*.test.ts",
-      "docs/visual/COUNTRY-WORLD.md"
+      "completed; country renderer/assets/tests returned to root"
     ],
     "world_philosophical_critic": [
       "docs/reviews/WORLD-PHILOSOPHY-10/**",
       "docs/reviews/WORLD-ETHICS-V-12/** (completed proposals)",
-      "docs/reviews/BLAISE-RETURN-PHILOSOPHY-18/** (current uncompiled audition review)"
+      "docs/reviews/BLAISE-RETURN-PHILOSOPHY-18/** (current uncompiled audition review)",
+      "docs/reviews/CONFRONTATION-PHILOSOPHY-20/** (new held manuscript review)"
     ],
     "rebuild_integration_14": [
       "docs/reviews/REBUILD-INTEGRATION-14/** (completed)",
@@ -92,16 +88,7 @@
   "controlling_kickoff_revision": 4,
   "currentContentSha256": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8",
   "canonicalContentHash": "cf2af7418826e5bcbd9797e6d2b1822e63f242ae3e4adf97cd3d5d64abc75622",
-  "activeWorkers": [
-    {
-      "owner": "lead_writer",
-      "task": "Separate physical comparisons/full confrontation manuscript outside frozen v5"
-    },
-    {
-      "owner": "world_dramaturg",
-      "task": "Await held new comparisons manuscript, then source-pinned dramaturgy review"
-    }
-  ],
+  "activeWorkers": [],
   "editorialAuthority": "lead_writer; new world remains provisional; accepted and rejected bath drafts preserved",
   "tasks": {
     "T00": {
@@ -130,7 +117,7 @@
     },
     "T06": {
       "status": "In progress",
-      "detail": "New first country/house chapter written with27 exact compiled anchors; later voices remain in production."
+      "detail": "Country/house chapter has27 exact compiled anchors; separately preserved confrontation has20 exact new anchors. Full long-form voices remain in production."
     },
     "T07": {
       "status": "In progress",
@@ -150,7 +137,7 @@
     },
     "T11": {
       "status": "In progress",
-      "detail": "Country and first house compiled; separate return/washing/ending manuscripts exist, comparison/confrontation in production.65\u201382k projection unfinished."
+      "detail": "Country and first house compiled. Comparisons/confrontation revised and preserved after reviews19/20; return/washing/ending auditions separate and uncompiled.65–82k projection unfinished."
     },
     "T12": {
       "status": "In review",
@@ -158,7 +145,7 @@
     },
     "T13": {
       "status": "In progress",
-      "detail": "6 routes of7,609\u20138,131 encountered passage words; not a measured human duration or completed long game."
+      "detail": "6 routes of7,609–8,131 encountered passage words; not a measured human duration or completed long game."
     },
     "T14": {
       "status": "In progress",
@@ -210,7 +197,7 @@
     },
     "T26": {
       "status": "In progress",
-      "detail": "Blaise owner-fixed. Noor/Dora/Alma/Basil/Ren\u00e9 Lydgate/Emil Ekdal selected through source-checked new-world scenes, not owner approval."
+      "detail": "Blaise owner-fixed. Noor/Dora/Alma/Basil/René Lydgate/Emil Ekdal selected through source-checked new-world scenes, not owner approval."
     },
     "T27": {
       "status": "In progress",
@@ -218,14 +205,14 @@
     },
     "T28": {
       "status": "In progress",
-      "detail": "Actual reference research, selected world, compiled country chapter, criticism/revision, return audition and independent checks preserved; new confrontation writing active."
+      "detail": "Actual reference research, selected world, installed country chapter and reviewed later manuscripts preserved. Confrontation revisions resolved through scoped rechecks; no active workers at checkpoint."
     },
     "T29": {
       "status": "Done",
       "detail": "Current source/voice/selection/retained-case/ownership/claim integrity plus8safe-copy fault checks pass. Static continuation only; no fresh-chat execution."
     }
   },
-  "nextTask": "Finish/review comparisons and confrontation manuscript, then compile it with guarded first bodily return/refusal as a new edition; preserve v5/v4/v2",
+  "nextTask": "Compile the preserved comparison/confrontation and first deliberate bodily return or refusal into a separately versioned edition; preserve v5/v4/v2. Write Emil’s low-house control comparison next.",
   "testClaims": [
     {
       "name": "current content schema and style",
@@ -270,10 +257,10 @@
       "expected": "PASS"
     }
   ],
-  "testedCodeRevision": "Working successor to41f1c7019c69b7339edaff19ee31af0003842629; exact tested files in docs/execution/evidence/country-integration/SOURCE-PINS.json; publication commit recorded separately",
-  "snapshotStatus": "V5 source/compiler/captures and original country world frozen;496 tests, six built routes/247 actions, studio and independent reload checks pass. Next comparisons manuscript remains active outside runtime.",
+  "testedCodeRevision": "4f45efc55ba2cef5ef1782e1af91fb80d0d0c1ea",
+  "snapshotStatus": "Runtime published at4f45efc. Separate reviewed confrontation12a957 and20 exact anchors are included in this successor source checkpoint. The earlier country-v5 archive excludes that manuscript; the successor country-v5-with-confrontation archive includes source and both current static builds. Inspect final archive receipt in checkpoints/ for exact identity.",
   "controllingContinuation": "docs/OWNER-CONTINUATION-2026-10-03.txt",
-  "goal": "Complete a substantially longer original surreal psychological detective game; 65\u201382k encountered-word proposal remains unwritten in full and play duration unmeasured",
+  "goal": "Complete a substantially longer original surreal psychological detective game; 65–82k encountered-word proposal remains unwritten in full and play duration unmeasured",
   "baselineRevision": "c6c6845",
   "ownerSupplements": [
     "docs/OWNER-VISUAL-SUPPLEMENT-2026-10-03.txt",
@@ -285,7 +272,7 @@
     "docs/OWNER-WORLD-REBUILD-2026-10-04.md"
   ],
   "chatCreationCapability": "four chats created by owner; list/read/wait available; direct create/send unavailable",
-  "taskProgressScope": "Current T00\u2013T29 entries below concern new world plus reusable engineering; historicalTaskStatusBeforeWorldRebuild is explicitly historical.",
+  "taskProgressScope": "Current T00–T29 entries below concern new world plus reusable engineering; historicalTaskStatusBeforeWorldRebuild is explicitly historical.",
   "externalCoordination": "docs/coordination/WORK-BOARD.json",
   "reservedExternalSubagentSlots": 0,
   "activeContent": "src/content/case-v5.json",
@@ -325,20 +312,20 @@
       "No human playtest or measured duration",
       "Return/washing/later endings uncompiled"
     ],
-    "staticHandoff": "PASS selected tracked freeze and8safe-copy fault injections, actual selectedv5/currentvoice paths; active untracked comparisons manuscript excluded from this checkpoint",
+    "staticHandoff": "Current CHECKPOINT.json pins the completed eligible source/build files, including preserved confrontation and continuation. See evidence/handoff-rehearsal.json for the executed static integrity and8safe-copy fault results. Not a fresh-chat run.",
     "readyWaitRecheck": "PASS corrected helper,45-action dry route plus offline3edition/reload/layout/axe; preserves first6route report and exact earlier runner"
   },
   "reservedWorkers": [],
   "github": {
     "repository": "https://github.com/deusalter/The-Shape-of-the-Water",
-    "publishedCheckpoint": "030d509bdf3b1dcefa52b3718be3959caae24d1b",
+    "publishedCheckpoint": "4f45efc55ba2cef5ef1782e1af91fb80d0d0c1ea",
     "coordination": "docs/coordination/WORK-BOARD.json",
     "author": "deusalter",
     "coauthorTrailers": false
   },
   "latestOwnerDirection": "docs/OWNER-WORLD-REBUILD-2026-10-04.md",
   "expandedBathCandidate": "superseded earlier iteration; not installed",
-  "nextExecutableTask": "Check live writer/reviewer status and LATER-COMPARISONS-AND-CONFRONTATION.md before editing. Current v5 is installed and verified; next content must be separately versioned and hold reset/audience/possession contracts.",
+  "nextExecutableTask": "Read CONFRONTATION-CHECKPOINT.json and INTEGRATION-CONFRONTATION-RETURN.md. Lead source12a957 plus return audition34c0 are preserved; compile actual operations, custody, audiences and refusal without global occasion reset. New edition must pass route/renderer/save checks before selection. No active subagents at this checkpoint; verify live status before allocating.",
   "latestReusableVerification": {
     "command": "pnpm verify",
     "tests": 478,
@@ -469,7 +456,7 @@
       "detail": "Static manifest integrity and four safe-copy fault-injection cases passed; no fresh-chat execution claimed."
     }
   },
-  "currentNewNarrative": "Lead-selected A, The Second Mouth. Installed v5 d4b4, 63 scenes/86 choices/52 sources, six routes of7,609\u20138,131 passage words.27 exact compiled anchors preserved. First bodily-return audition34c0 separately reviewed; comparisons/confrontation active; full65\u201382k construction unfinished.",
+  "currentNewNarrative": "Lead-selected A, The Second Mouth. Installed v5 d4b4,63scenes86choices52sources; six routes7,609–8,131 passage words;27 exact compiled anchors. Confrontation12a957 selected after full first-pass and narrow revision reviews,20 new literal anchors. Return34c0 separately reviewed. Later manuscripts uncompiled; full65–82k construction unfinished.",
   "referenceResearch": "research/reference/hello-charlotte/DOSSIER.md: 11 classified sources, no gameplay claim",
   "philosophyRebuild": "research/philosophy/world-rebuild: primary passages, three fresh scholarly checks, five tensions and two unselected world proposals",
   "currentVoicePath": "narrative/rebuild/VOICE-V5.md",
@@ -480,6 +467,21 @@
     "narrative/rebuild/V5-SOURCE-ADDENDUM.md",
     "narrative/CURRENT-READING-ORDER.md",
     "narrative/PHILOSOPHY-MAP.md",
-    "docs/execution/evidence/country-integration/SOURCE-PINS.json"
-  ]
+    "docs/execution/evidence/country-integration/SOURCE-PINS.json",
+    "narrative/rebuild/CONFRONTATION-CHECKPOINT.json",
+    "narrative/rebuild/LATER-COMPARISONS-AND-CONFRONTATION.md",
+    "narrative/rebuild/VOICE-CONFRONTATION.md",
+    "narrative/rebuild/INTEGRATION-CONFRONTATION-RETURN.md",
+    "narrative/rebuild/LATER-BLAISE-FIRST-RETURN-AUDITION.md"
+  ],
+  "currentManuscript": {
+    "path": "narrative/rebuild/LATER-COMPARISONS-AND-CONFRONTATION.md",
+    "sha256": "12a957630add5a2a137340bd5605fcc3042671e0bc9aaa8125cc7018a7663599",
+    "checkpoint": "narrative/rebuild/CONFRONTATION-CHECKPOINT.json",
+    "status": "Lead-selected development manuscript after full first-pass reviews19/20 and narrow revised-line checks; not compiled or owner-approved",
+    "exactAnchors": 20,
+    "rawSourceWords": 6917,
+    "countScope": "Includes exclusive alternatives, author notes and disposition; not an encountered route",
+    "nextIntegration": "narrative/rebuild/INTEGRATION-CONFRONTATION-RETURN.md"
+  }
 }

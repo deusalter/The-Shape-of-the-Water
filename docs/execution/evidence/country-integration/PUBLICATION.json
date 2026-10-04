@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "repository": "https://github.com/deusalter/The-Shape-of-the-Water",
+  "branch": "main",
+  "publishedImplementationCommit": "4f45efc55ba2cef5ef1782e1af91fb80d0d0c1ea",
+  "method": "Authorized authenticated GitHub API publisher; ordinary non-force reference update and remote hash verification",
+  "author": "deusalter <212029343+deusalter@users.noreply.github.com>",
+  "committer": "deusalter <212029343+deusalter@users.noreply.github.com>",
+  "coauthorTrailers": false,
+  "archive": {
+    "path": "checkpoints/country-v5-2026-10-04.tar.gz",
+    "bytes": 161469773,
+    "sha256": "c21b52310ad3ddafd2a2258c8b5dc9f2f49cdc07e74b304fa0cc977f6f30e23b",
+    "scope": "1856 pinned source/build/metadata files; active untracked comparisons manuscript excluded"
+  },
+  "limits": [
+    "Not a public website deployment",
+    "Not the completed long game",
+    "Later manuscript revisions require their separate checkpoint"
+  ]
+}

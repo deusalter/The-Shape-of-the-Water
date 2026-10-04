@@ -5,10 +5,10 @@
   "workspace": "/workspace/literary-detective",
   "finalLiteraryAuthority": "lead_writer in coordinator chat",
   "maxActiveSubagentsIncludingDescendants": 4,
-  "internalReservedSlots": 2,
+  "internalReservedSlots": 0,
   "teams": {
     "protagonist": {
-      "suggestedTitle": "Literary Game \u2014 Protagonist",
+      "suggestedTitle": "Literary Game — Protagonist",
       "permittedSlots": 0,
       "externalChatId": "01a1042a-8c74-70cd-924d-aeada8ddd03e",
       "phase": "new world-rebuild request prepared; awaiting owner resume",
@@ -24,7 +24,7 @@
       "lastObservedCursor": "026c2a37-600b-4160-816f-fb5141976f95:2"
     },
     "loop-plot": {
-      "suggestedTitle": "Literary Game \u2014 Loop and Plot",
+      "suggestedTitle": "Literary Game — Loop and Plot",
       "permittedSlots": 0,
       "externalChatId": "01a1042a-ed4d-771e-8cd5-f21def1bf031",
       "phase": "new world-rebuild request prepared; awaiting owner resume",
@@ -40,7 +40,7 @@
       "lastObservedCursor": "f37b2c05-5f04-4832-9c4e-1f9ec5daa06d:2"
     },
     "literary": {
-      "suggestedTitle": "Literary Game \u2014 Literary Review",
+      "suggestedTitle": "Literary Game — Literary Review",
       "permittedSlots": 0,
       "externalChatId": "01a1042b-7bf0-7787-8a9a-73799016101f",
       "phase": "new world-rebuild request prepared; awaiting owner resume",
@@ -56,7 +56,7 @@
       "lastObservedCursor": "c3e7fd20-af5c-413d-9f79-8e36c9131454:2"
     },
     "integration-qa": {
-      "suggestedTitle": "Literary Game \u2014 Integration QA",
+      "suggestedTitle": "Literary Game — Integration QA",
       "permittedSlots": 0,
       "externalChatId": "01a1042b-95ae-70fa-ae28-8f476b95700c",
       "phase": "new world-rebuild request prepared; awaiting owner resume",
@@ -78,15 +78,12 @@
   "visibilityObserved": "public; owner-selected destination",
   "commitAuthor": "deusalter",
   "coauthorTrailers": false,
-  "publishedCheckpoint": "030d509bdf3b1dcefa52b3718be3959caae24d1b",
+  "publishedCheckpoint": "4f45efc55ba2cef5ef1782e1af91fb80d0d0c1ea",
   "permitRevision": "2026-10-04-world-rebuild-004",
   "latestOwnerCorrection": "docs/OWNER-WORLD-REBUILD-2026-10-04.md",
   "requestPublication": "P-003/T-003/L-003/Q-004 published on main; native chat delivery unavailable, owner resume needed",
-  "internalActiveAtLastCheck": [
-    "lead_writer",
-    "world_dramaturg"
-  ],
+  "internalActiveAtLastCheck": [],
   "installedStory": "case-v5 d4b4:63scenes86choices52sources; retainedv4/v2",
   "currentVerification": "496 tests,6 built routes247actions, independent303states/36endings, studio and explicit offline reload saving PASS; current evidence/country-integration",
-  "nextProduction": "Separate comparisons/confrontation manuscript, then new guarded return/refusal edition. Full long game unfinished."
+  "nextProduction": "Reviewed confrontation12a957 and return34c0 ready for separately versioned guarded compilation. Next writing: Emil’s actual control comparison. Full long game unfinished."
 }
