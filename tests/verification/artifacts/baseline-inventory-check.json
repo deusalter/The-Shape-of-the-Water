@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "Inventory/artifact consistency only; does not execute acceptance requirements",
+  "exactUniqueIds": 88,
+  "mandatory": 87,
+  "conditionalN_A": [
+    "AC-X06"
+  ],
+  "baselineTests": 91,
+  "browserChecks": 13,
+  "buildId": "d101e5860c588e8d",
+  "statuses": {
+    "Blocked": 16,
+    "Inconclusive": 12,
+    "N/A": 1,
+    "Not run": 3,
+    "Passed": 56
+  },
+  "acceptanceSourceSha256": "d55b6b84ab08156a08ddb3f4572895462c590fc9c0fcd1bdd4726100a0dd6f5d",
+  "reportSha256": {
+    "docs/reviews/BASELINE-REPRODUCTION-02.md": "21674463fcf1b12bf3b8adda6f190f81bc22fcaeed179446b5e07f136776e017",
+    "docs/reviews/ACCEPTANCE-GAPS-02.md": "702f65b6ddbb155539ff29adc5610ea8ad0d768d1f9e26dbb1ae7cde5d608481",
+    "tests/verification/artifacts/acceptance-inventory-02.json": "16a1e327ac12b2a94b14271e3aa0f3e67867acd2de067d78d671eadafb3c64e2"
+  }
+}

@@ -1,0 +1,112 @@
+Continue the existing literary detective game through a complete, substantially developed version ready for human playtesting. The current checkpoint is the starting point, not the finished product.
+
+Preserve the working repository, research, accepted prose, history, and current implementation. Revision 4 remains authoritative over revision 3. Do not restart, rebuild the specification from scratch, or replace functioning work merely to make it your own.
+
+OUTCOME
+
+Produce a complete original literary detective game with a developed opening, substantial middle, and fully dramatized endings. Aim for a 4–6-hour first playthrough with meaningful optional encounters and replay differences. Treat duration as a design target, not a fact established by automated tests.
+
+First inspect the actual manuscript and representative playable routes. Establish how much implemented material exists and what the story needs. Do not estimate playtime by adding together mutually exclusive branches, counting research documents, or introducing artificial delays. Report route-specific word counts and assumptions separately from human-measured duration.
+
+Expansion must develop relationships, investigation, setting, and consequences. Do not inflate scene counts, split existing scenes to manufacture progress, or insert philosophical lectures to reach a length target. Keep the strongest existing work and build around it.
+
+I am authorizing substantial development beyond the current checkpoint, not merely minor polish.
+
+LITERARY WORK
+
+One lead writer owns integrated prose and canon.
+
+Read the manuscript as a complete work. Identify where the people, investigation, and emotional development are underwritten, then repair those sections through actual scenes.
+
+Develop the major characters across repeated encounters. Their voices must differ in attention, reasoning, syntax, social tactics, and responses to particular listeners. Do not give everyone the same eloquence, sarcasm, defensiveness, or appetite for aphorisms.
+
+Preserve the established historical-given-name plus literary-surname scheme without casually renaming the cast.
+
+Give characters lives and relationships beyond delivering clues or representing philosophical positions. Make room for humor, pleasure, ordinary irritation, and encounters whose value is not another revelation.
+
+Audit the opening, major turning points, and endings especially carefully. Later discoveries should change the interpretation of specific earlier passages without secretly rewriting what the player observed.
+
+Retain the existing anti-AI writing constraints. Reject bureaucratic metaphysics, generic solemnity, forced symbolic significance, repetitive contrastive constructions, explanatory theme summaries, and interchangeable voices. Do not flatten ambitious language or prohibit sustained philosophical thought.
+
+PHILOSOPHICAL DEVELOPMENT
+
+Use and improve the existing research rather than merely producing another batch of dossiers.
+
+Keep Kant centered on phenomena, noumena, transcendental idealism, and the conditions and limits of possible experience.
+
+Keep Spinoza centered on God or Nature, pantheism, substance, attributes, modes, immanence, and the development of ethics through understanding, freedom, intellectual love of God, and blessedness.
+
+Recheck primary passages supporting the story's consequential philosophical commitments. Distinguish historical doctrine, disputed interpretations, and deliberate fictional departures.
+
+Let research change the story where warranted. Do not treat completed research files or the presence of philosophical vocabulary as evidence of successful integration.
+
+Preserve genuine tensions between the philosophies. Do not make characters doctrine mascots or make the ending a menu for choosing the correct philosopher. The concrete case must remain evidentially coherent even where metaphysical interpretation remains open.
+
+COMPLETE THE GAMEPLAY
+
+Finish the unmet applicable revision-3 requirements under revision 4, including the gaps identified in your handoff.
+
+Implement explicit evidence submission and useful responses to supported, premature, contradictory, and irrelevant submissions.
+
+Model what characters know, believe, and claim separately from underlying events and player discoveries. Use those distinctions in actual encounters rather than leaving them as unused infrastructure.
+
+Preserve multiple supported routes through the investigation, meaningful consequences for interpersonal choices, and appropriate recovery from failed interactions.
+
+Keep factual conclusions separate from moral and metaphysical judgments. No correct-opinion scoring.
+
+Complete save compatibility and migrations, recovery behavior, and the necessary author tools. The author workspace must edit and validate the actual content used by the game.
+
+Keep presentation restrained and reading comfortable. Prioritize the manuscript, interaction, accessibility, and reliability over animation, decorative systems, or a generic oversized editor.
+
+WORKING METHOD
+
+Keep the existing model allocation and verify actual availability. Preserve Astra Ultra as coordinator; use the v4 lead-writer, research, criticism, and engineering assignments where supported.
+
+Use up to four active subagents when genuinely independent work is available. Give each exact inputs, output ownership, and acceptance criteria. Do not have competing workers edit the same files or let multiple writers independently redefine canon.
+
+Use substantial reasoning and independent scrutiny where they improve the work. Do not choose shallow implementations or abbreviated literary treatment merely to conserve usage. Do not waste usage on filler, redundant tests, or repeated unchanged reviews.
+
+Work in integrated cycles:
+produce substantive changes;
+obtain relevant independent criticism;
+make an editorial decision;
+integrate the accepted changes;
+run affected checks;
+preserve a recoverable checkpoint;
+then continue to the next unfinished requirement.
+
+A checkpoint or progress report is not a stopping condition while substantive, dependency-ready work remains.
+
+Review scenes both individually and within complete player routes. Give blind-reading reviewers only material the player could have encountered. Preserve stronger earlier versions when a revision makes the writing worse.
+
+Critics must identify specific problems and evidence, but may find no new defect. Do not impose a flaw quota or repeatedly rewrite sound material because “continuous iteration” sounds productive.
+
+VERIFICATION AND COMPLETION
+
+Run the actual tests, browser checks, and representative playthroughs. Reproduce the current baseline before relying on its reported results.
+
+Investigate the inconclusive state exploration with better-scoped checks where possible. Keep inconclusive findings labeled honestly. Do not convert a search timeout into a pass.
+
+Check evidence routes, knowledge leakage, unreachable required content, contradictory states, save migrations, replay consistency, and the effects of failed interactions.
+
+For this goal, “ready for human playtesting” requires:
+a complete playable case without placeholder scenes or endings;
+implementation and verification of applicable mandatory requirements;
+an integrated literary and philosophical review with consequential findings addressed;
+a usable player build and author workspace;
+a complete current manuscript;
+and a reproducible checkpoint with source, research, actual test results, known limitations, and run instructions.
+
+Do not silently waive difficult requirements to declare completion. Human enjoyment, measured playtime, and artistic success remain unverified until human review. Do not invent playtesters, approval, or masterpiece status.
+
+CONTINUITY AND BOUNDARIES
+
+Make ordinary reversible editorial and technical decisions yourself. Ask only for genuinely blocking information, permissions, or decisions that would contradict an explicit owner constraint.
+
+Preserve the cloud-only boundary. No access to my Mac or personal apps, no public deployment, no pushing changes, no paid services, no API dependency for playing the finished game, and no billing or reset operations.
+
+Maintain concise current state, exact voice anchors, research references, accepted decisions, unresolved issues, and the next executable task. Before a runtime or context boundary, preserve the actual working files and an actionable continuation prompt.
+
+Continue within supported execution until this goal is complete, I stop you, or a genuine permission, runtime, or resource limit intervenes. Do not claim that you will keep working after execution has ended.
+
+Begin now by reading the current manuscript, handoff, and unmet acceptance requirements. Select the highest-impact literary expansion and engineering gap, assign independent work where supported, and implement them. Do not respond with only another plan.

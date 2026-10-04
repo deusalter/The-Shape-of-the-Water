@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "lead-authored candidate routes, not whole graph exploration or human test",
+  "scenes": 22,
+  "sources": 19,
+  "questions": 1,
+  "findings": [
+    {
+      "route": "physical-selected-test",
+      "ended": true,
+      "revision": 12,
+      "words": 4589
+    },
+    {
+      "route": "recording-selected",
+      "ended": true,
+      "revision": 12
+    },
+    {
+      "privacy": "private source absent on refused branch; known private source rejected as irrelevant; no automatic NPC disclosure"
+    }
+  ]
+}

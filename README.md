@@ -1,41 +1,34 @@
 # The Shape of the Water
 
-A playable literary detective game about a borrowed mirror, an obstructed door, and a claim to see reality without conditions. Three people have a material dispute to settle and reasons to keep arguing after its answer is known. Working title and canon are accepted by the session's sole lead writer as a provisional baseline; they are not owner-approved.
+An original literary psychological mystery in active development. Male protagonist Blaise Bloom investigates an obstructed cabinet, an optical claim, and a recurrence that unsettles the continuity of his own life and the people he remembers. Kant concerns conditions and limits of experience; Spinoza concerns God or Nature and the ethical development of understanding, freedom and intellectual love. Historical doctrine and fictional commitments are documented separately. The title remains provisional.
 
-The current game contains 21 scenes and 50 choices, two material evidence routes, consequential public/private disclosure, optional personal encounters, revisits, and two closing scenes. Kant's conditions and limits of experience and Spinoza's God or Nature and ethical development changed the actual arguments and discoveries. See narrative/MANUSCRIPT.md for the full derived reading copy; src/content/case.json is authoritative. The two rejected alternatives, earlier versions, exact voice anchors and editorial decisions are preserved.
+The default application now runs the v2 first-night case: 22 scenes, 52 choices, explicit selected-evidence proofs, private disclosures, illustrated investigation, historical transcripts, and reviewed legacy migration. This is a short implemented opening case, not the completed expanded game. The recurrence scenes and developed endings are under active literary/engineering integration. The4–6-hour first-play target is unmeasured.
 
 ## Run in the authorized cloud workspace
 
-Requires Node 24 and pnpm 11.19.0. From the project directory:
+Requires Node24 and pnpm11.19.0.
 
 ```sh
 pnpm install --frozen-lockfile
 pnpm dev:player
 ```
 
-The player is served on port 4173. For the author application, run `pnpm dev:studio` and open `/studio.html` on port 4174. The studio contains spoilers. It edits the real format and uses separate draft/preview storage.
+Player: port4173. Run `pnpm dev:studio` for the author application at port4174 `/studio.html`. The studio edits the real v2 format, validates in a separate worker, preserves incomplete drafts, and has isolated ordinary and explicitly noncanonical scenario previews. It contains spoilers.
 
 ```sh
-pnpm build
+pnpm verify
 pnpm preview:player
 pnpm preview:studio
 ```
 
-Player and studio builds are in dist-player and dist-studio. The player supports offline play after its interface reports verified readiness. Serve the build over localhost or an HTTPS origin; opening index.html directly as a file is not supported. The supplied archive includes both built applications and a history/local-history.bundle containing local Git checkpoints. These are cloud preview instructions, not a published site or a claim that a cloud localhost URL reaches another machine.
-
-To serve the supplied player build without installing JavaScript dependencies, run `python3 -m http.server 4173 --bind 127.0.0.1 --directory dist-player` in the authorized workspace. The studio can likewise be served from dist-studio on a separate port; open its `/studio.html` path.
+Builds are in `dist-player` and `dist-studio`. Use localhost or HTTPS; directly opening HTML files is unsupported. Offline play is ready only when the built player's interface confirms verified assets for the installed story hash. No live AI or paid service is required to play.
 
 ## Verify and continue
 
-```sh
-pnpm verify
-python3 tools/check_packet.py
-node tools/verify-tests.mjs
-node tools/verify-engine.mjs all
-```
+`pnpm verify` runs typecheck, tests, current content validation and both builds. For actual Chromium checks, serve the builds at ports4183 and4184, then run `pnpm test:e2e`. The v2 browser runner is `tools/browser-v2-check.mjs`; the old runner and historical reports are preserved as legacy evidence. `/usr/bin/chromium` is expected. `test:a11y` runs the same suite, not a separate accessibility certification.
 
-Exploration exits 2 when its budget is exhausted; that is INCONCLUSIVE. It is not a test pass. Browser checks require built previews at ports 4183 and 4184: start `pnpm preview:player --port 4183` and `pnpm preview:studio --port 4184`, then run `pnpm test:e2e`. Chromium is expected at /usr/bin/chromium. `test:a11y` runs the same suite, not a separate accessibility certification.
+Read `RESUME.md`, `docs/execution/HANDOFF.md`, `docs/execution/STATE.json`, and `CONTINUE_PROMPT.md` before editing. Newer explicit owner instructions control, followed by `docs/OWNER-KICKOFF-v4.md`, then compatible revision3 specifications. `baseline/revision3` is the untouched planning package, not an earlier implementation.
 
-Read RESUME.md, docs/execution/HANDOFF.md and CONTINUE_PROMPT.md before editing. Newer explicit owner instructions control, then docs/OWNER-KICKOFF-v4.md, then compatible revision-3 specifications. baseline/revision3 is the unchanged specification package, not an older implementation. Never reset this project to its unstarted seed.
+Current playable content is `src/content/case-v2.json`; `src/content/selection.json` identifies the active format. The untouched v1 bundle is retained under `src/content/legacy/`, and `src/content/case.json` remains historical. See `narrative/CURRENT-READING-ORDER.md` for current prose and selected expansion scenes. Earlier transcripts and accepted/rejected drafts remain preserved.
 
-This is a tested playable checkpoint, not full revision-3 acceptance. Remaining work includes the explicit selected-evidence deduction and NPC knowledge models, migrations/branch metadata, further studio operations, and human-paced literary/accessibility review. Exact executed checks and limits are in docs/execution/HANDOFF.md. No human playtest or measured duration is claimed. Player execution requires no live AI, login or paid service.
+Separate chats coordinate through the owner-selected GitHub repository and `docs/coordination/GITHUB-WORKFLOW.md`. Each team has its own branch and proposal/report directory. One lead writer integrates final prose. No public deployment or human playtest is claimed. The latest executed checks and remaining gaps are in the handoff and reviews.

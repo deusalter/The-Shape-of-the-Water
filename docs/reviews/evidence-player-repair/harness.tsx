@@ -1,0 +1,10 @@
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import {EvidencePlayer} from './src/components/EvidencePlayer';
+import {EvidenceStore} from './src/persistence/evidence-store';
+import {evidenceFixture as content} from './src/engine/evidence-fixture';
+import {createGameV2} from './src/engine/evidence-v2';
+import './src/styles.css';
+const store = new EvidenceStore(indexedDB, 'evidence-player-repair-browser');
+Object.assign(window,{fixtureStore:store,fixtureContent:content,fixtureInitial:()=>createGameV2(content)});
+createRoot(document.getElementById('root')!).render(<main aria-label="Noncanonical repair verification"><section aria-label="Verification scope"><p>Noncanonical repair fixture. This page checks software recovery; it is not part of the literary case.</p></section><EvidencePlayer content={content} persistence={store} preview /></main>);

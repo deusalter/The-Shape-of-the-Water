@@ -1,0 +1,3218 @@
+{
+  "testedAt": "2026-10-03T22:33:15.615Z",
+  "command": "node tools/verify-route-words.mjs",
+  "scope": "Actual production-engine rendering for separately playable routes. Whitespace tokens in passages; labels and notebook text separate. Counts are not human-measured duration.",
+  "contentFileSha256": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+  "contentHash": "0bd022ad793897d6a92c6dbd7054951c7ca8e07ea5d8158ad786d6e3279be432",
+  "humanPlaytests": 0,
+  "corpus": {
+    "scenes": 21,
+    "choices": 50,
+    "basePassageWords": 7631
+  },
+  "optionalIncrement": {
+    "comparison": "physical-rich-optional/public/stay minus physical/optics-narrow/public/continue-stay",
+    "renderedWordsIncludingHubReturns": 2720,
+    "uniqueParagraphWords": 2345
+  },
+  "assumption": "A hypothetical uninterrupted reading rate of 180–250 words/minute may provide a reading-only calculation; actual investigation, reflection, accessibility and choice time must be measured by human playtesting. Mutually exclusive routes/variants are never summed.",
+  "routes": [
+    {
+      "name": "selected-opening",
+      "category": "incomplete opening only",
+      "actions": [
+        "arrival-miriam",
+        "bench-record",
+        "hub-workshop",
+        "workshop-record",
+        "hub-cabinet",
+        "cabinet-cautious",
+        "hub-gallery"
+      ],
+      "ended": false,
+      "endingScene": "gallery",
+      "renderedPassageWords": 2033,
+      "uniqueRenderedParagraphWords": 1981,
+      "firstSceneOccurrenceWords": 1929,
+      "selectedChoiceLabelWords": 63,
+      "notebookRecordWords": 100,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "bench",
+          "revision": 1,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 58,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "workshop",
+          "revision": 3,
+          "words": 376,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 4,
+          "words": 52,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 5,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 6,
+          "words": 52,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "gallery",
+          "revision": 7,
+          "words": 483,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "3592f2d5f47ef3fa2b7e5d68dd80e4b1b28c64b9e519535e618b2f882a1cf2d1",
+      "durationMeasured": false
+    },
+    {
+      "name": "physical/optics-narrow/public/continue-stay",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-miriam",
+        "bench-record",
+        "hub-workshop",
+        "workshop-record",
+        "hub-cabinet",
+        "cabinet-test",
+        "release-record",
+        "hub-shared",
+        "shared-optics",
+        "optics-narrow",
+        "cabinet-report",
+        "report-public",
+        "public-next",
+        "continue-stay"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 4751,
+      "uniqueRenderedParagraphWords": 4751,
+      "firstSceneOccurrenceWords": 4446,
+      "selectedChoiceLabelWords": 153,
+      "notebookRecordWords": 281,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "bench",
+          "revision": 1,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 58,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "workshop",
+          "revision": 3,
+          "words": 376,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 4,
+          "words": 52,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 5,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "release",
+          "revision": 6,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 7,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 8,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 9,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 10,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 11,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "public_account",
+          "revision": 12,
+          "words": 244,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 13,
+          "words": 370,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 14,
+          "words": 242,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "08bfb144dcdd62d15e7e7d67336dd9b8b755e5f0b788f91ece538a318bb4b265",
+      "durationMeasured": false
+    },
+    {
+      "name": "physical/optics-narrow/public/continue-supper-only",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-miriam",
+        "bench-record",
+        "hub-workshop",
+        "workshop-record",
+        "hub-cabinet",
+        "cabinet-test",
+        "release-record",
+        "hub-shared",
+        "shared-optics",
+        "optics-narrow",
+        "cabinet-report",
+        "report-public",
+        "public-next",
+        "continue-supper-only"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 4751,
+      "uniqueRenderedParagraphWords": 4751,
+      "firstSceneOccurrenceWords": 4446,
+      "selectedChoiceLabelWords": 152,
+      "notebookRecordWords": 275,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "bench",
+          "revision": 1,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 58,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "workshop",
+          "revision": 3,
+          "words": 376,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 4,
+          "words": 52,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 5,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "release",
+          "revision": 6,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 7,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 8,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 9,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 10,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 11,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "public_account",
+          "revision": 12,
+          "words": 244,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 13,
+          "words": 370,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 14,
+          "words": 242,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "4895328fd1f20ea7fae6d73f4ba26fd8fa2e4329a10315c74eaedd7663973700",
+      "durationMeasured": false
+    },
+    {
+      "name": "physical/optics-narrow/public/continue-leave",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-miriam",
+        "bench-record",
+        "hub-workshop",
+        "workshop-record",
+        "hub-cabinet",
+        "cabinet-test",
+        "release-record",
+        "hub-shared",
+        "shared-optics",
+        "optics-narrow",
+        "cabinet-report",
+        "report-public",
+        "public-next",
+        "continue-leave"
+      ],
+      "ended": true,
+      "endingScene": "leave",
+      "renderedPassageWords": 4712,
+      "uniqueRenderedParagraphWords": 4712,
+      "firstSceneOccurrenceWords": 4407,
+      "selectedChoiceLabelWords": 151,
+      "notebookRecordWords": 277,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "bench",
+          "revision": 1,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 58,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "workshop",
+          "revision": 3,
+          "words": 376,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 4,
+          "words": 52,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 5,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "release",
+          "revision": 6,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 7,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 8,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 9,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 10,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 11,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "public_account",
+          "revision": 12,
+          "words": 244,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 13,
+          "words": 370,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "leave",
+          "revision": 14,
+          "words": 203,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "43946924a1ff3f65290c310db0b72a7769aa904c21f45cd3651966fdeff40b0d",
+      "durationMeasured": false
+    },
+    {
+      "name": "physical/optics-narrow/private/continue-stay",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-miriam",
+        "bench-record",
+        "hub-workshop",
+        "workshop-record",
+        "hub-cabinet",
+        "cabinet-test",
+        "release-record",
+        "hub-shared",
+        "shared-optics",
+        "optics-narrow",
+        "cabinet-report",
+        "report-private",
+        "private-next",
+        "continue-stay"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 4797,
+      "uniqueRenderedParagraphWords": 4797,
+      "firstSceneOccurrenceWords": 4492,
+      "selectedChoiceLabelWords": 155,
+      "notebookRecordWords": 283,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "bench",
+          "revision": 1,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 58,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "workshop",
+          "revision": 3,
+          "words": 376,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 4,
+          "words": 52,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 5,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "release",
+          "revision": 6,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 7,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 8,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 9,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 10,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 11,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "private_account",
+          "revision": 12,
+          "words": 247,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 13,
+          "words": 370,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 14,
+          "words": 285,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "a0e5abe18993e21ff8d512cdfd723b70e4a8c38d51314a83c2d3f21982cd654e",
+      "durationMeasured": false
+    },
+    {
+      "name": "physical/optics-narrow/private/continue-supper-only",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-miriam",
+        "bench-record",
+        "hub-workshop",
+        "workshop-record",
+        "hub-cabinet",
+        "cabinet-test",
+        "release-record",
+        "hub-shared",
+        "shared-optics",
+        "optics-narrow",
+        "cabinet-report",
+        "report-private",
+        "private-next",
+        "continue-supper-only"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 4797,
+      "uniqueRenderedParagraphWords": 4797,
+      "firstSceneOccurrenceWords": 4492,
+      "selectedChoiceLabelWords": 154,
+      "notebookRecordWords": 277,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "bench",
+          "revision": 1,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 58,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "workshop",
+          "revision": 3,
+          "words": 376,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 4,
+          "words": 52,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 5,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "release",
+          "revision": 6,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 7,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 8,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 9,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 10,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 11,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "private_account",
+          "revision": 12,
+          "words": 247,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 13,
+          "words": 370,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 14,
+          "words": 285,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "5ad2edf7ee5b5ac90b01ff702595ea83654e0c8183149af658b10e1695d0cd05",
+      "durationMeasured": false
+    },
+    {
+      "name": "physical/optics-narrow/private/continue-leave",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-miriam",
+        "bench-record",
+        "hub-workshop",
+        "workshop-record",
+        "hub-cabinet",
+        "cabinet-test",
+        "release-record",
+        "hub-shared",
+        "shared-optics",
+        "optics-narrow",
+        "cabinet-report",
+        "report-private",
+        "private-next",
+        "continue-leave"
+      ],
+      "ended": true,
+      "endingScene": "leave",
+      "renderedPassageWords": 4715,
+      "uniqueRenderedParagraphWords": 4715,
+      "firstSceneOccurrenceWords": 4410,
+      "selectedChoiceLabelWords": 153,
+      "notebookRecordWords": 279,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "bench",
+          "revision": 1,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 58,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "workshop",
+          "revision": 3,
+          "words": 376,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 4,
+          "words": 52,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 5,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "release",
+          "revision": 6,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 7,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 8,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 9,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 10,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 11,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "private_account",
+          "revision": 12,
+          "words": 247,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 13,
+          "words": 370,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "leave",
+          "revision": 14,
+          "words": 203,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "ec5f59ad4b87a7018384aa62214e1dafbe07247baeaa1d1043c940aef64fed62",
+      "durationMeasured": false
+    },
+    {
+      "name": "physical/optics-measure/public/continue-stay",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-miriam",
+        "bench-record",
+        "hub-workshop",
+        "workshop-record",
+        "hub-cabinet",
+        "cabinet-test",
+        "release-record",
+        "hub-shared",
+        "shared-optics",
+        "optics-measure",
+        "cabinet-report",
+        "report-public",
+        "public-next",
+        "continue-stay"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 4749,
+      "uniqueRenderedParagraphWords": 4749,
+      "firstSceneOccurrenceWords": 4444,
+      "selectedChoiceLabelWords": 154,
+      "notebookRecordWords": 279,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "bench",
+          "revision": 1,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 58,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "workshop",
+          "revision": 3,
+          "words": 376,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 4,
+          "words": 52,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 5,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "release",
+          "revision": 6,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 7,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 8,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 9,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 10,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 11,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "public_account",
+          "revision": 12,
+          "words": 244,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 13,
+          "words": 368,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 14,
+          "words": 242,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "603efe69728e0c994e60ef3b5db488219e4903395780067fb0a07bf5fa341262",
+      "durationMeasured": false
+    },
+    {
+      "name": "physical/optics-measure/public/continue-supper-only",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-miriam",
+        "bench-record",
+        "hub-workshop",
+        "workshop-record",
+        "hub-cabinet",
+        "cabinet-test",
+        "release-record",
+        "hub-shared",
+        "shared-optics",
+        "optics-measure",
+        "cabinet-report",
+        "report-public",
+        "public-next",
+        "continue-supper-only"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 4749,
+      "uniqueRenderedParagraphWords": 4749,
+      "firstSceneOccurrenceWords": 4444,
+      "selectedChoiceLabelWords": 153,
+      "notebookRecordWords": 273,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "bench",
+          "revision": 1,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 58,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "workshop",
+          "revision": 3,
+          "words": 376,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 4,
+          "words": 52,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 5,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "release",
+          "revision": 6,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 7,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 8,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 9,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 10,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 11,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "public_account",
+          "revision": 12,
+          "words": 244,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 13,
+          "words": 368,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 14,
+          "words": 242,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "2be75a20e22a438aa9b18417c7faf67ada7a7cf47a60a64e40d25d3e90ace847",
+      "durationMeasured": false
+    },
+    {
+      "name": "physical/optics-measure/public/continue-leave",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-miriam",
+        "bench-record",
+        "hub-workshop",
+        "workshop-record",
+        "hub-cabinet",
+        "cabinet-test",
+        "release-record",
+        "hub-shared",
+        "shared-optics",
+        "optics-measure",
+        "cabinet-report",
+        "report-public",
+        "public-next",
+        "continue-leave"
+      ],
+      "ended": true,
+      "endingScene": "leave",
+      "renderedPassageWords": 4710,
+      "uniqueRenderedParagraphWords": 4710,
+      "firstSceneOccurrenceWords": 4405,
+      "selectedChoiceLabelWords": 152,
+      "notebookRecordWords": 275,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "bench",
+          "revision": 1,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 58,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "workshop",
+          "revision": 3,
+          "words": 376,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 4,
+          "words": 52,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 5,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "release",
+          "revision": 6,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 7,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 8,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 9,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 10,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 11,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "public_account",
+          "revision": 12,
+          "words": 244,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 13,
+          "words": 368,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "leave",
+          "revision": 14,
+          "words": 203,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "68397f27ebb476960592649159a83ce2dd33fb63a755cf01deb7dabfd514b352",
+      "durationMeasured": false
+    },
+    {
+      "name": "physical/optics-measure/private/continue-stay",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-miriam",
+        "bench-record",
+        "hub-workshop",
+        "workshop-record",
+        "hub-cabinet",
+        "cabinet-test",
+        "release-record",
+        "hub-shared",
+        "shared-optics",
+        "optics-measure",
+        "cabinet-report",
+        "report-private",
+        "private-next",
+        "continue-stay"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 4795,
+      "uniqueRenderedParagraphWords": 4795,
+      "firstSceneOccurrenceWords": 4490,
+      "selectedChoiceLabelWords": 156,
+      "notebookRecordWords": 281,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "bench",
+          "revision": 1,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 58,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "workshop",
+          "revision": 3,
+          "words": 376,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 4,
+          "words": 52,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 5,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "release",
+          "revision": 6,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 7,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 8,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 9,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 10,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 11,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "private_account",
+          "revision": 12,
+          "words": 247,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 13,
+          "words": 368,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 14,
+          "words": 285,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "c55d8058399787b52a823daf04537d703b151ddf938bd8872ebc3266166a3f04",
+      "durationMeasured": false
+    },
+    {
+      "name": "physical/optics-measure/private/continue-supper-only",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-miriam",
+        "bench-record",
+        "hub-workshop",
+        "workshop-record",
+        "hub-cabinet",
+        "cabinet-test",
+        "release-record",
+        "hub-shared",
+        "shared-optics",
+        "optics-measure",
+        "cabinet-report",
+        "report-private",
+        "private-next",
+        "continue-supper-only"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 4795,
+      "uniqueRenderedParagraphWords": 4795,
+      "firstSceneOccurrenceWords": 4490,
+      "selectedChoiceLabelWords": 155,
+      "notebookRecordWords": 275,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "bench",
+          "revision": 1,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 58,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "workshop",
+          "revision": 3,
+          "words": 376,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 4,
+          "words": 52,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 5,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "release",
+          "revision": 6,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 7,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 8,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 9,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 10,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 11,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "private_account",
+          "revision": 12,
+          "words": 247,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 13,
+          "words": 368,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 14,
+          "words": 285,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "4f1229f925da9974d7b9d71b151c8d43d94915e199c3fb6b2fa3fff524a8b1e3",
+      "durationMeasured": false
+    },
+    {
+      "name": "physical/optics-measure/private/continue-leave",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-miriam",
+        "bench-record",
+        "hub-workshop",
+        "workshop-record",
+        "hub-cabinet",
+        "cabinet-test",
+        "release-record",
+        "hub-shared",
+        "shared-optics",
+        "optics-measure",
+        "cabinet-report",
+        "report-private",
+        "private-next",
+        "continue-leave"
+      ],
+      "ended": true,
+      "endingScene": "leave",
+      "renderedPassageWords": 4713,
+      "uniqueRenderedParagraphWords": 4713,
+      "firstSceneOccurrenceWords": 4408,
+      "selectedChoiceLabelWords": 154,
+      "notebookRecordWords": 277,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "bench",
+          "revision": 1,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 58,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "workshop",
+          "revision": 3,
+          "words": 376,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 4,
+          "words": 52,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 5,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "release",
+          "revision": 6,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 7,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 8,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 9,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 10,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 11,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "private_account",
+          "revision": 12,
+          "words": 247,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 13,
+          "words": 368,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "leave",
+          "revision": 14,
+          "words": 203,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "f64248d690df99da515f165c642bab8761d620b2f171c8324c7ceb81dc923db5",
+      "durationMeasured": false
+    },
+    {
+      "name": "recorded/optics-narrow/public/continue-stay",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-cabinet",
+        "cabinet-cautious",
+        "hub-gallery",
+        "gallery-recording",
+        "recording-keep",
+        "hub-shared",
+        "shared-optics",
+        "optics-narrow",
+        "cabinet-report",
+        "report-public",
+        "public-next",
+        "continue-stay"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 4530,
+      "uniqueRenderedParagraphWords": 4530,
+      "firstSceneOccurrenceWords": 4277,
+      "selectedChoiceLabelWords": 126,
+      "notebookRecordWords": 208,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 1,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 112,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "gallery",
+          "revision": 3,
+          "words": 483,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "recording",
+          "revision": 4,
+          "words": 385,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 5,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 6,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 7,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 8,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 9,
+          "words": 360,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "public_account",
+          "revision": 10,
+          "words": 244,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 11,
+          "words": 370,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 12,
+          "words": 242,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "61e516dbab9230bb1571f31a07aa9602d4a66fd573bc0c210fdc60c73b09a281",
+      "durationMeasured": false
+    },
+    {
+      "name": "recorded/optics-narrow/public/continue-supper-only",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-cabinet",
+        "cabinet-cautious",
+        "hub-gallery",
+        "gallery-recording",
+        "recording-keep",
+        "hub-shared",
+        "shared-optics",
+        "optics-narrow",
+        "cabinet-report",
+        "report-public",
+        "public-next",
+        "continue-supper-only"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 4530,
+      "uniqueRenderedParagraphWords": 4530,
+      "firstSceneOccurrenceWords": 4277,
+      "selectedChoiceLabelWords": 125,
+      "notebookRecordWords": 202,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 1,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 112,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "gallery",
+          "revision": 3,
+          "words": 483,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "recording",
+          "revision": 4,
+          "words": 385,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 5,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 6,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 7,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 8,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 9,
+          "words": 360,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "public_account",
+          "revision": 10,
+          "words": 244,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 11,
+          "words": 370,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 12,
+          "words": 242,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "2060e65c960ad2defa9778e3c2378f47fbc07d55bfee56755e403e3ed67fed46",
+      "durationMeasured": false
+    },
+    {
+      "name": "recorded/optics-narrow/public/continue-leave",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-cabinet",
+        "cabinet-cautious",
+        "hub-gallery",
+        "gallery-recording",
+        "recording-keep",
+        "hub-shared",
+        "shared-optics",
+        "optics-narrow",
+        "cabinet-report",
+        "report-public",
+        "public-next",
+        "continue-leave"
+      ],
+      "ended": true,
+      "endingScene": "leave",
+      "renderedPassageWords": 4491,
+      "uniqueRenderedParagraphWords": 4491,
+      "firstSceneOccurrenceWords": 4238,
+      "selectedChoiceLabelWords": 124,
+      "notebookRecordWords": 204,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 1,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 112,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "gallery",
+          "revision": 3,
+          "words": 483,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "recording",
+          "revision": 4,
+          "words": 385,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 5,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 6,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 7,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 8,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 9,
+          "words": 360,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "public_account",
+          "revision": 10,
+          "words": 244,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 11,
+          "words": 370,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "leave",
+          "revision": 12,
+          "words": 203,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "2f40c0613166342169d35a775acf5d1e4a07998f8300a75b988daccd6e43529d",
+      "durationMeasured": false
+    },
+    {
+      "name": "recorded/optics-narrow/private/continue-stay",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-cabinet",
+        "cabinet-cautious",
+        "hub-gallery",
+        "gallery-recording",
+        "recording-keep",
+        "hub-shared",
+        "shared-optics",
+        "optics-narrow",
+        "cabinet-report",
+        "report-private",
+        "private-next",
+        "continue-stay"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 4576,
+      "uniqueRenderedParagraphWords": 4576,
+      "firstSceneOccurrenceWords": 4323,
+      "selectedChoiceLabelWords": 128,
+      "notebookRecordWords": 210,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 1,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 112,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "gallery",
+          "revision": 3,
+          "words": 483,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "recording",
+          "revision": 4,
+          "words": 385,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 5,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 6,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 7,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 8,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 9,
+          "words": 360,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "private_account",
+          "revision": 10,
+          "words": 247,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 11,
+          "words": 370,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 12,
+          "words": 285,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "d8dd66684897e4620e339d9292cfd34e0183d9fe22309d066fac57fb3aa505d2",
+      "durationMeasured": false
+    },
+    {
+      "name": "recorded/optics-narrow/private/continue-supper-only",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-cabinet",
+        "cabinet-cautious",
+        "hub-gallery",
+        "gallery-recording",
+        "recording-keep",
+        "hub-shared",
+        "shared-optics",
+        "optics-narrow",
+        "cabinet-report",
+        "report-private",
+        "private-next",
+        "continue-supper-only"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 4576,
+      "uniqueRenderedParagraphWords": 4576,
+      "firstSceneOccurrenceWords": 4323,
+      "selectedChoiceLabelWords": 127,
+      "notebookRecordWords": 204,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 1,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 112,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "gallery",
+          "revision": 3,
+          "words": 483,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "recording",
+          "revision": 4,
+          "words": 385,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 5,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 6,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 7,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 8,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 9,
+          "words": 360,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "private_account",
+          "revision": 10,
+          "words": 247,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 11,
+          "words": 370,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 12,
+          "words": 285,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "6929ee5cd505c9d39947dc574ecef9a656c2d11a059a070a836881cc1ba7b8ca",
+      "durationMeasured": false
+    },
+    {
+      "name": "recorded/optics-narrow/private/continue-leave",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-cabinet",
+        "cabinet-cautious",
+        "hub-gallery",
+        "gallery-recording",
+        "recording-keep",
+        "hub-shared",
+        "shared-optics",
+        "optics-narrow",
+        "cabinet-report",
+        "report-private",
+        "private-next",
+        "continue-leave"
+      ],
+      "ended": true,
+      "endingScene": "leave",
+      "renderedPassageWords": 4494,
+      "uniqueRenderedParagraphWords": 4494,
+      "firstSceneOccurrenceWords": 4241,
+      "selectedChoiceLabelWords": 126,
+      "notebookRecordWords": 206,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 1,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 112,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "gallery",
+          "revision": 3,
+          "words": 483,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "recording",
+          "revision": 4,
+          "words": 385,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 5,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 6,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 7,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 8,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 9,
+          "words": 360,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "private_account",
+          "revision": 10,
+          "words": 247,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 11,
+          "words": 370,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "leave",
+          "revision": 12,
+          "words": 203,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "d8d1e328b53f5e6463229a75fec7a4952627daa081d59926ba8911c7550abe8f",
+      "durationMeasured": false
+    },
+    {
+      "name": "recorded/optics-measure/public/continue-stay",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-cabinet",
+        "cabinet-cautious",
+        "hub-gallery",
+        "gallery-recording",
+        "recording-keep",
+        "hub-shared",
+        "shared-optics",
+        "optics-measure",
+        "cabinet-report",
+        "report-public",
+        "public-next",
+        "continue-stay"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 4528,
+      "uniqueRenderedParagraphWords": 4528,
+      "firstSceneOccurrenceWords": 4275,
+      "selectedChoiceLabelWords": 127,
+      "notebookRecordWords": 206,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 1,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 112,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "gallery",
+          "revision": 3,
+          "words": 483,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "recording",
+          "revision": 4,
+          "words": 385,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 5,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 6,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 7,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 8,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 9,
+          "words": 360,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "public_account",
+          "revision": 10,
+          "words": 244,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 11,
+          "words": 368,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 12,
+          "words": 242,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "4a40d9a01a6a7043a8c8d19d4738c2bc4469b6ac546df11389cb38ba8202877d",
+      "durationMeasured": false
+    },
+    {
+      "name": "recorded/optics-measure/public/continue-supper-only",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-cabinet",
+        "cabinet-cautious",
+        "hub-gallery",
+        "gallery-recording",
+        "recording-keep",
+        "hub-shared",
+        "shared-optics",
+        "optics-measure",
+        "cabinet-report",
+        "report-public",
+        "public-next",
+        "continue-supper-only"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 4528,
+      "uniqueRenderedParagraphWords": 4528,
+      "firstSceneOccurrenceWords": 4275,
+      "selectedChoiceLabelWords": 126,
+      "notebookRecordWords": 200,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 1,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 112,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "gallery",
+          "revision": 3,
+          "words": 483,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "recording",
+          "revision": 4,
+          "words": 385,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 5,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 6,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 7,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 8,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 9,
+          "words": 360,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "public_account",
+          "revision": 10,
+          "words": 244,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 11,
+          "words": 368,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 12,
+          "words": 242,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "da015c582f1eef2ff0c90f53cc42c542cfd0c0ee0c6232330facf34ce5d49f99",
+      "durationMeasured": false
+    },
+    {
+      "name": "recorded/optics-measure/public/continue-leave",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-cabinet",
+        "cabinet-cautious",
+        "hub-gallery",
+        "gallery-recording",
+        "recording-keep",
+        "hub-shared",
+        "shared-optics",
+        "optics-measure",
+        "cabinet-report",
+        "report-public",
+        "public-next",
+        "continue-leave"
+      ],
+      "ended": true,
+      "endingScene": "leave",
+      "renderedPassageWords": 4489,
+      "uniqueRenderedParagraphWords": 4489,
+      "firstSceneOccurrenceWords": 4236,
+      "selectedChoiceLabelWords": 125,
+      "notebookRecordWords": 202,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 1,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 112,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "gallery",
+          "revision": 3,
+          "words": 483,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "recording",
+          "revision": 4,
+          "words": 385,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 5,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 6,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 7,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 8,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 9,
+          "words": 360,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "public_account",
+          "revision": 10,
+          "words": 244,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 11,
+          "words": 368,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "leave",
+          "revision": 12,
+          "words": 203,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "18fae8e3f58e602edc78d0cbb83ef1271218ad59211cf39a609db9ef667e3ac6",
+      "durationMeasured": false
+    },
+    {
+      "name": "recorded/optics-measure/private/continue-stay",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-cabinet",
+        "cabinet-cautious",
+        "hub-gallery",
+        "gallery-recording",
+        "recording-keep",
+        "hub-shared",
+        "shared-optics",
+        "optics-measure",
+        "cabinet-report",
+        "report-private",
+        "private-next",
+        "continue-stay"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 4574,
+      "uniqueRenderedParagraphWords": 4574,
+      "firstSceneOccurrenceWords": 4321,
+      "selectedChoiceLabelWords": 129,
+      "notebookRecordWords": 208,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 1,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 112,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "gallery",
+          "revision": 3,
+          "words": 483,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "recording",
+          "revision": 4,
+          "words": 385,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 5,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 6,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 7,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 8,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 9,
+          "words": 360,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "private_account",
+          "revision": 10,
+          "words": 247,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 11,
+          "words": 368,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 12,
+          "words": 285,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "94378b91c262466d4627d61eb5f4ee3e5c066ef6f1ae6143337dea8737bdab52",
+      "durationMeasured": false
+    },
+    {
+      "name": "recorded/optics-measure/private/continue-supper-only",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-cabinet",
+        "cabinet-cautious",
+        "hub-gallery",
+        "gallery-recording",
+        "recording-keep",
+        "hub-shared",
+        "shared-optics",
+        "optics-measure",
+        "cabinet-report",
+        "report-private",
+        "private-next",
+        "continue-supper-only"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 4574,
+      "uniqueRenderedParagraphWords": 4574,
+      "firstSceneOccurrenceWords": 4321,
+      "selectedChoiceLabelWords": 128,
+      "notebookRecordWords": 202,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 1,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 112,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "gallery",
+          "revision": 3,
+          "words": 483,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "recording",
+          "revision": 4,
+          "words": 385,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 5,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 6,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 7,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 8,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 9,
+          "words": 360,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "private_account",
+          "revision": 10,
+          "words": 247,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 11,
+          "words": 368,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 12,
+          "words": 285,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "f59db0019d725f7b8a5f3b1390b42a3b5a8a3b3d7dc06e286f314a1f1c6cc08b",
+      "durationMeasured": false
+    },
+    {
+      "name": "recorded/optics-measure/private/continue-leave",
+      "category": "required-route alternative; do not add alternatives together",
+      "actions": [
+        "arrival-cabinet",
+        "cabinet-cautious",
+        "hub-gallery",
+        "gallery-recording",
+        "recording-keep",
+        "hub-shared",
+        "shared-optics",
+        "optics-measure",
+        "cabinet-report",
+        "report-private",
+        "private-next",
+        "continue-leave"
+      ],
+      "ended": true,
+      "endingScene": "leave",
+      "renderedPassageWords": 4492,
+      "uniqueRenderedParagraphWords": 4492,
+      "firstSceneOccurrenceWords": 4239,
+      "selectedChoiceLabelWords": 127,
+      "notebookRecordWords": 204,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 1,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 112,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "gallery",
+          "revision": 3,
+          "words": 483,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "recording",
+          "revision": 4,
+          "words": 385,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 5,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 6,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 7,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 8,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 9,
+          "words": 360,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "private_account",
+          "revision": 10,
+          "words": 247,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 11,
+          "words": 368,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "leave",
+          "revision": 12,
+          "words": 203,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "29838a5df5738db85c8d475ba0345a7b15294f61dc3b89a7bedbce8d6afae2f5",
+      "durationMeasured": false
+    },
+    {
+      "name": "physical-rich-optional/public/stay",
+      "category": "one complete route including compatible optional conversations",
+      "actions": [
+        "arrival-miriam",
+        "bench-record",
+        "hub-workshop",
+        "workshop-record",
+        "hub-cabinet",
+        "cabinet-test",
+        "release-record",
+        "hub-gallery",
+        "gallery-direct",
+        "simon-account-record",
+        "hub-miriam",
+        "miriam-account-record",
+        "hub-ada-private",
+        "ada-miriam-leave",
+        "hub-simon-private",
+        "simon-ada-leave",
+        "hub-miriam-private",
+        "miriam-private-listen",
+        "hub-shared",
+        "shared-optics",
+        "optics-narrow",
+        "cabinet-report",
+        "report-public",
+        "public-next",
+        "continue-stay"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 7471,
+      "uniqueRenderedParagraphWords": 7096,
+      "firstSceneOccurrenceWords": 6791,
+      "selectedChoiceLabelWords": 252,
+      "notebookRecordWords": 363,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "bench",
+          "revision": 1,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 2,
+          "words": 58,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "workshop",
+          "revision": 3,
+          "words": 376,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 4,
+          "words": 52,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 5,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "release",
+          "revision": 6,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 7,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "gallery",
+          "revision": 8,
+          "words": 483,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "simon_account",
+          "revision": 9,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 10,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "miriam_account",
+          "revision": 11,
+          "words": 385,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 12,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "ada_miriam",
+          "revision": 13,
+          "words": 298,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 14,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "simon_ada",
+          "revision": 15,
+          "words": 334,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 16,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "miriam_private",
+          "revision": 17,
+          "words": 482,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 18,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 19,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 20,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 21,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 22,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "public_account",
+          "revision": 23,
+          "words": 244,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 24,
+          "words": 370,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 25,
+          "words": 242,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "77f46cc91de126499af2d527330b69fd6028d273d50b68d607218d547d812fe3",
+      "durationMeasured": false
+    },
+    {
+      "name": "physical-rich-failure/public/stay",
+      "category": "one complete route after interpersonal failure; exclusive shorter private variants",
+      "actions": [
+        "arrival-miriam",
+        "bench-panic",
+        "miriam-account-record",
+        "hub-workshop",
+        "workshop-record",
+        "hub-cabinet",
+        "cabinet-test",
+        "release-record",
+        "hub-gallery",
+        "gallery-accuse",
+        "simon-account-record",
+        "hub-ada-private",
+        "ada-miriam-leave",
+        "hub-simon-private",
+        "simon-ada-leave",
+        "hub-miriam-private",
+        "miriam-private-listen",
+        "hub-shared",
+        "shared-optics",
+        "optics-narrow",
+        "cabinet-report",
+        "report-public",
+        "public-next",
+        "continue-stay"
+      ],
+      "ended": true,
+      "endingScene": "supper",
+      "renderedPassageWords": 6891,
+      "uniqueRenderedParagraphWords": 6591,
+      "firstSceneOccurrenceWords": 6286,
+      "selectedChoiceLabelWords": 243,
+      "notebookRecordWords": 377,
+      "occurrences": [
+        {
+          "sceneId": "arrival",
+          "revision": 0,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "bench",
+          "revision": 1,
+          "words": 363,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "miriam_account",
+          "revision": 2,
+          "words": 383,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 3,
+          "words": 58,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "workshop",
+          "revision": 4,
+          "words": 376,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 5,
+          "words": 52,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 6,
+          "words": 286,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "release",
+          "revision": 7,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 8,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "gallery",
+          "revision": 9,
+          "words": 483,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "simon_account",
+          "revision": 10,
+          "words": 372,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 11,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "ada_miriam",
+          "revision": 12,
+          "words": 298,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 13,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "simon_ada",
+          "revision": 14,
+          "words": 135,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 15,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "miriam_private",
+          "revision": 16,
+          "words": 132,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "concourse",
+          "revision": 17,
+          "words": 75,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "shared",
+          "revision": 18,
+          "words": 379,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "optics",
+          "revision": 19,
+          "words": 1053,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "cabinet",
+          "revision": 20,
+          "words": 178,
+          "firstSceneOccurrence": false
+        },
+        {
+          "sceneId": "report",
+          "revision": 21,
+          "words": 356,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "public_account",
+          "revision": 22,
+          "words": 244,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "continuation",
+          "revision": 23,
+          "words": 370,
+          "firstSceneOccurrence": true
+        },
+        {
+          "sceneId": "supper",
+          "revision": 24,
+          "words": 279,
+          "firstSceneOccurrence": true
+        }
+      ],
+      "terminalStateHash": "6b1785218ed02df505bfb53982af843cb43406e8b696034856588aa0adb780f8",
+      "durationMeasured": false
+    }
+  ]
+}

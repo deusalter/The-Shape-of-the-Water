@@ -1,0 +1,11 @@
+University Physics Volume 3, §2.1 Images Formed by Plane Mirrors
+Authors: Samuel J. Ling, Jeff Sanny, William Moebs
+URL: https://openstax.org/books/university-physics-volume-3/pages/2-1-images-formed-by-plane-mirrors
+Read 2026-10-03. Inspected image construction, virtual/real distinction, locating image and multiple-image paragraphs with Figures2.2–2.4.
+
+Reviewer paraphrase: Plane-mirror virtual images are located by backward extension of reflected rays, at equal magnitude object/image distance. A virtual image is visible and photographable but is not a real image projected onto a screen at its apparent location. Successive plane reflections can be modeled by successive image constructions.
+
+Bounded inspected quotation: "the object and image distances should have the opposite signs"
+
+Retrieved HTML SHA-256: b857326993a3fc44b2279c0f1c344bc09eaf61c671a74ee9a22e848dd02b2229
+Full source extraction was inspected transiently; this retained file is a scope note, not a full snapshot.

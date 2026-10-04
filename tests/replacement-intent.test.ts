@@ -30,4 +30,32 @@ describe('replacement intent survives failed saves',()=>{
   it('discards abandoned replacement intent when the player explicitly reloads committed progress',()=>{
     const intent=new ReplacementIntent();intent.request();expect(intent.needsArchive(intent.snapshot())).toBe(true);intent.discard();expect(intent.needsArchive(intent.snapshot())).toBe(false);intent.request();expect(intent.needsArchive(intent.snapshot())).toBe(true);
   });
+  it('retains the exact branch parent through quota failure and later retry',async()=>{
+    const store=new GameStore(new IDBFactory(),'replacement-branch-parent'),intent=new ReplacementIntent();
+    const parent=['cup','inspect-drain','return-sink','propose-rinse'].reduce((state,id)=>move(state,id),createGame(fixtureContent));
+    await store.save(fixtureContent,parent,0);
+    const ended=move(parent,'finish-fixture');
+    await store.save(fixtureContent,ended,1);
+    intent.request({branchFrom:{kind:'protected'}});
+    const snapshot=intent.snapshot();
+    const put=vi.spyOn(IDBObjectStore.prototype,'put').mockImplementation(()=>{throw new DOMException('Injected full storage','QuotaExceededError');});
+    try {expect(await store.save(fixtureContent,parent,2,intent.saveOptions(snapshot))).toMatchObject({ok:false,code:'quota'});} finally {put.mockRestore();}
+    expect(intent.saveOptions(intent.snapshot())).toEqual({archiveCurrent:true,branchFrom:{kind:'protected'}});
+    const continued=move(parent,'ask-gently');
+    const retry=await store.save(fixtureContent,continued,2,intent.saveOptions(intent.snapshot()));
+    expect(retry.ok).toBe(true);if(retry.ok)intent.committed(snapshot);
+    expect((await store.getRunMetadata(fixtureContent))?.parent?.revision).toBe(parent.revision);
+    expect(intent.saveOptions(intent.snapshot())).toEqual({});
+    await store.close();
+  });
+  it('keeps queued replacement metadata isolated from caller mutation and earlier commits',()=>{
+    const intent=new ReplacementIntent();
+    const options={branchFrom:{kind:'archive' as const,id:'first'}};
+    intent.request(options);const first=intent.snapshot();options.branchFrom.id='mutated';
+    intent.request({origin:'import'});const second=intent.snapshot();
+    expect(intent.saveOptions(first)).toEqual({archiveCurrent:true,branchFrom:{kind:'archive',id:'first'}});
+    intent.committed(first);
+    expect(intent.saveOptions(second)).toEqual({archiveCurrent:true,origin:'import'});
+  });
+
 });

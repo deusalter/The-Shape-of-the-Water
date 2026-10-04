@@ -1,0 +1,19 @@
+{
+  "status": "candidate; root activation pending",
+  "legacyFileSha256": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+  "candidateFileSha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+  "legacyContentHash": "0bd022ad793897d6a92c6dbd7054951c7ca8e07ea5d8158ad786d6e3279be432",
+  "candidateContentHash": "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d",
+  "sceneCount": 22,
+  "sourceCount": 19,
+  "choiceCount": 52,
+  "paragraphWords": 7876,
+  "limits": [
+    "Only explicit legacy observation literals map to encountered v2 sources.",
+    "Old proof flags do not create accepted selected-evidence deductions.",
+    "Old heard_miriam_intimate flag does not acquire the private-confidence source; pressed refusal used the same flag.",
+    "Old saved transcript remains literal; new first-arrival protagonist paragraphs are not inserted into its past.",
+    "No loop occasion reset has been integrated.",
+    "Candidate route checks are targeted, not exhaustive; no human timing."
+  ]
+}

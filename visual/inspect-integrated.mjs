@@ -1,0 +1,52 @@
+import { chromium, expect } from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+const root = '/workspace/literary-detective';
+await mkdir(`${root}/visual/browser`,{recursive:true});
+const browser = await chromium.launch({executablePath:'/usr/bin/chromium',headless:true});
+const context = await browser.newContext({viewport:{width:1440,height:1080},reducedMotion:'reduce'});
+const page = await context.newPage();
+const errors=[];page.on('pageerror',error=>errors.push(error.message));
+const route=[];
+await page.goto('http://127.0.0.1:4173/',{waitUntil:'networkidle'});
+const art = page.locator('.encounter-art');
+await expect(art).toHaveCount(0);
+for(const label of ['Ask Ada to show you the cut cord.','Take the cord to the empty cabinet for a test.']) {
+  await page.getByRole('button',{name:label,exact:false}).click();
+  route.push(label);
+}
+await expect(page.getByRole('heading',{name:'An empty test',exact:true})).toBeVisible();
+await expect(art).toHaveCount(1);
+await expect(page.locator('.encounter-cast figure')).toHaveCount(2);
+await page.locator('.encounter-location img').evaluate(img=>img.decode());
+await page.locator('.encounter-portrait img').evaluateAll(images=>Promise.all(images.map(img=>img.decode())));
+const checks=[];
+for(const [width,height] of [[1440,1080],[760,1024],[390,844],[320,740]]) {
+  await page.setViewportSize({width,height});
+  await page.evaluate(()=>window.scrollTo(0,0));
+  await page.screenshot({path:`${root}/visual/browser/release-${width}-closed.png`,fullPage:true});
+  const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
+  expect(overflow).toBe(false);
+  checks.push({width,height,horizontalOverflow:overflow});
+}
+await page.setViewportSize({width:1440,height:1080});
+await page.locator('.encounter-evidence>summary').focus();
+await page.keyboard.press('Enter');
+await expect(page.locator('.encounter-evidence')).toHaveAttribute('open','');
+await page.screenshot({path:`${root}/visual/browser/release-1440-open.png`,fullPage:true});
+await page.getByRole('combobox',{name:/Text size/}).selectOption('large');
+await page.setViewportSize({width:390,height:844});
+await page.screenshot({path:`${root}/visual/browser/release-390-large-open.png`,fullPage:true});
+expect(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)).toBe(false);
+const animation=await page.locator('.encounter-art').evaluate(el=>({animation:getComputedStyle(el).animationName,transition:getComputedStyle(el).transitionDuration}));
+const axe=await new AxeBuilder({page}).include('.encounter-art').analyze();
+const images=await page.locator('.encounter-art img').evaluateAll(images=>images.map(img=>({src:new URL(img.src).pathname,width:img.naturalWidth,height:img.naturalHeight,complete:img.complete,alt:img.alt})));
+await page.getByRole('button',{name:'Keep the test result and ask for the recording of the actual event.',exact:false}).click();
+await expect(page.getByRole('heading',{name:'One minute',exact:true})).toBeVisible();
+await expect(art).toHaveCount(0);
+const report={date:new Date().toISOString(),kind:'actual integrated dev-player Chromium inspection',url:'http://127.0.0.1:4173/',route,contentSha256:createHash('sha256').update(await readFile(`${root}/src/content/case.json`)).digest('hex'),checks,keyboardDisclosure:'Enter opens native details after focusing summary',largeTextMobileOverflow:false,reducedMotion:animation,images,axeViolations:axe.violations,pageErrors:errors,choiceNavigation:'release to recording; scene art absent after navigation',limits:['Chromium only','No real assistive-technology or human artistic acceptance','Full app accessibility is outside this scoped artwork check','No measured playtime']};
+await writeFile(`${root}/visual/browser/report.json`,JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify({screenshots:6,viewportChecks:checks.length,artAxeViolations:axe.violations.length,pageErrors:errors.length,images:images.map(({src,width,height})=>({src,width,height}))}));
+expect(axe.violations).toHaveLength(0);expect(errors).toHaveLength(0);
+await browser.close();

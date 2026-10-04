@@ -1,0 +1,24 @@
+# Blaise: actual-scene follow-up
+
+Read `narrative/loop/BLAISE-FIRST-RETURN.md` in full, all 263 lines, and the current Blaise section of `narrative/NAMES.md`. Reviewed scene SHA-256: `51724b056cd6cfc5ec1ca27b90d2a96817514dabdf2f90c887a0dd97b575bee8`. Naming-file SHA-256: `699d8b67480eaeccdc512a711734012bc98d684e7b7861600bfc237681094bd5`. This is an actual reading of the corrected male-protagonist audition, with author context and alternatives visible. It is not a blind or human playtest. Requested/accepted configuration remains `gpt-6-astra` / `max`; backend identity is unattested. No canon edits.
+
+The scene now enacts the owner's psychological direction. Its strongest passage is the attempted reconstruction at lines 183–201. Blaise positions the chair to recover a touch; Ada catches the chair instead. The unsuccessful act changes what he can still claim to remember about the warmth on his wrist. In the offered-hand branch, present kindness does not supply the expected feeling of recognition, and Ada is waiting too. That is a developed encounter rather than an explanation of the proposed premise. Preserve it.
+
+The earlier choir exchange earns the later attention to breath. Ada identifies someone under a particular shared condition, then says she would ask a name outside that condition. The potato answer leaves her with a private thought that is ordinary and inaccessible to Blaise. The echo of Simon's voice before his visible speech is also effective: a specific remembered sentence briefly seems external, and the second occurrence makes him reconsider where the first was. No diagnosis or all-invalidating dream explanation is imposed.
+
+## Two concrete repairs
+
+1. **The common paragraph assumes the spoken branch.** Line 119 ends: “That difference was already here when you opened your mouth.” In the alternative at lines 105–115, Blaise has deliberately remained silent. The thought about changed memory should cover either action. A small noncanonical alternative is: “That difference was already here before you tried.” The surrounding doubt about what his intervention establishes is worth keeping.
+2. **Stage the water in the offered-hand branch.** At line 227, “She has just had it under the tap” supplies the reason her hand is cooler. The tap has explicitly run only in the sibling branch at lines 213–215. The common passage brings the saucepan to the sink but does not yet put her hand under water. A brief wash/rinse in this branch or the common action would earn the temperature difference. This is a small staging omission, not grounds to remove the tactile comparison.
+
+One optional cut: line 87, “Nothing has followed you except the part for which you have no parcel.” The missing weight, changed handhold and doubled voice have already delivered the disturbance. This sentence names an unspecified surviving “part” with more certainty than Blaise has, and its balanced formulation briefly sounds like an author closing an argument. Removing it would keep the next action under that uncertainty. No replacement image is needed.
+
+## Staging, voices and names
+
+The repeated arrival retains the actual rabbit-supported mirror, Ada's bucket and saucepan, Simon turning his phone down, Miriam's paired shoes/wet sock/peas, and the inside-out sleeve on the washing line. Simon's spoken words at line 79 reproduce the baseline's words exactly; only the attribution punctuation changes. The new return does not imply that he has read his current accusation from the hidden screen. The missing next-day chairs and the chair later beside the spectators' bench can coexist; no staging objection is warranted there. The three-word wrist-contact memory is performed before it is recalled.
+
+Ada remains distinct: “If we were singing,” “No. What is it?”, the loose leg, and her final limit on accompanying him all answer the immediate circumstance. “Sounds like me” does not become an authoritative answer about identity. Simon responds with recording equipment and leaves the unobserved transition undrawn; Miriam asks for usable speech without acquiring a therapist's voice. Blaise's fixation on mouths, hands and the timing of his own response now supplies his focal difference. Do not add signature expressions to every turn.
+
+The Pascal association is embodied here as a physically vulnerable consciousness unable to settle its own continuity by inspection. Bloom remains in a particular day's contact, body and ordinary exchange. The God-facing part of the naming intention has not yet been dramatized in this audition; that is a scope limit, not a demand to insert a speech. Neither association needs recognition to make the chair scene work.
+
+Retain this scene's main construction, repair the two branch details, and let the lead decide the optional cut. This completes the requested actual-read follow-up. No additional architecture or replacement canon is proposed.

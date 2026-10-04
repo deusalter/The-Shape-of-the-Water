@@ -1,10 +1,12 @@
-# The Shape of the Water
+# The Shape of the Water: live v2 first-night manuscript
 
-Complete author manuscript, provisional editorial baseline dated 2026-10-03. This is a derived, spoiler-bearing reading copy of `src/content/case.json`, SHA-256 `267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086`. Edit the JSON under the sole lead writer’s authority, then regenerate this copy. No owner approval or human playtesting is implied. All base passages, variants and choices follow; source order is not a single playable route.
+Derived from `src/content/case-v2.json`, SHA-256 `8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751`. Root reports the main and Studio entrypoints activated with both first-night proof routes and legacy migration/replay checked. This reading copy contains the currently live short case, not the complete expanded game. Source order is not a single route. The prior v1 reading copy is preserved at `accepted/MANUSCRIPT-v1-checkpoint.md`; the older candidate reading copy remains unchanged as history. See CURRENT-READING-ORDER.md for the unintegrated loop scenes.
+
+
 
 ## The Shape of the Water
 
-Scene ID: `arrival`.
+Scene `arrival`.
 
 You have come for your mirror. At the shallow end of the saltwater bath, Simon Vane has propped its largest surviving piece against a pink swimming float. The float is a rabbit. Its two ears rise on either side of your reflection.
 
@@ -26,17 +28,27 @@ Simon turns his phone face down. On its screen, before it disappears, you see a 
 
 Beyond the windows a laundry has hung a row of white overalls. One sleeve is inside out. There is enough daylight left to examine the cabinet. The bath closes when Ada finishes putting things away; she has stopped doing that.
 
+“Blaise?” Simon says. He has been waiting for you to look at him. You have been watching your mouth between the rabbit’s ears. When you turn, the face leaves the glass before you have stopped expecting it to be there.
+
+You know this room by its sounds: a wet foot leaving the tiles, a chair dragged under the gallery, the short return of a voice from the wall behind the diving board. Simon has made something here that he says can be seen without a person. You want to know what he means by that before he uses your presence to establish it.
+
+Ada shifts the saucepan across her knees. Miriam takes one finger out from under the peas and puts it back. You put your own hands in your pockets. The cold glass has not touched them, but you keep checking that they are empty.
+
 You can establish what happened to the mirror, ask what Simon thinks the sight established, and decide what account to give the people expecting to come tomorrow.
 
-### Available actions
+
+### Choices
 
 - Sit beside Miriam and ask what she needs first. → `bench` (`arrival-miriam`).
+
 - Ask Ada to show you the cut cord. → `workshop` (`arrival-ada`).
+
 - Examine the cabinet before taking an account. → `cabinet` (`arrival-cabinet`).
+
 
 ## One wet sock
 
-Scene ID: `bench`.
+Scene `bench`.
 
 Miriam is trying to remove her wet sock without using her swollen hand. Ada kneels, takes the sock at its heel and peels it off. Miriam does not thank her until Ada has stood up.
 
@@ -64,14 +76,17 @@ You ask whether she became unwell before she tried the door.
 
 She asks you to keep the cabinet empty until the exit is tested. Simon calls down to ask whether she could describe the sight for tomorrow’s visitors. “Later,” she tells him. “I’ll decide what I want to say.”
 
-### Available actions
+
+### Choices
 
 - Write down her sequence and leave the cause of her distress undiagnosed. → `concourse` (`bench-record`).
-- Ask whether fear could explain why the door seemed stuck. → `miriam_account` (`bench-panic`). Requires action confirmation.
+
+- Ask whether fear could explain why the door seemed stuck. → `miriam_account` (`bench-panic`).
+
 
 ## The missing alto
 
-Scene ID: `workshop`.
+Scene `workshop`.
 
 Ada carries the saucepan into a room that was once used for keeping swimming costumes dry. Somebody has written the names of musical parts on the old drying racks. The bath choir rehearses here because nobody minds if it sounds like a bath choir.
 
@@ -97,14 +112,17 @@ On the bench is the printed plan Simon brought on Monday. It shows the door, the
 
 “No. I told him to. Then I got on with the filter. That’s what I did.” She does not move the plan away from you.
 
-### Available actions
+
+### Choices
 
 - Keep Ada’s admission and the cord ends with the evidence. → `concourse` (`workshop-record`).
+
 - Take the cord to the empty cabinet for a test. → `release` (`workshop-to-test`).
+
 
 ## The brass ring
 
-Scene ID: `cabinet`.
+Scene `cabinet`.
 
 The mirror is bolted to the inside of the cabinet’s rigid door, facing the shallow water tray when the door is shut. The door opens outward. A chalk arc on the tiles marks its swing. The concrete gallery pier interrupts the arc before the door can lie flat against the cabinet wall.
 
@@ -122,9 +140,10 @@ Inside, a narrow stripe of daylight lies across the remaining glass. As water in
 
 Simon puts his hand on the door edge, then takes it away from a sliver of glass. “There was an inside release. Please don’t let that get lost.”
 
-### Later or conditional passage
 
-Requires all: `proof_binding`. The engine uses the last matching passage and preserves every earlier seen version.
+### Variant cabinet.variant1
+
+Conditions: {"requires": ["proof_binding"], "when": null}
 
 You inspect the brass ring from outside the cabinet. It pulls a cable; the cable withdraws the latch. The door moves a little in its damaged frame. You have heard or tested how the external cord could hold it shut despite this movement.
 
@@ -136,9 +155,10 @@ Simon asks to see the wording. He leaves the brass ring where it is. Ada puts th
 
 A stripe of light lies across a surviving part of the glass. Opening the cabinet has made its source easier to trace. It has not stopped appearing.
 
-### Later or conditional passage
 
-Requires all: `proof_binding`, `inspected_cabinet`. The engine uses the last matching passage and preserves every earlier seen version.
+### Variant cabinet.variant2
+
+Conditions: {"requires": ["proof_binding", "inspected_cabinet"], "when": null}
 
 The brass ring is where it was. You pull it from outside and hear the same click. The latch withdraws. Nothing about that first sound needs to be withdrawn from your account.
 
@@ -152,17 +172,23 @@ Simon answers before you can. “Yes.” Then he asks to see the wording.
 
 The stripe lies across the surviving glass. The changed account of the door has not removed it.
 
-### Available actions
+
+### Choices
 
 - Record the click without concluding that the closed cabinet could be escaped. → `concourse` (`cabinet-cautious`).
-- Treat the working latch as support for a usable exit, pending a fuller test. → `concourse` (`cabinet-infer`). Unavailable after proof_binding.
+
+- Treat the working latch as support for a usable exit, pending a fuller test. → `concourse` (`cabinet-infer`).
+
 - Ask for an empty, padded test of the cord and release together. → `release` (`cabinet-test`).
-- Add the later reading: the latch released, but the external cord still held the door. → `concourse` (`cabinet-revise`). Requires proof_binding.
-- Take the established sequence back to the three people waiting. → `report` (`cabinet-report`). Requires heard_shared, optics_done, proof_cut, proof_timing, proof_binding.
+
+- Add the later reading: the latch released, but the external cord still held the door. → `concourse` (`cabinet-revise`).
+
+- Take the established sequence back to the three people waiting. → `report` (`cabinet-report`).
+
 
 ## The view for nobody
 
-Scene ID: `gallery`.
+Scene `gallery`.
 
 Simon has gone upstairs to fold the borrowed chairs. Miriam has followed him as far as the landing. She tells him one of his socks is inside out.
 
@@ -196,16 +222,21 @@ Simon opens a folded card. His phrase is indeed there: “An unconditioned sight
 
 He will show the longer recording of the incident. You can also ask him directly about the cord or return later to repeat the optical result without anyone enclosed.
 
-### Available actions
+
+### Choices
 
 - Ask to watch the whole incident clip, with sound. → `recording` (`gallery-recording`).
+
 - Ask whether Simon added any fastening after Miriam went inside. → `simon_account` (`gallery-direct`).
-- Accuse Simon of misleading Miriam about the exit, within her hearing. → `simon_account` (`gallery-accuse`). Requires action confirmation.
+
+- Accuse Simon of misleading Miriam about the exit, within her hearing. → `simon_account` (`gallery-accuse`).
+
 - Keep his printed claim for the later optical test. → `concourse` (`gallery-hub`).
+
 
 ## At the shallow end
 
-Scene ID: `concourse`.
+Scene `concourse`.
 
 The bath is still open to the people already inside it. Ada has turned off the lane clock. The ordinary clock above the entrance continues, a minute slower than the one on Simon’s phone.
 
@@ -213,64 +244,82 @@ You have room to compare their accounts. The cabinet can be examined from outsid
 
 You can compare the accounts of the cut and the request to leave, and examine what held or released the door. The object can show how its parts work. What somebody heard has to come from an account or a recording.
 
-### Later or conditional passage
 
-Requires all: `heard_miriam`. The engine uses the last matching passage and preserves every earlier seen version.
+### Variant concourse.variant1
+
+Conditions: {"requires": ["heard_miriam"], "when": null}
 
 Miriam has changed the towel beneath the peas. She puts the damp one over the rail beside her sock. When Simon calls down from the gallery, she asks him to come down if he wants an answer.
 
 Her account gives an order to the sounds inside. The cabinet, Ada’s actions and Simon’s longer recording can still be examined.
 
-### Later or conditional passage
 
-Requires all: `heard_ada`. The engine uses the last matching passage and preserves every earlier seen version.
+### Variant concourse.variant2
+
+Conditions: {"requires": ["heard_ada"], "when": null}
 
 Ada has put the plan where you can find it. She resumes gathering the lane ropes, stopping when one catches under a bench. Nobody else seems to know whether to help or leave her alone.
 
 The cut ends remain in the workshop. Miriam is on the bench; Simon is upstairs. The cabinet can be reached without getting inside.
 
-### Later or conditional passage
 
-Requires all: `heard_miriam`, `heard_ada`. The engine uses the last matching passage and preserves every earlier seen version.
+### Variant concourse.variant3
+
+Conditions: {"requires": ["heard_miriam", "heard_ada"], "when": null}
 
 Ada brings Miriam a dry towel without being asked. Miriam moves the sock to make room for it. You have heard their accounts; they can be compared with the parts of the cabinet and Simon’s recording.
 
 From upstairs comes the sound of a chair being folded and unfolded. Simon is still there.
 
-### Later or conditional passage
 
-Requires all: `proof_cut`, `proof_timing`, `proof_binding`. The engine uses the last matching passage and preserves every earlier seen version.
+### Variant concourse.variant4
+
+Conditions: {"requires": ["proof_cut", "proof_timing", "proof_binding"], "when": null}
 
 Ada has cleared a place on the bench for the plan, the cord and the phone. You have enough to state a bounded sequence. There are other questions you can still ask before bringing everyone together.
 
 The door was held after its latch released; Miriam asked to leave before Ada cut the cord. The authorship of the additional binding has been acknowledged or recorded. Whether you trust every explanation of why is a further judgment.
 
-### Later or conditional passage
 
-Requires all: `heard_shared`, `optics_done`. The engine uses the last matching passage and preserves every earlier seen version.
+### Variant concourse.variant5
+
+Conditions: {"requires": ["heard_shared", "optics_done"], "when": null}
 
 The empty model has been put beside the broken cabinet. The stripe continues to appear when light reaches the tray. Nobody is waiting for a further revelation before dealing with the door.
 
 The three people are waiting for the account you will give and for whom you will give it to. You can revisit earlier material first. What you saw and heard there remains in your transcript.
 
-### Available actions
 
-- Hear Miriam’s sequence from inside the cabinet. → `bench` (`hub-bench`). Unavailable after heard_miriam.
-- Ask Ada about her knife and the cut cord. → `workshop` (`hub-workshop`). Unavailable after heard_ada.
+### Choices
+
+- Hear Miriam’s sequence from inside the cabinet. → `bench` (`hub-bench`).
+
+- Ask Ada about her knife and the cut cord. → `workshop` (`hub-workshop`).
+
 - Examine or revisit the cabinet’s release. → `cabinet` (`hub-cabinet`).
+
 - Find Simon in the gallery. → `gallery` (`hub-gallery`).
-- Replay Simon’s full recording of the incident. → `recording` (`hub-recording`). Requires heard_simon.
-- Reconstruct the binding with the cabinet empty. → `release` (`hub-test`). Requires seen_cabinet.
-- Ask Miriam what she expected from the trial. → `miriam_account` (`hub-miriam`). Requires heard_miriam.
-- Carry dry towels into the workshop, where Ada and Miriam are talking. → `ada_miriam` (`hub-ada-private`). Requires heard_ada, heard_miriam.
-- Help Ada bring the folded chairs up to Simon. → `simon_ada` (`hub-simon-private`). Requires heard_simon, heard_ada.
-- Walk with Miriam to collect her coat. → `miriam_private` (`hub-miriam-private`). Requires heard_miriam.
-- Bring the three accounts together beside the cabinet. → `shared` (`hub-shared`). Requires proof_cut, proof_timing, proof_binding.
-- Return to the agreed causal sequence and choose its audience. → `report` (`hub-report`). Requires heard_shared, optics_done, proof_cut, proof_timing, proof_binding.
+
+- Replay Simon’s full recording of the incident. → `recording` (`hub-recording`).
+
+- Reconstruct the binding with the cabinet empty. → `release` (`hub-test`).
+
+- Ask Miriam what she expected from the trial. → `miriam_account` (`hub-miriam`).
+
+- Carry dry towels into the workshop, where Ada and Miriam are talking. → `ada_miriam` (`hub-ada-private`).
+
+- Help Ada bring the folded chairs up to Simon. → `simon_ada` (`hub-simon-private`).
+
+- Walk with Miriam to collect her coat. → `miriam_private` (`hub-miriam-private`).
+
+- Bring the three people together and give them the supported sequence. → `shared` (`hub-shared`).
+
+- Return to the agreed causal sequence and choose its audience. → `report` (`hub-report`).
+
 
 ## An empty test
 
-Scene ID: `release`.
+Scene `release`.
 
 Ada will not let anyone sit inside. She pads the mirror frame with folded towels and places a chair between the opening door and the concrete pier. Simon objects to the chair until he understands what it is preventing.
 
@@ -304,14 +353,17 @@ He pulls the unused end of cord through his hands. “Not while I had this round
 
 The test establishes an obstruction and a possible impact. Miriam’s account or the continuous recording must supply the request and the actual order. Simon’s acknowledgment supplies the authorship of the added binding. Nobody has had to become trapped to find out.
 
-### Available actions
+
+### Choices
 
 - Record the test and Simon’s acknowledgment separately from the accounts of timing. → `concourse` (`release-record`).
+
 - Keep the test result and ask for the recording of the actual event. → `recording` (`release-film`).
+
 
 ## One minute
 
-Scene ID: `recording`.
+Scene `recording`.
 
 Simon hands over his phone with the sound already turned up. “The other clip was for the picture. This one was meant to show we hadn’t cut anything out.”
 
@@ -335,14 +387,17 @@ The clip shows a sequence and contains a request. It does not show Miriam’s fa
 
 You can compare the visible binding with the inside latch without accepting any private account. The door’s attempted movement stops at the cord; after the cut it opens. An empty reconstruction is still available if you want to examine that relation more closely.
 
-### Available actions
+
+### Choices
 
 - Preserve the full sequence, including Miriam’s request and Simon’s answer. → `concourse` (`recording-keep`).
+
 - Keep the clip and ask Simon to explain the added cord. → `simon_account` (`recording-account`).
+
 
 ## What he was attending to
 
-Scene ID: `simon_account`.
+Scene `simon_account`.
 
 Simon sets his folded chair down. The hinge has pinched a crescent into his thumb. He studies it while you ask about the binding.
 
@@ -370,9 +425,10 @@ He does not say the broken mirror made the stripe false. He wants to test differ
 
 His account supports an intention to darken the seam. The cord and the film can corroborate his actions; they cannot certify every part of his remembered intention.
 
-### Later or conditional passage
 
-Requires all: `shamed_simon`. The engine uses the last matching passage and preserves every earlier seen version.
+### Variant simon_account.variant1
+
+Conditions: {"requires": ["shamed_simon"], "when": null}
 
 “You’re saying I lied,” Simon says. “All right. Let me give you the verbs.” He speaks to Miriam rather than to you. He still puts the phone and the cord within your reach.
 
@@ -400,14 +456,17 @@ He does not say the broken mirror made the stripe false. He wants to test differ
 
 His account supports an intention to darken the seam. The cord and the film can corroborate his actions; they cannot certify every part of his remembered intention.
 
-### Available actions
+
+### Choices
 
 - Record his acknowledgment and the limits of what it proves. → `concourse` (`simon-account-record`).
+
 - Ask for the continuous clip before drawing a conclusion about the cut. → `recording` (`simon-account-film`).
+
 
 ## The person complaining
 
-Scene ID: `miriam_account`.
+Scene `miriam_account`.
 
 Miriam has arranged the frozen peas into a thinner layer. She asks you to hold the bag while she finds the opening. The peas are no longer frozen enough to remain individuals when she presses them.
 
@@ -431,9 +490,10 @@ From downstairs Simon asks whether she had at any point wanted him to stop the l
 
 When you return to the sequence, she repeats it without embellishment: ring, click, push, request, second request, Ada’s warning, release of the door, impact. She accepts that the cause of her distress remains medically unestablished. She does not accept that an unestablished diagnosis makes her request uncertain.
 
-### Later or conditional passage
 
-Requires all: `pressed_miriam`. The engine uses the last matching passage and preserves every earlier seen version.
+### Variant miriam_account.variant1
+
+Conditions: {"requires": ["pressed_miriam"], "when": null}
 
 “You want me to say panic,” Miriam says. “It might be panic. Put a question mark by it. Now let me finish the things I do know.” She takes the bag of peas back from you and sets it on her lap.
 
@@ -455,13 +515,15 @@ From downstairs Simon asks whether she had at any point wanted him to stop the l
 
 When you return to the sequence, she repeats it without embellishment: ring, click, push, request, second request, Ada’s warning, release of the door, impact. She accepts that the cause of her distress remains medically unestablished. She does not accept that an unestablished diagnosis makes her request uncertain.
 
-### Available actions
+
+### Choices
 
 - Keep her claim about nature distinct from the sequence she reports. → `concourse` (`miriam-account-record`).
 
+
 ## The Thursday room
 
-Scene ID: `ada_miriam`.
+Scene `ada_miriam`.
 
 The dry towels go on the highest rack. Ada cannot reach it without standing on the low bench. Miriam puts her good hand on the bench to steady it. They perform this small arrangement without discussing it.
 
@@ -497,13 +559,15 @@ Ada frees her finger. “Thursday. Quarter past nine. If they do the long one, t
 
 You ask whether the key should go back on its hook. Ada says yes, then changes her mind and puts it in her pocket. Miriam does not mention this. When you take the last towel, Ada asks her about an old choir member’s operation. They talk about the practical problem of sending flowers to somebody who grows better flowers than anybody else.
 
-### Available actions
+
+### Choices
 
 - Finish the towels and give them the room. → `concourse` (`ada-miriam-leave`).
 
+
 ## Carrying chairs
 
-Scene ID: `simon_ada`.
+Scene `simon_ada`.
 
 You carry two chairs. Ada carries four, which is too many. Simon takes two from her on the landing. For a while the only conversation is about which stack each chair fits.
 
@@ -539,9 +603,10 @@ He laughs once. From below, Miriam asks where the spare key to the towel room is
 
 Without Ada there, Simon seems to have lost the person he was speaking to. He thanks you for carrying the chairs and begins counting them. He counts the same stack twice.
 
-### Later or conditional passage
 
-Requires all: `shamed_simon`. The engine uses the last matching passage and preserves every earlier seen version.
+### Variant simon_ada.variant1
+
+Conditions: {"requires": ["shamed_simon"], "when": null}
 
 Simon takes the chairs from you without looking up. He addresses Ada for the rest of the exchange. Your accusation has not cost you access to the evidence; it has cost you his willingness to speak privately to you.
 
@@ -555,13 +620,15 @@ Ada asks if his sister can come later, when the glass is cleared. “She can sti
 
 He says his sister will certainly get bored if he talks too much first. Ada tells him to keep an eye on himself, then carries a stack of chairs to the wall. He helps her. When you offer to carry another, he says they have finished.
 
-### Available actions
+
+### Choices
 
 - Leave the family story with the people who heard it. → `concourse` (`simon-ada-leave`).
 
+
 ## The inside pocket
 
-Scene ID: `miriam_private`.
+Scene `miriam_private`.
 
 Miriam’s coat is hanging beside three children’s coats left since August. She feels in both pockets for her keys, then remembers putting them in a shoe. You offer to fetch the shoe. She says she is glad someone saw her remember.
 
@@ -591,9 +658,10 @@ You ask whether she thinks her mother exists somewhere now.
 
 Her shoe is by the bench. As you walk toward it, she asks if you have somebody you can call when you need an hour out of a room. You can answer as much of that question as you want. She does not ask for a name.
 
-### Later or conditional passage
 
-Requires all: `pressed_miriam`. The engine uses the last matching passage and preserves every earlier seen version.
+### Variant miriam_private.variant1
+
+Conditions: {"requires": ["pressed_miriam"], "when": null}
 
 Miriam takes her coat down. She feels in its pockets and remembers that her keys are in her shoe. You offer to fetch it.
 
@@ -605,13 +673,15 @@ She puts her good arm into the sleeve first. The other sleeve requires some care
 
 At the bench she takes the shoe from you and finds the keys under its loose insole. “There we are.” She starts toward the others, carrying the coat over her good arm.
 
-### Available actions
+
+### Choices
 
 - Keep this conversation private and return with her keys. → `concourse` (`miriam-private-listen`).
 
+
 ## The same account in the same room
 
-Scene ID: `shared`.
+Scene `shared`.
 
 You put the plan on the bench. Ada weighs down one corner with the closed knife. Simon starts to put his phone on another, remembers the glass underneath it and chooses a different place.
 
@@ -649,14 +719,17 @@ Miriam asks her to wait until you have kept whatever measurements you need. Ada 
 
 Simon picks up the small camera. “Before you take it apart, will you look at what it actually did? From outside. You can see every part.” Miriam asks Ada whether they can make an open model on a bench. Ada looks at the time, then goes to find something that will hold water.
 
-### Available actions
+
+### Choices
 
 - Repeat the light effect with the cabinet open and nobody enclosed. → `optics` (`shared-optics`).
+
 - Keep the agreed sequence and return to any unfinished conversations. → `concourse` (`shared-pause`).
+
 
 ## Without a spectator
 
-Scene ID: `optics`.
+Scene `optics`.
 
 Simon takes a smaller mirror from his tool case. Ada brings a baking tray from the workshop and fills it with pool water. They set an open model of the arrangement on a bench: light slit, shallow water, inclined mirror. It does not require a door. Miriam sits where she can see everyone’s hands.
 
@@ -708,21 +781,25 @@ Simon says the act can belong to the world and still misdescribe it. Miriam agre
 
 Ada wants the card. You pass it back. She covers half the slit to see what that will do. Simon bends to look. The disagreement has left them an experiment to carry out, though the experiment will not settle it.
 
-### Available actions
 
-- Ask Simon to describe the repeatable stripe on tomorrow’s card and remove “unconditioned sight.” → `cabinet` (`optics-narrow`). Unavailable after optics_done.
-- Keep the wider claim marked as disputed and ask Simon to preserve the apparatus measurements. → `cabinet` (`optics-measure`). Unavailable after optics_done.
-- Return to the cabinet with the optical result and your earlier note unchanged. → `cabinet` (`optics-return`). Requires optics_done.
+### Choices
+
+- Ask Simon to describe the repeatable stripe on tomorrow’s card and remove “unconditioned sight.” → `cabinet` (`optics-narrow`).
+
+- Keep the wider claim marked as disputed and ask Simon to preserve the apparatus measurements. → `cabinet` (`optics-measure`).
+
+- Return to the cabinet with the optical result and your earlier note unchanged. → `cabinet` (`optics-return`).
+
 
 ## Who will hear it
 
-Scene ID: `report`.
+Scene `report`.
 
 Simon brings the phone back. Tomorrow’s visitors have begun asking whether they should still come. He has not answered.
 
 You read the bounded account aloud. Simon added a binding across the door to darken its seam. The binding prevented exit after the inside latch had released. Miriam asked to leave before Ada cut the cord. The freed door struck the pier and the mirror broke. Ada’s account of rescue is supported by the sequence; an attempt to destroy the experiment is not needed to explain the cut.
 
-You identify the basis: Miriam’s report of the request, Ada’s acknowledgment of the cut, Simon’s acknowledgment of the binding, and the empty reconstruction and matching impact damage you examined. Each source establishes a different part of the sequence.
+You name the sources you selected for the finding, in the order recorded in your notebook. They support the binding, the request to leave, the cut and the door’s impact. You do not add another source merely because it would make the account sound more complete.
 
 You leave Miriam’s medical state undiagnosed. You do not claim to have inspected anybody’s intentions directly. Simon’s reason for the binding remains his acknowledged reason, consistent with the darkening seam. Ada’s stated reason for cutting is supported by a request that came first.
 
@@ -742,15 +819,16 @@ Miriam says she does not want her mother, her beliefs, or any guess about panic 
 
 You can send a factual correction to the same visitors who received the accusation. It will name the actions and withdraw the sabotage claim. Or you can give the full account only to the people here, cancel tomorrow’s trial publicly, and leave Simon to make his own correction. Ada has told you what the second choice will cost her tonight.
 
-### Later or conditional passage
 
-Requires all: `heard_recording`. The engine uses the last matching passage and preserves every earlier seen version.
+### Variant report.variant1
+
+Conditions: {"requires": ["heard_recording"], "when": null}
 
 Simon brings the phone back. Tomorrow’s visitors have begun asking whether they should still come. He has not answered.
 
 You read the bounded account aloud. Simon added a binding across the door to darken its seam. The binding prevented exit after the inside latch had released. Miriam asked to leave before Ada cut the cord. The freed door struck the pier and the mirror broke. Ada’s account of rescue is supported by the sequence; an attempt to destroy the experiment is not needed to explain the cut.
 
-You identify the basis: the continuous recording shows the binding, contains the request and answer, and shows the cut followed by the opening door’s impact. The three people’s accounts can be compared with it. The camera supplies no view into their intentions.
+You name the sources you selected for the finding, in the order recorded in your notebook. They support the binding, the request to leave, the cut and the door’s impact. You do not add another source merely because it would make the account sound more complete.
 
 You leave Miriam’s medical state undiagnosed. You do not claim to have inspected anybody’s intentions directly. Simon’s reason for the binding remains his acknowledged reason, consistent with the darkening seam. Ada’s stated reason for cutting is supported by a request that came first.
 
@@ -770,14 +848,17 @@ Miriam says she does not want her mother, her beliefs, or any guess about panic 
 
 You can send a factual correction to the same visitors who received the accusation. It will name the actions and withdraw the sabotage claim. Or you can give the full account only to the people here, cancel tomorrow’s trial publicly, and leave Simon to make his own correction. Ada has told you what the second choice will cost her tonight.
 
-### Available actions
 
-- Send the visitors the factual sequence and an explicit correction of the sabotage claim. → `public_account` (`report-public`). Requires action confirmation.
-- Keep the full account among the four of you; tell visitors only that tomorrow’s trial is canceled. → `private_account` (`report-private`). Requires action confirmation.
+### Choices
+
+- Send the visitors the factual sequence and an explicit correction of the sabotage claim. → `public_account` (`report-public`).
+
+- Keep the full account among the four of you; tell visitors only that tomorrow’s trial is canceled. → `private_account` (`report-private`).
+
 
 ## A correction
 
-Scene ID: `public_account`.
+Scene `public_account`.
 
 Simon types while you read the sequence. He pauses at his own name, then leaves it in. He reads the message aloud before sending it to the same group.
 
@@ -795,13 +876,15 @@ Ada begins unscrewing the hinge. Miriam steadies the door from its undamaged edg
 
 The stripe is still on the open model. Nobody has offered it as a consolation for the public correction. It remains something Simon knows how to make, and something the others can examine.
 
-### Available actions
+
+### Choices
 
 - Help finish making the cabinet safe, then decide whether to return for further work. → `continuation` (`public-next`).
 
+
 ## The people in this room
 
-Scene ID: `private_account`.
+Scene `private_account`.
 
 You give each of them the full account. Simon sends a shorter message to the visitors: tomorrow’s enclosed trial is canceled after a safety failure. He does not repeat the earlier allegation.
 
@@ -819,13 +902,15 @@ Simon asks if the full account can go in the box with the fragments. You keep a 
 
 The trial is canceled and the cabinet is being made safe. What the visitors will believe has not been settled by the four people standing here.
 
-### Available actions
+
+### Choices
 
 - Finish helping with the door, then decide whether to return for further work. → `continuation` (`private-next`).
 
+
 ## What remains to do
 
-Scene ID: `continuation`.
+Scene `continuation`.
 
 The door lies flat on two benches, wrapped in old towels. Simon has written the size of each recoverable piece on the wrapping. He asks permission to keep them until you agree what happens to the mirror. You give permission to store them, which is not an agreement about payment.
 
@@ -847,9 +932,10 @@ Simon looks for a blank page in the folder. There is none. Miriam turns one of h
 
 There is food in the workshop. The potatoes have gone cold. Ada has found bread and something in a jar she is willing to identify only as “last year’s.” You can stay, or take your copy of the account and leave.
 
-### Later or conditional passage
 
-Requires all: `narrow_card`. The engine uses the last matching passage and preserves every earlier seen version.
+### Variant continuation.variant1
+
+Conditions: {"requires": ["narrow_card"], "when": null}
 
 The door lies flat on two benches, wrapped in old towels. Simon has written the size of each recoverable piece on the wrapping. He asks permission to keep them until you agree what happens to the mirror. You give permission to store them, which is not an agreement about payment.
 
@@ -873,9 +959,10 @@ Simon looks for a blank page in the folder. There is none. Miriam turns one of h
 
 There is food in the workshop. The potatoes have gone cold. Ada has found bread and something in a jar she is willing to identify only as “last year’s.” You can stay, or take your copy of the account and leave.
 
-### Later or conditional passage
 
-Requires all: `disputed_card`. The engine uses the last matching passage and preserves every earlier seen version.
+### Variant continuation.variant2
+
+Conditions: {"requires": ["disputed_card"], "when": null}
 
 The door lies flat on two benches, wrapped in old towels. Simon has written the size of each recoverable piece on the wrapping. He asks permission to keep them until you agree what happens to the mirror. You give permission to store them, which is not an agreement about payment.
 
@@ -899,15 +986,19 @@ Simon looks for a blank page in the folder. There is none. Miriam turns one of h
 
 There is food in the workshop. The potatoes have gone cold. Ada has found bread and something in a jar she is willing to identify only as “last year’s.” You can stay, or take your copy of the account and leave.
 
-### Available actions
 
-- Offer to bring a second camera tomorrow and stay for supper tonight. → `supper` (`continue-stay`). Ends the run. Requires action confirmation.
-- Make no promise about tomorrow; stay and help cut the bread. → `supper` (`continue-supper-only`). Ends the run. Requires action confirmation.
-- Make no further promise and leave with the established account. → `leave` (`continue-leave`). Ends the run. Requires action confirmation.
+### Choices
+
+- Offer to bring a second camera tomorrow and stay for supper tonight. → `supper` (`continue-stay`).
+
+- Make no promise about tomorrow; stay and help cut the bread. → `supper` (`continue-supper-only`).
+
+- Make no further promise and leave with the established account. → `leave` (`continue-leave`).
+
 
 ## Four plates
 
-Scene ID: `supper`.
+Scene `supper`.
 
 Ada gives you the bread knife and a plate with a chip too small to warrant a warning. You notice it anyway. She tells you the pickle is marrow. Simon says he thought marrow was a crime committed by people with gardens. He takes some.
 
@@ -921,9 +1012,10 @@ Before you leave, you look once more at the wrapping around the mirror. Your nam
 
 When you put the pen down, it rolls into a fold in the towel. Ada takes it out before the next piece of glass is wrapped. She puts it beside your plate. There is still a slice of bread left.
 
-### Later or conditional passage
 
-Requires all: `private_finding`. The engine uses the last matching passage and preserves every earlier seen version.
+### Variant supper.variant1
+
+Conditions: {"requires": ["private_finding"], "when": null}
 
 Ada puts three plates on the table and then, after looking at you, finds a fourth. Her copy of the full account is beside her phone. She has sent it to the two people she mentioned. She does not say what they replied.
 
@@ -939,9 +1031,10 @@ Before you leave, you look once more at the wrapping around the mirror. Your nam
 
 When you put the pen down, it rolls into a fold in the towel. Ada takes it out before the next piece of glass is wrapped. She puts it beside your plate. There is still a slice of bread left.
 
-### Later or conditional passage
 
-Requires all: `public_correction`, `shamed_simon`. The engine uses the last matching passage and preserves every earlier seen version.
+### Variant supper.variant2
+
+Conditions: {"requires": ["public_correction", "shamed_simon"], "when": null}
 
 Simon sits at the far end of the table. He answers when you ask him to pass something, but his account of tomorrow’s apparatus is addressed to Miriam. The public correction has not repaired the earlier insult.
 
@@ -957,14 +1050,13 @@ Before you leave, you look once more at the wrapping around the mirror. Your nam
 
 When you put the pen down, it rolls into a fold in the towel. Ada takes it out before the next piece of glass is wrapped. She puts it beside your plate. There is still a slice of bread left.
 
-### Available actions
 
-Terminal passage.
+### Choices
 
 
 ## The mirror will keep
 
-Scene ID: `leave`.
+Scene `leave`.
 
 Ada checks that you have a copy of the account. She asks you to close the outer door firmly; the latch catches only if you bring it all the way to the frame. You do so, without treating this as a further clue.
 
@@ -976,8 +1068,23 @@ You fold the account along its original crease. On one side are the few sentence
 
 The bus comes while you are rereading the passage about the brass ring. The latch withdrew. The door moved a little. You put the phone away and hold out a hand for the driver.
 
-### Available actions
 
-Terminal passage.
+### Choices
 
 
+## The account in your notebook
+
+Scene `finding_notebook`.
+
+You put the sequence together beside the sources you used. The added cord held the door after the latch withdrew. Miriam asked to leave; Ada cut the cord; the freed door struck the pier.
+
+The account does not tell you everything Simon meant, or why the sight frightened Miriam. You have not used a private conversation to supply either answer.
+
+Ada is rinsing the saucepan. Simon looks up when you stop writing. He asks whether you have something to tell them. You can gather them now or finish another conversation first.
+
+
+### Choices
+
+- Bring the three people together and give them the supported sequence. → `shared` (`finding-share`).
+
+- Keep the finding in the notebook for now and return to the room. → `concourse` (`finding-keep`).

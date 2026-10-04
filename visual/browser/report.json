@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-03T23:02:20.265Z",
+  "kind": "actual integrated dev-player Chromium inspection",
+  "url": "http://127.0.0.1:4173/",
+  "route": [
+    "Ask Ada to show you the cut cord.",
+    "Take the cord to the empty cabinet for a test."
+  ],
+  "contentSha256": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+  "checks": [
+    {
+      "width": 1440,
+      "height": 1080,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 760,
+      "height": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "horizontalOverflow": false
+    }
+  ],
+  "keyboardDisclosure": "Enter opens native details after focusing summary",
+  "largeTextMobileOverflow": false,
+  "reducedMotion": {
+    "animation": "none",
+    "transition": "0s"
+  },
+  "images": [
+    {
+      "src": "/art/bath-shallow-end.png",
+      "width": 1536,
+      "height": 1024,
+      "complete": true,
+      "alt": "A pencil and pale watercolor illustration of the shallow end of the saltwater bath. High windows light mint tiles, dark water and the concrete spectators’ gallery. The walkway is empty."
+    },
+    {
+      "src": "/art/ada-march.png",
+      "width": 1122,
+      "height": 1402,
+      "complete": true,
+      "alt": "Ada: a sturdy middle-aged woman with a short greying brown bob and a worn indigo work shirt over a pale green top."
+    },
+    {
+      "src": "/art/simon-vane.png",
+      "width": 1122,
+      "height": 1402,
+      "complete": true,
+      "alt": "Simon: a lean middle-aged man with a long face, thinning dark wavy hair and a rust knit sweater beneath a worn brown work jacket."
+    },
+    {
+      "src": "/art/release-binding.svg",
+      "width": 900,
+      "height": 630,
+      "complete": true,
+      "alt": "Reconstruction of the empty test: external cord across the door, a separate ring and latch, an outward door swing stopped by a padded chair before the pier, and impact damage above the old felt pad."
+    }
+  ],
+  "axeViolations": [],
+  "pageErrors": [],
+  "choiceNavigation": "release to recording; scene art absent after navigation",
+  "limits": [
+    "Chromium only",
+    "No real assistive-technology or human artistic acceptance",
+    "Full app accessibility is outside this scoped artwork check",
+    "No measured playtime"
+  ]
+}

@@ -1,0 +1,874 @@
+{
+  "slots": [
+    {
+      "key": "evidence-fixture@2:73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+      "value": {
+        "commit": 9,
+        "current": {
+          "saveVersion": 2,
+          "schemaVersion": 2,
+          "engineVersion": 2,
+          "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+          "stateChecksum": "810527f16b1611ad8fadb0f9f1fd9867fa74ad94573510db5568d1efc3564ba6",
+          "state": {
+            "schemaVersion": 2,
+            "engineVersion": 2,
+            "contentId": "evidence-fixture",
+            "contentVersion": 2,
+            "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+            "revision": 4,
+            "currentScene": "bench",
+            "ended": false,
+            "flags": [
+              "cup-seen",
+              "reading-ready",
+              "second-ready",
+              "water"
+            ],
+            "observations": [
+              {
+                "id": "ring",
+                "text": "The blue cup stood beside a dry ring.",
+                "sceneId": "bench",
+                "revision": 0
+              },
+              {
+                "id": "rinse",
+                "text": "Rinse water leaves the same blue ring.",
+                "sceneId": "bench",
+                "revision": 1
+              },
+              {
+                "id": "aside",
+                "text": "Sanding dust lies below the bench.",
+                "sceneId": "bench",
+                "revision": 4
+              }
+            ],
+            "interpretations": [],
+            "relationships": [],
+            "sources": [
+              {
+                "id": "ring",
+                "title": "Dry ring",
+                "text": "The blue cup stood beside a dry ring.",
+                "kind": "observation",
+                "provenanceId": "bench-inspection",
+                "sceneId": "bench",
+                "revision": 0
+              },
+              {
+                "id": "rinse",
+                "title": "Rinse test",
+                "text": "Rinse water leaves the same blue ring.",
+                "kind": "observation",
+                "provenanceId": "sink-test",
+                "sceneId": "bench",
+                "revision": 1
+              },
+              {
+                "id": "aside",
+                "title": "Sanding dust",
+                "text": "Sanding dust lies below the bench.",
+                "kind": "observation",
+                "provenanceId": "dust-inspection",
+                "sceneId": "bench",
+                "revision": 4
+              }
+            ],
+            "deductions": [],
+            "eligibleInterpretations": [
+              {
+                "id": "ring-reading",
+                "revision": 1
+              },
+              {
+                "id": "second-reading",
+                "revision": 1
+              }
+            ],
+            "hints": [],
+            "transcript": [
+              {
+                "kind": "passage",
+                "revision": 0,
+                "sceneId": "bench",
+                "title": "A bench in the workshop",
+                "paragraphs": [
+                  "The cup stands beside a dry ring. ORIGINAL_PASSAGE_SENTINEL"
+                ],
+                "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+                "variantId": "bench.base",
+                "blocks": [
+                  {
+                    "id": "bench.original",
+                    "text": "The cup stands beside a dry ring. ORIGINAL_PASSAGE_SENTINEL"
+                  }
+                ]
+              },
+              {
+                "kind": "action",
+                "revision": 1,
+                "sceneId": "bench",
+                "label": "Test the rinse water.",
+                "command": {
+                  "id": "3acb34d4-a70f-4057-9684-dac1b7157b02",
+                  "expectedRevision": 0,
+                  "type": "choose",
+                  "choiceId": "test-rinse"
+                }
+              },
+              {
+                "kind": "passage",
+                "revision": 1,
+                "sceneId": "sink",
+                "title": "The rinse sink",
+                "paragraphs": [
+                  "A droplet dries blue on the white rim."
+                ],
+                "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+                "variantId": "sink.base",
+                "blocks": [
+                  {
+                    "id": "sink.text.cb50966b36defa59",
+                    "text": "A droplet dries blue on the white rim."
+                  }
+                ]
+              },
+              {
+                "kind": "action",
+                "revision": 2,
+                "sceneId": "sink",
+                "label": "Return to the bench.",
+                "command": {
+                  "id": "cbd88c07-2c36-426f-83b7-54ea716b8757",
+                  "expectedRevision": 1,
+                  "type": "choose",
+                  "choiceId": "return-sink"
+                }
+              },
+              {
+                "kind": "passage",
+                "revision": 2,
+                "sceneId": "bench",
+                "title": "A bench in the workshop",
+                "paragraphs": [
+                  "The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL"
+                ],
+                "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+                "variantId": "bench.after-rinse",
+                "blocks": [
+                  {
+                    "id": "bench.revisited",
+                    "text": "The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL"
+                  }
+                ]
+              },
+              {
+                "kind": "action",
+                "revision": 3,
+                "sceneId": "bench",
+                "label": "Inspect the cup.",
+                "command": {
+                  "id": "2afc268e-3d03-4d08-b078-1acc3cbf9add",
+                  "expectedRevision": 2,
+                  "type": "choose",
+                  "choiceId": "cup"
+                }
+              },
+              {
+                "kind": "passage",
+                "revision": 3,
+                "sceneId": "bench",
+                "title": "A bench in the workshop",
+                "paragraphs": [
+                  "The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL"
+                ],
+                "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+                "variantId": "bench.after-rinse",
+                "blocks": [
+                  {
+                    "id": "bench.revisited",
+                    "text": "The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL"
+                  }
+                ]
+              },
+              {
+                "kind": "action",
+                "revision": 4,
+                "sceneId": "bench",
+                "label": "Inspect the sanding dust.",
+                "command": {
+                  "id": "db90af77-36bf-45b6-a680-e9d353b48ff4",
+                  "expectedRevision": 3,
+                  "type": "choose",
+                  "choiceId": "inspect-aside"
+                }
+              },
+              {
+                "kind": "passage",
+                "revision": 4,
+                "sceneId": "bench",
+                "title": "A bench in the workshop",
+                "paragraphs": [
+                  "The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL"
+                ],
+                "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+                "variantId": "bench.after-rinse",
+                "blocks": [
+                  {
+                    "id": "bench.revisited",
+                    "text": "The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL"
+                  }
+                ]
+              }
+            ],
+            "processedCommandIds": [
+              "3acb34d4-a70f-4057-9684-dac1b7157b02",
+              "cbd88c07-2c36-426f-83b7-54ea716b8757",
+              "2afc268e-3d03-4d08-b078-1acc3cbf9add",
+              "db90af77-36bf-45b6-a680-e9d353b48ff4"
+            ],
+            "commands": [
+              {
+                "id": "3acb34d4-a70f-4057-9684-dac1b7157b02",
+                "expectedRevision": 0,
+                "type": "choose",
+                "choiceId": "test-rinse"
+              },
+              {
+                "id": "cbd88c07-2c36-426f-83b7-54ea716b8757",
+                "expectedRevision": 1,
+                "type": "choose",
+                "choiceId": "return-sink"
+              },
+              {
+                "id": "2afc268e-3d03-4d08-b078-1acc3cbf9add",
+                "expectedRevision": 2,
+                "type": "choose",
+                "choiceId": "cup"
+              },
+              {
+                "id": "db90af77-36bf-45b6-a680-e9d353b48ff4",
+                "expectedRevision": 3,
+                "type": "choose",
+                "choiceId": "inspect-aside"
+              }
+            ],
+            "migrationSeed": null,
+            "npcState": [
+              {
+                "id": "worker",
+                "knows": [
+                  "worker-private"
+                ],
+                "believes": [
+                  "worker-private-belief"
+                ],
+                "claims": []
+              },
+              {
+                "id": "witness",
+                "knows": [],
+                "believes": [
+                  "cup-was-drunk-from"
+                ],
+                "claims": []
+              }
+            ]
+          }
+        },
+        "portable": "{\"saveVersion\":2,\"schemaVersion\":2,\"engineVersion\":2,\"kind\":\"encountered-run\",\"content\":{\"id\":\"evidence-fixture\",\"version\":2,\"hash\":\"73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b\"},\"commands\":[{\"id\":\"3acb34d4-a70f-4057-9684-dac1b7157b02\",\"expectedRevision\":0,\"type\":\"choose\",\"choiceId\":\"test-rinse\"},{\"id\":\"cbd88c07-2c36-426f-83b7-54ea716b8757\",\"expectedRevision\":1,\"type\":\"choose\",\"choiceId\":\"return-sink\"},{\"id\":\"2afc268e-3d03-4d08-b078-1acc3cbf9add\",\"expectedRevision\":2,\"type\":\"choose\",\"choiceId\":\"cup\"},{\"id\":\"db90af77-36bf-45b6-a680-e9d353b48ff4\",\"expectedRevision\":3,\"type\":\"choose\",\"choiceId\":\"inspect-aside\"}],\"seen\":{\"transcript\":[{\"kind\":\"passage\",\"revision\":0,\"sceneId\":\"bench\",\"title\":\"A bench in the workshop\",\"paragraphs\":[\"The cup stands beside a dry ring. ORIGINAL_PASSAGE_SENTINEL\"],\"contentHash\":\"73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b\",\"variantId\":\"bench.base\",\"blocks\":[{\"id\":\"bench.original\",\"text\":\"The cup stands beside a dry ring. ORIGINAL_PASSAGE_SENTINEL\"}]},{\"kind\":\"action\",\"revision\":1,\"sceneId\":\"bench\",\"label\":\"Test the rinse water.\",\"command\":{\"id\":\"3acb34d4-a70f-4057-9684-dac1b7157b02\",\"expectedRevision\":0,\"type\":\"choose\",\"choiceId\":\"test-rinse\"}},{\"kind\":\"passage\",\"revision\":1,\"sceneId\":\"sink\",\"title\":\"The rinse sink\",\"paragraphs\":[\"A droplet dries blue on the white rim.\"],\"contentHash\":\"73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b\",\"variantId\":\"sink.base\",\"blocks\":[{\"id\":\"sink.text.cb50966b36defa59\",\"text\":\"A droplet dries blue on the white rim.\"}]},{\"kind\":\"action\",\"revision\":2,\"sceneId\":\"sink\",\"label\":\"Return to the bench.\",\"command\":{\"id\":\"cbd88c07-2c36-426f-83b7-54ea716b8757\",\"expectedRevision\":1,\"type\":\"choose\",\"choiceId\":\"return-sink\"}},{\"kind\":\"passage\",\"revision\":2,\"sceneId\":\"bench\",\"title\":\"A bench in the workshop\",\"paragraphs\":[\"The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL\"],\"contentHash\":\"73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b\",\"variantId\":\"bench.after-rinse\",\"blocks\":[{\"id\":\"bench.revisited\",\"text\":\"The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL\"}]},{\"kind\":\"action\",\"revision\":3,\"sceneId\":\"bench\",\"label\":\"Inspect the cup.\",\"command\":{\"id\":\"2afc268e-3d03-4d08-b078-1acc3cbf9add\",\"expectedRevision\":2,\"type\":\"choose\",\"choiceId\":\"cup\"}},{\"kind\":\"passage\",\"revision\":3,\"sceneId\":\"bench\",\"title\":\"A bench in the workshop\",\"paragraphs\":[\"The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL\"],\"contentHash\":\"73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b\",\"variantId\":\"bench.after-rinse\",\"blocks\":[{\"id\":\"bench.revisited\",\"text\":\"The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL\"}]},{\"kind\":\"action\",\"revision\":4,\"sceneId\":\"bench\",\"label\":\"Inspect the sanding dust.\",\"command\":{\"id\":\"db90af77-36bf-45b6-a680-e9d353b48ff4\",\"expectedRevision\":3,\"type\":\"choose\",\"choiceId\":\"inspect-aside\"}},{\"kind\":\"passage\",\"revision\":4,\"sceneId\":\"bench\",\"title\":\"A bench in the workshop\",\"paragraphs\":[\"The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL\"],\"contentHash\":\"73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b\",\"variantId\":\"bench.after-rinse\",\"blocks\":[{\"id\":\"bench.revisited\",\"text\":\"The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL\"}]}],\"sources\":[{\"id\":\"ring\",\"title\":\"Dry ring\",\"text\":\"The blue cup stood beside a dry ring.\",\"kind\":\"observation\",\"provenanceId\":\"bench-inspection\",\"sceneId\":\"bench\",\"revision\":0},{\"id\":\"rinse\",\"title\":\"Rinse test\",\"text\":\"Rinse water leaves the same blue ring.\",\"kind\":\"observation\",\"provenanceId\":\"sink-test\",\"sceneId\":\"bench\",\"revision\":1},{\"id\":\"aside\",\"title\":\"Sanding dust\",\"text\":\"Sanding dust lies below the bench.\",\"kind\":\"observation\",\"provenanceId\":\"dust-inspection\",\"sceneId\":\"bench\",\"revision\":4}],\"deductions\":[],\"interpretations\":[],\"relationships\":[],\"hints\":[]},\"seenChecksum\":\"af0ac470450ffa815818ce8da3773066ab1fa80c1b229bb610be1e6cd31ac794\",\"migrationSeed\":null}",
+        "backups": [
+          {
+            "saveVersion": 2,
+            "schemaVersion": 2,
+            "engineVersion": 2,
+            "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+            "stateChecksum": "810527f16b1611ad8fadb0f9f1fd9867fa74ad94573510db5568d1efc3564ba6",
+            "state": {
+              "schemaVersion": 2,
+              "engineVersion": 2,
+              "contentId": "evidence-fixture",
+              "contentVersion": 2,
+              "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+              "revision": 4,
+              "currentScene": "bench",
+              "ended": false,
+              "flags": [
+                "cup-seen",
+                "reading-ready",
+                "second-ready",
+                "water"
+              ],
+              "observations": [
+                {
+                  "id": "ring",
+                  "text": "The blue cup stood beside a dry ring.",
+                  "sceneId": "bench",
+                  "revision": 0
+                },
+                {
+                  "id": "rinse",
+                  "text": "Rinse water leaves the same blue ring.",
+                  "sceneId": "bench",
+                  "revision": 1
+                },
+                {
+                  "id": "aside",
+                  "text": "Sanding dust lies below the bench.",
+                  "sceneId": "bench",
+                  "revision": 4
+                }
+              ],
+              "interpretations": [],
+              "relationships": [],
+              "sources": [
+                {
+                  "id": "ring",
+                  "title": "Dry ring",
+                  "text": "The blue cup stood beside a dry ring.",
+                  "kind": "observation",
+                  "provenanceId": "bench-inspection",
+                  "sceneId": "bench",
+                  "revision": 0
+                },
+                {
+                  "id": "rinse",
+                  "title": "Rinse test",
+                  "text": "Rinse water leaves the same blue ring.",
+                  "kind": "observation",
+                  "provenanceId": "sink-test",
+                  "sceneId": "bench",
+                  "revision": 1
+                },
+                {
+                  "id": "aside",
+                  "title": "Sanding dust",
+                  "text": "Sanding dust lies below the bench.",
+                  "kind": "observation",
+                  "provenanceId": "dust-inspection",
+                  "sceneId": "bench",
+                  "revision": 4
+                }
+              ],
+              "deductions": [],
+              "eligibleInterpretations": [
+                {
+                  "id": "ring-reading",
+                  "revision": 1
+                },
+                {
+                  "id": "second-reading",
+                  "revision": 1
+                }
+              ],
+              "hints": [],
+              "transcript": [
+                {
+                  "kind": "passage",
+                  "revision": 0,
+                  "sceneId": "bench",
+                  "title": "A bench in the workshop",
+                  "paragraphs": [
+                    "The cup stands beside a dry ring. ORIGINAL_PASSAGE_SENTINEL"
+                  ],
+                  "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+                  "variantId": "bench.base",
+                  "blocks": [
+                    {
+                      "id": "bench.original",
+                      "text": "The cup stands beside a dry ring. ORIGINAL_PASSAGE_SENTINEL"
+                    }
+                  ]
+                },
+                {
+                  "kind": "action",
+                  "revision": 1,
+                  "sceneId": "bench",
+                  "label": "Test the rinse water.",
+                  "command": {
+                    "id": "3acb34d4-a70f-4057-9684-dac1b7157b02",
+                    "expectedRevision": 0,
+                    "type": "choose",
+                    "choiceId": "test-rinse"
+                  }
+                },
+                {
+                  "kind": "passage",
+                  "revision": 1,
+                  "sceneId": "sink",
+                  "title": "The rinse sink",
+                  "paragraphs": [
+                    "A droplet dries blue on the white rim."
+                  ],
+                  "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+                  "variantId": "sink.base",
+                  "blocks": [
+                    {
+                      "id": "sink.text.cb50966b36defa59",
+                      "text": "A droplet dries blue on the white rim."
+                    }
+                  ]
+                },
+                {
+                  "kind": "action",
+                  "revision": 2,
+                  "sceneId": "sink",
+                  "label": "Return to the bench.",
+                  "command": {
+                    "id": "cbd88c07-2c36-426f-83b7-54ea716b8757",
+                    "expectedRevision": 1,
+                    "type": "choose",
+                    "choiceId": "return-sink"
+                  }
+                },
+                {
+                  "kind": "passage",
+                  "revision": 2,
+                  "sceneId": "bench",
+                  "title": "A bench in the workshop",
+                  "paragraphs": [
+                    "The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL"
+                  ],
+                  "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+                  "variantId": "bench.after-rinse",
+                  "blocks": [
+                    {
+                      "id": "bench.revisited",
+                      "text": "The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL"
+                    }
+                  ]
+                },
+                {
+                  "kind": "action",
+                  "revision": 3,
+                  "sceneId": "bench",
+                  "label": "Inspect the cup.",
+                  "command": {
+                    "id": "2afc268e-3d03-4d08-b078-1acc3cbf9add",
+                    "expectedRevision": 2,
+                    "type": "choose",
+                    "choiceId": "cup"
+                  }
+                },
+                {
+                  "kind": "passage",
+                  "revision": 3,
+                  "sceneId": "bench",
+                  "title": "A bench in the workshop",
+                  "paragraphs": [
+                    "The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL"
+                  ],
+                  "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+                  "variantId": "bench.after-rinse",
+                  "blocks": [
+                    {
+                      "id": "bench.revisited",
+                      "text": "The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL"
+                    }
+                  ]
+                },
+                {
+                  "kind": "action",
+                  "revision": 4,
+                  "sceneId": "bench",
+                  "label": "Inspect the sanding dust.",
+                  "command": {
+                    "id": "db90af77-36bf-45b6-a680-e9d353b48ff4",
+                    "expectedRevision": 3,
+                    "type": "choose",
+                    "choiceId": "inspect-aside"
+                  }
+                },
+                {
+                  "kind": "passage",
+                  "revision": 4,
+                  "sceneId": "bench",
+                  "title": "A bench in the workshop",
+                  "paragraphs": [
+                    "The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL"
+                  ],
+                  "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+                  "variantId": "bench.after-rinse",
+                  "blocks": [
+                    {
+                      "id": "bench.revisited",
+                      "text": "The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL"
+                    }
+                  ]
+                }
+              ],
+              "processedCommandIds": [
+                "3acb34d4-a70f-4057-9684-dac1b7157b02",
+                "cbd88c07-2c36-426f-83b7-54ea716b8757",
+                "2afc268e-3d03-4d08-b078-1acc3cbf9add",
+                "db90af77-36bf-45b6-a680-e9d353b48ff4"
+              ],
+              "commands": [
+                {
+                  "id": "3acb34d4-a70f-4057-9684-dac1b7157b02",
+                  "expectedRevision": 0,
+                  "type": "choose",
+                  "choiceId": "test-rinse"
+                },
+                {
+                  "id": "cbd88c07-2c36-426f-83b7-54ea716b8757",
+                  "expectedRevision": 1,
+                  "type": "choose",
+                  "choiceId": "return-sink"
+                },
+                {
+                  "id": "2afc268e-3d03-4d08-b078-1acc3cbf9add",
+                  "expectedRevision": 2,
+                  "type": "choose",
+                  "choiceId": "cup"
+                },
+                {
+                  "id": "db90af77-36bf-45b6-a680-e9d353b48ff4",
+                  "expectedRevision": 3,
+                  "type": "choose",
+                  "choiceId": "inspect-aside"
+                }
+              ],
+              "migrationSeed": null,
+              "npcState": [
+                {
+                  "id": "worker",
+                  "knows": [
+                    "worker-private"
+                  ],
+                  "believes": [
+                    "worker-private-belief"
+                  ],
+                  "claims": []
+                },
+                {
+                  "id": "witness",
+                  "knows": [],
+                  "believes": [
+                    "cup-was-drunk-from"
+                  ],
+                  "claims": []
+                }
+              ]
+            }
+          }
+        ],
+        "preEnding": null,
+        "ownership": {
+          "ownerId": "779af16a-d1f4-484a-9e52-226352f202b8",
+          "epoch": 9
+        },
+        "run": {
+          "runId": "run-f9884d74-2125-4661-aa6c-0a4b1a3b8b75",
+          "origin": "new",
+          "parent": null
+        },
+        "checkpointRuns": [
+          {
+            "stateChecksum": "810527f16b1611ad8fadb0f9f1fd9867fa74ad94573510db5568d1efc3564ba6",
+            "run": {
+              "runId": "run-f9884d74-2125-4661-aa6c-0a4b1a3b8b75",
+              "origin": "new",
+              "parent": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "recovery": [
+    {
+      "key": "evidence-fixture@2:73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b:8",
+      "value": {
+        "slot": "evidence-fixture@2:73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+        "previous": {
+          "commit": 7,
+          "portable": "{\"saveVersion\":2,\"schemaVersion\":2,\"engineVersion\":2,\"kind\":\"encountered-run\",\"content\":{\"id\":\"evidence-fixture\",\"version\":2,\"hash\":\"73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b\"},\"commands\":[{\"id\":\"3acb34d4-a70f-4057-9684-dac1b7157b02\",\"expectedRevision\":0,\"type\":\"choose\",\"choiceId\":\"test-rinse\"},{\"id\":\"cbd88c07-2c36-426f-83b7-54ea716b8757\",\"expectedRevision\":1,\"type\":\"choose\",\"choiceId\":\"return-sink\"}],\"seen\":{\"transcript\":[{\"kind\":\"passage\",\"revision\":0,\"sceneId\":\"bench\",\"title\":\"A bench in the workshop\",\"paragraphs\":[\"The cup stands beside a dry ring. ORIGINAL_PASSAGE_SENTINEL\"],\"contentHash\":\"73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b\",\"variantId\":\"bench.base\",\"blocks\":[{\"id\":\"bench.original\",\"text\":\"The cup stands beside a dry ring. ORIGINAL_PASSAGE_SENTINEL\"}]},{\"kind\":\"action\",\"revision\":1,\"sceneId\":\"bench\",\"label\":\"Test the rinse water.\",\"command\":{\"id\":\"3acb34d4-a70f-4057-9684-dac1b7157b02\",\"expectedRevision\":0,\"type\":\"choose\",\"choiceId\":\"test-rinse\"}},{\"kind\":\"passage\",\"revision\":1,\"sceneId\":\"sink\",\"title\":\"The rinse sink\",\"paragraphs\":[\"A droplet dries blue on the white rim.\"],\"contentHash\":\"73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b\",\"variantId\":\"sink.base\",\"blocks\":[{\"id\":\"sink.text.cb50966b36defa59\",\"text\":\"A droplet dries blue on the white rim.\"}]},{\"kind\":\"action\",\"revision\":2,\"sceneId\":\"sink\",\"label\":\"Return to the bench.\",\"command\":{\"id\":\"cbd88c07-2c36-426f-83b7-54ea716b8757\",\"expectedRevision\":1,\"type\":\"choose\",\"choiceId\":\"return-sink\"}},{\"kind\":\"passage\",\"revision\":2,\"sceneId\":\"bench\",\"title\":\"A bench in the workshop\",\"paragraphs\":[\"The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL\"],\"contentHash\":\"73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b\",\"variantId\":\"bench.after-rinse\",\"blocks\":[{\"id\":\"bench.revisited\",\"text\":\"The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL\"}]}],\"sources\":[{\"id\":\"ring\",\"title\":\"Dry ring\",\"text\":\"The blue cup stood beside a dry ring.\",\"kind\":\"observation\",\"provenanceId\":\"bench-inspection\",\"sceneId\":\"bench\",\"revision\":0},{\"id\":\"rinse\",\"title\":\"Rinse test\",\"text\":\"Rinse water leaves the same blue ring.\",\"kind\":\"observation\",\"provenanceId\":\"sink-test\",\"sceneId\":\"bench\",\"revision\":1}],\"deductions\":[],\"interpretations\":[],\"relationships\":[],\"hints\":[]},\"seenChecksum\":\"63b8cffeb302f87b0b66322ae99d6f1f8f28ec2b902fd91b124ba9704c6f8226\",\"migrationSeed\":null}",
+          "ownership": {
+            "ownerId": "665e6cb0-ca42-43b3-affb-a3778b1760f1",
+            "epoch": 1
+          },
+          "current": {
+            "damaged": "exact current bytes"
+          },
+          "backups": [
+            {
+              "damaged": "first backup"
+            },
+            {
+              "damaged": "second backup"
+            }
+          ],
+          "preEnding": {
+            "damaged": "protected bytes"
+          },
+          "run": {
+            "runId": "run-56c9cf71-d218-47f3-a68d-0f843eef8ea0",
+            "origin": "restart",
+            "parent": null,
+            "replacesRunId": "run-f2553536-1098-4c29-80f9-f45ea0a21a85"
+          },
+          "checkpointRuns": [
+            {
+              "stateChecksum": "dec85ea65f4018c9391fb3b4d5bb2f9f3b384789336d5b3456f4764190a76d5f",
+              "run": {
+                "runId": "run-56c9cf71-d218-47f3-a68d-0f843eef8ea0",
+                "origin": "restart",
+                "parent": null,
+                "replacesRunId": "run-f2553536-1098-4c29-80f9-f45ea0a21a85"
+              }
+            },
+            {
+              "stateChecksum": "40de752e25c29a136747fd716634e034afc2e2ab0a8f4e98f02ba0d6dbfce433",
+              "run": {
+                "runId": "run-56c9cf71-d218-47f3-a68d-0f843eef8ea0",
+                "origin": "restart",
+                "parent": null,
+                "replacesRunId": "run-f2553536-1098-4c29-80f9-f45ea0a21a85"
+              }
+            },
+            {
+              "stateChecksum": "53399b3e2cad9ac37da51582e4d0c2dbc1a24e757dc8372db7503fa8a2268b34",
+              "run": {
+                "runId": "run-56c9cf71-d218-47f3-a68d-0f843eef8ea0",
+                "origin": "restart",
+                "parent": null,
+                "replacesRunId": "run-f2553536-1098-4c29-80f9-f45ea0a21a85"
+              }
+            },
+            {
+              "stateChecksum": "299afab4414144c21c34de93b0cd55ff604ecb6914e05315aa743b55a8e8eab8",
+              "run": {
+                "runId": "run-f2553536-1098-4c29-80f9-f45ea0a21a85",
+                "origin": "new",
+                "parent": null
+              }
+            }
+          ],
+          "extraRaw": {
+            "unverified": "preserve exactly"
+          }
+        }
+      }
+    },
+    {
+      "key": "evidence-fixture@2:73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b:9:repair:run-f9884d74-2125-4661-aa6c-0a4b1a3b8b75",
+      "value": {
+        "slot": "evidence-fixture@2:73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+        "previous": {
+          "commit": 8,
+          "current": null,
+          "backups": [],
+          "preEnding": null,
+          "ownership": {
+            "ownerId": "665e6cb0-ca42-43b3-affb-a3778b1760f1",
+            "epoch": 1
+          }
+        },
+        "reason": "confirmed-repair"
+      }
+    }
+  ],
+  "archives": [
+    {
+      "key": "evidence-fixture@2:73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b:4",
+      "value": {
+        "slot": "evidence-fixture@2:73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+        "commit": 4,
+        "envelope": {
+          "saveVersion": 2,
+          "schemaVersion": 2,
+          "engineVersion": 2,
+          "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+          "stateChecksum": "299afab4414144c21c34de93b0cd55ff604ecb6914e05315aa743b55a8e8eab8",
+          "state": {
+            "schemaVersion": 2,
+            "engineVersion": 2,
+            "contentId": "evidence-fixture",
+            "contentVersion": 2,
+            "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+            "revision": 2,
+            "currentScene": "bench",
+            "ended": false,
+            "flags": [
+              "reading-ready",
+              "second-ready",
+              "water"
+            ],
+            "observations": [
+              {
+                "id": "ring",
+                "text": "The blue cup stood beside a dry ring.",
+                "sceneId": "bench",
+                "revision": 0
+              },
+              {
+                "id": "rinse",
+                "text": "Rinse water leaves the same blue ring.",
+                "sceneId": "bench",
+                "revision": 1
+              }
+            ],
+            "interpretations": [],
+            "relationships": [],
+            "sources": [
+              {
+                "id": "ring",
+                "title": "Dry ring",
+                "text": "The blue cup stood beside a dry ring.",
+                "kind": "observation",
+                "provenanceId": "bench-inspection",
+                "sceneId": "bench",
+                "revision": 0
+              },
+              {
+                "id": "rinse",
+                "title": "Rinse test",
+                "text": "Rinse water leaves the same blue ring.",
+                "kind": "observation",
+                "provenanceId": "sink-test",
+                "sceneId": "bench",
+                "revision": 1
+              }
+            ],
+            "deductions": [],
+            "eligibleInterpretations": [
+              {
+                "id": "ring-reading",
+                "revision": 1
+              },
+              {
+                "id": "second-reading",
+                "revision": 1
+              }
+            ],
+            "hints": [],
+            "transcript": [
+              {
+                "kind": "passage",
+                "revision": 0,
+                "sceneId": "bench",
+                "title": "A bench in the workshop",
+                "paragraphs": [
+                  "The cup stands beside a dry ring. ORIGINAL_PASSAGE_SENTINEL"
+                ],
+                "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+                "variantId": "bench.base",
+                "blocks": [
+                  {
+                    "id": "bench.original",
+                    "text": "The cup stands beside a dry ring. ORIGINAL_PASSAGE_SENTINEL"
+                  }
+                ]
+              },
+              {
+                "kind": "action",
+                "revision": 1,
+                "sceneId": "bench",
+                "label": "Test the rinse water.",
+                "command": {
+                  "id": "40c3a072-21bc-4eb1-abf2-e13aac1076a0",
+                  "expectedRevision": 0,
+                  "type": "choose",
+                  "choiceId": "test-rinse"
+                }
+              },
+              {
+                "kind": "passage",
+                "revision": 1,
+                "sceneId": "sink",
+                "title": "The rinse sink",
+                "paragraphs": [
+                  "A droplet dries blue on the white rim."
+                ],
+                "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+                "variantId": "sink.base",
+                "blocks": [
+                  {
+                    "id": "sink.text.cb50966b36defa59",
+                    "text": "A droplet dries blue on the white rim."
+                  }
+                ]
+              },
+              {
+                "kind": "action",
+                "revision": 2,
+                "sceneId": "sink",
+                "label": "Return to the bench.",
+                "command": {
+                  "id": "da299dfa-65cf-4d7a-98cc-bd382018a4e1",
+                  "expectedRevision": 1,
+                  "type": "choose",
+                  "choiceId": "return-sink"
+                }
+              },
+              {
+                "kind": "passage",
+                "revision": 2,
+                "sceneId": "bench",
+                "title": "A bench in the workshop",
+                "paragraphs": [
+                  "The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL"
+                ],
+                "contentHash": "73db9fd0777db7b45e393f2fd8190f4ff82badbf633ad008fb37328faf7db19b",
+                "variantId": "bench.after-rinse",
+                "blocks": [
+                  {
+                    "id": "bench.revisited",
+                    "text": "The ring remains. You have tested the rinse water. REVISIT_PASSAGE_SENTINEL"
+                  }
+                ]
+              }
+            ],
+            "processedCommandIds": [
+              "40c3a072-21bc-4eb1-abf2-e13aac1076a0",
+              "da299dfa-65cf-4d7a-98cc-bd382018a4e1"
+            ],
+            "commands": [
+              {
+                "id": "40c3a072-21bc-4eb1-abf2-e13aac1076a0",
+                "expectedRevision": 0,
+                "type": "choose",
+                "choiceId": "test-rinse"
+              },
+              {
+                "id": "da299dfa-65cf-4d7a-98cc-bd382018a4e1",
+                "expectedRevision": 1,
+                "type": "choose",
+                "choiceId": "return-sink"
+              }
+            ],
+            "migrationSeed": null,
+            "npcState": [
+              {
+                "id": "worker",
+                "knows": [
+                  "worker-private"
+                ],
+                "believes": [
+                  "worker-private-belief"
+                ],
+                "claims": []
+              },
+              {
+                "id": "witness",
+                "knows": [],
+                "believes": [
+                  "cup-was-drunk-from"
+                ],
+                "claims": []
+              }
+            ]
+          }
+        },
+        "run": {
+          "runId": "run-f2553536-1098-4c29-80f9-f45ea0a21a85",
+          "origin": "new",
+          "parent": null
+        }
+      }
+    }
+  ]
+}

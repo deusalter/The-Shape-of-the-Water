@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-04T00:02:55.021Z",
+  "source": "current source via noncanonical esbuild harness",
+  "checks": [
+    {
+      "name": "preview has one main landmark and retains the skip target",
+      "status": "PASS"
+    },
+    {
+      "name": "corrupt owned slot offers repair without automatic takeover or memory replacement",
+      "status": "PASS"
+    },
+    {
+      "name": "repair preview names exact current run and cancel changes no stored data",
+      "status": "PASS"
+    },
+    {
+      "name": "explicit unsaved continuation preserves damaged storage",
+      "status": "PASS"
+    },
+    {
+      "name": "real quota abort retains all bytes, ownership and exact active memory",
+      "status": "PASS"
+    },
+    {
+      "name": "confirmed repair saves exact continued run, rotates ownership, preserves recovery and archives",
+      "status": "PASS"
+    },
+    {
+      "name": "reloaded good checkpoint offers ordinary confirmed takeover instead of repair",
+      "status": "PASS"
+    },
+    {
+      "name": "repair view and embedding have zero axe violations",
+      "status": "PASS"
+    },
+    {
+      "name": "repair committed between preview and confirmation causes CAS conflict without overwriting either run",
+      "status": "PASS"
+    }
+  ],
+  "pageErrors": [],
+  "status": "PASS"
+}

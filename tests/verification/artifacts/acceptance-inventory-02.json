@@ -1,0 +1,1861 @@
+{
+  "scope": "Exact baseline c6c6845/c90f1e1 inventory. Passed means the stated baseline scope only; new expansion must rerun affected acceptance. No mandatory requirement is waived.",
+  "source": "docs/05-ACCEPTANCE-TESTS.md",
+  "sourceSha256": "d55b6b84ab08156a08ddb3f4572895462c590fc9c0fcd1bdd4726100a0dd6f5d",
+  "baselineHead": "c6c6845",
+  "runtimeCommit": "c90f1e1",
+  "contentFileSha256": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+  "count": 88,
+  "mandatoryCount": 87,
+  "conditionalNotTriggeredCount": 1,
+  "statuses": {
+    "Blocked": 16,
+    "Inconclusive": 12,
+    "N/A": 1,
+    "Not run": 3,
+    "Passed": 56
+  },
+  "evidenceCatalog": {
+    "BASE": [
+      "tests/verification/artifacts/baseline-reproduction.json",
+      "tests/verification/artifacts/baseline-verify-output.txt"
+    ],
+    "UI": [
+      "tests/verification/artifacts/baseline-browser/report.json",
+      "tests/verification/artifacts/baseline-browser/axe-player.json"
+    ],
+    "PROP": [
+      "tests/verification/properties.test.ts",
+      "tests/verification/dependencies.test.ts",
+      "tests/verification/artifacts/baseline-verify-output.txt"
+    ],
+    "ROUTE": [
+      "tests/verification/authored-routes.test.ts",
+      "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/authored-traces.json",
+      "tests/verification/artifacts/baseline-route-words.json"
+    ],
+    "SAVE": [
+      "tests/verification/persistence.test.ts",
+      "tests/storage.test.ts",
+      "tests/verification/artifacts/baseline-verify-output.txt"
+    ],
+    "EXPLORE": [
+      "tests/verification/explorer.test.ts",
+      "tests/verification/artifacts/baseline-guard-core.json",
+      "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/exploration-all.json"
+    ],
+    "LIT": [
+      "narrative/TREATMENTS.md",
+      "narrative/CANON.md",
+      "narrative/MANUSCRIPT.md",
+      "narrative/REVISION-LOG.md",
+      "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+      "docs/reviews/ROOT-DISCLOSURE-01.md"
+    ],
+    "PHIL": [
+      "research/philosophy/KANT.md",
+      "research/philosophy/SPINOZA.md",
+      "research/philosophy/SOURCES.json",
+      "research/philosophy/INFERENCE-METHOD.md",
+      "narrative/PHILOSOPHY-MAP.md",
+      "narrative/AUTHOR-NOTES.md",
+      "docs/reviews/PHILOSOPHY-DRAMA-01.md"
+    ],
+    "VOICE": [
+      "narrative/NAMES.md",
+      "narrative/VOICE.md",
+      "narrative/reviews/VOICE-BLIND-PACKET.md",
+      "narrative/reviews/VOICE-KEY.md",
+      "docs/reviews/VOICE-01.md",
+      "narrative/accepted/MANIFEST.json"
+    ],
+    "STUDIO": [
+      "src/Studio.tsx",
+      "tests/studio-storage.test.ts",
+      "tests/verification/artifacts/baseline-browser/report.json"
+    ],
+    "OFFLINE": [
+      "tests/offline.test.ts",
+      "tests/verification/artifacts/baseline-browser/report.json"
+    ],
+    "ASSET": [
+      "docs/ASSETS-AND-LICENSES.md",
+      "licenses/DEPENDENCIES.json",
+      "tests/verification/artifacts/baseline-browser/report.json"
+    ],
+    "CONT": [
+      "docs/archive/checkpoint-c6c6845",
+      "docs/execution/DECISIONS.md",
+      "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/checkpoint-evidence/handoff-rehearsal.json",
+      "tests/verification/artifacts/baseline-reproduction.json"
+    ],
+    "BLIND": [
+      "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/checkpoint-evidence/reader-packet-provenance.json",
+      "narrative/reviews/VOICE-BLIND-PACKET.md"
+    ],
+    "V1": [
+      "docs/contracts/ENGINE-API.md",
+      "src/engine/schema.ts",
+      "src/engine/game.ts",
+      "src/persistence/store.ts"
+    ]
+  },
+  "items": [
+    {
+      "id": "AC-L01",
+      "requirement": "Inspect L0 outputs",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "LIT"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md"
+      ],
+      "baselineCoverage": "Different treatments, actual openings and documented lead revision exist.",
+      "remainingExpandedGoalWork": "Apply the same scene-specific process to the expansion; no excellence certification."
+    },
+    {
+      "id": "AC-L02",
+      "requirement": "Inspect narrative premise and source history",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "LIT"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md"
+      ],
+      "baselineCoverage": "Broken-mirror case and apparatus history inspected; retired registry plot absent.",
+      "remainingExpandedGoalWork": "Check expanded scenes do not introduce an administrative equivalent."
+    },
+    {
+      "id": "AC-L03",
+      "requirement": "Read major-character scenes without dossiers",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "LIT",
+        "VOICE"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "docs/reviews/VOICE-01.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/NAMES.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "narrative/VOICE.md",
+        "narrative/accepted/MANIFEST.json",
+        "narrative/reviews/VOICE-BLIND-PACKET.md",
+        "narrative/reviews/VOICE-KEY.md"
+      ],
+      "baselineCoverage": "Actual dialogue supports distinct wants and tactics in historical reviews and fresh manuscript inspection.",
+      "remainingExpandedGoalWork": "Review new repeated encounters without character dossiers; address underwritten ordinary lives."
+    },
+    {
+      "id": "AC-L04",
+      "requirement": "Trace a central intellectual question",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "LIT",
+        "PHIL"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "narrative/AUTHOR-NOTES.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/PHILOSOPHY-MAP.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "research/philosophy/INFERENCE-METHOD.md",
+        "research/philosophy/KANT.md",
+        "research/philosophy/SOURCES.json",
+        "research/philosophy/SPINOZA.md"
+      ],
+      "baselineCoverage": "Optics argument, serious objections and disclosure consequences occur in enacted scenes.",
+      "remainingExpandedGoalWork": "Trace the central question through the substantial new middle and endings."
+    },
+    {
+      "id": "AC-L05",
+      "requirement": "Read opening after each ending",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "LIT",
+        "ROUTE"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "tests/verification/artifacts/baseline-route-words.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/authored-traces.json",
+        "tests/verification/authored-routes.test.ts"
+      ],
+      "baselineCoverage": "Recontextualization and all ending variants preserve the fixed causal account; earlier passages inspected.",
+      "remainingExpandedGoalWork": "Reread the expanded opening after every new ending and trace each changed significance."
+    },
+    {
+      "id": "AC-L06",
+      "requirement": "Compare integrated prose with reviewer edits",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "LIT",
+        "VOICE"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "docs/reviews/VOICE-01.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/NAMES.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "narrative/VOICE.md",
+        "narrative/accepted/MANIFEST.json",
+        "narrative/reviews/VOICE-BLIND-PACKET.md",
+        "narrative/reviews/VOICE-KEY.md"
+      ],
+      "baselineCoverage": "Revision log preserves lead decisions, alternatives and two surgical voice cuts.",
+      "remainingExpandedGoalWork": "Record decisions on expansion criticism; do not silently homogenize voices."
+    },
+    {
+      "id": "AC-L07",
+      "requirement": "Inspect story lock",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "LIT",
+        "ROUTE"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "tests/verification/artifacts/baseline-route-words.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/authored-traces.json",
+        "tests/verification/authored-routes.test.ts"
+      ],
+      "baselineCoverage": "Canon, disclosure map, endings and concrete representative command routes exist.",
+      "remainingExpandedGoalWork": "Lock expanded chronology and knowledge limits after integration, then verify its routes."
+    },
+    {
+      "id": "AC-L08",
+      "requirement": "Inspect final required scenes and branches",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "LIT",
+        "BASE"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "tests/verification/artifacts/baseline-reproduction.json",
+        "tests/verification/artifacts/baseline-verify-output.txt"
+      ],
+      "baselineCoverage": "Compact required scenes and actual endings contain no critical placeholder.",
+      "remainingExpandedGoalWork": "Substantial middle and endings are not yet accepted or verified; inspect the full integrated candidate."
+    },
+    {
+      "id": "AC-L09",
+      "requirement": "Run narrative style checks and editorial review",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "LIT",
+        "BASE"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "tests/verification/artifacts/baseline-reproduction.json",
+        "tests/verification/artifacts/baseline-verify-output.txt"
+      ],
+      "baselineCoverage": "Actual content punctuation check passes; contextual editorial reviews are retained.",
+      "remainingExpandedGoalWork": "Run style checks and contextual review on integrated new prose; no automatic synonym cleanup."
+    },
+    {
+      "id": "AC-L10",
+      "requirement": "Audit claims of excellence or approval",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "CONT",
+        "BASE"
+      ],
+      "evidence": [
+        "docs/archive/checkpoint-c6c6845",
+        "docs/execution/DECISIONS.md",
+        "tests/verification/artifacts/baseline-reproduction.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/checkpoint-evidence/handoff-rehearsal.json"
+      ],
+      "baselineCoverage": "Evidence identifies simulations and scope; no owner approval, human duration or greatness score claimed.",
+      "remainingExpandedGoalWork": "Continue truthful claims; 4\u20136 hours remains a design target."
+    },
+    {
+      "id": "AC-G01",
+      "requirement": "Complete tiny fixture, reload, revisit",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "BASE",
+        "UI",
+        "SAVE"
+      ],
+      "evidence": [
+        "tests/storage.test.ts",
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json",
+        "tests/verification/artifacts/baseline-reproduction.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/persistence.test.ts"
+      ],
+      "baselineCoverage": "Fixture reload/revisit tests and real keyboard investigation/reload preserve prior state.",
+      "remainingExpandedGoalWork": "Rerun against v2 state and actual new route controls."
+    },
+    {
+      "id": "AC-G02",
+      "requirement": "Observe an item, later learn a relevant fact",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PROP",
+        "ROUTE"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-route-words.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/authored-traces.json",
+        "tests/verification/authored-routes.test.ts",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "Early cabinet observation and later reinterpretation preserve exact earlier occurrences and literal records.",
+      "remainingExpandedGoalWork": "Exercise new interpretation availability/review and return behavior in integrated UI."
+    },
+    {
+      "id": "AC-G03",
+      "requirement": "Choose two approaches to an encounter in separate runs",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "ROUTE",
+        "UI"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json",
+        "tests/verification/artifacts/baseline-route-words.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/authored-traces.json",
+        "tests/verification/authored-routes.test.ts"
+      ],
+      "baselineCoverage": "Distinct authored encounter choices produce their own flag/variant consequences.",
+      "remainingExpandedGoalWork": "Test new approach differences and exact UI actions across required encounters."
+    },
+    {
+      "id": "AC-G04",
+      "requirement": "Hear a private statement, speak to an uninformed NPC",
+      "applicability": "Mandatory",
+      "status": "Blocked",
+      "evidenceKeys": [
+        "V1"
+      ],
+      "evidence": [
+        "docs/contracts/ENGINE-API.md",
+        "src/engine/game.ts",
+        "src/engine/schema.ts",
+        "src/persistence/store.ts"
+      ],
+      "baselineCoverage": "Private encounters are flag-driven; independent NPC knowledge, beliefs and claims are absent.",
+      "remainingExpandedGoalWork": "Implement explicit disclosure and test uninformed NPC behavior with actual authored encounters."
+    },
+    {
+      "id": "AC-G05",
+      "requirement": "Change interpretation without new objective evidence",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PROP",
+        "ROUTE"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-route-words.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/authored-traces.json",
+        "tests/verification/authored-routes.test.ts",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "Separate observation/interpretation records; interpretation choice does not create an objective fact.",
+      "remainingExpandedGoalWork": "Reversible interpretive commitments and new readings need verification; never award facts for opinions."
+    },
+    {
+      "id": "AC-G06",
+      "requirement": "Submit a factual conclusion through each valid proof route",
+      "applicability": "Mandatory",
+      "status": "Blocked",
+      "evidenceKeys": [
+        "V1",
+        "ROUTE"
+      ],
+      "evidence": [
+        "docs/contracts/ENGINE-API.md",
+        "src/engine/game.ts",
+        "src/engine/schema.ts",
+        "src/persistence/store.ts",
+        "tests/verification/artifacts/baseline-route-words.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/authored-traces.json",
+        "tests/verification/authored-routes.test.ts"
+      ],
+      "baselineCoverage": "Both present evidence flag routes complete, but no selected-reference submission exists.",
+      "remainingExpandedGoalWork": "Verify each explicit nested proof alternative through actual submissions and UI."
+    },
+    {
+      "id": "AC-G07",
+      "requirement": "Submit correct claim with unsupported or unknown references",
+      "applicability": "Mandatory",
+      "status": "Blocked",
+      "evidenceKeys": [
+        "V1"
+      ],
+      "evidence": [
+        "docs/contracts/ENGINE-API.md",
+        "src/engine/game.ts",
+        "src/engine/schema.ts",
+        "src/persistence/store.ts"
+      ],
+      "baselineCoverage": "No factual-submission API exists; unavailable report guard is only a smaller protection.",
+      "remainingExpandedGoalWork": "Reject unsupported, unknown and unearned selected references without state mutation or answer leakage."
+    },
+    {
+      "id": "AC-G08",
+      "requirement": "Select every notebook item",
+      "applicability": "Mandatory",
+      "status": "Blocked",
+      "evidenceKeys": [
+        "V1"
+      ],
+      "evidence": [
+        "docs/contracts/ENGINE-API.md",
+        "src/engine/game.ts",
+        "src/engine/schema.ts",
+        "src/persistence/store.ts"
+      ],
+      "baselineCoverage": "There is no submitted-reference superset validation.",
+      "remainingExpandedGoalWork": "Reject irrelevant notebook supersets; allow only declared earned corroborators."
+    },
+    {
+      "id": "AC-G09",
+      "requirement": "Return after a consequential disclosure",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "ROUTE",
+        "PROP"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-route-words.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/authored-traces.json",
+        "tests/verification/authored-routes.test.ts",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "Public/private consequences and state-dependent returns preserve prior dialogue and observations.",
+      "remainingExpandedGoalWork": "Verify expanded NPC disclosures and changed encounters without rewriting historical snapshots."
+    },
+    {
+      "id": "AC-G10",
+      "requirement": "Make a signaled relationship-damaging choice",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "ROUTE",
+        "EXPLORE"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-guard-core.json",
+        "tests/verification/artifacts/baseline-route-words.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/authored-traces.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/exploration-all.json",
+        "tests/verification/authored-routes.test.ts",
+        "tests/verification/explorer.test.ts"
+      ],
+      "baselineCoverage": "Pressing Miriam and shaming Simon has a completed authored route; scoped baseline navigation has terminal paths.",
+      "remainingExpandedGoalWork": "Test new relationship failures, source alternatives and plausible interpersonal recovery in UI."
+    },
+    {
+      "id": "AC-G11",
+      "requirement": "Request help at early/late states",
+      "applicability": "Mandatory",
+      "status": "Blocked",
+      "evidenceKeys": [
+        "V1"
+      ],
+      "evidence": [
+        "docs/contracts/ENGINE-API.md",
+        "src/engine/game.ts",
+        "src/engine/schema.ts",
+        "src/persistence/store.ts"
+      ],
+      "baselineCoverage": "Guarded hints and factual-reveal commands absent.",
+      "remainingExpandedGoalWork": "Test early/late known-material hints, fresh reveal confirmation and no moral prescription."
+    },
+    {
+      "id": "AC-G12",
+      "requirement": "Search for hidden titles and use locked URLs",
+      "applicability": "Mandatory",
+      "status": "Inconclusive",
+      "evidenceKeys": [
+        "PROP",
+        "UI"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "Initial passage/export and sampled DOM exclude injected future markers; broad labels/URLs/search matrix not run.",
+      "remainingExpandedGoalWork": "Audit all normal projections, accessible names, locked navigation and previews for v2 hidden content."
+    },
+    {
+      "id": "AC-G13",
+      "requirement": "Reopen transcript after state-dependent text changes",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PROP",
+        "ROUTE",
+        "SAVE"
+      ],
+      "evidence": [
+        "tests/storage.test.ts",
+        "tests/verification/artifacts/baseline-route-words.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/authored-traces.json",
+        "tests/verification/authored-routes.test.ts",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/persistence.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "Frozen-history, repeat visits and save replay retain each originally shown variant.",
+      "remainingExpandedGoalWork": "Rerun after interpretation and migration changes, including mixed historical/current text."
+    },
+    {
+      "id": "AC-G14",
+      "requirement": "Open a major-action confirmation, change state/payload, submit",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PROP",
+        "UI"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "Old state/payload receipts rejected; current irreversible receipt accepted; forged extras rejected.",
+      "remainingExpandedGoalWork": "Extend receipt binding to deduction-associated major actions and hint reveal."
+    },
+    {
+      "id": "AC-G15",
+      "requirement": "Leave tab, change device clock, return",
+      "applicability": "Mandatory",
+      "status": "Inconclusive",
+      "evidenceKeys": [
+        "PROP"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "Audited engine and exercised paths use no wall clock; actual device-clock-change browser exercise not run.",
+      "remainingExpandedGoalWork": "Run leave-tab/time-change/resume test and verify new engine dependencies remain pure."
+    },
+    {
+      "id": "AC-G16",
+      "requirement": "Play all ending routes",
+      "applicability": "Mandatory",
+      "status": "Inconclusive",
+      "evidenceKeys": [
+        "ROUTE",
+        "UI"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json",
+        "tests/verification/artifacts/baseline-route-words.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/authored-traces.json",
+        "tests/verification/authored-routes.test.ts"
+      ],
+      "baselineCoverage": "24 ending combinations and additional engine traces complete; one normal keyboard ending route tested in browser.",
+      "remainingExpandedGoalWork": "Play every supported ending route through actual UI and compare fixed history/consequences."
+    },
+    {
+      "id": "AC-G17",
+      "requirement": "Revisit ending checkpoint and complete another branch",
+      "applicability": "Mandatory",
+      "status": "Blocked",
+      "evidenceKeys": [
+        "SAVE",
+        "UI"
+      ],
+      "evidence": [
+        "tests/storage.test.ts",
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/persistence.test.ts"
+      ],
+      "baselineCoverage": "Completed prior run retained and two ending states archived; full checkpoint branch model absent.",
+      "remainingExpandedGoalWork": "Restore protected checkpoint, complete second branch through UI and retain original branch metadata."
+    },
+    {
+      "id": "AC-G18",
+      "requirement": "Remove images/audio from necessary clues",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "ASSET",
+        "LIT"
+      ],
+      "evidence": [
+        "docs/ASSETS-AND-LICENSES.md",
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "licenses/DEPENDENCIES.json",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "Necessary clues are original text; no distributed image/audio clue information exists.",
+      "remainingExpandedGoalWork": "Keep textual reasoning equivalents for any new visual or optional media."
+    },
+    {
+      "id": "AC-E01",
+      "requirement": "Replay same commands against pinned bundle",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PROP",
+        "ROUTE"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-route-words.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/authored-traces.json",
+        "tests/verification/authored-routes.test.ts",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "Seeded deterministic replay compares every consequential field and exact command history.",
+      "remainingExpandedGoalWork": "Extend properties to v2 commands, accepted witnesses, NPC states and closure order."
+    },
+    {
+      "id": "AC-E02",
+      "requirement": "Freeze input state/content and dispatch",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PROP"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "Deep-frozen inputs and literal records/transcript prefixes survive actual dispatch.",
+      "remainingExpandedGoalWork": "Apply frozen-input properties to v2 proof evaluation, closure and migration."
+    },
+    {
+      "id": "AC-E03",
+      "requirement": "Repeat acquisition, choice, and committed command ID",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PROP"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "Repeated committed IDs and acquisitions are idempotent under tested defined behavior.",
+      "remainingExpandedGoalWork": "Cover all new command kinds, rejection retry IDs and duplicate accepted deductions."
+    },
+    {
+      "id": "AC-E04",
+      "requirement": "Fuzz invalid IDs/types/enums/deep conditions",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PROP",
+        "BASE"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-reproduction.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "Arbitrary JSON, invalid IDs/revisions and unsupported nested DSL safely reject in v1.",
+      "remainingExpandedGoalWork": "Fuzz actual v2 enums, bounded conditions/proofs and malformed imports; v1 rejection is not v2 coverage."
+    },
+    {
+      "id": "AC-E05",
+      "requirement": "Test nested AND/OR factual proofs",
+      "applicability": "Mandatory",
+      "status": "Blocked",
+      "evidenceKeys": [
+        "V1"
+      ],
+      "evidence": [
+        "docs/contracts/ENGINE-API.md",
+        "src/engine/game.ts",
+        "src/engine/schema.ts",
+        "src/persistence/store.ts"
+      ],
+      "baselineCoverage": "Nested AND/OR factual-proof evaluator absent.",
+      "remainingExpandedGoalWork": "Test nested alternatives, independent provenance, empty/malformed proofs and bounded witness explosion."
+    },
+    {
+      "id": "AC-E06",
+      "requirement": "Trigger multiple new interpretations",
+      "applicability": "Mandatory",
+      "status": "Blocked",
+      "evidenceKeys": [
+        "V1"
+      ],
+      "evidence": [
+        "docs/contracts/ENGINE-API.md",
+        "src/engine/game.ts",
+        "src/engine/schema.ts",
+        "src/persistence/store.ts"
+      ],
+      "baselineCoverage": "Interpretations are explicit choice records; automatic fixed-point closure absent.",
+      "remainingExpandedGoalWork": "Test deterministic finite positive closure, review separation and no automatic factual/moral conclusion."
+    },
+    {
+      "id": "AC-E07",
+      "requirement": "Project author truth, hidden beliefs, future text",
+      "applicability": "Mandatory",
+      "status": "Blocked",
+      "evidenceKeys": [
+        "PROP",
+        "UI",
+        "V1"
+      ],
+      "evidence": [
+        "docs/contracts/ENGINE-API.md",
+        "src/engine/game.ts",
+        "src/engine/schema.ts",
+        "src/persistence/store.ts",
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "Encountered-only v1 projections pass; hidden NPC/proof data model absent.",
+      "remainingExpandedGoalWork": "Test hidden truth/belief/proof/answer markers across v2 projection, UI and portable exports."
+    },
+    {
+      "id": "AC-E08",
+      "requirement": "Inspect engine dependencies",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PROP"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "AST dependency audit and throwing ambient traps pass for local v1 engine closure.",
+      "remainingExpandedGoalWork": "Audit all new modules and exercised v2 paths; third-party Zod source is not exhaustively audited."
+    },
+    {
+      "id": "AC-E09",
+      "requirement": "Exhaust exploration budget",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "EXPLORE"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-guard-core.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/exploration-all.json",
+        "tests/verification/explorer.test.ts"
+      ],
+      "baselineCoverage": "Actual exhausted searches and sentinels report INCONCLUSIVE with states, transitions and frontier.",
+      "remainingExpandedGoalWork": "New proof/knowledge search must retain all future-relevant fields and report actual remaining frontier."
+    },
+    {
+      "id": "AC-E10",
+      "requirement": "Reproduce softlock fixture and valid ending trace",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "EXPLORE",
+        "ROUTE"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-guard-core.json",
+        "tests/verification/artifacts/baseline-route-words.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/authored-traces.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/exploration-all.json",
+        "tests/verification/authored-routes.test.ts",
+        "tests/verification/explorer.test.ts"
+      ],
+      "baselineCoverage": "Concrete dead-end sentinel fails with replay; real terminal witnesses replay exactly.",
+      "remainingExpandedGoalWork": "Run v2 softlock sentinel and valid authored witnesses; conditional baseline quotient cannot certify v2."
+    },
+    {
+      "id": "AC-S01",
+      "requirement": "committed durability",
+      "applicability": "Mandatory",
+      "status": "Inconclusive",
+      "evidenceKeys": [
+        "SAVE",
+        "UI"
+      ],
+      "evidence": [
+        "tests/storage.test.ts",
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/persistence.test.ts"
+      ],
+      "baselineCoverage": "Injected abort retains previous commit; real quota/retry keeps candidate; delayed Saved-label timing not fully exercised.",
+      "remainingExpandedGoalWork": "Delay/abort actual consequential writes in browser and verify truthful status before/after commit."
+    },
+    {
+      "id": "AC-S02",
+      "requirement": "latest checkpoint corruption",
+      "applicability": "Mandatory",
+      "status": "Inconclusive",
+      "evidenceKeys": [
+        "SAVE"
+      ],
+      "evidence": [
+        "tests/storage.test.ts",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/persistence.test.ts"
+      ],
+      "baselineCoverage": "Corrupt current plus backups recover independently validated older state and retain damaged bytes in fake IndexedDB.",
+      "remainingExpandedGoalWork": "Exercise browser recovery offer and no-overwrite behavior for v2 envelopes and retained copies."
+    },
+    {
+      "id": "AC-S03",
+      "requirement": "safe import",
+      "applicability": "Mandatory",
+      "status": "Inconclusive",
+      "evidenceKeys": [
+        "SAVE",
+        "PROP"
+      ],
+      "evidence": [
+        "tests/storage.test.ts",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/persistence.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "Malformed/unknown/hash-mismatched state validation precedes store replacement in tested paths.",
+      "remainingExpandedGoalWork": "Run full size/hostile/reference browser import matrix and valid explicit slot/overwrite selection."
+    },
+    {
+      "id": "AC-S04",
+      "requirement": "migration and historical transcript",
+      "applicability": "Mandatory",
+      "status": "Blocked",
+      "evidenceKeys": [
+        "SAVE",
+        "V1"
+      ],
+      "evidence": [
+        "docs/contracts/ENGINE-API.md",
+        "src/engine/game.ts",
+        "src/engine/schema.ts",
+        "src/persistence/store.ts",
+        "tests/storage.test.ts",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/persistence.test.ts"
+      ],
+      "baselineCoverage": "Unknown exact hash refused and original retained/exportable; declared compatible migrations absent.",
+      "remainingExpandedGoalWork": "Test each declared old-save mapping and parse/transform/validation/commit failure, preserving old literal transcript."
+    },
+    {
+      "id": "AC-S05",
+      "requirement": "stale tabs",
+      "applicability": "Mandatory",
+      "status": "Blocked",
+      "evidenceKeys": [
+        "SAVE",
+        "UI"
+      ],
+      "evidence": [
+        "tests/storage.test.ts",
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/persistence.test.ts"
+      ],
+      "baselineCoverage": "Actual stale tab and no-notification CAS tests protect newer save; ownership takeover model absent.",
+      "remainingExpandedGoalWork": "Test explicit takeover/read-only ownership with notifications disabled as well as stale CAS."
+    },
+    {
+      "id": "AC-S06",
+      "requirement": "storage unavailable",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "UI",
+        "SAVE"
+      ],
+      "evidence": [
+        "tests/storage.test.ts",
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/persistence.test.ts"
+      ],
+      "baselineCoverage": "Actual quota failure, acknowledged unsaved continuation and retry preserve memory/export and prior archive.",
+      "remainingExpandedGoalWork": "Retest storage denial, no false Saved status and no retry loop for new state/save paths."
+    },
+    {
+      "id": "AC-S07",
+      "requirement": "export privacy and transfer",
+      "applicability": "Mandatory",
+      "status": "Inconclusive",
+      "evidenceKeys": [
+        "UI",
+        "PROP"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "Encountered export omits future text; state roundtrip tested; fresh-profile UI transfer not run.",
+      "remainingExpandedGoalWork": "Export/import fresh profile and compare state/privacy; private notes remain an optional feature."
+    },
+    {
+      "id": "AC-S08",
+      "requirement": "protected ending branches",
+      "applicability": "Mandatory",
+      "status": "Blocked",
+      "evidenceKeys": [
+        "SAVE"
+      ],
+      "evidence": [
+        "tests/storage.test.ts",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/persistence.test.ts"
+      ],
+      "baselineCoverage": "Common history and distinct ending records retained; explicit parent/run metadata absent.",
+      "remainingExpandedGoalWork": "Finish two endings from one protected checkpoint, with correct parent graph and retained separate branches."
+    },
+    {
+      "id": "AC-A01",
+      "requirement": "Edit prose, choice, guard, and observation through controls",
+      "applicability": "Mandatory",
+      "status": "Inconclusive",
+      "evidenceKeys": [
+        "STUDIO",
+        "UI"
+      ],
+      "evidence": [
+        "src/Studio.tsx",
+        "tests/studio-storage.test.ts",
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "Real title edit/undo/preview tested; prose, choice, guard and observation controls inspected but not all exercised.",
+      "remainingExpandedGoalWork": "Exercise every required field on actual v2 compiled preview without source edits."
+    },
+    {
+      "id": "AC-A02",
+      "requirement": "Add alternative factual support route",
+      "applicability": "Mandatory",
+      "status": "Blocked",
+      "evidenceKeys": [
+        "STUDIO",
+        "V1"
+      ],
+      "evidence": [
+        "docs/contracts/ENGINE-API.md",
+        "src/Studio.tsx",
+        "src/engine/game.ts",
+        "src/engine/schema.ts",
+        "src/persistence/store.ts",
+        "tests/studio-storage.test.ts",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "Studio's bounded format has no factual proof route editor.",
+      "remainingExpandedGoalWork": "Create OR evidence route, export/reimport and submit both routes through the real engine."
+    },
+    {
+      "id": "AC-A03",
+      "requirement": "Rename/delete referenced ID",
+      "applicability": "Mandatory",
+      "status": "Not run",
+      "evidenceKeys": [
+        "STUDIO"
+      ],
+      "evidence": [
+        "src/Studio.tsx",
+        "tests/studio-storage.test.ts",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "Baseline prevents deleting start/referenced scene and reports incoming choices; no full action matrix run.",
+      "remainingExpandedGoalWork": "Test rename/delete references, repair/cancel and all v2 dependency types."
+    },
+    {
+      "id": "AC-A04",
+      "requirement": "Make draft invalid",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "STUDIO",
+        "UI"
+      ],
+      "evidence": [
+        "src/Studio.tsx",
+        "tests/studio-storage.test.ts",
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "Actual empty-title invalid draft survives reload; diagnostics and separate last-valid preview are visible.",
+      "remainingExpandedGoalWork": "Retest exact v2 diagnostics and last-valid behavior for malformed proof/knowledge drafts."
+    },
+    {
+      "id": "AC-A05",
+      "requirement": "Export/reimport project",
+      "applicability": "Mandatory",
+      "status": "Blocked",
+      "evidenceKeys": [
+        "STUDIO"
+      ],
+      "evidence": [
+        "src/Studio.tsx",
+        "tests/studio-storage.test.ts",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "JSON draft roundtrip exists; full provenance/annotation author-project model absent.",
+      "remainingExpandedGoalWork": "Roundtrip canonical prose, conditions, provenance and author annotations with proper compilation boundary."
+    },
+    {
+      "id": "AC-A06",
+      "requirement": "Create a second tiny fixture from UI",
+      "applicability": "Mandatory",
+      "status": "Not run",
+      "evidenceKeys": [
+        "STUDIO"
+      ],
+      "evidence": [
+        "src/Studio.tsx",
+        "tests/studio-storage.test.ts",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "Add-scene/add-choice controls exist; second fixture entirely made via UI has not been demonstrated.",
+      "remainingExpandedGoalWork": "Build and play a second tiny v2 fixture using controls alone and retain its project/export evidence."
+    },
+    {
+      "id": "AC-A07",
+      "requirement": "Inject author-preview state",
+      "applicability": "Mandatory",
+      "status": "Blocked",
+      "evidenceKeys": [
+        "STUDIO",
+        "UI"
+      ],
+      "evidence": [
+        "src/Studio.tsx",
+        "tests/studio-storage.test.ts",
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "Preview is clearly noncanonical and uses separate database; injected-preview-state tooling absent.",
+      "remainingExpandedGoalWork": "Inject author state, verify labels and isolation from player Continue/export."
+    },
+    {
+      "id": "AC-A08",
+      "requirement": "Start and cancel large validation",
+      "applicability": "Mandatory",
+      "status": "Blocked",
+      "evidenceKeys": [
+        "STUDIO"
+      ],
+      "evidence": [
+        "src/Studio.tsx",
+        "tests/studio-storage.test.ts",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "Validation is synchronous and there is no cancellable large-work validation path.",
+      "remainingExpandedGoalWork": "Exercise responsive large validation, cancel it and prove stale/cancelled work cannot report success."
+    },
+    {
+      "id": "AC-X01",
+      "requirement": "Complete a required route using keyboard only",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "UI"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "Actual required investigation/disclosure/closing route completed by keyboard; reload context retained.",
+      "remainingExpandedGoalWork": "Rerun complete v2 required route and all new dialogs/controls with visible focus."
+    },
+    {
+      "id": "AC-X02",
+      "requirement": "Use 200% zoom, enlarged text, narrow viewport",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "UI"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "Four widths including 320/390, enlarged text and CSS 200% zoom pass sampled no-overflow checks.",
+      "remainingExpandedGoalWork": "Test new evidence controls at same sizes; physical-device/native-browser zoom remain unmeasured."
+    },
+    {
+      "id": "AC-X03",
+      "requirement": "Enable reduced motion and inspect announcements",
+      "applicability": "Mandatory",
+      "status": "Inconclusive",
+      "evidenceKeys": [
+        "UI"
+      ],
+      "evidence": [
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "Reduced-motion browser context and sampled accessibility scan run; real announcement behavior not established.",
+      "remainingExpandedGoalWork": "Inspect motion and status updates manually; avoid whole-scene repeated announcements."
+    },
+    {
+      "id": "AC-X04",
+      "requirement": "Install, go offline, reload, play",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "OFFLINE",
+        "UI"
+      ],
+      "evidence": [
+        "tests/offline.test.ts",
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "Installed built player actually reloads, chooses and saves offline without live AI/API.",
+      "remainingExpandedGoalWork": "Repeat with final content/engine and exact cache manifest after expansion."
+    },
+    {
+      "id": "AC-X05",
+      "requirement": "Interrupt cache/install/update",
+      "applicability": "Mandatory",
+      "status": "Inconclusive",
+      "evidenceKeys": [
+        "OFFLINE",
+        "UI"
+      ],
+      "evidence": [
+        "tests/offline.test.ts",
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "Changed cached bytes/content hash cannot claim ready; no forced activation or cache deletion.",
+      "remainingExpandedGoalWork": "Interrupt install/update and verify old compatible run survives with truthful readiness."
+    },
+    {
+      "id": "AC-X06",
+      "requirement": "Block optional audio/autoplay",
+      "applicability": "Conditional; not triggered (no audio)",
+      "status": "N/A",
+      "evidenceKeys": [
+        "ASSET"
+      ],
+      "evidence": [
+        "docs/ASSETS-AND-LICENSES.md",
+        "licenses/DEPENDENCIES.json",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "No audio or autoplay feature exists; its conditional setup is not triggered.",
+      "remainingExpandedGoalWork": "If audio is introduced, blocking it and settings persistence become required; no other access test is waived."
+    },
+    {
+      "id": "AC-X07",
+      "requirement": "Inspect production network and assets",
+      "applicability": "Mandatory",
+      "status": "Inconclusive",
+      "evidenceKeys": [
+        "ASSET",
+        "UI"
+      ],
+      "evidence": [
+        "docs/ASSETS-AND-LICENSES.md",
+        "licenses/DEPENDENCIES.json",
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "Local assets, system fonts, no AI SDK/telemetry in inspected source; separate build excludes studio entry.",
+      "remainingExpandedGoalWork": "Run comprehensive actual production network/asset audit, including author research and hidden debug entrypoints."
+    },
+    {
+      "id": "AC-X08",
+      "requirement": "Render hostile notes/dialogue/imports",
+      "applicability": "Mandatory",
+      "status": "Inconclusive",
+      "evidenceKeys": [
+        "PROP",
+        "V1"
+      ],
+      "evidence": [
+        "docs/contracts/ENGINE-API.md",
+        "src/engine/game.ts",
+        "src/engine/schema.ts",
+        "src/persistence/store.ts",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "Strict state validation and text rendering inspected; complete hostile browser rendering matrix not run.",
+      "remainingExpandedGoalWork": "Render hostile dialogue/import text inertly; test any new asset-path traversal and no code execution."
+    },
+    {
+      "id": "AC-X09",
+      "requirement": "Inspect asset origin/license inventory",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "ASSET",
+        "UI"
+      ],
+      "evidence": [
+        "docs/ASSETS-AND-LICENSES.md",
+        "licenses/DEPENDENCIES.json",
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json"
+      ],
+      "baselineCoverage": "Baseline manifest, original text/CSS/system fonts and runtime license notices account for release assets.",
+      "remainingExpandedGoalWork": "Update inventory for all final assets; publication rights clearance is outside this undeployed task."
+    },
+    {
+      "id": "AC-X10",
+      "requirement": "Compare offered dialogue choice and actual response",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "LIT",
+        "ROUTE",
+        "UI"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "tests/verification/artifacts/baseline-browser/axe-player.json",
+        "tests/verification/artifacts/baseline-browser/report.json",
+        "tests/verification/artifacts/baseline-route-words.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/authored-traces.json",
+        "tests/verification/authored-routes.test.ts"
+      ],
+      "baselineCoverage": "Offered actions and resultant actual passages inspected; route dispatch honors literal choice IDs.",
+      "remainingExpandedGoalWork": "Review new offered/actual dialogue pairs and ensure no intention-reversing paraphrase."
+    },
+    {
+      "id": "AC-P01",
+      "requirement": "Primary-source inspection",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PHIL"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "narrative/AUTHOR-NOTES.md",
+        "narrative/PHILOSOPHY-MAP.md",
+        "research/philosophy/INFERENCE-METHOD.md",
+        "research/philosophy/KANT.md",
+        "research/philosophy/SOURCES.json",
+        "research/philosophy/SPINOZA.md"
+      ],
+      "baselineCoverage": "Historical dossiers retain inspected primary locations, editions and quotation/paraphrase labels.",
+      "remainingExpandedGoalWork": "Recheck consequential new commitments against actual primary passages; planned reading is not evidence."
+    },
+    {
+      "id": "AC-P02",
+      "requirement": "Kant distinctions",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PHIL",
+        "LIT"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "narrative/AUTHOR-NOTES.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/PHILOSOPHY-MAP.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "research/philosophy/INFERENCE-METHOD.md",
+        "research/philosophy/KANT.md",
+        "research/philosophy/SOURCES.json",
+        "research/philosophy/SPINOZA.md"
+      ],
+      "baselineCoverage": "Historical review corrects Kant distinctions and the optics scene investigates limits without using missing clues as noumena.",
+      "remainingExpandedGoalWork": "Review material integration throughout expanded encounters; label deliberate character errors."
+    },
+    {
+      "id": "AC-P03",
+      "requirement": "Spinoza distinctions",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PHIL",
+        "LIT"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "narrative/AUTHOR-NOTES.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/PHILOSOPHY-MAP.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "research/philosophy/INFERENCE-METHOD.md",
+        "research/philosophy/KANT.md",
+        "research/philosophy/SOURCES.json",
+        "research/philosophy/SPINOZA.md"
+      ],
+      "baselineCoverage": "Immanence and ethical development have baseline scene consequences; historical review addresses Ethics V and objections.",
+      "remainingExpandedGoalWork": "Develop ordinary ethical life and blessedness carefully; no fatalist mascot or reward doctrine."
+    },
+    {
+      "id": "AC-P04",
+      "requirement": "Comparative disagreement",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PHIL",
+        "LIT"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "narrative/AUTHOR-NOTES.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/PHILOSOPHY-MAP.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "research/philosophy/INFERENCE-METHOD.md",
+        "research/philosophy/KANT.md",
+        "research/philosophy/SOURCES.json",
+        "research/philosophy/SPINOZA.md"
+      ],
+      "baselineCoverage": "Serious surviving disagreements retained rather than unified doctrine or consensus.",
+      "remainingExpandedGoalWork": "Review the expanded argumentative arc and endings for substantive disagreement."
+    },
+    {
+      "id": "AC-P05",
+      "requirement": "Detection method",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PHIL",
+        "LIT"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "narrative/AUTHOR-NOTES.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/PHILOSOPHY-MAP.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "research/philosophy/INFERENCE-METHOD.md",
+        "research/philosophy/KANT.md",
+        "research/philosophy/SOURCES.json",
+        "research/philosophy/SPINOZA.md"
+      ],
+      "baselineCoverage": "Hypothesis, apparent explanation and apparatus/recording tests are distinguished in story and method notes.",
+      "remainingExpandedGoalWork": "New explicit proofs must not make pleasing explanations or subjective commitments count as facts."
+    },
+    {
+      "id": "AC-P06",
+      "requirement": "Dramatic consequence",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PHIL",
+        "LIT"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "narrative/AUTHOR-NOTES.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/PHILOSOPHY-MAP.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "research/philosophy/INFERENCE-METHOD.md",
+        "research/philosophy/KANT.md",
+        "research/philosophy/SOURCES.json",
+        "research/philosophy/SPINOZA.md"
+      ],
+      "baselineCoverage": "Philosophy map links questions to shared/optics/report/ending consequences.",
+      "remainingExpandedGoalWork": "Refresh map with actual accepted new scenes and returns; vocabulary alone does not satisfy expansion."
+    },
+    {
+      "id": "AC-P07",
+      "requirement": "Explicit thought and subtraction",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PHIL",
+        "LIT"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "narrative/AUTHOR-NOTES.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/PHILOSOPHY-MAP.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "research/philosophy/INFERENCE-METHOD.md",
+        "research/philosophy/KANT.md",
+        "research/philosophy/SOURCES.json",
+        "research/philosophy/SPINOZA.md"
+      ],
+      "baselineCoverage": "Developed optics conversation remains after label subtraction and serious objections survive.",
+      "remainingExpandedGoalWork": "Review expanded thought in routes; do not erase sustained argument or add length-only lectures."
+    },
+    {
+      "id": "AC-P08",
+      "requirement": "Ending and player truth",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "PHIL",
+        "ROUTE"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "narrative/AUTHOR-NOTES.md",
+        "narrative/PHILOSOPHY-MAP.md",
+        "research/philosophy/INFERENCE-METHOD.md",
+        "research/philosophy/KANT.md",
+        "research/philosophy/SOURCES.json",
+        "research/philosophy/SPINOZA.md",
+        "tests/verification/artifacts/baseline-route-words.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/verification/authored-traces.json",
+        "tests/verification/authored-routes.test.ts"
+      ],
+      "baselineCoverage": "Fixed author history survives both optics responses and dispositions; no correct-opinion score.",
+      "remainingExpandedGoalWork": "Check every v2 condition/proof/ending for unintended moral or philosopher-faction grading."
+    },
+    {
+      "id": "AC-V01",
+      "requirement": "Naming provenance",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "VOICE"
+      ],
+      "evidence": [
+        "docs/reviews/VOICE-01.md",
+        "narrative/NAMES.md",
+        "narrative/VOICE.md",
+        "narrative/accepted/MANIFEST.json",
+        "narrative/reviews/VOICE-BLIND-PACKET.md",
+        "narrative/reviews/VOICE-KEY.md"
+      ],
+      "baselineCoverage": "Existing historical-given/literary-surname provenance is recorded separately from provisional names.",
+      "remainingExpandedGoalWork": "Verify any new name sources and explicit owner naming clarification without casual cast renaming."
+    },
+    {
+      "id": "AC-V02",
+      "requirement": "Name usability and stability",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "VOICE",
+        "BASE"
+      ],
+      "evidence": [
+        "docs/reviews/VOICE-01.md",
+        "narrative/NAMES.md",
+        "narrative/VOICE.md",
+        "narrative/accepted/MANIFEST.json",
+        "narrative/reviews/VOICE-BLIND-PACKET.md",
+        "narrative/reviews/VOICE-KEY.md",
+        "tests/verification/artifacts/baseline-reproduction.json",
+        "tests/verification/artifacts/baseline-verify-output.txt"
+      ],
+      "baselineCoverage": "Display forms and stable IDs reviewed; existing names distinct and not hidden-role labels.",
+      "remainingExpandedGoalWork": "Test additions and any display-only change with stable IDs and spoiler safety."
+    },
+    {
+      "id": "AC-V03",
+      "requirement": "Actual voice auditions",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "VOICE",
+        "LIT"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "docs/reviews/VOICE-01.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/NAMES.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "narrative/VOICE.md",
+        "narrative/accepted/MANIFEST.json",
+        "narrative/reviews/VOICE-BLIND-PACKET.md",
+        "narrative/reviews/VOICE-KEY.md"
+      ],
+      "baselineCoverage": "Actual ordinary, pressured and relational exchanges exist in auditions and manuscript.",
+      "remainingExpandedGoalWork": "Review repeated expanded encounters with listener-specific attention, syntax and tactics."
+    },
+    {
+      "id": "AC-V04",
+      "requirement": "Shared dialogue",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "VOICE",
+        "LIT"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "docs/reviews/VOICE-01.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/NAMES.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "narrative/VOICE.md",
+        "narrative/accepted/MANIFEST.json",
+        "narrative/reviews/VOICE-BLIND-PACKET.md",
+        "narrative/reviews/VOICE-KEY.md"
+      ],
+      "baselineCoverage": "Shared scene shows mutual pressure and replies rather than isolated appended speeches.",
+      "remainingExpandedGoalWork": "Read all new shared scenes in route context and address homogenized eloquence."
+    },
+    {
+      "id": "AC-V05",
+      "requirement": "Anonymous diagnosis",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "VOICE"
+      ],
+      "evidence": [
+        "docs/reviews/VOICE-01.md",
+        "narrative/NAMES.md",
+        "narrative/VOICE.md",
+        "narrative/accepted/MANIFEST.json",
+        "narrative/reviews/VOICE-BLIND-PACKET.md",
+        "narrative/reviews/VOICE-KEY.md"
+      ],
+      "baselineCoverage": "Historical blind model review used balanced extracts and uncertainty/reasons; no human reader was fabricated.",
+      "remainingExpandedGoalWork": "Prepare player-safe new blind extracts and investigate confusing pairs without a score threshold."
+    },
+    {
+      "id": "AC-V06",
+      "requirement": "Transfer and register",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "VOICE"
+      ],
+      "evidence": [
+        "docs/reviews/VOICE-01.md",
+        "narrative/NAMES.md",
+        "narrative/VOICE.md",
+        "narrative/accepted/MANIFEST.json",
+        "narrative/reviews/VOICE-BLIND-PACKET.md",
+        "narrative/reviews/VOICE-KEY.md"
+      ],
+      "baselineCoverage": "Historical transfer/register review and subsequent surgical edits are retained.",
+      "remainingExpandedGoalWork": "Repeat affected speech-transfer/listener-pressure review on substantial new material."
+    },
+    {
+      "id": "AC-V07",
+      "requirement": "Caricature and cadence",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "VOICE",
+        "LIT"
+      ],
+      "evidence": [
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "docs/reviews/VOICE-01.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/NAMES.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "narrative/VOICE.md",
+        "narrative/accepted/MANIFEST.json",
+        "narrative/reviews/VOICE-BLIND-PACKET.md",
+        "narrative/reviews/VOICE-KEY.md"
+      ],
+      "baselineCoverage": "Historical cadence/caricature critique and full baseline scenes were inspected.",
+      "remainingExpandedGoalWork": "Audit expanded recurring metaphors, aphorisms and stereotyped social tactics with passage evidence."
+    },
+    {
+      "id": "AC-V08",
+      "requirement": "Exact continuity anchors",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "VOICE",
+        "CONT"
+      ],
+      "evidence": [
+        "docs/archive/checkpoint-c6c6845",
+        "docs/execution/DECISIONS.md",
+        "docs/reviews/VOICE-01.md",
+        "narrative/NAMES.md",
+        "narrative/VOICE.md",
+        "narrative/accepted/MANIFEST.json",
+        "narrative/reviews/VOICE-BLIND-PACKET.md",
+        "narrative/reviews/VOICE-KEY.md",
+        "tests/verification/artifacts/baseline-reproduction.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/checkpoint-evidence/handoff-rehearsal.json"
+      ],
+      "baselineCoverage": "Exact accepted passages, revisions and voice anchors are retained.",
+      "remainingExpandedGoalWork": "Compare new integrated voice to exact anchors and explain intentional departures."
+    },
+    {
+      "id": "AC-C01",
+      "requirement": "Honest working state",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "CONT",
+        "BASE"
+      ],
+      "evidence": [
+        "docs/archive/checkpoint-c6c6845",
+        "docs/execution/DECISIONS.md",
+        "tests/verification/artifacts/baseline-reproduction.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/checkpoint-evidence/handoff-rehearsal.json"
+      ],
+      "baselineCoverage": "Baseline state accurately distinguishes compact completion from unmet requirements; new owner goal recorded separately.",
+      "remainingExpandedGoalWork": "Keep active state/current hashes/next task accurate during integration and final checkpoint."
+    },
+    {
+      "id": "AC-C02",
+      "requirement": "Single integration authority",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "CONT"
+      ],
+      "evidence": [
+        "docs/archive/checkpoint-c6c6845",
+        "docs/execution/DECISIONS.md",
+        "tests/verification/artifacts/baseline-reproduction.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/checkpoint-evidence/handoff-rehearsal.json"
+      ],
+      "baselineCoverage": "One canonical writer and one integration coordinator, scoped ownership and baselines recorded.",
+      "remainingExpandedGoalWork": "Maintain distinct write surfaces and no recursive workers through final integration."
+    },
+    {
+      "id": "AC-C03",
+      "requirement": "Substantive iteration",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "LIT",
+        "VOICE",
+        "CONT"
+      ],
+      "evidence": [
+        "docs/archive/checkpoint-c6c6845",
+        "docs/execution/DECISIONS.md",
+        "docs/reviews/PHILOSOPHY-DRAMA-01.md",
+        "docs/reviews/ROOT-DISCLOSURE-01.md",
+        "docs/reviews/VOICE-01.md",
+        "narrative/CANON.md",
+        "narrative/MANUSCRIPT.md",
+        "narrative/NAMES.md",
+        "narrative/REVISION-LOG.md",
+        "narrative/TREATMENTS.md",
+        "narrative/VOICE.md",
+        "narrative/accepted/MANIFEST.json",
+        "narrative/reviews/VOICE-BLIND-PACKET.md",
+        "narrative/reviews/VOICE-KEY.md",
+        "tests/verification/artifacts/baseline-reproduction.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/checkpoint-evidence/handoff-rehearsal.json"
+      ],
+      "baselineCoverage": "Real alternative candidates, independent critiques and accepted/revised decisions exist.",
+      "remainingExpandedGoalWork": "Complete the same substantive produce/review/decision cycle for expansion; self-evaluation alone fails."
+    },
+    {
+      "id": "AC-C04",
+      "requirement": "Regression protection",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "CONT",
+        "BASE"
+      ],
+      "evidence": [
+        "docs/archive/checkpoint-c6c6845",
+        "docs/execution/DECISIONS.md",
+        "tests/verification/artifacts/baseline-reproduction.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/checkpoint-evidence/handoff-rehearsal.json"
+      ],
+      "baselineCoverage": "Recoverable Git/accepted drafts and dated test evidence preserved; actual baseline rechecks passed.",
+      "remainingExpandedGoalWork": "Preserve accepted expanded checkpoint and rerun affected checks after every consequential integration."
+    },
+    {
+      "id": "AC-C05",
+      "requirement": "Fresh-session continuation",
+      "applicability": "Mandatory",
+      "status": "Not run",
+      "evidenceKeys": [
+        "CONT"
+      ],
+      "evidence": [
+        "docs/archive/checkpoint-c6c6845",
+        "docs/execution/DECISIONS.md",
+        "tests/verification/artifacts/baseline-reproduction.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/checkpoint-evidence/handoff-rehearsal.json"
+      ],
+      "baselineCoverage": "Static 267-file snapshot integrity check passes; actual fresh-session continuation not performed.",
+      "remainingExpandedGoalWork": "Keep this distinction explicit; retain accessible final files and executable continuation, report a fresh recovery only if performed."
+    },
+    {
+      "id": "AC-C06",
+      "requirement": "Stale or missing context",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "CONT"
+      ],
+      "evidence": [
+        "docs/archive/checkpoint-c6c6845",
+        "docs/execution/DECISIONS.md",
+        "tests/verification/artifacts/baseline-reproduction.json",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/checkpoint-evidence/handoff-rehearsal.json"
+      ],
+      "baselineCoverage": "Historical safe-copy handoff fault injection reports stale/missing/ambiguous context without invented reconstruction.",
+      "remainingExpandedGoalWork": "Rerun affected safe-copy checks against final continuity state, not obsolete manifest pins."
+    },
+    {
+      "id": "AC-C07",
+      "requirement": "Blind packet integrity",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "BLIND",
+        "PROP"
+      ],
+      "evidence": [
+        "narrative/reviews/VOICE-BLIND-PACKET.md",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/checkpoint-evidence/reader-packet-provenance.json",
+        "tests/verification/dependencies.test.ts",
+        "tests/verification/properties.test.ts"
+      ],
+      "baselineCoverage": "Historical player-only reader packet provenance and anonymous voice packet retained; future-author truth excluded from supplied route text.",
+      "remainingExpandedGoalWork": "Prepare new packets solely from encountered v2 text and audit filenames/metadata/prompts for leakage."
+    },
+    {
+      "id": "AC-C08",
+      "requirement": "Deadline and runtime honesty",
+      "applicability": "Mandatory",
+      "status": "Passed",
+      "evidenceKeys": [
+        "CONT",
+        "BASE"
+      ],
+      "evidence": [
+        "docs/archive/checkpoint-c6c6845",
+        "docs/execution/DECISIONS.md",
+        "tests/verification/artifacts/baseline-reproduction.json",
+        "tests/verification/artifacts/baseline-verify-output.txt",
+        "tests/verification/artifacts/history/baseline-reproduction-2026-10-03T22-29-48Z/checkpoint-evidence/handoff-rehearsal.json"
+      ],
+      "baselineCoverage": "Unknown cutoff/backend facts not invented; no paid/reset/background/new-chat promise made.",
+      "remainingExpandedGoalWork": "Continue within actual supported runtime, preserve boundary handoff and do not promise post-session work."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "reviewDate": "2026-10-03",
+  "status": "Historical Henrietta review; latest male-protagonist correction supersedes central practical arc",
+  "configuration": {
+    "requestedModel": "gpt-6-astra",
+    "requestedEffort": "max",
+    "acceptedPer": "parent assignment",
+    "backendAttested": false
+  },
+  "method": "Exact anchor text containment, without punctuation or Unicode normalization; JSON scene paragraph boundaries joined with two newline characters. This is not a human or blind voice test.",
+  "reviewedSourceHashes": {
+    "src/content/case.json": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+    "narrative/accepted/case-2026-10-03.json": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+    "narrative/MANUSCRIPT.md": "6a232b5c4e376793380ac1035e3cde93f49b2d15a462e8407f050f9e51816a2f",
+    "narrative/VOICE.md": "804a65cacca1fabbe939ab0b769ce61edd8773c8cf9e5a387c067350aea9a5a9",
+    "narrative/NAMES.md": "0052fd49fe6c3a30b9e806fa6578526df8b0f702fbe1dcbc0cb076c5c5e954df",
+    "narrative/loop/PROTAGONIST-AND-RECURRENCE.md": "bcaf47acffc291e732bf3b3ad3857d37192407ae6492fbd98f9a1694608eed95",
+    "narrative/loop/FIRST-RETURN-AUDITION.md": "8bbe356e946f27222772e2d4a87f5a749b7214309ded1c7a046cd2e6369c7b5e",
+    "narrative/loop/ALLOWED-ANOTHER-TRY.md": "13d568e944d4459d9ae079f7e4f19e38943ec8db5326a623c689fc94f4ddb28f",
+    "narrative/expansion/CYCLE-01-PART-A.md": "84e7bc4e1563786ec3f0f449286b2d029af5be53e09aa70042a94440297db58e",
+    "narrative/expansion/CYCLE-01-PART-B.md": "554fad020f20505494dc9aa3f74761d1ce4582212d693c629e7edae4520d2d56"
+  },
+  "hashesStillMatchAtCheck": {
+    "src/content/case.json": true,
+    "narrative/accepted/case-2026-10-03.json": true,
+    "narrative/MANUSCRIPT.md": true,
+    "narrative/VOICE.md": true,
+    "narrative/NAMES.md": true,
+    "narrative/loop/PROTAGONIST-AND-RECURRENCE.md": true,
+    "narrative/loop/FIRST-RETURN-AUDITION.md": true,
+    "narrative/loop/ALLOWED-ANOTHER-TRY.md": false,
+    "narrative/expansion/CYCLE-01-PART-A.md": true,
+    "narrative/expansion/CYCLE-01-PART-B.md": true
+  },
+  "anchorChecks": [
+    {
+      "register": "ordinary",
+      "scene": "workshop",
+      "characters": 479,
+      "textSha256": "8303c4f6db2f35f2f70980a3fd947a476a9f1c636a29986b23fbcf65c162be40",
+      "runtime": true,
+      "accepted": true,
+      "manuscript": true
+    },
+    {
+      "register": "pressured",
+      "scene": "shared",
+      "characters": 195,
+      "textSha256": "8b99d69568ebf921cb82531f44a38f9a53f5da6dbd78fdba994baf07b771d3e4",
+      "runtime": true,
+      "accepted": true,
+      "manuscript": true
+    },
+    {
+      "register": "intimate",
+      "scene": "ada_miriam",
+      "characters": 614,
+      "textSha256": "5d809d43efd7aed828ae3c3896d974a14896e03fc317a344cff6cfe1478e0884",
+      "runtime": true,
+      "accepted": true,
+      "manuscript": true
+    },
+    {
+      "register": "ordinary",
+      "scene": "gallery",
+      "characters": 412,
+      "textSha256": "dd74428e18bf5587992a3da68a1ade5e3db4769c4e8a7f6fe336a2c6d5b52b78",
+      "runtime": true,
+      "accepted": true,
+      "manuscript": true
+    },
+    {
+      "register": "pressured",
+      "scene": "simon_account",
+      "characters": 357,
+      "textSha256": "1900584db9f9085d79059744dbed5fbc73678490d19524f6f4a7258c98102d76",
+      "runtime": true,
+      "accepted": true,
+      "manuscript": true
+    },
+    {
+      "register": "intimate",
+      "scene": "simon_ada",
+      "characters": 581,
+      "textSha256": "26945ac5c77666edc66ee0179d29bcb2dd8fa1c30814b19dc83af15604f17b9c",
+      "runtime": true,
+      "accepted": true,
+      "manuscript": true
+    },
+    {
+      "register": "ordinary",
+      "scene": "bench",
+      "characters": 355,
+      "textSha256": "e259668da07abf13373cc74c41991d95774d56a352f459f7477707561ba04589",
+      "runtime": true,
+      "accepted": true,
+      "manuscript": true
+    },
+    {
+      "register": "pressured",
+      "scene": "optics",
+      "characters": 1057,
+      "textSha256": "de5c6c1b6ea70290f63b1653c3e1ea843189a19ce89ceee05738754b1a2ee141",
+      "runtime": true,
+      "accepted": true,
+      "manuscript": true
+    },
+    {
+      "register": "intimate",
+      "scene": "miriam_private",
+      "characters": 767,
+      "textSha256": "1b4279d19e52b5fd2c150810fadec01eee8ed0d8b2a50a7b9cc9757f4c461a60",
+      "runtime": true,
+      "accepted": true,
+      "manuscript": true
+    },
+    {
+      "register": "shared",
+      "scene": "shared",
+      "characters": 986,
+      "textSha256": "8ee8584be3d23d4907bca778466d10cda2b44cfdd93e713007c88558d378d95b",
+      "runtime": true,
+      "accepted": true,
+      "manuscript": true
+    }
+  ],
+  "allAnchorsMatch": true,
+  "fullNarrativeReads": [
+    "narrative/MANUSCRIPT.md",
+    "narrative/VOICE.md",
+    "narrative/NAMES.md",
+    "narrative/loop/PROTAGONIST-AND-RECURRENCE.md",
+    "narrative/loop/FIRST-RETURN-AUDITION.md",
+    "narrative/loop/ALLOWED-ANOTHER-TRY.md"
+  ],
+  "boundedExpansionReads": [
+    "CYCLE-01-PART-A.md C1-S03 and C1-S04 through its action",
+    "CYCLE-01-PART-B.md C1-S06 and C1-S07",
+    "CYCLE-01-PART-B.md C1-S09 sibling departure and immediate mirror discussion"
+  ],
+  "notPerformed": [
+    "human playtesting",
+    "blind reading",
+    "v2 candidate review",
+    "fresh naming source research",
+    "visual asset inspection",
+    "runtime/browser checks"
+  ],
+  "redirection": {
+    "ownerFile": "docs/OWNER-PSYCHOLOGICAL-MALE-PROTAGONIST-2026-10-03.md",
+    "ownerFileSha256": "237c131fb559b204d9d7adb3b3ab3d219cf426a72bd7bb0c013e0fb909eb434f",
+    "note": "PSYCHOLOGICAL-REDIRECTION-2026-10-03.md",
+    "changedSource": "narrative/loop/ALLOWED-ANOTHER-TRY.md",
+    "changedSourceSha256": "6ce115d8fbfc8829b456ed05140a3c26c1a98bfba03d9f59539e234868b7dfc8",
+    "observedChange": "Final paper-decision summary replaced by Simon emptying the cup and putting it back. Initial reviewed hash is preserved above."
+  }
+}

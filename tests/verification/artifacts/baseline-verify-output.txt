@@ -1,0 +1,82 @@
+$ pnpm typecheck && pnpm test && pnpm content:validate && pnpm build
+$ tsc --noEmit
+$ vitest run
+
+ RUN  v3.2.7 /workspace/literary-detective
+
+ ✓ tests/case.test.ts (3 tests) 52ms
+ ✓ tests/verification/persistence.test.ts (8 tests) 38ms
+ ✓ tests/verification/authored-routes.test.ts (30 tests) 449ms
+ ✓ tests/storage.test.ts (7 tests) 41ms
+ ✓ tests/verification/dependencies.test.ts (2 tests) 70ms
+ ✓ tests/replacement-intent.test.ts (5 tests) 25ms
+ ✓ tests/verification/properties.test.ts (11 tests) 1332ms
+   ✓ independent properties seed=20261003 runs=120 > replay and save roundtrip deterministically preserve every consequential field  393ms
+   ✓ independent properties seed=20261003 runs=120 > frozen input bytes and literal record/passage occurrences never change  482ms
+ ✓ tests/studio-storage.test.ts (8 tests) 31ms
+ ✓ tests/offline.test.ts (4 tests) 17ms
+ ✓ tests/engine.test.ts (9 tests) 17ms
+ ✓ tests/verification/explorer.test.ts (4 tests) 17ms
+
+ Test Files  11 passed (11)
+      Tests  91 passed (91)
+   Start at  22:29:54
+   Duration  2.14s (transform 327ms, setup 0ms, collect 1.87s, tests 2.09s, environment 2ms, prepare 644ms)
+
+$ node tools/check-content.mjs
+{
+  "status": "PASS",
+  "scope": "Content schema, graph references and original-narrative punctuation only; not solvability, playtime or literary quality",
+  "sha256": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+  "canonicalContentHash": "0bd022ad793897d6a92c6dbd7054951c7ca8e07ea5d8158ad786d6e3279be432",
+  "scenes": 21,
+  "choices": 50,
+  "authoredWordsIncludingVariantsChoicesAndNotes": 12456,
+  "paragraphs": 357,
+  "validation": "PASS",
+  "issues": []
+}
+$ tsc -b && vite build --mode player && node tools/engine-offline-manifest.mjs dist-player && vite build --mode studio
+vite v7.3.6 building client environment for player...
+transforming...
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js (400:0): A comment
+
+"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js (74:0): A comment
+
+"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
+ * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
+ * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+✓ 133 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-player/index.html                   0.41 kB │ gzip:   0.28 kB
+dist-player/assets/index-Djm_67cr.css    8.42 kB │ gzip:   2.42 kB
+dist-player/assets/index-DK-hxVp4.js   422.58 kB │ gzip: 128.63 kB
+✓ built in 1.94s
+Offline manifest: 3 local files, build d101e5860c588e8d
+vite v7.3.6 building client environment for studio...
+transforming...
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js (400:0): A comment
+
+"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js (74:0): A comment
+
+"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
+ * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
+ * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+✓ 135 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-studio/studio.html                   0.37 kB │ gzip:   0.26 kB
+dist-studio/assets/studio-Djm_67cr.css    8.42 kB │ gzip:   2.42 kB
+dist-studio/assets/studio-DTOu170l.js   436.96 kB │ gzip: 132.38 kB
+✓ built in 2.34s

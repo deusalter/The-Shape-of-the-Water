@@ -1,0 +1,67 @@
+{
+  "status": "RUNNING",
+  "scope": "Actual built v2 first-night case and author UI in Chromium; no human duration or full-game acceptance",
+  "sourceCaseSha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+  "manifest": {
+    "version": "627826dcf56faf27",
+    "contentHash": "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d",
+    "files": [
+      "art/ada-march.png",
+      "art/bath-shallow-end.png",
+      "art/release-binding.svg",
+      "art/simon-vane.png",
+      "assets/index-B-qatqcH.js",
+      "assets/index-DWvY8qmv.css",
+      "index.html"
+    ],
+    "hashes": {
+      "art/ada-march.png": "87f4ec57e4c09ba5acf459ebe248b7bdbc6168164a362d3e6fa2ef1be7c65715",
+      "art/bath-shallow-end.png": "c5c44f48bf9782b952d15b14882f5c243355e8969a21055acae55839a0f61801",
+      "art/release-binding.svg": "438580f7908badb831454979a5713d8c21f4be8ccacae2cf01f68d3092c2ccd4",
+      "art/simon-vane.png": "a171b648d5f91d7ea41938ed1ba55ad18d6a4ddb2473da79f7719b7cb48dec00",
+      "assets/index-B-qatqcH.js": "799944a995259e2c6b8ab298532df8e5a473a70f4492c5a5ba9967e89f452d5a",
+      "assets/index-DWvY8qmv.css": "4b67e6135a7ac3290727a25fafa5d8f9fdcd3aae0eead131a1f2a4974c82b3ae",
+      "index.html": "ae84367612f661b320c04fa4924a787946bd750f732094463035cddbd6c6152a"
+    }
+  },
+  "checks": [
+    {
+      "name": "Actual v2 opening, keyboard selected-proof route and negative feedback",
+      "status": "PASS",
+      "detail": {
+        "acceptedCommands": 12,
+        "ending": true
+      }
+    },
+    {
+      "name": "Reload ownership and protected ending branch use actual controls",
+      "status": "PASS",
+      "detail": "Completed ending retained; branch changed the final decision."
+    },
+    {
+      "name": "Physical proof encounter, actual images, responsive reading and axe",
+      "status": "PASS",
+      "detail": {
+        "imagesDecoded": 4,
+        "widths": [
+          1440,
+          390,
+          320
+        ],
+        "zoom": "CSS 200% plus large text",
+        "violations": 0,
+        "incomplete": 1
+      }
+    }
+  ],
+  "pageErrors": [],
+  "externalRequests": [],
+  "notTested": [
+    "Firefox",
+    "WebKit",
+    "human reading time",
+    "real screen reader",
+    "unimplemented recurrence runtime",
+    "whole-game literary acceptance"
+  ]
+}

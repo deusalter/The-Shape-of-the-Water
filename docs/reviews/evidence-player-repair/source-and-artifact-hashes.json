@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-04",
+  "sha256": {
+    "src/persistence/checkpoint-store.ts": "0fc1adb12415cf90084e298827e34ccc9460750b22cdd6d30369ecbbaacd487e",
+    "src/components/EvidencePlayer.tsx": "74e3d6c4e21ecf95b9f26f84d81c33884e534f6388e3c21fe78596541991d934",
+    "tests/ownership.test.ts": "600f96c95ee9926f4543f9d418df22b4d20153b33334b97e5e118c8263f13d5e",
+    "tests/evidence-player-controller.test.ts": "3ef41312455cbe266a49783d235ad4cb0c512639075fa21610de8c6597d40fc6",
+    "src/engine/evidence-runtime.ts": "7084f4240416b1283bbaa9270797b0d4e0f373dad88e8b112f88f4add2979948",
+    "src/components/evidence-player.css": "0016ef4fbaec7fce62a8c222b085c6e63936559edfbdf330608a2c79b899d77f",
+    "docs/reviews/CORRUPT-OWNED-SLOT-REPAIR-2026-10-04.md": "13f8607a95a3cd9298a8ab407ac57e7d529ade8df3a42efdca5580ceeceed32e",
+    "docs/reviews/evidence-player-repair/axe.json": "39a9893602434f68bbe18fb5fcb18f505461a1021c9a4432f86b635b8944c599",
+    "docs/reviews/evidence-player-repair/browser-check.mjs": "dfae799a001d42b1c339f65521289a1fc45d25b3da600f7b2a70e2d55cc4ebab",
+    "docs/reviews/evidence-player-repair/encountered-run.json": "44f7171d5cd263f1954e0bf9eef1132029f515304c6b62f77c1f539cf2a9c218",
+    "docs/reviews/evidence-player-repair/harness/app.css": "9100f240e97fc09848c29e50d59d5eeb8667ef74bd122883a42aaebfae715690",
+    "docs/reviews/evidence-player-repair/harness/app.js": "ee5a8ab60fe8584378c3b4b3c8454bc79bf58e96499cf8b3cbe54225cc701fab",
+    "docs/reviews/evidence-player-repair/harness/index.html": "7861c2fa1b2dc32d007f0daee0f2157fd5bcfb7c12523b6da909b353e90b1a93",
+    "docs/reviews/evidence-player-repair/harness-first-failure.json": "f68ee384fc3e8d14c90cfa02fdfb6881075ff98a6b8e8ad99c2d74f983889aa4",
+    "docs/reviews/evidence-player-repair/harness.tsx": "7bc358e9a9d860a90c779378358219654253d716c3619bd3e6ccd45572bdb921",
+    "docs/reviews/evidence-player-repair/repair-complete.png": "3b1b1422f5837d60b428dc650a6358e0b5bbc51336c62b0023d1c5f0196b8018",
+    "docs/reviews/evidence-player-repair/repair-confirmation.png": "da08b9a12642a460dab04eb94f139e2b5ffd6d62943ff121e54401375aaeb201",
+    "docs/reviews/evidence-player-repair/repair-stale-conflict.png": "12153f10da104fbae03085dfccc24ea0d69177e4eda58e7b3eb94b103c393cd7",
+    "docs/reviews/evidence-player-repair/report.json": "42ccf639b02b0b805337c8b3fbbab5fbc3c6b95556eda043d18dc986f12796d6",
+    "docs/reviews/evidence-player-repair/storage-image.json": "9708cc8300f057069c43ebcd96684c65e4ec0de6ab0213fad93274a2fdd4046c"
+  }
+}

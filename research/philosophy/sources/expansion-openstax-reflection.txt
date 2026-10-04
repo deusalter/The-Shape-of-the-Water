@@ -1,0 +1,11 @@
+University Physics Volume 3, §1.2 The Law of Reflection
+Authors: Samuel J. Ling, Jeff Sanny, William Moebs
+URL: https://openstax.org/books/university-physics-volume-3/pages/1-2-the-law-of-reflection
+Read 2026-10-03. Inspected section opening, law of reflection, diffuse/specular comparison and Figures1.5–1.8; corner-reflector opening also read but not applied to the story.
+
+Reviewer paraphrase: The angle of reflection equals the angle of incidence. Smooth surfaces reflect along particular paths; rough surfaces diffuse light. A photographed mirror image is an optical phenomenon, not evidence of a spectator-independent metaphysical standpoint.
+
+Bounded inspected quotation: "the angle of reflection equals the angle of incidence"
+
+Retrieved HTML SHA-256: 55da2433ee4d0cacfd6f59919edf241a7e12fd642f32f70ad51813e7ea77e29e
+Full source extraction was inspected transiently; this retained file is a scope note, not a full snapshot.

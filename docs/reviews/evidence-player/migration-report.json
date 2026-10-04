@@ -1,0 +1,19 @@
+{
+  "kind": "actual Chromium, noncanonical reviewed migration fixture",
+  "checks": [
+    {
+      "name": "migration preview preserves encountered passage/counts without adoption",
+      "result": "PASS"
+    },
+    {
+      "name": "explicit migration preserves old slot and old seen prose",
+      "result": "PASS"
+    },
+    {
+      "name": "migration UI axe",
+      "result": "PASS"
+    }
+  ],
+  "errors": [],
+  "result": "PASS"
+}

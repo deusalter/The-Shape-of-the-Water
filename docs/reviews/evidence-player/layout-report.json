@@ -1,0 +1,19 @@
+{
+  "kind": "actual Chromium, noncanonical fixture",
+  "checks": [
+    {
+      "name": "axe with notebook open",
+      "result": "PASS"
+    },
+    {
+      "name": "320px enlarged text CSS zoom200% no horizontal overflow",
+      "result": "PASS",
+      "sizes": {
+        "scroll": 320,
+        "inner": 320
+      }
+    }
+  ],
+  "errors": [],
+  "result": "PASS"
+}

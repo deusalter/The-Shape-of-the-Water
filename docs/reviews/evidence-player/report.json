@@ -1,0 +1,39 @@
+{
+  "kind": "actual Chromium, noncanonical fixture, corrected harness landmarks",
+  "checks": [
+    {
+      "name": "DOM hidden-source sentinels",
+      "result": "PASS"
+    },
+    {
+      "name": "keyboard notebook and premature factual feedback",
+      "result": "PASS"
+    },
+    {
+      "name": "physical route explicit proof and original/revisit transcript",
+      "result": "PASS"
+    },
+    {
+      "name": "bound ending confirmation and encountered-only download",
+      "result": "PASS"
+    },
+    {
+      "name": "fresh-document reload ownership and explicit takeover",
+      "result": "PASS"
+    },
+    {
+      "name": "protected branch with preserved completed ending",
+      "result": "PASS"
+    },
+    {
+      "name": "failed restart plus unsaved action and retry archives exact previous run",
+      "result": "PASS"
+    },
+    {
+      "name": "axe and 320px large text at CSS zoom200%",
+      "result": "PASS"
+    }
+  ],
+  "errors": [],
+  "result": "PASS"
+}

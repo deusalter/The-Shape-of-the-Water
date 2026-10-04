@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-03",
+  "scope": "Bounded loop philosophy review; exact local line locators, not printed pagination. Retained full manuscript was read previously and unchanged hash verified now. Parts A/B, first proposal and first-return audition read in full. The complete second audition ALLOWED-ANOTHER-TRY was then read before closing the wave.",
+  "sources": [
+    {
+      "id": "K-PRIMARY-LOOP",
+      "path": "research/philosophy/sources/kant-critique-gutenberg.txt",
+      "sha256": "642bd845dd0315ac76399d5d1663e7ed75247e065251833bd47ef051fd997ebe",
+      "author": "Immanuel Kant",
+      "title": "The Critique of Pure Reason",
+      "translator": "J. M. D. Meiklejohn",
+      "url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+      "method": "Actual local reinspection of retained 2026-10-03 source; no new retrieval this wave.",
+      "inspected": [
+        {
+          "locator": "Aesthetic Section II, time §§5–8",
+          "lines": [
+            2299,
+            2538
+          ]
+        },
+        {
+          "locator": "Second Analogy, opening through house/ship and directional succession",
+          "lines": [
+            5897,
+            6040
+          ]
+        },
+        {
+          "locator": "Third Conflict, thesis/antithesis and observations, ending partway through antithesis observation",
+          "lines": [
+            10397,
+            10550
+          ]
+        },
+        {
+          "locator": "Section III freedom solution through express concluding limitation",
+          "lines": [
+            12037,
+            12531
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S-PRIMARY-LOOP",
+      "path": "research/philosophy/sources/spinoza-ethics-inspection.txt",
+      "sha256": "6d9c85ac448e0f6acfbdce43715e18c50ac5ef78c2634cb3e43f84f0ef8a0b55",
+      "author": "Benedict de Spinoza",
+      "title": "Ethics",
+      "translator": "R. H. M. Elwes",
+      "url": "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm",
+      "method": "Actual local reinspection of retained 2026-10-03 source; no new retrieval this wave.",
+      "inspected": [
+        {
+          "locator": "I D2–8 and axioms, selected opening",
+          "lines": [
+            31,
+            82
+          ]
+        },
+        {
+          "locator": "I Appendix, teleology/divine purposes and ignorance",
+          "lines": [
+            1170,
+            1320
+          ]
+        },
+        {
+          "locator": "II D2–7, including duration",
+          "lines": [
+            1430,
+            1466
+          ]
+        },
+        {
+          "locator": "II7 and scholium, with II8 opening context",
+          "lines": [
+            1580,
+            1660
+          ]
+        },
+        {
+          "locator": "II13 proposition/proof and opening scholium",
+          "lines": [
+            1798,
+            1834
+          ]
+        },
+        {
+          "locator": "II17 corollary/scholium through II18 memory, with II19 opening context",
+          "lines": [
+            2060,
+            2182
+          ]
+        },
+        {
+          "locator": "II48 free will and scholium, with II49 opening",
+          "lines": [
+            2838,
+            2887
+          ]
+        },
+        {
+          "locator": "III2 and opening scholium; III1 corollary tail",
+          "lines": [
+            3243,
+            3278
+          ]
+        },
+        {
+          "locator": "V2–4 with scholium",
+          "lines": [
+            7646,
+            7718
+          ]
+        },
+        {
+          "locator": "V14–19 and V20 opening",
+          "lines": [
+            7919,
+            7984
+          ]
+        },
+        {
+          "locator": "V20 scholium tail through V37 opening, including all V21–36",
+          "lines": [
+            8048,
+            8343
+          ]
+        },
+        {
+          "locator": "V40 scholium tail through V41–42 and final note",
+          "lines": [
+            8428,
+            8518
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K-GRIER-LOOP",
+      "path": "research/philosophy/sources/kant-sep-metaphysics.txt",
+      "sha256": "c4b94708f752dde59474b9a616fabe79b5f15b4d3690c0167871309162b59cb0",
+      "author": "Michelle Grier",
+      "title": "Kant's Critique of Metaphysics",
+      "translator": null,
+      "url": "https://plato.stanford.edu/entries/kant-metaphysics/",
+      "method": "Actual local reinspection of retained 2026-10-03 source; no new retrieval this wave.",
+      "inspected": [
+        {
+          "locator": "§4.2 dynamical antinomies; §5 opening incidental",
+          "lines": [
+            785,
+            874
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K-ROHLF-LOOP",
+      "path": "research/philosophy/sources/kant-sep-immanuel-kant.txt",
+      "sha256": "e0138dcc9170cdfe9ea6b65880110b6be91854e6567de799fe3c86ba58297be7",
+      "author": "Michael Rohlf",
+      "title": "Immanuel Kant",
+      "translator": null,
+      "url": "https://plato.stanford.edu/entries/kant/",
+      "method": "Actual local reinspection of retained 2026-10-03 source; no new retrieval this wave.",
+      "inspected": [
+        {
+          "locator": "§5.2 Freedom and opening §5.3 The fact of reason",
+          "lines": [
+            1587,
+            1766
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewedTexts": [
+    {
+      "path": "docs/OWNER-LOOP-AND-TEAM-2026-10-03.md",
+      "sha256": "049494ffa929e6e386a2364eaa4060e459bb74668103687ef6b36b04b817fc8c"
+    },
+    {
+      "path": "narrative/MANUSCRIPT.md",
+      "sha256": "6a232b5c4e376793380ac1035e3cde93f49b2d15a462e8407f050f9e51816a2f"
+    },
+    {
+      "path": "narrative/expansion/CYCLE-01-PART-A.md",
+      "sha256": "84e7bc4e1563786ec3f0f449286b2d029af5be53e09aa70042a94440297db58e"
+    },
+    {
+      "path": "narrative/expansion/CYCLE-01-PART-B.md",
+      "sha256": "554fad020f20505494dc9aa3f74761d1ce4582212d693c629e7edae4520d2d56"
+    },
+    {
+      "path": "narrative/loop/PROTAGONIST-AND-RECURRENCE.md",
+      "sha256": "bcaf47acffc291e732bf3b3ad3857d37192407ae6492fbd98f9a1694608eed95"
+    },
+    {
+      "path": "narrative/loop/FIRST-RETURN-AUDITION.md",
+      "sha256": "47a7627bb1aa933a890f38ef564199b981ccacde00e18509c0cc5343f704bc10"
+    },
+    {
+      "path": "narrative/loop/ALLOWED-ANOTHER-TRY.md",
+      "sha256": "13d568e944d4459d9ae079f7e4f19e38943ec8db5326a623c689fc94f4ddb28f"
+    }
+  ],
+  "originalProposalHash": "e7c4d03556e050bdf76bdd5cd6462d358aa226992365235f53e65c706181bf19",
+  "revisionScope": "For revised proposal, rechecked Memory row and doctrine-boundaries paragraph only; full original proposal previously read.",
+  "limits": [
+    "No German/Latin or primary A/B pagination collation.",
+    "Rohlf references later Kant practical works; those works not newly directly inspected.",
+    "Prior Nadler reading reused but not recorded as new inspection here.",
+    "No physical apparatus, loop engine, human playtest or duration verification.",
+    "Actual backend identity unverified.",
+    "No full texts newly copied; earlier source records preserved unchanged."
+  ]
+}

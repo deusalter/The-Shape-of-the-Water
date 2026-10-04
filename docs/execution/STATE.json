@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "date": "2026-10-03",
-  "status": "playable-checkpoint-incomplete-v3",
+  "date": "2026-10-04",
+  "status": "expanded-development-active",
   "baseline": {
     "revision3": "baseline/revision3",
     "archiveSha256": "9ac1a34024dc678267cb0dda059b06ac7fd151d4db4c91a2ec509331ed77f7df",
@@ -12,15 +12,16 @@
   "ownerApproval": "none for new fictional canon",
   "ownership": {
     "root": [
-      "root manifests",
-      "docs/",
-      "research/philosophy/COMPARISON.md",
-      "research/philosophy/SOURCES.json",
-      "integration"
+      "integration and shared contracts",
+      "root manifests/continuity",
+      "src/studio/**",
+      "src/Release.tsx and entrypoints",
+      "src/content/load-evidence.ts and compatibility/**",
+      "tools/browser-v2-check.mjs"
     ],
     "lead_writer": [
-      "narrative/",
-      "src/content/case.json"
+      "narrative/**",
+      "src/content/case-v2.json (currently frozen by agreement)"
     ],
     "kant_researcher": [
       "research/philosophy/KANT.md",
@@ -31,11 +32,11 @@
       "research/philosophy/sources/spinoza-*"
     ],
     "engineer": [
-      "src/** except src/content/case.json",
-      "tests/** except tests/verification/**",
-      "public/**",
-      "tools/engine-*",
-      "docs/contracts/ENGINE-API.md with coordinator ownership consent"
+      "src/persistence/checkpoint-store.ts",
+      "src/components/EvidencePlayer.tsx",
+      "tests/ownership.test.ts",
+      "tests/evidence-player-controller.test.ts",
+      "docs/reviews/evidence-player-repair/**"
     ],
     "verification_engineer": [
       "tests/verification/**",
@@ -44,15 +45,37 @@
     ],
     "critics": [
       "assigned docs/reviews/*.md only; no canonical edits"
+    ],
+    "philosophical_critic": [
+      "research/philosophy/CONTINUATION-CHECKS.md",
+      "research/philosophy/sources/expansion-*",
+      "docs/reviews/PHILOSOPHY-EXPANSION-02.md"
+    ],
+    "visual_producer": [
+      "public/art/**",
+      "visual/**",
+      "docs/visual/**",
+      "src/components/EncounterArt.tsx",
+      "src/styles/encounter-art.css",
+      "src/content/visuals.ts"
     ]
   },
   "maxActiveSubagents": 4,
-  "recursiveSpawning": false,
+  "recursiveSpawning": "permitted with root slot allocation; aggregate cap4",
   "packet_revision": 3,
   "controlling_kickoff_revision": 4,
-  "currentContentSha256": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
-  "canonicalContentHash": "0bd022ad793897d6a92c6dbd7054951c7ca8e07ea5d8158ad786d6e3279be432",
-  "activeWorkers": [],
+  "currentContentSha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+  "canonicalContentHash": "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d",
+  "activeWorkers": [
+    {
+      "owner": "lead_writer",
+      "task": "ending-first recurrence scenes, exact occasion requirements and sole canon authority"
+    },
+    {
+      "owner": "verification_engineer",
+      "task": "independent installed v2 proof/privacy/migration/ending checks"
+    }
+  ],
   "editorialAuthority": "lead_writer; accepted baseline in narrative/accepted/MANIFEST.json; root does not independently rewrite canon",
   "tasks": {
     "T00": {
@@ -176,7 +199,7 @@
       "detail": "Static manifest integrity and four safe-copy fault-injection cases passed; no fresh-chat execution claimed."
     }
   },
-  "nextTask": "T03/T05/T12 explicit selected-evidence factual proof command; preserve current narrative and save compatibility",
+  "nextTask": "Push current preserved history and establish team branches; finish actual v2 browser checks; implement occasion semantics and integrate developed recurrence middle/endings.",
   "testClaims": [
     {
       "name": "unit/property/typecheck/content/build commands",
@@ -210,5 +233,40 @@
     }
   ],
   "testedCodeRevision": "c90f1e1",
-  "snapshotStatus": "final bounded checkpoint; source c90f1e1; continuity separately pinned"
+  "snapshotStatus": "Prior verified checkpoint archived; active edits are not yet an accepted replacement",
+  "controllingContinuation": "docs/OWNER-CONTINUATION-2026-10-03.txt",
+  "goal": "Complete substantially developed game ready for human playtesting;4\u20136-hour first-play design target, not measured duration",
+  "baselineRevision": "c6c6845",
+  "ownerSupplements": [
+    "docs/OWNER-VISUAL-SUPPLEMENT-2026-10-03.txt",
+    "docs/OWNER-NAMING-CLARIFICATION-2026-10-03.md",
+    "docs/OWNER-LOOP-AND-TEAM-2026-10-03.md",
+    "docs/OWNER-PSYCHOLOGICAL-MALE-PROTAGONIST-2026-10-03.md",
+    "docs/OWNER-GITHUB-AUTHORIZATION-2026-10-04.md"
+  ],
+  "chatCreationCapability": "four chats created by owner; list/read/wait available; direct create/send unavailable",
+  "taskProgressScope": "Legacy compact-game checklist below is historical; not expanded-goal acceptance.",
+  "externalCoordination": "docs/coordination/WORK-BOARD.json",
+  "reservedExternalSubagentSlots": 0,
+  "activeContent": "src/content/case-v2.json",
+  "historicalContent": "src/content/legacy/case-v1.json",
+  "repository": {
+    "url": "https://github.com/deusalter/The-Shape-of-the-Water",
+    "localBranch": "main",
+    "pushed": false,
+    "visibilityObserved": "public",
+    "requestedWorkflow": "owner-selected repository; commit/push authorized, observed public disclosed to owner",
+    "author": "deusalter",
+    "coauthorTrailers": false
+  },
+  "currentVerification": {
+    "installedCaseAndAuthorProject": "8 tests PASS",
+    "previewScenario": "2 tests PASS",
+    "typecheck": "PASS before latest browser wave",
+    "bothBuilds": "PASS before latest browser wave",
+    "integratedV2Browser": "RUNNING; no PASS claim",
+    "independentV2PureEngine": "34 PASS at pinned prior runtime",
+    "saveRepair": "engineer reports56 targeted PASS; independent integration pending",
+    "fullVerify": "231 tests in22files, typecheck, content, both builds PASS"
+  }
 }

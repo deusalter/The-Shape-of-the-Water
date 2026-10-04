@@ -6,9 +6,9 @@ import { applyChoice, createGame, serializePlayerExport, validateContent, valida
 import { fixtureContent } from '../../src/content/fixture';
 
 /** AST-based transitive import audit, not a text search fooled by comments/strings. */
-test('engine dependency closure contains no ambient I/O, time, randomness or executable DSL', () => {
+function auditClosure(entrypoints: string[]) {
   const engine = resolve('src/engine');
-  const queue = readdirSync(engine).filter(name => name.endsWith('.ts')).map(name => join(engine, name));
+  const queue = entrypoints.map(name => join(engine, name));
   const visited = new Set<string>(), violations: string[] = [];
   const forbidden = new Set(['Date', 'fetch', 'window', 'document', 'navigator', 'indexedDB', 'localStorage', 'sessionStorage', 'XMLHttpRequest', 'WebSocket', 'BroadcastChannel', 'Worker', 'SharedWorker', 'performance', 'setTimeout', 'setInterval', 'requestAnimationFrame', 'crypto', 'process', 'eval', 'Function', 'require', 'globalThis', 'global']);
   while (queue.length) {
@@ -30,8 +30,24 @@ test('engine dependency closure contains no ambient I/O, time, randomness or exe
     }
     visit(source);
   }
-  expect([...visited].map(file => relative(engine, file)).sort()).toEqual(['game.ts', 'hash.ts', 'schema.ts', 'types.ts', 'validate.ts']);
-  expect(violations).toEqual([]);
+  return { files: [...visited].map(file => relative(engine, file)).sort(), violations };
+}
+const legacyModules = ['game.ts', 'hash.ts', 'schema.ts', 'types.ts', 'validate.ts'];
+const evidenceRuntimeModules = ['evidence-budget.ts', 'evidence-migration.ts', 'evidence-portable.ts', 'evidence-proof.ts', 'evidence-runtime.ts', 'evidence-schema.ts', 'evidence-types.ts', 'evidence-v2.ts', 'evidence-validate.ts'];
+test('legacy runtime preserves its explicit pure five-module dependency closure', () => {
+  const result = auditClosure(['game.ts']);
+  expect(result.files).toEqual(legacyModules);
+  expect(result.violations).toEqual([]);
+});
+test('v2 facade dependency closure contains only the explicitly reviewed pure engine modules', () => {
+  const result = auditClosure(['evidence-v2.ts']);
+  expect(result.files).toEqual([...legacyModules, ...evidenceRuntimeModules].sort());
+  expect(result.violations).toEqual([]);
+});
+test('every engine source including noncanonical fixture is audited and unexpected modules fail inventory', () => {
+  const result = auditClosure(readdirSync(resolve('src/engine')).filter(name => name.endsWith('.ts')));
+  expect(result.files).toEqual([...legacyModules, ...evidenceRuntimeModules, 'evidence-fixture.ts'].sort());
+  expect(result.violations).toEqual([]);
 });
 test('exercised engine and Zod validation need no ambient time/random/DOM/storage/network', () => {
   const trap = () => { throw new Error('Engine called a forbidden ambient API'); };

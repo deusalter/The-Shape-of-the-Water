@@ -1,0 +1,13 @@
+# Current material after the male-protagonist correction
+
+1. `loop/OCCASION-REQUIREMENTS-L3.md` and `loop/ENDING-L3-AUDITIONS.md`: latest selected development construction, with a retained exterior witness, actual ending alternatives, exact source/character-state requirements and explicit unperformed dependencies. This is not installed runtime content or a claim that the full expanded story is locked. L3 extends the L2 male protagonist and anchor; the ordinary first-night causes remain fixed.
+2. `loop/BLAISE-FIRST-RETURN.md`: actual before/after setup, apparent return, intervention and Ada encounter. Read alternatives separately.
+3. `loop/BLAISE-ALLOWED.md`: actual positive God/intention, identity and love argument. Protagonist desire concerns a remembered person, not a job or appointment.
+4. `loop/RETURN-INVESTIGATION-L3.md`: actual new pre-return preparation, exterior departure, two-person encounter, differently held knowledge, clock/phone problem and material test. Its preparation explicitly adds to the unintegrated L2 setup. `loop/PARALOGISMS-WORKING-NOTE.md` records the newly inspected primary and scholarly argument used by the ending.
+5. `src/content/case-v2.json` at repository root and `MANUSCRIPT.md`: currently live short first-night case, activated by root, with Blaise introduced and explicit selected-evidence proof. It contains no loop transition. `accepted/MANUSCRIPT-v1-checkpoint.md` preserves the earlier manuscript; `loop/MANUSCRIPT-V2-CANDIDATE.md` preserves the pre-activation reading copy. Neither is silently overwritten with a new historical version.
+6. `expansion/CYCLE-01-PART-A.md` and `PART-B.md`: substantial next-morning drafts, including source provenance, Emmy, Ruth, learning and positive intellectual love. Their earlier practical/morning emphasis is subject to the new psychological priority. They are not installed or counted as one played route.
+7. `NAMES.md` and `VOICE.md`: current deliberate name intentions and preserved exact original-cast anchors. The voice anchors refer to the pinned v1; their continuity in v2 is separately checked, not assumed.
+
+`loop/PROTAGONIST-AND-RECURRENCE.md`, `FIRST-RETURN-AUDITION.md`, `ALLOWED-ANOTHER-TRY.md` and `expansion/rejected/` preserve superseded Henrietta/job/workroom work. Do not regenerate it over the selected candidate. No file here claims owner approval of new canon or a measured 4–6-hour runtime.
+
+`loop/SELECTED-LEDGER-L2.md` remains the exact earlier selected rules/uncertainty record. L3's retained exterior witness is a new decision made through performed scenes, not something that was already secretly fixed in L2.

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="630" viewBox="0 0 900 630" role="img" aria-labelledby="title desc">
+  <title id="title">The empty cabinet test: binding and outward swing</title>
+  <desc id="desc">A reconstruction drawing, not a photograph or the original plan. Front view: a black cord passes around the cloth cabinet and across the door; the inside brass ring pulls a cable to the latch above it. Plan view: the mirror door opens outward from the cabinet. A padded chair stops its swing before the concrete pier. The pier occupies the later swing arc. Height detail: the frame dent and pale pier chip meet above the old felt pad. No person is inside.</desc>
+  <defs>
+    <pattern id="paper" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M0 14h24M7 0v24" stroke="#d7d6c5" stroke-width=".35" opacity=".28"/></pattern>
+    <pattern id="cloth" width="10" height="10" patternUnits="userSpaceOnUse"><path d="m0 0 10 10m-10 0L10 0" stroke="#ced1c9" stroke-width=".55" opacity=".28"/></pattern>
+  </defs>
+  <rect width="900" height="630" fill="#f6f3e8"/><rect width="900" height="630" fill="url(#paper)"/>
+  <g font-family="Georgia,serif" fill="#253a35" font-size="19">
+    <text x="36" y="38">Binding</text><text x="476" y="38">Outward swing</text><text x="36" y="437">Impact height</text>
+  </g>
+  <g stroke="#3b4943" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Front view. Ring and latch remain distinct from the external binding. -->
+    <path d="M55 87 78 69H376l21 18v264H55Z" fill="#d8ddd5"/>
+    <path d="M81 88h287v262H81Z" fill="#49534d"/>
+    <path d="M81 88h287v262H81Z" fill="url(#cloth)"/>
+    <path d="M112 103h223v240H112Z" fill="#607269"/>
+    <path d="M129 116h187v211H129Z" fill="#bec9c1"/>
+    <path d="M126 109h195v229H126Z" stroke="#eee7d6" stroke-width="12"/>
+    <path d="M116 94v248" stroke="#625b46" stroke-width="6"/>
+    <!-- Upper panel is open for the empty test; no person or hidden markings. -->
+    <path d="m293 96 61 12-24 58-43-8Z" fill="#46524b"/>
+    <path d="M301 115h42m-23 0v29l-19 11" stroke="#9d7a37" stroke-width="3"/>
+    <circle cx="296" cy="161" r="12" stroke="#9d7a37" stroke-width="4" fill="#efeadb"/>
+    <path d="M62 236H388" stroke="#222a27" stroke-width="6"/>
+    <path d="M62 232V86m326 146V86" stroke="#222a27" stroke-width="4"/>
+    <path d="m62 233-8 9 13 4 9-9-14-4" stroke="#222a27" stroke-width="3"/>
+  </g>
+  <g font-family="system-ui,sans-serif" font-size="15" fill="#354941">
+    <text x="278" y="393">Cord crosses the door</text><text x="190" y="377">Ring and cable operate the latch</text>
+  </g>
+  <g stroke="#3b4943" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Plan: front closed door at y172; outward swing is below the cabinet. -->
+    <path d="M510 73h223v98H510Z" fill="#d8ddd5"/>
+    <path d="M528 88h187v68H528Z" fill="#48544d"/>
+    <path d="M511 174h223" stroke="#56766b" stroke-width="7"/>
+    <circle cx="511" cy="174" r="5" fill="#394d43"/>
+    <path d="M734 174a223 223 0 0 1-90 179" stroke="#899b8c" stroke-width="2" stroke-dasharray="7 6"/>
+    <path d="M511 174 691 299" stroke="#56766b" stroke-width="7"/>
+    <path d="m526 188 155 109" stroke="#ebe3d4" stroke-width="10"/>
+    <!-- Chair lies along the outward swing before the pier, not inside the cabinet. -->
+    <path d="m680 277 36 22-22 35-37-23Z" fill="#dccdb3"/>
+    <path d="m680 279-13 19m45 1-13 21m-14-31 29 18m-39-7 31 18" stroke="#6b6450"/>
+    <path d="m681 274 37 22-7 10-37-23Z" fill="#eee7d6"/>
+    <path d="M641 327h59v62h-59Z" fill="#b1b5ad"/>
+    <path d="M650 331h40m-44 11 9 36m40-33-11 38" stroke="#949c91" stroke-width="1"/>
+    <path d="M709 315 816 278M694 358 805 364" stroke="#7a8175" stroke-width="1"/>
+  </g>
+  <g font-family="system-ui,sans-serif" font-size="15" fill="#354941">
+    <text x="738" y="265">Padded chair</text><text x="744" y="385">Concrete pier</text><text x="490" y="421">No person inside; drawing is not to scale</text>
+  </g>
+  <g stroke="#3b4943" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Height comparison deliberately gives no invented measured height. -->
+    <path d="M74 469h203v110H74Z" fill="#b4c3b9"/>
+    <path d="M75 463h207v121H75Z" stroke="#625b46" stroke-width="8"/>
+    <path d="M280 484 274 490 280 498" stroke="#eee7d6" stroke-width="4"/>
+    <path d="M365 453h78v145h-78Z" fill="#b1b5ad"/>
+    <path d="m366 484 12 5-10 10-2-3" fill="#eee7d6"/>
+    <path d="M365 530h20v25h-20Z" fill="#6e7160"/>
+    <path d="M286 491h74" stroke="#879482" stroke-dasharray="5 5"/>
+    <path d="M382 491h106m-104 52h104" stroke="#7a8175" stroke-width="1"/>
+  </g>
+  <g font-family="system-ui,sans-serif" font-size="15" fill="#354941">
+    <text x="511" y="496">Frame dent and pale pier chip align</text><text x="511" y="548">Old felt pad is below the impact</text><text x="36" y="618">Reconstruction for the empty test. Glass fragments are omitted.</text>
+  </g>
+</svg>

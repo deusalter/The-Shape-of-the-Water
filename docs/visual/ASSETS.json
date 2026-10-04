@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-03",
+  "selectedTreatment": "B",
+  "creativeAuthority": "lead_writer",
+  "ownerApproval": false,
+  "licensing": "Generated original project art via built-in imagegen; no third-party artwork imported; no separate license supplied by tool and no extra copyright guarantee claimed. SVG is authored project source.",
+  "assets": [
+    {
+      "path": "visual/auditions/release-a-mineral-gouache.png",
+      "operation": "generated",
+      "tool": "image_gen__imagegen",
+      "originalPath": "/workspace/generated_images/exec-8409766c-d3b9-47dd-936b-6da956991a19.png",
+      "references": [],
+      "width": 1536,
+      "height": 1024,
+      "byteCount": 2846517,
+      "sha256": "0ba3dedc6dd0a328aa4bc1c94b91d5865179e8820a870bd14cbcc4703061c80c",
+      "inspected": true,
+      "notes": "Original treatment A audition: mineral gouache and closer participants"
+    },
+    {
+      "path": "visual/auditions/release-b-graphite-wash.png",
+      "operation": "generated",
+      "tool": "image_gen__imagegen",
+      "originalPath": "/workspace/generated_images/exec-75de6dde-a947-4161-be90-fab46dc6f341.png",
+      "references": [],
+      "width": 1536,
+      "height": 1024,
+      "byteCount": 3178630,
+      "sha256": "edb3fc95a91eb9653e5c6b7f2b41f715a903a9895765dd238bd329cc0fe1c552",
+      "inspected": true,
+      "notes": "Original treatment B audition: graphite and pale watercolor with wide architectural space"
+    },
+    {
+      "path": "public/art/bath-shallow-end.png",
+      "operation": "reference edit",
+      "tool": "image_gen__imagegen",
+      "originalPath": "/workspace/generated_images/exec-a2bb8e27-623d-4c01-b3fa-c7e822e69da8.png",
+      "references": [
+        "visual/auditions/release-b-graphite-wash.png"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "byteCount": 2924375,
+      "sha256": "c5c44f48bf9782b952d15b14882f5c243355e8969a21055acae55839a0f61801",
+      "inspected": true,
+      "notes": "Removed participants and broom from selected B, preserved bath composition/materials"
+    },
+    {
+      "path": "public/art/ada-march.png",
+      "operation": "reference generation",
+      "tool": "image_gen__imagegen",
+      "originalPath": "/workspace/generated_images/exec-6ca94ddd-935c-42cf-aaaa-966bb13130dc.png",
+      "references": [
+        "visual/auditions/release-b-graphite-wash.png",
+        "visual/auditions/release-a-mineral-gouache.png"
+      ],
+      "width": 1122,
+      "height": 1402,
+      "byteCount": 2893831,
+      "sha256": "87f4ec57e4c09ba5acf459ebe248b7bdbc6168164a362d3e6fa2ef1be7c65715",
+      "inspected": true,
+      "notes": "Original Ada portrait matching selected material treatment and established character identity"
+    },
+    {
+      "path": "public/art/simon-vane.png",
+      "operation": "reference generation",
+      "tool": "image_gen__imagegen",
+      "originalPath": "/workspace/generated_images/exec-1eb9558e-a289-4cd8-ad86-4f000276b62b.png",
+      "references": [
+        "visual/auditions/release-b-graphite-wash.png",
+        "visual/auditions/release-a-mineral-gouache.png",
+        "public/art/ada-march.png"
+      ],
+      "width": 1122,
+      "height": 1402,
+      "byteCount": 2914537,
+      "sha256": "a171b648d5f91d7ea41938ed1ba55ad18d6a4ddb2473da79f7719b7cb48dec00",
+      "inspected": true,
+      "notes": "Original Simon portrait; Ada reference maintains materials, auditions maintain distinct identity"
+    },
+    {
+      "path": "public/art/release-binding.svg",
+      "operation": "authored source",
+      "tool": "apply_patch",
+      "originalPath": null,
+      "references": [
+        "narrative/MANUSCRIPT.md",
+        "narrative/CANON.md"
+      ],
+      "width": 900,
+      "height": 630,
+      "byteCount": 5019,
+      "sha256": "438580f7908badb831454979a5713d8c21f4be8ccacae2cf01f68d3092c2ccd4",
+      "inspected": true,
+      "notes": "Controlled reconstruction: external binding, independent latch, outward swing stopped before pier, impact above low pad; glass fragments omitted"
+    }
+  ]
+}

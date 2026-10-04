@@ -13,7 +13,10 @@ for (const file of files) { const bytes=await readFile(file);hash.update(relativ
 const version = hash.digest('hex').slice(0, 16);
 const canonicalJSON=value=>Array.isArray(value)?`[${value.map(canonicalJSON).join(',')}]`:value!==null&&typeof value==='object'?`{${Object.keys(value).sort().map(key=>`${JSON.stringify(key)}:${canonicalJSON(value[key])}`).join(',')}}`:JSON.stringify(value);
 let contentHash=null;
-try{const content=JSON.parse(await readFile(resolve('src/content/case.json'),'utf8'));contentHash=createHash('sha256').update(canonicalJSON(content)).digest('hex');}catch(error){if(error.code!=='ENOENT')throw error;}
+const selection=JSON.parse(await readFile(resolve('src/content/selection.json'),'utf8'));
+if(!/^case(?:-v[0-9]+)?\.json$/.test(selection.file))throw new Error('Unsupported installed content path.');
+const content=JSON.parse(await readFile(resolve('src/content',selection.file),'utf8'));
+contentHash=createHash('sha256').update(canonicalJSON(content)).digest('hex');
 await writeFile(resolve(root, 'asset-manifest.json'), JSON.stringify({ version, contentHash, files: files.map(file => relative(root, file).split('\\').join('/')),hashes }));
 await writeFile(resolve(root, 'sw.js'), worker.replaceAll('__BUILD_VERSION__', version));
 console.log(`Offline manifest: ${files.length} local files, build ${version}`);

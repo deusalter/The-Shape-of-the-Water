@@ -1,0 +1,15 @@
+{
+  "url": "https://openstax.org/books/university-physics-volume-3/pages/1-2-the-law-of-reflection",
+  "status": 200,
+  "bytes": 284998,
+  "sha256": "55da2433ee4d0cacfd6f59919edf241a7e12fd642f32f70ad51813e7ea77e29e",
+  "authors": "Samuel J. Ling, Jeff Sanny, William Moebs",
+  "title": "University Physics Volume 3, \u00a71.2 The Law of Reflection",
+  "retrievedOn": "2026-10-03",
+  "publicationDateReported": "2016-09-29",
+  "licenseNoticeInspected": "Current page reports CC-BY-NC-SA; no source prose is incorporated into game dialogue.",
+  "inspectedScope": "Inspected section opening, law of reflection, diffuse/specular comparison and Figures1.5\u20131.8; corner-reflector opening also read but not applied to the story.",
+  "summary": "The angle of reflection equals the angle of incidence. Smooth surfaces reflect along particular paths; rough surfaces diffuse light. A photographed mirror image is an optical phenomenon, not evidence of a spectator-independent metaphysical standpoint.",
+  "boundedQuote": "the angle of reflection equals the angle of incidence",
+  "retainedText": "Reading-scope notes and bounded excerpt only; fetched HTML hash retained; full copyrighted extracted text removed from distributable source packet."
+}

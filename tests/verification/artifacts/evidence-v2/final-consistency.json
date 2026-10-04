@@ -1,0 +1,14 @@
+{
+  "outcome": "PASS",
+  "scope": "Final artifact/source consistency only; acceptance execution is in pinned run",
+  "finalRun": "tests/verification/artifacts/evidence-v2/run-2026-10-03T23-30-14-244Z.json",
+  "tests": 34,
+  "typecheck": {
+    "command": "pnpm typecheck",
+    "exitStatus": 0,
+    "evidence": "Observed tool execution after final pinned harness; no saved stdout log beyond tool output"
+  },
+  "reportSha256": "aa80f1e062c91fdd9a59d6c6e24b3547cbd97e1bef368ae5a0ee39fa1bccdc72",
+  "traceSha256": "a79d5279a0220ebc03cdfbc6119db0923f1cd4691df0de8ee7498ba8520098f6",
+  "sourceStableAfterReport": true
+}

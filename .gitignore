@@ -5,6 +5,8 @@ playwright-report/
 *.log
 checkpoints/*.tar.gz
 checkpoints/*.bundle
+checkpoints/*.zip
+checkpoints/*.sha256
 checkpoints/*-SHA256.txt
 dist-player/
 dist-studio/

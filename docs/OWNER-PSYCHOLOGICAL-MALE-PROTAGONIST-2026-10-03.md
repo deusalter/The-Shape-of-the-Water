@@ -1,0 +1,9 @@
+# Latest explicit protagonist and tone correction
+
+The owner corrects the recent direction: this must be a trippy psychological game. Rent and comparable practical concerns are not the central concern. The protagonist must be male. The owner also asked which figure had been chosen for the protagonist's name.
+
+Root answered accurately: the provisional Henrietta Bloom referenced historical astronomer Henrietta Swan Leavitt and literary character Leopold Bloom from Ulysses. This was a team editorial proposal, never owner approval. It is superseded where incompatible with the male-protagonist requirement. The lead must select a source-verified historical male given name and literary surname with deliberate character-specific symbolism, not merely masculinize an existing name.
+
+The new job, upstairs workroom, Wednesday appointments and practical-obligation structure are superseded as central protagonist stakes. Preserve their earlier drafts and review history; do not build the main loop around them. Ordinary life and distinct voices can remain as texture, while the central experience and stakes become psychologically and metaphysically unsettling: memory, identity, agency, existence, reality and God through a materially developed time-loop direction. The owner has not specified a particular diagnosis, trauma, mechanism or ending; do not invent owner approval for such details.
+
+This overrides conflicting recent architecture and draft decisions. It does not authorize incoherent evidence, generic surreal prose, doctrine-as-puzzle answers, a dream explanation that invalidates all investigation, or competing final writers. Lead writer retains final literary authority. Concrete first-night mystery and all working code/research/history remain preserved; any necessary change to fixed events must be explicit and justified. Continue through actual revised scenes, independent review, lead decisions and integration.

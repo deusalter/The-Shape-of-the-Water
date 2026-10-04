@@ -1,0 +1,298 @@
+{
+  "outcome": "PASS",
+  "scope": "Pinned baseline navigation reachability only. Fresh IDs, current confirmations and enough remaining command budget are assumptions. Not full transcript, optional prose, knowledge, selected-proof, migration or 10,000-command-cap verification.",
+  "testedAt": "2026-10-03T22:39:08.682Z",
+  "command": "node tools/verify-guard-core.mjs c6c6845",
+  "baselineRevision": "c6c6845",
+  "auditedGameSha256": "03e6dc0be8b1612ddc57c6f8384b975ca8c83f96195e606b1c01afc4c91e5434",
+  "contentHash": "0bd022ad793897d6a92c6dbd7054951c7ca8e07ea5d8158ad786d6e3279be432",
+  "contentFileSha256": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+  "guardFlags": [
+    "heard_ada",
+    "heard_miriam",
+    "heard_shared",
+    "heard_simon",
+    "optics_done",
+    "proof_binding",
+    "proof_cut",
+    "proof_timing",
+    "seen_cabinet"
+  ],
+  "omittedFlags": [
+    "account_given",
+    "disputed_card",
+    "early_free",
+    "future_help",
+    "heard_ada_intimate",
+    "heard_miriam_account",
+    "heard_miriam_intimate",
+    "heard_recording",
+    "heard_simon_account",
+    "heard_simon_intimate",
+    "inspected_cabinet",
+    "left",
+    "met_ada",
+    "met_miriam",
+    "narrow_card",
+    "pressed_miriam",
+    "private_finding",
+    "public_correction",
+    "revisited_cabinet",
+    "shamed_simon",
+    "stayed",
+    "tested_release"
+  ],
+  "omittedState": [
+    "observations",
+    "interpretations",
+    "relationships",
+    "transcript",
+    "processedCommandIds",
+    "revision"
+  ],
+  "projectionArgument": "All baseline navigation predicates use scene/content identity/ended and finite requires/unless flag membership. Choice effects only add flags. Unreferenced flags and record/history data cannot alter these predicates. Supplied receipts are freshly computed. Revision cap remains outside this conditional claim; the tool refuses unreviewed game.ts hashes.",
+  "budget": {
+    "states": 25000,
+    "transitions": 500000,
+    "milliseconds": 60000
+  },
+  "states": 420,
+  "transitions": 1051,
+  "expanded": 420,
+  "frontier": 0,
+  "stopReason": "complete",
+  "milliseconds": 351,
+  "maximumMinimumTerminalDistance": 11,
+  "scenesReached": [
+    "ada_miriam",
+    "arrival",
+    "bench",
+    "cabinet",
+    "concourse",
+    "continuation",
+    "gallery",
+    "leave",
+    "miriam_account",
+    "miriam_private",
+    "optics",
+    "private_account",
+    "public_account",
+    "recording",
+    "release",
+    "report",
+    "shared",
+    "simon_account",
+    "simon_ada",
+    "supper",
+    "workshop"
+  ],
+  "choicesUsed": [
+    "ada-miriam-leave",
+    "arrival-ada",
+    "arrival-cabinet",
+    "arrival-miriam",
+    "bench-panic",
+    "bench-record",
+    "cabinet-cautious",
+    "cabinet-infer",
+    "cabinet-report",
+    "cabinet-revise",
+    "cabinet-test",
+    "continue-leave",
+    "continue-stay",
+    "continue-supper-only",
+    "gallery-accuse",
+    "gallery-direct",
+    "gallery-hub",
+    "gallery-recording",
+    "hub-ada-private",
+    "hub-bench",
+    "hub-cabinet",
+    "hub-gallery",
+    "hub-miriam",
+    "hub-miriam-private",
+    "hub-recording",
+    "hub-report",
+    "hub-shared",
+    "hub-simon-private",
+    "hub-test",
+    "hub-workshop",
+    "miriam-account-record",
+    "miriam-private-listen",
+    "optics-measure",
+    "optics-narrow",
+    "optics-return",
+    "private-next",
+    "public-next",
+    "recording-account",
+    "recording-keep",
+    "release-film",
+    "release-record",
+    "report-private",
+    "report-public",
+    "shared-optics",
+    "shared-pause",
+    "simon-account-film",
+    "simon-account-record",
+    "simon-ada-leave",
+    "workshop-record",
+    "workshop-to-test"
+  ],
+  "equivalencePairs": 632,
+  "equivalenceTransitions": 2913,
+  "terminalWitnesses": [
+    {
+      "endingScene": "supper",
+      "commands": [
+        {
+          "id": "core.0.1",
+          "choiceId": "arrival-ada",
+          "expectedRevision": 0
+        },
+        {
+          "id": "core.2.6",
+          "choiceId": "workshop-to-test",
+          "expectedRevision": 1
+        },
+        {
+          "id": "core.7.20",
+          "choiceId": "release-film",
+          "expectedRevision": 2
+        },
+        {
+          "id": "core.18.51",
+          "choiceId": "recording-keep",
+          "expectedRevision": 3
+        },
+        {
+          "id": "core.40.124",
+          "choiceId": "hub-shared",
+          "expectedRevision": 4
+        },
+        {
+          "id": "core.88.260",
+          "choiceId": "shared-optics",
+          "expectedRevision": 5
+        },
+        {
+          "id": "core.152.432",
+          "choiceId": "optics-narrow",
+          "expectedRevision": 6
+        },
+        {
+          "id": "core.201.571",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 7
+        },
+        {
+          "id": "core.261.729",
+          "choiceId": "report-public",
+          "expectedRevision": 8,
+          "confirmation": {
+            "stateHash": "22e7e61e73122efcab11beedc540834e407bd97ed0f078bfd5ea15f2636ff5de",
+            "actionHash": "3512738c01b069fb1b0a26c933230a4a0e5864c5ea994bd3b7faaf9315d7d96b",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "core.309.863",
+          "choiceId": "public-next",
+          "expectedRevision": 9
+        },
+        {
+          "id": "core.362.968",
+          "choiceId": "continue-stay",
+          "expectedRevision": 10,
+          "confirmation": {
+            "stateHash": "11c8bf1b2fe6ade6c3df4ba0d145ad1205c8eafc328cacf64e3c550c9ad36198",
+            "actionHash": "b4a9c63f43557897602be5b458b885c296f6388388f73b47f7850b17410e8cea",
+            "acknowledged": true
+          }
+        }
+      ],
+      "stateHash": "ab0ea772ddb701a11d4f080ecbfddf73f13fa3323fdcae1e3b3abd1ed02a5279"
+    },
+    {
+      "endingScene": "leave",
+      "commands": [
+        {
+          "id": "core.0.1",
+          "choiceId": "arrival-ada",
+          "expectedRevision": 0
+        },
+        {
+          "id": "core.2.6",
+          "choiceId": "workshop-to-test",
+          "expectedRevision": 1
+        },
+        {
+          "id": "core.7.20",
+          "choiceId": "release-film",
+          "expectedRevision": 2
+        },
+        {
+          "id": "core.18.51",
+          "choiceId": "recording-keep",
+          "expectedRevision": 3
+        },
+        {
+          "id": "core.40.124",
+          "choiceId": "hub-shared",
+          "expectedRevision": 4
+        },
+        {
+          "id": "core.88.260",
+          "choiceId": "shared-optics",
+          "expectedRevision": 5
+        },
+        {
+          "id": "core.152.432",
+          "choiceId": "optics-narrow",
+          "expectedRevision": 6
+        },
+        {
+          "id": "core.201.571",
+          "choiceId": "cabinet-report",
+          "expectedRevision": 7
+        },
+        {
+          "id": "core.261.729",
+          "choiceId": "report-public",
+          "expectedRevision": 8,
+          "confirmation": {
+            "stateHash": "22e7e61e73122efcab11beedc540834e407bd97ed0f078bfd5ea15f2636ff5de",
+            "actionHash": "3512738c01b069fb1b0a26c933230a4a0e5864c5ea994bd3b7faaf9315d7d96b",
+            "acknowledged": true
+          }
+        },
+        {
+          "id": "core.309.863",
+          "choiceId": "public-next",
+          "expectedRevision": 9
+        },
+        {
+          "id": "core.362.970",
+          "choiceId": "continue-leave",
+          "expectedRevision": 10,
+          "confirmation": {
+            "stateHash": "11c8bf1b2fe6ade6c3df4ba0d145ad1205c8eafc328cacf64e3c550c9ad36198",
+            "actionHash": "843ff838a4dcab1255f619dcb577a6cf8966ce59eb24df39c46b334e8156aecc",
+            "acknowledged": true
+          }
+        }
+      ],
+      "stateHash": "15ff3d155787c59a9c730545e837783fdf4a2b71b76384e3d4d42e1b86c7aba9"
+    }
+  ],
+  "failures": [],
+  "sourceHashes": {
+    "src/engine/game.ts": "03e6dc0be8b1612ddc57c6f8384b975ca8c83f96195e606b1c01afc4c91e5434",
+    "package.json": "905c4efe332f583f3c899107e53cb72135301f4aef22eef73911882f87a88a5a",
+    "src/engine/hash.ts": "eaac5792696012f9291d5ba937835ce1f1ef0196e3e0e35262813775ba2a028b",
+    "src/engine/validate.ts": "ebdf96f237c196354e26e27652a82a8ae9c96626530a492e7fc0aebd31539463",
+    "src/engine/schema.ts": "d32024095103744199d0e675e17e3ce7c8c3d7edafd4688f75476c16300886ae",
+    "src/content/case.json": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086"
+  },
+  "installedZod": "4.6.5",
+  "toolSha256": "7cf7a6183225058cac211649f2accdb5fd966e20f9e63f284f0f1d5d3b6bed5d"
+}

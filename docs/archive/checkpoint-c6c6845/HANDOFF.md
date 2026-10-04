@@ -1,0 +1,39 @@
+# Playable checkpoint, 2026-10-03
+
+Both uploaded inputs have been integrated without restarting or discarding the work. The unchanged revision-3 planning baseline is in baseline/revision3; v4 and newer owner instructions control. No earlier game snapshot existed in the supplied material. This is a bounded playable/editorial checkpoint, not M4 or complete revision-3 acceptance.
+
+Tested code and literary checkpoint: local Git commit `c90f1e1`. Later continuity-only commits do not imply new source testing. Exact source pins remain in each evidence report.
+
+## What is here
+
+The Shape of the Water: 21 scenes, 50 choices, 7,631 base-passage words, three major voices, two material evidence routes, changed revisits, relationship failures that preserve progression, public/private disclosure and two closing scenes. Runtime text: src/content/case.json. Full derived manuscript: narrative/MANUSCRIPT.md. Working title and canon have sole-lead editorial acceptance only. Exact accepted source SHA256: 267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086. Canonical semantic content hash: 0bd022ad793897d6a92c6dbd7054951c7ca8e07ea5d8158ad786d6e3279be432. Earlier versions, auditions, rejected alternatives, naming provenance, exact anchors, source reading scope and decisions are retained.
+
+Eight substantial source-backed dossiers, comparative argument and bounded inference note are in research/philosophy. Selected passages of the Critique and all five Ethics parts were actually inspected, with primary locators, scholarly checks, excerpt/source hashes and stated scope. This is not a whole-work/original-language collation or a complete research program. Kant's empirical/transcendental distinction and Spinoza's immanence and Ethics V altered actual encounters; PHILOSOPHY-MAP links changes to play. Criticism led to causal, disclosure, argument, voice and ending revisions, not merely new summaries.
+
+React/TypeScript/Vite player, pure deterministic validated engine, IndexedDB recovery/archives, encountered-only transcript export, separate structured text studio and offline player build are implemented. Commands are in README. Finished play has no runtime AI or paid calls. Static bundles necessarily contain authored content; projection tests do not promise secrecy from a person inspecting downloaded assets.
+
+## Executed evidence
+
+- pnpm verify: 91 tests across 11 files, typecheck, content validation/style check and separate player/studio builds passed. Exact output: evidence/checkpoint-commands.json. Build warnings concern removable third-party Zod PURE annotations; build exit was 0.
+- python3 tools/check_packet.py: structural packet and eight negative checks passed. It does not validate philosophy, prose or gameplay.
+- Independent seeded properties/persistence and replay tests: see docs/reviews/ENGINE-VERIFICATION.md and tests/verification/artifacts/tests.json for current count and exact source pins. Engine exploration is explicitly INCONCLUSIVE at its state budgets; fixture navigation abstraction completes. Every scene/choice is reached by the bounded navigation search; this does not prove every history is safe. Authored terminal witnesses and failed-relationship/revisit checks are replayed.
+- Chromium: all 13 browser checks passed at the accepted case hash. Keyboard-only investigation/ending, reload, stale-tab protection, encountered export, archived restart, installed offline reload/play, corrupted-cache readiness refusal, four viewport widths and 200% CSS zoom, structured studio edit/undo/preview, incomplete-draft recovery and archive-preserving retry after quota failure. Axe player and studio reported zero violations; player scan includes one incomplete/manual item. Evidence: evidence/browser/report.json, screenshots and axe records. This is not a screen-reader or human playtest.
+- Static handoff completeness/fault injection is recorded in evidence/handoff-rehearsal.json with CHECKPOINT.json pinned. That rehearsal tests stale baseline, missing anchors, unknown ownership and invented test claims in disposable copies. It is not an actual new-chat continuation.
+
+Initial browser checks found real offline cache Vary/header mismatch, narrow zoom overflow and low muted-text contrast. These were fixed and the suite rerun. A stale-tab assertion initially matched “Loading saved progress”; the harness now waits for completed load/save messages. A fresh scoped checkpoint reviewer subsequently reproduced incomplete-draft reload and failed-replacement archive-intent bugs. Both were repaired, unit-tested and browser-tested, then independently rechecked and closed by that reviewer. Earlier reports and exact repros are preserved in docs/reviews/CHECKPOINT-REVIEW.md and evidence/history. No production data reset was used to hide a failure.
+
+## Exact remaining limits
+
+Full selected-reference factual proof submission/AND-OR support, independent NPC belief/statement knowledge, automatic inference closure and hints are absent. The current evidence routes are authored flag gates, not acceptance of AC-E05/AC-G06–08. Flat src boundaries do not implement the proposed full pnpm workspace layout. Notes and display preferences are not persisted; no audio exists. Explicit runId/branchParent metadata, cross-hash semantic migrations and read-only tab takeover remain absent. Unknown exact-text saves are retained/exportable, not silently migrated.
+
+The studio lacks complete structured variant/reference-renaming and deduction editing, and a second full fixture has not been authored solely through its UI. Its basic structured edit/undo/preview was executed. Worker updates wait rather than force takeover, and readiness checks active content hash plus asset bytes; explicit update activation UX, arbitrary interrupted upgrades and older-cache cleanup still need work. Firefox/WebKit, real assistive technology, physical-device/browser crash durability and performance stress are untested.
+
+Required routes render roughly 4,492–4,751 passage words; the selected initial route renders 2,033. These are measured words, not measured minutes. No human playtest or owner literary approval. Mandatory optics may be too concentrated; apparatus geometry/light response is not physically prototyped. Philosophical reviews are scoped and do not settle scholarly disagreements.
+
+## Next executable work and ownership
+
+Start with node tools/check-handoff.mjs and inspect actual source. Preserve newer work if hashes differ. Reopen T03/T05/T12 for an explicit selected-evidence proof command and data model, using the existing physical reconstruction versus recording routes. Add negative provenance/unsupported-selection tests and alternate-route tests; keep doctrine and relationship choices outside factual grading. Preserve current narrative until the sole lead accepts a specific necessary change.
+
+Root owns integration, shared contracts/manifests, active specifications, source merging and continuity. One lead owns narrative/** and src/content/case.json. An engineering owner may own src except case plus assigned tests/public; independent verification owns tests/verification and tools/verify-*; critics write only reports. No simultaneous shared-file writers. All workers from this session are completed at final handoff; none should be assumed available in another chat. Maximum four active subagents, no recursion. Requested/accepted models are recorded in CAPABILITIES; actual backend identity was not exposed.
+
+Use CONTINUE_PROMPT.md with the current archive, not just the original specification ZIP. CHECKPOINT.json pins critical current source and evidence. The archive also carries history/local-history.bundle; local Git preserves earlier intake/reconciliation and runnable work; no remote, push, public deployment, paid operation or future autonomous execution is claimed.

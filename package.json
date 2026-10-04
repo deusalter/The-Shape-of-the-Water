@@ -20,8 +20,8 @@
     "content:validate": "node tools/check-content.mjs",
     "content:style": "node tools/check-content.mjs",
     "verify": "pnpm typecheck && pnpm test && pnpm content:validate && pnpm build",
-    "test:e2e": "node tools/browser-check.mjs",
-    "test:a11y": "node tools/browser-check.mjs"
+    "test:e2e": "node tools/browser-v2-check.mjs",
+    "test:a11y": "node tools/browser-v2-check.mjs"
   },
   "dependencies": {
     "react": "19.3.0",

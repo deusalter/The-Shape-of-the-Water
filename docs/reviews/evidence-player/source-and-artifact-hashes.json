@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-03",
+  "kind": "noncanonical v2 source-pinned browser evidence",
+  "sources": {
+    "src/components/EvidencePlayer.tsx": "9546cbbf2ff17d03687412b00eabb2a9b5fcb6b6b57fcd25c67d3604b71ad114",
+    "src/components/evidence-player.css": "0016ef4fbaec7fce62a8c222b085c6e63936559edfbdf330608a2c79b899d77f",
+    "tests/evidence-player-controller.test.ts": "69b8043652bdab14a5182225d58fda3edcea2a51a6a13d5768d7b9a56935850a",
+    "src/engine/evidence-runtime.ts": "7084f4240416b1283bbaa9270797b0d4e0f373dad88e8b112f88f4add2979948",
+    "tests/evidence-engine.test.ts": "157fe13c7073f7e575084e9edb1a6c0916a001907f4ee08f381cd5e68d458544"
+  },
+  "artifacts": {
+    "axe.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "encountered-run.json": "fae3bce35209ef686c36515c795d53977666eb31bdd3caa57235d5a630afe05b",
+    "final-screenshots.json": "49e2c01203c21af42d04695b2ebc44e38093fa9bbfb03bd5e698d3f18aaa4664",
+    "harness/app.css": "9100f240e97fc09848c29e50d59d5eeb8667ef74bd122883a42aaebfae715690",
+    "harness/app.js": "887e00eafe389d701a56a65291c5a057d697d1987166aaf5227c575112ec3634",
+    "harness/index.html": "96a79613bef59135270e90af538164cfd2905ab5ee8db9d9e4c459251dfb90c1",
+    "layout-report.json": "144de11a52dcc2d2850bfa5fa64a9ad5e2bc182a7746917c0d3c594991489d30",
+    "migration-report.json": "cbb8a0a6de72be4b88f8ea46bbdc1bdb6edaa9374a11304cd0bc645cc894ffbb",
+    "migration.png": "69814e2130d01a910d52b630ac70f24ca3de8ca5e1bf32687824608e3ccb14d9",
+    "player-1280.png": "c0dc6704becb20d277878f075ffbaa5936b48fabfdc277204644b312366ff9ac",
+    "player-320-notebook-zoom.png": "7e1cbc01e28bde3d53e61e6db3e8a6cd0ec8422723eef29333560d5f93f63046",
+    "player-320-zoom.png": "773a4c45c010cc02ec40def6e8e1867329f3fd9ea4e197f05fec3399296b7358",
+    "report.json": "46869bd5b899b18846210a76e3a2ab073d4103c1559ff13e8e86f5e0994e8306"
+  }
+}

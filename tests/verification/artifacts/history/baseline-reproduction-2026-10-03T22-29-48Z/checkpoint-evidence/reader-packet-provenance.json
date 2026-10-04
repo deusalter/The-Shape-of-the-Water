@@ -1,0 +1,12 @@
+{
+  "packet": "reviews/reader-packet.txt",
+  "scope": "Only rendered player paragraphs, available labels and chosen labels for early route; no author metadata",
+  "route": [
+    "arrival-miriam",
+    "bench-record",
+    "hub-cabinet",
+    "cabinet-infer",
+    "hub-gallery"
+  ],
+  "note": "Prepared from same selection semantics; later engine export verifies content."
+}

@@ -1,0 +1,20 @@
+{
+  "outcome": "FAIL",
+  "scope": "First independent V2 run, noncanonical fixture, direct engine only",
+  "testedAt": "2026-10-03T23:23:22Z",
+  "command": "pnpm exec vitest run tests/verification/evidence-v2-independent.test.ts --reporter=verbose",
+  "exitStatus": 1,
+  "passed": 28,
+  "failed": 1,
+  "total": 29,
+  "runtimeSha256": "13ccffec8cc5f3a0dd359664a471f40d4f5d195eccbaba6cd522106e8277096c",
+  "failure": {
+    "test": "a deduction with internally repeated origin can be independently corroborated by a new origin",
+    "actual": {
+      "code": "unsupported",
+      "message": "The selected material does not support that account."
+    },
+    "expected": "Acceptance because origin sets of accepted story and photo are disjoint"
+  },
+  "limits": "Observed tool output summary; full stdout not redirected for this initial direct run. Later pinned harness output is retained separately."
+}

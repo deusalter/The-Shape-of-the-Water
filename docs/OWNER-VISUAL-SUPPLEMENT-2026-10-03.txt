@@ -1,0 +1,69 @@
+Add the following visual-production requirements to the goal you are already pursuing. Continue the existing project and preserve its accepted writing, research, code, and current progress. This supplements the goal; it does not replace it or authorize a restart.
+
+ARTISTIC OBJECTIVE
+
+The finished game must have a distinctive, coherent visual identity, not just a functional text interface. Literary-first does not mean visually unfinished.
+
+Default to an illustrated 2D presentation: expressive character portraits, carefully composed locations, inspectable evidence, and an excellent reading/dialogue interface. Elaborate animation and a full 3D world are unnecessary.
+
+Take the artistic ambition of Disco Elysium as a reference without copying its portraits, interface, compositions, or distinctive visual treatment. Develop an identity appropriate to our actual story.
+
+Avoid generic AI-game presentation: interchangeable attractive faces, decorative glowing symbols, arbitrary fantasy costumes, and atmospheric effects used to conceal an otherwise empty design. Do not automatically illustrate metaphysical ideas with cosmic gradients or floating philosophical diagrams.
+
+TOOL ACCESS AND PERMISSIONS
+
+Inspect which image-generation, image-editing, and visual-inspection tools are genuinely available in this session. Use available authorized tools to produce actual assets, not merely prompts for hypothetical future generation.
+
+Do not assume that naming a tool or writing a configuration file gives you access to it. Do not claim images were generated, edited, or inspected unless those operations actually occurred.
+
+Blender and Higgsfield are not prerequisites. Request an external tool only when a specific requirement cannot reasonably be met with the available tools. Explain the concrete need and any additional cost or permissions.
+
+No separately billed APIs, purchases, new service subscriptions, public deployment, or access to my local Mac is authorized. The finished game must run without live AI generation.
+
+FIRST VISUAL MILESTONE
+
+Read the current manuscript and inspect the actual player interface before choosing the visual direction.
+
+Use one existing encounter to test two small, genuinely different visual treatments. Keep the scene, characters, and narrative facts consistent so the comparison is meaningful. Do not spend the session producing an endless mood board.
+
+Choose a provisional direction through the lead creative authority, record a brief justification, and proceed without waiting for approval on ordinary reversible aesthetic decisions.
+
+Build one complete visual encounter inside the actual game:
+- One finished location illustration.
+- Two portraits of characters who actually appear there.
+- One inspectable object or evidence asset appropriate to the scene.
+- The real dialogue, choices, and navigation in a readable interface.
+
+When the scene requires a different asset mix, use what it genuinely needs rather than inventing characters or clues to satisfy this list.
+
+This milestone must be playable in the current application, not a disconnected mockup or promotional image.
+
+CONSISTENCY AND DETECTIVE ACCURACY
+
+Establish reusable visual references for the cast, clothing, architecture, palette, materials, and lighting. Preserve successful reference images and use supported reference/editing workflows to maintain continuity.
+
+Give characters distinct faces, silhouettes, posture, age presentation, and signs of ordinary life. Do not make every portrait the same polished face with different hair.
+
+Verify all clue-bearing details against the canonical case. Object positions, markings, numbers, sightlines, and relevant spatial relationships must be deliberately controlled. Use separately authored layers or assets where necessary.
+
+Do not let incidental generated details introduce false evidence, contradict the mystery, or spoil a later discovery.
+
+Keep dialogue and interface text as accessible application text. Required evidence must have accessible descriptions and cannot depend solely on color or tiny image details.
+
+INTEGRATION AND REVIEW
+
+Inspect the actual integrated encounter in the browser. Check representative screen sizes, long dialogue, portrait placement, image cropping, contrast, keyboard navigation, and reduced-motion behavior.
+
+Review screenshots where supported. Distinguish actual visual inspection from assumptions made by reading the code.
+
+Revise the first encounter until its art and interface work together. Then extend that direction across the game’s necessary locations, cast, and evidence. Reuse assets deliberately where appropriate; each scene does not require a new illustration.
+
+Store production assets in the project with stable filenames, references, provenance, relevant licensing information, and concise generation/editing notes. Include the required assets in the build rather than relying on temporary external URLs.
+
+EXECUTION
+
+Use one of the existing four worker slots for visual production when independent work is ready. Keep literary development and engineering moving. Do not launch a competing creative authority or convert the project into a generic art pipeline.
+
+If image generation is unavailable, state the precise limitation and the smallest action needed from me. Continue independent interface and game work, but do not present placeholders as finished artwork.
+
+Add these requirements to the current execution and acceptance records. Begin by auditing available visual tools and selecting an existing encounter for the integrated visual milestone. Do not stop after producing an art-direction document.
