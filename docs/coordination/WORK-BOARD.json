@@ -8,7 +8,7 @@
   "internalReservedSlots": 4,
   "teams": {
     "protagonist": {
-      "suggestedTitle": "Literary Game \u2014 Protagonist",
+      "suggestedTitle": "Literary Game — Protagonist",
       "permittedSlots": 0,
       "externalChatId": "01a1042a-8c74-70cd-924d-aeada8ddd03e",
       "phase": "new world-rebuild request prepared; awaiting owner resume",
@@ -24,7 +24,7 @@
       "lastObservedCursor": "026c2a37-600b-4160-816f-fb5141976f95:2"
     },
     "loop-plot": {
-      "suggestedTitle": "Literary Game \u2014 Loop and Plot",
+      "suggestedTitle": "Literary Game — Loop and Plot",
       "permittedSlots": 0,
       "externalChatId": "01a1042a-ed4d-771e-8cd5-f21def1bf031",
       "phase": "new world-rebuild request prepared; awaiting owner resume",
@@ -40,7 +40,7 @@
       "lastObservedCursor": "f37b2c05-5f04-4832-9c4e-1f9ec5daa06d:2"
     },
     "literary": {
-      "suggestedTitle": "Literary Game \u2014 Literary Review",
+      "suggestedTitle": "Literary Game — Literary Review",
       "permittedSlots": 0,
       "externalChatId": "01a1042b-7bf0-7787-8a9a-73799016101f",
       "phase": "new world-rebuild request prepared; awaiting owner resume",
@@ -56,7 +56,7 @@
       "lastObservedCursor": "c3e7fd20-af5c-413d-9f79-8e36c9131454:2"
     },
     "integration-qa": {
-      "suggestedTitle": "Literary Game \u2014 Integration QA",
+      "suggestedTitle": "Literary Game — Integration QA",
       "permittedSlots": 0,
       "externalChatId": "01a1042b-95ae-70fa-ae28-8f476b95700c",
       "phase": "new world-rebuild request prepared; awaiting owner resume",
@@ -78,7 +78,15 @@
   "visibilityObserved": "public; owner-selected destination",
   "commitAuthor": "deusalter",
   "coauthorTrailers": false,
-  "publishedCheckpoint": "0a4031496bb81d323b6a5f1e350207315eb07a48",
+  "publishedCheckpoint": "030d509bdf3b1dcefa52b3718be3959caae24d1b",
   "permitRevision": "2026-10-04-world-rebuild-004",
-  "latestOwnerCorrection": "docs/OWNER-WORLD-REBUILD-2026-10-04.md"
+  "latestOwnerCorrection": "docs/OWNER-WORLD-REBUILD-2026-10-04.md",
+  "requestPublication": "P-003/T-003/L-003/Q-004 published on main; native chat delivery unavailable, owner resume needed",
+  "internalActiveAtLastCheck": [
+    "lead_writer",
+    "new_world_engineer"
+  ],
+  "installedStory": "src/content/case-v4.json; first movement0d20; whole game unfinished",
+  "currentVerification": "488 tests and five built routes PASS; see docs/execution/evidence/second-mouth-integration/README.md",
+  "nextProduction": "case-v5 country-to-house candidate plus first deliberate-return audition; not installed"
 }

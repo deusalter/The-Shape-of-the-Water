@@ -3,7 +3,7 @@
   "baseline": {
     "status": "PASS",
     "scope": "Static snapshot integrity and claim consistency only; not a fresh-chat resume or new gameplay test",
-    "pinnedFiles": 1489,
+    "pinnedFiles": 267,
     "errors": []
   },
   "checks": [
@@ -19,37 +19,7 @@
       "name": "missing_voice_anchor",
       "status": "PASS",
       "detected": [
-        "Missing or unreadable critical file: narrative/rebuild/VOICE-V4.md"
-      ]
-    },
-    {
-      "name": "stale_active_content",
-      "status": "PASS",
-      "detected": [
-        "Changed snapshot file: docs/execution/STATE.json",
-        "Stale selected content path"
-      ]
-    },
-    {
-      "name": "changed_selected_content",
-      "status": "PASS",
-      "detected": [
-        "Changed snapshot file: src/content/case-v4.json"
-      ]
-    },
-    {
-      "name": "missing_retained_content",
-      "status": "PASS",
-      "detected": [
-        "Missing or unreadable critical file: src/content/case-v2.json"
-      ]
-    },
-    {
-      "name": "unsafe_selection",
-      "status": "PASS",
-      "detected": [
-        "Changed snapshot file: src/content/selection.json",
-        "Invalid content selection: Invalid selected content file"
+        "Missing or unreadable critical file: narrative/VOICE.md"
       ]
     },
     {

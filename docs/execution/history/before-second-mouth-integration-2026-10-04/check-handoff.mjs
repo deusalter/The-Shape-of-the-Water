@@ -15,22 +15,11 @@ export function checkHandoff(root) {
     try {if(digest(path)!==hash)errors.push(`Changed snapshot file: ${path}`);}
     catch(error){errors.push(`Missing or unreadable critical file: ${path}`);}
   }
-  for(const path of ['AGENTS.md','README.md','RESUME.md','CONTINUE_PROMPT.md','pnpm-lock.yaml','src/content/selection.json','narrative/rebuild/VOICE-V4.md','narrative/rebuild/VOICE-LATER.md','narrative/rebuild/LATER-CHECKPOINT.json','narrative/rebuild/LATER-STRUCTURE-AND-DISCLOSURE.md','narrative/rebuild/A-CAUSAL-LEDGER.md','narrative/rebuild/SELECTION-AND-DISPOSITIONS.md','research/philosophy/KANT.md','research/philosophy/SPINOZA.md','research/philosophy/COMPARISON.md','research/reference/hello-charlotte/DOSSIER.md','docs/execution/HANDOFF.md','docs/execution/STATE.json']){
+  for(const path of ['AGENTS.md','README.md','RESUME.md','CONTINUE_PROMPT.md','pnpm-lock.yaml','src/content/case.json','narrative/VOICE.md','narrative/CANON.md','research/philosophy/KANT.md','research/philosophy/SPINOZA.md','research/philosophy/COMPARISON.md','docs/execution/HANDOFF.md']){
     if(!manifest.files?.[path])errors.push(`Required pin absent: ${path}`);
   }
   if(state.baseline?.archiveSha256!==manifest.baselineArchiveSha256)errors.push('Stale baseline identity');
-  try {
-    const selection=JSON.parse(read('src/content/selection.json'));
-    if(typeof selection.file!=='string'||!/^case[-a-z0-9]*\.json$/.test(selection.file))throw Error('Invalid selected content file');
-    const selectedPath=`src/content/${selection.file}`;
-    if(state.activeContent!==selectedPath)errors.push('Stale selected content path');
-    if(!manifest.files?.[selectedPath])errors.push(`Required pin absent: ${selectedPath}`);
-    if(state.currentContentSha256!==manifest.files?.[selectedPath])errors.push('Stale content identity');
-    for(const file of selection.retainedFiles??[]){
-      if(typeof file!=='string'||!/^case[-a-z0-9]*\.json$/.test(file))throw Error('Invalid retained content file');
-      if(!manifest.files?.[`src/content/${file}`])errors.push(`Required retained pin absent: ${file}`);
-    }
-  }catch(error){errors.push(`Invalid content selection: ${error.message}`);}
+  if(state.currentContentSha256!==manifest.files?.['src/content/case.json'])errors.push('Stale content identity');
   if(!Number.isInteger(state.maxActiveSubagents)||state.maxActiveSubagents>4)errors.push('Invalid worker limit');
   for(const worker of state.activeWorkers??[]){
     if(!state.ownership?.[worker.owner])errors.push(`Unknown worker ownership: ${worker.owner}`);
