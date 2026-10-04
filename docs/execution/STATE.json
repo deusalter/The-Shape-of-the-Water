@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "date": "2026-10-04",
-  "status": "mercy-optimized-release-verified",
+  "status": "mercy-optimized-release-published",
   "baseline": {
     "revision3": "baseline/revision3",
     "archiveSha256": "9ac1a34024dc678267cb0dda059b06ac7fd151d4db4c91a2ec509331ed77f7df",
@@ -80,7 +80,7 @@
   },
   "priorContinuity": "docs/execution/archives/before-mercy-delivery/",
   "rejectedLocalFiles": "Uninstalled v6 manuscripts/code/assets remain preserved locally and excluded from publication. Its modified development registry is preserved verbatim in narrative/archived/second-mouth-documents/.",
-  "nextExecutableTask": "Publish the verified optimized release as deusalter, verify exact downloadable bytes, then continue from owner feedback.",
+  "nextExecutableTask": "Continue from owner feedback on the published optimized playable release; no unfinished authorized performance work or background execution is promised.",
   "backgroundWork": "No promised work or shared chat memory after active execution ends.",
   "optimizationRequest": "Owner: can you optimize it? Scope: measured loading/rendering/UI performance; exact story and saved-run identity preserved.",
   "priorReleaseVerification": {
@@ -220,6 +220,12 @@
       "evidence": "docs/execution/evidence/mercy-content/verification.json",
       "field": "outcome",
       "expected": "PASS"
+    },
+    {
+      "name": "optimized release and exact downloaded ZIP",
+      "evidence": "docs/execution/evidence/mercy-optimization/PUBLICATION.json",
+      "field": "status",
+      "expected": "PASS"
     }
   ],
   "releaseVersion": "1.0.1",
@@ -233,8 +239,12 @@
     "publicSiteDeployed": false
   },
   "publication": {
-    "status": "PENDING",
+    "status": "PASS",
+    "releaseCommit": "2709f78a74b416afd4b46ed7b24eaf966cf92d6d",
+    "receipt": "docs/execution/evidence/mercy-optimization/PUBLICATION.json",
     "destination": "https://github.com/deusalter/The-Shape-of-the-Water",
+    "author": "deusalter",
+    "coauthorTrailers": false,
     "publicSiteDeployed": false
   },
   "currentVerification": {

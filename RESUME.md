@@ -9,3 +9,5 @@ One lead writer controls final prose. At most four active subagents in aggregate
 The delivery record identifies what actually passed, the playable package and remaining verification limits. Earlier working state is preserved under `docs/execution/archives/before-mercy-delivery/` and in Git history. Rejected uninstalled v6 files may remain untracked locally; do not publish them or resume their plot accidentally. The source delivery is checked from a clean tracked export to exclude dependence on those files.
 
 Continue in response to the owner's next concrete feedback. No background activity is promised after the active session ends. Commit and push as deusalter without coauthor tags. No public deployment or paid service is authorized.
+
+Optimized release publication is verified at commit `2709f78a74b416afd4b46ed7b24eaf966cf92d6d`; inspect `docs/execution/evidence/mercy-optimization/PUBLICATION.json` for its immutable download and digest. No publication blocker remains.
