@@ -1,0 +1,12 @@
+{
+  "id": "creator-about-new",
+  "url": "https://etherane.weebly.com/about.html",
+  "retrieved_utc": "2026-10-04T06:02:45.440720+00:00",
+  "status": 200,
+  "resolved_url": "https://etherane.weebly.com/about.html",
+  "bytes": 30047,
+  "sha256": "70a57ad22c2b23470e89851a6dfabfbacc0a6b101b4091886d8d9669da1be060",
+  "text_sha256": "581411941d0b3f2d24d0f25ce0b8038abbee014cb34c5e82bb5eb9126d25fb5d",
+  "raw_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/creator-about-new.html",
+  "text_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/creator-about-new.txt"
+}

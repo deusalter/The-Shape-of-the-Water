@@ -1,0 +1,12 @@
+{
+  "id": "ep3-helpful-reviews",
+  "url": "https://store.steampowered.com/appreviews/760890?json=1&filter=all&language=english&num_per_page=100&day_range=3650&purchase_type=all",
+  "retrieved_utc": "2026-10-04T06:03:21.570545+00:00",
+  "status": 200,
+  "resolved_url": "https://store.steampowered.com/appreviews/760890?json=1&filter=all&language=english&num_per_page=100&day_range=3650&purchase_type=all",
+  "bytes": 130989,
+  "sha256": "9aa64951052ef0be4038e72558a2dfc5492f3753ad62c47baed6c971dd136360",
+  "text_sha256": "9aa64951052ef0be4038e72558a2dfc5492f3753ad62c47baed6c971dd136360",
+  "raw_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/ep3-helpful-reviews.html",
+  "text_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/ep3-helpful-reviews.txt"
+}

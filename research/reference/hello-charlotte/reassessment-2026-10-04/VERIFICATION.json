@@ -1,0 +1,195 @@
+{
+  "checked_utc": "2026-10-04T06:10:10.188092+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "source": "R-C01",
+      "check": "sha256",
+      "pass": true
+    },
+    {
+      "source": "R-C01",
+      "check": "evidence_text_sha256",
+      "pass": true
+    },
+    {
+      "source": "R-C01",
+      "check": "exact_short_quote",
+      "pass": true
+    },
+    {
+      "source": "R-C02",
+      "check": "sha256",
+      "pass": true
+    },
+    {
+      "source": "R-C02",
+      "check": "evidence_text_sha256",
+      "pass": true
+    },
+    {
+      "source": "R-C02",
+      "check": "exact_short_quote",
+      "pass": true
+    },
+    {
+      "source": "R-C03",
+      "check": "sha256",
+      "pass": true
+    },
+    {
+      "source": "R-C03",
+      "check": "evidence_text_sha256",
+      "pass": true
+    },
+    {
+      "source": "R-C03",
+      "check": "exact_short_quote",
+      "pass": true
+    },
+    {
+      "source": "R-P01",
+      "check": "sha256",
+      "pass": true
+    },
+    {
+      "source": "R-P01",
+      "check": "evidence_text_sha256",
+      "pass": true
+    },
+    {
+      "source": "R-P01",
+      "check": "exact_short_quote",
+      "pass": true
+    },
+    {
+      "source": "R-P02",
+      "check": "sha256",
+      "pass": true
+    },
+    {
+      "source": "R-P02",
+      "check": "evidence_text_sha256",
+      "pass": true
+    },
+    {
+      "source": "R-P02",
+      "check": "exact_short_quote",
+      "pass": true
+    },
+    {
+      "source": "R-P03",
+      "check": "sha256",
+      "pass": true
+    },
+    {
+      "source": "R-P03",
+      "check": "evidence_text_sha256",
+      "pass": true
+    },
+    {
+      "source": "R-P03",
+      "check": "exact_short_quote",
+      "pass": true
+    },
+    {
+      "source": "R-P04",
+      "check": "sha256",
+      "pass": true
+    },
+    {
+      "source": "R-P04",
+      "check": "evidence_text_sha256",
+      "pass": true
+    },
+    {
+      "source": "R-P04",
+      "check": "exact_short_quote",
+      "pass": true
+    },
+    {
+      "source": "R-I01",
+      "check": "sha256",
+      "pass": true
+    },
+    {
+      "source": "R-I01",
+      "check": "evidence_text_sha256",
+      "pass": true
+    },
+    {
+      "source": "R-I01",
+      "check": "exact_short_quote",
+      "pass": true
+    },
+    {
+      "source": "R-I02",
+      "check": "sha256",
+      "pass": true
+    },
+    {
+      "source": "R-I02",
+      "check": "evidence_text_sha256",
+      "pass": true
+    },
+    {
+      "source": "R-I02",
+      "check": "exact_short_quote",
+      "pass": true
+    },
+    {
+      "source": "R-I03",
+      "check": "sha256",
+      "pass": true
+    },
+    {
+      "source": "R-I03",
+      "check": "evidence_text_sha256",
+      "pass": true
+    },
+    {
+      "source": "R-I03",
+      "check": "exact_short_quote",
+      "pass": true
+    },
+    {
+      "source": "R-I04",
+      "check": "sha256",
+      "pass": true
+    },
+    {
+      "source": "R-I04",
+      "check": "evidence_text_sha256",
+      "pass": true
+    },
+    {
+      "source": "R-I04",
+      "check": "exact_short_quote",
+      "pass": true
+    },
+    {
+      "source": "R-I05",
+      "check": "sha256",
+      "pass": true
+    },
+    {
+      "source": "R-I05",
+      "check": "evidence_text_sha256",
+      "pass": true
+    },
+    {
+      "source": "R-I05",
+      "check": "exact_short_quote",
+      "pass": true
+    },
+    {
+      "check": "all_citation_ids_exist",
+      "pass": true
+    },
+    {
+      "check": "raw_evidence_ignored",
+      "pass": true
+    }
+  ],
+  "limits": "Verification checks recorded file hashes, literal excerpt presence, citation IDs, and ignore status. It does not verify source truth, gameplay, translation, ontology or critical consensus."
+}

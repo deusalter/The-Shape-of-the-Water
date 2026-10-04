@@ -1,0 +1,12 @@
+{
+  "id": "search-essay",
+  "url": "https://html.duckduckgo.com/html/?q=%22Hello%20Charlotte%22%20%22review%22%20-site%3Ayoutube.com%20-site%3Asteamcommunity.com%20-site%3Astore.steampowered.com%20-site%3Ametacritic.com%20-site%3Areddit.com%20-site%3Abackloggd.com",
+  "retrieved_utc": "2026-10-04T06:02:14.869593+00:00",
+  "status": 200,
+  "resolved_url": "https://html.duckduckgo.com/html/?q=%22Hello%20Charlotte%22%20%22review%22%20-site%3Ayoutube.com%20-site%3Asteamcommunity.com%20-site%3Astore.steampowered.com%20-site%3Ametacritic.com%20-site%3Areddit.com%20-site%3Abackloggd.com",
+  "bytes": 9755,
+  "sha256": "39bc68e30a5897cb5e25e66c61ae3e2543a29df6c9f18f9143a5eeda59f98550",
+  "text_sha256": "847ef384a88bfe61333bf83573bc5c01211b658df0bf8a15623b4daefd86d6dc",
+  "raw_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/search-essay.html",
+  "text_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/search-essay.txt"
+}

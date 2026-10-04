@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-04",
+  "scope": "Replacement story proposal for owner review; no implementation or owner approval",
+  "literaryAuthority": "lead_writer",
+  "title": "The Mercy of Morning",
+  "project": "The Shape of the Water",
+  "files": [
+    {
+      "path": "narrative/replacement-proposal-2026-10-04/PROPOSAL.md",
+      "sha256": "59f7cf270f532dce45278cd73afa9c2b07c121883237d3a6b57754d4422b8fb4"
+    },
+    {
+      "path": "narrative/replacement-proposal-2026-10-04/SAMPLE-SCENE.md",
+      "sha256": "bec72856c90bb4e84a5aac353bb77b5d536683073ba4306634fe5a07ce6078d2"
+    },
+    {
+      "path": "narrative/replacement-proposal-2026-10-04/history/first-pass/PROPOSAL.md",
+      "sha256": "48b86d3146ee1a59d9a8b8db99963dc719ad73b60f9655c5ce0f89efc3f7af91"
+    },
+    {
+      "path": "narrative/replacement-proposal-2026-10-04/history/first-pass/SAMPLE-SCENE.md",
+      "sha256": "a2adc1f012ab4add282d6fb1a773b6ffc8181f28c0e35ae8dc3df701530fd146"
+    },
+    {
+      "path": "research/reference/hello-charlotte/reassessment-2026-10-04/REASSESSMENT.md",
+      "sha256": "d558a52b0e924787afc96f7da8646ac7a8317d0d9e2fcaff89aad7b4cddf38ef"
+    },
+    {
+      "path": "research/reference/hello-charlotte/reassessment-2026-10-04/SOURCES.json",
+      "sha256": "b1539b55dccfc041dc77731e8d512be7e2466d7bc205b208c178af11b02a0253"
+    },
+    {
+      "path": "narrative/replacement-proposal-2026-10-04/OWNER-PRESENTATION.md",
+      "sha256": "f0f7c94ba9ebc2f775837af4a1688107e52bd587acd78fb69d30b555c360cc41"
+    }
+  ],
+  "exactVoiceAnchors": [
+    {
+      "speakerOrPerspective": "Blaise",
+      "text": "Why did discovering a cause always feel like discovering a substitute?",
+      "source": "narrative/replacement-proposal-2026-10-04/SAMPLE-SCENE.md",
+      "kind": "provisional lead-selected prose; not owner accepted"
+    },
+    {
+      "speakerOrPerspective": "Blaise",
+      "text": "If Julian had kissed him for no reason, the act would have belonged to nobody. A twitch could have done as much.",
+      "source": "narrative/replacement-proposal-2026-10-04/SAMPLE-SCENE.md",
+      "kind": "provisional lead-selected prose; not owner accepted"
+    },
+    {
+      "speakerOrPerspective": "Blaise",
+      "text": "Then he noticed where his thought had taken him. He wanted Erasmus to decide which Julian was entitled to answer. Naturally he hoped the entitled one would love him best.",
+      "source": "narrative/replacement-proposal-2026-10-04/SAMPLE-SCENE.md",
+      "kind": "provisional lead-selected prose; not owner accepted"
+    },
+    {
+      "speakerOrPerspective": "Blaise",
+      "text": "The hope did not make the argument false. That was the refuge he always reached. A hungry man could correctly identify bread. Wanting a thing did not refute the reasons for wanting it.",
+      "source": "narrative/replacement-proposal-2026-10-04/SAMPLE-SCENE.md",
+      "kind": "provisional lead-selected prose; not owner accepted"
+    },
+    {
+      "speakerOrPerspective": "Julian",
+      "text": "“I am trying to become smaller.”",
+      "source": "narrative/replacement-proposal-2026-10-04/SAMPLE-SCENE.md",
+      "kind": "provisional lead-selected prose; not owner accepted"
+    },
+    {
+      "speakerOrPerspective": "Julian",
+      "text": "“I checked my confidence.”",
+      "source": "narrative/replacement-proposal-2026-10-04/SAMPLE-SCENE.md",
+      "kind": "provisional lead-selected prose; not owner accepted"
+    },
+    {
+      "speakerOrPerspective": "Julian",
+      "text": "“You told me there hadn't been another return while we were writing this.”",
+      "source": "narrative/replacement-proposal-2026-10-04/SAMPLE-SCENE.md",
+      "kind": "provisional lead-selected prose; not owner accepted"
+    },
+    {
+      "speakerOrPerspective": "Blaise",
+      "text": "“It was ours,” he said.",
+      "source": "narrative/replacement-proposal-2026-10-04/SAMPLE-SCENE.md",
+      "kind": "provisional lead-selected prose; not owner accepted"
+    }
+  ],
+  "checks": {
+    "allAnchorsLiteral": true,
+    "sampleContainsNoEmDash": true,
+    "scope": "Document integrity only; no game testing performed for this proposal"
+  },
+  "reviewPaths": [
+    "docs/reviews/REPLACEMENT-PHILOSOPHY-23/REVIEW.md",
+    "docs/reviews/REPLACEMENT-STORY-24/",
+    "docs/reviews/REPLACEMENT-BLIND-25/REVIEW.md"
+  ],
+  "modelCapability": "Astra effort allocations requested according to v4; new reference researcher and blind reader tool accepted gpt-6-astra xhigh. Backend identity not attested. No claim that model prompts change the coordinator.",
+  "implementation": "Stopped. Earlier installed v5 and uninstalled v6 remain earlier-draft work. No replacement implementation before owner review.",
+  "finalReview": "Philosophy23 and dramaturgy24 recommend presenting the held proposal and sample; no further material correction requested in this pass. The sample-only blind reading25 was of firstpass and informed two concrete final edits."
+}

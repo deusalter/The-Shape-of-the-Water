@@ -1,0 +1,12 @@
+{
+  "id": "search-wordpress",
+  "url": "https://html.duckduckgo.com/html/?q=%22Hello%20Charlotte%22%20%22wordpress%22",
+  "retrieved_utc": "2026-10-04T06:02:14.871083+00:00",
+  "status": 200,
+  "resolved_url": "https://html.duckduckgo.com/html/?q=%22Hello%20Charlotte%22%20%22wordpress%22",
+  "bytes": 9374,
+  "sha256": "1257b76851491c3c2dfb7cecd9adee5f7c02b2a31e3a4216fbc01fd9e54bfcd7",
+  "text_sha256": "8a470107a5210f06a46691c0d0b639496c4c1d1f10bd4869616891e2b7f54da2",
+  "raw_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/search-wordpress.html",
+  "text_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/search-wordpress.txt"
+}

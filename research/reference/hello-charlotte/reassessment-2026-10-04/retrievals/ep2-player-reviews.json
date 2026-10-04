@@ -1,0 +1,12 @@
+{
+  "id": "ep2-player-reviews",
+  "url": "https://store.steampowered.com/appreviews/557630?json=1&filter=all&language=english&num_per_page=100&purchase_type=all",
+  "retrieved_utc": "2026-10-04T06:02:45.439161+00:00",
+  "status": 200,
+  "resolved_url": "https://store.steampowered.com/appreviews/557630?json=1&filter=all&language=english&num_per_page=100&purchase_type=all",
+  "bytes": 13108,
+  "sha256": "92d346e9c6b967e00775a08d9345438e46072dfef5a9405f381a1b90c49f584e",
+  "text_sha256": "92d346e9c6b967e00775a08d9345438e46072dfef5a9405f381a1b90c49f584e",
+  "raw_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/ep2-player-reviews.html",
+  "text_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/ep2-player-reviews.txt"
+}

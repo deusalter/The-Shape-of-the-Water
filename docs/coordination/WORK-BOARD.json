@@ -11,7 +11,7 @@
       "suggestedTitle": "Literary Game — Protagonist",
       "permittedSlots": 0,
       "externalChatId": "01a1042a-8c74-70cd-924d-aeada8ddd03e",
-      "phase": "new world-rebuild request prepared; awaiting owner resume",
+      "phase": "Older production request superseded by owner. Replacement proposal awaiting review; do not resume implementation.",
       "owns": [
         "docs/coordination/protagonist/STATUS.json",
         "docs/coordination/protagonist/RESPONSE.md",
@@ -21,13 +21,14 @@
       "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
       "branch": "team/protagonist",
       "requestId": "P-003",
-      "lastObservedCursor": "026c2a37-600b-4160-816f-fb5141976f95:2"
+      "lastObservedCursor": "026c2a37-600b-4160-816f-fb5141976f95:3",
+      "historicalPhaseBeforeStoryReplacement": "new world-rebuild request prepared; awaiting owner resume"
     },
     "loop-plot": {
       "suggestedTitle": "Literary Game — Loop and Plot",
       "permittedSlots": 0,
       "externalChatId": "01a1042a-ed4d-771e-8cd5-f21def1bf031",
-      "phase": "new world-rebuild request prepared; awaiting owner resume",
+      "phase": "Older production request superseded by owner. Replacement proposal awaiting review; do not resume implementation.",
       "owns": [
         "docs/coordination/loop-plot/STATUS.json",
         "docs/coordination/loop-plot/RESPONSE.md",
@@ -37,13 +38,14 @@
       "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
       "branch": "team/loop-plot",
       "requestId": "T-003",
-      "lastObservedCursor": "f37b2c05-5f04-4832-9c4e-1f9ec5daa06d:2"
+      "lastObservedCursor": "f37b2c05-5f04-4832-9c4e-1f9ec5daa06d:3",
+      "historicalPhaseBeforeStoryReplacement": "new world-rebuild request prepared; awaiting owner resume"
     },
     "literary": {
       "suggestedTitle": "Literary Game — Literary Review",
       "permittedSlots": 0,
       "externalChatId": "01a1042b-7bf0-7787-8a9a-73799016101f",
-      "phase": "new world-rebuild request prepared; awaiting owner resume",
+      "phase": "Older production request superseded by owner. Replacement proposal awaiting review; do not resume implementation.",
       "owns": [
         "docs/coordination/literary/STATUS.json",
         "docs/coordination/literary/RESPONSE.md",
@@ -53,13 +55,14 @@
       "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
       "branch": "team/literary",
       "requestId": "L-003",
-      "lastObservedCursor": "c3e7fd20-af5c-413d-9f79-8e36c9131454:2"
+      "lastObservedCursor": "c3e7fd20-af5c-413d-9f79-8e36c9131454:3",
+      "historicalPhaseBeforeStoryReplacement": "new world-rebuild request prepared; awaiting owner resume"
     },
     "integration-qa": {
       "suggestedTitle": "Literary Game — Integration QA",
       "permittedSlots": 0,
       "externalChatId": "01a1042b-95ae-70fa-ae28-8f476b95700c",
-      "phase": "new world-rebuild request prepared; awaiting owner resume",
+      "phase": "Older production request superseded by owner. Replacement proposal awaiting review; do not resume implementation.",
       "owns": [
         "docs/coordination/integration-qa/STATUS.json",
         "docs/coordination/integration-qa/RESPONSE.md",
@@ -69,7 +72,8 @@
       "coordinationMode": "GitHub team branches; coordinator can read/wait chats but cannot send/wake",
       "branch": "team/integration-qa",
       "requestId": "Q-004",
-      "lastObservedCursor": "9d90f52d-7c30-4eae-9df9-cbe6b1882110:2"
+      "lastObservedCursor": "9d90f52d-7c30-4eae-9df9-cbe6b1882110:3",
+      "historicalPhaseBeforeStoryReplacement": "new world-rebuild request prepared; awaiting owner resume"
     }
   },
   "repository": "https://github.com/deusalter/The-Shape-of-the-Water",
@@ -78,12 +82,15 @@
   "visibilityObserved": "public; owner-selected destination",
   "commitAuthor": "deusalter",
   "coauthorTrailers": false,
-  "publishedCheckpoint": "4f45efc55ba2cef5ef1782e1af91fb80d0d0c1ea",
+  "publishedCheckpoint": "02856f66df6f764f6a63f947d27290f6f74614a1",
   "permitRevision": "2026-10-04-world-rebuild-004",
-  "latestOwnerCorrection": "docs/OWNER-WORLD-REBUILD-2026-10-04.md",
+  "latestOwnerCorrection": "docs/OWNER-STORY-REPLACEMENT-2026-10-04.md",
   "requestPublication": "P-003/T-003/L-003/Q-004 published on main; native chat delivery unavailable, owner resume needed",
   "internalActiveAtLastCheck": [],
   "installedStory": "case-v5 d4b4:63scenes86choices52sources; retainedv4/v2",
-  "currentVerification": "496 tests,6 built routes247actions, independent303states/36endings, studio and explicit offline reload saving PASS; current evidence/country-integration",
-  "nextProduction": "Reviewed confrontation12a957 and return34c0 ready for separately versioned guarded compilation. Next writing: Emil’s actual control comparison. Full long game unfinished."
+  "currentVerification": "Proposal and scene reviews only; old game checks remain historical.",
+  "nextProduction": "Await owner review of replacement proposal. Do not implement or resume rejected plot.",
+  "externalSnapshotNote": "Compact snapshots during full-game continuation still report already-collected P-002/T-002/L-002/Q-002 completed work. New world requests are published; no native send/wake tool was exposed.",
+  "proposal": "narrative/replacement-proposal-2026-10-04/PROPOSAL.md",
+  "proposalPublicationTarget": "main; documentation only, preserving older implementation separately"
 }

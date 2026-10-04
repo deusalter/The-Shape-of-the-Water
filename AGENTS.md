@@ -1,6 +1,10 @@
 # Provisional literary detective workspace
 
-LATEST OWNER DIRECTION: read docs/OWNER-WORLD-REBUILD-2026-10-04.md first. The owner has reopened the entire bath narrative, setting and all names except Blaise Bloom. Research Hello Charlotte and develop a longer, substantially stranger world with deeper metaphysical consequences. Preserve the earlier prototype; do not install or keep polishing its expanded bath candidate. Reusable engineering remains valid subject to its recorded checks.
+Latest owner direction: **stop the bodily-support plot and all further implementation**. Read [OWNER-STORY-REPLACEMENT-2026-10-04.md](docs/OWNER-STORY-REPLACEMENT-2026-10-04.md) first. Preserve earlier work, but none of its plot premises is an obligation. The sole current deliverable is one researched, critically revised replacement story proposal and substantial sample scene for owner review. Do not implement the replacement before that review.
+
+Earlier world-rebuild direction, subordinate to the replacement-proposal request: docs/OWNER-WORLD-REBUILD-2026-10-04.md. The owner has reopened the entire bath narrative, setting and all names except Blaise Bloom. Research Hello Charlotte and develop a longer, substantially stranger world with deeper metaphysical consequences. Preserve the earlier prototype; do not install or keep polishing its expanded bath candidate. Reusable engineering remains valid subject to its recorded checks.
+
+The broader completion objective in docs/OWNER-FULL-GAME-GOAL-2026-10-04.md is paused at the owner’s explicit proposal-review boundary. It does not authorize further implementation now.
 
 Read docs/OWNER-3D-FACELESS-2026-10-04.md (latest 3D/faceless direction), docs/OWNER-KICKOFF-v4.md in full, RESUME.md, docs/execution/STATE.json and docs/execution/HANDOFF.md before continuing. User instructions override this file.
 

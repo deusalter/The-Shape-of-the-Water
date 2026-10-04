@@ -1,0 +1,12 @@
+{
+  "id": "search-tumblr-creator",
+  "url": "https://html.duckduckgo.com/html/?q=site%3Atumblr.com/etherane%20%22Charlotte%22%20%22story%22",
+  "retrieved_utc": "2026-10-04T06:02:14.870507+00:00",
+  "status": 200,
+  "resolved_url": "https://html.duckduckgo.com/html/?q=site%3Atumblr.com/etherane%20%22Charlotte%22%20%22story%22",
+  "bytes": 9419,
+  "sha256": "08025174964e16cda03e13b13ff68c1542590adda554cd432050d4cc15aa19af",
+  "text_sha256": "de671a388f095e61a100f21909e88a2e85e681e961d80992e80e7ea9e967443f",
+  "raw_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/search-tumblr-creator.html",
+  "text_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/search-tumblr-creator.txt"
+}

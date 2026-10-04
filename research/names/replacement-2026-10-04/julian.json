@@ -1,0 +1,11 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Julian_of_Norwich",
+  "httpStatus": 200,
+  "retrieved": "2026-10-04T06:13:21.950693+00:00",
+  "htmlSha256": "c891701a24eadaf920f084f612e45e16b41293c226ac55b9ae55297ce822b02c",
+  "textSha256": "c9e30b7ab3e3904b46cbb950ba0f74d0352d30dc41a9c46bf19773868a980293",
+  "scope": "Targeted name and relevant-context check, not a complete work or biography reading.",
+  "excerpt": "Her writings, now known as Revelations of Divine Love, are the earliest surviving English-language works attributed to a woman.",
+  "verified": "Julian of Norwich is an attested medieval English anchoress; this is a chosen historical name, not a claim about her birth name. Brief introductory and theology context inspected.",
+  "interpretation": "The writer proposes love without punitive divine favoritism as a tension. This is symbolic adaptation, not an account of the whole theology."
+}

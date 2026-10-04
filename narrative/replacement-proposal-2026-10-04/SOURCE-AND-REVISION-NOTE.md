@@ -1,0 +1,43 @@
+# Source and editorial record
+
+2026-10-04. The lead selects **The Mercy of Morning** as the single recommendation for owner review. The owner has not accepted this story. No replacement implementation is authorized or performed. Earlier bodily-support material was left untouched during this wave.
+
+## Reading order and held sources
+
+1. `OWNER-PRESENTATION.md`: the concise, connected owner-facing account, including spoilers and endings. SHA-256 `f0f7c94ba9ebc2f775837af4a1688107e52bd587acd78fb69d30b555c360cc41`.
+2. `SAMPLE-SCENE.md`: the complete opening audition, “The horse's other end.” SHA-256 `bec72856c90bb4e84a5aac353bb77b5d536683073ba4306634fe5a07ce6078d2`.
+3. `PROPOSAL.md`: fuller synopsis, character psychology, arguments and remaining risks. SHA-256 `59f7cf270f532dce45278cd73afa9c2b07c121883237d3a6b57754d4422b8fb4`.
+
+The existing requirement for a third-person 3D presentation with faceless figures remains in force. This wave proposes story and prose, not new assets or a visual redesign.
+
+## What changed through criticism
+
+- **Root and dramatic critic:** finding Julian initially ended the discoveries and left a sequence of discussions. Accepted. Blaise now deliberately gives up privileged memory; Vera's independent inquiry motivates accepting it; restored Blaise investigates an externally constrained history and publicly reads his account. This is a new act with new consequences, not compulsory replay of the opening.
+- **Philosophical critic:** “outside reality” did not establish immanent substance, and psychological insight did not by itself establish intellectual love. Accepted. Vera now advances substantive premises about self-conception, attributes and infinite substance. Blaise challenges the passage to necessary existence and the reach of thought. The later positive claim concerns adequate understanding through attributes, immanent cause and finite intellectual love; a good performance does not certify it.
+- **Root and philosophical critic:** Kant needed conditions of objective experience and positive agency, beyond cautions about proof. Accepted. The restored morning has an objective position after the request despite Blaise's inner ordering; first-person innocence is not a new untouched author. Reasons make a claim on him without a visible gap in causality or a proven substantial soul.
+- **Root and dramatic critic:** the patron's climactic restraint needed an actual earlier cost and a limited scope. Accepted. Erasmus cancels his anticipated public tribute after Blaise refuses; his promise concerns the city while Blaise remains within it. The ending secures the next interval rather than abolishing recurrence everywhere.
+- **Dramatic critic:** Vera needed a way to recover exterior records after losing memory. Accepted. Her dedication-morning instrument habit brings her back to the same outside box. The records still require checking.
+- **Root:** absent objects support physical departure but cannot disprove every divine-withdrawal story; restored Blaise later cannot remember the harms he has relinquished. Both corrected. Julian's living presence settles the disappearance; later public wording concerns Blaise's described acts.
+- **Scene-only reader:** the concealed breach needed sharper context and the repertoire of harmful answers needed a particular remembered act. Accepted. Julian names Blaise's assurance about no further return while writing the scene. Blaise remembers using Julian's rescue to bring him back across the room.
+- **Dramatic critic:** robe removed too early. Corrected by keeping it gathered until Julian unties it.
+- **Scene-only reader:** some reasoning had a uniformly aphoristic cadence. Partly adapted through the concrete remembered appeal. The lead retains the sustained argument and several short propositions because Blaise's ability to reason persuasively while evading an implication is the scene's chosen voice. This is an editorial decision, not a claim that the texture cannot improve in a full manuscript.
+
+The first proposal (`48b86d31…`) and sample (`a2adc1f0…`) remain unchanged in `history/first-pass/`. The final dramatic review read the complete held pair. The philosophical review read the complete revised synopsis and checked the full sample diff and changed context against its prior complete reading. The scene-only reader saw the first sample without the synopsis; that blind scope does not extend to the revised sample or whole plot. These are AI editorial readings, not human playtests.
+
+Final reports are `docs/reviews/REPLACEMENT-STORY-24/FINAL-REVIEW.md` and `docs/reviews/REPLACEMENT-PHILOSOPHY-23/REVIEW.md`. Both recommend presenting this proposal and request no further material correction within their bounded scope. `docs/reviews/REPLACEMENT-BLIND-25/REVIEW.md` preserves the independent scene-only response. Root's `docs/execution/REPLACEMENT-PROPOSAL-CHECKPOINT.json` preserves exact sources and eight literal scene anchors.
+
+## Research used and its limits
+
+The reference research is `research/reference/hello-charlotte/reassessment-2026-10-04/REASSESSMENT.md`, with its `SOURCES.json` and `VERIFICATION.json`. It distinguishes creator statements, official descriptions, walkthrough recollection, individual criticism and interpretation. The useful construction is the changing meaning of an enjoyed relationship and a once-comic recovery convention. It does not justify copying the reference's cast, realms, signature devices or final ontology. No full playthrough or complete-script reading is claimed. Its criticism of belated relationship development materially informed the decision to perform mutual pleasure before the first disappearance.
+
+The philosophical source record is `docs/reviews/REPLACEMENT-PHILOSOPHY-23/ARGUMENTS-AND-SOURCES.md`. It records the actual bounded primary and scholarly inspections behind this wave: Kant's Second Analogy, Third Antinomy and falsehood discussion; Spinoza's substance argument, adequate causation, active and passive appetite, eternity and intellectual love. The proposal uses those arguments and objections. It does not attribute local returns, a memory-preserving witness, Aubade's geometry or the patron's power to either philosopher. Those are fictional commitments. Literal reversal of objective time is not established: the synopsis describes restoration of a region while exterior activity continues. It asserts neither a detachable soul nor restoration of every bodily detail alongside a mysteriously different mind.
+
+Vera's positive metaphysics, Blaise's objections and Erasmus's self-description are character commitments, not author-certified discoveries. The bounded facts of disappearance, return and preserved testimony are intended to be discoverable within the fiction. Whether finite understanding adequately grasps a particular essence, and how intelligible agency belongs to this empirical person, remain live philosophical questions. Later arguments currently exist as synopsis; only the opening has received a substantial performed audition.
+
+New naming checks are in `research/names/replacement-2026-10-04/`. Root retrieved bounded sources and the lead inspected their retained excerpts and scopes: Julian of Norwich's historical name and relevant theological context; Erasmus and the free-will polemic; Vera Rubin's observed/model discrepancy; Shakespeare's Peter Quince; Brontë's Edward Fairfax Rochester; Richardson's Clarissa Harlowe. The last three use primary Gutenberg texts, with the inspected passages recorded. The Julian name is attested, not claimed to be a certain birth name. No complete biography or literary-work reading is implied. Blaise Bloom retains the previously checked Pascal/Bloom combination required by the owner.
+
+The combinations intentionally create tensions particular to this proposed cast. They do not import whole personalities or require recognition to understand the story. Rochester and Harlowe both evoke coercive arrangements; Erasmus's real generosity and Vera's appetite for acknowledgment must keep them from becoming inherited roles.
+
+## Remaining execution obligations
+
+Erasmus's affection and disappointed need must make the eventual larger refusal credible in performed scenes. Vera and Erasmus still need encounters as responsive and particular as the opening's Blaise and Julian. The outside company and residents must have lives beyond supplying arguments for departure. The unusual setting must do more than provide attractive scenery. Those are honest risks of the selected proposal, not reasons to resume implementation before the owner's decision.

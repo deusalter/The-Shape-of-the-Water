@@ -1,0 +1,20 @@
+{
+  "url": "https://www.gutenberg.org/files/9296/9296-h/9296-h.htm",
+  "httpStatus": 200,
+  "retrieved": "2026-10-04T06:13:22.172882+00:00",
+  "htmlSha256": "f7a90d21cb5216cdac3e825c4b7ece96573e6f36b892dbbec497c4ed32c930bc",
+  "textSha256": "2d775daf5faf605ca601d73ef06b9ec2b9f490203a3ae068b7d2bd85b3445ed8",
+  "contexts": [
+    {
+      "term": "Clarissa Harlowe",
+      "offset": 31,
+      "context": "The Project Gutenberg eBook of Clarissa Harlowe, Vol. 1 (of 9) by Samuel Richardson The Project Gutenberg eBook of Clarissa, Volume 1 (of 9), by Samuel Richardson This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org . If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook. Title: Clarissa, Volume 1 (of 9) Author: Samuel Richardson Release Date: September 17, 200"
+    },
+    {
+      "term": "CLARISSA HARLOWE",
+      "offset": 31,
+      "context": "The Project Gutenberg eBook of Clarissa Harlowe, Vol. 1 (of 9) by Samuel Richardson The Project Gutenberg eBook of Clarissa, Volume 1 (of 9), by Samuel Richardson This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org . If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook. Title: Clarissa, Volume 1 (of 9) Author: Samuel Richardson Release Date: September 17, 200"
+    }
+  ],
+  "scope": "Primary edition title and contents for letters VI–XXII inspected: Clarissa rejects Solmes; family restricts church, visits and letters. Not a complete novel reading."
+}

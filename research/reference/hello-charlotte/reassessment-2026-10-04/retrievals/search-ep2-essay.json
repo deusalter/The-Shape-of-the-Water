@@ -1,0 +1,12 @@
+{
+  "id": "search-ep2-essay",
+  "url": "https://html.duckduckgo.com/html/?q=%22Hello%20Charlotte%22%20%22Anri%22%20%22review%22",
+  "retrieved_utc": "2026-10-04T06:02:14.871522+00:00",
+  "status": 200,
+  "resolved_url": "https://html.duckduckgo.com/html/?q=%22Hello%20Charlotte%22%20%22Anri%22%20%22review%22",
+  "bytes": 9416,
+  "sha256": "2d8b4bb6900af005a28ff5398be39fb8cfec892c2a9e15c3a943e81c7683ad14",
+  "text_sha256": "ff1ebaf356d697b412d29c0fa4f7e989437907adfea7aa50990ef634895c9f40",
+  "raw_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/search-ep2-essay.html",
+  "text_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/search-ep2-essay.txt"
+}

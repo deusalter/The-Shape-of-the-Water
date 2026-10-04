@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-04",
-  "status": "country-house-chapter-published-reviewed-next-manuscript-preserved",
+  "status": "replacement-proposal-for-owner-review-implementation-paused",
   "baseline": {
     "revision3": "baseline/revision3",
     "archiveSha256": "9ac1a34024dc678267cb0dda059b06ac7fd151d4db4c91a2ec509331ed77f7df",
@@ -9,7 +9,7 @@
     "priorImplementation": "none supplied, per owner clarification",
     "taskGraph": "tools/task-dependencies.json"
   },
-  "ownerApproval": "none for new fictional canon",
+  "ownerApproval": "No owner approval of replacement proposal or new canon; no replacement implementation.",
   "ownership": {
     "root": [
       "integration and shared contracts",
@@ -24,9 +24,7 @@
       "tools/browser-*-check.mjs"
     ],
     "lead_writer": [
-      "narrative/** (final literary authority; completed current checkpoint, inspect live status before reassignment)",
-      "src/content/case-v5.json (frozen d4b4, no edits)",
-      "src/content/case-v4.json (frozen 0d20, no edits)"
+      "narrative/replacement-proposal-2026-10-04/** only; preserve all older work"
     ],
     "kant_researcher": [
       "research/philosophy/KANT.md",
@@ -64,22 +62,23 @@
       "research/philosophy/world-rebuild/**"
     ],
     "world_dramaturg": [
-      "docs/reviews/WORLD-REBUILD-09/** (completed)",
-      "docs/reviews/WORLD-COUNTRY-11/** (next-country proposals only)",
-      "docs/reviews/COMPARISONS-CONFRONTATION-19/** (source-pinned manuscript review only)"
+      "docs/reviews/REPLACEMENT-STORY-24/**"
     ],
     "new_world_engineer": [
-      "completed; country renderer/assets/tests returned to root"
+      "Stopped by owner; no edits"
     ],
     "world_philosophical_critic": [
-      "docs/reviews/WORLD-PHILOSOPHY-10/**",
-      "docs/reviews/WORLD-ETHICS-V-12/** (completed proposals)",
-      "docs/reviews/BLAISE-RETURN-PHILOSOPHY-18/** (current uncompiled audition review)",
-      "docs/reviews/CONFRONTATION-PHILOSOPHY-20/** (new held manuscript review)"
+      "docs/reviews/REPLACEMENT-PHILOSOPHY-23/**"
     ],
     "rebuild_integration_14": [
-      "docs/reviews/REBUILD-INTEGRATION-14/** (completed)",
-      "docs/reviews/COUNTRY-INTEGRATION-16/** (content and actual reload review, completed)"
+      "Stopped by owner; no edits"
+    ],
+    "charlotte_psychology_research": [
+      "research/reference/hello-charlotte/reassessment-2026-10-04/**",
+      ".local-evidence/hello-charlotte-reassessment/**"
+    ],
+    "replacement_blind_scene": [
+      "docs/reviews/REPLACEMENT-BLIND-25/** only"
     ]
   },
   "maxActiveSubagents": 4,
@@ -89,130 +88,14 @@
   "currentContentSha256": "d4b4cea49996aaa28d2e40a2a56577c833d2235b7c2fa9d0aa59ee27339c24e8",
   "canonicalContentHash": "cf2af7418826e5bcbd9797e6d2b1822e63f242ae3e4adf97cd3d5d64abc75622",
   "activeWorkers": [],
-  "editorialAuthority": "lead_writer; new world remains provisional; accepted and rejected bath drafts preserved",
+  "editorialAuthority": "lead_writer; sole final replacement proposal prose; no owner-approved replacement canon",
   "tasks": {
-    "T00": {
-      "status": "Done",
-      "detail": "Inspected cloud/tool/model controls; no attested backend model metadata."
-    },
-    "T01": {
-      "status": "Done",
-      "detail": "Two incompatible new treatments and performed auditions preserved; lead selected A after research and criticism. This is editorial selection, not owner canon approval."
-    },
-    "T02": {
-      "status": "In progress",
-      "detail": "Pinned pnpm toolchain builds separate apps; full packages/apps layout absent."
-    },
-    "T03": {
-      "status": "In review",
-      "detail": "Validated selected-evidence/statement/character/interpretation DSL now includes finite scoped occasions. Independent occasion review defects repaired and rechecked; not a claim of full revision3 coverage."
-    },
-    "T04": {
-      "status": "Done",
-      "detail": "Noncanonical cup fixture with observation, reinterpretation, consequence and revisit."
-    },
-    "T05": {
-      "status": "In review",
-      "detail": "Reusable deterministic proof/occasion engine and current integration pass496 tests;6 actual routes replay. No whole long-game verification."
-    },
-    "T06": {
-      "status": "In progress",
-      "detail": "Country/house chapter has27 exact compiled anchors; separately preserved confrontation has20 exact new anchors. Full long-form voices remain in production."
-    },
-    "T07": {
-      "status": "In progress",
-      "detail": "Atomic saves/recovery tested; notes/UI metadata and formal branch model missing."
-    },
-    "T08": {
-      "status": "In progress",
-      "detail": "Keyboard integrated player passes Chromium checks; preferences not persisted."
-    },
-    "T09": {
-      "status": "In progress",
-      "detail": "A selected, v5 local causality frozen and Emil/others developed; full long-form plot and endings not locked."
-    },
-    "T10": {
-      "status": "In review",
-      "detail": "63-scene chapter installed with original supper and three country locations; six built browser routes/247 actions plus saved/offline/studio checks pass."
-    },
-    "T11": {
-      "status": "In progress",
-      "detail": "Country and first house compiled. Comparisons/confrontation revised and preserved after reviews19/20; return/washing/ending auditions separate and uncompiled.65–82k projection unfinished."
-    },
-    "T12": {
-      "status": "In review",
-      "detail": "case-v5 schema/reference/punctuation PASS atd4b4; ancestry/agency assertions and independent alternate routes pass."
-    },
-    "T13": {
-      "status": "In progress",
-      "detail": "6 routes of7,609–8,131 encountered passage words; not a measured human duration or completed long game."
-    },
-    "T14": {
-      "status": "In progress",
-      "detail": "303 continuation states and36 endings from6 genuine prefixes pass; all24 new scenes/29 continuation choices/4 variants. Not exhaustive first-movement or full-game exploration."
-    },
-    "T15": {
-      "status": "In progress",
-      "detail": "Country written-account forced misstatement revised through lead and rechecked; earlier causal/removal/knowledge fixes preserved."
-    },
-    "T16": {
-      "status": "In review",
-      "detail": "Structured author editing plus durable unfinished projects and occasion/scope controls implemented. Q003 six browser groups and author08 four groups pass with pins/limits."
-    },
-    "T17": {
-      "status": "In review",
-      "detail": "Checkpoint, corruption/quota/import/CAS/ownership/branch and exact reviewed v1-to-v2 migration checks retained. No automatic new-story migration."
-    },
-    "T18": {
-      "status": "In progress",
-      "detail": "Current built widths1440/390/320 and axe0violations/1manual incomplete; no assistive-technology certification."
-    },
-    "T19": {
-      "status": "In review",
-      "detail": "Manifest verifies3 exact editions and3 GLBs; offline edition switching/reload and subsequent saved v5 actions pass."
-    },
-    "T20": {
-      "status": "Not started",
-      "detail": "Fresh bounded checkpoint review found two recovery defects, repaired and verified; full T20 prerequisites still incomplete."
-    },
-    "T21": {
-      "status": "In progress",
-      "detail": "Incomplete playable release and exact limits packaged; not M4 acceptance."
-    },
-    "T22": {
-      "status": "Done",
-      "detail": "Working execution state, provenance, ownership and portable continuation saved."
-    },
-    "T23": {
-      "status": "In progress",
-      "detail": "Corrected Kant dossiers plus inspected objective-experience/paralogism/limits sources inform performed installed dispute and separately reviewed return audition."
-    },
-    "T24": {
-      "status": "In progress",
-      "detail": "Corrected Spinoza dossiers and fresh individuality/immanence/eternity checks; positive EthicsV manuscript adapted and reviewed, not compiled."
-    },
-    "T25": {
-      "status": "In progress",
-      "detail": "New world tensions shape positive God/Nature argument, finite bodies and investigative limits. Later ethical culmination remains uncompiled."
-    },
-    "T26": {
-      "status": "In progress",
-      "detail": "Blaise owner-fixed. Noor/Dora/Alma/Basil/René Lydgate/Emil Ekdal selected through source-checked new-world scenes, not owner approval."
-    },
-    "T27": {
-      "status": "In progress",
-      "detail": "Current philosophy map links first-movement sources/actions, objections and later obligations. Distinguishes doctrine from living-country fictional rules."
-    },
-    "T28": {
-      "status": "In progress",
-      "detail": "Actual reference research, selected world, installed country chapter and reviewed later manuscripts preserved. Confrontation revisions resolved through scoped rechecks; no active workers at checkpoint."
-    },
-    "T29": {
-      "status": "Done",
-      "detail": "Current source/voice/selection/retained-case/ownership/claim integrity plus8safe-copy fault checks pass. Static continuation only; no fresh-chat execution."
+    "replacementProposal": {
+      "status": "Complete for owner review",
+      "detail": "One lead-selected replacement story, full spoiler synopsis and substantial scene, revised through philosophy, dramaturgy and blind sample criticism. No owner approval and no implementation."
     }
   },
-  "nextTask": "Compile the preserved comparison/confrontation and first deliberate bodily return or refusal into a separately versioned edition; preserve v5/v4/v2. Write Emil’s low-house control comparison next.",
+  "nextTask": "Read the owner’s response to The Mercy of Morning proposal; revise the proposal if requested. Do not implement it before owner review.",
   "testClaims": [
     {
       "name": "current content schema and style",
@@ -258,9 +141,9 @@
     }
   ],
   "testedCodeRevision": "4f45efc55ba2cef5ef1782e1af91fb80d0d0c1ea",
-  "snapshotStatus": "Runtime published at4f45efc. Separate reviewed confrontation12a957 and20 exact anchors are included in this successor source checkpoint. The earlier country-v5 archive excludes that manuscript; the successor country-v5-with-confrontation archive includes source and both current static builds. Inspect final archive receipt in checkpoints/ for exact identity.",
-  "controllingContinuation": "docs/OWNER-CONTINUATION-2026-10-03.txt",
-  "goal": "Complete a substantially longer original surreal psychological detective game; 65–82k encountered-word proposal remains unwritten in full and play duration unmeasured",
+  "snapshotStatus": "Earlier02856f6 game remains historical. Full rejected working draft archived before replacement. Current proposal and research are separately preserved; uncommitted earlier engineering is not selected or newly verified.",
+  "controllingContinuation": "CONTINUE_PROMPT.md",
+  "goal": "Present one critically revised replacement story and substantial scene, then await owner review before implementation.",
   "baselineRevision": "c6c6845",
   "ownerSupplements": [
     "docs/OWNER-VISUAL-SUPPLEMENT-2026-10-03.txt",
@@ -269,10 +152,12 @@
     "docs/OWNER-PSYCHOLOGICAL-MALE-PROTAGONIST-2026-10-03.md",
     "docs/OWNER-GITHUB-AUTHORIZATION-2026-10-04.md",
     "docs/OWNER-3D-FACELESS-2026-10-04.md",
-    "docs/OWNER-WORLD-REBUILD-2026-10-04.md"
+    "docs/OWNER-WORLD-REBUILD-2026-10-04.md",
+    "docs/OWNER-FULL-GAME-GOAL-2026-10-04.md",
+    "docs/OWNER-STORY-REPLACEMENT-2026-10-04.md"
   ],
   "chatCreationCapability": "four chats created by owner; list/read/wait available; direct create/send unavailable",
-  "taskProgressScope": "Current T00–T29 entries below concern new world plus reusable engineering; historicalTaskStatusBeforeWorldRebuild is explicitly historical.",
+  "taskProgressScope": "Current task is replacement proposal only. Prior game task statuses and checks are historical.",
   "externalCoordination": "docs/coordination/WORK-BOARD.json",
   "reservedExternalSubagentSlots": 0,
   "activeContent": "src/content/case-v5.json",
@@ -291,41 +176,24 @@
     "coauthorTrailers": false
   },
   "currentVerification": {
-    "command": "pnpm verify",
-    "tests": 496,
-    "testFiles": 36,
-    "status": "PASS",
-    "typecheck": "PASS",
-    "content": "PASS atd4b4",
-    "bothProductionBuilds": "PASS",
-    "log": "docs/execution/evidence/country-integration/verify-final.txt",
-    "engineRoutes": "6 actual captured routes PASS; independent303 continuation states/36 terminal combinations PASS, not exhaustive whole-game search",
-    "builtBrowser": "PASS:6 routes/247 actions, all24 country scenes; exact replay/reload; three offline editions;1440/390/320 widths;0 axe violations,1 incomplete",
-    "rendererBoundary": "Country fixture7groupsPASS;27 new-scene spatial choices plus2 text onward controls; all24 scenes/4 variants. V4 renderer unchanged.",
-    "literary": "COUNTRY-READER17 source-pinned author-informed reading; written-account correction revised and narrowly rechecked. Not human acceptance.",
-    "spatialAction": "Actual country near-E offered action dispatched to engine, saved and replayed; ordinary walking does not grant evidence.",
-    "builtStudio": "PASS current exact build: valid edit/save/reload/changed preview, exact v5/v4/v2 selection; preview databases only",
-    "ownershipRecovery": "PASS independent actual browser: initialization-ready explicit takeover, then saved actions after online reload and offline v5-v4-v2-v5 roundtrip",
-    "limits": [
-      "Bounded chapter; full game unfinished",
-      "Software WebGL, no hardware benchmark",
-      "No human playtest or measured duration",
-      "Return/washing/later endings uncompiled"
-    ],
-    "staticHandoff": "Current CHECKPOINT.json pins the completed eligible source/build files, including preserved confrontation and continuation. See evidence/handoff-rehearsal.json for the executed static integrity and8safe-copy fault results. Not a fresh-chat run.",
-    "readyWaitRecheck": "PASS corrected helper,45-action dry route plus offline3edition/reload/layout/axe; preserves first6route report and exact earlier runner"
+    "scope": "Replacement proposal/document review only",
+    "philosophy": "Consolidated review of59f7cf/bec72856 recommends presenting; argument remains synopsis, not completed game development.",
+    "dramaturgy": "Full final59f7cf synopsis and bec72856 sample/diff read; recommends presenting. Remaining risks: patron promise must bear final cost in full scenes; philosophical dialogue must stay dramatically active.",
+    "blindReading": "AI sample-only reading; not a human playtest. Specific concealed return and remembered manipulation sharpened by lead.",
+    "documentIntegrity": "Held files and first-pass hashes verified; eight exact voice anchors preserved.",
+    "runtime": "No runtime changes or engine checks performed for replacement story."
   },
   "reservedWorkers": [],
   "github": {
     "repository": "https://github.com/deusalter/The-Shape-of-the-Water",
-    "publishedCheckpoint": "4f45efc55ba2cef5ef1782e1af91fb80d0d0c1ea",
+    "publishedCheckpoint": "02856f66df6f764f6a63f947d27290f6f74614a1",
     "coordination": "docs/coordination/WORK-BOARD.json",
     "author": "deusalter",
     "coauthorTrailers": false
   },
-  "latestOwnerDirection": "docs/OWNER-WORLD-REBUILD-2026-10-04.md",
+  "latestOwnerDirection": "docs/OWNER-STORY-REPLACEMENT-2026-10-04.md",
   "expandedBathCandidate": "superseded earlier iteration; not installed",
-  "nextExecutableTask": "Read CONFRONTATION-CHECKPOINT.json and INTEGRATION-CONFRONTATION-RETURN.md. Lead source12a957 plus return audition34c0 are preserved; compile actual operations, custody, audiences and refusal without global occasion reset. New edition must pass route/renderer/save checks before selection. No active subagents at this checkpoint; verify live status before allocating.",
+  "nextExecutableTask": "Read the owner’s response to The Mercy of Morning proposal; revise the proposal if requested. Do not implement it before owner review.",
   "latestReusableVerification": {
     "command": "pnpm verify",
     "tests": 478,
@@ -456,10 +324,10 @@
       "detail": "Static manifest integrity and four safe-copy fault-injection cases passed; no fresh-chat execution claimed."
     }
   },
-  "currentNewNarrative": "Lead-selected A, The Second Mouth. Installed v5 d4b4,63scenes86choices52sources; six routes7,609–8,131 passage words;27 exact compiled anchors. Confrontation12a957 selected after full first-pass and narrow revision reviews,20 new literal anchors. Return34c0 separately reviewed. Later manuscripts uncompiled; full65–82k construction unfinished.",
-  "referenceResearch": "research/reference/hello-charlotte/DOSSIER.md: 11 classified sources, no gameplay claim",
+  "currentNewNarrative": "The Mercy of Morning: lead-selected proposal and opening scene for owner review, no implementation or owner approval.",
+  "referenceResearch": "research/reference/hello-charlotte/reassessment-2026-10-04/REASSESSMENT.md; source research with explicit limits, no gameplay claim.",
   "philosophyRebuild": "research/philosophy/world-rebuild: primary passages, three fresh scholarly checks, five tensions and two unselected world proposals",
-  "currentVoicePath": "narrative/rebuild/VOICE-V5.md",
+  "currentVoicePath": "narrative/replacement-proposal-2026-10-04/SAMPLE-SCENE.md",
   "continuityFiles": [
     "narrative/rebuild/VOICE-V5.md",
     "narrative/rebuild/VOICE-V5-ANCHORS.json",
@@ -475,13 +343,183 @@
     "narrative/rebuild/LATER-BLAISE-FIRST-RETURN-AUDITION.md"
   ],
   "currentManuscript": {
-    "path": "narrative/rebuild/LATER-COMPARISONS-AND-CONFRONTATION.md",
-    "sha256": "12a957630add5a2a137340bd5605fcc3042671e0bc9aaa8125cc7018a7663599",
-    "checkpoint": "narrative/rebuild/CONFRONTATION-CHECKPOINT.json",
-    "status": "Lead-selected development manuscript after full first-pass reviews19/20 and narrow revised-line checks; not compiled or owner-approved",
-    "exactAnchors": 20,
-    "rawSourceWords": 6917,
-    "countScope": "Includes exclusive alternatives, author notes and disposition; not an encountered route",
-    "nextIntegration": "narrative/rebuild/INTEGRATION-CONFRONTATION-RETURN.md"
-  }
+    "path": "narrative/replacement-proposal-2026-10-04/PROPOSAL.md",
+    "sha256": "59f7cf270f532dce45278cd73afa9c2b07c121883237d3a6b57754d4422b8fb4",
+    "sample": "narrative/replacement-proposal-2026-10-04/SAMPLE-SCENE.md",
+    "sampleSha256": "bec72856c90bb4e84a5aac353bb77b5d536683073ba4306634fe5a07ce6078d2",
+    "status": "Lead-selected proposal for review; not installed, not owner approved."
+  },
+  "implementationAuthorization": "Paused by explicit owner instruction; no replacement implementation before review",
+  "historicalBeforeStoryReplacement": {
+    "tasks": {
+      "T00": {
+        "status": "Done",
+        "detail": "Inspected cloud/tool/model controls; no attested backend model metadata."
+      },
+      "T01": {
+        "status": "Done",
+        "detail": "Two incompatible new treatments and performed auditions preserved; lead selected A after research and criticism. This is editorial selection, not owner canon approval."
+      },
+      "T02": {
+        "status": "In progress",
+        "detail": "Pinned pnpm toolchain builds separate apps; full packages/apps layout absent."
+      },
+      "T03": {
+        "status": "In review",
+        "detail": "Validated selected-evidence/statement/character/interpretation DSL now includes finite scoped occasions. Independent occasion review defects repaired and rechecked; not a claim of full revision3 coverage."
+      },
+      "T04": {
+        "status": "Done",
+        "detail": "Noncanonical cup fixture with observation, reinterpretation, consequence and revisit."
+      },
+      "T05": {
+        "status": "In review",
+        "detail": "Reusable deterministic proof/occasion engine and current integration pass496 tests;6 actual routes replay. No whole long-game verification."
+      },
+      "T06": {
+        "status": "In progress",
+        "detail": "Country/house chapter has27 exact compiled anchors; separately preserved confrontation has20 exact new anchors. Full long-form voices remain in production."
+      },
+      "T07": {
+        "status": "In progress",
+        "detail": "Atomic saves/recovery tested; notes/UI metadata and formal branch model missing."
+      },
+      "T08": {
+        "status": "In progress",
+        "detail": "Keyboard integrated player passes Chromium checks; preferences not persisted."
+      },
+      "T09": {
+        "status": "In progress",
+        "detail": "A selected, v5 local causality frozen and Emil/others developed; full long-form plot and endings not locked."
+      },
+      "T10": {
+        "status": "In review",
+        "detail": "63-scene chapter installed with original supper and three country locations; six built browser routes/247 actions plus saved/offline/studio checks pass."
+      },
+      "T11": {
+        "status": "In progress",
+        "detail": "Country and first house compiled. Comparisons/confrontation revised and preserved after reviews19/20; return/washing/ending auditions separate and uncompiled.65–82k projection unfinished."
+      },
+      "T12": {
+        "status": "In review",
+        "detail": "case-v5 schema/reference/punctuation PASS atd4b4; ancestry/agency assertions and independent alternate routes pass."
+      },
+      "T13": {
+        "status": "In progress",
+        "detail": "6 routes of7,609–8,131 encountered passage words; not a measured human duration or completed long game."
+      },
+      "T14": {
+        "status": "In progress",
+        "detail": "303 continuation states and36 endings from6 genuine prefixes pass; all24 new scenes/29 continuation choices/4 variants. Not exhaustive first-movement or full-game exploration."
+      },
+      "T15": {
+        "status": "In progress",
+        "detail": "Country written-account forced misstatement revised through lead and rechecked; earlier causal/removal/knowledge fixes preserved."
+      },
+      "T16": {
+        "status": "In review",
+        "detail": "Structured author editing plus durable unfinished projects and occasion/scope controls implemented. Q003 six browser groups and author08 four groups pass with pins/limits."
+      },
+      "T17": {
+        "status": "In review",
+        "detail": "Checkpoint, corruption/quota/import/CAS/ownership/branch and exact reviewed v1-to-v2 migration checks retained. No automatic new-story migration."
+      },
+      "T18": {
+        "status": "In progress",
+        "detail": "Current built widths1440/390/320 and axe0violations/1manual incomplete; no assistive-technology certification."
+      },
+      "T19": {
+        "status": "In review",
+        "detail": "Manifest verifies3 exact editions and3 GLBs; offline edition switching/reload and subsequent saved v5 actions pass."
+      },
+      "T20": {
+        "status": "Not started",
+        "detail": "Fresh bounded checkpoint review found two recovery defects, repaired and verified; full T20 prerequisites still incomplete."
+      },
+      "T21": {
+        "status": "In progress",
+        "detail": "Incomplete playable release and exact limits packaged; not M4 acceptance."
+      },
+      "T22": {
+        "status": "Done",
+        "detail": "Working execution state, provenance, ownership and portable continuation saved."
+      },
+      "T23": {
+        "status": "In progress",
+        "detail": "Corrected Kant dossiers plus inspected objective-experience/paralogism/limits sources inform performed installed dispute and separately reviewed return audition."
+      },
+      "T24": {
+        "status": "In progress",
+        "detail": "Corrected Spinoza dossiers and fresh individuality/immanence/eternity checks; positive EthicsV manuscript adapted and reviewed, not compiled."
+      },
+      "T25": {
+        "status": "In progress",
+        "detail": "New world tensions shape positive God/Nature argument, finite bodies and investigative limits. Later ethical culmination remains uncompiled."
+      },
+      "T26": {
+        "status": "In progress",
+        "detail": "Blaise owner-fixed. Noor/Dora/Alma/Basil/René Lydgate/Emil Ekdal selected through source-checked new-world scenes, not owner approval."
+      },
+      "T27": {
+        "status": "In progress",
+        "detail": "Current philosophy map links first-movement sources/actions, objections and later obligations. Distinguishes doctrine from living-country fictional rules."
+      },
+      "T28": {
+        "status": "In progress",
+        "detail": "Actual reference research, selected world, installed country chapter and reviewed later manuscripts preserved. Confrontation revisions resolved through scoped rechecks; no active workers at checkpoint."
+      },
+      "T29": {
+        "status": "Done",
+        "detail": "Current source/voice/selection/retained-case/ownership/claim integrity plus8safe-copy fault checks pass. Static continuation only; no fresh-chat execution."
+      }
+    },
+    "nextExecutableTask": "Root prepare release/retention and browser integration, read compiler/staging milestones; lead author next manuscript; then rotate finished worker slots through actual fresh reviews. Do not stop at another chapter handoff.",
+    "currentNewNarrative": "Lead-selected A, The Second Mouth. Installed v5 d4b4,63scenes86choices52sources; six routes7,609–8,131 passage words;27 exact compiled anchors. Confrontation12a957 selected after full first-pass and narrow revision reviews,20 new literal anchors. Return34c0 separately reviewed. Later manuscripts uncompiled; full65–82k construction unfinished.",
+    "currentVoicePath": "narrative/rebuild/VOICE-V5.md",
+    "currentManuscript": {
+      "path": "narrative/rebuild/LATER-COMPARISONS-AND-CONFRONTATION.md",
+      "sha256": "12a957630add5a2a137340bd5605fcc3042671e0bc9aaa8125cc7018a7663599",
+      "checkpoint": "narrative/rebuild/CONFRONTATION-CHECKPOINT.json",
+      "status": "Lead-selected development manuscript after full first-pass reviews19/20 and narrow revised-line checks; not compiled or owner-approved",
+      "exactAnchors": 20,
+      "rawSourceWords": 6917,
+      "countScope": "Includes exclusive alternatives, author notes and disposition; not an encountered route",
+      "nextIntegration": "narrative/rebuild/INTEGRATION-CONFRONTATION-RETURN.md"
+    },
+    "taskProgressScope": "Current T00–T29 entries below concern new world plus reusable engineering; historicalTaskStatusBeforeWorldRebuild is explicitly historical.",
+    "currentVerification": {
+      "command": "pnpm verify",
+      "tests": 496,
+      "testFiles": 36,
+      "status": "PASS",
+      "typecheck": "PASS",
+      "content": "PASS atd4b4",
+      "bothProductionBuilds": "PASS",
+      "log": "docs/execution/evidence/country-integration/verify-final.txt",
+      "engineRoutes": "6 actual captured routes PASS; independent303 continuation states/36 terminal combinations PASS, not exhaustive whole-game search",
+      "builtBrowser": "PASS:6 routes/247 actions, all24 country scenes; exact replay/reload; three offline editions;1440/390/320 widths;0 axe violations,1 incomplete",
+      "rendererBoundary": "Country fixture7groupsPASS;27 new-scene spatial choices plus2 text onward controls; all24 scenes/4 variants. V4 renderer unchanged.",
+      "literary": "COUNTRY-READER17 source-pinned author-informed reading; written-account correction revised and narrowly rechecked. Not human acceptance.",
+      "spatialAction": "Actual country near-E offered action dispatched to engine, saved and replayed; ordinary walking does not grant evidence.",
+      "builtStudio": "PASS current exact build: valid edit/save/reload/changed preview, exact v5/v4/v2 selection; preview databases only",
+      "ownershipRecovery": "PASS independent actual browser: initialization-ready explicit takeover, then saved actions after online reload and offline v5-v4-v2-v5 roundtrip",
+      "limits": [
+        "Bounded chapter; full game unfinished",
+        "Software WebGL, no hardware benchmark",
+        "No human playtest or measured duration",
+        "Return/washing/later endings uncompiled"
+      ],
+      "staticHandoff": "Current CHECKPOINT.json pins the completed eligible source/build files, including preserved confrontation and continuation. See evidence/handoff-rehearsal.json for the executed static integrity and8safe-copy fault results. Not a fresh-chat run.",
+      "readyWaitRecheck": "PASS corrected helper,45-action dry route plus offline3edition/reload/layout/axe; preserves first6route report and exact earlier runner"
+    }
+  },
+  "archiveBeforeRejection": {
+    "path": "checkpoints/second-mouth-rejected-draft-20261004T060039Z.tar.gz",
+    "sha256": "f47522d69d9feb8e25c80aa8858c452f86001fd0b2919f82c373b98f14d515ec",
+    "receipt": "docs/execution/archives/SECOND-MOUTH-REJECTED-20261004T060039Z.json",
+    "files": 1992,
+    "changedDuringCapture": 0
+  },
+  "proposalCheckpoint": "docs/execution/REPLACEMENT-PROPOSAL-CHECKPOINT.json",
+  "ownerPresentation": "narrative/replacement-proposal-2026-10-04/OWNER-PRESENTATION.md"
 }

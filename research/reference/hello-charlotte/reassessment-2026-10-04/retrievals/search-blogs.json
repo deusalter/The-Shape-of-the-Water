@@ -1,0 +1,12 @@
+{
+  "id": "search-blogs",
+  "url": "https://html.duckduckgo.com/html/?q=%22Hello%20Charlotte%22%20review%20blog%20episode%20psychological",
+  "retrieved_utc": "2026-10-04T06:01:32.825292+00:00",
+  "status": 200,
+  "resolved_url": "https://html.duckduckgo.com/html/?q=%22Hello%20Charlotte%22%20review%20blog%20episode%20psychological",
+  "bytes": 34796,
+  "sha256": "29eb8f86c9960f5cb920e03b1471c1da535f0d18cdfc6114553a31645d9356b9",
+  "text_sha256": "8f03d8cd4ab7aa6718003bd941e13bae32613615247ff6457120113826139d15",
+  "raw_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/search-blogs.html",
+  "text_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/search-blogs.txt"
+}

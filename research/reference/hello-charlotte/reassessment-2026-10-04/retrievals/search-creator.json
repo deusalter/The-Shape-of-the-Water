@@ -1,0 +1,12 @@
+{
+  "id": "search-creator",
+  "url": "https://html.duckduckgo.com/html/?q=etherane%20Hello%20Charlotte%20interview%20psychological%20story",
+  "retrieved_utc": "2026-10-04T06:01:02.890413+00:00",
+  "status": 200,
+  "resolved_url": "https://html.duckduckgo.com/html/?q=etherane%20Hello%20Charlotte%20interview%20psychological%20story",
+  "bytes": 34382,
+  "sha256": "20e81e91754eeed8a86add69d187822c314bff3d5b6012d7d6e0c71aa78b7a61",
+  "text_sha256": "736b18ce2b854f15c0dacd83a5e72198a0d91f46f2051da4903db34e5f3910c7",
+  "raw_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/search-creator.html",
+  "text_path": "/workspace/literary-detective/research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/search-creator.txt"
+}

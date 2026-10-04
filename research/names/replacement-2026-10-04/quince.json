@@ -1,0 +1,20 @@
+{
+  "url": "https://www.gutenberg.org/files/1514/1514-h/1514-h.htm",
+  "httpStatus": 200,
+  "retrieved": "2026-10-04T06:13:21.955401+00:00",
+  "htmlSha256": "57773fcdbf6bfdc4d7d6f36477666ef192585aee6c513c2d9b60937479c84db3",
+  "textSha256": "a2d1a0be36a4d081de100a4f25c299306894505740a6f7b77857ad060ce3fe73",
+  "contexts": [
+    {
+      "term": "QUINCE",
+      "offset": 434,
+      "context": "Another part of the wood ACT III Scene I. The Wood. Scene II. Another part of the wood ACT IV Scene I. The Wood Scene II. Athens. A Room in Quince’s House ACT V Scene I. Athens. An Apartment in the Palace of Theseus Dramatis Personæ THESEUS, Duke of Athens HIPPOLYTA, Queen of the Amazons, bethrothed to Theseus EGEUS, Father to Hermia HERMIA, daughter to Egeus, in love with Lysander HELENA, in love with Demetrius LYSANDER, in love with Hermia DEMETRIUS, in love with Hermia PHILOSTRATE, Master of the Revels to Theseus QUINCE, the Carpenter SNUG, the Joiner BOTTOM, the Weaver FLUTE, the Bellows-mender SNOUT, the Tinker STARVELING, the Tailor OBERON, King of the Fairies TITANIA, Queen of the Fairies PUCK, or ROBIN GOODFELLOW, a Fairy PEASEBLOSSOM, Fairy COBWEB, Fairy MOTH, Fairy MUSTARDSEE"
+    },
+    {
+      "term": "Peter Quince",
+      "offset": 12838,
+      "context": "h is thought fit through all Athens, to play in our interlude before the Duke and Duchess, on his wedding-day at night. BOTTOM. First, good Peter Quince, say what the play treats on; then read the names of the actors; and so grow to a point. QUINCE. Marry, our play is The most lamentable comedy and most cruel death of Pyramus and Thisbe . BOTTOM. A very good piece of work, I assure you, and a merry. Now, good Peter Quince, call forth your actors by the scroll. Masters, spread yourselves. QUINCE. Answer, as I call you. Nick Bottom, the weaver. BOTTOM. Ready. Name what part I am for, and proceed. QUINCE. You, Nick Bottom, are set down for Pyramus. BOTTOM. What is Pyramus—a lover, or a tyrant? QUINCE. A lover, that kills himself most gallantly for love. BOTTOM. That will ask some tears in the t"
+    }
+  ],
+  "scope": "Primary dramatis personae and Act I scene II naming/organizing the Pyramus and Thisbe performance inspected; not a complete play reading."
+}

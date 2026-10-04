@@ -1,0 +1,20 @@
+{
+  "url": "https://www.gutenberg.org/files/1260/1260-h/1260-h.htm",
+  "httpStatus": 200,
+  "retrieved": "2026-10-04T06:13:22.184624+00:00",
+  "htmlSha256": "556f7dd3910a54eacd24649444e345571da9a3c72aadf176a1890736a8ee2126",
+  "textSha256": "fb105a19f5d0edfc600735b91903853e49a76b52eb9b6e53395919ad4c51fcce",
+  "contexts": [
+    {
+      "term": "Edward Rochester",
+      "offset": 661880,
+      "context": "ind gave—“Leave Thornfield at once”—was so prompt, so dread, that I stopped my ears. I said I could not bear such words now. “That I am not Edward Rochester’s bride is the least part of my woe,” I alleged: “that I have wakened out of most glorious dreams, and found them all void and vain, is a horror I could bear and master; but that I must leave him decidedly, instantly, entirely, is intolerable. I cannot do it.” But, then, a voice within me averred that I could do it and foretold that I should do it. I wrestled with my own resolution: I wanted to be weak that I might avoid the awful passage of further suffering I saw laid out for me; and Conscience, turned tyrant, held Passion by the throat, told her tauntingly, she had yet but dipped her dainty foot in the slough, and swore that with that arm"
+    },
+    {
+      "term": "Edward Fairfax Rochester",
+      "offset": 645837,
+      "context": " read out in a sort of official, nasal voice:— “‘I affirm and can prove that on the 20th of October A.D. —— (a date of fifteen years back), Edward Fairfax Rochester, of Thornfield Hall, in the county of ——, and of Ferndean Manor, in ——shire, England, was married to my sister, Bertha Antoinetta Mason, daughter of Jonas Mason, merchant, and of Antoinetta his wife, a Creole, at —— church, Spanish Town, Jamaica. The record of the marriage will be found in the register of that church—a copy of it is now in my possession. Signed, Richard Mason.’” “That—if a genuine document—may prove I have been married, but it does not prove that the woman mentioned therein as my wife is still living.” “She was living three months ago,” returned the lawyer. “How do you know?” “I have a witness to the fact, whose testimony ev"
+    }
+  ],
+  "scope": "Primary wedding interruption naming Edward Fairfax Rochester and later Jane's decision to leave inspected; not a complete novel reading."
+}

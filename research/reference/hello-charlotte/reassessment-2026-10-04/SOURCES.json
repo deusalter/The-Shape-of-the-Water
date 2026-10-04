@@ -1,0 +1,367 @@
+{
+  "scope": "Bounded source reading; no gameplay, full script or audiovisual playthrough.",
+  "created_utc": "2026-10-04T06:09:36.911492+00:00",
+  "sources": [
+    {
+      "id": "R-C01",
+      "kind": "published_creator_interview",
+      "author": "etherane; RPGMaker Games, Mods Gold & Platinum",
+      "url": "https://www.tumblr.com/rpgmgames/169320799703/januarys-featured-game-hello-charlotte",
+      "published": "2018-01-04 22:38:41 GMT",
+      "retrieved_utc": "2026-10-04T06:02:45.440360+00:00",
+      "raw_path": "research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/creator-interview-new.html",
+      "sha256": "332c641d2d54f0f4fa11e5e02664103cc68cf95192b259e561255c0e9cd86a60",
+      "evidence_text_path": "research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/creator-interview-full.txt",
+      "evidence_text_sha256": "9a6bb23f87f6e777c02fa41d2da00e16e148b2ad1ce1771e79ca3a113f9bb1dc",
+      "inspected_scope": "Complete 71-line interview; especially 18–21, 29–35, 40–44, 49–53",
+      "short_quote": "the story got a little more personal",
+      "limits": "Creator account as publicly published; not independent authentication; no claim the whole eventual structure was planned at the start.",
+      "extraction": "JSON decode script#___INITIAL_STATE___, PeeprRoute.initialTimeline.objects[0].content; join text blocks with two newlines. No script execution or authentication."
+    },
+    {
+      "id": "R-C02",
+      "kind": "official_creator_store",
+      "author": "etherane",
+      "url": "https://etherane.itch.io/hello-charlotte-ep2",
+      "published": "2016 release; live page undated",
+      "retrieved_utc": "2026-10-04T02:02:39.430506+00:00",
+      "raw_path": "research/reference/hello-charlotte/.local-evidence/ep2-itch.html",
+      "sha256": "7d5aaf7dcebd4edca611fd4f76c812cebfbf337ef0e834f2ae072b6980ec676e",
+      "evidence_text_path": "research/reference/hello-charlotte/.local-evidence/ep2-itch.txt",
+      "evidence_text_sha256": "34d8469025a7c24a965bacc4b9171290656777388f4a1157e2cee66cd9e81bb0",
+      "inspected_scope": "Official description/features, lines 10–21",
+      "short_quote": "idolization of those out of our reach",
+      "limits": "Advertised theme/form, not attested play.",
+      "reinspection_date": "2026-10-04",
+      "prior_source_id": "C02"
+    },
+    {
+      "id": "R-C03",
+      "kind": "official_creator_store",
+      "author": "etherane",
+      "url": "https://etherane.itch.io/hcep3",
+      "published": "2018 release; live page undated",
+      "retrieved_utc": "2026-10-04T02:06:16.804813+00:00",
+      "raw_path": "research/reference/hello-charlotte/.local-evidence/ep3-itch-linked.html",
+      "sha256": "bedabc70751c1a0094e0775506936a4d85d6b43191bf306c6b7e29dae0a1e7e6",
+      "evidence_text_path": "research/reference/hello-charlotte/.local-evidence/ep3-itch-linked.txt",
+      "evidence_text_sha256": "d393f3e4edbf6093c6e2bd6c2ea274d7b6d17b25a7479ec7fe394698ce46683b",
+      "inspected_scope": "Official description/features, lines 8–20",
+      "short_quote": "A prologue. An epilogue.",
+      "limits": "Current page says download unavailable. 4–5+ hours is creator estimate, not measured here.",
+      "reinspection_date": "2026-10-04",
+      "prior_source_id": "C04"
+    },
+    {
+      "id": "R-P01",
+      "kind": "community_walkthrough",
+      "author": "naide",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=912109182",
+      "published": "2017-05-30; updated 2023-02-24",
+      "retrieved_utc": "2026-10-04T02:03:50.092036+00:00",
+      "raw_path": "research/reference/hello-charlotte/.local-evidence/steam-guide.html",
+      "sha256": "d77ede6753dff43a4284c0431949b853fe6ff35ee51e745b8a1fffeff78e698a",
+      "evidence_text_path": "research/reference/hello-charlotte/.local-evidence/steam-guide.txt",
+      "evidence_text_sha256": "54e42ea75b4605722f917251645a4b96ff205422067b67b484ba12fd1c52e75f",
+      "inspected_scope": "Main guide lines 154–305; detailed rereading of 154–172, 209–228, 230–305. Post-guide speculation/comments excluded.",
+      "short_quote": "Vote for Anri: Grey End",
+      "limits": "No gameplay verification here; post-EP2 speculation excluded; raw page includes platform compatibility/removal notices whose live visibility was not browser-checked.",
+      "reinspection_date": "2026-10-04",
+      "prior_source_id": "P01"
+    },
+    {
+      "id": "R-P02",
+      "kind": "community_achievement_guide",
+      "author": "ally",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2181430165",
+      "published": "2020-07-29",
+      "retrieved_utc": "2026-10-04T02:07:28.915592+00:00",
+      "raw_path": "research/reference/hello-charlotte/.local-evidence/ep3-community-guide.html",
+      "sha256": "e8335e4cbec1d2aee72b0a4e5ecea0b37454d74785b57507dafdac81d8c7c9c1",
+      "evidence_text_path": "research/reference/hello-charlotte/.local-evidence/ep3-community-guide.txt",
+      "evidence_text_sha256": "95522e40b1d6eb11d3588fc68998110b1dc01440d00eeb703b6d285c1cd7a6c4",
+      "inspected_scope": "Main guide lines 137–185, especially 145–162. Comments not adopted.",
+      "short_quote": "Chose Q84 over your Charlotte.",
+      "limits": "No gameplay verification here; labels/actions do not establish entire narrative frame. Raw page includes platform compatibility/removal notices not browser-checked. User comments not adopted as fact.",
+      "reinspection_date": "2026-10-04",
+      "prior_source_id": "P02"
+    },
+    {
+      "id": "R-P03",
+      "kind": "community_puzzle_guide",
+      "author": "slothmama",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1258670955",
+      "published": "2018-01-05; updated 2021-01-02",
+      "retrieved_utc": "2026-10-04T06:03:57.905956+00:00",
+      "raw_path": "research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/ep3-puzzle-guide.html",
+      "sha256": "a1bff7a2abed7fb7248bc7a0bf981efca9d7f30a04e45199df5a993ae10d56d4",
+      "evidence_text_path": "research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/ep3-puzzle-guide.txt",
+      "evidence_text_sha256": "5c5afdc136647885867d2f40c3b8d953e4e9a96dbe2ce6e407856747bcc82662",
+      "inspected_scope": "Main guide lines 138–220; supplemental scope check, not used to infer character psychology",
+      "short_quote": "after episode 0 is complete",
+      "limits": "Procedural guide, no execution here. Puzzle solutions and labels do not establish motivations or ontology. Raw HTML includes removal/incompatibility notices, not browser-verified."
+    },
+    {
+      "id": "R-P04",
+      "kind": "community_achievement_guide",
+      "author": "evil vessel and friendly D",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1763427766",
+      "published": "2019-06-07; live page update Aug 30, year unspecified",
+      "retrieved_utc": "2026-10-04T06:03:57.906619+00:00",
+      "raw_path": "research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/ep3-complete-guide.html",
+      "sha256": "cfe6964e68fa56665afcda32183f2bcc301278871a7e1deff14b5213a6bc6121",
+      "evidence_text_path": "research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/ep3-complete-guide.txt",
+      "evidence_text_sha256": "30b9adfe5872eaea8b39148cbaea599c1772980fefcc1ae66412cef553ba7ebe",
+      "inspected_scope": "Main guide lines 143–164; used especially 146–153",
+      "short_quote": "pick who you care more about",
+      "limits": "Achievement recollection, not independent execution. Ending labels and reported choices are not a total cosmology. File was named complete-guide at discovery but it is an achievement guide, not a complete narrative account."
+    },
+    {
+      "id": "R-I01",
+      "kind": "fan_interpretation",
+      "author": "kashikoikawaiisaschachen",
+      "url": "https://www.tumblr.com/kashikoikawaiisaschachen/170467725260/hello-charlotte-explained",
+      "published": "2018-02-03 21:07:04 GMT",
+      "retrieved_utc": "2026-10-04T06:01:32.811557+00:00",
+      "raw_path": "research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/fan-explained.html",
+      "sha256": "e404dea4188b80530faf47d0d33696c3e956b6d33193d9a46e5b60b8ad3c9564",
+      "evidence_text_path": "research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/fan-explained-full.txt",
+      "evidence_text_sha256": "4b3f78582d58a6096420e79cb4298e7abc43aaf58fa94abd6d000f3a0e33796d",
+      "inspected_scope": "All 41 lines of extracted long text; especially 29–39; short heading blocks omitted during extraction",
+      "short_quote": "This post isn’t a complete guide to Hello Charlotte.",
+      "limits": "Explicitly unfinished interpretation, mixing plot recollection and hypotheses. No factual adoption of realm, identity, death or causal explanation. Used as attributed reception.",
+      "extraction": "JSON decode public initial-state script; content text blocks longer than 50 characters, deduplicated; no authentication/script execution. Locators refer to this exact derived text."
+    },
+    {
+      "id": "R-I02",
+      "kind": "independent_player_review",
+      "author": "Tigresa623",
+      "url": "https://steamcommunity.com/profiles/76561199206113821/recommended/557630/",
+      "published": "2026-02-28T02:49:24+00:00",
+      "retrieved_utc": "2026-10-04T06:03:58.440199+00:00",
+      "raw_path": "research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/ep2-character-review.html",
+      "sha256": "dbd4803459988c1cb69b2531ed57f1ab60a1d0e9c174b1399d9465a368ab7015",
+      "evidence_text_path": "research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/ep2-character-review.txt",
+      "evidence_text_sha256": "c1999633798f9cf9c33721981db876051a5ee1b567de8943b7f5b070d00f8349",
+      "inspected_scope": "Review lines 92–93; whole review read",
+      "short_quote": "Anri is awesome and I like her but I think that she should've been developed more",
+      "limits": "One public player account, not critical consensus or verified game facts. Review text was read in full. Playtime does not attest completion. Creator-biography inferences are not adopted.",
+      "recommendation_id": "219402068",
+      "playtime_minutes_at_review": 165,
+      "api_retrieval": "ep2-helpful-reviews.json",
+      "voted_up": true
+    },
+    {
+      "id": "R-I03",
+      "kind": "independent_player_review",
+      "author": "FaeBee",
+      "url": "https://steamcommunity.com/profiles/76561198314807970/recommended/557630/",
+      "published": "2026-01-21T02:20:03+00:00",
+      "retrieved_utc": "2026-10-04T06:03:57.907071+00:00",
+      "raw_path": "research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/paired-ep2-review.html",
+      "sha256": "1cd447a810bcc2af2978ef939db885a3bd2d63f99f3f4cba77371e793b7290b8",
+      "evidence_text_path": "research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/paired-ep2-review.txt",
+      "evidence_text_sha256": "c81382ced853704c22af96fcf76b943598440be6a93960c041a21299e5345cd4",
+      "inspected_scope": "Review lines 92–99; whole review read",
+      "short_quote": "Anri just doesn't get expanded upon enough here",
+      "limits": "One public player account, not critical consensus or verified game facts. Review text was read in full. Playtime does not attest completion. Creator-biography inferences are not adopted.",
+      "recommendation_id": "216446572",
+      "playtime_minutes_at_review": 254,
+      "api_retrieval": "ep2-helpful-reviews.json",
+      "voted_up": true
+    },
+    {
+      "id": "R-I04",
+      "kind": "independent_player_review",
+      "author": "FaeBee",
+      "url": "https://steamcommunity.com/profiles/76561198314807970/recommended/760890/",
+      "published": "2026-01-21T02:03:51+00:00",
+      "retrieved_utc": "2026-10-04T06:03:57.907470+00:00",
+      "raw_path": "research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/paired-ep3-review.html",
+      "sha256": "0aefe26346d5d12705695c46e5f61e512a23a3b7ea8cadb6efdfb22243c73c4e",
+      "evidence_text_path": "research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/paired-ep3-review.txt",
+      "evidence_text_sha256": "12bfb1b55c6e204fa3db40eb39810155a5043420bc23394f28e224e59d338da2",
+      "inspected_scope": "Review lines 94–107; whole review read, especially 100–104",
+      "short_quote": "I like that Anri gets some much needed development",
+      "limits": "One public player account, not critical consensus or verified game facts. Review text was read in full. Playtime does not attest completion. Creator-biography inferences are not adopted.",
+      "recommendation_id": "216445905",
+      "playtime_minutes_at_review": 302,
+      "api_retrieval": "ep3-helpful-reviews.json",
+      "voted_up": false
+    },
+    {
+      "id": "R-I05",
+      "kind": "independent_player_review",
+      "author": "Noduy",
+      "url": "https://steamcommunity.com/profiles/76561198079526631/recommended/760890/",
+      "published": "2026-05-25T07:55:17+00:00",
+      "retrieved_utc": "2026-10-04T06:03:58.469631+00:00",
+      "raw_path": "research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/ep3-continuity-review.html",
+      "sha256": "d157aeb869669589eafb40d6b80ddb8af83f731ae985f807329f0016fb386bde",
+      "evidence_text_path": "research/reference/hello-charlotte/.local-evidence/hello-charlotte-reassessment/ep3-continuity-review.txt",
+      "evidence_text_sha256": "b470ebfdcb30e2c82fab71f7887b25789670e1c27c59a40ecf77ed66c67a4e23",
+      "inspected_scope": "Review lines 92–95; whole review read, using EP3 paragraph 93 only",
+      "short_quote": "as a follow up to episode 2 it kinda fails",
+      "limits": "One public player account, not critical consensus or verified game facts. Review text was read in full. Playtime does not attest completion. Creator-biography inferences are not adopted.",
+      "recommendation_id": "226370689",
+      "playtime_minutes_at_review": 211,
+      "api_retrieval": "ep3-helpful-reviews.json",
+      "voted_up": true
+    }
+  ],
+  "review_sample": {
+    "selection": "From 100 English all-purchase reviews returned per app, filter=all&day_range=3650. Read all 17 bodies longer than 1200 characters; not representative.",
+    "count": 17,
+    "items": [
+      {
+        "retrieval": "ep2-helpful-reviews.json",
+        "recommendation_id": "233236398",
+        "characters": 2024,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      },
+      {
+        "retrieval": "ep2-helpful-reviews.json",
+        "recommendation_id": "219402068",
+        "characters": 1537,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      },
+      {
+        "retrieval": "ep2-helpful-reviews.json",
+        "recommendation_id": "215975107",
+        "characters": 1517,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      },
+      {
+        "retrieval": "ep2-helpful-reviews.json",
+        "recommendation_id": "226370214",
+        "characters": 1485,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      },
+      {
+        "retrieval": "ep2-helpful-reviews.json",
+        "recommendation_id": "217289823",
+        "characters": 1506,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      },
+      {
+        "retrieval": "ep2-helpful-reviews.json",
+        "recommendation_id": "215168987",
+        "characters": 1733,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      },
+      {
+        "retrieval": "ep2-helpful-reviews.json",
+        "recommendation_id": "216446572",
+        "characters": 2527,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      },
+      {
+        "retrieval": "ep2-helpful-reviews.json",
+        "recommendation_id": "229726328",
+        "characters": 1229,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      },
+      {
+        "retrieval": "ep3-helpful-reviews.json",
+        "recommendation_id": "214506937",
+        "characters": 2248,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      },
+      {
+        "retrieval": "ep3-helpful-reviews.json",
+        "recommendation_id": "207973615",
+        "characters": 1579,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      },
+      {
+        "retrieval": "ep3-helpful-reviews.json",
+        "recommendation_id": "225808985",
+        "characters": 1262,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      },
+      {
+        "retrieval": "ep3-helpful-reviews.json",
+        "recommendation_id": "218651716",
+        "characters": 5738,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      },
+      {
+        "retrieval": "ep3-helpful-reviews.json",
+        "recommendation_id": "226370689",
+        "characters": 1484,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      },
+      {
+        "retrieval": "ep3-helpful-reviews.json",
+        "recommendation_id": "206790834",
+        "characters": 1263,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      },
+      {
+        "retrieval": "ep3-helpful-reviews.json",
+        "recommendation_id": "216445905",
+        "characters": 5117,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      },
+      {
+        "retrieval": "ep3-helpful-reviews.json",
+        "recommendation_id": "215168692",
+        "characters": 1844,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      },
+      {
+        "retrieval": "ep3-helpful-reviews.json",
+        "recommendation_id": "223919241",
+        "characters": 1767,
+        "inspected": "complete review text",
+        "use": "context or source discovery; only specifically attributed claims used"
+      }
+    ]
+  },
+  "excluded_or_limited": [
+    {
+      "source": "I01 in earlier register: Rosy Joan, Dread Central",
+      "scope": "Article reread completely, lines 26–30",
+      "reason": "Explicitly unfinished EP1; not evidence for later episode development."
+    },
+    {
+      "retrieval": "backloggd-ludzu.json",
+      "reason": "HTTP 200 contains bot challenge, no usable review; no bypass attempted."
+    },
+    {
+      "retrieval": "review-video.json and ep2-video.json",
+      "reason": "Access failure; no video/transcript watched or read."
+    },
+    {
+      "retrieval": "wiki-etherane.json",
+      "reason": "HTTP 402, unread."
+    },
+    {
+      "retrieval": "Search result receipts",
+      "reason": "Discovery only; snippets not used as source facts."
+    }
+  ],
+  "do_not_infer": [
+    "Definitive episode ontology or total plot",
+    "Author diagnosis, identity or biography from a personal-seeming work",
+    "Critical consensus from selected reviews",
+    "Compulsory replay as an adaptation requirement",
+    "Kant or Spinoza influence on Hello Charlotte"
+  ]
+}

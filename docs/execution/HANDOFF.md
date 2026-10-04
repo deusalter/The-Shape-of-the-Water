@@ -1,4 +1,14 @@
+# Current override: replacement story proposal only
+
+Read `docs/OWNER-STORY-REPLACEMENT-2026-10-04.md`. The owner rejects the bodily-support central premise. All implementation is stopped; prior v5 and uninstalled v6, assets and partial new washing draft are earlier work. Current proposal and its critiques are under `narrative/replacement-proposal-2026-10-04/` and `docs/reviews/REPLACEMENT-*`. No implementation until owner review. The prior handoff below records superseded work and exact historical checks, not a task to continue.
+
+Current proposed story: **The Mercy of Morning**, in `narrative/replacement-proposal-2026-10-04/PROPOSAL.md` and `SAMPLE-SCENE.md`. Its first passes, research, exact source fingerprints, voice anchors and critical revisions are preserved. See `REPLACEMENT-PROPOSAL-CHECKPOINT.json`. Read the owner's response before any implementation; a proposal is not accepted canon. The complete earlier working draft archive and hash receipt are recorded in STATE. Do not confuse the historical checks below with checks of a replacement game, which has not been implemented.
+
+---
+
 # Current development handoff: The Second Mouth, into the country
+
+Active continuation after02856f6: the owner's full-game objective remains open. Case-v6 confrontation/return/refusal compilation, its3D staging, the lead's actual low-house/control/support middle and dramaturg21 are in production. STATE and live worker status control current ownership. The runtime and verification described below are the last published v5 checkpoint, not acceptance of active changes. Root has also implemented reader-size persistence, acquired-evidence search and retained-v5 registration; affected retained-edition/projection tests pass7checks, while new full-build/browser checks remain pending.
 
 2026-10-04. Read `docs/OWNER-WORLD-REBUILD-2026-10-04.md` before older story documents. The owner rejected the short ordinary bath/swim-coach premise, weak setting and basic metaphysical treatment. Blaise Bloom alone is owner-retained; every other name was reopened. The game remains a third-person 3D literary psychological investigation with faceless figures. No new canon or full-game completion has owner approval.
 
