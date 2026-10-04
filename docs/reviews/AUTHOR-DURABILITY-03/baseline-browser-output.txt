@@ -1,0 +1,27 @@
+{
+  "mode": "baseline",
+  "startedAt": "2026-10-04T01:22:56.044Z",
+  "checks": [
+    {
+      "id": "Q2-01",
+      "status": "PASS",
+      "detail": {
+        "status": "Save failed. The saved last-valid preview failed validation or belongs to another project. Download the draft to preserve it.",
+        "contentId": "independent-unfinished-q003",
+        "compiledDisabled": true
+      }
+    },
+    {
+      "id": "Q2-02",
+      "status": "PASS",
+      "detail": {
+        "status": "Error: content.sources.0.provenanceId: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/",
+        "downloaded": false
+      }
+    }
+  ],
+  "pageErrors": [],
+  "finishedAt": "2026-10-04T01:22:59.673Z",
+  "browserVersion": "151.0.7922.173",
+  "outcome": "PASS"
+}

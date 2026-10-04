@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "scope": "coarse production geometry; no browser, physics or forensic calibration claim",
+  "navigationGridStep": 0.25,
+  "checks": [
+    {
+      "anchor": "arrival",
+      "layer": "ground",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "arrivalAdaApproach",
+      "layer": "ground",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "bench",
+      "layer": "ground",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "workshop",
+      "layer": "ground",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "workshopDoorway",
+      "layer": "ground",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "cabinet",
+      "layer": "ground",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "gallery",
+      "layer": "gallery",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "gathering",
+      "layer": "ground",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "waterChairs",
+      "layer": "ground",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "frontInterior",
+      "layer": "ground",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "frontExterior",
+      "layer": "exterior",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "laundryWaiting",
+      "layer": "exterior",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "serviceInterior",
+      "layer": "ground",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "yard",
+      "layer": "yard",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "adaWorkshop",
+      "layer": "ground",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "simonGallery",
+      "layer": "gallery",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "miriamStanding",
+      "layer": "ground",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "emmyWorkshop",
+      "layer": "ground",
+      "clear": true,
+      "reachableOnLayer": true
+    },
+    {
+      "anchor": "ruthFront",
+      "layer": "ground",
+      "clear": true,
+      "reachableOnLayer": true
+    }
+  ],
+  "stairsLandingClear": true,
+  "cabinetProxySwing": {
+    "chair": 0.095,
+    "pier": 0.776
+  },
+  "seatedException": "miriamBench intentionally overlaps spectators bench; structural/prop anchors are not player positions",
+  "singleMiriamBase": true
+}

@@ -1,0 +1,12 @@
+Already up to date
+Done in 405ms using pnpm v11.19.0
+tests/world-navigation.test.ts(9,22): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(predicate: (value: Position, index: number, array: Position[]) => value is Position, thisArg?: any): this is S[]', gave the following error.
+    Argument of type '(point: Point, layer?: Layer) => boolean' is not assignable to parameter of type '(value: Position, index: number, array: Position[]) => value is Position'.
+      Types of parameters 'layer' and 'index' are incompatible.
+        Type 'number' is not assignable to type 'Layer | undefined'.
+  Overload 2 of 2, '(predicate: (value: Position, index: number, array: Position[]) => unknown, thisArg?: any): boolean', gave the following error.
+    Argument of type '(point: Point, layer?: Layer) => boolean' is not assignable to parameter of type '(value: Position, index: number, array: Position[]) => unknown'.
+      Types of parameters 'layer' and 'index' are incompatible.
+        Type 'number' is not assignable to type 'Layer | undefined'.
+[ELIFECYCLE] Command failed with exit code 2.

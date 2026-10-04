@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "Uninstalled, abandoned bath-world prototype after owner redirect",
+  "checks": [
+    "Bench route avoids pool and furniture",
+    "Workshop route stays on ground beneath gallery",
+    "Gallery route ascends via stairs",
+    "Return route descends from gallery",
+    "Overlapping floors retain independent heights",
+    "Free path cannot cross front door",
+    "Free path cannot cross service door",
+    "Exterior path stays in exterior layer",
+    "Keyboard movement cannot enter stairs through side rail",
+    "Large movement delta cannot tunnel through pool"
+  ],
+  "hashes": {
+    "prototype/navigation.ts": "7e59f7d558e236c08b655a7aa20e5a1c0d9e40eb99df8a66e397f801f1af5dff",
+    "prototype/staging.ts": "a32da015de51deacf46c19c94a43395fa646215ded3343d08c43fb4e5877df3d",
+    "prototype/scene-staging.json": "f08165a7dae98dd721fe124dbcb6701605dc5009fc596a8c6c13a25842402a5c",
+    "prototype/bath-spatial.json": "9e5c29a87c7d0d6e0d3bddee4a28a2a548bba02448607bc2c8571cfe20b4e0c1",
+    "navigation-probe.cjs": "e927b51dbd94fd198fc49e9f1da2fd45e7dcb3c5e75272a44b5aefc39f77320e"
+  },
+  "limits": [
+    "No BathWorld integration, browser or visual acceptance",
+    "Actor and prop staging drafted but unverified",
+    "No narrative acceptance",
+    "No new content installed"
+  ]
+}

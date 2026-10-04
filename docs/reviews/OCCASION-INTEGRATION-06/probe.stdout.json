@@ -1,0 +1,122 @@
+{
+  "sameOriginControl": {
+    "accepted": false,
+    "error": "unsupported"
+  },
+  "sourceKeyLaundering": {
+    "validationAccepted": true,
+    "sourceKey": [
+      {
+        "id": "o0.film",
+        "sourceKey": "incident-film",
+        "provenanceId": "incident-film"
+      },
+      {
+        "id": "o1.film",
+        "sourceKey": "incident-film",
+        "provenanceId": "new-origin-from-occasion-only"
+      }
+    ],
+    "accepted": true,
+    "deduction": {
+      "id": "o1.independent-film",
+      "candidateId": "supported",
+      "text": "Two independent origins are selected.",
+      "selectedRefs": [
+        "o0.film",
+        "o1.film"
+      ],
+      "witnessRefs": [
+        "o0.film",
+        "o1.film"
+      ],
+      "sceneId": "o1.arrival",
+      "revision": 6,
+      "occasionId": "o1",
+      "occasionLabel": "After the return"
+    },
+    "origins": [
+      {
+        "ref": "o0.film",
+        "origins": [
+          "incident-film"
+        ]
+      },
+      {
+        "ref": "o1.film",
+        "origins": [
+          "new-origin-from-occasion-only"
+        ]
+      }
+    ],
+    "portableReplayAccepted": true,
+    "commands": [
+      {
+        "id": "review-0",
+        "expectedRevision": 0,
+        "type": "choose",
+        "choiceId": "inspect-old-film"
+      },
+      {
+        "id": "review-1",
+        "expectedRevision": 1,
+        "type": "choose",
+        "choiceId": "prepare-chair"
+      },
+      {
+        "id": "review-2",
+        "expectedRevision": 2,
+        "type": "choose",
+        "choiceId": "front-departure"
+      },
+      {
+        "id": "review-3",
+        "expectedRevision": 3,
+        "type": "choose",
+        "choiceId": "first-crossing"
+      },
+      {
+        "id": "review-4",
+        "expectedRevision": 4,
+        "type": "choose",
+        "choiceId": "inspect-current-film"
+      },
+      {
+        "id": "review-5",
+        "expectedRevision": 5,
+        "type": "submitDeduction",
+        "questionId": "o1.independent-film",
+        "candidateId": "supported",
+        "selectedRefs": [
+          "o0.film",
+          "o1.film"
+        ]
+      }
+    ]
+  },
+  "rollbackControl": {
+    "accepted": false,
+    "identicalState": true,
+    "snapshotAbsent": true,
+    "unavailableProseAbsent": true
+  },
+  "closureOrderingProbe": {
+    "firstVariant": "o1.arrival.base",
+    "currentFlagAfterEntry": true,
+    "eligibleOnFirstEntry": {
+      "id": "o1.on-arrival",
+      "revision": 4,
+      "occasionId": "o1",
+      "occasionLabel": "After the return"
+    },
+    "revisitVariant": "o1.remembered-variant"
+  },
+  "closureGateProbe": {
+    "validationAccepted": true,
+    "offeredChoiceIds": [],
+    "accepted": false,
+    "error": "unavailable-choice",
+    "currentOccasion": "o0",
+    "knownFilm": true
+  }
+}

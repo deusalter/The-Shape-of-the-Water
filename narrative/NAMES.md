@@ -1,5 +1,7 @@
 # Deliberate names and their dramatic work
 
+**Latest owner decision, 2026-10-04:** retain **Blaise Bloom**. All other names below are reopened after the owner rejected the bath story and supporting names. Their researched provenance and former symbolic rationale are preserved as historical decisions; they do not constrain the next cast. No replacement names have been selected or owner-approved yet.
+
 The owner clarified on 2026-10-03 that names must contribute symbolically, not merely have verifiable historical/literary provenance. The first checkpoint's sentence “Naming sources supply names only” was an inadequate interpretation and is superseded here. The three established names are retained through a fresh, explicit artistic choice; this document does not pretend their fully developed symbolism was already present in the earlier audition. New names are chosen under the clarified requirement.
 
 Every named major character combines a historical figure's given name with a literary character's surname. The symbolic pair directs choices in the writing. It does not import a personality, profession, biography, death, racial identity or plot. Readers need no outside reference to solve the case, and no recognition reward unlocks evidence. Recognizing a reference can add a further reading of a scene that already works on its own.

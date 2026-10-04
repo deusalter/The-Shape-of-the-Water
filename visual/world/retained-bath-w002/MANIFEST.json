@@ -1,0 +1,10 @@
+{
+  "status": "retained rejected-setting technical prototype; not installed",
+  "ownerDirection": "docs/OWNER-WORLD-REBUILD-2026-10-04.md",
+  "files": {
+    "build-bath.py": "ae31a4fb59cc581491e8fbdb3a29222eda5ce7d1a1127041064881af8135b171",
+    "bath-faceless.glb": "78fb5a6bd6b359bb6bea4b20d4933318a628f2668e737d9aa0a5d6f755d5623e",
+    "bath-spatial.json": "9e5c29a87c7d0d6e0d3bddee4a28a2a548bba02448607bc2c8571cfe20b4e0c1",
+    "bath-faceless.blend": "d28ff791c794e9a724b3ae25ec9aed9fdb9196226a819d9690d9bc4cff668493"
+  }
+}

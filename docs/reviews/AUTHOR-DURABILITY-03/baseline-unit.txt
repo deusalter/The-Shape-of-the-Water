@@ -1,0 +1,164 @@
+
+ RUN  v3.2.7 /workspace/literary-detective
+
+ × tests/author-draft-durability.test.ts > unfinished author draft durability > saves an independently imported invalid project without borrowing another project preview 24ms
+   → The saved last-valid preview failed validation or belongs to another project.
+ × tests/author-draft-durability.test.ts > unfinished author draft durability > preserves empty provenance through export/import and reopening while retaining a matching valid preview 5ms
+   → content.sources.0.provenanceId: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/
+ × tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished reference values while strict player compilation rejects them 1ms
+   → content.scenes.0.choices.0.target: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/
+ × tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished condition values while strict player compilation rejects them 1ms
+   → content.scenes.0.choices.0.when.id: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/
+ × tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished proof values while strict player compilation rejects them 5ms
+   → content.questions.0.proof.refId: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/
+ × tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished flags values while strict player compilation rejects them 1ms
+   → content.scenes.0.choices.0.requires.0: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/
+ × tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished record values while strict player compilation rejects them 1ms
+   → content.scenes.0.choices.0.relationship.id: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/
+content.scenes.0.choices.0.relationship.text: Too small: expected string to have >=1 characters
+content.scenes.0.choices.0.relationship.text: Text cannot be blank
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished version values while strict player compilation rejects them 42ms
+ × tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished occasion values while strict player compilation rejects them 1ms
+   → content.sources.0.occasionId: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > can save a repaired draft and strict player export retains actual OR/provenance semantics 18ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > still reads previously saved nonnullable previews and rejects invalid or foreign previews 13ms
+ × tests/author-draft-durability.test.ts > unfinished author draft durability > rejects unsupported shape, unsafe project identity and bounds without replacing a saved draft 2ms
+   → content.sources.0.provenanceId: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 9 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/author-draft-durability.test.ts > unfinished author draft durability > saves an independently imported invalid project without borrowing another project preview
+Error: The saved last-valid preview failed validation or belongs to another project.
+ ❯ checked src/persistence/author-project.ts:8:59
+      6|   if(!isObject(value)||Object.keys(value).length!==2)throw Error('Malf…
+      7|   const project=checkedProject(value.project),valid=validateContentV2(…
+      8|   if(!valid.ok||valid.value.id!==project.content.id)throw Error('The s…
+       |                                                           ^
+      9|   return {project,lastValid:valid.value};
+     10| }
+ ❯ AuthorProjectStore.save src/persistence/author-project.ts:14:69
+ ❯ tests/author-draft-durability.test.ts:15:17
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/9]⎯
+
+ FAIL  tests/author-draft-durability.test.ts > unfinished author draft durability > preserves empty provenance through export/import and reopening while retaining a matching valid preview
+Error: content.sources.0.provenanceId: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/
+ ❯ checkedProject src/studio/project.ts:26:28
+     24|   if(!raw||new TextEncoder().encode(raw).byteLength>10*1024*1024)throw…
+     25|   const parsed=projectSchema.safeParse(JSON.parse(raw));
+     26|   if(!parsed.success)throw Error(parsed.error.issues.slice(0,20).map(i…
+       |                            ^
+     27|   return parsed.data as AuthorProject;
+     28| }
+ ❯ exportProject src/studio/project.ts:31:76
+ ❯ tests/author-draft-durability.test.ts:27:35
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/9]⎯
+
+ FAIL  tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished reference values while strict player compilation rejects them
+Error: content.scenes.0.choices.0.target: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/
+ ❯ checkedProject src/studio/project.ts:26:28
+     24|   if(!raw||new TextEncoder().encode(raw).byteLength>10*1024*1024)throw…
+     25|   const parsed=projectSchema.safeParse(JSON.parse(raw));
+     26|   if(!parsed.success)throw Error(parsed.error.issues.slice(0,20).map(i…
+       |                            ^
+     27|   return parsed.data as AuthorProject;
+     28| }
+ ❯ exportProject src/studio/project.ts:31:76
+ ❯ tests/author-draft-durability.test.ts:43:27
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/9]⎯
+
+ FAIL  tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished condition values while strict player compilation rejects them
+Error: content.scenes.0.choices.0.when.id: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/
+ ❯ checkedProject src/studio/project.ts:26:28
+     24|   if(!raw||new TextEncoder().encode(raw).byteLength>10*1024*1024)throw…
+     25|   const parsed=projectSchema.safeParse(JSON.parse(raw));
+     26|   if(!parsed.success)throw Error(parsed.error.issues.slice(0,20).map(i…
+       |                            ^
+     27|   return parsed.data as AuthorProject;
+     28| }
+ ❯ exportProject src/studio/project.ts:31:76
+ ❯ tests/author-draft-durability.test.ts:43:27
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/9]⎯
+
+ FAIL  tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished proof values while strict player compilation rejects them
+Error: content.questions.0.proof.refId: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/
+ ❯ checkedProject src/studio/project.ts:26:28
+     24|   if(!raw||new TextEncoder().encode(raw).byteLength>10*1024*1024)throw…
+     25|   const parsed=projectSchema.safeParse(JSON.parse(raw));
+     26|   if(!parsed.success)throw Error(parsed.error.issues.slice(0,20).map(i…
+       |                            ^
+     27|   return parsed.data as AuthorProject;
+     28| }
+ ❯ exportProject src/studio/project.ts:31:76
+ ❯ tests/author-draft-durability.test.ts:43:27
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/9]⎯
+
+ FAIL  tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished flags values while strict player compilation rejects them
+Error: content.scenes.0.choices.0.requires.0: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/
+ ❯ checkedProject src/studio/project.ts:26:28
+     24|   if(!raw||new TextEncoder().encode(raw).byteLength>10*1024*1024)throw…
+     25|   const parsed=projectSchema.safeParse(JSON.parse(raw));
+     26|   if(!parsed.success)throw Error(parsed.error.issues.slice(0,20).map(i…
+       |                            ^
+     27|   return parsed.data as AuthorProject;
+     28| }
+ ❯ exportProject src/studio/project.ts:31:76
+ ❯ tests/author-draft-durability.test.ts:43:27
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/9]⎯
+
+ FAIL  tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished record values while strict player compilation rejects them
+Error: content.scenes.0.choices.0.relationship.id: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/
+content.scenes.0.choices.0.relationship.text: Too small: expected string to have >=1 characters
+content.scenes.0.choices.0.relationship.text: Text cannot be blank
+ ❯ checkedProject src/studio/project.ts:26:28
+     24|   if(!raw||new TextEncoder().encode(raw).byteLength>10*1024*1024)throw…
+     25|   const parsed=projectSchema.safeParse(JSON.parse(raw));
+     26|   if(!parsed.success)throw Error(parsed.error.issues.slice(0,20).map(i…
+       |                            ^
+     27|   return parsed.data as AuthorProject;
+     28| }
+ ❯ exportProject src/studio/project.ts:31:76
+ ❯ tests/author-draft-durability.test.ts:43:27
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/9]⎯
+
+ FAIL  tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished occasion values while strict player compilation rejects them
+Error: content.sources.0.occasionId: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/
+ ❯ checkedProject src/studio/project.ts:26:28
+     24|   if(!raw||new TextEncoder().encode(raw).byteLength>10*1024*1024)throw…
+     25|   const parsed=projectSchema.safeParse(JSON.parse(raw));
+     26|   if(!parsed.success)throw Error(parsed.error.issues.slice(0,20).map(i…
+       |                            ^
+     27|   return parsed.data as AuthorProject;
+     28| }
+ ❯ exportProject src/studio/project.ts:31:76
+ ❯ tests/author-draft-durability.test.ts:43:27
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/9]⎯
+
+ FAIL  tests/author-draft-durability.test.ts > unfinished author draft durability > rejects unsupported shape, unsafe project identity and bounds without replacing a saved draft
+Error: content.sources.0.provenanceId: Invalid string: must match pattern /^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,119}$/
+ ❯ checkedProject src/studio/project.ts:26:28
+     24|   if(!raw||new TextEncoder().encode(raw).byteLength>10*1024*1024)throw…
+     25|   const parsed=projectSchema.safeParse(JSON.parse(raw));
+     26|   if(!parsed.success)throw Error(parsed.error.issues.slice(0,20).map(i…
+       |                            ^
+     27|   return parsed.data as AuthorProject;
+     28| }
+ ❯ checked src/persistence/author-project.ts:7:17
+ ❯ AuthorProjectStore.save src/persistence/author-project.ts:14:69
+ ❯ tests/author-draft-durability.test.ts:63:106
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/9]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  9 failed | 3 passed (12)
+   Start at  01:23:55
+   Duration  1.01s (transform 300ms, setup 0ms, collect 572ms, tests 115ms, environment 0ms, prepare 107ms)
+

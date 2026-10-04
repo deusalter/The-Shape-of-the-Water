@@ -1,0 +1,104 @@
+{
+  "id": "short-case-v1-to-blaise-v2-candidate-2026-10-03",
+  "fromHash": "0bd022ad793897d6a92c6dbd7054951c7ca8e07ea5d8158ad786d6e3279be432",
+  "toHash": "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d",
+  "sceneMap": {
+    "arrival": "arrival",
+    "bench": "bench",
+    "workshop": "workshop",
+    "cabinet": "cabinet",
+    "gallery": "gallery",
+    "concourse": "concourse",
+    "release": "release",
+    "recording": "recording",
+    "simon_account": "simon_account",
+    "miriam_account": "miriam_account",
+    "ada_miriam": "ada_miriam",
+    "simon_ada": "simon_ada",
+    "miriam_private": "miriam_private",
+    "shared": "shared",
+    "optics": "optics",
+    "report": "report",
+    "public_account": "public_account",
+    "private_account": "private_account",
+    "continuation": "continuation",
+    "supper": "supper",
+    "leave": "leave"
+  },
+  "flagMap": {
+    "account_given": "account_given",
+    "disputed_card": "disputed_card",
+    "early_free": "early_free",
+    "future_help": "future_help",
+    "heard_ada": "heard_ada",
+    "heard_ada_intimate": "heard_ada_intimate",
+    "heard_miriam": "heard_miriam",
+    "heard_miriam_account": "heard_miriam_account",
+    "heard_miriam_intimate": "heard_miriam_intimate",
+    "heard_recording": "heard_recording",
+    "heard_shared": "heard_shared",
+    "heard_simon": "heard_simon",
+    "heard_simon_account": "heard_simon_account",
+    "heard_simon_intimate": "heard_simon_intimate",
+    "inspected_cabinet": "inspected_cabinet",
+    "left": "left",
+    "met_ada": "met_ada",
+    "met_miriam": "met_miriam",
+    "narrow_card": "narrow_card",
+    "optics_done": "optics_done",
+    "pressed_miriam": "pressed_miriam",
+    "private_finding": "private_finding",
+    "proof_binding": "proof_binding",
+    "proof_cut": "proof_cut",
+    "proof_timing": "proof_timing",
+    "public_correction": "public_correction",
+    "revisited_cabinet": "revisited_cabinet",
+    "seen_cabinet": "seen_cabinet",
+    "shamed_simon": "shamed_simon",
+    "stayed": "stayed",
+    "tested_release": "tested_release"
+  },
+  "sourceMap": {
+    "request-before-cut": "request-before-cut",
+    "ada-cut": "ada-cut",
+    "latch-click": "latch-click",
+    "claimed-sight": "claimed-sight",
+    "binding-test": "binding-test",
+    "continuous-recording": "continuous-recording",
+    "simon-account": "simon-account",
+    "stripe-control": "stripe-control",
+    "bounded-finding": "bounded-finding"
+  },
+  "disclosures": [
+    {
+      "choiceId": "report-public",
+      "characterId": "ada",
+      "refId": "bounded-finding"
+    },
+    {
+      "choiceId": "report-public",
+      "characterId": "simon",
+      "refId": "bounded-finding"
+    },
+    {
+      "choiceId": "report-public",
+      "characterId": "miriam",
+      "refId": "bounded-finding"
+    },
+    {
+      "choiceId": "report-private",
+      "characterId": "ada",
+      "refId": "bounded-finding"
+    },
+    {
+      "choiceId": "report-private",
+      "characterId": "simon",
+      "refId": "bounded-finding"
+    },
+    {
+      "choiceId": "report-private",
+      "characterId": "miriam",
+      "refId": "bounded-finding"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+Already up to date
+Done in 406ms using pnpm v11.19.0
+
+ RUN  v3.2.7 /workspace/literary-detective
+
+ ✓ tests/author-project.test.ts > author project preservation and compiled player boundary > round-trips author annotations and fixed events while excluding them from compiled content 25ms
+ ✓ tests/author-project.test.ts > author project preservation and compiled player boundary > preserves a blank-prose broken draft and a separately valid preview through storage 11ms
+ ✓ tests/author-project.test.ts > author project preservation and compiled player boundary > retains an added OR proof alternative through export and accepts that support in actual runtime 17ms
+ ✓ tests/author-project.test.ts > author project preservation and compiled player boundary > renames scene references while preserving prose and cancels a referenced deletion 4ms
+ ✓ tests/author-project.test.ts > cancellable author validation > never publishes cancelled or superseded worker results, even if a terminated worker sends a late message 1ms
+ ✓ tests/occasion-author-ui.test.ts > occasion author controls preserve explicit membership and scopes > edits scoped source, deduction and flag guards without dropping scope, including nesting 7ms
+ ✓ tests/occasion-author-ui.test.ts > occasion author controls preserve explicit membership and scopes > creates occasion guards and current guards using selected occasion defaults 2ms
+ ✓ tests/occasion-author-ui.test.ts > occasion author controls preserve explicit membership and scopes > retains historical proof leaves through nested grouping and explicitly scopes added leaves 1ms
+ ✓ tests/occasion-author-ui.test.ts > occasion author controls preserve explicit membership and scopes > shows missing scopes without silently repairing saved drafts and retains unknown occasion IDs 15ms
+ ✓ tests/occasion-author-ui.test.ts > occasion author controls preserve explicit membership and scopes > keeps legacy controls and new entity defaults occasion-absent 1ms
+ ✓ tests/occasion-author-ui.test.ts > occasion author controls preserve explicit membership and scopes > preserves unfinished occasion metadata and null preview through save/export/import 30ms
+ ✓ tests/occasion-author-ui.test.ts > occasion author controls preserve explicit membership and scopes > rejects occasion scenario injection before fabricating history or changing the bundle 1ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > saves an independently imported invalid project without borrowing another project preview 65ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > preserves empty provenance through export/import and reopening while retaining a matching valid preview 10ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished reference values while strict player compilation rejects them 13ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished condition values while strict player compilation rejects them 8ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished proof values while strict player compilation rejects them 20ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished flags values while strict player compilation rejects them 5ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished record values while strict player compilation rejects them 5ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished version values while strict player compilation rejects them 6ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished occasion values while strict player compilation rejects them 6ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > can save a repaired draft and strict player export retains actual OR/provenance semantics 17ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > exports an importable compact draft when readable indentation would exceed the byte limit 292ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > still reads previously saved nonnullable previews and rejects invalid or foreign previews 25ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > rejects unsupported shape, unsafe project identity and bounds without replacing a saved draft 12ms
+ ✓ tests/preview-scenario.test.ts > runs injected conditions in a separate identity without changing canonical content or allowing canonical import 31ms
+ ✓ tests/preview-scenario.test.ts > rejects unknown flags, evidence and malformed character references instead of silently injecting them 16ms
+
+ Test Files  4 passed (4)
+      Tests  27 passed (27)
+   Start at  02:00:29
+   Duration  1.39s (transform 509ms, setup 0ms, collect 1.65s, tests 654ms, environment 1ms, prepare 314ms)
+

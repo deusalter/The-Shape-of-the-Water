@@ -1,0 +1,29 @@
+{
+  "startedAt": "2026-10-04T01:59:42.821Z",
+  "checks": [
+    {
+      "id": "legacy-controls",
+      "status": "PASS",
+      "detail": "Occasion-absent controls omit scope and retain scenario injection."
+    },
+    {
+      "id": "scoped-controls-and-durability",
+      "status": "PASS",
+      "detail": "Historical proof, encountered reading guard, occasionIs and source metadata survive edit/export/save/reload."
+    },
+    {
+      "id": "namespace-defaults-and-actor-draft",
+      "status": "PASS",
+      "detail": "New entities use selected occasion namespaces; intentional invalid actor membership preserves actual initial arrays and remains saveable; undo restores actor membership while unfinished new entity routes and proof choices remain diagnostic."
+    },
+    {
+      "id": "occasion-preview-import-with-injection-disabled",
+      "status": "PASS",
+      "detail": "Normal fixture preview works; real replay reaches o1 and exports identically; arbitrary injection and actor overrides are disabled."
+    }
+  ],
+  "pageErrors": [],
+  "finishedAt": "2026-10-04T01:59:50.329Z",
+  "browserVersion": "151.0.7922.173",
+  "outcome": "PASS"
+}

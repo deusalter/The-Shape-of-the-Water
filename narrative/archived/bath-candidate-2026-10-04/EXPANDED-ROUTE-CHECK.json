@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "scope": "Four lead-authored actual-engine routes; not exhaustive, independent, browser, human or measured-duration verification.",
+  "caseSha256": "36562399c544065711718ba439e52005c8b20b0c767abbc2d451e9fd483c533c",
+  "contentId": "shape-of-the-water",
+  "contentVersion": 3,
+  "routes": [
+    {
+      "id": "recording-refusal-no-private-history",
+      "finalScene": "o1.ending-front",
+      "occasion": "o1",
+      "commands": 89,
+      "passageWords": 23196,
+      "wordsByOccasion": {
+        "o0": 12203,
+        "o1": 10993,
+        "o2": 0
+      },
+      "portableBytes": 381553,
+      "knownSources": 39,
+      "acceptedQuestions": [
+        "o0.accident-sequence",
+        "o0.picture-production"
+      ],
+      "replay": "PASS",
+      "path": "narrative/loop/expanded-readings/recording-refusal-no-private-history.md"
+    },
+    {
+      "id": "private-history-public-promise-repeat",
+      "finalScene": "o2.ending-return",
+      "occasion": "o2",
+      "commands": 102,
+      "passageWords": 26071,
+      "wordsByOccasion": {
+        "o0": 14081,
+        "o1": 11348,
+        "o2": 642
+      },
+      "portableBytes": 441282,
+      "knownSources": 59,
+      "acceptedQuestions": [
+        "o0.accident-sequence",
+        "o0.picture-production",
+        "o1.local-continuation"
+      ],
+      "replay": "PASS",
+      "path": "narrative/loop/expanded-readings/private-history-public-promise-repeat.md"
+    },
+    {
+      "id": "pressed-history-canceled-test",
+      "finalScene": "o1.ending-front",
+      "occasion": "o1",
+      "commands": 98,
+      "passageWords": 25397,
+      "wordsByOccasion": {
+        "o0": 13826,
+        "o1": 11571,
+        "o2": 0
+      },
+      "portableBytes": 421476,
+      "knownSources": 52,
+      "acceptedQuestions": [
+        "o0.accident-sequence",
+        "o0.picture-production"
+      ],
+      "replay": "PASS",
+      "path": "narrative/loop/expanded-readings/pressed-history-canceled-test.md"
+    },
+    {
+      "id": "all-front-postponement",
+      "finalScene": "o1.ending-front",
+      "occasion": "o1",
+      "commands": 90,
+      "passageWords": 23559,
+      "wordsByOccasion": {
+        "o0": 12297,
+        "o1": 11262,
+        "o2": 0
+      },
+      "portableBytes": 385011,
+      "knownSources": 41,
+      "acceptedQuestions": [
+        "o0.accident-sequence",
+        "o0.picture-production"
+      ],
+      "replay": "PASS",
+      "path": "narrative/loop/expanded-readings/all-front-postponement.md"
+    }
+  ],
+  "failures": []
+}

@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { afterAll, describe, expect, test } from 'vitest';
-import { installedCase, migrationInstalled, replayContext } from '../../src/content/load-evidence';
+import { firstNightCase as installedCase, migrationInstalled, replayContext } from '../../src/content/load-evidence';
 import {
   applyCommandV2, availableChoicesV2, availableHintsV2, availableInterpretationsV2, availableQuestionsV2,
   confirmationForV2, createGameV2, exportPortableV2, importPortableV2, projectPlayerV2, validateStateV2,

@@ -1,5 +1,5 @@
 import {it,expect} from 'vitest';
-import {installedCase} from '../src/content/load-evidence';
+import {firstNightCase as installedCase} from '../src/content/load-evidence';
 import {injectedPreview} from '../src/studio/preview-scenario';
 import {createGameV2,applyCommandV2,availableChoicesV2,exportPortableV2,importPortableV2} from '../src/engine/evidence-v2';
 if(!installedCase.ok)throw Error('Installed case failed validation');

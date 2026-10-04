@@ -14,3 +14,4 @@ dist-studio/
 
 # Blender local previous-save backups
 *.blend1
+__pycache__/

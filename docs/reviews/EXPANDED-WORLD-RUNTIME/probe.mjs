@@ -1,0 +1,21 @@
+import assert from 'node:assert/strict';
+import { createRequire } from 'node:module';
+import { readFileSync, writeFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+const require=createRequire(import.meta.url),nav=require('./navigation-probe.cjs');
+const checks=[];
+function check(label,fn){fn();checks.push(label);}
+const start={x:0,z:10.5};
+check('Bench route avoids pool and furniture',()=>{const path=nav.walkPath(start,{x:5.6,z:3});assert.ok(path.length>2);assert.ok(path.every(p=>nav.walkable(p)));});
+check('Workshop route stays on ground beneath gallery',()=>{const path=nav.walkPath(start,{x:-6.25,z:-10});assert.ok(path.length>2);assert.ok(path.every(p=>p.layer==='ground'&&p.y===0));});
+check('Gallery route ascends via stairs',()=>{const path=nav.walkPath(start,{x:5.8,z:-10.4,layer:'gallery'});assert.ok(path.length>2);assert.ok(path.some(p=>p.layer==='stairs'&&p.y>0&&p.y<2.66));assert.equal(path.at(-1).y,2.66);});
+check('Return route descends from gallery',()=>{const path=nav.walkPath({x:5.8,z:-10.4,layer:'gallery'},start);assert.ok(path.length>2);assert.equal(path.at(-1).layer,'ground');});
+check('Overlapping floors retain independent heights',()=>{assert.equal(nav.heightAt({x:-6.25,z:-10},'ground'),0);assert.equal(nav.heightAt({x:-6.25,z:-10},'gallery'),2.66);});
+check('Free path cannot cross front door',()=>assert.deepEqual(nav.walkPath(start,{x:0,z:15.15,layer:'exterior'}),[]));
+check('Free path cannot cross service door',()=>assert.deepEqual(nav.walkPath({x:-8.9,z:-5.95},{x:-13.25,z:-5.95,layer:'yard'}),[]));
+check('Exterior path stays in exterior layer',()=>{const path=nav.walkPath({x:0,z:15.15,layer:'exterior'},{x:0,z:23,layer:'exterior'});assert.ok(path.length>2);assert.ok(path.every(p=>p.layer==='exterior'));});
+check('Keyboard movement cannot enter stairs through side rail',()=>{const p=nav.moveWithinBath({x:5.1,z:-5,layer:'ground'},{x:1.4,z:0});assert.equal(p.layer,'ground');assert.ok(p.x<5.55);});
+check('Large movement delta cannot tunnel through pool',()=>{const p=nav.moveWithinBath(start,{x:0,z:-20});assert.ok(p.z>5.95);assert.equal(p.layer,'ground');});
+const folder=new URL('.',import.meta.url), files=['prototype/navigation.ts','prototype/staging.ts','prototype/scene-staging.json','prototype/bath-spatial.json','navigation-probe.cjs'];
+const report={status:'PASS',scope:'Uninstalled, abandoned bath-world prototype after owner redirect',checks,hashes:Object.fromEntries(files.map(path=>[path,createHash('sha256').update(readFileSync(new URL(path,folder))).digest('hex')])),limits:['No BathWorld integration, browser or visual acceptance','Actor and prop staging drafted but unverified','No narrative acceptance','No new content installed']};
+writeFileSync(new URL('RESULT.json',folder),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));

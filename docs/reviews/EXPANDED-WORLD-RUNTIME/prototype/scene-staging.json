@@ -1,0 +1,2526 @@
+{
+  "sourceCaseSha256": "36562399c544065711718ba439e52005c8b20b0c767abbc2d451e9fd483c533c",
+  "scenes": {
+    "o0.arrival": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "concourse",
+          "pose": "seated"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o0.bench": {
+      "area": "spectators-bench",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.workshop": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.cabinet": {
+      "area": "cabinet",
+      "actors": []
+    },
+    "o0.gallery": {
+      "area": "gallery",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "gallery",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "gallery",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.concourse": {
+      "area": "concourse",
+      "actors": []
+    },
+    "o0.release": {
+      "area": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.recording": {
+      "area": "gallery",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "gallery",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.simon_account": {
+      "area": "gallery",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "gallery",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.miriam_account": {
+      "area": "spectators-bench",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.ada_miriam": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.simon_ada": {
+      "area": "gallery",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "gallery",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ada",
+          "area": "gallery",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.miriam_private": {
+      "area": "spectators-bench",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.shared": {
+      "area": "concourse",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "concourse",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.optics": {
+      "area": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "cabinet",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.report": {
+      "area": "concourse",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "concourse",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.public_account": {
+      "area": "concourse",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "concourse",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.private_account": {
+      "area": "concourse",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "concourse",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.continuation": {
+      "area": "concourse",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "concourse",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.supper": {
+      "area": "concourse",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "concourse",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.leave": {
+      "area": "entrance",
+      "actors": []
+    },
+    "o0.finding_notebook": {
+      "area": "concourse",
+      "actors": []
+    },
+    "o0.sunday": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.emmy-arrival": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "entrance",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.emmy-arrival.account": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "entrance",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.emmy-arrival.ask-simon": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "entrance",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.emmy-tea": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.ruth-print": {
+      "area": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "cabinet",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o0.ruth-print.conditions": {
+      "area": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "cabinet",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o0.ruth-print.same": {
+      "area": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "cabinet",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o0.camera-conditions": {
+      "area": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "cabinet",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o0.camera-conditions.positions": {
+      "area": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "cabinet",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o0.camera-conditions.rotation": {
+      "area": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "cabinet",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o0.control-result": {
+      "area": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "cabinet",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o0.layout": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.layout.simon": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.layout.emmy": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.layout-folder": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.picture-finding": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.lesson": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "shallow-water",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o0.lesson.leave": {
+      "area": "changing-passage",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.lesson.towel": {
+      "area": "changing-passage",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.three-tiles": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.three-tiles.tell": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.three-tiles.keep": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.teacher-question": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.teacher-question.particular": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.teacher-question.love": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.teacher-reply": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.teacher-reply.continue-argument": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.teacher-reply.unconvinced": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.sunday-late": {
+      "area": "concourse",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ada",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.two-breaths": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "shallow-water",
+          "pose": "seated"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "entrance",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.bearers": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "street-opposite",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o0.parcel": {
+      "area": "service-passage",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ada",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "street-opposite",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.return": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "concourse",
+          "pose": "seated"
+        },
+        {
+          "id": "o1.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.return.blue": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "concourse",
+          "pose": "seated"
+        },
+        {
+          "id": "o1.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.return.handle": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "concourse",
+          "pose": "seated"
+        },
+        {
+          "id": "o1.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.calendars": {
+      "area": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.calendars.describe": {
+      "area": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.calendars.predict": {
+      "area": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.ada-chair": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.ada-chair.remember": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.ada-chair.ask-hand": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.ada-chair.gone": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.camera-offer": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.knock": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "entrance",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.knock.tell": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "entrance",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.knock.outside": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "entrance",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.knock.observe": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "entrance",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.two-cups": {
+      "area": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.changed-date": {
+      "area": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.changed-date.alone": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.changed-date.names": {
+      "area": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.changed-date.witness": {
+      "area": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.wood-test": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.wood-test.record": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.wood-test.repeated": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.wood-result": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.middle-water": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.middle-water.remembered": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.middle-water.ask": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.middle-water.wait": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.water-hand": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.water-hand.permission": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.water-hand.confidence": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.water-hand.quiet": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.water-leave": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.middle-bread": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.middle-bread.sweet": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.middle-bread.liked": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.middle-bread.barely": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.bread-thanks": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.bread-thanks.offer": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.bread-thanks.decline": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.bread-thanks.test": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.water-return": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.water-return.unknown": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.water-return.thursday": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.name-offered": {
+      "area": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.name-offered.sight": {
+      "area": "changing-passage",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.name-offered.leave": {
+      "area": "concourse",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.two-at-bench": {
+      "area": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.bench-thanks": {
+      "area": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.two-at-bench.together": {
+      "area": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.two-at-bench.afraid": {
+      "area": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.middle-close": {
+      "area": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.allowed": {
+      "area": "workshop-doorway",
+      "actors": [
+        {
+          "id": "o1.simon",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.allowed.gift": {
+      "area": "workshop-doorway",
+      "actors": [
+        {
+          "id": "o1.simon",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.allowed.objection": {
+      "area": "workshop-doorway",
+      "actors": [
+        {
+          "id": "o1.simon",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.intention": {
+      "area": "workshop-doorway",
+      "actors": [
+        {
+          "id": "o1.simon",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.intention.remembered": {
+      "area": "workshop-doorway",
+      "actors": [
+        {
+          "id": "o1.simon",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.intention.present": {
+      "area": "workshop-doorway",
+      "actors": [
+        {
+          "id": "o1.simon",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.paper-cup": {
+      "area": "workshop-doorway",
+      "actors": [
+        {
+          "id": "o1.simon",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.keep-time": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "concourse",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.music-advantage": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.music-loss": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.promise-private": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.promise-audience": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.promise-kept-private": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.promise-told": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.before-going": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.before-going.one-i": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.before-going.another": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.before-going.ordinary": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.eternity": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.eternity.cup": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.eternity.voice": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.eternity.ada": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.dressing": {
+      "area": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated"
+        }
+      ]
+    },
+    "o1.last-test": {
+      "area": "service-passage",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.ada-front-offer": {
+      "area": "service-passage",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.route-decision": {
+      "area": "service-passage",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.test-discussion": {
+      "area": "service-passage",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "service-passage",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.postpone": {
+      "area": "service-passage",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "service-passage",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.test-positions": {
+      "area": "service-passage",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "service-passage",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.test-ready": {
+      "area": "service-passage",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "street-front",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.refuse": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "entrance",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.cancel-test": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "entrance",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.outside": {
+      "area": "street-front",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "street-front",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "street-front",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "street-front",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "street-front",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o1.ending-front": {
+      "area": "street-front",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "street-front",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "street-front",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "street-front",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "street-front",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o2.return": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o2.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o2.simon",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o2.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "street-front",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o2.promise": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o2.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o2.simon",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o2.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "street-front",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o2.callback": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o2.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o2.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o2.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "entrance",
+          "pose": "standing"
+        }
+      ]
+    },
+    "o2.ending-return": {
+      "area": "entrance",
+      "actors": [
+        {
+          "id": "o2.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o2.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o2.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "entrance",
+          "pose": "standing"
+        }
+      ]
+    }
+  }
+}

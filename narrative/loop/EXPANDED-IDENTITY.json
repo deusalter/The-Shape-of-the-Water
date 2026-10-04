@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-04",
+  "contentId": "shape-of-the-water",
+  "version": 3,
+  "schemaVersion": 2,
+  "file": "src/content/case-expanded.json",
+  "sha256": "36562399c544065711718ba439e52005c8b20b0c767abbc2d451e9fd483c533c",
+  "status": "Lead-selected candidate for integration; no owner approval or complete-game claim",
+  "scenes": 145,
+  "choices": 218,
+  "sources": 107,
+  "questions": 3,
+  "occasions": [
+    {
+      "id": "o0",
+      "label": "First visit"
+    },
+    {
+      "id": "o1",
+      "label": "After the return"
+    },
+    {
+      "id": "o2",
+      "label": "After another crossing"
+    }
+  ],
+  "liveFirstNightPreservedSha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+  "legacyPreservedSha256": "267c334773b0883d18b481e3c15b730ce1d840410298ec0cb7d882b79b08b086",
+  "sourceInputs": [
+    {
+      "path": "narrative/tools/build-expanded-case.py",
+      "sha256": "a0ceb0c70c12d1cb14f1b54842ca1f51087c26f6026ad37cf7e763b441bad8b8"
+    },
+    {
+      "path": "narrative/tools/check-expanded-case.mjs",
+      "sha256": "933175ae62377de8fe55c4045ce87553af69fc028bb93f6dfd41d0f023bd8938"
+    },
+    {
+      "path": "narrative/loop/CROSS-TEAM-SELECTION-L5.md",
+      "sha256": "3e7091a0bb759f22fd14caa38d659c54d4b23c58c65da0bf2cc5aeaa9017dd30"
+    },
+    {
+      "path": "narrative/loop/BLAISE-FIRST-RETURN.md",
+      "sha256": "53058900402c71cc898750090f70d2d729efcfad944ad0909b5983b3a50a605e"
+    },
+    {
+      "path": "narrative/loop/RETURN-INVESTIGATION-L3.md",
+      "sha256": "2e54f9b844bbd6eacdaa4f202584c90fd3a8d8a3c9a3f80422bada119ec6cc36"
+    },
+    {
+      "path": "narrative/loop/LIVED-MIDDLE-L4.md",
+      "sha256": "e54df097436b2cd7c578e6515a842ecf9df403ec52eac63af5799d65fa0e429b"
+    },
+    {
+      "path": "narrative/loop/BLAISE-ALLOWED.md",
+      "sha256": "ab95d4f6b526e376bfa7b502ce0ab9c625ef278cfe2ecfdf32bcc17b4e102bf6"
+    },
+    {
+      "path": "narrative/loop/ENDING-L3-AUDITIONS.md",
+      "sha256": "7154aac4ecbe2ac515184c0da80816faddc7675dfb8c42db3dfd6977ee29b79f"
+    },
+    {
+      "path": "narrative/expansion/CYCLE-01-PART-A.md",
+      "sha256": "84e7bc4e1563786ec3f0f449286b2d029af5be53e09aa70042a94440297db58e"
+    },
+    {
+      "path": "narrative/expansion/CYCLE-01-PART-B.md",
+      "sha256": "554fad020f20505494dc9aa3f74761d1ce4582212d693c629e7edae4520d2d56"
+    },
+    {
+      "path": "docs/coordination/protagonist/work/P-002-A.md",
+      "sha256": "7714822cdc2a1fdbcf18d334d5a5e3e79bc6e7a4536e474c114e66199fce08ac"
+    },
+    {
+      "path": "docs/coordination/loop-plot/work/PERFORMED-REVISIONS.md",
+      "sha256": "b0322857aede8104d8fbfe21caa23e313320203255af4a1d814935b16385eda0"
+    }
+  ],
+  "generated": [
+    "narrative/loop/MANUSCRIPT-EXPANDED-CANDIDATE.md",
+    "narrative/loop/EXPANDED-STAGING.json",
+    "narrative/loop/EXPANDED-WORD-COUNTS.json"
+  ],
+  "routeReport": "narrative/loop/EXPANDED-ROUTE-CHECK.json",
+  "reviewScope": "Prior primary/source criticism applies to inspected scene hashes. Blind07 packet is older46bc1403. Neither is whole-candidate approval."
+}

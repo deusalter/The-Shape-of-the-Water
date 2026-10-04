@@ -1,5 +1,5 @@
 import { describe,it,expect } from 'vitest';
-import { installedCase,replayContext,migrationInstalled } from '../src/content/load-evidence';
+import { firstNightCase as installedCase,replayContext,migrationInstalled } from '../src/content/load-evidence';
 import { createGameV2,applyCommandV2,availableChoicesV2,confirmationForV2,exportPortableV2,importPortableV2,type GameStateV2,type CommandV2 } from '../src/engine/evidence-v2';
 import { createGame } from '../src/engine/game';
 import { stateHash } from '../src/engine/hash';

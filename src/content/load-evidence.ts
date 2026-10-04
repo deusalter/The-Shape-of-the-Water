@@ -6,11 +6,13 @@ import { manifestSchemaV2 } from '../engine/evidence-schema';
 import { validateContent } from '../engine/game';
 import { contentHash } from '../engine/hash';
 
-export const installedCase = validateContentV2(input);
+export const firstNightCase = validateContentV2(input);
+// The rejected expanded bath candidate is archived, not part of the playable build.
+export const installedCase = firstNightCase;
 const legacy = validateContent(legacyInput);
 const manifest = manifestSchemaV2.safeParse(manifestInput);
-export const migrationInstalled = installedCase.ok && legacy.ok && manifest.success &&
-  manifest.data.fromHash === contentHash(legacy.value) && manifest.data.toHash === contentHash(installedCase.value);
+export const migrationInstalled = firstNightCase.ok && legacy.ok && manifest.success &&
+  manifest.data.fromHash === contentHash(legacy.value) && manifest.data.toHash === contentHash(firstNightCase.value);
 export const replayContext: ReplayContextV2 = migrationInstalled && legacy.ok && manifest.success ? {
   legacyBundles: { [manifest.data.fromHash]: legacy.value },
   manifests: { [manifest.data.id]: manifest.data },

@@ -1,0 +1,7 @@
+{
+  "packet": "/workspace/blind-packet-07/reading.txt",
+  "sha256": "a8079e4e466a033b4106fa9a3f338639c1e8b1a0ba218263eea29710a7d3a4d5",
+  "sourceRun": "narrative/loop/expanded-readings/private-history-public-promise-repeat.run.json",
+  "sourceCase": "46bc1403073231c3baf21f381ae05de99e239967668089f1cd790e40f90aa1c1",
+  "inputScope": "Captured passages, performed action labels and encountered feedback only; no route name, author IDs, NPC internals or unplayed options."
+}

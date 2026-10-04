@@ -14,9 +14,12 @@ const version = hash.digest('hex').slice(0, 16);
 const canonicalJSON=value=>Array.isArray(value)?`[${value.map(canonicalJSON).join(',')}]`:value!==null&&typeof value==='object'?`{${Object.keys(value).sort().map(key=>`${JSON.stringify(key)}:${canonicalJSON(value[key])}`).join(',')}}`:JSON.stringify(value);
 let contentHash=null;
 const selection=JSON.parse(await readFile(resolve('src/content/selection.json'),'utf8'));
-if(!/^case(?:-v[0-9]+)?\.json$/.test(selection.file))throw new Error('Unsupported installed content path.');
+const retained=selection.retainedFiles??[];
+if(!Array.isArray(retained)||retained.length>8||![selection.file,...retained].every(file=>typeof file==='string'&&/^case(?:-v[0-9]+|-expanded)?\.json$/.test(file)))throw new Error('Unsupported installed content path.');
 const content=JSON.parse(await readFile(resolve('src/content',selection.file),'utf8'));
 contentHash=createHash('sha256').update(canonicalJSON(content)).digest('hex');
-await writeFile(resolve(root, 'asset-manifest.json'), JSON.stringify({ version, contentHash, files: files.map(file => relative(root, file).split('\\').join('/')),hashes }));
+const contentHashes=[contentHash];
+for(const file of retained){const previous=JSON.parse(await readFile(resolve('src/content',file),'utf8'));contentHashes.push(createHash('sha256').update(canonicalJSON(previous)).digest('hex'));}
+await writeFile(resolve(root, 'asset-manifest.json'), JSON.stringify({ version, contentHash, ...(retained.length?{contentHashes:[...new Set(contentHashes)]}:{}),files: files.map(file => relative(root, file).split('\\').join('/')),hashes }));
 await writeFile(resolve(root, 'sw.js'), worker.replaceAll('__BUILD_VERSION__', version));
 console.log(`Offline manifest: ${files.length} local files, build ${version}`);

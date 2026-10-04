@@ -1,3 +1,11 @@
+# Latest owner direction: entire world/story rebuild
+
+Read [OWNER-WORLD-REBUILD-2026-10-04.md](docs/OWNER-WORLD-REBUILD-2026-10-04.md) before the historical checkpoint below. The owner rejected the ordinary bath setting, insufficient length, basic metaphysical treatment and all cast names except Blaise Bloom. The expanded bath candidate is archived and must not be installed. Research Hello Charlotte, deepen the philosophical construction and develop two new world/story treatments through the sole lead writer. Reuse the tested engineering. First-night remains runnable only as the earlier prototype. Current work is in research/reference/hello-charlotte, research/philosophy/world-rebuild and the lead's new treatment files when present.
+
+---
+
+Historical checkpoint (superseded where it conflicts with the owner direction above):
+
 # Continue the existing game
 
 Read AGENTS.md, docs/OWNER-KICKOFF-v4.md, all newer owner supplements, docs/execution/HANDOFF.md and STATE.json. Preserve the actual project; do not reinitialize it from baseline/revision3.

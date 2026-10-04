@@ -1,3 +1,11 @@
+# Superseding owner direction: rebuild the world and story
+
+Read docs/OWNER-WORLD-REBUILD-2026-10-04.md first. The historical checkpoint below does not describe the current narrative goal. The owner has rejected the short bath/swim-coach setting, shallow metaphysical development and all names except Blaise Bloom, and asks an entire reiteration informed by actual Hello Charlotte research. Preserve the bath candidate under narrative/archived/bath-candidate-2026-10-04. Do not install it. Preserve its technical W-002 world under visual/world/retained-bath-w002; the public GLB was restored to the original first-night model to keep the old runnable prototype coherent. Generic occasion engine, author controls and draft-durability repairs remain useful and have bounded verification evidence. Current research workers own research/reference/hello-charlotte and research/philosophy/world-rebuild; the lead writer owns new treatments and prose. Root integrates only after research and a selected treatment.
+
+---
+
+Historical checkpoint (superseded where it conflicts with the owner direction above):
+
 # Active integration handoff, 2026-10-04
 
 The owner requires a substantially developed psychological literary mystery with male protagonist Blaise Bloom, recurrence, primary-source Kant and Spinoza inquiry, and intentional historical-given/literary-surname names. The game is not complete. No measured duration or literary acceptance is claimed. Newer owner decisions override v4 and compatible revision3.

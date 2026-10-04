@@ -2,7 +2,7 @@ import { build } from 'esbuild';
 import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 const selection=JSON.parse(readFileSync('src/content/selection.json','utf8'));
-if(!/^case(?:-v[0-9]+)?\.json$/.test(selection.file)||![1,2].includes(selection.schemaVersion))throw new Error('Invalid installed content selection.');
+if(!/^case(?:-v[0-9]+|-expanded)?\.json$/.test(selection.file)||![1,2].includes(selection.schemaVersion))throw new Error('Invalid installed content selection.');
 const bundled = await build({entryPoints:[selection.schemaVersion===2?'src/engine/evidence-v2.ts':'src/engine/game.ts'],bundle:true,platform:'node',format:'esm',write:false,logLevel:'silent'});
 const engine = await import(`data:text/javascript;base64,${Buffer.from(bundled.outputFiles[0].text).toString('base64')}`);
 const path=`src/content/${selection.file}`;

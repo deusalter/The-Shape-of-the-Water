@@ -1,0 +1,11 @@
+# Reusable engineering checkpoint after the owner reopened the story
+
+`pnpm verify` passed 478 tests in 32 files, typecheck, installed first-night content validation and both production builds. A subsequent loader edit excluded the rejected expanded bath candidate from the playable bundle; typecheck and both builds passed again. Exact logs accompany this record. This checkpoint verifies no replacement narrative and no human play duration.
+
+The generic occasion extension preserves legacy content behavior while supporting explicitly scoped current/historical evidence, actual acquired ancestry, captured labels and departing character snapshots. Independent review found two bugs: conflicting independence origins for one material source, and destination guards evaluated before the new occasion's interpretation closure. Both were fixed and independently rechecked; preserve the original failing evidence in OCCASION-INTEGRATION-06.
+
+Authoring repairs retain unfinished drafts and verified previews under the correct project identity. Q-003's six built-browser groups and OCCASION-AUTHOR-08's four groups passed in their pinned isolated builds. These do not jointly certify every later app revision; source pins and limits are in each report. Scenario injection is disabled for occasion bundles; real replay imports and ordinary previews remain supported.
+
+The owner rejected the bath narrative foundation before its expanded browser test was run. `tools/browser-expanded-check.mjs` is an unexecuted earlier-candidate harness, not passing evidence. The four older engine-route captures and blind review are archived as development history. The W-002 model and unintegrated layered navigation prototype are retained separately; the active first-night model and renderer remain matched.
+
+The new production task is actual Hello Charlotte reference research, deeper philosophical construction, and a new longer surreal world with Blaise Bloom. Earlier scene counts and check totals do not establish progress on that new narrative requirement.

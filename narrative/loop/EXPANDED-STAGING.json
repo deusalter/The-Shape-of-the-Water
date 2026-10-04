@@ -1,0 +1,3057 @@
+{
+  "caseSha256": "36562399c544065711718ba439e52005c8b20b0c767abbc2d451e9fd483c533c",
+  "status": "Author staging requirements; root owns coordinate mapping and actual 3D/browser verification",
+  "semanticAreaToRootAnchor": {
+    "entrance": "frontInterior",
+    "street-front": "frontExterior",
+    "street-opposite": "laundryWaiting",
+    "concourse": "gathering",
+    "spectators-bench": "bench",
+    "shallow-water": "waterChairs",
+    "workshop": "workshop",
+    "workshop-doorway": "workshopDoorway",
+    "gallery": "gallery",
+    "cabinet": "cabinet",
+    "service-passage": "serviceInterior",
+    "service-yard": "yard",
+    "changing-passage": "changingPassage"
+  },
+  "newAnchorNeeds": [
+    "workshopDoorway: small table immediately outside enclosed workshop, off walking path",
+    "changingPassage: out of direct view of private shallow-end lesson/call"
+  ],
+  "globalRules": [
+    "Use identical Miriam base geometry/materials; distinguish current position, movement and coat without fake/original or ghost coding.",
+    "Scenes describe settled positions plus performed transitions. A renderer cannot decide what a person heard by distance alone or grant source knowledge.",
+    "Do not reveal exterior Miriam before o1.knock; o0.bearers shows only the one departing woman. Hide unencountered Emmy and Ruth until their actual arrival.",
+    "Front street and opposite laundry have no sightline into west service yard. Second exterior position is bath-side, not beneath opposite laundry.",
+    "Both service crossings are authored choices, not consequences of ordinary avatar motion. First no spoiler modal; second current confirmation required.",
+    "Interior figures use current occasion IDs; exterior actor persists. Names and exact mesh identity never merge knowledge.",
+    "Do not show the film, page, mark, private call recipient or phone message as examined solely because a prop is rendered. Source acquisition is authored.",
+    "No geometry dimension, pixel image or visual hidden-object change is a new forensic observation unless prose/engine explicitly acquires it."
+  ],
+  "scenes": [
+    {
+      "sceneId": "o0.arrival",
+      "occasionId": "o0",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "concourse",
+          "pose": "seated",
+          "note": "On the upturned bucket with the saucepan."
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.bench",
+      "occasionId": "o0",
+      "focusArea": "spectators-bench",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.workshop",
+      "occasionId": "o0",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.cabinet",
+      "occasionId": "o0",
+      "focusArea": "cabinet",
+      "actors": [],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.gallery",
+      "occasionId": "o0",
+      "focusArea": "gallery",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "gallery",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "gallery",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.concourse",
+      "occasionId": "o0",
+      "focusArea": "concourse",
+      "actors": [],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.release",
+      "occasionId": "o0",
+      "focusArea": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.recording",
+      "occasionId": "o0",
+      "focusArea": "gallery",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "gallery",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.simon_account",
+      "occasionId": "o0",
+      "focusArea": "gallery",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "gallery",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.miriam_account",
+      "occasionId": "o0",
+      "focusArea": "spectators-bench",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.ada_miriam",
+      "occasionId": "o0",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.simon_ada",
+      "occasionId": "o0",
+      "focusArea": "gallery",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "gallery",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ada",
+          "area": "gallery",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.miriam_private",
+      "occasionId": "o0",
+      "focusArea": "spectators-bench",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.shared",
+      "occasionId": "o0",
+      "focusArea": "concourse",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "concourse",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.optics",
+      "occasionId": "o0",
+      "focusArea": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "cabinet",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.report",
+      "occasionId": "o0",
+      "focusArea": "concourse",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "concourse",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.public_account",
+      "occasionId": "o0",
+      "focusArea": "concourse",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "concourse",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.private_account",
+      "occasionId": "o0",
+      "focusArea": "concourse",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "concourse",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.continuation",
+      "occasionId": "o0",
+      "focusArea": "concourse",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "concourse",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.supper",
+      "occasionId": "o0",
+      "focusArea": "concourse",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "concourse",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.leave",
+      "occasionId": "o0",
+      "focusArea": "entrance",
+      "actors": [],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.finding_notebook",
+      "occasionId": "o0",
+      "focusArea": "concourse",
+      "actors": [],
+      "audienceLimit": "Use only the actual spoken audience in the preserved passage. Private conversations do not broadcast across the room.",
+      "note": "Original first-night prose is unchanged. Existing per-scene visual refinements may be retained."
+    },
+    {
+      "sceneId": "o0.sunday",
+      "occasionId": "o0",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        }
+      ],
+      "note": "Begins at front doors and moves into bath. Miriam, Emmy and Ruth have not arrived in this Sunday sequence yet."
+    },
+    {
+      "sceneId": "o0.emmy-arrival",
+      "occasionId": "o0",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "entrance",
+          "pose": "standing"
+        }
+      ],
+      "note": "Emmy’s unnamed son is a background person. Ada takes him toward the ball during the private factual account; do not turn his presence into hearing it."
+    },
+    {
+      "sceneId": "o0.emmy-arrival.account",
+      "occasionId": "o0",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "entrance",
+          "pose": "standing"
+        }
+      ],
+      "note": "Emmy’s unnamed son is a background person. Ada takes him toward the ball during the private factual account; do not turn his presence into hearing it."
+    },
+    {
+      "sceneId": "o0.emmy-arrival.ask-simon",
+      "occasionId": "o0",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "entrance",
+          "pose": "standing"
+        }
+      ],
+      "note": "Emmy’s unnamed son is a background person. Ada takes him toward the ball during the private factual account; do not turn his presence into hearing it."
+    },
+    {
+      "sceneId": "o0.emmy-tea",
+      "occasionId": "o0",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "note": "Ada and the boy leave to retrieve the ball. Only the witnessed segment is heard by Blaise."
+    },
+    {
+      "sceneId": "o0.ruth-print",
+      "occasionId": "o0",
+      "focusArea": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "cabinet",
+          "pose": "seated"
+        }
+      ],
+      "note": "Open optical model near cabinet, not confinement. Ruth goes to change during the controls; do not keep her in later dialogue as a witness."
+    },
+    {
+      "sceneId": "o0.ruth-print.conditions",
+      "occasionId": "o0",
+      "focusArea": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "cabinet",
+          "pose": "seated"
+        }
+      ],
+      "note": "Open optical model near cabinet, not confinement. Ruth goes to change during the controls; do not keep her in later dialogue as a witness."
+    },
+    {
+      "sceneId": "o0.ruth-print.same",
+      "occasionId": "o0",
+      "focusArea": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "cabinet",
+          "pose": "seated"
+        }
+      ],
+      "note": "Open optical model near cabinet, not confinement. Ruth goes to change during the controls; do not keep her in later dialogue as a witness."
+    },
+    {
+      "sceneId": "o0.camera-conditions",
+      "occasionId": "o0",
+      "focusArea": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "cabinet",
+          "pose": "seated"
+        }
+      ],
+      "note": "Open optical model near cabinet, not confinement. Ruth goes to change during the controls; do not keep her in later dialogue as a witness."
+    },
+    {
+      "sceneId": "o0.camera-conditions.positions",
+      "occasionId": "o0",
+      "focusArea": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "cabinet",
+          "pose": "seated"
+        }
+      ],
+      "note": "Open optical model near cabinet, not confinement. Ruth goes to change during the controls; do not keep her in later dialogue as a witness."
+    },
+    {
+      "sceneId": "o0.camera-conditions.rotation",
+      "occasionId": "o0",
+      "focusArea": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "cabinet",
+          "pose": "seated"
+        }
+      ],
+      "note": "Open optical model near cabinet, not confinement. Ruth goes to change during the controls; do not keep her in later dialogue as a witness."
+    },
+    {
+      "sceneId": "o0.control-result",
+      "occasionId": "o0",
+      "focusArea": "cabinet",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "cabinet",
+          "pose": "seated"
+        }
+      ],
+      "note": "Open optical model near cabinet, not confinement. Ruth goes to change during the controls; do not keep her in later dialogue as a witness."
+    },
+    {
+      "sceneId": "o0.layout",
+      "occasionId": "o0",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "note": "Laptop comparison; Ada is within call from coin-box work, not automatically a recipient of every private reply. Miriam goes to prepare the lesson."
+    },
+    {
+      "sceneId": "o0.layout.simon",
+      "occasionId": "o0",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "note": "Laptop comparison; Ada is within call from coin-box work, not automatically a recipient of every private reply. Miriam goes to prepare the lesson."
+    },
+    {
+      "sceneId": "o0.layout.emmy",
+      "occasionId": "o0",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "note": "Laptop comparison; Ada is within call from coin-box work, not automatically a recipient of every private reply. Miriam goes to prepare the lesson."
+    },
+    {
+      "sceneId": "o0.layout-folder",
+      "occasionId": "o0",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "note": "Laptop comparison; Ada is within call from coin-box work, not automatically a recipient of every private reply. Miriam goes to prepare the lesson."
+    },
+    {
+      "sceneId": "o0.picture-finding",
+      "occasionId": "o0",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.emmy",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "note": "Laptop comparison; Ada is within call from coin-box work, not automatically a recipient of every private reply. Miriam goes to prepare the lesson."
+    },
+    {
+      "sceneId": "o0.lesson",
+      "occasionId": "o0",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing",
+          "note": "In shallow water, taped fingers kept clear."
+        },
+        {
+          "id": "o0.ruth",
+          "area": "shallow-water",
+          "pose": "standing",
+          "note": "At the rail; neither bath depth nor body dimensions are forensic measurements."
+        },
+        {
+          "id": "o0.simon",
+          "area": "shallow-water",
+          "pose": "seated",
+          "note": "Leaves with chair when Ruth asks."
+        }
+      ]
+    },
+    {
+      "sceneId": "o0.lesson.leave",
+      "occasionId": "o0",
+      "focusArea": "changing-passage",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Blaise cannot see the final swimming attempt. Sounds do not reveal their cause or exact distance."
+    },
+    {
+      "sceneId": "o0.lesson.towel",
+      "occasionId": "o0",
+      "focusArea": "changing-passage",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ruth",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Blaise cannot see the final swimming attempt. Sounds do not reveal their cause or exact distance."
+    },
+    {
+      "sceneId": "o0.three-tiles",
+      "occasionId": "o0",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Only Miriam receives the optional file finding. Ruth gives her three-tiles report before leaving; private lesson is not retroactively visible."
+    },
+    {
+      "sceneId": "o0.three-tiles.tell",
+      "occasionId": "o0",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Only Miriam receives the optional file finding. Ruth gives her three-tiles report before leaving; private lesson is not retroactively visible."
+    },
+    {
+      "sceneId": "o0.three-tiles.keep",
+      "occasionId": "o0",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Only Miriam receives the optional file finding. Ruth gives her three-tiles report before leaving; private lesson is not retroactively visible."
+    },
+    {
+      "sceneId": "o0.teacher-question",
+      "occasionId": "o0",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Only Miriam receives the optional file finding. Ruth gives her three-tiles report before leaving; private lesson is not retroactively visible."
+    },
+    {
+      "sceneId": "o0.teacher-question.particular",
+      "occasionId": "o0",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Only Miriam receives the optional file finding. Ruth gives her three-tiles report before leaving; private lesson is not retroactively visible."
+    },
+    {
+      "sceneId": "o0.teacher-question.love",
+      "occasionId": "o0",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Only Miriam receives the optional file finding. Ruth gives her three-tiles report before leaving; private lesson is not retroactively visible."
+    },
+    {
+      "sceneId": "o0.teacher-reply",
+      "occasionId": "o0",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Only Miriam receives the optional file finding. Ruth gives her three-tiles report before leaving; private lesson is not retroactively visible."
+    },
+    {
+      "sceneId": "o0.teacher-reply.continue-argument",
+      "occasionId": "o0",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Only Miriam receives the optional file finding. Ruth gives her three-tiles report before leaving; private lesson is not retroactively visible."
+    },
+    {
+      "sceneId": "o0.teacher-reply.unconvinced",
+      "occasionId": "o0",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Only Miriam receives the optional file finding. Ruth gives her three-tiles report before leaving; private lesson is not retroactively visible."
+    },
+    {
+      "sceneId": "o0.sunday-late",
+      "occasionId": "o0",
+      "focusArea": "concourse",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ada",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ],
+      "note": "Emmy/son and Ruth have actually left by the end of this passage. Miriam dries her hair off to the changing passage."
+    },
+    {
+      "sceneId": "o0.two-breaths",
+      "occasionId": "o0",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o0.ada",
+          "area": "shallow-water",
+          "pose": "seated"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "entrance",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Miriam sees the chair/contact from the concourse but cannot reliably hear the exact words. Do not place her beside the chairs."
+    },
+    {
+      "sceneId": "o0.bearers",
+      "occasionId": "o0",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "street-opposite",
+          "pose": "standing"
+        }
+      ],
+      "note": "Performs wood pickup in workshop, marked-strip preparation, front-sill placement and Miriam crossing the road. Only one Miriam is visible. Snapshot occurs on the onward action after this witnessed departure."
+    },
+    {
+      "sceneId": "o0.parcel",
+      "occasionId": "o0",
+      "focusArea": "service-passage",
+      "actors": [
+        {
+          "id": "o0.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.ada",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o0.miriam",
+          "area": "street-opposite",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Exterior Miriam cannot see service yard or hear an exact crossing account. Her separate persistent runtime target remains unexposed before the co-presence scene.",
+      "note": "Choice o0.carry-through is ordinary, with no spoiler confirmation. Free walking is not an unauthored trial."
+    },
+    {
+      "sceneId": "o1.return",
+      "occasionId": "o1",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "concourse",
+          "pose": "seated",
+          "note": "Bucket and saucepan."
+        },
+        {
+          "id": "o1.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ],
+      "note": "Exact anchor after phone is turned facedown. Rabbit, glass, peas and wet sock repeat. No current message/photo source is visible."
+    },
+    {
+      "sceneId": "o1.return.blue",
+      "occasionId": "o1",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "concourse",
+          "pose": "seated",
+          "note": "Bucket and saucepan."
+        },
+        {
+          "id": "o1.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ],
+      "note": "Exact anchor after phone is turned facedown. Rabbit, glass, peas and wet sock repeat. No current message/photo source is visible."
+    },
+    {
+      "sceneId": "o1.return.handle",
+      "occasionId": "o1",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "concourse",
+          "pose": "seated",
+          "note": "Bucket and saucepan."
+        },
+        {
+          "id": "o1.simon",
+          "area": "cabinet",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ],
+      "note": "Exact anchor after phone is turned facedown. Rabbit, glass, peas and wet sock repeat. No current message/photo source is visible."
+    },
+    {
+      "sceneId": "o1.calendars",
+      "occasionId": "o1",
+      "focusArea": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        }
+      ]
+    },
+    {
+      "sceneId": "o1.calendars.describe",
+      "occasionId": "o1",
+      "focusArea": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        }
+      ]
+    },
+    {
+      "sceneId": "o1.calendars.predict",
+      "occasionId": "o1",
+      "focusArea": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        }
+      ]
+    },
+    {
+      "sceneId": "o1.ada-chair",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Blaise and Ada hear the chosen reply; exterior witness is still outside. Requested hand is optional."
+    },
+    {
+      "sceneId": "o1.ada-chair.remember",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Blaise and Ada hear the chosen reply; exterior witness is still outside. Requested hand is optional."
+    },
+    {
+      "sceneId": "o1.ada-chair.ask-hand",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Blaise and Ada hear the chosen reply; exterior witness is still outside. Requested hand is optional."
+    },
+    {
+      "sceneId": "o1.ada-chair.gone",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Blaise and Ada hear the chosen reply; exterior witness is still outside. Requested hand is optional."
+    },
+    {
+      "sceneId": "o1.camera-offer",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        }
+      ],
+      "note": "Faulty chair turned to wall. Spare camera only offered, not recording."
+    },
+    {
+      "sceneId": "o1.knock",
+      "occasionId": "o1",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "entrance",
+          "pose": "seated",
+          "note": "From the exterior into a sound chair on the mat during this passage."
+        }
+      ],
+      "note": "First visible co-presence. Use identical Miriam geometry/materials, independent placements. Camera off on mat. Exterior marked strip already visible on sill, limiting later prediction."
+    },
+    {
+      "sceneId": "o1.knock.tell",
+      "occasionId": "o1",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "entrance",
+          "pose": "seated",
+          "note": "From the exterior into a sound chair on the mat during this passage."
+        }
+      ],
+      "note": "First visible co-presence. Use identical Miriam geometry/materials, independent placements. Camera off on mat. Exterior marked strip already visible on sill, limiting later prediction."
+    },
+    {
+      "sceneId": "o1.knock.outside",
+      "occasionId": "o1",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "entrance",
+          "pose": "seated",
+          "note": "From the exterior into a sound chair on the mat during this passage."
+        }
+      ],
+      "note": "First visible co-presence. Use identical Miriam geometry/materials, independent placements. Camera off on mat. Exterior marked strip already visible on sill, limiting later prediction."
+    },
+    {
+      "sceneId": "o1.knock.observe",
+      "occasionId": "o1",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "entrance",
+          "pose": "seated",
+          "note": "From the exterior into a sound chair on the mat during this passage."
+        }
+      ],
+      "note": "First visible co-presence. Use identical Miriam geometry/materials, independent placements. Camera off on mat. Exterior marked strip already visible on sill, limiting later prediction."
+    },
+    {
+      "sceneId": "o1.two-cups",
+      "occasionId": "o1",
+      "focusArea": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated",
+          "note": "Independent chair; coat taken off/folded in changed-date."
+        }
+      ],
+      "note": "Two independently responding bodies/cups/coats, no ghost palette. Three phone date screens change without an observed transition."
+    },
+    {
+      "sceneId": "o1.changed-date",
+      "occasionId": "o1",
+      "focusArea": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated",
+          "note": "Independent chair; coat taken off/folded in changed-date."
+        }
+      ],
+      "note": "Two independently responding bodies/cups/coats, no ghost palette. Three phone date screens change without an observed transition."
+    },
+    {
+      "sceneId": "o1.changed-date.alone",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Women ask for private interval; Ada sits by window. Blaise and Simon cannot hear it."
+    },
+    {
+      "sceneId": "o1.changed-date.names",
+      "occasionId": "o1",
+      "focusArea": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated",
+          "note": "Independent chair; coat taken off/folded in changed-date."
+        }
+      ],
+      "note": "Two independently responding bodies/cups/coats, no ghost palette. Three phone date screens change without an observed transition."
+    },
+    {
+      "sceneId": "o1.changed-date.witness",
+      "occasionId": "o1",
+      "focusArea": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated",
+          "note": "Independent chair; coat taken off/folded in changed-date."
+        }
+      ],
+      "note": "Two independently responding bodies/cups/coats, no ghost palette. Three phone date screens change without an observed transition."
+    },
+    {
+      "sceneId": "o1.wood-test",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "note": "Includes performed front retrieval with Ada while Simon stays by box, then all compare. Exterior woman identifies wood and leaves. No circle or carried-paper test."
+    },
+    {
+      "sceneId": "o1.wood-test.record",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "note": "Includes performed front retrieval with Ada while Simon stays by box, then all compare. Exterior woman identifies wood and leaves. No circle or carried-paper test."
+    },
+    {
+      "sceneId": "o1.wood-test.repeated",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "note": "Includes performed front retrieval with Ada while Simon stays by box, then all compare. Exterior woman identifies wood and leaves. No circle or carried-paper test."
+    },
+    {
+      "sceneId": "o1.wood-result",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "note": "Includes performed front retrieval with Ada while Simon stays by box, then all compare. Exterior woman identifies wood and leaves. No circle or carried-paper test."
+    },
+    {
+      "sceneId": "o1.middle-water",
+      "occasionId": "o1",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "Only the interior Miriam hears the chosen old-confidence/lift disclosure or gives the new kitchen anecdote. Ada/exterior Miriam private in workshop when the passage says so."
+    },
+    {
+      "sceneId": "o1.middle-water.remembered",
+      "occasionId": "o1",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "Only the interior Miriam hears the chosen old-confidence/lift disclosure or gives the new kitchen anecdote. Ada/exterior Miriam private in workshop when the passage says so."
+    },
+    {
+      "sceneId": "o1.middle-water.ask",
+      "occasionId": "o1",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "Only the interior Miriam hears the chosen old-confidence/lift disclosure or gives the new kitchen anecdote. Ada/exterior Miriam private in workshop when the passage says so."
+    },
+    {
+      "sceneId": "o1.middle-water.wait",
+      "occasionId": "o1",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "Only the interior Miriam hears the chosen old-confidence/lift disclosure or gives the new kitchen anecdote. Ada/exterior Miriam private in workshop when the passage says so."
+    },
+    {
+      "sceneId": "o1.water-hand",
+      "occasionId": "o1",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "Only the interior Miriam hears the chosen old-confidence/lift disclosure or gives the new kitchen anecdote. Ada/exterior Miriam private in workshop when the passage says so."
+    },
+    {
+      "sceneId": "o1.water-hand.permission",
+      "occasionId": "o1",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "Only the interior Miriam hears the chosen old-confidence/lift disclosure or gives the new kitchen anecdote. Ada/exterior Miriam private in workshop when the passage says so."
+    },
+    {
+      "sceneId": "o1.water-hand.confidence",
+      "occasionId": "o1",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "Only the interior Miriam hears the chosen old-confidence/lift disclosure or gives the new kitchen anecdote. Ada/exterior Miriam private in workshop when the passage says so."
+    },
+    {
+      "sceneId": "o1.water-hand.quiet",
+      "occasionId": "o1",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "Only the interior Miriam hears the chosen old-confidence/lift disclosure or gives the new kitchen anecdote. Ada/exterior Miriam private in workshop when the passage says so."
+    },
+    {
+      "sceneId": "o1.water-leave",
+      "occasionId": "o1",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "Only the interior Miriam hears the chosen old-confidence/lift disclosure or gives the new kitchen anecdote. Ada/exterior Miriam private in workshop when the passage says so."
+    },
+    {
+      "sceneId": "o1.middle-bread",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Exterior Miriam speaks to Blaise. Later she asks Ada for a private interval; player departs before its contents. No synchronized knowledge with the woman at the water."
+    },
+    {
+      "sceneId": "o1.middle-bread.sweet",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Exterior Miriam speaks to Blaise. Later she asks Ada for a private interval; player departs before its contents. No synchronized knowledge with the woman at the water."
+    },
+    {
+      "sceneId": "o1.middle-bread.liked",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Exterior Miriam speaks to Blaise. Later she asks Ada for a private interval; player departs before its contents. No synchronized knowledge with the woman at the water."
+    },
+    {
+      "sceneId": "o1.middle-bread.barely",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Exterior Miriam speaks to Blaise. Later she asks Ada for a private interval; player departs before its contents. No synchronized knowledge with the woman at the water."
+    },
+    {
+      "sceneId": "o1.bread-thanks",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Exterior Miriam speaks to Blaise. Later she asks Ada for a private interval; player departs before its contents. No synchronized knowledge with the woman at the water."
+    },
+    {
+      "sceneId": "o1.bread-thanks.offer",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Exterior Miriam speaks to Blaise. Later she asks Ada for a private interval; player departs before its contents. No synchronized knowledge with the woman at the water."
+    },
+    {
+      "sceneId": "o1.bread-thanks.decline",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Exterior Miriam speaks to Blaise. Later she asks Ada for a private interval; player departs before its contents. No synchronized knowledge with the woman at the water."
+    },
+    {
+      "sceneId": "o1.bread-thanks.test",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Exterior Miriam speaks to Blaise. Later she asks Ada for a private interval; player departs before its contents. No synchronized knowledge with the woman at the water."
+    },
+    {
+      "sceneId": "o1.water-return",
+      "occasionId": "o1",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "Only the interior Miriam hears the chosen old-confidence/lift disclosure or gives the new kitchen anecdote. Ada/exterior Miriam private in workshop when the passage says so."
+    },
+    {
+      "sceneId": "o1.water-return.unknown",
+      "occasionId": "o1",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "Only the interior Miriam hears the chosen old-confidence/lift disclosure or gives the new kitchen anecdote. Ada/exterior Miriam private in workshop when the passage says so."
+    },
+    {
+      "sceneId": "o1.water-return.thursday",
+      "occasionId": "o1",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "Only the interior Miriam hears the chosen old-confidence/lift disclosure or gives the new kitchen anecdote. Ada/exterior Miriam private in workshop when the passage says so."
+    },
+    {
+      "sceneId": "o1.name-offered",
+      "occasionId": "o1",
+      "focusArea": "shallow-water",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "Only the interior Miriam hears the chosen old-confidence/lift disclosure or gives the new kitchen anecdote. Ada/exterior Miriam private in workshop when the passage says so."
+    },
+    {
+      "sceneId": "o1.name-offered.sight",
+      "occasionId": "o1",
+      "focusArea": "changing-passage",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Blaise moves until the call is private. He sees some movement, not the recipient or reply."
+    },
+    {
+      "sceneId": "o1.name-offered.leave",
+      "occasionId": "o1",
+      "focusArea": "concourse",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "shallow-water",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Blaise leaves the call. No secretly acquired recipient, number or reply."
+    },
+    {
+      "sceneId": "o1.two-at-bench",
+      "occasionId": "o1",
+      "focusArea": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ],
+      "note": "Coat, shoe and towel distinguish actual positions. Ada returns with towel in middle-close and removes the sound chair. The wet sock remains worn."
+    },
+    {
+      "sceneId": "o1.bench-thanks",
+      "occasionId": "o1",
+      "focusArea": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ],
+      "note": "Coat, shoe and towel distinguish actual positions. Ada returns with towel in middle-close and removes the sound chair. The wet sock remains worn."
+    },
+    {
+      "sceneId": "o1.two-at-bench.together",
+      "occasionId": "o1",
+      "focusArea": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ],
+      "note": "Coat, shoe and towel distinguish actual positions. Ada returns with towel in middle-close and removes the sound chair. The wet sock remains worn."
+    },
+    {
+      "sceneId": "o1.two-at-bench.afraid",
+      "occasionId": "o1",
+      "focusArea": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ],
+      "note": "Coat, shoe and towel distinguish actual positions. Ada returns with towel in middle-close and removes the sound chair. The wet sock remains worn."
+    },
+    {
+      "sceneId": "o1.middle-close",
+      "occasionId": "o1",
+      "focusArea": "spectators-bench",
+      "actors": [
+        {
+          "id": "o1.miriam",
+          "area": "spectators-bench",
+          "pose": "seated"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ],
+      "note": "Coat, shoe and towel distinguish actual positions. Ada returns with towel in middle-close and removes the sound chair. The wet sock remains worn."
+    },
+    {
+      "sceneId": "o1.allowed",
+      "occasionId": "o1",
+      "focusArea": "workshop-doorway",
+      "actors": [
+        {
+          "id": "o1.simon",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "God/intellectual-love conversation includes interior Miriam only. Exterior woman at bench is not automatically a listener.",
+      "note": "Small table outside workshop. Simon carries existing strips/description. Ada passes with bucket and enters workshop."
+    },
+    {
+      "sceneId": "o1.allowed.gift",
+      "occasionId": "o1",
+      "focusArea": "workshop-doorway",
+      "actors": [
+        {
+          "id": "o1.simon",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "God/intellectual-love conversation includes interior Miriam only. Exterior woman at bench is not automatically a listener.",
+      "note": "Small table outside workshop. Simon carries existing strips/description. Ada passes with bucket and enters workshop."
+    },
+    {
+      "sceneId": "o1.allowed.objection",
+      "occasionId": "o1",
+      "focusArea": "workshop-doorway",
+      "actors": [
+        {
+          "id": "o1.simon",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "God/intellectual-love conversation includes interior Miriam only. Exterior woman at bench is not automatically a listener.",
+      "note": "Small table outside workshop. Simon carries existing strips/description. Ada passes with bucket and enters workshop."
+    },
+    {
+      "sceneId": "o1.intention",
+      "occasionId": "o1",
+      "focusArea": "workshop-doorway",
+      "actors": [
+        {
+          "id": "o1.simon",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "God/intellectual-love conversation includes interior Miriam only. Exterior woman at bench is not automatically a listener.",
+      "note": "Small table outside workshop. Simon carries existing strips/description. Ada passes with bucket and enters workshop."
+    },
+    {
+      "sceneId": "o1.intention.remembered",
+      "occasionId": "o1",
+      "focusArea": "workshop-doorway",
+      "actors": [
+        {
+          "id": "o1.simon",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "God/intellectual-love conversation includes interior Miriam only. Exterior woman at bench is not automatically a listener.",
+      "note": "Small table outside workshop. Simon carries existing strips/description. Ada passes with bucket and enters workshop."
+    },
+    {
+      "sceneId": "o1.intention.present",
+      "occasionId": "o1",
+      "focusArea": "workshop-doorway",
+      "actors": [
+        {
+          "id": "o1.simon",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "God/intellectual-love conversation includes interior Miriam only. Exterior woman at bench is not automatically a listener.",
+      "note": "Small table outside workshop. Simon carries existing strips/description. Ada passes with bucket and enters workshop."
+    },
+    {
+      "sceneId": "o1.paper-cup",
+      "occasionId": "o1",
+      "focusArea": "workshop-doorway",
+      "actors": [
+        {
+          "id": "o1.simon",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop-doorway",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "spectators-bench",
+          "pose": "seated"
+        }
+      ],
+      "audienceLimit": "God/intellectual-love conversation includes interior Miriam only. Exterior woman at bench is not automatically a listener.",
+      "note": "Small table outside workshop. Simon carries existing strips/description. Ada passes with bucket and enters workshop."
+    },
+    {
+      "sceneId": "o1.keep-time",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "concourse",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Simon hears only the end of the music, then takes strips and paper out through the closed workshop door. Private admission has not begun while he is present."
+    },
+    {
+      "sceneId": "o1.music-advantage",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Closed-door private conversation. Neither Miriam nor Simon hears the confession, God question or original promise."
+    },
+    {
+      "sceneId": "o1.music-loss",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Closed-door private conversation. Neither Miriam nor Simon hears the confession, God question or original promise."
+    },
+    {
+      "sceneId": "o1.promise-private",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Closed-door private conversation. Neither Miriam nor Simon hears the confession, God question or original promise."
+    },
+    {
+      "sceneId": "o1.promise-audience",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Women have entered for cheese/cloth, not heard the preceding private conversation."
+    },
+    {
+      "sceneId": "o1.promise-kept-private",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Women have entered for cheese/cloth, not heard the preceding private conversation."
+    },
+    {
+      "sceneId": "o1.promise-told",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Simon is called back. Only the limited advance-notice promise is stated to everyone."
+    },
+    {
+      "sceneId": "o1.before-going",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near door; peas/damp sock."
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near sink; coat on chair."
+        }
+      ],
+      "note": "Separate opposite ends of table, separate hands. Historical chair observation is heard here, no unheard words. No actor is labeled original/copy."
+    },
+    {
+      "sceneId": "o1.before-going.one-i",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near door; peas/damp sock."
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near sink; coat on chair."
+        }
+      ],
+      "note": "Separate opposite ends of table, separate hands. Historical chair observation is heard here, no unheard words. No actor is labeled original/copy."
+    },
+    {
+      "sceneId": "o1.before-going.another",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near door; peas/damp sock."
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near sink; coat on chair."
+        }
+      ],
+      "note": "Separate opposite ends of table, separate hands. Historical chair observation is heard here, no unheard words. No actor is labeled original/copy."
+    },
+    {
+      "sceneId": "o1.before-going.ordinary",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near door; peas/damp sock."
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near sink; coat on chair."
+        }
+      ],
+      "note": "Separate opposite ends of table, separate hands. Historical chair observation is heard here, no unheard words. No actor is labeled original/copy."
+    },
+    {
+      "sceneId": "o1.eternity",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near door; peas/damp sock."
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near sink; coat on chair."
+        }
+      ],
+      "note": "Separate opposite ends of table, separate hands. Historical chair observation is heard here, no unheard words. No actor is labeled original/copy."
+    },
+    {
+      "sceneId": "o1.eternity.cup",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near door; peas/damp sock."
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near sink; coat on chair."
+        }
+      ],
+      "note": "Separate opposite ends of table, separate hands. Historical chair observation is heard here, no unheard words. No actor is labeled original/copy."
+    },
+    {
+      "sceneId": "o1.eternity.voice",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near door; peas/damp sock."
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near sink; coat on chair."
+        }
+      ],
+      "note": "Separate opposite ends of table, separate hands. Historical chair observation is heard here, no unheard words. No actor is labeled original/copy."
+    },
+    {
+      "sceneId": "o1.eternity.ada",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near door; peas/damp sock."
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near sink; coat on chair."
+        }
+      ],
+      "note": "Separate opposite ends of table, separate hands. Historical chair observation is heard here, no unheard words. No actor is labeled original/copy."
+    },
+    {
+      "sceneId": "o1.dressing",
+      "occasionId": "o1",
+      "focusArea": "workshop",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near door; peas/damp sock."
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "seated",
+          "note": "Near sink; coat on chair."
+        }
+      ],
+      "note": "Separate opposite ends of table, separate hands. Historical chair observation is heard here, no unheard words. No actor is labeled original/copy."
+    },
+    {
+      "sceneId": "o1.last-test",
+      "occasionId": "o1",
+      "focusArea": "service-passage",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Exterior witness does not hear optional private Ada invitation by washbasin.",
+      "note": "Camera off; lower-leg framing/recording permission not yet given. Door open with block, yard visible; no automatic walking trigger."
+    },
+    {
+      "sceneId": "o1.ada-front-offer",
+      "occasionId": "o1",
+      "focusArea": "service-passage",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Exterior witness does not hear optional private Ada invitation by washbasin.",
+      "note": "Camera off; lower-leg framing/recording permission not yet given. Door open with block, yard visible; no automatic walking trigger."
+    },
+    {
+      "sceneId": "o1.route-decision",
+      "occasionId": "o1",
+      "focusArea": "service-passage",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "workshop",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "workshop",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Exterior witness does not hear optional private Ada invitation by washbasin.",
+      "note": "Camera off; lower-leg framing/recording permission not yet given. Door open with block, yard visible; no automatic walking trigger."
+    },
+    {
+      "sceneId": "o1.test-discussion",
+      "occasionId": "o1",
+      "focusArea": "service-passage",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "service-passage",
+          "pose": "standing"
+        }
+      ],
+      "note": "All hear strongest availability risk and choose positions. Postpone takes front without a service trial; coat wrong-sleeve/off-camera movement survives into refusal variant."
+    },
+    {
+      "sceneId": "o1.postpone",
+      "occasionId": "o1",
+      "focusArea": "service-passage",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "service-passage",
+          "pose": "standing"
+        }
+      ],
+      "note": "All hear strongest availability risk and choose positions. Postpone takes front without a service trial; coat wrong-sleeve/off-camera movement survives into refusal variant."
+    },
+    {
+      "sceneId": "o1.test-positions",
+      "occasionId": "o1",
+      "focusArea": "service-passage",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "service-passage",
+          "pose": "standing"
+        }
+      ],
+      "note": "All hear strongest availability risk and choose positions. Postpone takes front without a service trial; coat wrong-sleeve/off-camera movement survives into refusal variant."
+    },
+    {
+      "sceneId": "o1.test-ready",
+      "occasionId": "o1",
+      "focusArea": "service-passage",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "service-passage",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "street-front",
+          "pose": "standing",
+          "note": "Bath-side wall left of entrance, a different position from first wait across road."
+        }
+      ],
+      "audienceLimit": "Exterior woman hears public Ada answer before departure; she cannot hear final decision or crossing after Blaise returns inside.",
+      "note": "Perform front escort and return, camera framing permission/start, then offer confirmed crossing or cancellation. Freeze on this settled arrangement without executing either action."
+    },
+    {
+      "sceneId": "o1.refuse",
+      "occasionId": "o1",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "entrance",
+          "pose": "standing"
+        }
+      ],
+      "note": "Passage performs workshop reunion then front crossing. Cancellation actually fetches exterior witness first. Postponed refusal preserves carried camera/coat; ordinary refusal takes coat from chair. Both women depart."
+    },
+    {
+      "sceneId": "o1.cancel-test",
+      "occasionId": "o1",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "entrance",
+          "pose": "standing"
+        }
+      ],
+      "note": "Passage performs workshop reunion then front crossing. Cancellation actually fetches exterior witness first. Postponed refusal preserves carried camera/coat; ordinary refusal takes coat from chair. Both women depart."
+    },
+    {
+      "sceneId": "o1.outside",
+      "occasionId": "o1",
+      "focusArea": "street-front",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "street-front",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "street-front",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "street-front",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "street-front",
+          "pose": "standing"
+        }
+      ],
+      "note": "Both Miriams, present Ada, Simon and Blaise together on bath-side pavement. Laundry is opposite. Two strips carried separately. No o2 and no everyone-outside service experiment."
+    },
+    {
+      "sceneId": "o1.ending-front",
+      "occasionId": "o1",
+      "focusArea": "street-front",
+      "actors": [
+        {
+          "id": "o1.ada",
+          "area": "street-front",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.simon",
+          "area": "street-front",
+          "pose": "standing"
+        },
+        {
+          "id": "o1.miriam",
+          "area": "street-front",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "street-front",
+          "pose": "standing"
+        }
+      ],
+      "note": "Both Miriams, present Ada, Simon and Blaise together on bath-side pavement. Laundry is opposite. Two strips carried separately. No o2 and no everyone-outside service experiment."
+    },
+    {
+      "sceneId": "o2.return",
+      "occasionId": "o2",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o2.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o2.simon",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o2.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "street-front",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Exterior witness recalls only actual prior public words; renewed interior actors have not heard prior music or confidences.",
+      "note": "Begin with anchor, then open front to meet retained witness in actual agreed bath-side position. Empty hands, no retained paper/clip acquired."
+    },
+    {
+      "sceneId": "o2.promise",
+      "occasionId": "o2",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o2.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o2.simon",
+          "area": "concourse",
+          "pose": "standing"
+        },
+        {
+          "id": "o2.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "street-front",
+          "pose": "standing"
+        }
+      ],
+      "audienceLimit": "Exterior witness recalls only actual prior public words; renewed interior actors have not heard prior music or confidences.",
+      "note": "Begin with anchor, then open front to meet retained witness in actual agreed bath-side position. Empty hands, no retained paper/clip acquired."
+    },
+    {
+      "sceneId": "o2.callback",
+      "occasionId": "o2",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o2.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o2.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o2.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "entrance",
+          "pose": "standing"
+        }
+      ],
+      "note": "Exterior woman asks to enter; present bench woman says wait. Distinct models remain. Door closes in final short passage; this is no service crossing or mechanism proof."
+    },
+    {
+      "sceneId": "o2.ending-return",
+      "occasionId": "o2",
+      "focusArea": "entrance",
+      "actors": [
+        {
+          "id": "o2.ada",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "o2.simon",
+          "area": "entrance",
+          "pose": "standing"
+        },
+        {
+          "id": "o2.miriam",
+          "area": "spectators-bench",
+          "pose": "standing"
+        },
+        {
+          "id": "miriam_exterior",
+          "area": "entrance",
+          "pose": "standing"
+        }
+      ],
+      "note": "Exterior woman asks to enter; present bench woman says wait. Distinct models remain. Door closes in final short passage; this is no service crossing or mechanism proof."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "outcome": "PASS",
+  "focusedTests": {
+    "passed": 27,
+    "failed": 0
+  },
+  "typecheck": "PASS",
+  "productionBuild": "PASS",
+  "browser": "PASS",
+  "browserGroups": 4,
+  "sourcePins": {
+    "src/studio/EvidenceStudio.tsx": "7c00806e276fd14401c4a9592d3a24a223098a4e9e96ed829592bc1dab9a14c2",
+    "src/studio/LogicEditors.tsx": "4de949034848ae0f89552f11f01941d159e94de83271c7ec0608a834f9fd86e0",
+    "src/studio/occasion-author.ts": "15c02662254ce0d28f79ff1c3c2c759ff566c486288139b124f197303bf58632",
+    "src/studio/preview-scenario.ts": "5d8b7106c236ec258bb7322f8ea98dadea603d21dd1950b9ef423d72730ae5c0",
+    "src/studio/project.ts": "51a4b2a1cf3047aa9c09e586faf6a87def4b8f24924795e3a0d82c34e4c5f4f8",
+    "src/persistence/author-project.ts": "db167d23f76da5ef29b14765e184af4bef39640c38965954c5e78a853989ad33",
+    "tests/occasion-author-ui.test.ts": "e01a52d954b78e428d9880009fdb0c3ef4aa471fe4f1ce18d0eab56d85345697"
+  },
+  "snapshotMatches": {
+    "src/studio/EvidenceStudio.tsx": true,
+    "src/studio/LogicEditors.tsx": true,
+    "src/studio/occasion-author.ts": true,
+    "src/studio/preview-scenario.ts": true,
+    "src/studio/project.ts": true,
+    "src/persistence/author-project.ts": true
+  },
+  "previewServerStopped": true,
+  "port": 4368,
+  "ownershipReturned": true,
+  "canonicalContentEdited": false
+}

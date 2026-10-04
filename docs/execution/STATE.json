@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-04",
-  "status": "expanded-development-active",
+  "status": "owner-directed-world-rebuild",
   "baseline": {
     "revision3": "baseline/revision3",
     "archiveSha256": "9ac1a34024dc678267cb0dda059b06ac7fd151d4db4c91a2ec509331ed77f7df",
@@ -36,15 +36,10 @@
       "research/philosophy/sources/spinoza-*"
     ],
     "engineer": [
-      "src/engine/evidence-*",
-      "tests/occasion-*.test.ts",
-      "docs/contracts/OCCASIONS-ENGINE-PROPOSAL.md"
+      "completed; previous owned files returned to root"
     ],
     "verification_engineer": [
-      "src/studio/**",
-      "src/persistence/author-project.ts",
-      "tests/author-draft-durability*.test.ts",
-      "docs/reviews/AUTHOR-DURABILITY-03/**"
+      "completed; previous owned files returned to root"
     ],
     "critics": [
       "assigned docs/reviews/*.md only; no canonical edits"
@@ -60,6 +55,12 @@
       "src/components/EncounterArt.tsx",
       "src/styles/encounter-art.css",
       "src/content/visuals.ts"
+    ],
+    "hello_charlotte_research": [
+      "research/reference/hello-charlotte/**"
+    ],
+    "world_metaphysics_research": [
+      "research/philosophy/world-rebuild/**"
     ]
   },
   "maxActiveSubagents": 4,
@@ -69,10 +70,9 @@
   "currentContentSha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
   "canonicalContentHash": "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d",
   "activeWorkers": [
-    "lead_writer",
-    "engineer",
-    "verification_engineer: Q-003 repair",
-    "philosophical_critic: cross-team review"
+    "lead_writer: new world treatments and actual scene auditions",
+    "hello_charlotte_research: artistic-reference sources",
+    "world_metaphysics_research: primary/scholarly world-foundation inquiry"
   ],
   "editorialAuthority": "lead_writer; accepted baseline in narrative/accepted/MANIFEST.json; root does not independently rewrite canon",
   "tasks": {
@@ -280,5 +280,16 @@
     "coordination": "docs/coordination/WORK-BOARD.json",
     "author": "deusalter",
     "coauthorTrailers": false
+  },
+  "latestOwnerDirection": "docs/OWNER-WORLD-REBUILD-2026-10-04.md",
+  "expandedBathCandidate": "superseded earlier iteration; not installed",
+  "nextExecutableTask": "Research Hello Charlotte and deeper metaphysical construction; two distinct new world treatments and scene auditions, retaining Blaise Bloom.",
+  "latestReusableVerification": {
+    "command": "pnpm verify",
+    "tests": 478,
+    "testFiles": 32,
+    "result": "PASS",
+    "scope": "reusable engine/author/player and retained first-night; not new story or human playtesting",
+    "evidence": "docs/execution/evidence/reusable-rebuild-checkpoint/verify.txt"
   }
 }

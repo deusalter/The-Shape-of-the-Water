@@ -23,7 +23,7 @@ let exploration = { outcome: 'INCONCLUSIVE', scope, states: 0, transitions: 0, e
 if (before['src/content/case-v2.json'] !== '8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751' || before['src/engine/evidence-runtime.ts'] !== '7084f4240416b1283bbaa9270797b0d4e0f373dad88e8b112f88f4add2979948') {
   exploration.stopReason = 'unreviewed-content-or-runtime-hash';
 } else if (child.status === 0) {
-  const bundled = await build({ stdin: { contents: "export * from './src/engine/evidence-v2'; export {contentHash,stateHash,canonicalJSON} from './src/engine/hash'; export {installedCase,replayContext,migrationInstalled} from './src/content/load-evidence';", resolveDir: process.cwd(), sourcefile: 'installed-verification-entry.ts' }, bundle: true, write: false, platform: 'node', format: 'esm', target: 'node24', logLevel: 'silent' });
+  const bundled = await build({ stdin: { contents: "export * from './src/engine/evidence-v2'; export {contentHash,stateHash,canonicalJSON} from './src/engine/hash'; export {firstNightCase as installedCase,replayContext,migrationInstalled} from './src/content/load-evidence';", resolveDir: process.cwd(), sourcefile: 'installed-verification-entry.ts' }, bundle: true, write: false, platform: 'node', format: 'esm', target: 'node24', logLevel: 'silent' });
   const runtime = await import(`data:text/javascript;base64,${Buffer.from(bundled.outputFiles[0].text).toString('base64')}`);
   if (!runtime.installedCase.ok) throw new Error(runtime.installedCase.errors.join('\n'));
   const content = runtime.installedCase.value;

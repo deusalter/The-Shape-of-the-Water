@@ -1,0 +1,48 @@
+{
+  "mode": "fixed",
+  "startedAt": "2026-10-04T01:31:31.744Z",
+  "checks": [
+    {
+      "id": "Q2-01",
+      "status": "PASS",
+      "detail": {
+        "status": "Edit restored.",
+        "contentId": "independent-unfinished-q003",
+        "compiledDisabled": true
+      }
+    },
+    {
+      "id": "Q2-02",
+      "status": "PASS",
+      "detail": {
+        "status": "Edit restored.",
+        "downloaded": true
+      }
+    },
+    {
+      "id": "Q003-toolbar",
+      "status": "PASS",
+      "detail": "Pending blur edits survive toolbar export/save and two-level undo/redo."
+    },
+    {
+      "id": "Q003-preview-isolation",
+      "status": "PASS",
+      "detail": {
+        "ordinaryCommands": 1,
+        "injectedCommands": 1,
+        "databases": [
+          "literary-detective-studio-preview-v2"
+        ]
+      }
+    },
+    {
+      "id": "Q003-first-validation",
+      "status": "PASS",
+      "detail": "A repaired imported project establishes only its own preview, retained after a later invalid edit."
+    }
+  ],
+  "pageErrors": [],
+  "finishedAt": "2026-10-04T01:32:02.291Z",
+  "browserVersion": "151.0.7922.173",
+  "outcome": "PASS"
+}

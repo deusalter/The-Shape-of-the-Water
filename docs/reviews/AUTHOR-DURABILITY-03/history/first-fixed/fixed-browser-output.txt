@@ -1,0 +1,43 @@
+{
+  "mode": "fixed",
+  "startedAt": "2026-10-04T01:28:32.082Z",
+  "checks": [
+    {
+      "id": "Q2-01",
+      "status": "FAIL",
+      "error": "Error: expect(locator).toContainText(expected) failed\n\nLocator: getByRole('status').first()\nExpected substring: \"loaded\"\nReceived string:    \"Imported author content; validation running.\"\nTimeout: 5000ms\n\nCall log:\n  - Expect \"toContainText\" getByRole('status').first() with timeout 5000ms\n  - waiting for getByRole('status').first()\n    14 × locator resolved to <p role=\"status\">Imported author content; validation running.</p>\n       - unexpected value \"Imported author content; validation running.\"\n",
+      "stack": "Error: expect(locator).toContainText(expected) failed\n\nLocator: getByRole('status').first()\nExpected substring: \"loaded\"\nReceived string:    \"Imported author content; validation running.\"\nTimeout: 5000ms\n\nCall log:\n  - Expect \"toContainText\" getByRole('status').first() with timeout 5000ms\n  - waiting for getByRole('status').first()\n    14 × locator resolved to <p role=\"status\">Imported author content; validation running.</p>\n       - unexpected value \"Imported author content; validation running.\"\n\n    at captureRawStack (/workspace/literary-detective/node_modules/.pnpm/playwright-core@1.63.0/node_modules/playwright-core/lib/coreBundle.js:8588:17)\n    at callMatcherAsStep (/workspace/literary-detective/node_modules/.pnpm/playwright@1.63.0/node_modules/playwright/lib/matchers/expect.js:13310:57)\n    at Object.toContainText (/workspace/literary-detective/node_modules/.pnpm/playwright@1.63.0/node_modules/playwright/lib/matchers/expect.js:13302:23)\n    at /workspace/literary-detective/docs/reviews/AUTHOR-DURABILITY-03/browser.mjs:15:1116\n    at async check (/workspace/literary-detective/docs/reviews/AUTHOR-DURABILITY-03/browser.mjs:14:77)\n    at async file:///workspace/literary-detective/docs/reviews/AUTHOR-DURABILITY-03/browser.mjs:15:1"
+    },
+    {
+      "id": "Q2-02",
+      "status": "FAIL",
+      "error": "TimeoutError: locator.click: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Undo', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled>Undo</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    23 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+      "stack": "locator.click: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Undo', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled>Undo</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    23 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at /workspace/literary-detective/docs/reviews/AUTHOR-DURABILITY-03/browser.mjs:17:1990\n    at async check (/workspace/literary-detective/docs/reviews/AUTHOR-DURABILITY-03/browser.mjs:14:77)\n    at async file:///workspace/literary-detective/docs/reviews/AUTHOR-DURABILITY-03/browser.mjs:17:1"
+    },
+    {
+      "id": "Q003-toolbar",
+      "status": "PASS",
+      "detail": "Pending blur edits survive toolbar export/save and two-level undo/redo."
+    },
+    {
+      "id": "Q003-preview-isolation",
+      "status": "PASS",
+      "detail": {
+        "ordinaryCommands": 1,
+        "injectedCommands": 1,
+        "databases": [
+          "literary-detective-studio-preview-v2"
+        ]
+      }
+    },
+    {
+      "id": "Q003-first-validation",
+      "status": "PASS",
+      "detail": "A repaired imported project establishes only its own preview, retained after a later invalid edit."
+    }
+  ],
+  "pageErrors": [],
+  "finishedAt": "2026-10-04T01:29:13.225Z",
+  "browserVersion": "151.0.7922.173",
+  "outcome": "FAIL"
+}

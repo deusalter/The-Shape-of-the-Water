@@ -33,7 +33,7 @@ function auditClosure(entrypoints: string[]) {
   return { files: [...visited].map(file => relative(engine, file)).sort(), violations };
 }
 const legacyModules = ['game.ts', 'hash.ts', 'schema.ts', 'types.ts', 'validate.ts'];
-const evidenceRuntimeModules = ['evidence-budget.ts', 'evidence-migration.ts', 'evidence-portable.ts', 'evidence-proof.ts', 'evidence-runtime.ts', 'evidence-schema.ts', 'evidence-types.ts', 'evidence-v2.ts', 'evidence-validate.ts'];
+const evidenceRuntimeModules = ['evidence-budget.ts', 'evidence-migration.ts', 'evidence-occasion-validation.ts', 'evidence-occasions.ts', 'evidence-portable.ts', 'evidence-proof.ts', 'evidence-runtime.ts', 'evidence-schema.ts', 'evidence-types.ts', 'evidence-v2.ts', 'evidence-validate.ts'];
 test('legacy runtime preserves its explicit pure five-module dependency closure', () => {
   const result = auditClosure(['game.ts']);
   expect(result.files).toEqual(legacyModules);
@@ -46,7 +46,7 @@ test('v2 facade dependency closure contains only the explicitly reviewed pure en
 });
 test('every engine source including noncanonical fixture is audited and unexpected modules fail inventory', () => {
   const result = auditClosure(readdirSync(resolve('src/engine')).filter(name => name.endsWith('.ts')));
-  expect(result.files).toEqual([...legacyModules, ...evidenceRuntimeModules, 'evidence-fixture.ts'].sort());
+  expect(result.files).toEqual([...legacyModules, ...evidenceRuntimeModules, 'evidence-fixture.ts', 'evidence-occasion-fixture.ts'].sort());
   expect(result.violations).toEqual([]);
 });
 test('exercised engine and Zod validation need no ambient time/random/DOM/storage/network', () => {

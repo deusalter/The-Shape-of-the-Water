@@ -3,7 +3,7 @@ const CACHE = 'literary-detective-__BUILD_VERSION__';
 const BUILD_VERSION = '__BUILD_VERSION__';
 const scoped = path => new URL(path, self.registration.scope).href;
 const digest = async response => Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',await response.clone().arrayBuffer())),byte=>byte.toString(16).padStart(2,'0')).join('');
-function validManifest(manifest) { return manifest.version === BUILD_VERSION && Array.isArray(manifest.files) && manifest.files.length>0 && manifest.files.every(file=>typeof file==='string'&&!file.startsWith('/')&&!file.includes('..')&&typeof manifest.hashes?.[file]==='string'); }
+function validManifest(manifest) { return manifest.version === BUILD_VERSION && Array.isArray(manifest.files) && manifest.files.length>0 && manifest.files.every(file=>typeof file==='string'&&!file.startsWith('/')&&!file.includes('..')&&typeof manifest.hashes?.[file]==='string') && (manifest.contentHashes===undefined||Array.isArray(manifest.contentHashes)&&manifest.contentHashes.length<=9&&manifest.contentHashes.includes(manifest.contentHash)&&manifest.contentHashes.every(hash=>typeof hash==='string'&&/^[a-f0-9]{64}$/.test(hash))); }
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const response = await fetch(scoped('asset-manifest.json'), { cache: 'no-store' });
@@ -39,7 +39,7 @@ self.addEventListener('message', event => {
     const cache = await caches.open(CACHE), response = await cache.match(scoped('asset-manifest.json'));
     let ready = false;
     let contentMismatch=false;
-    if (response) { const manifest = await response.json();if(validManifest(manifest)){contentMismatch=manifest.contentHash!==event.data.contentHash;ready=!contentMismatch;for(const file of manifest.files){const asset=await cache.match(scoped(file));if(!asset||await digest(asset)!==manifest.hashes[file]){ready=false;break;}}} }
+    if (response) { const manifest = await response.json();if(validManifest(manifest)){contentMismatch=manifest.contentHash!==event.data.contentHash&&!manifest.contentHashes?.includes(event.data.contentHash);ready=!contentMismatch;for(const file of manifest.files){const asset=await cache.match(scoped(file));if(!asset||await digest(asset)!==manifest.hashes[file]){ready=false;break;}}} }
     event.ports[0].postMessage({ ready,version:BUILD_VERSION,contentMismatch });
   })());
 });

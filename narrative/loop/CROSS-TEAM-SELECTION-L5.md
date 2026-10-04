@@ -1,0 +1,51 @@
+# Lead selection of the merged literary packets
+
+2026-10-04. Final literary decision for the separate expanded candidate, by the single lead writer. These are editorial selections for integration and review, not owner approval or a declaration that the requested game is complete. The active first-night bundle remains unchanged. The generated candidate and its final hash are identified in `EXPANDED-HANDOFF.md` and `EXPANDED-IDENTITY.json`.
+
+The three external RESPONSE files and their substantial scene proposals were read. P-002 A and B, the exact splice/arc map, L-002's second-traversal scene and critique, and T-002's performed revisions and event/knowledge ledger informed this decision. The bounded independent report `docs/reviews/CROSS-TEAM-PHILOSOPHY-05.md` was read in full. Its primary/source review is not represented as my fresh reading of all its cited sources, and its proposal review does not certify the assembled JSON.
+
+## P-002: select the new shared experience
+
+Select and adapt **A2/A3**, the music, admission and limited public promise. Blaise's earlier chair gesture was small. His attempt to turn it into proof of a lost intimacy should remain visible. In the new encounter he helps make something Ada actually shares with him: a beat beneath her voice, an anticipated rise she does not sing, a later entrance they manage together. His desire to preserve the encounter therefore has an immediate object when he considers the service door. Her question, “Would I get to keep it?”, also presses his hope for a divine witness without treating their pleasure as metaphysical evidence.
+
+Keep both offered admissions. He can acknowledge liking the advantage of remembering, or fear losing the waiting that has just become reciprocal. Neither answer buys Ada's forgiveness, a correct philosophy or another person's memory. The private conversation remains private unless he chooses to repeat its narrow advance-notice promise. The public choice calls Simon back and includes both Miriams. It does not broadcast the desire or confession that led to it.
+
+Adapt the later effects. Refusal allows a new “Later,” which is an ordinary future desire rather than certified reconciliation. Cancellation retains the want to know; it does not deliver instant peace for choosing carefully. After the second crossing, a tap is no longer an established shared cue for the present Ada. If the promise was publicly repeated, the exterior witness remembers the discussion she heard. Her callback says she heard Blaise ask the group, not that she heard the later final decision or the crossing itself. If he kept the promise private, she cannot reconstruct it from being the person who remembers more.
+
+Do not select A1 in this compilation. It would perform the chair corroboration before the currently selected ending performs it, and would add another questioning sequence immediately after L4's private calls and conversations. Keep the existing later corroboration as a new event. Consequently A2 no longer depends on “Before she told you.” Ada states “I believe you remember it” in the present; “I told you” and the leftover “You did” are removed. This accepts CT05-03 on every B-R03 route, including the requested touch and fear of a lost person.
+
+Preserve **B** as a rejected alternative for this construction. Its wish for another Blaise is a viable different dramatic direction, but concatenating it after A would make the current middle rehearse another identity tribunal. The selected cupboards, first-person argument and embodied Miriams already put pressure on his numerical identity. A gives him something new to participate in and risk. No second Blaise is introduced merely to make the game stranger.
+
+## T-002: select the evidential correction and the full risk
+
+Accept the **registered-description correction**. Blaise has already looked toward the wood at the knock. The paper is therefore not credited as a wholly blind prediction. Simon writes the heading, Blaise admits the earlier view, and Simon crosses it out without erasing it. The present source records that limitation. Its derivation points to the actual earlier marking; it supplies no new independent origin for that event.
+
+Retain the existing single retrieval route for this candidate: Blaise and Ada fetch the exterior strip while Simon searches the box. His finding of the interior piece is reported, not witnessed continuously by Blaise. Both pieces can then be inspected together. Old matching display stock remains a live limitation. The T-002 alternative, watching Simon while Ada retrieves, is preserved as a proposal rather than silently treated as a second performed test.
+
+Accept **mandatory loss-of-access disclosure**, voluntary positions and **all-front postponement**. The final risk discussion now says that the current person may forget, remain somewhere Blaise cannot reach, or be followed by another person without the conversation. It also states that another crossing has not been shown to lead to the Ada at the chairs. Each person chooses where to stand after hearing this. This repairs CT05-01 on routes which never selected the optional earlier fear response.
+
+Postponement is an actual front departure without a service trial. It is not the stronger, unauthored experiment in which everybody first leaves and Blaise then crosses. Its coat and off-camera movements have a specific refusal variant, so neither object is retrieved twice. Cancellation remains different: the camera has actually started, is stopped and retained, and Blaise actually recalls the exterior witness before they leave.
+
+Do not select the **open-circle and exterior-paper bundle** for this wave. It could provide another useful future test, but would add a new material outcome and make that outcome compete with the selected loss of a shared musical encounter. The present comparison already supports a narrow finding while leaving custody and matching stock appropriately uncertain. This is an artistic scope decision, not a claim that the proposed stronger control is invalid. No new circle, carried paper, o2 paper reinspection or dependent provenance enters the candidate. The two strips retain their marked/unmarked descriptions. Paper survival remains unobserved.
+
+Keep the exact second-trial sequence previously repaired through criticism: public exchange; exterior departure and observed position; scoped filming permission; camera start; final decision. The exterior witness hears “You can still ask me things” and “Then tell me” before she leaves. She does not hear the optional private Ada offer. Actual actor state receives the witnessed public discussion at entry to the performed setup, before the final crossing decision.
+
+## L-002: keep L4 and adapt the precise pressure points
+
+Retain the lead's four **L4** encounters as the selected lived middle. Each Miriam has an independent want: time beside the water, a voluntary private anecdote, food, a private Ada conversation, a call whose recipient is not made public. These are actual scenes and choices rather than added biographical explanations.
+
+Preserve L-002's full proposed second traversal as an alternative. Its ordinary wishes and interval before argument are valuable, but a full splice would duplicate L4's call and private conversation, then remove a wet sock that the selected later scene still uses. It is not rejected for being insufficiently philosophical. The performed difference in their lives is the reason to keep an ordinary interval at all.
+
+Accept the narrower choice and attention repairs. The old abstract witness/object choice now asks the woman by the bench what she was trying to say. Her wish for a private call becomes explicit. The post-intervention passage has separate Blue and held-handle versions, so the silent route never remembers a spoken word. The second return makes Blaise impatient to hear Simon finish because he is listening for the woman at the entrance. It does not make him sound as though he has mastered the right attitude toward recurrence.
+
+Adapt the God-scene transition shared with P-002. Interior Miriam is identified by the keys encounter just performed. The exterior woman remains elsewhere. Simon carries the already-written description and strips to the small table outside the workshop; he does not prepare a second prediction. Ada can pass with the bucket and then be in the workshop where the later music scene finds her.
+
+Defer proposals to reopen exact **first-night** paragraphs. This compilation has an explicit preservation requirement and a frozen live bundle with real saved runs. Their literary merits can be considered in a separately identified revision. No paragraph is quietly replaced while still called the accepted original.
+
+## Assembly review and its limits
+
+Read the compiled expansion portion of the full public-promise/repeat route from Sunday through its end, including its selected old-confidence, current-touch and intrusive-disclosure variants. This found several faults absent from isolated drafts: an escaped conditional instruction in the Sunday account, an unearned A2 callback, an audience miscount, repeated sitting/chair placement and a towel movement performed too late. The candidate repairs them through actual text, while preserving earlier drafts.
+
+Additional assembly repairs distinguish Blaise's report to Emmy from Simon's own account, preserve the source attribution and actual listener, and remove a narrator instruction about a report not magically transferring files. The new terminal paragraphs perform a little more of the chosen moment rather than summarize the theme. The source scopes, source ancestry and exact current/private audiences remain separate from these literary changes.
+
+The four lead-authored engine routes are bounded checks, not an exhaustive or independent proof. They capture actual prose, commands and portable replay. The blind reader's packet was captured from candidate `46bc1403073231c3baf21f381ae05de99e239967668089f1cd790e40f90aa1c1`; subsequent small assembly revisions are outside that packet. The current hash must be used for further verification. No human reading duration, backend model identity or owner acceptance is claimed.

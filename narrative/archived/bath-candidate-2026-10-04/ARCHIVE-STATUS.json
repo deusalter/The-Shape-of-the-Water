@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-04",
+  "status": "Superseded bath-setting draft; owner rejected direction before installation",
+  "caseSha256": "36562399c544065711718ba439e52005c8b20b0c767abbc2d451e9fd483c533c",
+  "caseInstalled": false,
+  "lastRunReport": "EXPANDED-ROUTE-CHECK.json",
+  "actualRoutePassageWords": [
+    23196,
+    26071,
+    25397,
+    23559
+  ],
+  "ownerDirection": "Keep Blaise Bloom; reopen setting, supporting cast names, long-form construction and depth of metaphysics after Hello Charlotte research. No ordinary real-world bath premise as new foundation.",
+  "unemittedChanges": "Archived build-expanded-case.py has later blind-response revisions not emitted to this exact JSON: new Sunday private-finding response, two corrective replies, and doorway direction repair. Archived check-expanded-case.mjs adds source-stability pinning not executed yet. Do not claim these changes are in the candidate or covered by its four route results.",
+  "files": [
+    {
+      "sourcePath": "src/content/case-expanded.json",
+      "archiveFile": "case-expanded.json",
+      "sha256": "36562399c544065711718ba439e52005c8b20b0c767abbc2d451e9fd483c533c"
+    },
+    {
+      "sourcePath": "narrative/tools/build-expanded-case.py",
+      "archiveFile": "build-expanded-case.py",
+      "sha256": "2425a16fb56e7b98ab8c36e56f2a40f1c7a11839080ad1671fa39b04a88693e4"
+    },
+    {
+      "sourcePath": "narrative/tools/check-expanded-case.mjs",
+      "archiveFile": "check-expanded-case.mjs",
+      "sha256": "9ebf82399592aa94fdcdb7c8dcfe6071936a4838a3aa026e7ec69df23714069e"
+    },
+    {
+      "sourcePath": "narrative/tools/build-expanded-handoff.py",
+      "archiveFile": "build-expanded-handoff.py",
+      "sha256": "b2c39d785d379ca2fb2363cdb6d84e0c43524f127416c510562e22afab7b1133"
+    },
+    {
+      "sourcePath": "narrative/loop/EXPANDED-ROUTE-CHECK.json",
+      "archiveFile": "EXPANDED-ROUTE-CHECK.json",
+      "sha256": "c7475aefeafbfb83aafb1e501f771c2aec2b5e91004c88e0fb3acb803e958698"
+    },
+    {
+      "sourcePath": "narrative/loop/EXPANDED-IDENTITY.json",
+      "archiveFile": "EXPANDED-IDENTITY.json",
+      "sha256": "47f166e2ee38d1647e421d5f7aeae6cb029212240cd48706526906d836716baf"
+    },
+    {
+      "sourcePath": "narrative/loop/EXPANDED-WORD-COUNTS.json",
+      "archiveFile": "EXPANDED-WORD-COUNTS.json",
+      "sha256": "5753b8698c6e1e7fae580e4b9716a9508a16c938c05d6e0938b96391d84121f7"
+    },
+    {
+      "sourcePath": "narrative/loop/EXPANDED-STAGING.json",
+      "archiveFile": "EXPANDED-STAGING.json",
+      "sha256": "65208efca2a34d6b3611a26d59cf1f2c844f4e20829c21f49bb3fa748d6165e9"
+    },
+    {
+      "sourcePath": "narrative/loop/MANUSCRIPT-EXPANDED-CANDIDATE.md",
+      "archiveFile": "MANUSCRIPT-EXPANDED-CANDIDATE.md",
+      "sha256": "05f6df72def6fd785c4d47cc1ea8094591e2f25443eb22c3c94be32d3707ad3c"
+    },
+    {
+      "sourcePath": "narrative/loop/CROSS-TEAM-SELECTION-L5.md",
+      "archiveFile": "CROSS-TEAM-SELECTION-L5.md",
+      "sha256": "3e7091a0bb759f22fd14caa38d659c54d4b23c58c65da0bf2cc5aeaa9017dd30"
+    },
+    {
+      "sourcePath": "narrative/reviews/BLIND-07-DISPOSITION.md",
+      "archiveFile": "BLIND-07-DISPOSITION.md",
+      "sha256": "4486c145a0e7d24f9b93c80ee20e694d2aec3307d0b74e4583a5c28a8db59a9c"
+    }
+  ],
+  "liveFirstNightUnchangedSha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+  "allPriorDraftsRetained": true,
+  "ownerApprovedReplacementCanon": false,
+  "next": "Root-led Hello Charlotte research, then genuinely new long-form treatments and performed auditions through single lead literary authority."
+}

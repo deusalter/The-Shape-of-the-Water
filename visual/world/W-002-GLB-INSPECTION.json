@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "actual glTF structure/accessors/materials; no browser or physics claim",
+  "glbSha256": "78fb5a6bd6b359bb6bea4b20d4933318a628f2668e737d9aa0a5d6f755d5623e",
+  "nodes": 483,
+  "meshes": 410,
+  "images": 0,
+  "singleMiriamBase": true,
+  "miriamMatchesFirstNightGeometryMaterialsTransforms": true,
+  "miriamGeometryDigest": "920ecbd27cb5ec3d99d115ef1a66469121996389b0e2e30811ed1fb767e20138",
+  "stagedOnlyRootCount": 12,
+  "allStagedRootsParkedAndFlagged": true
+}

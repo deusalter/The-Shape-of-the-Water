@@ -1,0 +1,57 @@
+{
+  "originalProvenanceRepro": {
+    "validationAccepted": false,
+    "errors": [
+      "sources.o1.film: repeated sourceKey material must retain the same originating provenance"
+    ]
+  },
+  "originalClosureRepro-gated-false": {
+    "firstVariant": "o1.remembered-variant",
+    "transitionAccepted": true,
+    "previewAndDepartureStateUnchanged": true,
+    "portableReplayExact": true
+  },
+  "originalClosureRepro-gated-true": {
+    "firstVariant": "o1.remembered-variant",
+    "transitionAccepted": true,
+    "previewAndDepartureStateUnchanged": true,
+    "portableReplayExact": true
+  },
+  "destinationAcquisitionOrdering": {
+    "transitionAccepted": false,
+    "exactRollback": true,
+    "destinationSourceStillAbsent": true
+  },
+  "runtimeRepeatedKey-same-true": {
+    "acquisitionAccepted": true,
+    "departureUnchanged": true,
+    "actualFindingOrigins": [
+      "incident-film"
+    ],
+    "replayExactWhenAccepted": true
+  },
+  "runtimeRepeatedKey-same-false": {
+    "acquisitionAccepted": false,
+    "departureUnchanged": true,
+    "actualFindingOrigins": [
+      "ring-inspection",
+      "rinse-test"
+    ],
+    "replayExactWhenAccepted": false
+  },
+  "legitimateIndependence-usedFilm-false": {
+    "accepted": true,
+    "actualReportOrigins": [
+      "ring-inspection",
+      "rinse-test"
+    ],
+    "unusedRoutesNotUnioned": true
+  },
+  "legitimateIndependence-usedFilm-true": {
+    "accepted": false,
+    "actualReportOrigins": [
+      "incident-film"
+    ],
+    "unusedRoutesNotUnioned": true
+  }
+}

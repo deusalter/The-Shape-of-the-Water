@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-10-04T01:47:43.773Z",
+  "hashes": {
+    "src/engine/evidence-budget.ts": "31de32f49420577b6a14b2e433275b5ecb3c433e106ffd32612a3ae721f174a1",
+    "src/engine/evidence-fixture.ts": "248bdcc1d3a3913abb437945baf6eecc0df237ab88e52a68c9f62febbe48c77c",
+    "src/engine/evidence-migration.ts": "7da526e04438178f7e3cb36f996ea458369dbd50ea1f814d93f1621ef8fead07",
+    "src/engine/evidence-occasion-fixture.ts": "5176cc3c1f8715818704670ec2f01f74ac1c84e010058d7cb4b4b7fe8ffbbf97",
+    "src/engine/evidence-occasion-validation.ts": "6e1479185c899933dc9236ba820f5f6895b94498fd49745b462cad742fab8bee",
+    "src/engine/evidence-occasions.ts": "6a065c700077eeffb0325d05548260a85c37dbe2851d77d2c7cc88b594da2352",
+    "src/engine/evidence-portable.ts": "e862e2e2acb7242b1b7895fbf948c002496b81500c216c34db4ae937e9946227",
+    "src/engine/evidence-proof.ts": "258b136d8d4cf35203c3c37bf8091a8d1f786cb5f4a0ef8ab5c069f72965c16e",
+    "src/engine/evidence-runtime.ts": "72b633806f93320e2f987d67b6a000d0ba6c370f30fced9bc6006022a838e7f9",
+    "src/engine/evidence-schema.ts": "1a2735a144d386ee9ac6d6ce530598b1e515777240674641a5c25f2c400bb767",
+    "src/engine/evidence-types.ts": "1306fb9673ebb267fcf211b6dd663d2a3b065c10ca16039339ba9f3c920a7d85",
+    "src/engine/evidence-v2.ts": "e23776590b33f0d188bd85529e77dc2270a69da31e4c3099036b87e35275db47",
+    "src/engine/evidence-validate.ts": "d7e110682ad7ab21fb2ef5a61521a68e4d8a96351c4134034ddd3d7a18bfe27c",
+    "tests/occasion-legacy.test.ts": "40f87f185912eb8a0be3e41f92a5e894edf4d80acbbd127f4beecd748891f38d",
+    "tests/occasion-review-regressions.test.ts": "515867578b8345a7adda992030cf321cb6ee74784c6a87be25a27e23267a9aa5",
+    "tests/occasion-runtime.test.ts": "a081858b39c3c7a7db2ecaae6828327c06bc0b5175fd0b25ccc061ef20d4c2cd",
+    "tests/occasion-validation.test.ts": "5b6122a31e56d7d730c70e1414e71708617bce00c90de729c82fbfbcbf420ff4",
+    "docs/contracts/OCCASIONS-V2.md": "e9b44f596eaeac654a592b0195377c66884b8c649269c1ced3eb64eb0e997ab8",
+    "src/content/case-v2.json": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751"
+  },
+  "stableDuringProbe": true,
+  "earlierEvidencePreserved": {
+    "docs/reviews/OCCASION-INTEGRATION-06/probe.ts": "fc8110cc29cecbec1d3ca13af5c2d238f3929888de2870ab23de3561cdf76290",
+    "docs/reviews/OCCASION-INTEGRATION-06/probe.mjs": "0c26611f9191b6bd6c4fc96f3e5a9ec1020f8ad342a2c8f7336b74b4a099c33e",
+    "docs/reviews/OCCASION-INTEGRATION-06/probe-results.json": "9d9ffa671d18cf3a5c0db125de93a9e2ed68d4f7932fe808e3ad3f6841a0e734",
+    "docs/reviews/OCCASION-INTEGRATION-06/probe.stdout.json": "9d9ffa671d18cf3a5c0db125de93a9e2ed68d4f7932fe808e3ad3f6841a0e734",
+    "docs/reviews/OCCASION-INTEGRATION-06/source-hashes.json": "e8be5046cdd92fd0f2d70ee348ea77e7e8ee6a335e761e1a14638c1f613fe94d",
+    "docs/reviews/OCCASION-INTEGRATION-06/bounded-test-results.json": "a21f172b9e9e4a64fdb6f4630448a498bf2daedf61a899515116cb4724928d5a",
+    "docs/reviews/OCCASION-INTEGRATION-06/REPORT.md": "dc931cf852822b591ffd81827c8260ce4aaf15bab8546b21242629e66dd747ea"
+  }
+}

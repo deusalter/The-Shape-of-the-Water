@@ -1,0 +1,16 @@
+{
+  "mode": "null-edge-before",
+  "startedAt": "2026-10-04T01:35:08.719Z",
+  "checks": [
+    {
+      "id": "Q003-null-baseline-load",
+      "status": "FAIL",
+      "error": "Error: expect(locator).toBeEnabled() failed\n\nLocator:  getByRole('button', { name: 'Preview last valid content', exact: true })\nExpected: enabled\nReceived: disabled\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toBeEnabled\" getByRole('button', { name: 'Preview last valid content', exact: true }) with timeout 5000ms\n  - waiting for getByRole('button', { name: 'Preview last valid content', exact: true })\n    14 × locator resolved to <button disabled>Preview last valid content</button>\n       - unexpected value \"disabled\"\n",
+      "stack": "Error: expect(locator).toBeEnabled() failed\n\nLocator:  getByRole('button', { name: 'Preview last valid content', exact: true })\nExpected: enabled\nReceived: disabled\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toBeEnabled\" getByRole('button', { name: 'Preview last valid content', exact: true }) with timeout 5000ms\n  - waiting for getByRole('button', { name: 'Preview last valid content', exact: true })\n    14 × locator resolved to <button disabled>Preview last valid content</button>\n       - unexpected value \"disabled\"\n\n    at captureRawStack (/workspace/literary-detective/node_modules/.pnpm/playwright-core@1.63.0/node_modules/playwright-core/lib/coreBundle.js:8588:17)\n    at callMatcherAsStep (/workspace/literary-detective/node_modules/.pnpm/playwright@1.63.0/node_modules/playwright/lib/matchers/expect.js:13310:57)\n    at Object.toBeEnabled (/workspace/literary-detective/node_modules/.pnpm/playwright@1.63.0/node_modules/playwright/lib/matchers/expect.js:13302:23)\n    at /workspace/literary-detective/docs/reviews/AUTHOR-DURABILITY-03/browser.mjs:22:1905\n    at async check (/workspace/literary-detective/docs/reviews/AUTHOR-DURABILITY-03/browser.mjs:14:147)\n    at async file:///workspace/literary-detective/docs/reviews/AUTHOR-DURABILITY-03/browser.mjs:22:1"
+    }
+  ],
+  "pageErrors": [],
+  "finishedAt": "2026-10-04T01:35:16.946Z",
+  "browserVersion": "151.0.7922.173",
+  "outcome": "FAIL"
+}

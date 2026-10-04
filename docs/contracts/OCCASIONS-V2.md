@@ -16,6 +16,8 @@ A choice crossing from one scene occasion to another explicitly declares `enterO
 
 Choice requirements/actions run against the departure state. Then the target occasion becomes current before destination entry guards, variants and source capture. Eligibility simulation uses a clone and cannot change live NPCs, transcript or source history. Rejected transitions leave the prior state byte-for-byte intact.
 
+After changing occasion, run the new occasion's interpretation closure against already encountered material before checking destination guards or selecting its variant. Sources supplied by the destination become available only after that entry. Eligibility simulation and actual execution use this same order.
+
 The first service crossing is an ordinary action whose extraordinary consequence is not known to Blaise. It MUST NOT present a modal revealing that consequence. The author controls `irreversible:true`; the informed optional second crossing uses it and therefore requires the existing fresh state/payload-bound receipt. Canceling that receipt changes nothing.
 
 Flags, sources, deductions and literal transcript are retained, not reset or deleted. New current permissions use distinct occasion-scoped IDs and actor states. A remembered private conversation is not new consent. Interior o1/o2 actors begin from authored anchor initial state; they cannot inherit later o0 knowledge by matching display names. Reacquiring the film uses a new source ID with the same underlying account provenance. Earlier source records never mutate.
@@ -32,6 +34,8 @@ Proof compilation must retain each leaf's scope constraints through nested AND/O
 
 `SourceV2.derivedFrom?: string[]` identifies exact already-encountered source/conclusion parents. A derived report is a separately delivered present statement or document; it cannot appear unless all parents were encountered. The declaration does not acquire parents or reveal missing parent names. For derived reports the runtime provenance is the union of their parents' actual ancestry, replacing their fresh provenanceId contribution. Repeated retelling cannot add an independent origin. Parent sources remain unchanged.
 
+A repeated `sourceKey` denotes the same source definition/account and must retain the same originating provenance set. It does not mean any claim ever written on the same physical object. A changed inscription or distinct perceptual contribution gets its own source definition/key. Reject statically contradictory fixed origins; when an ancestor is a conclusion with alternative support, check the actual selected ancestry against previously acquired occurrences before acquiring the repeated key. This prevents different occasion IDs or fresh provenance labels from making repeated material independent.
+
 Validate a bounded acyclic combined graph of source derivations and question dependencies. Bound traversal and expansion before recursion; reject self/cross cycles, unknown references, excessive depth and malformed parents. State reconstruction is the authority for acquired history. Do not infer that any source statement is true merely because it has parents.
 
 ## Actor actions
@@ -43,6 +47,8 @@ Validate a bounded acyclic combined graph of source derivations and question dep
 In opted-in bundles disclose requires a currently encountered source or deduction, and an active interior or persistent recipient. A historical exhibit must first become a separately encountered current recollection source; disclosure delivers that report only and does not deliver its ancestral exhibit. setBelief/witnessSource use the same active-recipient restriction. Ordinary persistent actors, including Blaise, are active from the start. Only explicit `persistent:true, requiresSnapshot:true` targets start inactive; their initial knows/believes/claims arrays must be empty, and they become active after their one-time snapshot. Snapshot destinations must declare requiresSnapshot:true. Actor names confer none of these properties.
 
 Actor display names never select state. Current and exterior Miriams remain separately addressable without a real/copy verdict. Future hidden actor names do not enter the DOM through knowledge controls or snapshots.
+
+Opt-in initial knowledge and claims may reference only the actor's own initial occasion or an earlier occurrence. An ordinary persistent actor is active from the first declared occasion, so its initial references cannot name later occurrences. A requiresSnapshot target remains empty until copied. The author still defines what an anchor actor actually knew within the occasion; this bound does not infer a hidden chronology or grant earlier permissions.
 
 ## Preservation and required checks
 

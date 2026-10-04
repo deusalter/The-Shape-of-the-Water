@@ -1,0 +1,31 @@
+Already up to date
+Done in 351ms using pnpm v11.19.0
+
+ RUN  v3.2.7 /workspace/literary-detective
+
+ ✓ tests/author-project.test.ts > author project preservation and compiled player boundary > round-trips author annotations and fixed events while excluding them from compiled content 18ms
+ ✓ tests/author-project.test.ts > author project preservation and compiled player boundary > preserves a blank-prose broken draft and a separately valid preview through storage 11ms
+ ✓ tests/author-project.test.ts > author project preservation and compiled player boundary > retains an added OR proof alternative through export and accepts that support in actual runtime 15ms
+ ✓ tests/author-project.test.ts > author project preservation and compiled player boundary > renames scene references while preserving prose and cancels a referenced deletion 1ms
+ ✓ tests/author-project.test.ts > cancellable author validation > never publishes cancelled or superseded worker results, even if a terminated worker sends a late message 1ms
+ ✓ tests/preview-scenario.test.ts > runs injected conditions in a separate identity without changing canonical content or allowing canonical import 32ms
+ ✓ tests/preview-scenario.test.ts > rejects unknown flags, evidence and malformed character references instead of silently injecting them 10ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > saves an independently imported invalid project without borrowing another project preview 27ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > preserves empty provenance through export/import and reopening while retaining a matching valid preview 7ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished reference values while strict player compilation rejects them 6ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished condition values while strict player compilation rejects them 7ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished proof values while strict player compilation rejects them 9ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished flags values while strict player compilation rejects them 7ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished record values while strict player compilation rejects them 7ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished version values while strict player compilation rejects them 7ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > retains unfinished occasion values while strict player compilation rejects them 6ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > can save a repaired draft and strict player export retains actual OR/provenance semantics 15ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > exports an importable compact draft when readable indentation would exceed the byte limit 189ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > still reads previously saved nonnullable previews and rejects invalid or foreign previews 9ms
+ ✓ tests/author-draft-durability.test.ts > unfinished author draft durability > rejects unsupported shape, unsafe project identity and bounds without replacing a saved draft 12ms
+
+ Test Files  3 passed (3)
+      Tests  20 passed (20)
+   Start at  01:30:16
+   Duration  825ms (transform 290ms, setup 0ms, collect 979ms, tests 399ms, environment 1ms, prepare 181ms)
+

@@ -1,0 +1,1033 @@
+{
+  "schemaVersion": 1,
+  "kind": "author-project",
+  "content": {
+    "id": "occasion-fixture",
+    "title": "Noncanonical authored occasions",
+    "version": 1,
+    "start": "o0.arrival",
+    "scenes": [
+      {
+        "id": "o0.arrival",
+        "title": "First arrival",
+        "paragraphs": [
+          "Only the actual first arrival is captured. ORIGINAL_OCCASION_TEXT"
+        ],
+        "choices": [
+          {
+            "id": "inspect-old-film",
+            "label": "Inspect the earlier recording.",
+            "target": "o0.arrival",
+            "actions": [
+              {
+                "type": "acquireSource",
+                "sourceId": "o0.film"
+              }
+            ]
+          },
+          {
+            "id": "test-old-rinse",
+            "label": "Perform the earlier rinse test.",
+            "target": "o0.arrival",
+            "actions": [
+              {
+                "type": "acquireSource",
+                "sourceId": "o0.rinse"
+              }
+            ]
+          },
+          {
+            "id": "hear-confidence",
+            "label": "Hear the actual private confidence.",
+            "target": "o0.arrival",
+            "effects": [
+              "o0.heard-private"
+            ],
+            "actions": [
+              {
+                "type": "acquireSource",
+                "sourceId": "o0.confidence"
+              }
+            ]
+          },
+          {
+            "id": "refuse-confidence",
+            "label": "Decline the private conversation.",
+            "target": "o0.arrival",
+            "unless": [
+              "o0.heard-private"
+            ],
+            "effects": [
+              "o0.refused-private"
+            ]
+          },
+          {
+            "id": "tell-first-finding",
+            "label": "Tell the first speaker the selected finding.",
+            "target": "o0.arrival",
+            "when": {
+              "op": "hasDeduction",
+              "id": "o0.finding",
+              "scope": "current"
+            },
+            "actions": [
+              {
+                "type": "disclose",
+                "characterId": "o0.miriam",
+                "refId": "o0.finding"
+              }
+            ]
+          },
+          {
+            "id": "prepare-chair",
+            "label": "Perform the chair event and mark the exterior object.",
+            "target": "o0.departure",
+            "effects": [
+              "o0.chair-performed"
+            ],
+            "actions": [
+              {
+                "type": "acquireSource",
+                "sourceId": "o0.chair-contact"
+              },
+              {
+                "type": "witnessSource",
+                "characterId": "o0.miriam",
+                "sourceId": "o0.chair-distant"
+              },
+              {
+                "type": "setBelief",
+                "characterId": "o0.miriam",
+                "beliefId": "current-belief",
+                "value": true
+              }
+            ]
+          }
+        ],
+        "sourceIds": [
+          "o0.ring"
+        ],
+        "occasionId": "o0"
+      },
+      {
+        "id": "o0.departure",
+        "title": "Observed departure",
+        "paragraphs": [
+          "The marking and custody are actually performed."
+        ],
+        "choices": [
+          {
+            "id": "front-departure",
+            "label": "Watch the front departure.",
+            "target": "o0.crossing",
+            "effects": [
+              "o0.departed"
+            ],
+            "actions": [
+              {
+                "type": "acquireSource",
+                "sourceId": "o0.front-departure"
+              },
+              {
+                "type": "witnessSource",
+                "characterId": "o0.miriam",
+                "sourceId": "o0.front-departure"
+              },
+              {
+                "type": "snapshotCharacter",
+                "fromCharacterId": "o0.miriam",
+                "toCharacterId": "miriam_exterior"
+              }
+            ]
+          }
+        ],
+        "sourceIds": [
+          "o0.marked-object"
+        ],
+        "occasionId": "o0"
+      },
+      {
+        "id": "o0.crossing",
+        "title": "The service handle",
+        "paragraphs": [
+          "Blaise carries the weight. The wrapping catches. BEFORE_CROSSING_TEXT"
+        ],
+        "choices": [
+          {
+            "id": "first-crossing",
+            "label": "Take the weight through the service door.",
+            "target": "o1.arrival",
+            "effects": [
+              "o0.crossed"
+            ],
+            "actions": [
+              {
+                "type": "acquireSource",
+                "sourceId": "o0.service-crossing"
+              }
+            ],
+            "enterOccasion": "o1"
+          }
+        ],
+        "occasionId": "o0"
+      },
+      {
+        "id": "o1.arrival",
+        "title": "Renewed arrival",
+        "paragraphs": [
+          "The handle is empty. Only the renewed tableau is delivered. RETURN_OCCASION_TEXT"
+        ],
+        "choices": [
+          {
+            "id": "inspect-current-film",
+            "label": "Actually inspect the present recording.",
+            "target": "o1.arrival",
+            "actions": [
+              {
+                "type": "acquireSource",
+                "sourceId": "o1.film"
+              }
+            ]
+          },
+          {
+            "id": "recall-film",
+            "label": "Describe the earlier recording from memory.",
+            "target": "o1.arrival",
+            "when": {
+              "op": "hasSource",
+              "id": "o0.film",
+              "scope": "historical"
+            },
+            "actions": [
+              {
+                "type": "acquireSource",
+                "sourceId": "o1.memory-film"
+              }
+            ]
+          },
+          {
+            "id": "recall-finding",
+            "label": "Describe the earlier accepted finding from memory.",
+            "target": "o1.arrival",
+            "when": {
+              "op": "hasDeduction",
+              "id": "o0.finding",
+              "scope": "historical"
+            },
+            "actions": [
+              {
+                "type": "acquireSource",
+                "sourceId": "o1.memory-finding"
+              }
+            ]
+          },
+          {
+            "id": "tell-simon-memory",
+            "label": "Tell Simon the current recollection.",
+            "target": "o1.arrival",
+            "when": {
+              "op": "hasSource",
+              "id": "o1.memory-film",
+              "scope": "current"
+            },
+            "actions": [
+              {
+                "type": "disclose",
+                "characterId": "o1.simon",
+                "refId": "o1.memory-film"
+              }
+            ]
+          },
+          {
+            "id": "new-photo",
+            "label": "Inspect the new photograph.",
+            "target": "o1.arrival",
+            "actions": [
+              {
+                "type": "acquireSource",
+                "sourceId": "o1.photo"
+              }
+            ]
+          },
+          {
+            "id": "meet-speakers",
+            "label": "Actually hear both speakers and the bounded chair account.",
+            "target": "o1.arrival",
+            "when": {
+              "op": "npcKnows",
+              "characterId": "miriam_exterior",
+              "refId": "o0.chair-distant"
+            },
+            "actions": [
+              {
+                "type": "acquireSource",
+                "sourceId": "o1.interior-testimony"
+              },
+              {
+                "type": "acquireSource",
+                "sourceId": "o1.exterior-testimony"
+              },
+              {
+                "type": "acquireSource",
+                "sourceId": "o1.exterior-chair-account"
+              }
+            ]
+          },
+          {
+            "id": "tell-exterior-current",
+            "label": "Show the exterior speaker the current comparison.",
+            "target": "o1.arrival",
+            "actions": [
+              {
+                "type": "acquireSource",
+                "sourceId": "o1.current-fact"
+              },
+              {
+                "type": "disclose",
+                "characterId": "miriam_exterior",
+                "refId": "o1.current-fact"
+              }
+            ]
+          },
+          {
+            "id": "discuss-second-trial",
+            "label": "Discuss the optional second trial with its actual audience.",
+            "target": "o1.arrival",
+            "effects": [
+              "o1.informed"
+            ],
+            "actions": [
+              {
+                "type": "acquireSource",
+                "sourceId": "o1.second-disclosure"
+              },
+              {
+                "type": "disclose",
+                "characterId": "miriam_exterior",
+                "refId": "o1.second-disclosure"
+              }
+            ]
+          },
+          {
+            "id": "second-crossing",
+            "label": "Choose the empty-handed second service crossing.",
+            "target": "o2.arrival",
+            "requires": [
+              "o1.informed"
+            ],
+            "irreversible": true,
+            "when": {
+              "op": "npcKnows",
+              "characterId": "miriam_exterior",
+              "refId": "o1.second-disclosure"
+            },
+            "actions": [
+              {
+                "type": "acquireSource",
+                "sourceId": "o1.second-crossing"
+              }
+            ],
+            "enterOccasion": "o2"
+          },
+          {
+            "id": "decline-second",
+            "label": "Decline another service trial and leave through the front.",
+            "target": "o1.refusal",
+            "ending": true
+          }
+        ],
+        "when": {
+          "op": "occasionIs",
+          "id": "o1"
+        },
+        "sourceIds": [
+          "o1.tableau"
+        ],
+        "occasionId": "o1"
+      },
+      {
+        "id": "o1.refusal",
+        "title": "A refusal ending",
+        "paragraphs": [
+          "No second occasion is asserted on this route."
+        ],
+        "choices": [],
+        "occasionId": "o1"
+      },
+      {
+        "id": "o2.arrival",
+        "title": "Another renewed arrival",
+        "paragraphs": [
+          "The empty-handed return is now actually encountered. SECOND_OCCASION_TEXT"
+        ],
+        "choices": [
+          {
+            "id": "finish-second",
+            "label": "Finish the bounded observed second trial.",
+            "target": "o2.ending",
+            "ending": true
+          }
+        ],
+        "when": {
+          "op": "occasionIs",
+          "id": "o2"
+        },
+        "sourceIds": [
+          "o2.tableau"
+        ],
+        "occasionId": "o2"
+      },
+      {
+        "id": "o2.ending",
+        "title": "Second-trial ending",
+        "paragraphs": [
+          "The fixture makes no universal claim about another crossing."
+        ],
+        "choices": [],
+        "occasionId": "o2"
+      }
+    ],
+    "schemaVersion": 2,
+    "beliefIds": [
+      "anchor-belief",
+      "current-belief"
+    ],
+    "sources": [
+      {
+        "id": "o0.film",
+        "title": "Earlier recording",
+        "text": "An actually inspected recording. ORIGINAL_FILM_TEXT",
+        "kind": "document",
+        "provenanceId": "incident-film",
+        "occasionId": "o0",
+        "sourceKey": "incident-film"
+      },
+      {
+        "id": "o0.ring",
+        "title": "Dry ring",
+        "text": "The earlier ring was dry.",
+        "kind": "observation",
+        "provenanceId": "ring-inspection",
+        "occasionId": "o0"
+      },
+      {
+        "id": "o0.rinse",
+        "title": "Rinse test",
+        "text": "The earlier water left the same ring.",
+        "kind": "observation",
+        "provenanceId": "rinse-test",
+        "occasionId": "o0"
+      },
+      {
+        "id": "o0.private-anchor",
+        "title": "PRIVATE_TITLE",
+        "text": "UNSEEN_NPC_ANCHOR_SECRET",
+        "kind": "document",
+        "provenanceId": "anchor-private",
+        "occasionId": "o0"
+      },
+      {
+        "id": "o1.private-anchor",
+        "title": "PRIVATE_TITLE",
+        "text": "UNSEEN_NPC_ANCHOR_SECRET",
+        "kind": "document",
+        "provenanceId": "anchor-private",
+        "occasionId": "o1"
+      },
+      {
+        "id": "o2.private-anchor",
+        "title": "PRIVATE_TITLE",
+        "text": "UNSEEN_NPC_ANCHOR_SECRET",
+        "kind": "document",
+        "provenanceId": "anchor-private",
+        "occasionId": "o2"
+      },
+      {
+        "id": "o0.prior-claim",
+        "title": "Private prior claim",
+        "text": "UNSEEN_PRIOR_CLAIM",
+        "kind": "statement",
+        "provenanceId": "shared-incident-account",
+        "speakerId": "o0.miriam",
+        "occasionId": "o0"
+      },
+      {
+        "id": "o0.confidence",
+        "title": "Actually heard confidence",
+        "text": "A private confidence actually delivered to Blaise.",
+        "kind": "statement",
+        "provenanceId": "private-conversation",
+        "speakerId": "o0.miriam",
+        "occasionId": "o0"
+      },
+      {
+        "id": "o0.chair-contact",
+        "title": "Chair contact",
+        "text": "Blaise hears the exact words at the chair.",
+        "kind": "observation",
+        "provenanceId": "blaise-chair-contact",
+        "occasionId": "o0"
+      },
+      {
+        "id": "o0.chair-distant",
+        "title": "UNSEEN_WITNESS_TITLE",
+        "text": "UNSEEN_WITNESS_SECRET: Miriam saw movement without hearing the words.",
+        "kind": "observation",
+        "provenanceId": "miriam-chair-observation",
+        "occasionId": "o0"
+      },
+      {
+        "id": "o0.marked-object",
+        "title": "Marked exterior object",
+        "text": "A mark is made and the object placed outside.",
+        "kind": "observation",
+        "provenanceId": "object-preparation",
+        "occasionId": "o0"
+      },
+      {
+        "id": "o0.front-departure",
+        "title": "Observed front departure",
+        "text": "Miriam goes out through the front before the service crossing.",
+        "kind": "observation",
+        "provenanceId": "front-departure",
+        "occasionId": "o0"
+      },
+      {
+        "id": "o0.service-crossing",
+        "title": "Service crossing",
+        "text": "Cardboard catches at the handle.",
+        "kind": "observation",
+        "provenanceId": "first-service-crossing",
+        "occasionId": "o0"
+      },
+      {
+        "id": "o1.tableau",
+        "title": "Current tableau",
+        "text": "The renewed interior has the anchor arrangement.",
+        "kind": "observation",
+        "provenanceId": "first-return",
+        "occasionId": "o1"
+      },
+      {
+        "id": "o1.film",
+        "title": "Currently inspected recording",
+        "text": "A present inspection of the same originating recording. CURRENT_FILM_TEXT",
+        "kind": "document",
+        "provenanceId": "incident-film",
+        "occasionId": "o1",
+        "sourceKey": "incident-film"
+      },
+      {
+        "id": "o1.memory-film",
+        "title": "Told from memory",
+        "text": "Blaise explicitly recalls the earlier film; he does not show it.",
+        "kind": "statement",
+        "provenanceId": "fresh-report-must-not-be-an-origin",
+        "speakerId": "blaise",
+        "occasionId": "o1",
+        "derivedFrom": [
+          "o0.film"
+        ]
+      },
+      {
+        "id": "o1.memory-finding",
+        "title": "Remembered finding",
+        "text": "Blaise recounts the finding with its actual earlier support.",
+        "kind": "statement",
+        "provenanceId": "fresh-finding-report",
+        "speakerId": "blaise",
+        "occasionId": "o1",
+        "derivedFrom": [
+          "o0.finding"
+        ]
+      },
+      {
+        "id": "o1.photo",
+        "title": "New photograph",
+        "text": "A different actually encountered current observation.",
+        "kind": "document",
+        "provenanceId": "new-camera-origin",
+        "occasionId": "o1"
+      },
+      {
+        "id": "o1.interior-testimony",
+        "title": "Bench account",
+        "text": "The bench speaker recalls the pre-anchor incident.",
+        "kind": "statement",
+        "provenanceId": "shared-incident-account",
+        "speakerId": "o1.miriam",
+        "occasionId": "o1"
+      },
+      {
+        "id": "o1.exterior-testimony",
+        "title": "Doorway account",
+        "text": "The doorway speaker recalls the same pre-anchor incident.",
+        "kind": "statement",
+        "provenanceId": "shared-incident-account",
+        "speakerId": "miriam_exterior",
+        "occasionId": "o1"
+      },
+      {
+        "id": "o1.exterior-chair-account",
+        "title": "Bounded chair account",
+        "text": "She remembers movement, without inventing exact words.",
+        "kind": "statement",
+        "provenanceId": "miriam-chair-observation",
+        "speakerId": "miriam_exterior",
+        "occasionId": "o1"
+      },
+      {
+        "id": "o1.current-fact",
+        "title": "Current comparison",
+        "text": "A current comparison is shown to the exterior speaker.",
+        "kind": "observation",
+        "provenanceId": "current-comparison",
+        "occasionId": "o1"
+      },
+      {
+        "id": "o1.second-disclosure",
+        "title": "Discussed second trial",
+        "text": "Blaise describes the bounded risk before an optional empty-handed trial.",
+        "kind": "statement",
+        "provenanceId": "trial-disclosure",
+        "speakerId": "blaise",
+        "occasionId": "o1",
+        "derivedFrom": [
+          "o1.tableau"
+        ]
+      },
+      {
+        "id": "o1.second-crossing",
+        "title": "Empty-handed crossing",
+        "text": "The second service crossing is actually selected without the parcel.",
+        "kind": "observation",
+        "provenanceId": "second-service-crossing",
+        "occasionId": "o1"
+      },
+      {
+        "id": "o2.tableau",
+        "title": "Second current tableau",
+        "text": "The second renewed tableau is actually encountered.",
+        "kind": "observation",
+        "provenanceId": "second-return",
+        "occasionId": "o2"
+      }
+    ],
+    "characters": [
+      {
+        "id": "blaise",
+        "name": "Blaise",
+        "initial": {
+          "knows": [],
+          "believes": [],
+          "claims": []
+        },
+        "persistent": true
+      },
+      {
+        "id": "miriam_exterior",
+        "name": "UNSEEN_EXTERIOR_NAME",
+        "initial": {
+          "knows": [],
+          "believes": [],
+          "claims": []
+        },
+        "persistent": true,
+        "requiresSnapshot": true
+      },
+      {
+        "id": "o0.miriam",
+        "name": "Miriam",
+        "initial": {
+          "knows": [
+            "o0.private-anchor"
+          ],
+          "believes": [
+            "anchor-belief"
+          ],
+          "claims": [
+            "o0.prior-claim"
+          ]
+        },
+        "occasionId": "o0"
+      },
+      {
+        "id": "o1.miriam",
+        "name": "Miriam",
+        "initial": {
+          "knows": [
+            "o1.private-anchor"
+          ],
+          "believes": [
+            "anchor-belief"
+          ],
+          "claims": []
+        },
+        "occasionId": "o1"
+      },
+      {
+        "id": "o2.miriam",
+        "name": "Miriam",
+        "initial": {
+          "knows": [
+            "o2.private-anchor"
+          ],
+          "believes": [
+            "anchor-belief"
+          ],
+          "claims": []
+        },
+        "occasionId": "o2"
+      },
+      {
+        "id": "o1.simon",
+        "name": "Simon",
+        "initial": {
+          "knows": [],
+          "believes": [],
+          "claims": []
+        },
+        "occasionId": "o1"
+      },
+      {
+        "id": "o2.simon",
+        "name": "Simon",
+        "initial": {
+          "knows": [],
+          "believes": [],
+          "claims": []
+        },
+        "occasionId": "o2"
+      }
+    ],
+    "questions": [
+      {
+        "id": "o0.finding",
+        "text": "Record the bounded earlier finding.",
+        "candidates": [
+          {
+            "id": "supported",
+            "text": "The selected observations support this account."
+          }
+        ],
+        "supportedCandidateId": "supported",
+        "proof": {
+          "op": "any",
+          "args": [
+            {
+              "op": "ref",
+              "refId": "o0.film",
+              "scope": "current"
+            },
+            {
+              "op": "all",
+              "args": [
+                {
+                  "op": "ref",
+                  "refId": "o0.ring",
+                  "scope": "current"
+                },
+                {
+                  "op": "ref",
+                  "refId": "o0.rinse",
+                  "scope": "current"
+                }
+              ]
+            }
+          ]
+        },
+        "allowedCorroborators": [],
+        "feedback": [],
+        "effects": [
+          "o0.found"
+        ],
+        "occasionId": "o0"
+      },
+      {
+        "id": "o1.current-film",
+        "text": "Which material is currently inspected?",
+        "candidates": [
+          {
+            "id": "supported",
+            "text": "A current inspection is recorded."
+          }
+        ],
+        "supportedCandidateId": "supported",
+        "proof": {
+          "op": "ref",
+          "refId": "o1.film",
+          "scope": "current"
+        },
+        "allowedCorroborators": [],
+        "feedback": [],
+        "occasionId": "o1"
+      },
+      {
+        "id": "o1.historical-film",
+        "text": "Which material was earlier encountered?",
+        "candidates": [
+          {
+            "id": "supported",
+            "text": "An earlier inspection is remembered."
+          }
+        ],
+        "supportedCandidateId": "supported",
+        "proof": {
+          "op": "ref",
+          "refId": "o0.ring",
+          "scope": "historical"
+        },
+        "allowedCorroborators": [],
+        "feedback": [],
+        "occasionId": "o1"
+      },
+      {
+        "id": "o1.independent-film",
+        "text": "Do these selected accounts have independent origins?",
+        "candidates": [
+          {
+            "id": "supported",
+            "text": "Two independent origins are selected."
+          }
+        ],
+        "supportedCandidateId": "supported",
+        "proof": {
+          "op": "all",
+          "args": [
+            {
+              "op": "ref",
+              "refId": "o0.film",
+              "scope": "historical"
+            },
+            {
+              "op": "any",
+              "args": [
+                {
+                  "op": "ref",
+                  "refId": "o1.memory-film",
+                  "scope": "current"
+                },
+                {
+                  "op": "ref",
+                  "refId": "o1.film",
+                  "scope": "current"
+                },
+                {
+                  "op": "ref",
+                  "refId": "o1.photo",
+                  "scope": "current"
+                }
+              ]
+            }
+          ],
+          "independent": true
+        },
+        "allowedCorroborators": [],
+        "feedback": [],
+        "occasionId": "o1"
+      },
+      {
+        "id": "o1.independent-finding",
+        "text": "Does a new report add an origin?",
+        "candidates": [
+          {
+            "id": "supported",
+            "text": "An independent new origin is selected."
+          }
+        ],
+        "supportedCandidateId": "supported",
+        "proof": {
+          "op": "all",
+          "args": [
+            {
+              "op": "ref",
+              "refId": "o0.finding",
+              "scope": "historical"
+            },
+            {
+              "op": "any",
+              "args": [
+                {
+                  "op": "ref",
+                  "refId": "o1.memory-finding",
+                  "scope": "current"
+                },
+                {
+                  "op": "ref",
+                  "refId": "o1.photo",
+                  "scope": "current"
+                }
+              ]
+            }
+          ],
+          "independent": true
+        },
+        "allowedCorroborators": [],
+        "feedback": [],
+        "occasionId": "o1"
+      },
+      {
+        "id": "o1.independent-speakers",
+        "text": "Do the speakers add independent prior observations?",
+        "candidates": [
+          {
+            "id": "supported",
+            "text": "Independent originating observations are selected."
+          }
+        ],
+        "supportedCandidateId": "supported",
+        "proof": {
+          "op": "all",
+          "args": [
+            {
+              "op": "ref",
+              "refId": "o1.interior-testimony",
+              "scope": "current"
+            },
+            {
+              "op": "any",
+              "args": [
+                {
+                  "op": "ref",
+                  "refId": "o1.exterior-testimony",
+                  "scope": "current"
+                },
+                {
+                  "op": "ref",
+                  "refId": "o1.photo",
+                  "scope": "current"
+                }
+              ]
+            }
+          ],
+          "independent": true
+        },
+        "allowedCorroborators": [],
+        "feedback": [],
+        "occasionId": "o1"
+      },
+      {
+        "id": "o2.question",
+        "text": "UNSEEN_FUTURE_QUESTION",
+        "candidates": [
+          {
+            "id": "supported",
+            "text": "The second tableau is recorded."
+          }
+        ],
+        "supportedCandidateId": "supported",
+        "proof": {
+          "op": "ref",
+          "refId": "o2.tableau",
+          "scope": "current"
+        },
+        "allowedCorroborators": [],
+        "feedback": [],
+        "occasionId": "o2"
+      }
+    ],
+    "interpretationRules": [
+      {
+        "id": "o0.reading",
+        "title": "Reconsider the earlier film",
+        "text": "Only this actually selected reading is captured. OLD_READING_TEXT",
+        "when": {
+          "op": "hasSource",
+          "id": "o0.film",
+          "scope": "current"
+        },
+        "relatedRefs": [
+          "o0.film"
+        ],
+        "effects": [
+          "o0.reading-ready"
+        ],
+        "occasionId": "o0"
+      },
+      {
+        "id": "o0.late-reading",
+        "title": "UNSEEN_OLD_UNEARNED_READING",
+        "text": "UNSEEN_OLD_UNEARNED_PROSE",
+        "when": {
+          "op": "hasSource",
+          "id": "o0.rinse",
+          "scope": "current"
+        },
+        "relatedRefs": [
+          "o0.rinse"
+        ],
+        "effects": [
+          "o0.late-ready"
+        ],
+        "occasionId": "o0"
+      },
+      {
+        "id": "o2.reading",
+        "title": "UNSEEN_FUTURE_READING",
+        "text": "The second visited tableau supports a new possible reading.",
+        "when": {
+          "op": "hasSource",
+          "id": "o2.tableau",
+          "scope": "current"
+        },
+        "relatedRefs": [
+          "o2.tableau"
+        ],
+        "effects": [
+          "o2.reading-ready"
+        ],
+        "occasionId": "o2"
+      }
+    ],
+    "hints": [
+      {
+        "id": "o0.hint",
+        "label": "Consider earlier evidence",
+        "questionId": "o0.finding",
+        "when": {
+          "op": "hasSource",
+          "id": "o0.film",
+          "scope": "current"
+        },
+        "mentions": [
+          "o0.film"
+        ],
+        "text": "The earlier source remains unchanged.",
+        "reveals": false,
+        "occasionId": "o0"
+      },
+      {
+        "id": "o2.hint",
+        "label": "UNSEEN_FUTURE_HINT",
+        "questionId": "o2.question",
+        "when": {
+          "op": "hasSource",
+          "id": "o2.tableau",
+          "scope": "current"
+        },
+        "mentions": [
+          "o2.tableau"
+        ],
+        "text": "The later source is current only now.",
+        "reveals": false,
+        "occasionId": "o2"
+      }
+    ],
+    "occasions": [
+      {
+        "id": "o0",
+        "label": "First visit"
+      },
+      {
+        "id": "o1",
+        "label": "After the return"
+      },
+      {
+        "id": "o2",
+        "label": "UNSEEN_OCCASION_LABEL"
+      }
+    ]
+  },
+  "annotations": [],
+  "fixedEvents": []
+}

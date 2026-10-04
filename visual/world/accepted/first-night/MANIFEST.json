@@ -1,0 +1,21 @@
+{
+  "acceptedSourceRevision": "828db5c",
+  "preservedBefore": "W-002 expanded spatial production",
+  "files": {
+    "build-bath.py": {
+      "source": "tools/blender/build-bath.py",
+      "sha256": "2a0010b5e36340c306229176723bd84c3ceefa1740086c6aa47c660ff5f12fe5",
+      "bytes": 8364
+    },
+    "bath-faceless.blend": {
+      "source": "visual/world/bath-faceless.blend",
+      "sha256": "76941252a07d5787a8d5e08b48aa53e977dd42587e5c54d38fc004981a81e78c",
+      "bytes": 1704672
+    },
+    "bath-faceless.glb": {
+      "source": "public/world/bath-faceless.glb",
+      "sha256": "fca0c41c1fe8536f5e852530d22c36f3e77ddf7730e7db51a0fe58187ff73b59",
+      "bytes": 345160
+    }
+  }
+}
