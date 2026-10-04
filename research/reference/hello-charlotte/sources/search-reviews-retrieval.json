@@ -1,0 +1,13 @@
+{
+  "id": "search-reviews",
+  "url": "https://html.duckduckgo.com/html/?q=%22Hello+Charlotte%22+%22review%22+-site%3Areddit.com+-site%3Ayoutube.com+-site%3Asteampowered.com+-site%3Abackloggd.com+-site%3Asteamcommunity.com",
+  "retrieved_utc": "2026-10-04T02:04:43.381846+00:00",
+  "resolved_url": "https://html.duckduckgo.com/html/?q=%22Hello+Charlotte%22+%22review%22+-site%3Areddit.com+-site%3Ayoutube.com+-site%3Asteampowered.com+-site%3Abackloggd.com+-site%3Asteamcommunity.com",
+  "status": 200,
+  "title": "\"Hello Charlotte\" \"review\" -site:reddit.com -site:youtube.com -site:steampowered.com -site:backloggd.com -site:steamcommunity.com at DuckDuckGo",
+  "sha256": "8fe12127c46a5aa4bfb8db972c7c26034b705634a7dca8b0abd6c8e212727de4",
+  "text_sha256": "5e2c49b955d00ab4785c5846008196c00124ed2cb94e7b6166b49f49c0974288",
+  "bytes": 9674,
+  "raw_path": ".local-evidence/search-reviews.html",
+  "text_path": ".local-evidence/search-reviews.txt"
+}

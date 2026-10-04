@@ -1,0 +1,13 @@
+{
+  "id": "creator-log",
+  "url": "https://etherane.weebly.com/log.html",
+  "retrieved_utc": "2026-10-04T02:04:43.101178+00:00",
+  "resolved_url": "https://etherane.weebly.com/log",
+  "status": 200,
+  "title": "\u00e6therworks - Log",
+  "sha256": "5d781b19ecb3550f6412f94b2d717ad8e52401d57b0c3c24057c5d7988a637c7",
+  "text_sha256": "387aaa19fd28e7a65e6f273e2c2d53d535b28c80e252f9f2f6e0ff161436eea7",
+  "bytes": 37046,
+  "raw_path": ".local-evidence/creator-log.html",
+  "text_path": ".local-evidence/creator-log.txt"
+}

@@ -1,0 +1,26 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Laennec",
+  "finalUrl": "https://en.wikipedia.org/wiki/Ren%C3%A9_Laennec",
+  "status": 200,
+  "retrievedUTC": "2026-10-04T02:25:47.677126+00:00",
+  "sha256RawResponse": "ea20b497b7f146508ad5e3b6fc8398272e3e36e0991bc88a890462b60646e600",
+  "normalization": "HTMLParser text excluding script/style, whitespace collapsed",
+  "excerpts": [
+    {
+      "needle": "René-Théophile-Hyacinthe Laennec",
+      "normalizedCharacterOffset": 1574,
+      "excerpt": " the free encyclopedia French physician (1781–1826) René Laennec Born René-Théophile-Hyacinthe Laennec ( 1781-02-17 ) 17 February 1781 Quimper , France Died 13 August 1826 (1826-08-13) (aged 45) Ploaré , France Citizenship France Education University of Paris Known for Inventing the stethoscope Spouse Jacquette Guichard ​ ( m. 1824 ) ​ Scientific career Fields medicin"
+    },
+    {
+      "needle": "rolled",
+      "normalizedCharacterOffset": 4126,
+      "excerpt": " on applying our ear to the other. Immediately, on this suggestion, I rolled a quire of paper into a kind of cylinder and applied one end of it to the region of the heart and the other to my ear, and was not a little surprised and pleased to find that I could thereby perceive the action of the heart in a manner much more clear and distinct than I had ever been able to"
+    },
+    {
+      "needle": "cylinder",
+      "normalizedCharacterOffset": 4165,
+      "excerpt": "diately, on this suggestion, I rolled a quire of paper into a kind of cylinder and applied one end of it to the region of the heart and the other to my ear, and was not a little surprised and pleased to find that I could thereby perceive the action of the heart in a manner much more clear and distinct than I had ever been able to do by the immediate application of my "
+    }
+  ],
+  "scope": "Bounded excerpts only; full response held in memory then discarded; no complete-book or complete-biography reading claimed."
+}

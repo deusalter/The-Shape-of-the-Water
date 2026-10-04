@@ -1,0 +1,13 @@
+{
+  "id": "search-interview",
+  "url": "https://html.duckduckgo.com/html/?q=%22etherane%22+interview",
+  "retrieved_utc": "2026-10-04T02:03:50.525206+00:00",
+  "resolved_url": "https://html.duckduckgo.com/html/?q=%22etherane%22+interview",
+  "status": 200,
+  "title": "\"etherane\" interview at DuckDuckGo",
+  "sha256": "dacb27d156fa629eef5cc59b015235929560007aaf3462cd8eac831abaa88988",
+  "text_sha256": "69babcc19425acdb7c0f40683218a46e42e08d45cfa16db063d96762fa42365c",
+  "bytes": 29951,
+  "raw_path": ".local-evidence/search-interview.html",
+  "text_path": ".local-evidence/search-interview.txt"
+}

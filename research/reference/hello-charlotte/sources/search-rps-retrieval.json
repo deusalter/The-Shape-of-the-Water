@@ -1,0 +1,13 @@
+{
+  "id": "search-rps",
+  "url": "https://html.duckduckgo.com/html/?q=Hello+Charlotte+Rock+Paper+Shotgun",
+  "retrieved_utc": "2026-10-04T02:05:10.736700+00:00",
+  "resolved_url": "https://html.duckduckgo.com/html/?q=Hello+Charlotte+Rock+Paper+Shotgun",
+  "status": 200,
+  "title": "Hello Charlotte Rock Paper Shotgun at DuckDuckGo",
+  "sha256": "37d6ceb38894cd74246914eec2827b47ad3980d7a68c049f13e57b171081878e",
+  "text_sha256": "7481b0e417efd67738c15e8b40a3b3d63d11a61f0634ed2ca0b44bbde36d55ad",
+  "bytes": 32896,
+  "raw_path": ".local-evidence/search-rps.html",
+  "text_path": ".local-evidence/search-rps.txt"
+}

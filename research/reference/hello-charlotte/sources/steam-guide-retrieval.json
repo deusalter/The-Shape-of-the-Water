@@ -1,0 +1,13 @@
+{
+  "id": "steam-guide",
+  "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=912109182",
+  "retrieved_utc": "2026-10-04T02:03:50.092036+00:00",
+  "resolved_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=912109182",
+  "status": 200,
+  "title": "Steam Community :: Guide :: Hello Charlotte Walkthrough (Episodes 1 & 2)",
+  "sha256": "d77ede6753dff43a4284c0431949b853fe6ff35ee51e745b8a1fffeff78e698a",
+  "text_sha256": "54e42ea75b4605722f917251645a4b96ff205422067b67b484ba12fd1c52e75f",
+  "bytes": 116016,
+  "raw_path": ".local-evidence/steam-guide.html",
+  "text_path": ".local-evidence/steam-guide.txt"
+}

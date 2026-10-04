@@ -1,0 +1,26 @@
+{
+  "url": "https://www.gutenberg.org/files/28948/28948-h/28948-h.htm",
+  "finalUrl": "https://www.gutenberg.org/files/28948/28948-h/28948-h.htm",
+  "status": 200,
+  "retrievedUTC": "2026-10-04T02:29:15.552661+00:00",
+  "sha256RawResponse": "10f1f0cbce816f350147b9523ffc7b3033970b9b34bef0dabea3caf4f5510c67",
+  "normalization": "HTMLParser text excluding script/style, whitespace collapsed",
+  "excerpts": [
+    {
+      "needle": "Ursula Brangwen",
+      "normalizedCharacterOffset": 548933,
+      "excerpt": "erself, how she was truly a princess of Poland, how in England she was under a spell, she was not really this Ursula Brangwen; then the mirage of her reading: out of the multicoloured illusion of this her life, she must move on, to the Grammar School in Nottingham. She was shy, and she suffered. For one thing, she bit her nails, and had a cruel consciousness in her finger-tips, a shame, an exposure. Out of all proportion, this shame haunted her. She spent hours of torture, conjuring how she might keep her gloves on: if she might say her hands were scalded, if she might seem to forget to take off her gloves. For she was going to inherit her own estate, when she went to the High School. There, each girl was a lady. There, she was going to walk among free souls, her co-mates and her equals, and all petty things would be put away. Ah, if only she did not bite her nails! If only she had not this blemish! She wanted so much to be perfect—without spot or blemish, living the high, noble life. It was a grief to her that her father made such a poor introduction. He was brief as ever, like a boy saying his errand, and his clothes looked ill-fitting and casual. Whereas Ursula would have liked robes and a ceremonial of introduction to this, her new esta"
+    },
+    {
+      "needle": "She liked him now",
+      "normalizedCharacterOffset": 1021059,
+      "excerpt": "for the time being. But in the end he had failed and broken down. Strange, what a void separated him and her. She liked him now, as she liked a memory, some bygone self. He was something of the past, finite. He was that which is known. She felt a poignant affection for him, as for that which is past. But, when she looked with her face forward, he was not. Nay, when she looked ahead, into the undiscovered land before her, what was there she could recognize but a fresh glow of light and inscrutable trees going up from the earth like smoke. It was the unknown, the unexplored, the undiscovered upon whose shore she had landed, alone, after crossing the void, the darkness which washed the New World and the Old. There would be no child: she was glad. If there had been a child, it would have made little difference, however. She would have kept the child and herself, she would not have gone to Skrebensky. Anton belonged to the past. There came the cablegram from Skrebensky: “I am married.” An old pain and anger and contempt stirred in her. Did he belong so utterly to the cast-off past? She repudiated him. He was as he was. It was good that he was as he was. Who was she to have a man according to her own desire? It was not for her to create, but to r"
+    },
+    {
+      "needle": "Who was she to have a man according to her own desire?",
+      "normalizedCharacterOffset": 1022116,
+      "excerpt": "ong so utterly to the cast-off past? She repudiated him. He was as he was. It was good that he was as he was. Who was she to have a man according to her own desire? It was not for her to create, but to recognize a man created by God. The man should come from the Infinite and she should hail him. She was glad she could not create her man. She was glad she had nothing to do with his creation. She was glad that this lay within the scope of that vaster power in which she rested at last. The man would come out of Eternity to which she herself belonged. As she grew better, she sat to watch a new creation. As she sat at her window, she saw the people go by in the street below, colliers, women, children, walking each in the husk of an old fruition, but visible through the husk, the swelling and the heaving contour of the new germination. In the still, silenced forms of the colliers she saw a sort of suspense, a waiting in pain for the new liberation; she saw the same in the false hard confidence of the women. The confidence of the women was brittle. It would break quickly to reveal the strength and patient effort of the new germination. In everything she saw she grasped and groped to find the creation of the living God, instead of the old, hard bar"
+    }
+  ],
+  "scope": "Bounded primary name and final chapter context; final 12,800 characters inspected to check context. No complete novel rereading claimed."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "search-ep3-critical",
+  "url": "https://html.duckduckgo.com/html/?q=%22Hello+Charlotte%22+%22Childhood%27s+End%22+analysis",
+  "retrieved_utc": "2026-10-04T02:07:18.334629+00:00",
+  "resolved_url": "https://html.duckduckgo.com/html/?q=%22Hello+Charlotte%22+%22Childhood%27s+End%22+analysis",
+  "status": 200,
+  "title": "\"Hello Charlotte\" \"Childhood's End\" analysis at DuckDuckGo",
+  "sha256": "257eb9cc8b90a5c313cd05d4eb78b920c538deccf7a6948772d9455a18baea5d",
+  "text_sha256": "3bcdf725ae557fb8951ae3da5da5ad6f237b5c16584287f6d864e7ae351fb49b",
+  "bytes": 34349,
+  "raw_path": ".local-evidence/search-ep3-critical.html",
+  "text_path": ".local-evidence/search-ep3-critical.txt"
+}

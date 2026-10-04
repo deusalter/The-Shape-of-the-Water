@@ -1,0 +1,13 @@
+{
+  "id": "novamoth-reading",
+  "url": "https://novamoth.github.io/brain-problem-games/Hello-Charlotte/",
+  "retrieved_utc": "2026-10-04T02:06:16.805850+00:00",
+  "resolved_url": "https://novamoth.github.io/brain-problem-games/Hello-Charlotte/",
+  "status": 200,
+  "title": "Hello Charlotte | Brain Problem GamesHello Charlotte | Brain Problem Games",
+  "sha256": "a4c76f6874f12cf1f22285a79f8f07291b2be6081d59314b750b08d26ea95dd3",
+  "text_sha256": "8f35aa5de2a3e44becdd1dc917bd968b5498250b8ce30d26e7b60ef3e4c77a69",
+  "bytes": 38227,
+  "raw_path": ".local-evidence/novamoth-reading.html",
+  "text_path": ".local-evidence/novamoth-reading.txt"
+}

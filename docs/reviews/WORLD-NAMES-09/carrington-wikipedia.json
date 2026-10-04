@@ -1,0 +1,25 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Dora_Carrington",
+  "finalUrl": "https://en.wikipedia.org/wiki/Dora_Carrington",
+  "status": 200,
+  "retrievedUTC": "2026-10-04T02:25:47.516455+00:00",
+  "sha256RawResponse": "a5fc7c1425b3f1e10aea19d0b2afd2a4d8e9779e41f31297a29e62ada45a8591",
+  "normalization": "HTMLParser text excluding script/style, whitespace collapsed",
+  "excerpts": [
+    {
+      "needle": "Dora de Houghton Carrington",
+      "normalizedCharacterOffset": 1559,
+      "excerpt": "ora Carrington . Dora Carrington Carrington with Lytton Strachey Born Dora de Houghton Carrington ( 1893-03-29 ) 29 March 1893 Hereford , England Died 11 March 1932 (1932-03-11) (aged 38) Newbury , Berkshire , England Education Slade School of Art University College London Occupations Painter and decorative artist Dora de Houghton Carrington (29 March 1893 – 11 March 1932), known generally as Carr"
+    },
+    {
+      "needle": "Ham Spray",
+      "normalizedCharacterOffset": 5883,
+      "excerpt": "companied the couple on their honeymoon in Venice. The three moved to Ham Spray House in Wiltshire in 1924; the house had been purchased by Strachey in the name of Partridge. [ 10 ] In 1926, Partridge began an affair with Frances Marshall , and left to live with her in London. His marriage to Carrington was effectively over, but he continued to visit her most weekends. In 1928, Carrington met Bern"
+    },
+    {
+      "needle": "housekeeping",
+      "found": false
+    }
+  ],
+  "scope": "Bounded excerpts only; full response held in memory then discarded; no complete-book or complete-biography reading claimed."
+}

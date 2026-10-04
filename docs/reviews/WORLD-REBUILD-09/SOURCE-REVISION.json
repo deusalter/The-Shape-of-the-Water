@@ -1,0 +1,84 @@
+{
+  "review": "WORLD-REBUILD-09",
+  "status": "completed bounded comparative review; recommend A for development; no causal lock or owner acceptance",
+  "baseCommit": "0a4031496bb81d323b6a5f1e350207315eb07a48",
+  "scope": "Author-informed dramatic/world critique; not a blind reading, doctrine certification, played-game reference review, or human playtest",
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "49dadb3ad136083668b369c7f88a284b258dab2777932052ebd0cdf7ebcb8e27"
+    },
+    {
+      "path": "docs/OWNER-WORLD-REBUILD-2026-10-04.md",
+      "sha256": "ed19d9e5bced44ee35d41dca292db0006af64ca8592f36c44e91b505b74a0a95"
+    },
+    {
+      "path": "docs/OWNER-KICKOFF-v4.md",
+      "sha256": "773e3cb9ef1f45945080fe71f9c0cbd65d9f80aa1fe58eebba7a55c1934ae1b3"
+    },
+    {
+      "path": "docs/OWNER-PSYCHOLOGICAL-MALE-PROTAGONIST-2026-10-03.md",
+      "sha256": "237c131fb559b204d9d7adb3b3ab3d219cf426a72bd7bb0c013e0fb909eb434f"
+    },
+    {
+      "path": "docs/OWNER-LOOP-AND-TEAM-2026-10-03.md",
+      "sha256": "049494ffa929e6e386a2364eaa4060e459bb74668103687ef6b36b04b817fc8c"
+    },
+    {
+      "path": "docs/OWNER-NAMING-CLARIFICATION-2026-10-03.md",
+      "sha256": "fb2d882bca9ce94ccd1944b86a6d52c57a31a2313eb23e34d1749a1aecf4831a"
+    },
+    {
+      "path": "narrative/archived/bath-candidate-2026-10-04/BLIND-07-REPORT.md",
+      "sha256": "9ddb14810a7d74a6b9672073e292fd935ef94df85478ac190d79cef8197cea96"
+    },
+    {
+      "path": "narrative/archived/bath-candidate-2026-10-04/BLIND-07-DISPOSITION.md",
+      "sha256": "4486c145a0e7d24f9b93c80ee20e694d2aec3307d0b74e4583a5c28a8db59a9c"
+    },
+    {
+      "path": "research/reference/hello-charlotte/DOSSIER.md",
+      "sha256": "db11e490e9613f14f80c64dff5957ef41a2cf89027fdb271958ca4e5b950ba69",
+      "scope": "Dossier read in full; source register retained for retrieval provenance, not claimed direct game experience."
+    },
+    {
+      "path": "research/reference/hello-charlotte/SOURCES.json",
+      "sha256": "549a7faab2e7f6af288271270a93d812babc2c4c99bdd54048a9351153b2f688",
+      "scope": "Dossier read in full; source register retained for retrieval provenance, not claimed direct game experience."
+    },
+    {
+      "path": "research/philosophy/world-rebuild/TENSIONS.md",
+      "sha256": "e5d76c4399c8dbc909c37ccc427f5813d107e3edc40131b7facf8a500b0bbc15",
+      "scope": "Read in full; scholarly synthesis and proposals, not direct whole-primary-text reading or selected canon."
+    },
+    {
+      "path": "research/philosophy/world-rebuild/WORLD-PROPOSALS.md",
+      "sha256": "c139d2094505f79ceb48d0dee24394b672a2cac5868e1da79665b1872af18be8",
+      "scope": "Read in full; scholarly synthesis and proposals, not direct whole-primary-text reading or selected canon."
+    },
+    {
+      "path": "research/philosophy/world-rebuild/SOURCE-CHECKS.md",
+      "sha256": "b72f6f92b6ce5abb64f45f175badda2b5add1f2dde026ea91d0212ec98d18362",
+      "scope": "Read in full; scholarly synthesis and proposals, not direct whole-primary-text reading or selected canon."
+    },
+    {
+      "path": "narrative/rebuild/B-NO-COMMON-NOON.md",
+      "sha256": "bf947cca7a928ca7bf14710575ac0304d59683a73ffc843cb459156f05801270",
+      "reviewSnapshot": "docs/reviews/WORLD-REBUILD-09/input/B-NO-COMMON-NOON-initial.md",
+      "scope": "Full initial authored treatment and both opening/ending auditions read; awaiting A for selection."
+    },
+    {
+      "path": "narrative/rebuild/A-THE-SECOND-MOUTH.md",
+      "sha256": "2769a4f426312a8270c8db1450428d88d69876f6a905858252bdbe685b349365",
+      "reviewSnapshot": "docs/reviews/WORLD-REBUILD-09/input/A-THE-SECOND-MOUTH-initial.md",
+      "scope": "Full initial authored treatment and opening/ending auditions read."
+    }
+  ],
+  "reviewPath": "docs/reviews/WORLD-REBUILD-09/REVIEW.md",
+  "reviewSha256": "bd011ad84d57786b609c0bdbf46643f543e6bee03b83935420b24dd7cced5436",
+  "revisionBoundary": "Covers initial A and B snapshots only; lead follow-up support transfer, causal diagram and philosophy scene not yet reviewed.",
+  "checks": [
+    "Both preserved treatment snapshot SHA-256 values match reviewed source identities.",
+    "All edits confined to docs/reviews/WORLD-REBUILD-09."
+  ]
+}

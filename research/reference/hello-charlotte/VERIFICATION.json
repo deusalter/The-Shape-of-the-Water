@@ -1,0 +1,12 @@
+{
+  "check": "source provenance and publication boundary",
+  "source_count": 11,
+  "all_raw_hashes_match": true,
+  "all_text_hashes_match": true,
+  "all_excerpts_exact": true,
+  "local_evidence_files": 87,
+  "all_local_evidence_ignored": true,
+  "tracked_raw_files": 0,
+  "gameplay_verified": false,
+  "full_script_inspected": false
+}

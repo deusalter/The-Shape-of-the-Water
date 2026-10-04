@@ -1,0 +1,26 @@
+{
+  "url": "https://www.gutenberg.org/files/2542/2542-h/2542-h.htm",
+  "finalUrl": "https://www.gutenberg.org/files/2542/2542-h/2542-h.htm",
+  "status": 200,
+  "retrievedUTC": "2026-10-04T02:25:47.838363+00:00",
+  "sha256RawResponse": "1242744d6e1205c1ba434a09a15da1076fccedebc55eb71d100276e6b2cca0da",
+  "normalization": "HTMLParser text excluding script/style, whitespace collapsed",
+  "excerpts": [
+    {
+      "needle": "Nora Helmer",
+      "normalizedCharacterOffset": 26323,
+      "excerpt": "t contained, written in big letters, the instruction: “The lovely Mrs Nora Helmer is to have all I possess paid over to her at once in cash.” MRS LINDE. But, my dear Nora—who could the man be? NORA. Good gracious, can’t you understand? There was no old gentleman at all; it was only something that I used to sit here and imagine, when I couldn’t think of any way of procuring money. But it’s all the same now; the tiresome old person can stay where he is, as far as I am concerned; I don’t care about him or his will either, for I am free from care now. [Jumps up.] My goodness, it’s delightful to think of, Christine! Free from care! To be able to be free from care, quite free from care; to be able to play and romp with the children; to be able to keep the house beautifully and have everything just as Torvald likes it! And, think of it, soon the spring will come and the big blue sky! Perhaps we shall be able to take a little trip—perhaps I shall see the sea again! Oh, it’s a wonderful thing to be alive and be happy. [A bell is heard in the hall.] MRS LINDE. [rising] . There is the bell; perhaps I had better go. NORA. No, don’t go; no one will come in here; it is sure to be for Torvald. SERVANT. [at the hall door] . Excuse me, ma’am—there is a gentleman to see the master, and as the doctor is with him— NORA. Who is it? KROGSTAD. [at the door] . It is I, Mrs Helmer. [Mrs LINDE starts, trembles, and turns to the window.] NORA. [takes a step towards him, an"
+    },
+    {
+      "needle": "duties to myself",
+      "normalizedCharacterOffset": 132554,
+      "excerpt": " sacred. HELMER. That you have not. What duties could those be? NORA. Duties to myself. HELMER. Before all else, you are a wife and a mother. NORA. I don’t believe that any longer. I believe that before all else I am a reasonable human being, just as you are—or, at all events, that I must try and become one. I know quite well, Torvald, that most people would think you right, and that views of that kind are to be found in books; but I can no longer content myself with what most people say, or with what is found in books. I must think over things for myself and get to understand them. HELMER. Can you not understand your place in your own home? Have you not a reliable guide in such matters as that?—have you no religion? NORA. I am afraid, Torvald, I do not exactly know what religion is. HELMER. What are you saying? NORA. I know nothing but what the clergyman said, when I went to be confirmed. He told us that religion was this, and that, and the other. When I am away from all this, and am alone, I will look into that matter too. I will see if what the clergyman said is true, or at all events if it is true for me. HELMER. This is unheard of in a girl of your age! But if religion cannot lead you aright, let me try and awaken your conscience. I suppose you have some moral sense? Or—answer me—am I to think you have none? NORA. I assure you, Torvald, that is not an easy question to answer. I really don’t know. The thing perplexes me altogether. I only kno"
+    },
+    {
+      "needle": "doll-wife",
+      "normalizedCharacterOffset": 130152,
+      "excerpt": "to me. But our home has been nothing but a playroom. I have been your doll-wife, just as at home I was papa’s doll-child; and here the children have been my dolls. I thought it great fun when you played with me, just as they thought it great fun when I played with them. That is what our marriage has been, Torvald. HELMER. There is some truth in what you say—exaggerated and strained as your view of it is. But for the future it shall be different. Playtime shall be over, and lesson-time shall begin. NORA. Whose lessons? Mine, or the children’s? HELMER. Both yours and the children’s, my darling Nora. NORA. Alas, Torvald, you are not the man to educate me into being a proper wife for you. HELMER. And you can say that! NORA. And I—how am I fitted to bring up the children? HELMER. Nora! NORA. Didn’t you say so yourself a little while ago—that you dare not trust me to bring them up? HELMER. In a moment of anger! Why do you pay any heed to that? NORA. Indeed, you were perfectly right. I am not fit for the task. There is another task I must undertake first. I must try and educate myself—you are not the man to help me in that. I must do that for myself. And that is why I am going to leave you now. HELMER. [springing up] . What do you say? NORA. I must stand quite alone, if I am to understand myself and everything about me. It is for that reason that I cannot remain with you any longer. HELMER. Nora, Nora! NORA. I am going away from here now, at once. I am "
+    }
+  ],
+  "scope": "Bounded excerpts only; full response held in memory then discarded; no complete-book or complete-biography reading claimed."
+}

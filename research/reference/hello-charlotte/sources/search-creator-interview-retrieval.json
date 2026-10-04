@@ -1,0 +1,13 @@
+{
+  "id": "search-creator-interview",
+  "url": "https://html.duckduckgo.com/html/?q=%22Hello+Charlotte%22+%22interview%22",
+  "retrieved_utc": "2026-10-04T02:04:43.424949+00:00",
+  "resolved_url": "https://html.duckduckgo.com/html/?q=%22Hello+Charlotte%22+%22interview%22",
+  "status": 200,
+  "title": "\"Hello Charlotte\" \"interview\" at DuckDuckGo",
+  "sha256": "506791ce83ecbb17260357db05695072786c87057561bc6cd793b22a55b03539",
+  "text_sha256": "0f2b2b898f0c37b219426733af8a3d26e2e000d18cdb60e3bb34970fb5788820",
+  "bytes": 9374,
+  "raw_path": ".local-evidence/search-creator-interview.html",
+  "text_path": ".local-evidence/search-creator-interview.txt"
+}

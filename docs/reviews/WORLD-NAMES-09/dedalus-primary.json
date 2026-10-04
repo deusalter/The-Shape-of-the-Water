@@ -1,0 +1,29 @@
+{
+  "source": "narrative/sources/ulysses.txt",
+  "sha256": "87dbb1574097388f2c5375298fa60ec27a137d277931e4c84e151b312694163e",
+  "edition": "Project Gutenberg ebook 4300, James Joyce, Ulysses",
+  "locators": "Exact needles and Unicode character offsets in retained normalized full primary text; episode names supplied in review as conventional reader locators.",
+  "excerpts": [
+    {
+      "needle": "Stephen Dedalus",
+      "characterOffset": 836,
+      "excerpt": "olemnly he came forward and mounted the round gunrest. He faced about and blessed gravely thrice the tower, the surrounding land and the awaking mountains. Then, catching sight of Stephen Dedalus, he bent towards him and made rapid crosses in the air, gurgling in his throat and shaking his head. Stephen Dedalus, displeased and sleepy, leaned his arms on the top of the staircase and looked coldly at the shaking gurgling face that blessed him, equine in its length, and at the light untonsured hair, grained and hued like pale oak. Buck Mulligan peeped an instant under the mirror and then covered the bowl smartly. —Back to barracks! he said sternly. He added in a preacher’s tone: —For this, O dearly beloved, is the genuine Christine: body and soul and blood and ouns. Slow music, please. Shut your eyes, gents. One moment. A little trouble about those white corpuscles. Silence, all. He peered sideways up and gave a long slow whistle of call, then paused awhile in rapt attention, his even whi"
+    },
+    {
+      "needle": "History, Stephen said",
+      "characterOffset": 61054,
+      "excerpt": "said. —What do you mean? Mr Deasy asked. He came forward a pace and stood by the table. His underjaw fell sideways open uncertainly. Is this old wisdom? He waits to hear from me. —History, Stephen said, is a nightmare from which I am trying to awake. From the playfield the boys raised a shout. A whirring whistle: goal. What if that nightmare gave you a back kick? —The ways of the Creator are not our ways, Mr Deasy said. All human history moves towards one great goal, the manifestation of God. Stephen jerked his thumb towards the window, saying: —That is God. Hooray! Ay! Whrrwhee! —What? Mr Deasy asked. —A shout in the street, Stephen answered, shrugging his shoulders. Mr Deasy looked down and held for awhile the wings of his nose tweaked between his fingers. Looking up again he set them free. —I am happier than you are, he said. We have committed many errors and many sins. A woman brought sin into the world. For a woman who was no better than she should be, Helen, the runaway wife of M"
+    },
+    {
+      "needle": "Paternity may be a legal fiction",
+      "characterOffset": 401075,
+      "excerpt": "nded, like the world, macro and microcosm, upon the void. Upon incertitude, upon unlikelihood. Amor matris , subjective and objective genitive, may be the only true thing in life. Paternity may be a legal fiction. Who is the father of any son that any son should love him or he any son? What the hell are you driving at? I know. Shut up. Blast you. I have reasons. Amplius. Adhuc. Iterum. Postea. Are you condemned to do this? —They are sundered by a bodily shame so steadfast that the criminal annals of the world, stained with all other incests and bestialities, hardly record its breach. Sons with mothers, sires with daughters, lesbic sisters, loves that dare not speak their name, nephews with grandmothers, jailbirds with keyholes, queens with prize bulls. The son unborn mars beauty: born, he brings pain, divides affection, increases care. He is a new male: his growth is his father’s decline, his youth his father’s envy, his friend his father’s enemy. In rue Monsieur-le-Prince I thought it"
+    },
+    {
+      "needle": "Non serviam",
+      "characterOffset": 1082341,
+      "excerpt": "with rage.) Shite! (His features grow drawn and grey and old.) BLOOM: (At the window.) What? STEPHEN: Ah non, par exemple! The intellectual imagination! With me all or not at all. Non serviam! FLORRY: Give him some cold water. Wait. (She rushes out.) THE MOTHER: (Wrings her hands slowly, moaning desperately.) O Sacred Heart of Jesus, have mercy on him! Save him from hell, O Divine Sacred Heart! STEPHEN: No! No! No! Break my spirit, all of you, if you can! I’ll bring you all to heel! THE MOTHER: (In the agony of her deathrattle.) Have mercy on Stephen, Lord, for my sake! Inexpressible was my anguish when expiring with love, grief and agony on Mount Calvary. STEPHEN: Nothung! (He lifts his ashplant high with both hands and smashes the chandelier. Time’s livid final flame leaps and, in the following darkness, ruin of all space, shattered glass and toppling masonry.) THE GASJET: Pwfungg! BLOOM: Stop! LYNCH: (Rushes forward and seizes Stephen’s hand.) Here! Hold on! Don’t run amok! BELLA: P"
+    }
+  ],
+  "scope": "Primary name and bounded passages inspected, not complete rereading."
+}

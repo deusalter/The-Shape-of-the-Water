@@ -1,0 +1,13 @@
+{
+  "id": "search-dread-followup",
+  "url": "https://html.duckduckgo.com/html/?q=site%3Adreadcentral.com+%22Charlotte%22+%22Rosy%22",
+  "retrieved_utc": "2026-10-04T02:07:18.335163+00:00",
+  "resolved_url": "https://html.duckduckgo.com/html/?q=site%3Adreadcentral.com+%22Charlotte%22+%22Rosy%22",
+  "status": 200,
+  "title": "site:dreadcentral.com \"Charlotte\" \"Rosy\" at DuckDuckGo",
+  "sha256": "43f47a714f69957c2704547c98d8709096dcfcf8f4caa5ec60505420423b1111",
+  "text_sha256": "02090eb1050f4a1a71e225e98c456a559e59048f80021c27e0da91dcc5bcee96",
+  "bytes": 9407,
+  "raw_path": ".local-evidence/search-dread-followup.html",
+  "text_path": ".local-evidence/search-dread-followup.txt"
+}

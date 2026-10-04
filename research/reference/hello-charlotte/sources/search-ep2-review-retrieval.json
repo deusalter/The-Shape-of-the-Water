@@ -1,0 +1,13 @@
+{
+  "id": "search-ep2-review",
+  "url": "https://html.duckduckgo.com/html/?q=%22Hello+Charlotte%22+review+school",
+  "retrieved_utc": "2026-10-04T02:03:50.590637+00:00",
+  "resolved_url": "https://html.duckduckgo.com/html/?q=%22Hello+Charlotte%22+review+school",
+  "status": 200,
+  "title": "\"Hello Charlotte\" review school at DuckDuckGo",
+  "sha256": "b58a62ee171f29164d98e4165c041f0b3fd2030373c86803722eca57ebffd3c7",
+  "text_sha256": "29bec614b048cb9cdd91479fafa89178ee2c176f244c48c002c0ca776b4cc777",
+  "bytes": 34608,
+  "raw_path": ".local-evidence/search-ep2-review.html",
+  "text_path": ".local-evidence/search-ep2-review.txt"
+}

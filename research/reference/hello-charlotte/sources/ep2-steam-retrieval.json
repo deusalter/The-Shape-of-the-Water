@@ -1,0 +1,13 @@
+{
+  "id": "ep2-steam",
+  "url": "https://store.steampowered.com/app/557630/Hello_Charlotte_EP2_Requiem_Aeternam_Deo/",
+  "resolved_url": "https://store.steampowered.com/app/557630/Hello_Charlotte_EP2_Requiem_Aeternam_Deo/",
+  "status": 200,
+  "retrieved_utc": "2026-10-04T02:02:39.857711+00:00",
+  "sha256": "6e63f87e5479d96009a2ac0aecc05972dc23dd169cfce2e7e98327f19e203148",
+  "bytes": 106331,
+  "title": "Hello Charlotte EP2: Requiem Aeternam Deo on Steam",
+  "text_sha256": "3bb30fc59685a20ad0c6e45fe0a145511e16552cad0599aa4c3f718b8473e3a1",
+  "raw_path": ".local-evidence/ep2-steam.html",
+  "text_path": ".local-evidence/ep2-steam.txt"
+}

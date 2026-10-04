@@ -1,0 +1,13 @@
+{
+  "id": "ep3-itch-linked",
+  "url": "https://etherane.itch.io/hcep3",
+  "retrieved_utc": "2026-10-04T02:06:16.804813+00:00",
+  "resolved_url": "https://etherane.itch.io/hcep3",
+  "status": 200,
+  "title": "Hello Charlotte EP3: Childhood's End by etherane",
+  "sha256": "bedabc70751c1a0094e0775506936a4d85d6b43191bf306c6b7e29dae0a1e7e6",
+  "text_sha256": "d393f3e4edbf6093c6e2bd6c2ea274d7b6d17b25a7479ec7fe394698ce46683b",
+  "bytes": 25007,
+  "raw_path": ".local-evidence/ep3-itch-linked.html",
+  "text_path": ".local-evidence/ep3-itch-linked.txt"
+}

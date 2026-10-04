@@ -1,0 +1,13 @@
+{
+  "id": "search-criticism",
+  "url": "https://html.duckduckgo.com/html/?q=%22Hello+Charlotte%22+review+ep3",
+  "retrieved_utc": "2026-10-04T02:03:50.469233+00:00",
+  "resolved_url": "https://html.duckduckgo.com/html/?q=%22Hello+Charlotte%22+review+ep3",
+  "status": 200,
+  "title": "\"Hello Charlotte\" review ep3 at DuckDuckGo",
+  "sha256": "99df181f19a38acd2bb8033f727a1f084630ae3396329a570748042cf8e85703",
+  "text_sha256": "98feea6730b72393e44c11d3d6aa663591b3b82d460184dc27b0a89e4006409d",
+  "bytes": 34144,
+  "raw_path": ".local-evidence/search-criticism.html",
+  "text_path": ".local-evidence/search-criticism.txt"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "spinoza-attributes",
+    "url": "https://plato.stanford.edu/entries/spinoza-attributes/",
+    "retrievedAtUTC": "2026-10-04T02:05:04.826340+00:00",
+    "bytes": 81777,
+    "sha256": "f28122ab201bebf3615fe6b45cf1c6e73c805186a90a78be8796bc9a76d629e9",
+    "temporaryInspectionPath": "/tmp/spinoza-attributes-world-rebuild.txt",
+    "status": "bounded inspection completed; scopes and limits recorded in SOURCE-CHECKS.md",
+    "sourceId": "S-A",
+    "author": "Noa Shein",
+    "title": "Spinoza’s Theory of Attributes",
+    "substantiveRevision": "2023-06-03",
+    "inspectedParsedTextRanges": [
+      [
+        177,
+        276
+      ],
+      [
+        388,
+        620
+      ]
+    ],
+    "scope": "Sections 1.2, selected 1.3, 1.6–1.8.1.1, opening/selected 1.8.2; metadata/byline. Not whole article.",
+    "shortQuote": "Thought and Extension to be explanatorily self-contained.",
+    "parsedTextSha256": "f0bff3674da8c9c694b794500f4a086d08cc6145555c4b63426de3553646e292",
+    "shortQuoteVerified": true,
+    "distribution": "Full copyrighted retrieval is temporary only; repository retains metadata, bounded quotations and paraphrases."
+  },
+  {
+    "id": "spinoza",
+    "url": "https://plato.stanford.edu/entries/spinoza/",
+    "retrievedAtUTC": "2026-10-04T02:05:05.033094+00:00",
+    "bytes": 112794,
+    "sha256": "bede8d577ffaf69ce394d3746a5c01224d2a5d585ea909a7dee907afab2f5bb4",
+    "temporaryInspectionPath": "/tmp/spinoza-world-rebuild.txt",
+    "status": "bounded inspection completed; scopes and limits recorded in SOURCE-CHECKS.md",
+    "sourceId": "S-N",
+    "author": "Steven Nadler",
+    "title": "Baruch Spinoza",
+    "substantiveRevision": "2023-11-08",
+    "inspectedParsedTextRanges": [
+      [
+        833,
+        982
+      ]
+    ],
+    "scope": "Section 2.5 Virtue and Happiness; edition metadata additionally reconciled with inherited source record.",
+    "shortQuote": "not immortal in any personal sense",
+    "parsedTextSha256": "f366e141abb3b6a02932a5b0fee70c877b441d345b59dba75448556a423b83bd",
+    "shortQuoteVerified": true,
+    "distribution": "Full copyrighted retrieval is temporary only; repository retains metadata, bounded quotations and paraphrases."
+  },
+  {
+    "id": "kant-mind",
+    "url": "https://plato.stanford.edu/entries/kant-mind/",
+    "retrievedAtUTC": "2026-10-04T02:05:05.032706+00:00",
+    "bytes": 116907,
+    "sha256": "95b84280be355ff4849a954ca1701cb811564cd87d12ac7148d9113f558041b1",
+    "temporaryInspectionPath": "/tmp/kant-mind-world-rebuild.txt",
+    "status": "bounded inspection completed; scopes and limits recorded in SOURCE-CHECKS.md",
+    "sourceId": "K-M",
+    "author": "Andrew Brook",
+    "title": "Kant’s View of the Mind and Consciousness of Self",
+    "substantiveRevision": "2020-10-08",
+    "inspectedParsedTextRanges": [
+      [
+        677,
+        779
+      ],
+      [
+        963,
+        1124
+      ]
+    ],
+    "scope": "Section 3.4 and beginning 4/4.1; selected 4.4 through 4.5–4.7 and opening 5; metadata/byline. Not whole article.",
+    "shortQuote": "Unified consciousness is not just singular, it is unified.",
+    "parsedTextSha256": "0fbdca25dcf74de043d7578ded3889376d7ab19ad8f734399c59f3da89119710",
+    "shortQuoteVerified": true,
+    "distribution": "Full copyrighted retrieval is temporary only; repository retains metadata, bounded quotations and paraphrases."
+  }
+]

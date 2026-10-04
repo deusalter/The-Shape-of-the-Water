@@ -1,0 +1,28 @@
+{
+  "source": "narrative/sources/middlemarch.txt",
+  "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm",
+  "sha256": "68d72777c012fa0eb92cc9e32fce801be60d8a58c788a6be734f1d6e7ddc62eb",
+  "edition": "George Eliot, Middlemarch, Project Gutenberg ebook 145, retained primary text",
+  "inspectedUTC": "2026-10-04T02:29:14.701732+00:00",
+  "excerpts": [
+    {
+      "needle": "Tertius Lydgate",
+      "characterOffset": 347761,
+      "chapter": "CHAPTER XVI.",
+      "excerpt": " Our passions do not live apart in locked chambers, but, dressed in their small wardrobe of notions, bring their provisions to a common table and mess together, feeding out of the common store according to their appetite. Rosamond, in fact, was entirely occupied not exactly with Tertius Lydgate as he was in himself, but with his relation to her; and it was excusable in a girl who was accustomed to hear that all young men might, could, would be, or actually were in love with her, to believe at once that Lydgate could be no exception. His looks and words meant more to her than other men’s, because she cared more for them: she thought of them diligently, and diligently attended to that perfection of appearance, behavior, sentiments, and all other elegancies, which would find in Lydgate a more adequate admirer than she had yet been conscious of. For Rosamond, though she would never do anything that was disagreeable to her, was industrious; and now more than ever she was active in sketching her landscapes and market-carts and portraits of friends, in practising her music, and in being from morning till night her own standard of a perfect lady, having always an audience in her own consciousness, with sometimes the not unwelcome addition of a more variable external audience in the numerous visitors of the house. She found time also to read the best novels, and even the second best, an"
+    },
+    {
+      "needle": "What was the primitive tissue?",
+      "characterOffset": 307261,
+      "chapter": "CHAPTER XV.",
+      "excerpt": "European mind, Lydgate was enamoured; he longed to demonstrate the more intimate relations of living structure, and help to define men’s thought more accurately after the true order. The work had not yet been done, but only prepared for those who knew how to use the preparation. What was the primitive tissue? In that way Lydgate put the question—not quite in the way required by the awaiting answer; but such missing of the right word befalls many seekers. And he counted on quiet intervals to be watchfully seized, for taking up the threads of investigation—on many hints to be won from diligent application, not only of the scalpel, but of the microscope, which research had begun to use again with new enthusiasm of reliance. Such was Lydgate’s plan of his future: to do good small work for Middlemarch, and great work for the world. He was certainly a happy fellow at this time: to be seven-and-twenty, without any fixed vices, with a generous resolution that his action should be beneficent, and with ideas in his brain that made life interesting quite apart from the cultus of horseflesh and other mystic rites of costly observance, which the eight hundred pounds left him after buying his practice would certainly not have gone far in paying for. He was at a starting-point which makes many a man’s career a fine subject for betting, if there were any gentlemen given to that amusement who c"
+    },
+    {
+      "needle": "Lydgate’s spots of commonness",
+      "characterOffset": 311053,
+      "chapter": "CHAPTER XV.",
+      "excerpt": "a man of genius if you take him unawares on the wrong subject, or as many a man who has the best will to advance the social millennium might be ill-inspired in imagining its lighter pleasures; unable to go beyond Offenbach’s music, or the brilliant punning in the last burlesque. Lydgate’s spots of commonness lay in the complexion of his prejudices, which, in spite of noble intention and sympathy, were half of them such as are found in ordinary men of the world: that distinction of mind which belonged to his intellectual ardor, did not penetrate his feeling and judgment about furniture, or women, or the desirability of its being known (without his telling) that he was better born than other country surgeons. He did not mean to think of furniture at present; but whenever he did so it was to be feared that neither biology nor schemes of reform would lift him above the vulgarity of feeling that there would be an incompatibility in his furniture not being of the best. As to women, he had once already been drawn headlong by impetuous folly, which he meant to be final, since marriage at some distant period would of course not be impetuous. For those who want to be acquainted with Lydgate it will be good to know what was that case of impetuous folly, for it may stand as an example of the fitful swerving of passion to which he was prone, together with the chivalrous kindness which helpe"
+    }
+  ],
+  "scope": "Bounded primary text inspection; no complete rereading or source-character import claimed."
+}

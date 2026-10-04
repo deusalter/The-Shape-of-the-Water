@@ -1,0 +1,13 @@
+{
+  "id": "ep3-steam",
+  "url": "https://store.steampowered.com/app/760890/",
+  "retrieved_utc": "2026-10-04T02:03:50.090291+00:00",
+  "resolved_url": "https://store.steampowered.com/app/760890/",
+  "status": 200,
+  "title": "Hello Charlotte EP3: Childhood's End on Steam",
+  "sha256": "eb997421875900388372f83270be110cf1c6c4de607add1e5b515d0349152051",
+  "text_sha256": "5db6caec5b662d8cf1951827d7a847e5b367fb27a50f572e88d4d33bcefb4e17",
+  "bytes": 110926,
+  "raw_path": ".local-evidence/ep3-steam.html",
+  "text_path": ".local-evidence/ep3-steam.txt"
+}

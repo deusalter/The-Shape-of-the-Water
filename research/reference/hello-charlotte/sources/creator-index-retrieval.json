@@ -1,0 +1,13 @@
+{
+  "id": "creator-index",
+  "url": "https://etherane.itch.io/",
+  "resolved_url": "https://etherane.itch.io/",
+  "status": 200,
+  "retrieved_utc": "2026-10-04T02:02:38.754095+00:00",
+  "sha256": "666aeafe5bdcb7acdf3b67b7d7ea7b7ffba03296b15e31886e64aa67de0d3e1f",
+  "bytes": 16556,
+  "title": "etherane - itch.io",
+  "text_sha256": "85b719e807b03fdd44128d2c5524113d6d2a2e0cc5671e950de742138f10973d",
+  "raw_path": ".local-evidence/creator-index.html",
+  "text_path": ".local-evidence/creator-index.txt"
+}

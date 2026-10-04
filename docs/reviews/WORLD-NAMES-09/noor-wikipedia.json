@@ -1,0 +1,31 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Noor_Inayat_Khan",
+  "finalUrl": "https://en.wikipedia.org/wiki/Noor_Inayat_Khan",
+  "status": 200,
+  "retrievedUTC": "2026-10-04T02:26:40.213716+00:00",
+  "sha256RawResponse": "ea512a9080b379df3473c6a7ec6a8d2d22dbb1001c7e2d08cf85c8b527052e5f",
+  "normalization": "HTMLParser text excluding script/style, whitespace collapsed",
+  "excerpts": [
+    {
+      "needle": "Noor-un-Nisa Inayat Khan",
+      "normalizedCharacterOffset": 1756,
+      "excerpt": "dia WW2 SOE British agent (1914–1944) Noor Inayat Khan Noor-un-Nisa Inayat Khan, c. 1943 Born ( 1914-01-01 ) 1 January 1914 Moscow , Russian Empire Died 13 September 1944 (1944-09-13) (aged 30) Dachau concentration camp , Bavaria , Nazi Germany Other names Nora Baker Madeleine (SOE codename) Nurse (SOE callsign) Jeanne-Marie Renier (SOE alias) Military career Allegian"
+    },
+    {
+      "needle": "refused to abandon",
+      "normalizedCharacterOffset": 28359,
+      "excerpt": "ce groups to which she had been detailed. However, she refused to abandon what had become the principal and most dangerous post in France, even though she had been given the opportunity to return to England, because she did not want to leave her French comrades without communications and she also hoped to rebuild her group. Therefore, she remained at her post and did "
+    },
+    {
+      "needle": "only remaining",
+      "normalizedCharacterOffset": -1,
+      "excerpt": null
+    },
+    {
+      "needle": "wireless operator",
+      "normalizedCharacterOffset": 2803,
+      "excerpt": "der the codename Madeleine she became the first female wireless operator to be sent from the UK into occupied France to aid the French Resistance during the Second World War. [ 2 ] Inayat Khan was betrayed, captured, and executed at Dachau concentration camp . She was posthumously awarded the George Cross for her service, the highest civilian decoration for gallantry "
+    }
+  ],
+  "scope": "Bounded contemporary source excerpts only, less than 300 words. No full response saved; no complete-biography reading claimed."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "creator-site",
+  "url": "https://etherane.weebly.com/",
+  "retrieved_utc": "2026-10-04T02:03:50.091019+00:00",
+  "resolved_url": "https://etherane.weebly.com/",
+  "status": 200,
+  "title": "\u00e6therworks - Home",
+  "sha256": "14788baff5bbaa9572678583a955acb2eee66bf801310a7a1709d4bd2c39b645",
+  "text_sha256": "8b58844dc510812ff8cdd226a152460803f82eb4f791ac045a2dd7c222c4b3be",
+  "bytes": 28836,
+  "raw_path": ".local-evidence/creator-site.html",
+  "text_path": ".local-evidence/creator-site.txt"
+}

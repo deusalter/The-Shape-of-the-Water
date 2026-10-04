@@ -1,0 +1,13 @@
+{
+  "id": "ep1-itch",
+  "url": "https://etherane.itch.io/hello-charlotte-ep1",
+  "resolved_url": "https://etherane.itch.io/hello-charlotte-ep1",
+  "status": 200,
+  "retrieved_utc": "2026-10-04T02:02:39.101550+00:00",
+  "sha256": "58e6505603994757e1caccda797d8058308eb36c80713e67ec3f54f86652abd4",
+  "bytes": 30604,
+  "title": "Hello Charlotte EP1: Junk Food, Gods and Teddy Bears by etherane",
+  "text_sha256": "cd2e007dbfd3e6c659bc954efdd8d747c7403e2c7d44267dd43d380f9b4672de",
+  "raw_path": ".local-evidence/ep1-itch.html",
+  "text_path": ".local-evidence/ep1-itch.txt"
+}

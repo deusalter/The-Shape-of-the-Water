@@ -1,0 +1,8 @@
+{
+  "derived_from": "rpgmaker-tumblr-current.html",
+  "path": "PeeprRoute.initialTimeline.objects[0].content[type=text].text",
+  "method": "JSON decode public initial-state script; no authentication, executed script or browser action",
+  "sha256": "e7b20cf842b64d563be9f04bd3a41062861c5351ceb70ee7df984a88e9965543",
+  "published": "2018-01-04 22:38:41 GMT",
+  "postUrl": "https://rpgmgames.tumblr.com/post/169320799703/januarys-featured-game-hello-charlotte"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ep2-itch",
+  "url": "https://etherane.itch.io/hello-charlotte-ep2",
+  "resolved_url": "https://etherane.itch.io/hello-charlotte-ep2",
+  "status": 200,
+  "retrieved_utc": "2026-10-04T02:02:39.430506+00:00",
+  "sha256": "7d5aaf7dcebd4edca611fd4f76c812cebfbf337ef0e834f2ae072b6980ec676e",
+  "bytes": 32039,
+  "title": "Hello Charlotte EP2: Requiem Aeternam Deo by etherane",
+  "text_sha256": "34d8469025a7c24a965bacc4b9171290656777388f4a1157e2cee66cd9e81bb0",
+  "raw_path": ".local-evidence/ep2-itch.html",
+  "text_path": ".local-evidence/ep2-itch.txt"
+}

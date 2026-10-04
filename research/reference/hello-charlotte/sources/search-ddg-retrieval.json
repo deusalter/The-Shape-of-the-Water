@@ -1,0 +1,13 @@
+{
+  "id": "search-ddg",
+  "url": "https://html.duckduckgo.com/html/?q=Hello+Charlotte+etherane+interview+review",
+  "resolved_url": "https://html.duckduckgo.com/html/?q=Hello+Charlotte+etherane+interview+review",
+  "status": 200,
+  "retrieved_utc": "2026-10-04T02:02:40.988877+00:00",
+  "sha256": "9d271a3177be89bbc2f86431731519c6982dab7657489eacad074cb45abb59b1",
+  "bytes": 34246,
+  "title": "Hello Charlotte etherane interview review at DuckDuckGo",
+  "text_sha256": "55e03cde8152ba6e121a7ad298c0915bd6304503c7e7fc41abedfea829d584b0",
+  "raw_path": ".local-evidence/search-ddg.html",
+  "text_path": ".local-evidence/search-ddg.txt"
+}
