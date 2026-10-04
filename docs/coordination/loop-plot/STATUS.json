@@ -1,7 +1,7 @@
 {
   "team": "loop-plot",
   "requestId": "T-002",
-  "phase": "T-002 complete; publication pending",
+  "phase": "T-002 complete and published; awaiting lead selection",
   "chatId": "01a1042a-ed4d-771e-8cd5-f21def1bf031",
   "chatTitle": "Literary Game — Loop and Plot",
   "branch": "team/loop-plot",
@@ -28,7 +28,7 @@
     "docs/coordination/loop-plot/work/validation.json"
   ],
   "blockers": [],
-  "updatedAtUTC": "2026-10-04T00:49:50.887402+00:00",
+  "updatedAtUTC": "2026-10-04T00:50:50.765336+00:00",
   "childSlotReleased": true,
   "integrationBase": "70a495a8b6e7a9ec9ed64c281c302b14e0d0ae60",
   "latestCoordinatorCorrection": "docs/OWNER-3D-FACELESS-2026-10-04.md",
@@ -42,15 +42,21 @@
     "Parent exact selected model ID/effort not exposed"
   ],
   "checks": {
-    "staticPacket": "PASS; rerun after final source/metadata updates",
+    "staticPacket": "PASS: 49 original input hashes + 4 follow-up hashes; 27 nodes, 29 edges, 32 abstract terminal traces; ownership/JSON/punctuation checks",
     "runtimeOccasionTests": "NOT RUN; proposed only",
     "browserTests": "NOT RUN; proposal scope",
     "childReview": "3 dependent continuity findings repaired and manually checked by parent"
   },
   "publication": {
     "branch": "team/loop-plot",
-    "status": "pending",
+    "status": "verified published",
     "author": "deusalter <212029343+deusalter@users.noreply.github.com>",
-    "coauthorTrailers": false
+    "coauthorTrailers": false,
+    "contentCommit": "1ec80ac7174ed41f1a3c5a27a837afc35b5b9afa",
+    "method": "Existing tools/publish-git-via-api.py, exact object SHA checks and non-forced ref update",
+    "ordinaryPush": "Failed: Git HTTPS transport could not read Username; no credentials disclosed",
+    "remoteRefVerified": "refs/heads/team/loop-plot",
+    "lastCoordinatorHead": "70a495a8b6e7a9ec9ed64c281c302b14e0d0ae60",
+    "finalStatusCommit": "The following metadata-only commit records the verified content publication; resolve branch HEAD for its identity."
   }
 }

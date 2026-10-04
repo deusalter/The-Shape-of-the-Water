@@ -8,7 +8,7 @@
   "createdAtUTC": "2026-10-04T00:47:20.768450+00:00",
   "model": {
     "requestedParent": "Astra / Ultra",
-    "observedParent": "System identifies GPT-6 family only; exact model ID and effort not exposed",
+    "observedParent": "Session instructions identify GPT-6 family only; exact model ID and effort not exposed",
     "childRequestedAndAccepted": "gpt-6-astra / ultra",
     "backendAttested": false
   },
@@ -39,6 +39,14 @@
       "permitSlots": 1,
       "change": "3D faceless figures; role-specific literary task unchanged; branch fast-forwarded preserving proposal work",
       "checkedAtUTC": "2026-10-04T00:49:33.820340+00:00"
+    },
+    {
+      "phase": "post content-publication final follow-up fetch",
+      "originMain": "70a495a8b6e7a9ec9ed64c281c302b14e0d0ae60",
+      "requestChanged": false,
+      "permitSlots": 1,
+      "childActive": false,
+      "checkedAtUTC": "2026-10-04T00:50:50.765718+00:00"
     }
   ],
   "inputs": [
