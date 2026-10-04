@@ -1,0 +1,89 @@
+{
+  "status": "Accepted by sole lead for first-movement development integration; not owner-approved; not complete game.",
+  "utc": "2026-10-04T03:01:39.031911+00:00",
+  "contentSha256": "bc7d3ffc46f995be71f661a11bb322ac16193f49469d83b8c840506637efb6e0",
+  "files": [
+    {
+      "source": "src/content/case-v4.json",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement/case-v4.json",
+      "sha256": "bc7d3ffc46f995be71f661a11bb322ac16193f49469d83b8c840506637efb6e0"
+    },
+    {
+      "source": "narrative/rebuild/A-THE-SECOND-MOUTH.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement/A-THE-SECOND-MOUTH.md",
+      "sha256": "3ace0e2354f14859569e6ed93b7484e30e8fbae95f33a8f2569ae07567fc8992"
+    },
+    {
+      "source": "narrative/rebuild/A-CAUSAL-LEDGER.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement/A-CAUSAL-LEDGER.md",
+      "sha256": "b0f7ead6fa75ae38faef15e252d58933c38680faf0c673cc75c01d1289b917ae"
+    },
+    {
+      "source": "narrative/rebuild/A-EARLY-TRANSFER.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement/A-EARLY-TRANSFER.md",
+      "sha256": "c723dfec64a0127ad74bbff3eb3d29b6808c60d17495ad854093d99165c0ce9e"
+    },
+    {
+      "source": "narrative/rebuild/A-FIRST-INVESTIGATION.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement/A-FIRST-INVESTIGATION.md",
+      "sha256": "9929955af04462c36b4c0cf7a67464ad24b38b59a6f95074fc2e6502920e2659"
+    },
+    {
+      "source": "narrative/rebuild/SELECTION-AND-DISPOSITIONS.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement/SELECTION-AND-DISPOSITIONS.md",
+      "sha256": "2454d49452fca1f100287dc12fc524475737ac1483ece7b3f583dc08c71171f9"
+    },
+    {
+      "source": "narrative/rebuild/OPENING-STAGING.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement/OPENING-STAGING.md",
+      "sha256": "34ec22995a099a37010e290259f9d701aae081cd31e8656086a5cad69cf2e150"
+    },
+    {
+      "source": "narrative/rebuild/build-first-movement.py",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement/build-first-movement.py",
+      "sha256": "846a57977f80b98557d3b535f209ed1b7a1c1b603195d74028ec7f015175d9a5"
+    },
+    {
+      "source": "narrative/rebuild/check-first-movement.mjs",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement/check-first-movement.mjs",
+      "sha256": "a783b6acbef32c0a3cb759213fc5b0f4c1ae89dd76df897bcfda841eb958aadf"
+    },
+    {
+      "source": "narrative/rebuild/MANUSCRIPT-V4.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement/MANUSCRIPT-V4.md",
+      "sha256": "3f92d724829ac02dff7d7627de00a6819d5c9061f3d97dba4e32a5bd1d058c63"
+    },
+    {
+      "source": "narrative/rebuild/STAGING-V4.json",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement/STAGING-V4.json",
+      "sha256": "ebb5f3dc6eca33292f6eb7d6e67028fe8c9f6c8110d0d440969824ccb12606cc"
+    },
+    {
+      "source": "narrative/rebuild/ROUTE-CHECK-V4.json",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement/ROUTE-CHECK-V4.json",
+      "sha256": "b31f0ee8ac287db6f1bab3d386a233c2e34599212d93f2ed9f96c339bb9d4bcc"
+    },
+    {
+      "source": "narrative/rebuild/BUILD-V4.json",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement/BUILD-V4.json",
+      "sha256": "c2ebff4c3f8027e81bf12fcb121912144afbbe78147e7354ba52af7f3f929037"
+    },
+    {
+      "source": "narrative/rebuild/VOICE-V4.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement/VOICE-V4.md",
+      "sha256": "9ccf35ff43a53730632266e6509a7160cae8a795bf090b7e267a28214044bcde"
+    }
+  ],
+  "routePassageWordRange": [
+    4967,
+    5541
+  ],
+  "duration": "Unmeasured. Approximately21–31minutes reading at180–240wpm before unmeasured deliberation; not the long-form target.",
+  "pending": [
+    "Root browser/3D integration check",
+    "Fresh actual-route reader",
+    "Two small prose precision repairs recorded to root; current exact edition held",
+    "Later causal disclosure and alternate whole-game ending",
+    "Full long-form manuscript and implementation"
+  ]
+}

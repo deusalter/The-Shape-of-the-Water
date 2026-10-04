@@ -1,0 +1,15 @@
+{
+  "status": "FAIL",
+  "scope": "Built player spatial action to actual engine/save, one opening route only",
+  "sourcePins": {
+    "src/components/EvidencePlayer.tsx": "265acadba601d4861ffd3524987beee23f4292cf111488cff9fecb291ea0526a",
+    "src/world/rebuild/RebuildWorld.tsx": "638012df72f023274419fdc0c9622d3b28071e3360a80494c2fd2f787619bd1b",
+    "src/world/rebuild/profiles.ts": "4d48f58ffed98368069436afbb5958ac88fac0095ca92b80c5c4aefe1975ebdf",
+    "src/content/case-v4.json": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+    "dist-player/asset-manifest.json": "84937f045f9859a09ac584cc30156cc88f380005b69282732f3e909129e0871d"
+  },
+  "checks": [],
+  "errors": [],
+  "failure": "Error: expect(locator).toContainText(expected) failed\n\nLocator: locator('.rebuild-world-near')\nExpected substring: \"Listen to Noor\"\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toContainText\" locator('.rebuild-world-near') with timeout 15000ms\n  - waiting for locator('.rebuild-world-near')\n",
+  "sourceStable": true
+}

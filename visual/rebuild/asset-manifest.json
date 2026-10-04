@@ -1,0 +1,78 @@
+{
+  "status": "bounded-first-movement-source-and-model",
+  "date": "2026-10-04",
+  "authoring": "Blender 4.3.2 CLI, original geometry/materials, no GUI computer use",
+  "model": {
+    "nodes": 313,
+    "meshes": 289,
+    "bytes": 1294552,
+    "images": 0
+  },
+  "coverage": {
+    "actualScenes": 39,
+    "authoredChoices": 57,
+    "nonBaseVariants": [
+      "o0.hub-after-inspection",
+      "o0.argument-handover"
+    ],
+    "localGeometryGroups": [
+      "SupperRoom",
+      "LowerPassage"
+    ],
+    "countryBeyondThresholds": "not modelled",
+    "visibleProjection": "Only exact current-first-occasion o0.cast-removed source for optional pre/post-removal niche scenes; future recurrence requires historical/current scope handling"
+  },
+  "files": {
+    "tools/blender/build-rebuild.py": {
+      "sha256": "2fd0432f981d6d3dc9ee61a7a4c6456cbcb40871b1804af8af5d5fd29145f7c1",
+      "bytes": 22751
+    },
+    "visual/rebuild/second-mouth-supper.blend": {
+      "sha256": "996c4198676fb2be54c01695890763b000bc960346e03ca69fed8c62cf473fba",
+      "bytes": 3598500
+    },
+    "public/world/rebuild/second-mouth-supper.glb": {
+      "sha256": "114ddc2339ab2d3293a7dfbdf31ccdbb92757cb961005a7723fc702ecb6762b4",
+      "bytes": 1294552
+    },
+    "src/world/rebuild/RebuildWorld.tsx": {
+      "sha256": "638012df72f023274419fdc0c9622d3b28071e3360a80494c2fd2f787619bd1b",
+      "bytes": 13858
+    },
+    "src/world/rebuild/profiles.ts": {
+      "sha256": "4d48f58ffed98368069436afbb5958ac88fac0095ca92b80c5c4aefe1975ebdf",
+      "bytes": 13252
+    },
+    "src/world/rebuild/navigation.ts": {
+      "sha256": "68177d88f8bfc0e26f77c661f77d68f774bd60a4b4f6ac33365587b32567b8cd",
+      "bytes": 3249
+    },
+    "src/world/rebuild/rebuild.css": {
+      "sha256": "472ca7f5a3d79e1c283f5c291c6518492545144c3cb521b2deda05d064332634",
+      "bytes": 2433
+    },
+    "visual/rebuild/runtime-preview.html": {
+      "sha256": "3a3c5b37c53ea99b7d6101941730d81930bfbddbf54e2604310dd805741cb6ef",
+      "bytes": 2233
+    },
+    "visual/rebuild/verify-renderer.mjs": {
+      "sha256": "96fdc3de72d7d7a6e66f17906613802da67f36427414aff8a9077fdd15fe5d33",
+      "bytes": 6606
+    },
+    "tests/rebuild-world-assets.test.ts": {
+      "sha256": "a15855af7b198b87af368fe13e7bba9e37a9fcf8ca0fd2eb93594e427fa2ab02",
+      "bytes": 4046
+    },
+    "tests/rebuild-world-navigation.test.ts": {
+      "sha256": "d4b1fd73c3fd1e759e1b086e19d38705c6a3db3a9502c2eb17592c3b6aa71c5f",
+      "bytes": 2638
+    }
+  },
+  "limits": [
+    "provisional literary selection, not owner acceptance",
+    "bounded first-location model, not full longer world",
+    "fixture callback checks are not integrated engine gameplay",
+    "Chromium software WebGL only",
+    "static passage poses, no full sitting/bending/locomotion animation"
+  ]
+}

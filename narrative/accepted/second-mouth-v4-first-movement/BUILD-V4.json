@@ -1,0 +1,8 @@
+{
+  "sha256": "bc7d3ffc46f995be71f661a11bb322ac16193f49469d83b8c840506637efb6e0",
+  "scenes": 38,
+  "choices": 53,
+  "sources": 26,
+  "basePassageWords": 6522,
+  "status": "Emitted development candidate; validation and actual route checks still required."
+}

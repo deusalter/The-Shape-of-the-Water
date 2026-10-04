@@ -1,0 +1,22 @@
+{
+  "manifest_sha256": "49ea0359b54bc5d793eedaa012c2a815573a3a60996324879146fca3e6f03f7e",
+  "manifest_file_pins_match": true,
+  "errors": [],
+  "scenes": 39,
+  "choices": 57,
+  "occasions": 1,
+  "coverage": {
+    "actualScenes": 39,
+    "authoredChoices": 57,
+    "nonBaseVariants": [
+      "o0.hub-after-inspection",
+      "o0.argument-handover"
+    ],
+    "localGeometryGroups": [
+      "SupperRoom",
+      "LowerPassage"
+    ],
+    "countryBeyondThresholds": "not modelled",
+    "visibleProjection": "Only exact current-first-occasion o0.cast-removed source for optional pre/post-removal niche scenes; future recurrence requires historical/current scope handling"
+  }
+}

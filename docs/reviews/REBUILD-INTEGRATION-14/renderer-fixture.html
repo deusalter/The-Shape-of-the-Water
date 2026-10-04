@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Independent integration renderer fixture</title><style>body{margin:1rem;max-width:1000px}button{padding:.6rem}</style></head>
+<body><main><h1>Independent boundary fixture</h1><div id="root"></div></main><script type="module">
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import {flushSync} from 'react-dom';
+import * as THREE from 'three';
+import {RebuildWorld} from '/src/world/rebuild/RebuildWorld.tsx';
+import content from '/src/content/case-v4.json';
+// Observe actual renderer scene objects without altering production source or fictional state.
+const originalAdd=THREE.Scene.prototype.add;
+const evidence=window.integration={log:[],asset:null,set:null};
+THREE.Scene.prototype.add=function(...objects){
+ for(const object of objects)if(object.getObjectByName('Blaise'))evidence.asset=object;
+ return originalAdd.apply(this,objects);
+};
+Object.defineProperty(evidence,'snapshot',{get(){
+ const snapshot={};
+ evidence.asset?.traverse(object=>{
+  if(['Dora','DoraStanding','DoraKneeling','NoorPanel','NoorWindow','NoorLower','SpeakingPiece','DoraPlaceCast','SupperRoom','LowerPassage','Blaise','CupCharcoalMark'].includes(object.name)){
+   let visible=true;for(let node=object;node;node=node.parent)visible&&=node.visible;
+   snapshot[object.name]={visible,position:object.position.toArray(),parent:object.parent?.name};
+  }
+ });
+ return snapshot;
+}});
+function Fixture(){
+ const [state,setState]=React.useState({sceneId:'o0.promise',variantId:'o0.promise.base',encounteredSourceIds:[],offered:true,disabled:false,mounted:true});
+ evidence.set=patch=>flushSync(()=>setState(previous=>({...previous,...patch})));
+ const choices=state.offered?(content.scenes.find(scene=>scene.id===state.sceneId)?.choices??[]).map(({id,label})=>({id,label})):[];
+ return state.mounted?React.createElement(RebuildWorld,{...state,choices,onChoose:id=>evidence.log.push(id)}):null;
+}
+createRoot(document.getElementById('root')).render(React.createElement(Fixture));
+</script></body></html>

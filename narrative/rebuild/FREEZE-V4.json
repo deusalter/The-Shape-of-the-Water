@@ -1,0 +1,95 @@
+{
+  "status": "Lead accepts corrected first movement for development integration; not owner-approved or complete game.",
+  "utc": "2026-10-04T03:12:33.271998+00:00",
+  "contentSha256": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+  "files": [
+    {
+      "source": "src/content/case-v4.json",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement-r2/case-v4.json",
+      "sha256": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c"
+    },
+    {
+      "source": "narrative/rebuild/A-THE-SECOND-MOUTH.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement-r2/A-THE-SECOND-MOUTH.md",
+      "sha256": "3ace0e2354f14859569e6ed93b7484e30e8fbae95f33a8f2569ae07567fc8992"
+    },
+    {
+      "source": "narrative/rebuild/A-CAUSAL-LEDGER.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement-r2/A-CAUSAL-LEDGER.md",
+      "sha256": "b0f7ead6fa75ae38faef15e252d58933c38680faf0c673cc75c01d1289b917ae"
+    },
+    {
+      "source": "narrative/rebuild/A-EARLY-TRANSFER.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement-r2/A-EARLY-TRANSFER.md",
+      "sha256": "c723dfec64a0127ad74bbff3eb3d29b6808c60d17495ad854093d99165c0ce9e"
+    },
+    {
+      "source": "narrative/rebuild/A-FIRST-INVESTIGATION.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement-r2/A-FIRST-INVESTIGATION.md",
+      "sha256": "95edb4990a804838f4f26ba23f527aaf248874c2c6d80f6f4d971eae43326602"
+    },
+    {
+      "source": "narrative/rebuild/SELECTION-AND-DISPOSITIONS.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement-r2/SELECTION-AND-DISPOSITIONS.md",
+      "sha256": "2454d49452fca1f100287dc12fc524475737ac1483ece7b3f583dc08c71171f9"
+    },
+    {
+      "source": "narrative/rebuild/OPENING-STAGING.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement-r2/OPENING-STAGING.md",
+      "sha256": "34ec22995a099a37010e290259f9d701aae081cd31e8656086a5cad69cf2e150"
+    },
+    {
+      "source": "narrative/rebuild/build-first-movement.py",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement-r2/build-first-movement.py",
+      "sha256": "c613d2c7b62657ffb4d67c99323306652e58ad58b1f66f0df036630da934369c"
+    },
+    {
+      "source": "narrative/rebuild/check-first-movement.mjs",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement-r2/check-first-movement.mjs",
+      "sha256": "5bdc6408b113565eec1a7602f8ccda139b9e7353db0f314ced579e2266fba687"
+    },
+    {
+      "source": "narrative/rebuild/MANUSCRIPT-V4.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement-r2/MANUSCRIPT-V4.md",
+      "sha256": "2adb66237c551349ce4d7eb1204ad1fa6203ff63406d0c4bfe43794d93e7f0f6"
+    },
+    {
+      "source": "narrative/rebuild/STAGING-V4.json",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement-r2/STAGING-V4.json",
+      "sha256": "c44bc92a966e9539f2151094f145b00c7a9adc21eb315cfee591c540b2076fc3"
+    },
+    {
+      "source": "narrative/rebuild/ROUTE-CHECK-V4.json",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement-r2/ROUTE-CHECK-V4.json",
+      "sha256": "e21652e59081be7065aa1b57ea6c2bc733d8b1cc09c425a4bb8f378ff6c6d667"
+    },
+    {
+      "source": "narrative/rebuild/BUILD-V4.json",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement-r2/BUILD-V4.json",
+      "sha256": "cb848e5c03cc5dd292b7d4fe14427d7a20755df20e152148dfe8086fee4c4136"
+    },
+    {
+      "source": "narrative/rebuild/VOICE-V4.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement-r2/VOICE-V4.md",
+      "sha256": "9ccf35ff43a53730632266e6509a7160cae8a795bf090b7e267a28214044bcde"
+    },
+    {
+      "source": "narrative/rebuild/CAST-V4.md",
+      "copy": "narrative/accepted/second-mouth-v4-first-movement-r2/CAST-V4.md",
+      "sha256": "240d0ba7b0781052ac5c9227c5fbe5fe5847d117960f3446a978aa15a1ca9ae0"
+    }
+  ],
+  "sceneCount": 39,
+  "choiceCount": 57,
+  "sourceCount": 26,
+  "testedRoutePassageWordRange": [
+    5065,
+    5648
+  ],
+  "readingTimeEstimate": "About21–32minutes at180–240wpm, excluding unmeasured decisions/exploration. No human timing.",
+  "pending": [
+    "Root build/browser/3D checks",
+    "Later country/disclosure/ending manuscript",
+    "Whole-game implementation and duration"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "date": "2026-10-04T03:15:44.214Z",
+  "scope": "Independent actual renderer boundary fixture. Production source and GLB; controlled props; no engine-gameplay, broad route, offline, performance, or accessibility claim.",
+  "pinsBefore": {
+    "src/components/EvidencePlayer.tsx": "ae526c96711537c59e517a878f81b7ea6285ab4f5210f1b723c329c547f30101",
+    "src/world/rebuild/RebuildWorld.tsx": "638012df72f023274419fdc0c9622d3b28071e3360a80494c2fd2f787619bd1b",
+    "src/world/rebuild/profiles.ts": "4d48f58ffed98368069436afbb5958ac88fac0095ca92b80c5c4aefe1975ebdf",
+    "src/world/rebuild/navigation.ts": "68177d88f8bfc0e26f77c661f77d68f774bd60a4b4f6ac33365587b32567b8cd",
+    "src/world/rebuild/rebuild.css": "472ca7f5a3d79e1c283f5c291c6518492545144c3cb521b2deda05d064332634",
+    "src/Release.tsx": "c8697fff0dc1d9e21363ad099d87e19798fc386ace86376521015f0c3f76ed26",
+    "src/content/load-evidence.ts": "7e80754e6ca7f238f33d619345616434d68022b8ce636728dcf4085f19c05550",
+    "src/content/selection.json": "9e001b87b4c1618a3274b78104a6b5c9c06571c4fc74f35288c6f03acde8dae9",
+    "src/content/case-v4.json": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+    "src/content/case-v2.json": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+    "src/offline.ts": "266d5d24a3af5c93d0674c458a50f519d1338b93fb1b9e765ffa5c228d9b5522",
+    "public/sw.js": "c6adde5191637ef3d5675e75b809b1b92626ea714c19ef87d5503fe4e55036e9",
+    "tools/engine-offline-manifest.mjs": "afeb9c8047b095c46ef12a10607aea592d78dd62044c82bd30ebed6e5fd3e4a0",
+    "tools/blender/build-rebuild.py": "2fd0432f981d6d3dc9ee61a7a4c6456cbcb40871b1804af8af5d5fd29145f7c1",
+    "public/world/rebuild/second-mouth-supper.glb": "114ddc2339ab2d3293a7dfbdf31ccdbb92757cb961005a7723fc702ecb6762b4",
+    "visual/rebuild/asset-manifest.json": "49ea0359b54bc5d793eedaa012c2a815573a3a60996324879146fca3e6f03f7e"
+  },
+  "checks": [
+    "Disabled, withdrawn, and prior-scene E actions rejected synchronously; offered nearby action dispatches its exact ID.",
+    "Actual GLB lower scene excludes upstairs actors; encountered cast-removal source restages the cast in both directions without changing scene/variant.",
+    "Dry departure stages the accompanying woman and does not carry Noor or the orchard speaking piece downstairs.",
+    "Unknown scene and unknown variant use text-only fallback; remount dispatches only one callback.",
+    "In-flight load resolved after unmount cannot revive obsolete renderer; remount has one canvas and one action callback."
+  ],
+  "pageErrors": [],
+  "pinsAfter": {
+    "src/components/EvidencePlayer.tsx": "ae526c96711537c59e517a878f81b7ea6285ab4f5210f1b723c329c547f30101",
+    "src/world/rebuild/RebuildWorld.tsx": "638012df72f023274419fdc0c9622d3b28071e3360a80494c2fd2f787619bd1b",
+    "src/world/rebuild/profiles.ts": "4d48f58ffed98368069436afbb5958ac88fac0095ca92b80c5c4aefe1975ebdf",
+    "src/world/rebuild/navigation.ts": "68177d88f8bfc0e26f77c661f77d68f774bd60a4b4f6ac33365587b32567b8cd",
+    "src/world/rebuild/rebuild.css": "472ca7f5a3d79e1c283f5c291c6518492545144c3cb521b2deda05d064332634",
+    "src/Release.tsx": "c8697fff0dc1d9e21363ad099d87e19798fc386ace86376521015f0c3f76ed26",
+    "src/content/load-evidence.ts": "7e80754e6ca7f238f33d619345616434d68022b8ce636728dcf4085f19c05550",
+    "src/content/selection.json": "9e001b87b4c1618a3274b78104a6b5c9c06571c4fc74f35288c6f03acde8dae9",
+    "src/content/case-v4.json": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+    "src/content/case-v2.json": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+    "src/offline.ts": "266d5d24a3af5c93d0674c458a50f519d1338b93fb1b9e765ffa5c228d9b5522",
+    "public/sw.js": "c6adde5191637ef3d5675e75b809b1b92626ea714c19ef87d5503fe4e55036e9",
+    "tools/engine-offline-manifest.mjs": "afeb9c8047b095c46ef12a10607aea592d78dd62044c82bd30ebed6e5fd3e4a0",
+    "tools/blender/build-rebuild.py": "2fd0432f981d6d3dc9ee61a7a4c6456cbcb40871b1804af8af5d5fd29145f7c1",
+    "public/world/rebuild/second-mouth-supper.glb": "114ddc2339ab2d3293a7dfbdf31ccdbb92757cb961005a7723fc702ecb6762b4",
+    "visual/rebuild/asset-manifest.json": "49ea0359b54bc5d793eedaa012c2a815573a3a60996324879146fca3e6f03f7e"
+  },
+  "stable": true
+}

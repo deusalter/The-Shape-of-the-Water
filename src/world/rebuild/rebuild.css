@@ -1,0 +1,17 @@
+.rebuild-world{position:relative;isolation:isolate;border:1px solid var(--line,#756d80);background:#1b1825;margin:1rem 0;overflow:hidden;border-radius:4px;min-width:0;color:#f4eee1}
+.rebuild-world-canvas{height:clamp(300px,48vw,580px);width:100%;outline-offset:-5px;touch-action:pan-y}
+.rebuild-world-canvas:focus-visible{outline:3px solid #e9cb93}
+.rebuild-world-canvas canvas{display:block;width:100%;height:100%}
+.rebuild-world-caption{position:absolute;top:1rem;left:1rem;right:1rem;display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem;pointer-events:none;text-shadow:0 2px 4px #000;background:#211b2ac9;padding:.5rem .7rem}
+.rebuild-world-near{position:absolute;bottom:6rem;left:1rem;max-width:min(25rem,calc(100% - 2rem));padding:.8rem;background:#211b2aee;border:1px solid #a99b81;box-sizing:border-box}
+.rebuild-world-near p{margin:.4rem 0 .6rem}.rebuild-world-near button{white-space:normal;max-width:100%}
+.rebuild-world-controls{padding:.7rem 1rem;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:.5rem;font-size:.9rem}
+.rebuild-world-controls p{margin:0;flex:1 1 18rem}.rebuild-world-controls>div{display:flex;gap:.4rem;flex-wrap:wrap}
+.rebuild-world-controls button{min-width:2.6rem;min-height:2.6rem}.rebuild-world-fallback{padding:.6rem 1rem}.rebuild-world-fallback p{margin:.3rem 0}
+@media(max-width:520px){.rebuild-world-canvas{height:340px}.rebuild-world-caption{font-size:.82rem;top:.5rem;left:.5rem;right:.5rem}.rebuild-world-near{bottom:8.5rem;left:.5rem;max-width:calc(100% - 1rem);font-size:.88rem}.rebuild-world-controls{font-size:.82rem;padding:.6rem}.rebuild-world-controls p{flex-basis:100%}}
+.rebuild-world-controls button.quiet{color:#f4eee1;border-color:#a99b81;background:transparent;white-space:nowrap}
+.rebuild-world-controls button.quiet:hover{background:#393144}
+.rebuild-world-near button{background:#dac99d;color:#241d29;border-color:#bda878}
+.rebuild-world-near button:hover{background:#e7d7b2}
+.evidence-player .rebuild-world{grid-column:1/-1;margin:0}
+@media(min-width:1100px){.evidence-player .rebuild-world{grid-column:1;grid-row:1;align-self:start;position:sticky;top:1rem}.evidence-player .rebuild-world-canvas{height:calc(100vh - 230px);min-height:480px;max-height:850px}.evidence-player .rebuild-world-controls{display:block}.evidence-player .rebuild-world-controls>div{margin-top:.5rem}.evidence-player .rebuild-world-near{bottom:8.5rem}}

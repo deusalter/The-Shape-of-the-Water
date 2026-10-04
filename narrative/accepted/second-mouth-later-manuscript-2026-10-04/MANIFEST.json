@@ -1,0 +1,216 @@
+{
+  "utc": "2026-10-04T03:47:48.564589+00:00",
+  "status": "Lead-selected later manuscript preserved for development; root accepts checkpoint only. Not owner-approved, installed, whole-route verified, or full story locked.",
+  "installedContentSha256": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+  "installedCompilerSha256": "c613d2c7b62657ffb4d67c99323306652e58ad58b1f66f0df036630da934369c",
+  "files": [
+    {
+      "source": "narrative/rebuild/LATER-COUNTRY-FIRST-VISITS.md",
+      "copy": "narrative/accepted/second-mouth-later-manuscript-2026-10-04/LATER-COUNTRY-FIRST-VISITS.md",
+      "sha256": "1eaa0e7c69a4deda42b1dde3fc5014e5bdabc6216d8d8dfaf99d8635dedaca16",
+      "bytes": 16936,
+      "rawSourceWordCount": 3015
+    },
+    {
+      "source": "narrative/rebuild/LATER-HOUSE-THE-OPEN-LEAF.md",
+      "copy": "narrative/accepted/second-mouth-later-manuscript-2026-10-04/LATER-HOUSE-THE-OPEN-LEAF.md",
+      "sha256": "67f44cf82c4e68d0d881b0c105fe75bf3599588fcbec3cd6a3845031155653be",
+      "bytes": 10392,
+      "rawSourceWordCount": 1822
+    },
+    {
+      "source": "narrative/rebuild/LATER-WASHING-AND-UNDERSTANDING.md",
+      "copy": "narrative/accepted/second-mouth-later-manuscript-2026-10-04/LATER-WASHING-AND-UNDERSTANDING.md",
+      "sha256": "fd87e85a6f344c380bedc274dc66c855eab772779693703cefbf3b1c7c4eb623",
+      "bytes": 17746,
+      "rawSourceWordCount": 3044
+    },
+    {
+      "source": "narrative/rebuild/LATER-ENDING-THE-MAINTAINED-ROOM.md",
+      "copy": "narrative/accepted/second-mouth-later-manuscript-2026-10-04/LATER-ENDING-THE-MAINTAINED-ROOM.md",
+      "sha256": "3c0a794ccf87058b58323b30245e811866362095a0620999fb540dc24772e092",
+      "bytes": 11506,
+      "rawSourceWordCount": 2008
+    },
+    {
+      "source": "narrative/rebuild/LATER-STRUCTURE-AND-DISCLOSURE.md",
+      "copy": "narrative/accepted/second-mouth-later-manuscript-2026-10-04/LATER-STRUCTURE-AND-DISCLOSURE.md",
+      "sha256": "706f21341bd2e00c96a54a82b81886cb86d4f88c68cf37fef206d88bf26dd102",
+      "bytes": 19930,
+      "rawSourceWordCount": 3015
+    },
+    {
+      "source": "narrative/rebuild/VOICE-LATER.md",
+      "copy": "narrative/accepted/second-mouth-later-manuscript-2026-10-04/VOICE-LATER.md",
+      "sha256": "2aec032e6e24cf9b157b1f19d881c6ca4ccae31abdd5c879baeef4cd598f1b8b",
+      "bytes": 4798,
+      "rawSourceWordCount": 759
+    }
+  ],
+  "wordCountDefinition": "Raw source words include headings, author notes and mutually exclusive alternatives. They are not encountered-route words and must not be added to one playthrough or converted to measured duration.",
+  "rawDramaticSourceFileWords": 9889,
+  "exactAnchorCount": 24,
+  "anchorVerification": [
+    {
+      "anchor": "“Will you listen when I can?”",
+      "presentIn": [
+        "LATER-COUNTRY-FIRST-VISITS.md"
+      ]
+    },
+    {
+      "anchor": "“You're telling me why the truth wouldn't die. I asked about the person.”",
+      "presentIn": [
+        "LATER-WASHING-AND-UNDERSTANDING.md"
+      ]
+    },
+    {
+      "anchor": "“If I understood enough of it, I keep thinking I could hold on to what matters. However far the body went.”",
+      "presentIn": [
+        "LATER-WASHING-AND-UNDERSTANDING.md"
+      ]
+    },
+    {
+      "anchor": "“I was keeping the pocket flat.”",
+      "presentIn": [
+        "LATER-WASHING-AND-UNDERSTANDING.md"
+      ]
+    },
+    {
+      "anchor": "“And you don't disprove that reach by making me inspect another fold. You'd be right to ask for the inspection even if the argument were true.”",
+      "presentIn": [
+        "LATER-WASHING-AND-UNDERSTANDING.md"
+      ]
+    },
+    {
+      "anchor": "“That doesn't make me want fewer afternoons,” she says.",
+      "presentIn": [
+        "LATER-WASHING-AND-UNDERSTANDING.md"
+      ]
+    },
+    {
+      "anchor": "“This is all of me today,” Dora says.",
+      "presentIn": [
+        "LATER-COUNTRY-FIRST-VISITS.md"
+      ]
+    },
+    {
+      "anchor": "“Then let me go and be disappointed.”",
+      "presentIn": [
+        "LATER-WASHING-AND-UNDERSTANDING.md"
+      ]
+    },
+    {
+      "anchor": "“I've learned something since the beginning.”",
+      "presentIn": [
+        "LATER-WASHING-AND-UNDERSTANDING.md"
+      ]
+    },
+    {
+      "anchor": "“Stop before the corner,” she says. “You're trying to take it round.”",
+      "presentIn": [
+        "LATER-COUNTRY-FIRST-VISITS.md"
+      ]
+    },
+    {
+      "anchor": "“To put where people can see it.”",
+      "presentIn": [
+        "LATER-COUNTRY-FIRST-VISITS.md"
+      ]
+    },
+    {
+      "anchor": "“Did she see the rain?”",
+      "presentIn": [
+        "LATER-ENDING-THE-MAINTAINED-ROOM.md"
+      ]
+    },
+    {
+      "anchor": "“Too much,” she says. “I know. I've made forty.”",
+      "presentIn": [
+        "LATER-COUNTRY-FIRST-VISITS.md"
+      ]
+    },
+    {
+      "anchor": "“And I want those two tables off the mud.”",
+      "presentIn": [
+        "LATER-COUNTRY-FIRST-VISITS.md"
+      ]
+    },
+    {
+      "anchor": "“If it wasn't him, tell me that too.”",
+      "presentIn": [
+        "LATER-COUNTRY-FIRST-VISITS.md"
+      ]
+    },
+    {
+      "anchor": "“I've rehearsed it away.”",
+      "presentIn": [
+        "LATER-COUNTRY-FIRST-VISITS.md"
+      ]
+    },
+    {
+      "anchor": "“I was holding this end. I wanted him to cut where I could hide it under the sea. He wanted the repair left on the bit he took. We were very careful about different things.”",
+      "presentIn": [
+        "LATER-COUNTRY-FIRST-VISITS.md"
+      ]
+    },
+    {
+      "anchor": "“Let me finish being brave.”",
+      "presentIn": [
+        "LATER-COUNTRY-FIRST-VISITS.md"
+      ]
+    },
+    {
+      "anchor": "“Don't finish it to be agreeable. I've got more.”",
+      "presentIn": [
+        "LATER-HOUSE-THE-OPEN-LEAF.md"
+      ]
+    },
+    {
+      "anchor": "“I didn't agree to a replacement. I didn't know there'd be one.”",
+      "presentIn": [
+        "LATER-HOUSE-THE-OPEN-LEAF.md"
+      ]
+    },
+    {
+      "anchor": "“He comes through the door with the good part of an answer. Then he won't sit down until I've agreed to it.”",
+      "presentIn": [
+        "LATER-HOUSE-THE-OPEN-LEAF.md"
+      ]
+    },
+    {
+      "anchor": "“Don't make me thank you,” he says.",
+      "presentIn": [
+        "LATER-ENDING-THE-MAINTAINED-ROOM.md"
+      ]
+    },
+    {
+      "anchor": "“I should have come back before supper.”",
+      "presentIn": [
+        "LATER-HOUSE-THE-OPEN-LEAF.md"
+      ]
+    },
+    {
+      "anchor": "“I had to wait for the lower return. There wasn't a safe point to leave.”",
+      "presentIn": [
+        "LATER-HOUSE-THE-OPEN-LEAF.md"
+      ]
+    }
+  ],
+  "checks": [
+    "All selected later anchor literals occur in the named manuscript set.",
+    "No em dash occurs in the six selected original manuscript/anchor files.",
+    "Frozen version4 remains0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c."
+  ],
+  "reviewDispositions": {
+    "WORLD-COUNTRY-11": "Country circumstances adapted; specific pipe initiative criticism revised and scoped rechecked. Finite-support/refusal setup remains open.",
+    "WORLD-ETHICS-V-12": "Positive argument adapted; missing support handover repaired and rechecked. Final residual holder utterance changed from Then dont let go to Then Ill keep it open after the narrow recheck. Parent to verify exact line; no additional broad claim."
+  },
+  "remaining": [
+    "Compile country-to-house passages with actual audience/source/possession distinctions.",
+    "Perform material comparisons and full culprit confrontation.",
+    "Write Blaise first deliberate bodily return and refusal as next separate audition.",
+    "Perform two different support candidate comparisons and Emils informed response.",
+    "Earn finite ending limits, write complete open-support ending, and develop repeated bodily occasion across whole plot.",
+    "Whole story65–82k encountered-word range remains planning, not completed prose or verified6–10hour playtime."
+  ]
+}

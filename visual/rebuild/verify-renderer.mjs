@@ -1,0 +1,33 @@
+import * as THREE from 'three';
+import {chromium,expect} from '@playwright/test';
+import {writeFileSync,readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+const dir='visual/rebuild';
+const hash=p=>createHash('sha256').update(readFileSync(p)).digest('hex');
+const report={scope:'Isolated actual renderer fixture, not integrated narrative/engine playthrough',status:'RUNNING',checks:[],errors:[],limits:['Chromium software WebGL only','Callbacks use exact authored ids in a supplied-choice fixture; no actual engine action dispatch is tested','No human playtesting or assistive-technology certification'],sourceHashes:Object.fromEntries(['src/world/rebuild/RebuildWorld.tsx','src/world/rebuild/profiles.ts','src/world/rebuild/navigation.ts','public/world/rebuild/second-mouth-supper.glb'].map(p=>[p,hash(p)]))};
+const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+try{
+ const page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});page.setDefaultTimeout(15000);page.on('pageerror',e=>report.errors.push(e.message));
+ await page.goto(`${process.env.REBUILD_PREVIEW_URL??'http://localhost:4188'}/visual/rebuild/runtime-preview.html`);
+ const world=page.locator('.rebuild-world-canvas');await expect(world).toHaveAttribute('data-loaded','true');await expect(world).toHaveAttribute('data-dora-left-hand','false');await expect(world).toHaveAttribute('data-geometry-group','SupperRoom');
+ await page.screenshot({path:`${dir}/runtime-supper-1440.png`,fullPage:true});
+ const before=await world.getAttribute('data-player-x');await world.focus();await page.keyboard.down('KeyD');await expect(world).not.toHaveAttribute('data-player-x',before);await page.keyboard.up('KeyD');report.checks.push('Actual keyboard movement in loaded original GLB');
+ await world.focus();await page.keyboard.press('KeyE');await expect(page.getByLabel('Fixture callbacks')).toHaveText('[]');report.checks.push('Far offered action rejects E');
+ const rect=await world.boundingBox();const camera=new THREE.OrthographicCamera(-8.8*rect.width/rect.height,8.8*rect.width/rect.height,8.8,-8.8,.1,120);
+ camera.position.set(-3.15+Math.sin(Math.PI/4)*20,18.9,2.5+Math.cos(Math.PI/4)*20);camera.lookAt(-3.15,.9,2.5);camera.updateMatrixWorld();
+ const floorPoint=new THREE.Vector3(-2.4,0,-3.7).project(camera);await page.mouse.click(rect.x+(floorPoint.x+1)/2*rect.width,rect.y+(1-floorPoint.y)/2*rect.height);
+ await expect(page.locator('.rebuild-world-near')).toContainText('Listen to Noor',{timeout:12000});await world.focus();await page.keyboard.press('KeyE');await expect(page.getByLabel('Fixture callbacks')).toHaveText('["o0.hear-noor"]');report.checks.push('Actual floor click route and near E callback use authored id');
+ await page.getByRole('button',{name:'o0.promise',exact:true}).click();await expect(page.locator('.rebuild-world-near')).toContainText('Leave the mouth open');await world.focus();await page.keyboard.press('KeyE');await expect(page.getByLabel('Fixture callbacks')).toHaveText('["o0.hear-noor","o0.keep-promise"]');
+ await page.getByRole('button',{name:'Toggle disabled',exact:true}).click();await world.focus();await page.keyboard.press('KeyE');await expect(page.getByLabel('Fixture callbacks')).toHaveText('["o0.hear-noor","o0.keep-promise"]');
+ await page.getByRole('button',{name:'Toggle disabled',exact:true}).click();await page.getByRole('button',{name:'Toggle offered choices',exact:true}).click();await world.focus();await page.keyboard.press('KeyE');await expect(page.getByLabel('Fixture callbacks')).toHaveText('["o0.hear-noor","o0.keep-promise"]');await expect(page.locator('.rebuild-world-near')).toHaveCount(0);await page.getByRole('button',{name:'Toggle offered choices',exact:true}).click();report.checks.push('Disabled and withdrawn stale offered actions reject E');
+ await page.getByRole('button',{name:'o0.exposure-kept',exact:true}).click();await expect(world).toHaveAttribute('data-dora-left-hand','true');await expect(world).toHaveAttribute('data-scene-id','o0.exposure-kept');await page.screenshot({path:`${dir}/runtime-exposure-1440.png`,fullPage:true});report.checks.push('Explicit observed transition restores table hand with same GLB/material');
+ await page.getByRole('button',{name:'o0.lower-passage',exact:true}).click();await expect(world).toHaveAttribute('data-geometry-group','LowerPassage');await page.screenshot({path:`${dir}/runtime-lower-1440.png`,fullPage:true});report.checks.push('Authored scene selection stages separate local lower corridor');
+ await page.getByRole('button',{name:'o0.cast-inspection',exact:true}).click();await expect(world).toHaveAttribute('data-cast-state','in-place');
+ await page.getByRole('button',{name:'o0.cast-removal',exact:true}).click();await expect(world).toHaveAttribute('data-cast-state','removed');
+ await page.getByRole('button',{name:'o0.niche',exact:true}).click();await expect(world).toHaveAttribute('data-cast-state','in-place');await page.getByRole('button',{name:'Toggle captured removal',exact:true}).click();await expect(world).toHaveAttribute('data-cast-state','removed');report.checks.push('Visible removal source updates optional-test cast staging in the same scene');
+ await page.getByRole('button',{name:'o0.lower-passage',exact:true}).click();
+ for(const width of [390,320]){await page.setViewportSize({width,height:1000});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);await page.screenshot({path:`${dir}/runtime-lower-${width}.png`,fullPage:true});}
+ await page.getByRole('button',{name:'unmapped-passage',exact:true}).click();await expect(world).toHaveCount(0);await expect(page.getByText('This passage is presented in text. Continue with the actions below.')).toBeVisible();
+ await page.getByRole('button',{name:'o0.supper',exact:true}).click();await expect(world).toHaveAttribute('data-loaded','true');await page.getByRole('button',{name:'Toggle mounted',exact:true}).click();await expect(world).toHaveCount(0);await page.getByRole('button',{name:'Toggle mounted',exact:true}).click();await expect(world).toHaveAttribute('data-loaded','true');report.checks.push('Unknown staging stays text-only and cleanup/remount succeeds');
+ expect(report.errors).toEqual([]);report.status='PASS';
+}catch(e){report.status='FAIL';report.failure=String(e);process.exitCode=1;}finally{await browser.close();writeFileSync(`${dir}/renderer-check.json`,JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));}

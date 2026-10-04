@@ -1,0 +1,10 @@
+{
+  "scope": "Exact encountered route, replay-validated; automated capture is not human playtesting.",
+  "sourcePath": "src/content/case-v4.json",
+  "sourceSha256": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+  "runPath": "narrative/rebuild/readings/closed-declined-private-proof-orchard.run.json",
+  "runSha256": "3af4b5428f8fbc81d8c9069cd92ced2f87254fc2c244aa9009ac1bbf8e39d185",
+  "commands": 28,
+  "packetSha256": "72e1e5fd09cebe42b8ea9e7201d9a0cfcbdf203d866ccabd690293207c11828e",
+  "generatorSha256": "369ac4b760c1527193a02757ce3ab647a43ec0f9055067fc1a540d6b4b8ecb39"
+}

@@ -1,0 +1,68 @@
+{
+  "status": "FAIL",
+  "scope": "Actual built Chromium routes performed through controls; automated verification, not human playtesting or duration evidence.",
+  "caseSha256": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+  "routePins": [
+    {
+      "path": "narrative/rebuild/readings/closed-declined-private-proof-orchard.run.json",
+      "sha256": "3af4b5428f8fbc81d8c9069cd92ced2f87254fc2c244aa9009ac1bbf8e39d185"
+    },
+    {
+      "path": "narrative/rebuild/readings/closed-private-confession-dry.run.json",
+      "sha256": "fe7f0efbcbf069b9512b44ccf00cd41c10d91d2a72b4dcd5573df773b92e2c22"
+    },
+    {
+      "path": "narrative/rebuild/readings/closed-public-confession-orchard.run.json",
+      "sha256": "9a040767cb65387f97335f3c1eca0e2d2e44b47bdd3e33dbcc387f3c277e0092"
+    },
+    {
+      "path": "narrative/rebuild/readings/kept-declined-orchard.run.json",
+      "sha256": "0a369556487b0ac009e902f5e01e57843a6098c5b0bda209d44a442e7cc4ee0e"
+    },
+    {
+      "path": "narrative/rebuild/readings/kept-test-dry.run.json",
+      "sha256": "415dd030b82b35bcbfab99c377241428d21020e2cd59718970339c590f7a5d94"
+    }
+  ],
+  "manifest": {
+    "version": "5013a574d90d605c",
+    "contentHash": "b6738dcb83d1fd0f6d95265896263af7f95544beae713a80d7fc9bd3220d1423",
+    "contentHashes": [
+      "b6738dcb83d1fd0f6d95265896263af7f95544beae713a80d7fc9bd3220d1423",
+      "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d"
+    ],
+    "files": [
+      "art/release-binding.svg",
+      "assets/index-D4OdPZWR.js",
+      "assets/index-Dx4E_358.css",
+      "index.html",
+      "world/bath-faceless.glb",
+      "world/rebuild/second-mouth-supper.glb"
+    ],
+    "hashes": {
+      "art/release-binding.svg": "438580f7908badb831454979a5713d8c21f4be8ccacae2cf01f68d3092c2ccd4",
+      "assets/index-D4OdPZWR.js": "2104578478c1ecdfb45473b2c24ea31498aefec193bf4cf27182274ff0449155",
+      "assets/index-Dx4E_358.css": "7e534568a0418306b96b9fa12146f148c2ad7d37de2a527bdd52dee652f9a5d8",
+      "index.html": "ec1190c111df89e04680d5f0ff5faa2ac9f13aedc624a012496e5e45de6198f6",
+      "world/bath-faceless.glb": "fca0c41c1fe8536f5e852530d22c36f3e77ddf7730e7db51a0fe58187ff73b59",
+      "world/rebuild/second-mouth-supper.glb": "114ddc2339ab2d3293a7dfbdf31ccdbb92757cb961005a7723fc702ecb6762b4"
+    }
+  },
+  "checks": [
+    {
+      "name": "Actual keyboard exploration does not grant evidence or dispatch story actions",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "limits": [
+    "Only supplied routes",
+    "Software WebGL in Chromium",
+    "No human timing or literary acceptance",
+    "No hardware graphics benchmark"
+  ],
+  "failure": "Error: expect(received).toEqual(expected) // deep equality\n\n- Expected  - 1\n+ Received  + 1\n\n@@ -1642,14 +1642,14 @@\n        \"command\": Object {\n          \"candidateId\": \"o0.prepared-return\",\n          \"expectedRevision\": 20,\n          \"questionId\": \"o0.preparation-question\",\n          \"selectedRefs\": Array [\n+           \"o0.closed-source\",\n            \"o0.p-cut\",\n            \"o0.wedge-source\",\n            \"o0.cast-source\",\n-           \"o0.closed-source\",\n          ],\n          \"type\": \"submitDeduction\",\n        },\n        \"feedback\": \"The selected observations support a prepared local restoration after the two interruptions. They do not identify the preparer.\",\n        \"kind\": \"action\",",
+  "caseSha256After": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+  "sourceStable": true
+}

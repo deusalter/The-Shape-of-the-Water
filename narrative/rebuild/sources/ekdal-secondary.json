@@ -1,0 +1,25 @@
+{
+  "url": "https://en.wikipedia.org/wiki/The_Wild_Duck",
+  "httpStatus": 200,
+  "retrievedUTC": "2026-10-04T03:29:09.499022+00:00",
+  "sha256": "c91aaa83aa8ffc71428623e43fefdf17293fb72d2deb51859b8bcf2de9f16989",
+  "sourceClass": "secondary encyclopedic synopsis, not primary play",
+  "excerpts": [
+    {
+      "needle": "Hjalmar Ekdal",
+      "offset": 1587,
+      "text": "language Norwegian Written by Henrik Ibsen Characters Håkon Werle Gregers Werle Old Ekdal Hjalmar Ekdal Gina Ekdal Hedvig Ekdal Mrs. Sørby Relling Molvik Pettersen Jensen Mr. Balle Mr. Flor Genre Drama Setting The 1880s. Werle's house and later Hjalmar Ekdal's studio in Christiania , Norway Premiere Date 9 January 1885 ( 1885-01-09 ) Place Den Nationale Scene , Bergen , Norway The Wild Duck (original Norwegian title: Vildanden ) is an 1884 play by the Norwegian playwright Henrik Ibsen . It focuses on the Ekdal family, whose fragile peace is shattered by Gregers Werle, an idealist who insists on exposing"
+    },
+    {
+      "needle": "life-lie",
+      "offset": 8727,
+      "text": "e, and he reveals that he long ago implanted the idea of the invention with Hjalmar as a \"life-lie\" to keep him from giving in to despair. The pair argue as Hjalmar returns to gather his materials to work on the invention. He is overwhelmed by the number of details involved in moving out of the apartment. Hedvig is overjoyed to see him, but Hjalmar demands to be \"free from intruders\" while he thinks about his next move. Crushed, Hedvig remembers the wild duck and goes to the loft with a pistol. After hearing a shot, the family assumes Old Ekdal is hunting in the loft, but Gregers knows he has shot the w"
+    },
+    {
+      "needle": "Gina Ekdal",
+      "offset": 1601,
+      "text": "gian Written by Henrik Ibsen Characters Håkon Werle Gregers Werle Old Ekdal Hjalmar Ekdal Gina Ekdal Hedvig Ekdal Mrs. Sørby Relling Molvik Pettersen Jensen Mr. Balle Mr. Flor Genre Drama Setting The 1880s. Werle's house and later Hjalmar Ekdal's studio in Christiania , Norway Premiere Date 9 January 1885 ( 1885-01-09 ) Place Den Nationale Scene , Bergen , Norway The Wild Duck (original Norwegian title: Vildanden ) is an 1884 play by the Norwegian playwright Henrik Ibsen . It focuses on the Ekdal family, whose fragile peace is shattered by Gregers Werle, an idealist who insists on exposing hidden truths"
+    }
+  ],
+  "scope": "Bounded exact-name and synopsis inspection. Does not certify the complete play was read. Earlier Wikisource/Gutenberg attempts did not yield usable primary evidence."
+}

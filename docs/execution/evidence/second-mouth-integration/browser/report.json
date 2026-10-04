@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "scope": "Actual built Chromium routes performed through controls; automated verification, not human playtesting or duration evidence.",
+  "caseSha256": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+  "routePins": [
+    {
+      "path": "narrative/rebuild/readings/closed-declined-private-proof-orchard.run.json",
+      "sha256": "3af4b5428f8fbc81d8c9069cd92ced2f87254fc2c244aa9009ac1bbf8e39d185"
+    },
+    {
+      "path": "narrative/rebuild/readings/closed-private-confession-dry.run.json",
+      "sha256": "fe7f0efbcbf069b9512b44ccf00cd41c10d91d2a72b4dcd5573df773b92e2c22"
+    },
+    {
+      "path": "narrative/rebuild/readings/closed-public-confession-orchard.run.json",
+      "sha256": "9a040767cb65387f97335f3c1eca0e2d2e44b47bdd3e33dbcc387f3c277e0092"
+    },
+    {
+      "path": "narrative/rebuild/readings/kept-declined-orchard.run.json",
+      "sha256": "0a369556487b0ac009e902f5e01e57843a6098c5b0bda209d44a442e7cc4ee0e"
+    },
+    {
+      "path": "narrative/rebuild/readings/kept-test-dry.run.json",
+      "sha256": "415dd030b82b35bcbfab99c377241428d21020e2cd59718970339c590f7a5d94"
+    }
+  ],
+  "manifest": {
+    "version": "5635c32cddef763c",
+    "contentHash": "b6738dcb83d1fd0f6d95265896263af7f95544beae713a80d7fc9bd3220d1423",
+    "contentHashes": [
+      "b6738dcb83d1fd0f6d95265896263af7f95544beae713a80d7fc9bd3220d1423",
+      "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d"
+    ],
+    "files": [
+      "art/release-binding.svg",
+      "assets/index-BxnCSq7M.js",
+      "assets/index-Dx4E_358.css",
+      "index.html",
+      "world/bath-faceless.glb",
+      "world/rebuild/second-mouth-supper.glb"
+    ],
+    "hashes": {
+      "art/release-binding.svg": "438580f7908badb831454979a5713d8c21f4be8ccacae2cf01f68d3092c2ccd4",
+      "assets/index-BxnCSq7M.js": "aa102e87757b3964fdee1417f6dd4ccd8bcf2febd8141ed3ebffc1e5de662363",
+      "assets/index-Dx4E_358.css": "7e534568a0418306b96b9fa12146f148c2ad7d37de2a527bdd52dee652f9a5d8",
+      "index.html": "ac634f53aa9c07d6ab3df06118fd74611b0ef9fb04c04709f5a07fb8b13c9072",
+      "world/bath-faceless.glb": "fca0c41c1fe8536f5e852530d22c36f3e77ddf7730e7db51a0fe58187ff73b59",
+      "world/rebuild/second-mouth-supper.glb": "114ddc2339ab2d3293a7dfbdf31ccdbb92757cb961005a7723fc702ecb6762b4"
+    }
+  },
+  "checks": [
+    {
+      "name": "Actual keyboard exploration does not grant evidence or dispatch story actions",
+      "status": "PASS"
+    },
+    {
+      "name": "Offline retained editions, exact save/reload, responsive widths and axe",
+      "status": "PASS",
+      "violations": 0,
+      "incomplete": 1
+    },
+    {
+      "name": "narrative/rebuild/readings/closed-declined-private-proof-orchard.run.json",
+      "status": "PASS",
+      "commands": 28,
+      "narrativeMatchAfterCommandReceiptNormalization": true,
+      "exactBrowserExportReplays": true,
+      "canceledConfirmation": true
+    },
+    {
+      "name": "narrative/rebuild/readings/closed-private-confession-dry.run.json",
+      "status": "PASS",
+      "commands": 31,
+      "narrativeMatchAfterCommandReceiptNormalization": true,
+      "exactBrowserExportReplays": true,
+      "canceledConfirmation": true
+    },
+    {
+      "name": "narrative/rebuild/readings/closed-public-confession-orchard.run.json",
+      "status": "PASS",
+      "commands": 26,
+      "narrativeMatchAfterCommandReceiptNormalization": true,
+      "exactBrowserExportReplays": true,
+      "canceledConfirmation": true
+    },
+    {
+      "name": "narrative/rebuild/readings/kept-declined-orchard.run.json",
+      "status": "PASS",
+      "commands": 25,
+      "narrativeMatchAfterCommandReceiptNormalization": true,
+      "exactBrowserExportReplays": true,
+      "canceledConfirmation": true
+    },
+    {
+      "name": "narrative/rebuild/readings/kept-test-dry.run.json",
+      "status": "PASS",
+      "commands": 31,
+      "narrativeMatchAfterCommandReceiptNormalization": true,
+      "exactBrowserExportReplays": true,
+      "canceledConfirmation": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "limits": [
+    "Only supplied routes",
+    "Software WebGL in Chromium",
+    "No human timing or literary acceptance",
+    "No hardware graphics benchmark"
+  ],
+  "caseSha256After": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+  "sourceStable": true
+}

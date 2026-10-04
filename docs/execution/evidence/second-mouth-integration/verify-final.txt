@@ -1,0 +1,138 @@
+Already up to date
+Done in 346ms using pnpm v11.19.0
+$ pnpm typecheck && pnpm test && pnpm content:validate && pnpm build
+$ tsc --noEmit
+$ vitest run
+
+ RUN  v3.2.7 /workspace/literary-detective
+
+ ✓ tests/evidence-budget.test.ts (3 tests) 2719ms
+   ✓ bounded replayable run resources > rejects a would-exceed command, preserves its prior state and permits actual export/reimport  1842ms
+   ✓ bounded replayable run resources > refuses a migrated prefix that cannot fit both checkpoint and encountered export  577ms
+ ✓ tests/verification/evidence-v2-independent.test.ts (30 tests) 2991ms
+   ✓ independent closure, schema bounds and command properties > deterministic frozen-input programs roundtrip every internal field; accepted IDs deduplicate  405ms
+   ✓ independent portable replay, reviewed migration and byte limits > valid large multibyte run roundtrips; next passage exceeding byte budget rejects with original state intact  2325ms
+ ✓ tests/verification/properties.test.ts (11 tests) 1099ms
+   ✓ independent properties seed=20261003 runs=120 > replay and save roundtrip deterministically preserve every consequential field  332ms
+   ✓ independent properties seed=20261003 runs=120 > frozen input bytes and literal record/passage occurrences never change  399ms
+ ✓ tests/occasion-validation.test.ts (60 tests) 685ms
+   ✓ occasion feature gate and bounded semantic validation > rejects an opted-in opening whose duplicated captured prose exceeds the unchanged run budget  597ms
+ ✓ tests/occasion-legacy.test.ts (56 tests) 2434ms
+ ✓ tests/verification/authored-routes.test.ts (30 tests) 454ms
+ ✓ tests/evidence-player-controller.test.ts (22 tests) 423ms
+ ✓ tests/author-draft-durability.test.ts (13 tests) 298ms
+ ✓ tests/installed-case.test.ts (3 tests) 240ms
+ ✓ tests/occasion-runtime.test.ts (20 tests) 169ms
+ ✓ tests/evidence-engine.test.ts (30 tests) 161ms
+ ✓ tests/verification/dependencies.test.ts (4 tests) 156ms
+ ✓ tests/ownership.test.ts (18 tests) 88ms
+ ✓ tests/run-metadata.test.ts (3 tests) 109ms
+ ✓ tests/versioned-persistence.test.ts (8 tests) 73ms
+ ✓ tests/occasion-review-regressions.test.ts (6 tests) 58ms
+ ✓ tests/storage.test.ts (7 tests) 50ms
+ ✓ tests/verification/persistence.test.ts (8 tests) 50ms
+ ✓ tests/verification/installed-v2-routes.test.ts (76 tests) 8888ms
+   ✓ signaled interpersonal failure retains plausible factual access > both failures and private refusals still allow 'continuous-recording'  321ms
+ ✓ tests/evidence-migration.test.ts (12 tests) 43ms
+ ✓ tests/occasion-author-ui.test.ts (7 tests) 54ms
+ ✓ tests/replacement-intent.test.ts (7 tests) 55ms
+ ✓ tests/notebook-occasion.test.ts (3 tests) 45ms
+ ✓ tests/author-project.test.ts (5 tests) 47ms
+ ✓ tests/case.test.ts (3 tests) 34ms
+ ✓ tests/preview-scenario.test.ts (2 tests) 34ms
+ ✓ tests/world-navigation.test.ts (3 tests) 26ms
+ ✓ tests/rebuild-world-assets.test.ts (5 tests) 16ms
+ ✓ tests/offline.test.ts (5 tests) 25ms
+ ✓ tests/studio-storage.test.ts (8 tests) 32ms
+ ✓ tests/verification/explorer.test.ts (4 tests) 15ms
+ ✓ tests/rebuild-world-navigation.test.ts (5 tests) 11ms
+ ✓ tests/engine.test.ts (9 tests) 19ms
+ ✓ tests/world-staging.test.ts (2 tests) 3ms
+
+ Test Files  34 passed (34)
+      Tests  488 passed (488)
+   Start at  03:42:12
+   Duration  10.74s (transform 862ms, setup 0ms, collect 4.57s, tests 21.60s, environment 5ms, prepare 1.68s)
+
+$ node tools/check-content.mjs
+{
+  "status": "PASS",
+  "path": "src/content/case-v4.json",
+  "schemaVersion": 2,
+  "scope": "Content schema, graph references and original-narrative punctuation only; not solvability, playtime or literary quality",
+  "sha256": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+  "canonicalContentHash": "b6738dcb83d1fd0f6d95265896263af7f95544beae713a80d7fc9bd3220d1423",
+  "scenes": 39,
+  "choices": 57,
+  "authoredWordsIncludingVariantsChoicesAndNotes": 9007,
+  "paragraphs": 450,
+  "validation": "PASS",
+  "issues": []
+}
+$ tsc -b && vite build --mode player && node tools/engine-offline-manifest.mjs dist-player && vite build --mode studio
+vite v7.3.6 building client environment for player...
+transforming...
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js (74:0): A comment
+
+"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
+ * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
+ * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js (400:0): A comment
+
+"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+✓ 172 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-player/index.html                     0.41 kB │ gzip:   0.29 kB
+dist-player/assets/index-Dx4E_358.css     18.44 kB │ gzip:   4.40 kB
+dist-player/assets/index-BxnCSq7M.js   1,333.35 kB │ gzip: 364.39 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 3.28s
+Offline manifest: 6 local files, build 5635c32cddef763c
+vite v7.3.6 building client environment for studio...
+transforming...
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js (74:0): A comment
+
+"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
+ * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
+ * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js (400:0): A comment
+
+"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js (74:0): A comment
+
+"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
+ * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
+ * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js (400:0): A comment
+
+"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
+
+in "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+✓ 179 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-studio/studio.html                               0.37 kB │ gzip:   0.27 kB
+dist-studio/assets/validation-worker-D_3bKwGY.js    119.67 kB
+dist-studio/assets/studio-CfhAReUU.css               19.05 kB │ gzip:   4.51 kB
+dist-studio/assets/studio-Cp_KVai4.js             1,375.30 kB │ gzip: 375.27 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 3.47s

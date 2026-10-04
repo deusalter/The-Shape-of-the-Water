@@ -1,0 +1,76 @@
+{
+  "status": "FAIL",
+  "scope": "Actual built v2 first-night case and author UI in Chromium; no human duration or full-game acceptance",
+  "sourceCaseSha256": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+  "manifest": {
+    "version": "41bc20be239043ce",
+    "contentHash": "8b4e0336af32273c756c3442281ee992e166ed774575e3e483442cd3260d651d",
+    "files": [
+      "art/release-binding.svg",
+      "assets/index-DNLj1kgN.css",
+      "assets/index-DlLEWKBA.js",
+      "index.html",
+      "world/bath-faceless.glb"
+    ],
+    "hashes": {
+      "art/release-binding.svg": "438580f7908badb831454979a5713d8c21f4be8ccacae2cf01f68d3092c2ccd4",
+      "assets/index-DNLj1kgN.css": "1119df6efe91bed3c6b746acfbf1696b9419eab07169d48cfd8f2392d746c520",
+      "assets/index-DlLEWKBA.js": "b798aeda3571b2306e903cd8f9ea914198a2cc9ff55b96a5c84a47a31808d5a0",
+      "index.html": "120f228b2314f50cffe2a51b214e1a0dc1ef59d4a5a9c9461d8ab8e6e19e5ca2",
+      "world/bath-faceless.glb": "fca0c41c1fe8536f5e852530d22c36f3e77ddf7730e7db51a0fe58187ff73b59"
+    }
+  },
+  "checks": [
+    {
+      "name": "Actual v2 opening, keyboard selected-proof route and negative feedback",
+      "status": "PASS",
+      "detail": {
+        "acceptedCommands": 12,
+        "ending": true
+      }
+    },
+    {
+      "name": "Reload ownership and protected ending branch use actual controls",
+      "status": "PASS",
+      "detail": "Completed ending retained; branch changed the final decision."
+    },
+    {
+      "name": "Physical proof encounter, controlled diagram, responsive reading and axe",
+      "status": "PASS",
+      "detail": {
+        "imagesDecoded": 1,
+        "widths": [
+          1440,
+          390,
+          320
+        ],
+        "zoom": "CSS 200% plus large text",
+        "violations": 0,
+        "incomplete": 2
+      }
+    },
+    {
+      "name": "Built player, 3D model and diagram reload offline; corrupted cache never claims ready",
+      "status": "PASS",
+      "detail": "Real offline model loading, choices, saves and diagram work; altered cached bytes fail readiness."
+    },
+    {
+      "name": "Structured author edit, undo, invalid-draft persistence and worker validation",
+      "status": "FAIL",
+      "error": "Error: expect(locator).toHaveText(expected) failed\n\nLocator:  locator('#passage-title')\nExpected: \"The Shape of the Water\"\nReceived: \"A browser title\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveText\" locator('#passage-title') with timeout 5000ms\n  - waiting for locator('#passage-title')\n    14 × locator resolved to <h2 tabindex=\"-1\" id=\"passage-title\">A browser title</h2>\n       - unexpected value \"A browser title\"\n"
+    }
+  ],
+  "pageErrors": [],
+  "externalRequests": [],
+  "notTested": [
+    "Firefox",
+    "WebKit",
+    "human reading time",
+    "real screen reader",
+    "unimplemented recurrence runtime",
+    "whole-game literary acceptance"
+  ],
+  "failure": "Error: expect(locator).toHaveText(expected) failed\n\nLocator:  locator('#passage-title')\nExpected: \"The Shape of the Water\"\nReceived: \"A browser title\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveText\" locator('#passage-title') with timeout 5000ms\n  - waiting for locator('#passage-title')\n    14 × locator resolved to <h2 tabindex=\"-1\" id=\"passage-title\">A browser title</h2>\n       - unexpected value \"A browser title\"\n",
+  "sourceCaseSha256After": "8b87c77df304f5bcccaa5f7ae6407997eaa9b0f1a40dca54b7bfde08e1b95751",
+  "sourceStable": true
+}

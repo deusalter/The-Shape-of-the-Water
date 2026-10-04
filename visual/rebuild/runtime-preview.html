@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Second Mouth rendering fixture</title><style>body{margin:1rem;background:#ece4d6;font:16px/1.5 system-ui;color:#241d29}main{max-width:1000px;margin:auto}nav{display:flex;flex-wrap:wrap;gap:.5rem}button{padding:.55rem .8rem;cursor:pointer}h1{font-size:1.2rem}</style></head><body><main><h1>Noncanonical rendering fixture</h1><div id="root"></div></main><script type="module">
+import '/src/styles.css';
+import '/src/world/world.css';
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import content from '/src/content/case-v4.json';
+import {RebuildWorld} from '/src/world/rebuild/RebuildWorld.tsx';
+function Preview(){
+ const [scene,setScene]=React.useState('o0.supper'),[mounted,setMounted]=React.useState(true),[offered,setOffered]=React.useState(true),[disabled,setDisabled]=React.useState(false),[log,setLog]=React.useState([]),[removed,setRemoved]=React.useState(false);
+ const choices=offered?(content.scenes.find(item=>item.id===scene)?.choices??[]).map(({id,label})=>({id,label})):[];
+ return React.createElement(React.Fragment,null,
+ React.createElement('nav',null,...['o0.supper','o0.promise','o0.exposure-kept','o0.lower-passage','o0.cast-inspection','o0.cast-removal','o0.niche','o0.private-confession','o0.god-argument','unmapped-passage'].map(id=>React.createElement('button',{key:id,onClick:()=>setScene(id)},id)),React.createElement('button',{onClick:()=>setMounted(!mounted)},'Toggle mounted'),React.createElement('button',{onClick:()=>setOffered(!offered)},'Toggle offered choices'),React.createElement('button',{onClick:()=>setDisabled(!disabled)},'Toggle disabled'),React.createElement('button',{onClick:()=>setRemoved(!removed)},'Toggle captured removal')),
+ React.createElement('output',{'aria-label':'Fixture callbacks'},JSON.stringify(log)),
+ mounted&&React.createElement(RebuildWorld,{sceneId:scene,variantId:`${scene}.base`,choices,disabled,encounteredSourceIds:removed?['o0.cast-removed']:[],onChoose:id=>setLog(previous=>[...previous,id])}));
+}
+
+createRoot(document.getElementById('root')).render(React.createElement(Preview));
+</script></body></html>

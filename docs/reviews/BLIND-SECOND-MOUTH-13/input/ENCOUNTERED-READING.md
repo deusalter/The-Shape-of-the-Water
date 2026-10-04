@@ -1,0 +1,925 @@
+# Encountered reading
+
+This is one actually captured route. Only passages, actions and notebook material available in that route appear below. It is not the whole game.
+
+## The difficult note
+
+You used to whistle two notes at once. Dora would ask for it after supper. Lately she says even the one you have left makes her fillings hurt.
+
+Tonight you mean to make her ask.
+
+The room is preparing to change. A seam has opened down the middle of the long table. Everyone has moved their plates to one side. The new wood underneath is pink and soft; if you touch it, it takes the print of your finger and slowly lets it go.
+
+You sit at the corner that has already hardened. You learned to test a chair before trusting it when you were six. That is most of what growing up amounts to here: a succession of quite specific things to sit on, eat around, step over and never believe merely because they look finished.
+
+Outside, the country is turning its skin. The orchard moves past the windows root first. Beyond it, a white ridge splits and folds back. The exposed surface shines in the low light. Farther off, people walk along the old surface carrying beds and rolled rugs toward a new opening. A dog is refusing to go through. You can hear the argument, which has reached the stage at which the dog is being reminded of all the other things people do for it.
+
+Dora Helmer brings a bowl to the table in the crook of her right arm. Her left hand is elsewhere for the evening. She says it is helping a tree stand up. She puts her mouth to the bowl and tips the last cherry stone onto the cloth.
+
+“That one's for you.”
+
+“The stone?”
+
+“I ate the difficult part.”
+
+She drops into the chair opposite. Without her hand she keeps forgetting where to put her elbow. It touches the new wood and leaves a small clean hollow.
+
+You could tell her the table is still soft. You wait to see whether she will notice. She notices you noticing.
+
+“Say something clever and I'll put your face in it.”
+
+You push her plate toward her instead.
+
+Noor Brangwen is on the floor beside the wall. She has opened the low panel with a bread knife. Two pale cords run behind it. She touches each with the back of a finger before putting her hand around it.
+
+“Still using this one, Dora?”
+
+Dora closes her eyes. Her left shoulder moves, though the empty sleeve remains flat.
+
+“Tree's being awkward.”
+
+“I'll leave it.”
+
+Noor puts the cord down. The second one passes through the little wooden mouth under your chair. You made that mouth years ago, when the room could not hold your voice through a return without help. Its lips are rough where you carved against the grain. You have always meant to make them smooth.
+
+The mouth has forgotten one of your notes.
+
+Available actions at this point:
+
+- Listen to Noor while she checks the connection.
+
+Chosen action: Listen to Noor while she checks the connection.
+
+## Three screws
+
+You tried it after the last turn. One whistle, then air. The room brought back your unburnt fingers, the supper, the patch of sunlight on the table. It did not bring back the little movement inside your cheek that made the second note.
+
+“I can put the old mouth on,” you say.
+
+Noor stays on the floor.
+
+“You can wait.”
+
+“It's three screws.”
+
+“Then it'll take you no time after supper.”
+
+She taps the second cord with a finger.
+
+“Leave this open until the tree clears the corner. Will you?”
+
+You say you will. It seems easier than explaining what three screws can and cannot do.
+
+You look at Dora. She has turned her head toward the window. The whole tree is going past, with her hand buried in the split beside its root. It is unmistakably hers. She has been biting the skin beside her thumbnail again.
+
+The tree leans. Dora's shoulder rises. It steadies.
+
+“There,” she says. “Useless thing.”
+
+Noor asks whether she wants the hand back now.
+
+“Let it get round the corner. I don't want to catch it.”
+
+You have the old mouth in your coat pocket. Exact teeth, exact tongue, the knot in the wood where you once slipped with the knife. The new one is better made. The old one knows your whistle.
+
+Available actions at this point:
+
+- Leave the mouth open as promised; ask Dora to help you later.
+- Close the mouth while Noor looks away, breaking your promise to wait.
+
+Chosen action: Close the mouth while Noor looks away, breaking your promise to wait.
+
+## Under the chair
+
+You need both hands to reach underneath the chair. Your fingers find the three screw heads. You shut the little wooden lips.
+
+Dora stops talking.
+
+She had begun to say something about the dog outside. Her mouth remains open around the first sound.
+
+You let go of the screw.
+
+“Dora?”
+
+She turns her head. For a moment she seems to be listening to someone farther away.
+
+Then she says, “What?”
+
+Noor looks up from the panel. You have not yet moved your hands.
+
+“What did you touch?”
+
+“Just my mouth.”
+
+You hear how it sounds. You take your hands away. The lips spring open. The cord has slipped out of their shallow seat; opening them does not put it back.
+
+Available actions at this point:
+
+- Look toward Dora.
+
+Chosen action: Look toward Dora.
+
+## Two hands
+
+Dora picks up her spoon. She holds it in her left hand.
+
+Between the table legs, a little dark wedge remains caught in the pink seam. It has not yet been drawn free.
+
+Through the window the tree is still moving. Dora's other left hand is still holding its root.
+
+Noor gets to her feet. She goes to the window so quickly that her knee knocks your plate to the floor. The plate breaks. No one looks at it.
+
+“Say your name,” she tells the hand.
+
+The hand is a hand. It cannot comply.
+
+You start to laugh. You do not mean to. Noor looks back at you with her mouth drawn tight.
+
+“Get the speaking piece.”
+
+You know where it is. Dora uses it when she sends a hand away and wants to swear at whoever is supervising. You fetch it from the shelf above the door: a flat warm thing with a slit across one side. Noor presses it into the tree's split, beside the wrist.
+
+It takes a moment to answer.
+
+“Who turned the room?”
+
+You look at Dora. She has put the spoon down. She is watching you look.
+
+“Nobody,” Noor says.
+
+“Then where's my chair?”
+
+The voice comes from the little piece in the tree. Dora, at the table, draws her feet back under the seat.
+
+You remember the mouth under your hand. You remember how little resistance its lips gave you.
+
+“I'm here,” you tell the tree.
+
+“I know. I can hear you breathing.”
+
+Dora at the table says, “So can I.”
+
+The tree is moving. In a few seconds it will be past the window. Noor catches the sill with one hand and the root with the other. It pulls her sideways.
+
+“You can do this later,” she says. “Either help me or fetch a rope.”
+
+Available actions at this point:
+
+- Take the root with Noor and hold the tree beside the window.
+- Fetch the soft rope and ask the woman at the table to help.
+
+Chosen action: Fetch the soft rope and ask the woman at the table to help.
+
+## The cupboard
+
+The woman at the table stands. You have not asked her yet.
+
+“Where do you keep the rope?”
+
+She puts a hand on your shoulder to get past you. It is warm. There is a little dampness in the palm.
+
+The voice in the tree says your name.
+
+You do not turn around quickly enough for either of them.
+
+You open the cupboard and find the soft rope behind a bag of dried fruit. The woman takes one end while you carry the coil to Noor.
+
+Noor has one knee against the sill. She points with her chin at the thick part of the root, clear of the wrist. You feed the rope underneath. The woman passes the other end through the opening in the sill and helps you draw it close.
+
+The root settles into the loop. Noor waits until the knot takes its weight before bringing her knee down. She keeps one hand at the speaking piece.
+
+“That's enough. Don't pull it any tighter.”
+
+Available actions at this point:
+
+- Check how both women are doing.
+
+Chosen action: Check how both women are doing.
+
+## At the sill
+
+The rope holds the root a little below the window. Every time the tree moves, the knot settles deeper into the soft part of the sill.
+
+Noor lays her coat beneath it. You have never seen the lining before. Someone has sewn a row of small pockets along the hem, each with a different stone inside.
+
+“They're for a game,” she says, seeing you look. “You don't have to turn them into a problem.”
+
+The woman at the table has come to the window. She keeps looking at the hand in the tree. Once she lifts her own left hand and turns it palm upward. The other one does not move.
+
+“I can do that too,” says the voice from the root.
+
+The orchard hand opens. Its palm faces the room. Both hands have the same little pale square below the middle finger.
+
+You know where the square came from. Dora put her hand down on a hot buckle while trying to move a chair. You were supposed to be holding the chair. You had let go to laugh at something she said.
+
+The woman beside you presses a finger to the mark. She remembers the buckle too. She tells you where the chair was, and how you laughed.
+
+Then she asks why the seam in the table has opened. The orchard voice says it opened before supper.
+
+“No,” the woman says. “It was still hard this morning.”
+
+You can see the moment at which she decides to stop arguing. She does not agree. She has found something more urgent to watch.
+
+Noor lifts the speaking piece out of the root for a moment, supporting the tissue beneath it with her thumb. The slit hangs open. No voice comes out. She seats it again.
+
+“Don't do that without telling me,” Dora says.
+
+“I'm sorry.” Noor keeps her hands still. “I needed to check the join.”
+
+“Tell me first.”
+
+The woman beside you has gone back to the table. She sits in a different chair.
+
+Available actions at this point:
+
+- Look at the connections before deciding what happened.
+
+Chosen action: Look at the connections before deciding what happened.
+
+## The room
+
+The rope creaks against Noor's folded coat. The woman at the table has chosen a different chair. Outside, the hand at the root adjusts its grip.
+
+You have room to look before touching anything else.
+
+Available actions at this point:
+
+- Inspect the direct braid behind the wall panel.
+- Examine the loose cord and wedge.
+- Speak with the woman at the table.
+- Speak with the continuing woman at the root.
+
+Chosen action: Speak with the woman at the table.
+
+## The unfinished room
+
+She has moved the painting onto her knees. It shows a blue room and part of a chair. The blue is slightly greener where the paint thins near the corner.
+
+“Is that finished?” she asks you.
+
+You have seen it hanging here for a long time. You tell her that.
+
+“That wasn't what I asked.”
+
+She taps the cut-off chair leg with her nail. The paint has hardened. She turns the picture sideways, considering it.
+
+“I was going to put someone there.”
+
+“Who?”
+
+“I hadn't decided.”
+
+She moves the painting aside. Under it her dress has left a pattern of little squares on her knees.
+
+“Don't ask me the buckle again.”
+
+“I wasn't going to.”
+
+“You were looking at my hand.”
+
+Available actions at this point:
+
+- Ask what she wants you to do now.
+- Say you are afraid of expecting her to owe you Dora’s affection.
+- Ask for one private memory; stop if she refuses.
+
+Chosen action: Ask for one private memory; stop if she refuses.
+
+## No
+
+“No.”
+
+She says it without raising her voice. You feel foolish for having waited for an angry answer.
+
+“You can ask what happened this morning. That's useful. I'm not doing the other thing.”
+
+Available actions at this point:
+
+- Return to the room.
+
+Chosen action: Return to the room.
+
+## The room
+
+The rope creaks against Noor's folded coat. The woman at the table has chosen a different chair. Outside, the hand at the root adjusts its grip.
+
+You have room to look before touching anything else.
+
+Available actions at this point:
+
+- Inspect the direct braid behind the wall panel.
+- Examine the loose cord and wedge.
+- Speak with the continuing woman at the root.
+
+Chosen action: Inspect the direct braid behind the wall panel.
+
+## The direct braid
+
+Noor holds the low panel while you look behind it. The facing has a narrow lip, just enough to hide the place where the braid turns toward the window.
+
+The braid ends before the turn.
+
+You take the end between two fingers. Its many fine strands have been divided along one flat surface. One thicker strand sticks out beyond the rest with a shallow slice across it. Someone began the cut, pressed harder, and finished almost at the same angle.
+
+Noor points to another end hanging from the wall. That one is dry and pale, spread like the end of a brush.
+
+“Last change,” she says. “It let go by itself.”
+
+You put them beside one another. The old natural end has narrowed before separating. The new flat end has kept its full thickness up to the division. You can fit neither piece back into the other. They are different braids.
+
+At the window Noor feels along the tree-side length. She asks the orchard Dora before turning the root toward the light. There is a matching flat end, hidden by the sill until she lifts it.
+
+The two cut surfaces meet. They do not begin responding when you put them together.
+
+“We could bind them,” you say.
+
+“We could. It wouldn't make the inside grow back by supper.”
+
+You leave them where both can be inspected. The tree shifts against the rope outside. Its own roots still respond, though this route into the room has been severed. The second route passes through the wooden mouth beneath your chair; that is the one whose cord has come free.
+
+Available actions at this point:
+
+- Return to the room.
+
+Chosen action: Return to the room.
+
+## The room
+
+The rope creaks against Noor's folded coat. The woman at the table has chosen a different chair. Outside, the hand at the root adjusts its grip.
+
+You have room to look before touching anything else.
+
+Available actions at this point:
+
+- Examine the loose cord and wedge.
+- Speak with the continuing woman at the root.
+- Look again at the interrupted direct braid.
+
+Chosen action: Examine the loose cord and wedge.
+
+## The prepared pull
+
+The wedge lies between two table legs. Its broad end is dark, the colour of old wood. Someone has shaved its narrow end recently. A strip of pink wood still curls from the side.
+
+The second cord has a pinched place exactly as wide as the narrow end. Fibres from the cord remain in the shallow notch cut across it.
+
+You turn the wedge over. The broad end bears two fresh dents. The hardening seam has a corresponding pair of raised edges.
+
+Noor takes the wedge from you and puts it beside the seam, without fitting it back.
+
+“There. As the sides closed, this would move toward the floor.”
+
+“Pulling the cord.”
+
+She nods. You follow the distance with your finger. It is enough to draw the pinched part out of the mouth. No one would have to be under the table at that moment.
+
+The woman sitting nearby bends to look. She asks whether it belongs there.
+
+“Not for anything I do,” Noor says.
+
+“Then don't put it back.”
+
+You lay it on the table in full view. It rocks once on the fresh shaving and stays still.
+
+Available actions at this point:
+
+- Return to the room.
+
+Chosen action: Return to the room.
+
+## The room
+
+The wedge lies where you left it. Beyond the window the tree has begun to lean into its next movement. Noor watches the rope, waiting for you to say where you want to look next.
+
+Available actions at this point:
+
+- Speak with the continuing woman at the root.
+- Ask Noor to show you the underside of the room.
+- Look again at the interrupted direct braid.
+
+Chosen action: Ask Noor to show you the underside of the room.
+
+## The side steps
+
+Noor takes a lamp from beside the door. She has to shake it before the pale growth inside opens. The light falls through the handle and makes her fingers look hollow.
+
+“The rope holds it here,” she says. “The roots can rest while we look. We won't be long.”
+
+She tells both women where you are going and leaves the speaking piece seated at the window. Their voices become indistinct as you go down the side steps. At the bottom you can hear the tree dragging against the rope, but no words.
+
+The passage is lower than you remembered. You turn your shoulders to get between the two supports. One still bears a painted handprint from when you were small. You put your own hand over it. Your thumb goes far beyond the old mark.
+
+You had believed the mark would look smaller than it does.
+
+Noor waits without looking back. When you catch up, she asks you to hold the lamp.
+
+Available actions at this point:
+
+- Inspect the underside of Dora’s former place.
+
+Chosen action: Inspect the underside of Dora’s former place.
+
+## The old square
+
+The underside of the table is threaded with thin pale roots. Most have grown through the support beneath them. One square of darker material interrupts the pattern.
+
+You recognize the repaired notch in its edge. Dora used to hook her heel there. The new table has no notch. You checked when you sat down.
+
+Noor holds the lamp to one side. There is a shallow place cut to receive the old square. A sliver of fresh material lies on the ledge beneath it, curled at one end. The square fits closely enough to keep its edge against the responsive tissue.
+
+“Was this left here from the last turn?” you ask.
+
+Noor puts a finger behind the square, where the growth should have joined it to the rest.
+
+“Loose.”
+
+She moves it less than the width of her nail. The current tissue flexes independently behind it. Someone has inserted the old piece into a new receiving place. It has not simply stayed where it grew.
+
+Through a gap you can see the underside of the chair above. The square lies below that occupied place. The fresh reach of the return fold ends short of the neighboring chair, where the woman has now moved.
+
+You put your finger through the gap. Noor goes up three steps to ask the woman to tap the floor beside her former chair. The sound comes directly above your finger. She asks again from the neighboring chair. That sound reaches you through the side support.
+
+Noor comes back down. You have checked the location with someone upstairs; she has not heard your conversation below.
+
+You can now take the piece out of contact. That will prevent another return at this occupied place. Noor waits for you to look at its position once more before moving it. You watch it lift clear. She lays it on the dry ledge with its repaired notch facing you.
+
+Available actions at this point:
+
+- Inspect the unoccupied return niche.
+
+Chosen action: Inspect the unoccupied return niche.
+
+## An empty place
+
+Noor offers a test in the unoccupied niche beside the passage. You have used places like it for cups, torn cloth and the little embarrassments of breaking something you meant to give back.
+
+There is a plain cup in it now, its small chip facing the lamp. You lift it out, turn the chip away and put a short charcoal line under its handle. Noor watches you make the mark.
+
+She lifts the old lining clear of its support and shows you its edge. You look behind it. Nothing living is seated in the niche, and the reach of the fold ends before the supports under the room. She asks whether you want to do it.
+
+Available actions at this point:
+
+- Operate the return around the empty cup niche.
+- Decline the test and leave the charcoal mark on the cup.
+
+Chosen action: Decline the test and leave the charcoal mark on the cup.
+
+## The mark stays
+
+“Enough things have happened without someone asking,” you say.
+
+Noor rests the lining on its side. You can examine its edge and the support it meets. You leave the charcoal line on the cup. Nobody rubs it off to improve the demonstration.
+
+Available actions at this point:
+
+- Return to the room.
+
+Chosen action: Return to the room.
+
+## The room
+
+The wedge lies where you left it. Beyond the window the tree has begun to lean into its next movement. Noor watches the rope, waiting for you to say where you want to look next.
+
+Available actions at this point:
+
+- Speak with the continuing woman at the root.
+- Consider what was prepared at Dora’s place.
+- Look again at the interrupted direct braid.
+
+Chosen action: Consider what was prepared at Dora’s place.
+
+## What was prepared
+
+You have the cut ends, the released cord, the shaped wedge and the older square's position. The women wait in the room, one at the table and the other speaking through the root.
+
+Before you give them an account, you can set out which observations support it. The empty return test, if you chose to perform it, is one part of that account; it cannot tell you who put the old square there.
+
+Factual claim submitted:
+
+What was prepared at Dora’s place?
+
+An earlier local arrangement was positioned to return after both supporting connections were interrupted.
+
+Selected encountered support:
+
+After promising to leave it open, Blaise closed the wooden mouth to begin replacing it. The cord slipped out of its shallow seat; opening the lips did not reinsert it.
+
+The direct braid ended at a flat division across its full thickness. A separate naturally shed end narrowed and spread before separating. At the tree Noor showed Blaise the matching flat end. Putting the cut ends together did not restore their response.
+
+A freshly shaved wedge retained cord fibres in its notch. The cord had a matching pinched section. The wedge’s broad end bore dents matching the raised edges of the closing table seam; that movement would pull the cord out of the mouth.
+
+An older square with a repaired notch had been inserted into a fresh receiving place beneath Dora’s former seat. The current tissue moved independently behind it. Taps from above located its narrow reach beneath that place, short of the neighboring chair.
+
+Chosen action: An earlier local arrangement was positioned to return after both supporting connections were interrupted.
+
+The selected observations support a prepared local restoration after the two interruptions. They do not identify the preparer.
+
+## A prepared return
+
+The older square was positioned to reinstate an earlier local arrangement. The direct braid was cut, and the remaining cord had a prepared release. Those interventions belong in the same account.
+
+That account does not give you the preparer's name. It does distinguish a prepared act from a tree that happened to move too far.
+
+You can tell both women what the physical observations support.
+
+Available actions at this point:
+
+- Tell both women the supported finding and that the cast is now out of contact.
+
+Chosen action: Tell both women the supported finding and that the cast is now out of contact.
+
+## Somebody made that place
+
+The woman has put the painting back on its nail. It hangs lower than before. She has chosen the wrong hole and left it there.
+
+You tell both women what you saw, and what Noor lifted out of contact. You explain which connection had been cut and how the seam drew the other one loose. You place the wedge where the woman at the table can reach it. Noor turns the root enough for the continuing Dora to feel its shape, after asking her.
+
+“Somebody put it there,” the woman says.
+
+“Yes.”
+
+“Somebody made that place for me.”
+
+You start to answer and stop. She runs a finger down the pink shaving.
+
+“Did they know I'd be here?”
+
+You have not found that answer. You say so.
+
+The voice from the root asks about the cut ends. Noor describes them. The woman at the table puts the wedge down and begins listening.
+
+Available actions at this point:
+
+- Also tell them that you closed the mouth before the release.
+- Ask what support the continuing woman wants now.
+
+Chosen action: Ask what support the continuing woman wants now.
+
+## A new reach
+
+Noor takes the painting down before she opens the second panel.
+
+You have always liked it. A blue room, with one leg of a chair cut off by the edge. Nobody in the room. Somebody has just gone through a door you cannot see. When you asked Dora where the door was, she said it was wherever you wanted, provided you did not paint it on her picture.
+
+The woman at the table reaches for it.
+
+“Don't put that face down.”
+
+Noor gives it to her. She holds it by the edges, then turns it around to look at the back.
+
+“I thought I hadn't finished this.”
+
+From the root comes Dora's voice.
+
+“You haven't.”
+
+“The chair leg.”
+
+“I like it that way.”
+
+The woman looks at the painted edge again. She rests the picture upright against a chair, carefully, where neither of you can tread on it.
+
+Behind it the wall is damp and pale. A shallow groove runs through the plaster. Noor puts the back of her wrist against it. The skin dimples under her wrist, then pushes back.
+
+“Here,” she says. “Feel that.”
+
+You put your palm where she has put hers. The pressure meets you so delicately that you mistake it for the pulse in your hand. You lift your fingers. It follows, too late to be your own pulse.
+
+The mouth in the tree says, “That's cold.”
+
+“My hand?”
+
+“Whatever you're doing.”
+
+Noor has opened a thin wet fold between the groove and the window. There is no hidden wire. The wall itself has parted. She holds the fold open with the side of her thumb.
+
+“Dora, push where he is.”
+
+Something small presses against the middle of your palm.
+
+You know it is the wall. You also know the peculiar way Dora pokes you when she wants you to move out of a doorway. Neither knowledge gets rid of the other.
+
+You begin to take your hand away.
+
+“Leave it there,” the voice says. “I can't reach that bit by myself yet.”
+
+Noor asks if she can loosen the old root. Dora asks how far. Noor shows the distance with two fingers against the opening, where the hand at the tree can feel them. She waits for Dora's answer.
+
+“All right. Slowly.”
+
+The tree shifts outside. A fine shower of dry grit falls from the rope. Noor catches the speaking piece before its weight can pull it free.
+
+Pressure runs through the wall under your hand. It moves downward, toward your wrist, and pauses. You have a sudden urge to bend your own wrist. You resist it. The pressure does not wait for your permission.
+
+“Can you feel that?” you ask.
+
+“I can do it,” Dora says.
+
+Noor laughs, quietly. You cannot remember hearing her laugh without looking at somebody first.
+
+There is a smell of wet stone. Then something sweeter, too faint to name.
+
+The mouth in the tree opens.
+
+“There's rain beyond the ridge.”
+
+You look through the window. The ridge is white and dry.
+
+“I can't see it,” you say.
+
+“I didn't say you could. Give me a moment.”
+
+The pressure under your hand shifts again. Dora has stopped using it merely to answer you. She is trying the limits of the new reach, pressing in one place, then another. Once she goes too far and Noor closes the wet fold a little. Dora swears at her. Noor opens it again more slowly.
+
+The woman by the table has taken a brush from the shelf. She is testing its dry point on the back of her hand.
+
+“Tell me when I can walk over there,” she says. “I want to see.”
+
+You could keep rebuilding the old arrangement, putting every connection back where it was. Dora might get her old reach back that way. This new reach would close. Noor has shown you both positions of the fold. You can feel the difference yourself.
+
+Available actions at this point:
+
+- Ask whether she wants the new connection and offer to hold it while she learns.
+- Ask whether she wants her former body reconstructed; say you want her back at the table.
+- Say the feeling frightens you and ask Noor to take your place.
+
+Chosen action: Say the feeling frightens you and ask Noor to take your place.
+
+## The hand beside yours
+
+“I'll come round,” Noor says.
+
+You wait until her palm is beside yours. Dora finds it, tests the pressure, and tells you when to let go. Your wrist keeps wanting to bend for a while after you have left the wall.
+
+Noor's sleeve is slipping down toward the damp fold. You roll it up for her. Neither of you mentions your hand.
+
+Available actions at this point:
+
+- Stay beside Noor and speak to her.
+
+Chosen action: Stay beside Noor and speak to her.
+
+## What exists underneath
+
+Noor holds the wall. You stand beside her, with your hand clear of the damp fold. Dora's pressure moves beneath Noor's palm as she tries the reach again.
+
+“I used to think,” you say, “that if I could get far enough round a return, I'd find the part of me that wasn't borrowed.”
+
+Noor glances at you.
+
+“You told me you liked traveling.”
+
+“I do.”
+
+“Good. That would have been an expensive misunderstanding.”
+
+You try to smile. The joke has made it harder to withdraw what you said.
+
+“When the room changes, I remember. When my hands change, I'm the one who notices. I keep arriving. There has to be something doing the arriving.”
+
+“There is. You.”
+
+“Something that doesn't depend on a room, or a root. Otherwise what am I going to get back to?”
+
+The woman by the table has stopped testing the brush. She is listening.
+
+Noor thinks for a while.
+
+“I don't think there is an unborrowed Blaise waiting behind this one.”
+
+“You think I'm all the things holding me up.”
+
+“I think you exist in what they exist in. That isn't quite the same.”
+
+She adjusts her thumb inside the fold. The pressure from Dora moves beneath it, answering.
+
+“This wall didn't make existence. Neither did you. You can change one arrangement into another. You don't step out of what there is to do it.”
+
+“Perhaps something else made it. Made all of it.”
+
+“Then what does your maker exist in?”
+
+“Itself.”
+
+Noor nods.
+
+“That's the answer I mean. Only I don't think the rest of us are outside it.”
+
+“So this is God.” You look at the wall.
+
+“That plaster isn't God. It would be a very poor God. It comes off in the wet.”
+
+She looks at your face to see if she has lost you.
+
+“I mean an existence that doesn't need another existence underneath it. Bodies express it by being extended, by acting on bodies. Thinking expresses it too. I don't think an intention has to jump across from somewhere else to make your hand move.”
+
+“And you know this because the wall answers?”
+
+“No. I know the wall answers because Dora is doing it.”
+
+The voice in the tree says, “Thank you.”
+
+Noor waits for the pressure to settle before continuing.
+
+“If there were two things that existed through themselves, what would make them two? The bodies they produce? Those are the changes we are trying to explain. Their nature would have to distinguish them. But call one thing absolutely without limit, and you can't then keep some kind of existence for the other thing, outside it.”
+
+“You put 'without limit' into the answer before you began.”
+
+“Yes. I haven't earned it merely by saying it.”
+
+You had expected her to deny that. You look at the woman with the brush. She is watching the window, not either of you.
+
+“There's another problem,” you say. “Every body I can know comes to me in space. Every change comes before or after another. Perhaps that's what lets me know a body at all. I can learn the country perfectly under those conditions and still not know what existence is apart from them.”
+
+“I don't think you have to get apart from it to know it.”
+
+“Neither do I. I'm asking what you know. The things under those conditions, or the thing your argument says doesn't need them.”
+
+Noor rubs her cheek against her raised shoulder. There is a smear of plaster on it now.
+
+“I think understanding can reach more than a succession of appearances. When you understand why one thing follows from another, that necessity isn't just how hard you happen to believe it. And a particular thing's dependence doesn't disappear when you stop putting a date on it.”
+
+“A necessity in what I can experience. You still owe me the rest.”
+
+“I do.”
+
+The voice in the tree says, “Do either of you know how to reach the bottom?”
+
+Noor bends to see. Dora has brought the pressure to the lower edge of the groove. The newly available tissue turns the corner, beyond where a hand on the wall can guide it.
+
+“Not like that,” Noor says. “Try letting it spread.”
+
+“I am.”
+
+The woman from the table comes over. She kneels, places the back of her hand near the bottom of the groove, and waits.
+
+The pressure meets her knuckles.
+
+For a while neither woman speaks. One tries a movement. The other moves out of its way.
+
+You had thought the familiar body would be the easy one to understand.
+
+Available actions at this point:
+
+- Let the women try the lower reach together.
+
+Chosen action: Let the women try the lower reach together.
+
+## Two invitations
+
+After the new fold begins answering without your hand, Noor gets her coat out from under the rope. Its lining is damp. She tips the stones onto the table one by one and dries each on the outer cloth.
+
+The woman at the table picks up a flat red one.
+
+“What do you do with these?”
+
+“Knock the tall one down.”
+
+“Which is the tall one?”
+
+Noor looks at the stones spread across the table.
+
+“I forgot it.”
+
+The woman laughs. Noor laughs too, and looks briefly annoyed with herself for it.
+
+Outside, the orchard Dora has found a way to move the root without pulling the rope tight. She asks for room to pass the corner.
+
+“Come out,” she says to you. “I want to see what else this reaches.”
+
+The woman at the table puts the red stone down.
+
+“I want to see the old room.”
+
+You tell her the cast below is only part of it.
+
+“Then show me the place where the rest is.”
+
+The dry country keeps former arrangements. The orchard takes another path, under its newly opening surface. Both can be reached. You cannot leave by both paths at once.
+
+Available actions at this point:
+
+- Ask to accompany the continuing Dora into the orchard, with Noor guiding the other woman to the old rooms.
+- Ask to accompany the woman at the table to the old rooms, with Noor traveling beside the orchard.
+
+Chosen action: Ask to accompany the continuing Dora into the orchard, with Noor guiding the other woman to the old rooms.
+
+## Which way first
+
+Noor asks the woman at the table whether she wants to take the dry way with her.
+
+“As long as you show me where it comes from.”
+
+Noor says she will. At the window she asks the continuing woman whether she wants Blaise beside the tree.
+
+“He can come. Tell him not to walk where the new skin shines.”
+
+“I'm here,” you say.
+
+“Then you've heard.”
+
+Available actions at this point:
+
+- Go out beside the moving tree.
+
+Chosen action: Go out beside the moving tree.
+
+## Into the moving country
+
+You go down through the broad opening beside the window. The ground beyond it rises under your weight, then settles. You have walked on this country all your life. You have seldom waited to feel it finish moving.
+
+The tree is already farther from the room. The speaking piece travels with it, still seated in the root. Dora asks you to move a branch away from the opening so the rope will not catch.
+
+You do. She shifts the root free. Noor unties the rope from inside and feeds its loose end out to you.
+
+The woman at the table comes to the window. She has brought the painting. For a moment you think she means to give it to Dora. Instead she holds it up to compare its blue with the exposed country beyond you.
+
+“It's wrong,” she says.
+
+“I know,” the voice beside you answers. “I liked it.”
+
+The root moves on. You have to take a longer step to keep up.
+
+## Notebook at the route boundary
+
+### Evidence
+
+The undertaking at supper
+
+Noor asked Blaise to leave the wooden mouth open until the tree cleared the corner. He said he would.
+
+Closing the mouth
+
+After promising to leave it open, Blaise closed the wooden mouth to begin replacing it. The cord slipped out of its shallow seat; opening the lips did not reinsert it.
+
+The two left hands
+
+The woman at the table acquired a left hand while a left hand remained engaged at the tree. The rooted speaking piece answered in Dora’s voice. Both women could act and answer separately.
+
+The speaking piece off the root
+
+When Noor briefly lifted the speaking piece out of the responsive tissue, it gave no voice. When reseated, Dora spoke through it and asked Noor to tell her before detaching it again.
+
+The buckle mark
+
+Both left palms bore a pale square. The woman at the table remembered the hot buckle and Blaise’s letting go of the chair. She disputed that the table seam had already opened before supper.
+
+The refused memory test
+
+The woman at the table refused a private-memory test. She offered to discuss what happened that morning, while declining the more intimate test.
+
+The direct braid
+
+The direct braid ended at a flat division across its full thickness. A separate naturally shed end narrowed and spread before separating. At the tree Noor showed Blaise the matching flat end. Putting the cut ends together did not restore their response.
+
+The prepared release
+
+A freshly shaved wedge retained cord fibres in its notch. The cord had a matching pinched section. The wedge’s broad end bore dents matching the raised edges of the closing table seam; that movement would pull the cord out of the mouth.
+
+The installed older square
+
+An older square with a repaired notch had been inserted into a fresh receiving place beneath Dora’s former seat. The current tissue moved independently behind it. Taps from above located its narrow reach beneath that place, short of the neighboring chair.
+
+The occupied place released
+
+After inspecting its position, Blaise watched Noor lift the older square out of contact and lay it on the dry ledge. The prepared fold was no longer contacting the occupied place.
+
+The marked cup
+
+Blaise turned a cup’s chip away from the lamp and drew a charcoal line under its handle. The cup stood inside the unoccupied niche; charcoal remained on his finger outside.
+
+The test declined
+
+Blaise declined to operate the empty-place return. Noor left its lining out of contact. The charcoal line remained on the cup; no current return of the cup was witnessed.
+
+The finding told at the window
+
+Blaise told both women that the inspected cast and interrupted paths supported a prepared local restoration, and that Noor had lifted the cast out of contact. He did not identify a preparer.
+
+The unfinished picture
+
+The woman at the table remembered intending to add someone to the blue room painting. The continuing woman said she liked the cut-off chair leg as it was. The actual dried painting could be inspected by either woman.
+
+A newly controlled reach
+
+With her permission, Noor opened a fresh fold between the window and a responsive groove. Dora deliberately moved pressure across the wall and followed it into a new area. This was a new connection, not a repair joining the table woman to the root.
+
+Rain beyond the ridge
+
+The continuing Dora said there was rain beyond the ridge while trying her new reach. Blaise could see a dry white ridge from the window. The distant rain had not yet been independently inspected.
+
+Noor’s claim about Nature
+
+Noor argued for an existence that depends on no further existence, with bodies and thinking expressing it. She denied that the finite wall was God. She acknowledged that asserting unlimited existence had not yet earned that premise.
+
+Blaise’s objection about knowledge
+
+Blaise asked whether necessary relations known under spatial and temporal conditions establish knowledge of reality independently of those conditions. Noor defended understanding beyond mere succession but acknowledged that she owed him the further argument.
+
+The women’s present cooperation
+
+The woman from the table knelt near the lower edge of the groove and offered her knuckles. The continuing woman brought the pressure to meet them. One tried a movement and the other made room. No private memories were exchanged.
+
+### Supported conclusions
+
+An earlier local arrangement was positioned to return after both supporting connections were interrupted.

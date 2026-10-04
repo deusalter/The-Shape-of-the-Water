@@ -25,3 +25,11 @@ The critic's reservations remain: Noor's independent desire is underdeveloped in
 ## What is not frozen
 
 The five-movement 65–85k encountered-word projection is planning, not written length or measured playtime. The alternate whole-game ending, René's encounter, the protected person's life, later immanence argument and Ethics V culmination remain outstanding. Version 4 is being compiled as a complete local first investigation and consequential departure within the larger work. It must be labeled as that scope and kept separate from the old editions. No automatic migration is proposed.
+
+## Blind encountered-route review 13 and corrected freeze
+
+Read the full source-pinned BLIND-SECOND-MOUTH-13 review of the actual covert/withheld/declined-test/handover/orchard route. Accepted both priority findings: the report now describes the wedge's prepared function rather than substituting it for Blaise's actual earlier interruption; inspection no longer automatically deactivates the cast. A separate offered action asks both women and then directs Noor to lift it. The player can inspect/test the empty niche first and return to deactivation. The removed source arrives only after that performed act.
+
+Also repaired the unperformed notch-check callback, the handover wording, and the declined-test conditional; removed two examiner-like assurances. Preserved the physical inquiry, the positive philosophical dispute, independent women, ordinary humour and Blaise's withheld responsibility. This is a bounded revision, not an instruction to make everybody agreeable.
+
+Five actual-engine routes pass at0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c, including deferred removal and extra private evidence in the accepted factual proof without its being automatically disclosed. Exact r2 snapshot is preserved separately from bc7d. Later country and EthicsV proposals remain uncompiled while this edition is under root browser verification.

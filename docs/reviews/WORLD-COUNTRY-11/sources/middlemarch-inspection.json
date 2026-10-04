@@ -1,0 +1,15 @@
+{
+  "url": "https://www.gutenberg.org/ebooks/145",
+  "localSource": "narrative/sources/middlemarch.txt",
+  "sha256": "68d72777c012fa0eb92cc9e32fce801be60d8a58c788a6be734f1d6e7ddc62eb",
+  "freshRetrieval": false,
+  "inspectionDate": "2026-10-04",
+  "author": "George Eliot",
+  "title": "Middlemarch",
+  "inspectedScope": "Title/author; selected Caleb Garth passages at character offsets 483115\u2013488605 and Chapter XXIV near 527615 in single-line extracted source.",
+  "supportedClaims": [
+    "Caleb Garth is a named literary character.",
+    "Chapter XXIV relates his imagination to skilled labour feeding, clothing and housing a society."
+  ],
+  "limits": "No full-novel reading claimed; this inspection does not verify every edition-level detail."
+}

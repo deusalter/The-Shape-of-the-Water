@@ -1,0 +1,1890 @@
+{
+  "schemaVersion": 2,
+  "id": "shape-of-the-water",
+  "title": "The Second Mouth · First movement",
+  "version": 4,
+  "start": "o0.supper",
+  "occasions": [
+    {
+      "id": "o0",
+      "label": "The opening exchange"
+    }
+  ],
+  "beliefIds": [],
+  "characters": [
+    {
+      "id": "o0.blaise",
+      "name": "Blaise Bloom",
+      "occasionId": "o0",
+      "initial": {
+        "knows": [],
+        "believes": [],
+        "claims": []
+      }
+    },
+    {
+      "id": "o0.noor",
+      "name": "Noor Brangwen",
+      "occasionId": "o0",
+      "initial": {
+        "knows": [],
+        "believes": [],
+        "claims": []
+      }
+    },
+    {
+      "id": "o0.dora-table",
+      "name": "Dora at the table",
+      "occasionId": "o0",
+      "initial": {
+        "knows": [],
+        "believes": [],
+        "claims": []
+      }
+    },
+    {
+      "id": "o0.dora-orchard",
+      "name": "Dora in the orchard",
+      "occasionId": "o0",
+      "initial": {
+        "knows": [],
+        "believes": [],
+        "claims": []
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "o0.promise-source",
+      "occasionId": "o0",
+      "title": "The undertaking at supper",
+      "text": "Noor asked Blaise to leave the wooden mouth open until the tree cleared the corner. He said he would.",
+      "kind": "statement",
+      "provenanceId": "o0.promise-source",
+      "speakerId": "o0.blaise"
+    },
+    {
+      "id": "o0.closed-source",
+      "occasionId": "o0",
+      "title": "Closing the mouth",
+      "text": "After promising to leave it open, Blaise closed the wooden mouth to begin replacing it. The cord slipped out of its shallow seat; opening the lips did not reinsert it.",
+      "kind": "observation",
+      "provenanceId": "o0.closed-source"
+    },
+    {
+      "id": "o0.release-source",
+      "occasionId": "o0",
+      "title": "The witnessed release",
+      "text": "Blaise left the mouth open. As the table seam hardened, a wedge drew the second cord free. The woman at the table then had a left hand while the hand at the tree remained visible.",
+      "kind": "observation",
+      "provenanceId": "o0.release-mechanism"
+    },
+    {
+      "id": "o0.two-hands",
+      "occasionId": "o0",
+      "title": "The two left hands",
+      "text": "The woman at the table acquired a left hand while a left hand remained engaged at the tree. The rooted speaking piece answered in Dora’s voice. Both women could act and answer separately.",
+      "kind": "observation",
+      "provenanceId": "o0.exposure"
+    },
+    {
+      "id": "o0.detached-piece",
+      "occasionId": "o0",
+      "title": "The speaking piece off the root",
+      "text": "When Noor briefly lifted the speaking piece out of the responsive tissue, it gave no voice. When reseated, Dora spoke through it and asked Noor to tell her before detaching it again.",
+      "kind": "observation",
+      "provenanceId": "o0.detached-piece"
+    },
+    {
+      "id": "o0.scar-source",
+      "occasionId": "o0",
+      "title": "The buckle mark",
+      "text": "Both left palms bore a pale square. The woman at the table remembered the hot buckle and Blaise’s letting go of the chair. She disputed that the table seam had already opened before supper.",
+      "kind": "statement",
+      "provenanceId": "o0.scar-source",
+      "speakerId": "o0.dora-table"
+    },
+    {
+      "id": "o0.p-cut",
+      "occasionId": "o0",
+      "title": "The direct braid",
+      "text": "The direct braid ended at a flat division across its full thickness. A separate naturally shed end narrowed and spread before separating. At the tree Noor showed Blaise the matching flat end. Putting the cut ends together did not restore their response.",
+      "kind": "observation",
+      "provenanceId": "o0.direct-braid-material"
+    },
+    {
+      "id": "o0.wedge-source",
+      "occasionId": "o0",
+      "title": "The prepared release",
+      "text": "A freshly shaved wedge retained cord fibres in its notch. The cord had a matching pinched section. The wedge’s broad end bore dents matching the raised edges of the closing table seam; that movement would pull the cord out of the mouth.",
+      "kind": "observation",
+      "provenanceId": "o0.release-mechanism"
+    },
+    {
+      "id": "o0.table-request",
+      "occasionId": "o0",
+      "title": "A request to inspect",
+      "text": "The woman at the table asked Blaise to find what lay under the room and show it to her, rather than only explain it afterward.",
+      "kind": "statement",
+      "provenanceId": "o0.table-request",
+      "speakerId": "o0.dora-table"
+    },
+    {
+      "id": "o0.table-affection",
+      "occasionId": "o0",
+      "title": "What she would find out",
+      "text": "The woman at the table said she knew Blaise, not all of it flatteringly, and asked to find out the rest. She did not promise him unchanged affection.",
+      "kind": "statement",
+      "provenanceId": "o0.table-affection",
+      "speakerId": "o0.dora-table"
+    },
+    {
+      "id": "o0.table-refusal",
+      "occasionId": "o0",
+      "title": "The refused memory test",
+      "text": "The woman at the table refused a private-memory test. She offered to discuss what happened that morning, while declining the more intimate test.",
+      "kind": "statement",
+      "provenanceId": "o0.table-refusal",
+      "speakerId": "o0.dora-table"
+    },
+    {
+      "id": "o0.root-limits",
+      "occasionId": "o0",
+      "title": "The continuing woman’s reach",
+      "text": "The continuing Dora said she could see parts of the room, felt discomfort at the corner, and wanted time to learn where her weight went before being watched. She asked Blaise not to move merely to give her a view of him.",
+      "kind": "statement",
+      "provenanceId": "o0.root-limits",
+      "speakerId": "o0.dora-orchard"
+    },
+    {
+      "id": "o0.confession-source",
+      "occasionId": "o0",
+      "title": "Blaise’s account of closing the mouth",
+      "text": "Blaise said he closed the mouth for his attempted whistle repair after promising Noor he would leave it open.",
+      "kind": "statement",
+      "provenanceId": "o0.confession-source",
+      "speakerId": "o0.blaise",
+      "derivedFrom": [
+        "o0.closed-source",
+        "o0.promise-source"
+      ]
+    },
+    {
+      "id": "o0.cast-source",
+      "occasionId": "o0",
+      "title": "The installed older square",
+      "text": "An older square with a repaired notch had been inserted into a fresh receiving place beneath Dora’s former seat. The current tissue moved independently behind it. Taps from above located its narrow reach beneath that place, short of the neighboring chair.",
+      "kind": "observation",
+      "provenanceId": "o0.cast-installation"
+    },
+    {
+      "id": "o0.cast-removed",
+      "occasionId": "o0",
+      "title": "The occupied place released",
+      "text": "After inspecting its position, Blaise watched Noor lift the older square out of contact and lay it on the dry ledge. The prepared fold was no longer contacting the occupied place.",
+      "kind": "observation",
+      "provenanceId": "o0.cast-removed"
+    },
+    {
+      "id": "o0.cup-mark",
+      "occasionId": "o0",
+      "title": "The marked cup",
+      "text": "Blaise turned a cup’s chip away from the lamp and drew a charcoal line under its handle. The cup stood inside the unoccupied niche; charcoal remained on his finger outside.",
+      "kind": "observation",
+      "provenanceId": "o0.cup-mark"
+    },
+    {
+      "id": "o0.cup-return",
+      "occasionId": "o0",
+      "title": "The empty niche returned",
+      "text": "Noor put the old lining into contact around the unoccupied niche. The cup returned to its former orientation, its chip toward the lamp and its charcoal line absent. Blaise’s hand and charcoal-stained finger remained outside the niche; no person was in its reach.",
+      "kind": "observation",
+      "provenanceId": "o0.cup-return"
+    },
+    {
+      "id": "o0.cup-declined",
+      "occasionId": "o0",
+      "title": "The test declined",
+      "text": "Blaise declined to operate the empty-place return. Noor left its lining out of contact. The charcoal line remained on the cup; no current return of the cup was witnessed.",
+      "kind": "observation",
+      "provenanceId": "o0.cup-declined"
+    },
+    {
+      "id": "o0.report-source",
+      "occasionId": "o0",
+      "title": "The finding told at the window",
+      "text": "Blaise told both women that the inspected cast and interrupted paths supported a prepared local restoration, and that Noor had lifted the cast out of contact. He did not identify a preparer.",
+      "kind": "statement",
+      "provenanceId": "o0.report-source",
+      "speakerId": "o0.blaise",
+      "derivedFrom": [
+        "o0.p-cut",
+        "o0.wedge-source",
+        "o0.cast-source",
+        "o0.cast-removed"
+      ]
+    },
+    {
+      "id": "o0.painting-difference",
+      "occasionId": "o0",
+      "title": "The unfinished picture",
+      "text": "The woman at the table remembered intending to add someone to the blue room painting. The continuing woman said she liked the cut-off chair leg as it was. The actual dried painting could be inspected by either woman.",
+      "kind": "observation",
+      "provenanceId": "o0.painting-difference"
+    },
+    {
+      "id": "o0.new-pressure",
+      "occasionId": "o0",
+      "title": "A newly controlled reach",
+      "text": "With her permission, Noor opened a fresh fold between the window and a responsive groove. Dora deliberately moved pressure across the wall and followed it into a new area. This was a new connection, not a repair joining the table woman to the root.",
+      "kind": "observation",
+      "provenanceId": "o0.new-pressure"
+    },
+    {
+      "id": "o0.rain-claim",
+      "occasionId": "o0",
+      "title": "Rain beyond the ridge",
+      "text": "The continuing Dora said there was rain beyond the ridge while trying her new reach. Blaise could see a dry white ridge from the window. The distant rain had not yet been independently inspected.",
+      "kind": "statement",
+      "provenanceId": "o0.rain-claim",
+      "speakerId": "o0.dora-orchard"
+    },
+    {
+      "id": "o0.dora-wants-reach",
+      "occasionId": "o0",
+      "title": "A chosen new capacity",
+      "text": "The continuing Dora wanted to keep trying the new reach and asked Blaise to hold the connection while she learned.",
+      "kind": "statement",
+      "provenanceId": "o0.dora-wants-reach",
+      "speakerId": "o0.dora-orchard"
+    },
+    {
+      "id": "o0.nature-claim",
+      "occasionId": "o0",
+      "title": "Noor’s claim about Nature",
+      "text": "Noor argued for an existence that depends on no further existence, with bodies and thinking expressing it. She denied that the finite wall was God. She acknowledged that asserting unlimited existence had not yet earned that premise.",
+      "kind": "statement",
+      "provenanceId": "o0.nature-claim",
+      "speakerId": "o0.noor"
+    },
+    {
+      "id": "o0.warrant-objection",
+      "occasionId": "o0",
+      "title": "Blaise’s objection about knowledge",
+      "text": "Blaise asked whether necessary relations known under spatial and temporal conditions establish knowledge of reality independently of those conditions. Noor defended understanding beyond mere succession but acknowledged that she owed him the further argument.",
+      "kind": "statement",
+      "provenanceId": "o0.warrant-objection",
+      "speakerId": "o0.blaise"
+    },
+    {
+      "id": "o0.joint-reach",
+      "occasionId": "o0",
+      "title": "The women’s present cooperation",
+      "text": "The woman from the table knelt near the lower edge of the groove and offered her knuckles. The continuing woman brought the pressure to meet them. One tried a movement and the other made room. No private memories were exchanged.",
+      "kind": "observation",
+      "provenanceId": "o0.joint-reach"
+    }
+  ],
+  "questions": [
+    {
+      "id": "o0.preparation-question",
+      "occasionId": "o0",
+      "text": "What was prepared at Dora’s place?",
+      "when": {
+        "op": "all",
+        "args": [
+          {
+            "op": "hasSource",
+            "id": "o0.p-cut",
+            "scope": "current"
+          },
+          {
+            "op": "hasSource",
+            "id": "o0.cast-source",
+            "scope": "current"
+          },
+          {
+            "op": "hasSource",
+            "id": "o0.cast-removed",
+            "scope": "current"
+          },
+          {
+            "op": "any",
+            "args": [
+              {
+                "op": "hasSource",
+                "id": "o0.wedge-source",
+                "scope": "current"
+              },
+              {
+                "op": "hasSource",
+                "id": "o0.release-source",
+                "scope": "current"
+              }
+            ]
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "hasDeduction",
+              "id": "o0.preparation-question",
+              "scope": "current"
+            }
+          }
+        ]
+      },
+      "candidates": [
+        {
+          "id": "o0.prepared-return",
+          "text": "An earlier local arrangement was positioned to return after both supporting connections were interrupted."
+        },
+        {
+          "id": "o0.tree-alone",
+          "text": "The tree pulled an intact body apart by itself; nothing had been prepared in the room.",
+          "contradictedBy": [
+            "o0.cast-source",
+            "o0.wedge-source"
+          ]
+        },
+        {
+          "id": "o0.blaise-created-cast",
+          "text": "Closing Blaise’s mouth alone created the older arrangement beneath the chair.",
+          "contradictedBy": [
+            "o0.cast-source"
+          ]
+        },
+        {
+          "id": "o0.never-alive",
+          "text": "The cut establishes that one of the two women has never been alive."
+        }
+      ],
+      "supportedCandidateId": "o0.prepared-return",
+      "proof": {
+        "op": "all",
+        "independent": true,
+        "args": [
+          {
+            "op": "ref",
+            "refId": "o0.p-cut",
+            "scope": "current"
+          },
+          {
+            "op": "any",
+            "args": [
+              {
+                "op": "ref",
+                "refId": "o0.wedge-source",
+                "scope": "current"
+              },
+              {
+                "op": "ref",
+                "refId": "o0.release-source",
+                "scope": "current"
+              }
+            ]
+          },
+          {
+            "op": "ref",
+            "refId": "o0.cast-source",
+            "scope": "current"
+          }
+        ]
+      },
+      "allowedCorroborators": [
+        "o0.wedge-source",
+        "o0.release-source",
+        "o0.two-hands",
+        "o0.cup-return",
+        "o0.cast-removed",
+        "o0.closed-source"
+      ],
+      "feedback": [
+        {
+          "code": "supported",
+          "text": "The selected observations support a prepared local restoration after the two interruptions. They do not identify the preparer."
+        },
+        {
+          "code": "premature",
+          "text": "The selected material leaves part of that physical sequence unsupported."
+        },
+        {
+          "code": "irrelevant",
+          "text": "Some selected material does not bear on this particular physical finding."
+        },
+        {
+          "code": "contradictory",
+          "text": "One of the selected observations conflicts with that account."
+        },
+        {
+          "code": "unsupported",
+          "text": "The selected material does not support that conclusion."
+        }
+      ],
+      "effects": [
+        "o0.finding"
+      ],
+      "target": "o0.finding-private"
+    }
+  ],
+  "interpretationRules": [
+    {
+      "id": "o0.closure-reading",
+      "occasionId": "o0",
+      "title": "Your interruption and the preparation",
+      "text": "Closing the mouth interrupted a remaining path before the prepared pull. That gives Blaise a particular responsibility; it does not make him the maker of the older square or erase the prior cut.",
+      "when": {
+        "op": "all",
+        "args": [
+          {
+            "op": "hasSource",
+            "id": "o0.closed-source",
+            "scope": "current"
+          },
+          {
+            "op": "hasDeduction",
+            "id": "o0.preparation-question",
+            "scope": "current"
+          }
+        ]
+      },
+      "relatedRefs": [
+        "o0.closed-source",
+        "o0.preparation-question"
+      ]
+    },
+    {
+      "id": "o0.refusal-reading",
+      "occasionId": "o0",
+      "title": "A refusal to be tested",
+      "text": "Her refusal left the physical inquiry available. A private memory could have mattered to Blaise without being something she owed him as evidence.",
+      "when": {
+        "op": "hasSource",
+        "id": "o0.table-refusal",
+        "scope": "current"
+      },
+      "relatedRefs": [
+        "o0.table-refusal"
+      ]
+    },
+    {
+      "id": "o0.rain-reading",
+      "occasionId": "o0",
+      "title": "A new reach and a reported rain",
+      "text": "Dora deliberately controlled pressure in the new wall. Her further claim about rain is still a report; the dry view from the window does not by itself establish or refute weather beyond the ridge.",
+      "when": {
+        "op": "all",
+        "args": [
+          {
+            "op": "hasSource",
+            "id": "o0.new-pressure",
+            "scope": "current"
+          },
+          {
+            "op": "hasSource",
+            "id": "o0.rain-claim",
+            "scope": "current"
+          }
+        ]
+      },
+      "relatedRefs": [
+        "o0.new-pressure",
+        "o0.rain-claim"
+      ]
+    }
+  ],
+  "hints": [
+    {
+      "id": "o0.organize-hint",
+      "occasionId": "o0",
+      "label": "Review the three physical preparations",
+      "questionId": "o0.preparation-question",
+      "when": {
+        "op": "all",
+        "args": [
+          {
+            "op": "hasSource",
+            "id": "o0.p-cut",
+            "scope": "current"
+          },
+          {
+            "op": "hasSource",
+            "id": "o0.wedge-source",
+            "scope": "current"
+          },
+          {
+            "op": "hasSource",
+            "id": "o0.cast-source",
+            "scope": "current"
+          }
+        ]
+      },
+      "mentions": [
+        "o0.p-cut",
+        "o0.wedge-source",
+        "o0.cast-source"
+      ],
+      "text": "The direct braid, the prepared release and the inserted older square answer different parts of the same question. Select support for the interruption and for what was positioned to return.",
+      "reveals": false
+    }
+  ],
+  "scenes": [
+    {
+      "id": "o0.supper",
+      "occasionId": "o0",
+      "title": "The difficult note",
+      "paragraphs": [
+        "You used to whistle two notes at once. Dora would ask for it after supper. Lately she says even the one you have left makes her fillings hurt.",
+        "Tonight you mean to make her ask.",
+        "The room is preparing to change. A seam has opened down the middle of the long table. Everyone has moved their plates to one side. The new wood underneath is pink and soft; if you touch it, it takes the print of your finger and slowly lets it go.",
+        "You sit at the corner that has already hardened. You learned to test a chair before trusting it when you were six. That is most of what growing up amounts to here: a succession of quite specific things to sit on, eat around, step over and never believe merely because they look finished.",
+        "Outside, the country is turning its skin. The orchard moves past the windows root first. Beyond it, a white ridge splits and folds back. The exposed surface shines in the low light. Farther off, people walk along the old surface carrying beds and rolled rugs toward a new opening. A dog is refusing to go through. You can hear the argument, which has reached the stage at which the dog is being reminded of all the other things people do for it.",
+        "Dora Helmer brings a bowl to the table in the crook of her right arm. Her left hand is elsewhere for the evening. She says it is helping a tree stand up. She puts her mouth to the bowl and tips the last cherry stone onto the cloth.",
+        "“That one's for you.”",
+        "“The stone?”",
+        "“I ate the difficult part.”",
+        "She drops into the chair opposite. Without her hand she keeps forgetting where to put her elbow. It touches the new wood and leaves a small clean hollow.",
+        "You could tell her the table is still soft. You wait to see whether she will notice. She notices you noticing.",
+        "“Say something clever and I'll put your face in it.”",
+        "You push her plate toward her instead.",
+        "Noor Brangwen is on the floor beside the wall. She has opened the low panel with a bread knife. Two pale cords run behind it. She touches each with the back of a finger before putting her hand around it.",
+        "“Still using this one, Dora?”",
+        "Dora closes her eyes. Her left shoulder moves, though the empty sleeve remains flat.",
+        "“Tree's being awkward.”",
+        "“I'll leave it.”",
+        "Noor puts the cord down. The second one passes through the little wooden mouth under your chair. You made that mouth years ago, when the room could not hold your voice through a return without help. Its lips are rough where you carved against the grain. You have always meant to make them smooth.",
+        "The mouth has forgotten one of your notes."
+      ],
+      "choices": [
+        {
+          "id": "o0.hear-noor",
+          "label": "Listen to Noor while she checks the connection.",
+          "target": "o0.promise"
+        }
+      ]
+    },
+    {
+      "id": "o0.promise",
+      "occasionId": "o0",
+      "title": "Three screws",
+      "paragraphs": [
+        "You tried it after the last turn. One whistle, then air. The room brought back your unburnt fingers, the supper, the patch of sunlight on the table. It did not bring back the little movement inside your cheek that made the second note.",
+        "“I can put the old mouth on,” you say.",
+        "Noor stays on the floor.",
+        "“You can wait.”",
+        "“It's three screws.”",
+        "“Then it'll take you no time after supper.”",
+        "She taps the second cord with a finger.",
+        "“Leave this open until the tree clears the corner. Will you?”",
+        "You say you will. It seems easier than explaining what three screws can and cannot do.",
+        "You look at Dora. She has turned her head toward the window. The whole tree is going past, with her hand buried in the split beside its root. It is unmistakably hers. She has been biting the skin beside her thumbnail again.",
+        "The tree leans. Dora's shoulder rises. It steadies.",
+        "“There,” she says. “Useless thing.”",
+        "Noor asks whether she wants the hand back now.",
+        "“Let it get round the corner. I don't want to catch it.”",
+        "You have the old mouth in your coat pocket. Exact teeth, exact tongue, the knot in the wood where you once slipped with the knife. The new one is better made. The old one knows your whistle."
+      ],
+      "choices": [
+        {
+          "id": "o0.keep-promise",
+          "label": "Leave the mouth open as promised; ask Dora to help you later.",
+          "target": "o0.leave-mouth",
+          "effects": [
+            "o0.kept"
+          ]
+        },
+        {
+          "id": "o0.break-promise",
+          "label": "Close the mouth while Noor looks away, breaking your promise to wait.",
+          "target": "o0.close-mouth",
+          "effects": [
+            "o0.closed"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "o0.promise-source"
+      ]
+    },
+    {
+      "id": "o0.leave-mouth",
+      "occasionId": "o0",
+      "title": "Waiting",
+      "paragraphs": [
+        "You put both hands on the table where Noor can see them.",
+        "“Help me later?”",
+        "Dora gives you an appraising look.",
+        "“I was going to sleep.”",
+        "“Before the room turns?”",
+        "“During, if people stop taking bits of it off.”",
+        "You leave the old mouth in your pocket.",
+        "Dora begins to tell you about the man trying to persuade his dog to move. She does his voice badly, too high and too careful. It makes Noor laugh. You almost try the whistle to keep them laughing. You stop with two fingers against your lips.",
+        "Under the table, something gives a small hard knock."
+      ],
+      "choices": [
+        {
+          "id": "o0.watch-release",
+          "label": "Look beneath the table.",
+          "target": "o0.exposure-kept"
+        }
+      ]
+    },
+    {
+      "id": "o0.exposure-kept",
+      "occasionId": "o0",
+      "title": "Two hands",
+      "paragraphs": [
+        "Noor bends to look. The second cord has fallen out of the wooden mouth. Beside it lies a wedge the colour of the old table. Its narrow end is fresh pink wood.",
+        "Dora stops in the middle of a word.",
+        "Her left hand is on the cloth.",
+        "Outside, her other left hand still grips the moving root.",
+        "Noor reaches past your legs and takes the loose cord. You draw your feet back to give her room.",
+        "“I left it,” you say.",
+        "“I can see.”",
+        "She gets up with the cord in her hand. At the window she tries to catch the tree, but it has moved too far for her to reach its split from the floor.",
+        "“Give me the speaking piece.”",
+        "You fetch the warm slitted piece from the shelf. Dora uses it when her hand is away and she wants to swear at whoever is supervising. Noor kneels on the sill and presses it beside the wrist.",
+        "The voice that answers is Dora's.",
+        "“Who turned the room?”",
+        "At the table, the woman looks from you to Noor. She folds her new left hand inside her right.",
+        "“Nobody,” Noor says.",
+        "“Then where's my chair?”",
+        "The voice comes from the little piece in the tree. Dora, at the table, draws her feet back under the seat.",
+        "“I'm here,” you tell the tree.",
+        "“I know. I can hear you breathing.”",
+        "Dora at the table says, “So can I.”",
+        "The tree is moving. In a few seconds it will be past the window. Noor catches the sill with one hand and the root with the other. It pulls her sideways.",
+        "“You can do this later,” she says. “Either help me or fetch a rope.”"
+      ],
+      "choices": [
+        {
+          "id": "o0.hold-root-kept",
+          "label": "Take the root with Noor and hold the tree beside the window.",
+          "target": "o0.catch-tree"
+        },
+        {
+          "id": "o0.rope-kept",
+          "label": "Fetch the soft rope and ask the woman at the table to help.",
+          "target": "o0.fetch-rope"
+        }
+      ],
+      "sourceIds": [
+        "o0.release-source",
+        "o0.two-hands"
+      ]
+    },
+    {
+      "id": "o0.close-mouth",
+      "occasionId": "o0",
+      "title": "Under the chair",
+      "paragraphs": [
+        "You need both hands to reach underneath the chair. Your fingers find the three screw heads. You shut the little wooden lips.",
+        "Dora stops talking.",
+        "She had begun to say something about the dog outside. Her mouth remains open around the first sound.",
+        "You let go of the screw.",
+        "“Dora?”",
+        "She turns her head. For a moment she seems to be listening to someone farther away.",
+        "Then she says, “What?”",
+        "Noor looks up from the panel. You have not yet moved your hands.",
+        "“What did you touch?”",
+        "“Just my mouth.”",
+        "You hear how it sounds. You take your hands away. The lips spring open. The cord has slipped out of their shallow seat; opening them does not put it back."
+      ],
+      "choices": [
+        {
+          "id": "o0.look-after-touch",
+          "label": "Look toward Dora.",
+          "target": "o0.exposure-touched"
+        }
+      ],
+      "sourceIds": [
+        "o0.closed-source"
+      ]
+    },
+    {
+      "id": "o0.exposure-touched",
+      "occasionId": "o0",
+      "title": "Two hands",
+      "paragraphs": [
+        "Dora picks up her spoon. She holds it in her left hand.",
+        "Between the table legs, a little dark wedge remains caught in the pink seam. It has not yet been drawn free.",
+        "Through the window the tree is still moving. Dora's other left hand is still holding its root.",
+        "Noor gets to her feet. She goes to the window so quickly that her knee knocks your plate to the floor. The plate breaks. No one looks at it.",
+        "“Say your name,” she tells the hand.",
+        "The hand is a hand. It cannot comply.",
+        "You start to laugh. You do not mean to. Noor looks back at you with her mouth drawn tight.",
+        "“Get the speaking piece.”",
+        "You know where it is. Dora uses it when she sends a hand away and wants to swear at whoever is supervising. You fetch it from the shelf above the door: a flat warm thing with a slit across one side. Noor presses it into the tree's split, beside the wrist.",
+        "It takes a moment to answer.",
+        "“Who turned the room?”",
+        "You look at Dora. She has put the spoon down. She is watching you look.",
+        "“Nobody,” Noor says.",
+        "“Then where's my chair?”",
+        "The voice comes from the little piece in the tree. Dora, at the table, draws her feet back under the seat.",
+        "You remember the mouth under your hand. You remember how little resistance its lips gave you.",
+        "“I'm here,” you tell the tree.",
+        "“I know. I can hear you breathing.”",
+        "Dora at the table says, “So can I.”",
+        "The tree is moving. In a few seconds it will be past the window. Noor catches the sill with one hand and the root with the other. It pulls her sideways.",
+        "“You can do this later,” she says. “Either help me or fetch a rope.”"
+      ],
+      "choices": [
+        {
+          "id": "o0.hold-root-touched",
+          "label": "Take the root with Noor and hold the tree beside the window.",
+          "target": "o0.catch-tree"
+        },
+        {
+          "id": "o0.rope-touched",
+          "label": "Fetch the soft rope and ask the woman at the table to help.",
+          "target": "o0.fetch-rope"
+        }
+      ],
+      "sourceIds": [
+        "o0.two-hands"
+      ]
+    },
+    {
+      "id": "o0.catch-tree",
+      "occasionId": "o0",
+      "title": "The root",
+      "paragraphs": [
+        "The woman at the table stands. You have not asked her yet.",
+        "“Where do you keep the rope?”",
+        "She puts a hand on your shoulder to get past you. It is warm. There is a little dampness in the palm.",
+        "The voice in the tree says your name.",
+        "You do not turn around quickly enough for either of them.",
+        "You get your forearm beneath the root beside Noor's. The tree's movement drags both your elbows across the sill. The woman finds the rope in the cupboard and brings it over.",
+        "“Round the root,” Noor says. “That thick part. Leave the wrist clear.”",
+        "The woman feeds the soft rope beneath the root. You take its end and pass it through the opening in the sill. Noor keeps the speaking piece seated while the knot takes the weight.",
+        "When you ease your arm out, a shallow mark remains on it. The tree is held close enough to the window to speak without anyone being pulled after it."
+      ],
+      "choices": [
+        {
+          "id": "o0.root-secured",
+          "label": "Check how both women are doing.",
+          "target": "o0.sill",
+          "effects": [
+            "o0.secured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "o0.fetch-rope",
+      "occasionId": "o0",
+      "title": "The cupboard",
+      "paragraphs": [
+        "The woman at the table stands. You have not asked her yet.",
+        "“Where do you keep the rope?”",
+        "She puts a hand on your shoulder to get past you. It is warm. There is a little dampness in the palm.",
+        "The voice in the tree says your name.",
+        "You do not turn around quickly enough for either of them.",
+        "You open the cupboard and find the soft rope behind a bag of dried fruit. The woman takes one end while you carry the coil to Noor.",
+        "Noor has one knee against the sill. She points with her chin at the thick part of the root, clear of the wrist. You feed the rope underneath. The woman passes the other end through the opening in the sill and helps you draw it close.",
+        "The root settles into the loop. Noor waits until the knot takes its weight before bringing her knee down. She keeps one hand at the speaking piece.",
+        "“That's enough. Don't pull it any tighter.”"
+      ],
+      "choices": [
+        {
+          "id": "o0.rope-secured",
+          "label": "Check how both women are doing.",
+          "target": "o0.sill",
+          "effects": [
+            "o0.secured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "o0.sill",
+      "occasionId": "o0",
+      "title": "At the sill",
+      "paragraphs": [
+        "The rope holds the root a little below the window. Every time the tree moves, the knot settles deeper into the soft part of the sill.",
+        "Noor lays her coat beneath it. You have never seen the lining before. Someone has sewn a row of small pockets along the hem, each with a different stone inside.",
+        "“They're for a game,” she says, seeing you look. “You don't have to turn them into a problem.”",
+        "The woman at the table has come to the window. She keeps looking at the hand in the tree. Once she lifts her own left hand and turns it palm upward. The other one does not move.",
+        "“I can do that too,” says the voice from the root.",
+        "The orchard hand opens. Its palm faces the room. Both hands have the same little pale square below the middle finger.",
+        "You know where the square came from. Dora put her hand down on a hot buckle while trying to move a chair. You were supposed to be holding the chair. You had let go to laugh at something she said.",
+        "The woman beside you presses a finger to the mark. She remembers the buckle too. She tells you where the chair was, and how you laughed.",
+        "Then she asks why the seam in the table has opened. The orchard voice says it opened before supper.",
+        "“No,” the woman says. “It was still hard this morning.”",
+        "You can see the moment at which she decides to stop arguing. She does not agree. She has found something more urgent to watch.",
+        "Noor lifts the speaking piece out of the root for a moment, supporting the tissue beneath it with her thumb. The slit hangs open. No voice comes out. She seats it again.",
+        "“Don't do that without telling me,” Dora says.",
+        "“I'm sorry.” Noor keeps her hands still. “I needed to check the join.”",
+        "“Tell me first.”",
+        "The woman beside you has gone back to the table. She sits in a different chair."
+      ],
+      "choices": [
+        {
+          "id": "o0.sill-investigate",
+          "label": "Look at the connections before deciding what happened.",
+          "target": "o0.room-hub",
+          "effects": [
+            "o0.at_sill"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "o0.detached-piece",
+        "o0.scar-source"
+      ]
+    },
+    {
+      "id": "o0.room-hub",
+      "occasionId": "o0",
+      "title": "The room",
+      "paragraphs": [
+        "The rope creaks against Noor's folded coat. The woman at the table has chosen a different chair. Outside, the hand at the root adjusts its grip.",
+        "You have room to look before touching anything else."
+      ],
+      "choices": [
+        {
+          "id": "o0.inspect-p",
+          "label": "Inspect the direct braid behind the wall panel.",
+          "target": "o0.direct-braid",
+          "unless": [
+            "o0.p_seen"
+          ]
+        },
+        {
+          "id": "o0.inspect-wedge",
+          "label": "Examine the loose cord and wedge.",
+          "target": "o0.wedge",
+          "unless": [
+            "o0.q_seen"
+          ]
+        },
+        {
+          "id": "o0.talk-table",
+          "label": "Speak with the woman at the table.",
+          "target": "o0.table-conversation",
+          "unless": [
+            "o0.table_talked"
+          ]
+        },
+        {
+          "id": "o0.talk-root",
+          "label": "Speak with the continuing woman at the root.",
+          "target": "o0.root-conversation",
+          "unless": [
+            "o0.root_talked"
+          ]
+        },
+        {
+          "id": "o0.go-below",
+          "label": "Ask Noor to show you the underside of the room.",
+          "target": "o0.lower-passage",
+          "requires": [
+            "o0.p_seen",
+            "o0.q_seen"
+          ],
+          "unless": [
+            "o0.cast_seen"
+          ]
+        },
+        {
+          "id": "o0.remove-cast-later",
+          "label": "Ask both women before having Noor take the occupied cast out of contact.",
+          "target": "o0.cast-removal",
+          "requires": [
+            "o0.cast_seen"
+          ],
+          "when": {
+            "op": "not",
+            "arg": {
+              "op": "hasSource",
+              "id": "o0.cast-removed",
+              "scope": "current"
+            }
+          }
+        },
+        {
+          "id": "o0.organize-finding",
+          "label": "Consider what was prepared at Dora’s place.",
+          "target": "o0.claim",
+          "requires": [
+            "o0.p_seen",
+            "o0.q_seen",
+            "o0.cast_seen"
+          ],
+          "when": {
+            "op": "hasSource",
+            "id": "o0.cast-removed",
+            "scope": "current"
+          }
+        },
+        {
+          "id": "o0.revisit-braid",
+          "label": "Look again at the interrupted direct braid.",
+          "target": "o0.braid-revisit",
+          "requires": [
+            "o0.p_seen"
+          ],
+          "unless": [
+            "o0.p_revisited"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "o0.hub-after-inspection",
+          "requires": [
+            "o0.p_seen",
+            "o0.q_seen"
+          ],
+          "paragraphs": [
+            "The wedge lies where you left it. Beyond the window the tree has begun to lean into its next movement. Noor watches the rope, waiting for you to say where you want to look next."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "o0.direct-braid",
+      "occasionId": "o0",
+      "title": "The direct braid",
+      "paragraphs": [
+        "Noor holds the low panel while you look behind it. The facing has a narrow lip, just enough to hide the place where the braid turns toward the window.",
+        "The braid ends before the turn.",
+        "You take the end between two fingers. Its many fine strands have been divided along one flat surface. One thicker strand sticks out beyond the rest with a shallow slice across it. Someone began the cut, pressed harder, and finished almost at the same angle.",
+        "Noor points to another end hanging from the wall. That one is dry and pale, spread like the end of a brush.",
+        "“Last change,” she says. “It let go by itself.”",
+        "You put them beside one another. The old natural end has narrowed before separating. The new flat end has kept its full thickness up to the division. You can fit neither piece back into the other. They are different braids.",
+        "At the window Noor feels along the tree-side length. She asks the orchard Dora before turning the root toward the light. There is a matching flat end, hidden by the sill until she lifts it.",
+        "The two cut surfaces meet. They do not begin responding when you put them together.",
+        "“We could bind them,” you say.",
+        "“We could. It wouldn't make the inside grow back by supper.”",
+        "You leave them where both can be inspected. The tree shifts against the rope outside. Its own roots still respond, though this route into the room has been severed. The second route passes through the wooden mouth beneath your chair; that is the one whose cord has come free."
+      ],
+      "choices": [
+        {
+          "id": "o0.p-back",
+          "label": "Return to the room.",
+          "target": "o0.room-hub",
+          "effects": [
+            "o0.p_seen"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "o0.p-cut"
+      ]
+    },
+    {
+      "id": "o0.wedge",
+      "occasionId": "o0",
+      "title": "The prepared pull",
+      "paragraphs": [
+        "The wedge lies between two table legs. Its broad end is dark, the colour of old wood. Someone has shaved its narrow end recently. A strip of pink wood still curls from the side.",
+        "The second cord has a pinched place exactly as wide as the narrow end. Fibres from the cord remain in the shallow notch cut across it.",
+        "You turn the wedge over. The broad end bears two fresh dents. The hardening seam has a corresponding pair of raised edges.",
+        "Noor takes the wedge from you and puts it beside the seam, without fitting it back.",
+        "“There. As the sides closed, this would move toward the floor.”",
+        "“Pulling the cord.”",
+        "She nods. You follow the distance with your finger. It is enough to draw the pinched part out of the mouth. No one would have to be under the table at that moment.",
+        "The woman sitting nearby bends to look. She asks whether it belongs there.",
+        "“Not for anything I do,” Noor says.",
+        "“Then don't put it back.”",
+        "You lay it on the table in full view. It rocks once on the fresh shaving and stays still."
+      ],
+      "choices": [
+        {
+          "id": "o0.q-back",
+          "label": "Return to the room.",
+          "target": "o0.room-hub",
+          "effects": [
+            "o0.q_seen"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "o0.wedge-source"
+      ]
+    },
+    {
+      "id": "o0.braid-revisit",
+      "occasionId": "o0",
+      "title": "The ends",
+      "paragraphs": [
+        "The flat ends are where you left them. You hold them in the same position as before. They still do not answer each other.",
+        "The woman at the table watches you through the gap beneath the sill. You realize you have been hoping the second look would make them join.",
+        "You set them down without binding them."
+      ],
+      "choices": [
+        {
+          "id": "o0.p-revisit-back",
+          "label": "Return to the room.",
+          "target": "o0.room-hub",
+          "effects": [
+            "o0.p_revisited"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "o0.table-conversation",
+      "occasionId": "o0",
+      "title": "The unfinished room",
+      "paragraphs": [
+        "She has moved the painting onto her knees. It shows a blue room and part of a chair. The blue is slightly greener where the paint thins near the corner.",
+        "“Is that finished?” she asks you.",
+        "You have seen it hanging here for a long time. You tell her that.",
+        "“That wasn't what I asked.”",
+        "She taps the cut-off chair leg with her nail. The paint has hardened. She turns the picture sideways, considering it.",
+        "“I was going to put someone there.”",
+        "“Who?”",
+        "“I hadn't decided.”",
+        "She moves the painting aside. Under it her dress has left a pattern of little squares on her knees.",
+        "“Don't ask me the buckle again.”",
+        "“I wasn't going to.”",
+        "“You were looking at my hand.”"
+      ],
+      "choices": [
+        {
+          "id": "o0.table-want",
+          "label": "Ask what she wants you to do now.",
+          "target": "o0.table-want",
+          "effects": [
+            "o0.table_talked"
+          ]
+        },
+        {
+          "id": "o0.table-affection-choice",
+          "label": "Say you are afraid of expecting her to owe you Dora’s affection.",
+          "target": "o0.table-affection",
+          "effects": [
+            "o0.table_talked"
+          ]
+        },
+        {
+          "id": "o0.table-memory-test",
+          "label": "Ask for one private memory; stop if she refuses.",
+          "target": "o0.table-refusal",
+          "effects": [
+            "o0.table_talked"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "o0.table-want",
+      "occasionId": "o0",
+      "title": "Show me",
+      "paragraphs": [
+        "“Find out what's under this room. Then show me. Don't just come back and explain it.”"
+      ],
+      "choices": [
+        {
+          "id": "o0.table-want-back",
+          "label": "Return to the room.",
+          "target": "o0.room-hub"
+        }
+      ],
+      "sourceIds": [
+        "o0.table-request"
+      ]
+    },
+    {
+      "id": "o0.table-affection",
+      "occasionId": "o0",
+      "title": "Some of it",
+      "paragraphs": [
+        "She thinks about that for a while.",
+        "“You could start by moving your knee. You're pinning my skirt.”",
+        "You move. She pulls the cloth free.",
+        "“I know you,” she says. “Some of it isn't very flattering. Let me find out the rest.”"
+      ],
+      "choices": [
+        {
+          "id": "o0.table-affection-back",
+          "label": "Return to the room.",
+          "target": "o0.room-hub"
+        }
+      ],
+      "sourceIds": [
+        "o0.table-affection"
+      ]
+    },
+    {
+      "id": "o0.table-refusal",
+      "occasionId": "o0",
+      "title": "No",
+      "paragraphs": [
+        "“No.”",
+        "She says it without raising her voice. You feel foolish for having waited for an angry answer.",
+        "“You can ask what happened this morning. That's useful. I'm not doing the other thing.”"
+      ],
+      "choices": [
+        {
+          "id": "o0.table-refusal-back",
+          "label": "Return to the room.",
+          "target": "o0.room-hub"
+        }
+      ],
+      "sourceIds": [
+        "o0.table-refusal"
+      ]
+    },
+    {
+      "id": "o0.root-conversation",
+      "occasionId": "o0",
+      "title": "Where the weight goes",
+      "paragraphs": [
+        "The speaking piece has slipped slightly in its seating. You ask before touching it. Dora tells you which edge to lift.",
+        "“Can you see the room?” you ask.",
+        "“Parts. Not where you're standing.”",
+        "You step sideways.",
+        "“Now?”",
+        "“No.”",
+        "You begin to move again. She tells you to stay where you are.",
+        "“I don't need a view of everything you do.”",
+        "The tree moves against the rope. She is quiet while it passes its weight from one root to another. You hear a sound like somebody trying to turn over in a narrow bed.",
+        "“Does it hurt?”",
+        "“At the corner. Less when the root is held steady.”",
+        "You ask if she wants the woman at the table to come over. The speaking piece closes for a moment.",
+        "“In a bit. I want to learn where my weight goes before everyone watches.”",
+        "You look away from the root. There is nowhere to look that feels quite far enough away."
+      ],
+      "choices": [
+        {
+          "id": "o0.root-back",
+          "label": "Return to the room.",
+          "target": "o0.room-hub",
+          "effects": [
+            "o0.root_talked"
+          ]
+        },
+        {
+          "id": "o0.private-confession",
+          "label": "Tell her quietly that you closed the mouth after promising to wait.",
+          "target": "o0.private-confession",
+          "requires": [
+            "o0.closed"
+          ],
+          "effects": [
+            "o0.root_talked",
+            "o0.private_confession"
+          ],
+          "actions": [
+            {
+              "type": "acquireSource",
+              "sourceId": "o0.confession-source"
+            },
+            {
+              "type": "disclose",
+              "characterId": "o0.dora-orchard",
+              "refId": "o0.confession-source"
+            }
+          ]
+        }
+      ],
+      "sourceIds": [
+        "o0.root-limits"
+      ]
+    },
+    {
+      "id": "o0.private-confession",
+      "occasionId": "o0",
+      "title": "The whistle",
+      "paragraphs": [
+        "You wait until Noor is beside the table, speaking to the other woman. You keep your voice low, close to the rooted speaking piece.",
+        "“I closed it,” you say. “After I told Noor I would leave it.”",
+        "The root keeps moving.",
+        "“For the whistle?”",
+        "“Yes.”",
+        "“I used to like that.”",
+        "You wait for something else. Nothing comes. After a while she asks you to fetch Noor."
+      ],
+      "choices": [
+        {
+          "id": "o0.confession-back",
+          "label": "Return to the room.",
+          "target": "o0.room-hub"
+        }
+      ]
+    },
+    {
+      "id": "o0.lower-passage",
+      "occasionId": "o0",
+      "title": "The side steps",
+      "paragraphs": [
+        "Noor takes a lamp from beside the door. She has to shake it before the pale growth inside opens. The light falls through the handle and makes her fingers look hollow.",
+        "“The rope holds it here,” she says. “The roots can rest while we look. We won't be long.”",
+        "She tells both women where you are going and leaves the speaking piece seated at the window. Their voices become indistinct as you go down the side steps. At the bottom you can hear the tree dragging against the rope, but no words.",
+        "The passage is lower than you remembered. You turn your shoulders to get between the two supports. One still bears a painted handprint from when you were small. You put your own hand over it. Your thumb goes far beyond the old mark.",
+        "You had believed the mark would look smaller than it does.",
+        "Noor waits without looking back. When you catch up, she asks you to hold the lamp."
+      ],
+      "choices": [
+        {
+          "id": "o0.look-under-place",
+          "label": "Inspect the underside of Dora’s former place.",
+          "target": "o0.cast-inspection"
+        }
+      ]
+    },
+    {
+      "id": "o0.cast-inspection",
+      "occasionId": "o0",
+      "title": "The old square",
+      "paragraphs": [
+        "The underside of the table is threaded with thin pale roots. Most have grown through the support beneath them. One square of darker material interrupts the pattern.",
+        "You recognize the repaired notch in its edge. Dora used to hook her heel there. You raise the lamp through the gap beside the support. The corresponding edge of the new table above is smooth.",
+        "Noor holds the lamp to one side. There is a shallow place cut to receive the old square. A sliver of fresh material lies on the ledge beneath it, curled at one end. The square fits closely enough to keep its edge against the responsive tissue.",
+        "“Was this left here from the last turn?” you ask.",
+        "Noor puts a finger behind the square, where the growth should have joined it to the rest.",
+        "“Loose.”",
+        "She moves it less than the width of her nail. The current tissue flexes independently behind it. Someone has inserted the old piece into a new receiving place. It has not simply stayed where it grew.",
+        "Through a gap you can see the underside of the chair above. The square lies below that occupied place. The fresh reach of the return fold ends short of the neighboring chair, where the woman has now moved.",
+        "You put your finger through the gap. Noor goes up three steps to ask the woman to tap the floor beside her former chair. The sound comes directly above your finger. She asks again from the neighboring chair. That sound reaches you through the side support.",
+        "Noor comes back down. The last tap still trembles in the wood beside your finger.",
+        "You can take the piece out of contact. That will prevent another return at this occupied place. Noor waits beside it. She has not moved it yet."
+      ],
+      "choices": [
+        {
+          "id": "o0.isolate-occupied-cast",
+          "label": "Ask both women before having Noor lift the occupied cast out of contact.",
+          "target": "o0.cast-removal",
+          "effects": [
+            "o0.cast_seen"
+          ]
+        },
+        {
+          "id": "o0.niche-before-removal",
+          "label": "Leave the occupied cast in place for now; inspect the empty niche first.",
+          "target": "o0.niche",
+          "effects": [
+            "o0.cast_seen"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "o0.cast-source"
+      ]
+    },
+    {
+      "id": "o0.cast-removal",
+      "occasionId": "o0",
+      "title": "Out of contact",
+      "paragraphs": [
+        "You go back up to the window. You tell both women where the square sits and that lifting it clear will stop the prepared fold from acting at that place again.",
+        "“Please do that,” says the woman at the table.",
+        "The voice at the root asks whether you will have to touch either cut end. You tell her you will not.",
+        "“Then yes. Keep the piece where we can look at it.”",
+        "Downstairs, you give Noor their answers. She waits while you look at the square's position once more. Then you ask her to lift it clear.",
+        "The responsive tissue bends away from its edge. She lays the square on the dry ledge with the repaired notch facing you. The former seat is outside the fold now."
+      ],
+      "choices": [
+        {
+          "id": "o0.look-niche",
+          "label": "Inspect the unoccupied return niche.",
+          "target": "o0.niche",
+          "when": {
+            "op": "not",
+            "arg": {
+              "op": "hasSource",
+              "id": "o0.cup-mark",
+              "scope": "current"
+            }
+          }
+        },
+        {
+          "id": "o0.removed-after-test",
+          "label": "Return to the room and consider the finding.",
+          "target": "o0.room-hub"
+        }
+      ],
+      "sourceIds": [
+        "o0.cast-removed"
+      ]
+    },
+    {
+      "id": "o0.niche",
+      "occasionId": "o0",
+      "title": "An empty place",
+      "paragraphs": [
+        "Noor offers a test in the unoccupied niche beside the passage. You have used places like it for cups, torn cloth and the little embarrassments of breaking something you meant to give back.",
+        "There is a plain cup in it now, its small chip facing the lamp. You lift it out, turn the chip away and put a short charcoal line under its handle. Noor watches you make the mark.",
+        "She lifts the old lining clear of its support and shows you its edge. You look behind it. Nothing living is seated in the niche, and the reach of the fold ends before the supports under the room. She asks whether you want to do it."
+      ],
+      "choices": [
+        {
+          "id": "o0.operate-empty-return",
+          "label": "Operate the return around the empty cup niche.",
+          "target": "o0.return-test"
+        },
+        {
+          "id": "o0.decline-empty-return",
+          "label": "Decline the test and leave the charcoal mark on the cup.",
+          "target": "o0.return-declined"
+        }
+      ],
+      "sourceIds": [
+        "o0.cup-mark"
+      ]
+    },
+    {
+      "id": "o0.return-test",
+      "occasionId": "o0",
+      "title": "The cup",
+      "paragraphs": [
+        "You stand beside the opening while Noor turns the lining into contact. The charcoal line is facing you.",
+        "The cup tips.",
+        "You reach before you remember not to. Your hand stops outside the edge. The handle is in the position it occupied before you picked the cup up. The line is gone.",
+        "You have felt no jump. Your hand is still raised. The charcoal has blackened one of your fingertips, outside the niche's reach.",
+        "You take the cup out and inspect the underside. Its small chip is back on the other side of the handle. You had turned that away from the light before marking it.",
+        "Noor removes the lining from contact again. The cup stays in your hand."
+      ],
+      "choices": [
+        {
+          "id": "o0.test-back",
+          "label": "Return to the room.",
+          "target": "o0.room-hub",
+          "effects": [
+            "o0.saw_test"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "o0.cup-return"
+      ]
+    },
+    {
+      "id": "o0.return-declined",
+      "occasionId": "o0",
+      "title": "The mark stays",
+      "paragraphs": [
+        "“Enough things have happened without someone asking,” you say.",
+        "Noor rests the lining on its side. You can examine its edge and the support it meets. The charcoal line stays on the cup."
+      ],
+      "choices": [
+        {
+          "id": "o0.decline-test-back",
+          "label": "Return to the room.",
+          "target": "o0.room-hub",
+          "effects": [
+            "o0.declined_test"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "o0.cup-declined"
+      ]
+    },
+    {
+      "id": "o0.claim",
+      "occasionId": "o0",
+      "title": "What was prepared",
+      "paragraphs": [
+        "You have the cut ends, the released cord, the shaped wedge and the older square's position. The women wait in the room, one at the table and the other speaking through the root.",
+        "Before you give them an account, you can set out which observations support it. What you found beneath the chair cannot by itself tell you who put the old square there."
+      ],
+      "choices": [
+        {
+          "id": "o0.claim-back",
+          "label": "Look through the room again.",
+          "target": "o0.room-hub"
+        }
+      ]
+    },
+    {
+      "id": "o0.finding-private",
+      "occasionId": "o0",
+      "title": "A prepared return",
+      "paragraphs": [
+        "The older square was positioned to reinstate an earlier local arrangement. The direct braid was cut, and the remaining cord had a prepared release. Those interventions belong in the same account.",
+        "That account does not give you the preparer's name. It does distinguish a prepared act from a tree that happened to move too far.",
+        "You can tell both women what the physical observations support."
+      ],
+      "choices": [
+        {
+          "id": "o0.tell-finding",
+          "label": "Tell both women the supported finding and that the cast is now out of contact.",
+          "target": "o0.report",
+          "actions": [
+            {
+              "type": "acquireSource",
+              "sourceId": "o0.report-source"
+            },
+            {
+              "type": "disclose",
+              "characterId": "o0.dora-table",
+              "refId": "o0.report-source"
+            },
+            {
+              "type": "disclose",
+              "characterId": "o0.dora-orchard",
+              "refId": "o0.report-source"
+            },
+            {
+              "type": "disclose",
+              "characterId": "o0.noor",
+              "refId": "o0.report-source"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "o0.report",
+      "occasionId": "o0",
+      "title": "Somebody made that place",
+      "paragraphs": [
+        "The woman has put the painting back on its nail. It hangs lower than before. She has chosen the wrong hole and left it there.",
+        "You tell both women what you saw, and what Noor lifted out of contact. You explain which connection had been cut and how the wedge was positioned to draw the other one loose as the seam hardened. You place the wedge where the woman at the table can reach it. Noor turns the root enough for the continuing Dora to feel its shape, after asking her.",
+        "“Somebody put it there,” the woman says.",
+        "“Yes.”",
+        "“Somebody made that place for me.”",
+        "You start to answer and stop. She runs a finger down the pink shaving.",
+        "“Did they know I'd be here?”",
+        "You have not found that answer. You say so.",
+        "The voice from the root asks about the cut ends. Noor describes them. The woman at the table puts the wedge down and begins listening."
+      ],
+      "choices": [
+        {
+          "id": "o0.report-confess",
+          "label": "Also tell them that your closing the mouth dislodged the remaining cord.",
+          "target": "o0.public-confession",
+          "requires": [
+            "o0.closed"
+          ],
+          "unless": [
+            "o0.public_confession"
+          ],
+          "effects": [
+            "o0.public_confession"
+          ],
+          "actions": [
+            {
+              "type": "acquireSource",
+              "sourceId": "o0.confession-source"
+            },
+            {
+              "type": "disclose",
+              "characterId": "o0.dora-table",
+              "refId": "o0.confession-source"
+            },
+            {
+              "type": "disclose",
+              "characterId": "o0.dora-orchard",
+              "refId": "o0.confession-source"
+            },
+            {
+              "type": "disclose",
+              "characterId": "o0.noor",
+              "refId": "o0.confession-source"
+            }
+          ]
+        },
+        {
+          "id": "o0.report-go-transfer",
+          "label": "Ask what support the continuing woman wants now.",
+          "target": "o0.transfer"
+        }
+      ]
+    },
+    {
+      "id": "o0.public-confession",
+      "occasionId": "o0",
+      "title": "What you touched",
+      "paragraphs": [
+        "You tell them when you closed the mouth and what you wanted to repair. You name the promise before anyone else has to.",
+        "Noor rubs the side of her face with the heel of her hand.",
+        "“I asked you for a few minutes.”",
+        "“I know.”",
+        "The woman at the table looks down at her left hand. She asks whether that means you put her there.",
+        "“No,” Noor says. “The old square was already fitted underneath. He didn't make that by touching the mouth.”",
+        "“I wanted him to answer.”",
+        "You say you did not put the old square there. You also say that your closing the mouth interrupted the remaining path before the delayed pull.",
+        "The voice at the root asks whether the cut can be repaired today. Noor says it cannot. You are still standing where everyone can see you."
+      ],
+      "choices": [
+        {
+          "id": "o0.confessed-go-transfer",
+          "label": "Stay and help with the new connection.",
+          "target": "o0.transfer"
+        }
+      ]
+    },
+    {
+      "id": "o0.transfer",
+      "occasionId": "o0",
+      "title": "A new reach",
+      "paragraphs": [
+        "Noor takes the painting down before she opens the second panel.",
+        "You have always liked it. A blue room, with one leg of a chair cut off by the edge. Nobody in the room. Somebody has just gone through a door you cannot see. When you asked Dora where the door was, she said it was wherever you wanted, provided you did not paint it on her picture.",
+        "The woman at the table reaches for it.",
+        "“Don't put that face down.”",
+        "Noor gives it to her. She holds it by the edges, then turns it around to look at the back.",
+        "“I thought I hadn't finished this.”",
+        "From the root comes Dora's voice.",
+        "“You haven't.”",
+        "“The chair leg.”",
+        "“I like it that way.”",
+        "The woman looks at the painted edge again. She rests the picture upright against a chair, carefully, where neither of you can tread on it.",
+        "Behind it the wall is damp and pale. A shallow groove runs through the plaster. Noor puts the back of her wrist against it. The skin dimples under her wrist, then pushes back.",
+        "“Here,” she says. “Feel that.”",
+        "You put your palm where she has put hers. The pressure meets you so delicately that you mistake it for the pulse in your hand. You lift your fingers. It follows, too late to be your own pulse.",
+        "The mouth in the tree says, “That's cold.”",
+        "“My hand?”",
+        "“Whatever you're doing.”",
+        "Noor has opened a thin wet fold between the groove and the window. There is no hidden wire. The wall itself has parted. She holds the fold open with the side of her thumb.",
+        "“Dora, push where he is.”",
+        "Something small presses against the middle of your palm.",
+        "You know it is the wall. You also know the peculiar way Dora pokes you when she wants you to move out of a doorway. Neither knowledge gets rid of the other.",
+        "You begin to take your hand away.",
+        "“Leave it there,” the voice says. “I can't reach that bit by myself yet.”",
+        "Noor asks if she can loosen the old root. Dora asks how far. Noor shows the distance with two fingers against the opening, where the hand at the tree can feel them. She waits for Dora's answer.",
+        "“All right. Slowly.”",
+        "The tree shifts outside. A fine shower of dry grit falls from the rope. Noor catches the speaking piece before its weight can pull it free.",
+        "Pressure runs through the wall under your hand. It moves downward, toward your wrist, and pauses. You have a sudden urge to bend your own wrist. You resist it. The pressure does not wait for your permission.",
+        "“Can you feel that?” you ask.",
+        "“I can do it,” Dora says.",
+        "Noor laughs, quietly. You cannot remember hearing her laugh without looking at somebody first.",
+        "There is a smell of wet stone. Then something sweeter, too faint to name.",
+        "The mouth in the tree opens.",
+        "“There's rain beyond the ridge.”",
+        "You look through the window. The ridge is white and dry.",
+        "“I can't see it,” you say.",
+        "“I didn't say you could. Give me a moment.”",
+        "The pressure under your hand shifts again. Dora has stopped using it merely to answer you. She is trying the limits of the new reach, pressing in one place, then another. Once she goes too far and Noor closes the wet fold a little. Dora swears at her. Noor opens it again more slowly.",
+        "The woman by the table has taken a brush from the shelf. She is testing its dry point on the back of her hand.",
+        "“Tell me when I can walk over there,” she says. “I want to see.”",
+        "You could keep rebuilding the old arrangement, putting every connection back where it was. Dora might get her old reach back that way. This new reach would close. Noor has shown you both positions of the fold. You can feel the difference yourself."
+      ],
+      "choices": [
+        {
+          "id": "o0.offer-new-reach",
+          "label": "Ask whether she wants the new connection and offer to hold it while she learns.",
+          "target": "o0.reach-offer",
+          "effects": [
+            "o0.holding"
+          ]
+        },
+        {
+          "id": "o0.offer-old-body",
+          "label": "Ask whether she wants her former body reconstructed; say you want her back at the table.",
+          "target": "o0.reach-reconstruction",
+          "effects": [
+            "o0.holding"
+          ]
+        },
+        {
+          "id": "o0.ask-handover",
+          "label": "Say the feeling frightens you and ask Noor to take your place.",
+          "target": "o0.reach-handover",
+          "effects": [
+            "o0.handed_over"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "o0.painting-difference",
+        "o0.new-pressure",
+        "o0.rain-claim"
+      ]
+    },
+    {
+      "id": "o0.reach-offer",
+      "occasionId": "o0",
+      "title": "Keep trying",
+      "paragraphs": [
+        "“Yes,” she says, before you finish.",
+        "Then, more carefully: “I want it. But I'm not ready for you to go.”",
+        "You spread your fingers against the wall."
+      ],
+      "choices": [
+        {
+          "id": "o0.offer-to-argument",
+          "label": "Keep the connection steady and speak to Noor.",
+          "target": "o0.god-argument"
+        }
+      ],
+      "sourceIds": [
+        "o0.dora-wants-reach"
+      ]
+    },
+    {
+      "id": "o0.reach-reconstruction",
+      "occasionId": "o0",
+      "title": "Let me finish",
+      "paragraphs": [
+        "The pressure stops moving.",
+        "“I'm tired,” she says.",
+        "“Then we could do the other thing.”",
+        "“I'm tired because this is difficult. Let me finish trying.”",
+        "You keep your hand in place. She presses into it again, harder this time."
+      ],
+      "choices": [
+        {
+          "id": "o0.reconstruction-to-argument",
+          "label": "Give her time to try and speak to Noor.",
+          "target": "o0.god-argument"
+        }
+      ],
+      "sourceIds": [
+        "o0.dora-wants-reach"
+      ]
+    },
+    {
+      "id": "o0.reach-handover",
+      "occasionId": "o0",
+      "title": "The hand beside yours",
+      "paragraphs": [
+        "“I'll come round,” Noor says.",
+        "You wait until her palm is beside yours. Dora finds it, tests the pressure, and tells you when to let go. Your wrist keeps wanting to bend for a while after you have left the wall.",
+        "Noor's sleeve is slipping down toward the damp fold. You roll it up for her. Neither of you mentions your hand."
+      ],
+      "choices": [
+        {
+          "id": "o0.handover-to-argument",
+          "label": "Stay beside Noor and speak to her.",
+          "target": "o0.god-argument"
+        }
+      ]
+    },
+    {
+      "id": "o0.god-argument",
+      "occasionId": "o0",
+      "title": "What exists underneath",
+      "paragraphs": [
+        "You keep your palm beside Noor's working hand. Dora's pressure moves underneath it as she tries the reach again.",
+        "“I used to think,” you say, “that if I could get far enough round a return, I'd find the part of me that wasn't borrowed.”",
+        "Noor glances at you.",
+        "“You told me you liked traveling.”",
+        "“I do.”",
+        "“Good. That would have been an expensive misunderstanding.”",
+        "You try to smile. The joke has made it harder to withdraw what you said.",
+        "“When the room changes, I remember. When my hands change, I'm the one who notices. I keep arriving. There has to be something doing the arriving.”",
+        "“There is. You.”",
+        "“Something that doesn't depend on a room, or a root. Otherwise what am I going to get back to?”",
+        "The woman by the table has stopped testing the brush. She is listening.",
+        "Noor thinks for a while.",
+        "“I don't think there is an unborrowed Blaise waiting behind this one.”",
+        "“You think I'm all the things holding me up.”",
+        "“I think you exist in what they exist in. That isn't quite the same.”",
+        "She adjusts her thumb inside the fold. The pressure from Dora moves beneath it, answering.",
+        "“This wall didn't make existence. Neither did you. You can change one arrangement into another. You don't step out of what there is to do it.”",
+        "“Perhaps something else made it. Made all of it.”",
+        "“Then what does your maker exist in?”",
+        "“Itself.”",
+        "Noor nods.",
+        "“That's the answer I mean. Only I don't think the rest of us are outside it.”",
+        "“So this is God.” You look at the wall.",
+        "“That plaster isn't God. It would be a very poor God. It comes off in the wet.”",
+        "She looks at your face to see if she has lost you.",
+        "“I mean an existence that doesn't need another existence underneath it. Bodies express it by being extended, by acting on bodies. Thinking expresses it too. I don't think an intention has to jump across from somewhere else to make your hand move.”",
+        "“And you know this because the wall answers?”",
+        "“No. I know the wall answers because Dora is doing it.”",
+        "The voice in the tree says, “Thank you.”",
+        "Noor waits for the pressure to settle before continuing.",
+        "“If there were two things that existed through themselves, what would make them two? The bodies they produce? Those are the changes we are trying to explain. Their nature would have to distinguish them. But call one thing absolutely without limit, and you can't then keep some kind of existence for the other thing, outside it.”",
+        "“You put 'without limit' into the answer before you began.”",
+        "“Yes. I haven't earned it merely by saying it.”",
+        "You had expected her to deny that. You look at the woman with the brush. She is watching the window, not either of you.",
+        "“There's another problem,” you say. “Every body I can know comes to me in space. Every change comes before or after another. Perhaps that's what lets me know a body at all. I can learn the country perfectly under those conditions and still not know what existence is apart from them.”",
+        "“I don't think you have to get apart from it to know it.”",
+        "“Neither do I. I'm asking what you know. The things under those conditions, or the thing your argument says doesn't need them.”",
+        "Noor rubs her cheek against her raised shoulder. There is a smear of plaster on it now.",
+        "“I think understanding can reach more than a succession of appearances. When you understand why one thing follows from another, that necessity isn't just how hard you happen to believe it. And a particular thing's dependence doesn't disappear when you stop putting a date on it.”",
+        "“A necessity in what I can experience. You still owe me the rest.”",
+        "“I do.”",
+        "The voice in the tree says, “Do either of you know how to reach the bottom?”",
+        "Noor bends to see. Dora has brought the pressure to the lower edge of the groove. The newly available tissue turns the corner, beyond where a hand on the wall can guide it.",
+        "“Not like that,” Noor says. “Try letting it spread.”",
+        "“I am.”",
+        "The woman from the table comes over. She kneels, places the back of her hand near the bottom of the groove, and waits.",
+        "The pressure meets her knuckles.",
+        "For a while neither woman speaks. One tries a movement. The other moves out of its way.",
+        "You had thought the familiar body would be the easy one to understand."
+      ],
+      "choices": [
+        {
+          "id": "o0.after-argument",
+          "label": "Let the women try the lower reach together.",
+          "target": "o0.invitations",
+          "effects": [
+            "o0.transferred"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "o0.nature-claim",
+        "o0.warrant-objection",
+        "o0.joint-reach"
+      ],
+      "variants": [
+        {
+          "id": "o0.argument-handover",
+          "requires": [
+            "o0.handed_over"
+          ],
+          "paragraphs": [
+            "Noor holds the wall. You stand beside her, with your hand clear of the damp fold. Dora's pressure moves beneath Noor's palm as she tries the reach again.",
+            "“I used to think,” you say, “that if I could get far enough round a return, I'd find the part of me that wasn't borrowed.”",
+            "Noor glances at you.",
+            "“You told me you liked traveling.”",
+            "“I do.”",
+            "“Good. That would have been an expensive misunderstanding.”",
+            "You try to smile. The joke has made it harder to withdraw what you said.",
+            "“When the room changes, I remember. When my hands change, I'm the one who notices. I keep arriving. There has to be something doing the arriving.”",
+            "“There is. You.”",
+            "“Something that doesn't depend on a room, or a root. Otherwise what am I going to get back to?”",
+            "The woman by the table has stopped testing the brush. She is listening.",
+            "Noor thinks for a while.",
+            "“I don't think there is an unborrowed Blaise waiting behind this one.”",
+            "“You think I'm all the things holding me up.”",
+            "“I think you exist in what they exist in. That isn't quite the same.”",
+            "She adjusts her thumb inside the fold. The pressure from Dora moves beneath it, answering.",
+            "“This wall didn't make existence. Neither did you. You can change one arrangement into another. You don't step out of what there is to do it.”",
+            "“Perhaps something else made it. Made all of it.”",
+            "“Then what does your maker exist in?”",
+            "“Itself.”",
+            "Noor nods.",
+            "“That's the answer I mean. Only I don't think the rest of us are outside it.”",
+            "“So this is God.” You look at the wall.",
+            "“That plaster isn't God. It would be a very poor God. It comes off in the wet.”",
+            "She looks at your face to see if she has lost you.",
+            "“I mean an existence that doesn't need another existence underneath it. Bodies express it by being extended, by acting on bodies. Thinking expresses it too. I don't think an intention has to jump across from somewhere else to make your hand move.”",
+            "“And you know this because the wall answers?”",
+            "“No. I know the wall answers because Dora is doing it.”",
+            "The voice in the tree says, “Thank you.”",
+            "Noor waits for the pressure to settle before continuing.",
+            "“If there were two things that existed through themselves, what would make them two? The bodies they produce? Those are the changes we are trying to explain. Their nature would have to distinguish them. But call one thing absolutely without limit, and you can't then keep some kind of existence for the other thing, outside it.”",
+            "“You put 'without limit' into the answer before you began.”",
+            "“Yes. I haven't earned it merely by saying it.”",
+            "You had expected her to deny that. You look at the woman with the brush. She is watching the window, not either of you.",
+            "“There's another problem,” you say. “Every body I can know comes to me in space. Every change comes before or after another. Perhaps that's what lets me know a body at all. I can learn the country perfectly under those conditions and still not know what existence is apart from them.”",
+            "“I don't think you have to get apart from it to know it.”",
+            "“Neither do I. I'm asking what you know. The things under those conditions, or the thing your argument says doesn't need them.”",
+            "Noor rubs her cheek against her raised shoulder. There is a smear of plaster on it now.",
+            "“I think understanding can reach more than a succession of appearances. When you understand why one thing follows from another, that necessity isn't just how hard you happen to believe it. And a particular thing's dependence doesn't disappear when you stop putting a date on it.”",
+            "“A necessity in what I can experience. You still owe me the rest.”",
+            "“I do.”",
+            "The voice in the tree says, “Do either of you know how to reach the bottom?”",
+            "Noor bends to see. Dora has brought the pressure to the lower edge of the groove. The newly available tissue turns the corner, beyond where a hand on the wall can guide it.",
+            "“Not like that,” Noor says. “Try letting it spread.”",
+            "“I am.”",
+            "The woman from the table comes over. She kneels, places the back of her hand near the bottom of the groove, and waits.",
+            "The pressure meets her knuckles.",
+            "For a while neither woman speaks. One tries a movement. The other moves out of its way.",
+            "You had thought the familiar body would be the easy one to understand."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "o0.invitations",
+      "occasionId": "o0",
+      "title": "Two invitations",
+      "paragraphs": [
+        "After the new fold begins answering without anyone holding it, Noor gets her coat out from under the rope. Its lining is damp. She tips the stones onto the table one by one and dries each on the outer cloth.",
+        "The woman at the table picks up a flat red one.",
+        "“What do you do with these?”",
+        "“Knock the tall one down.”",
+        "“Which is the tall one?”",
+        "Noor looks at the stones spread across the table.",
+        "“I forgot it.”",
+        "The woman laughs. Noor laughs too, and looks briefly annoyed with herself for it.",
+        "Outside, the orchard Dora has found a way to move the root without pulling the rope tight. She asks for room to pass the corner.",
+        "“Come out,” she says to you. “I want to see what else this reaches.”",
+        "The woman at the table puts the red stone down.",
+        "“I want to see the old room.”",
+        "You tell her the cast below is only part of it.",
+        "“Then show me the place where the rest is.”",
+        "The dry country keeps former arrangements. The orchard takes another path, under its newly opening surface. Both can be reached. You cannot leave by both paths at once."
+      ],
+      "choices": [
+        {
+          "id": "o0.choose-orchard",
+          "label": "Ask to accompany the continuing Dora into the orchard, with Noor guiding the other woman to the old rooms.",
+          "target": "o0.orchard-agreement",
+          "irreversible": true
+        },
+        {
+          "id": "o0.choose-dry",
+          "label": "Ask to accompany the woman at the table to the old rooms, with Noor traveling beside the orchard.",
+          "target": "o0.dry-agreement",
+          "irreversible": true
+        }
+      ]
+    },
+    {
+      "id": "o0.orchard-agreement",
+      "occasionId": "o0",
+      "title": "Which way first",
+      "paragraphs": [
+        "Noor asks the woman at the table whether she wants to take the dry way with her.",
+        "“As long as you show me where it comes from.”",
+        "Noor says she will. At the window she asks the continuing woman whether she wants Blaise beside the tree.",
+        "“He can come. Tell him not to walk where the new skin shines.”",
+        "“I'm here,” you say.",
+        "“Then you've heard.”"
+      ],
+      "choices": [
+        {
+          "id": "o0.leave-for-orchard",
+          "label": "Go out beside the moving tree.",
+          "target": "o0.orchard-departure",
+          "ending": true
+        }
+      ]
+    },
+    {
+      "id": "o0.dry-agreement",
+      "occasionId": "o0",
+      "title": "Which way first",
+      "paragraphs": [
+        "The woman at the table agrees to take the dry way with you. She asks Noor to show you where the larger casts were carried.",
+        "Noor tells her, then goes to the window and asks the continuing woman if she wants company.",
+        "“Yes. Bring your stones.”",
+        "“I haven't got the tall one.”",
+        "“Find another.”",
+        "Noor puts the stones back into the pockets of her coat."
+      ],
+      "choices": [
+        {
+          "id": "o0.leave-for-dry",
+          "label": "Take the lamp and follow the woman toward the old rooms.",
+          "target": "o0.dry-departure",
+          "ending": true
+        }
+      ]
+    },
+    {
+      "id": "o0.orchard-departure",
+      "occasionId": "o0",
+      "title": "Into the moving country",
+      "paragraphs": [
+        "You go down through the broad opening beside the window. The ground beyond it rises under your weight, then settles. You have walked on this country all your life. You have seldom waited to feel it finish moving.",
+        "The tree is already farther from the room. The speaking piece travels with it, still seated in the root. Dora asks you to move a branch away from the opening so the rope will not catch.",
+        "You do. She shifts the root free. Noor unties the rope from inside and feeds its loose end out to you.",
+        "The woman at the table comes to the window. She has brought the painting. For a moment you think she means to give it to Dora. Instead she holds it up to compare its blue with the exposed country beyond you.",
+        "“It's wrong,” she says.",
+        "“I know,” the voice beside you answers. “I liked it.”",
+        "The root moves on. You have to take a longer step to keep up."
+      ],
+      "choices": []
+    },
+    {
+      "id": "o0.dry-departure",
+      "occasionId": "o0",
+      "title": "The things that were left",
+      "paragraphs": [
+        "The woman carries the painting with its face toward her. You offer to take it. She says you can carry the lamp.",
+        "At the side steps she stops and looks back. Noor has moved to the window. The rope is loose enough for the tree to begin passing the corner.",
+        "“Will you tell me if you find something?” the woman asks.",
+        "“Yes,” says the voice in the root.",
+        "“I meant about the rain.”",
+        "There is a pause. Then the voice says she will.",
+        "You go down first with the lamp. This time you do not put your hand over the old handprint. You hold the light where the woman can see the steps.",
+        "At the lower doorway, the air is dry enough to make the paint smell warm. She stops once more. She is looking at the edge of the picture, where the chair leg ends.",
+        "“I might leave it,” she says.",
+        "The passage beyond opens into a country made of things that have been left."
+      ],
+      "choices": []
+    }
+  ]
+}

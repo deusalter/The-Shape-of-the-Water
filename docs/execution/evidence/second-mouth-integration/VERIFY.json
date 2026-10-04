@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "command": "pnpm verify",
+  "exitCode": 0,
+  "testFiles": 34,
+  "tests": 488,
+  "typecheck": "PASS",
+  "contentValidation": "PASS",
+  "playerBuild": "PASS",
+  "studioBuild": "PASS",
+  "log": "verify-final.txt",
+  "caseSha256": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+  "scope": "Automated current unit/property and content checks plus compilation; not full-game completeness or literary acceptance"
+}

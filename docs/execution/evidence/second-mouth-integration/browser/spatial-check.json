@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "scope": "Built player spatial action to actual engine/save, one opening route only",
+  "sourcePins": {
+    "src/components/EvidencePlayer.tsx": "238f2b77ed5f87eaca658c55032faf0097a9ea364e847a9d32aabeaf93ec8609",
+    "src/world/rebuild/RebuildWorld.tsx": "638012df72f023274419fdc0c9622d3b28071e3360a80494c2fd2f787619bd1b",
+    "src/world/rebuild/profiles.ts": "4d48f58ffed98368069436afbb5958ac88fac0095ca92b80c5c4aefe1975ebdf",
+    "src/content/case-v4.json": "0d20a628b21556e1ef143d9ce84773205e85987e46f059694a7c71caf5b8a25c",
+    "dist-player/asset-manifest.json": "a1d479bdbc24a48b260fed6a952c0bf25668203b5621f25e4c8ef0c4eb62255b"
+  },
+  "checks": [
+    "Far E leaves opening unchanged",
+    "Floor click navigates to currently offered action",
+    "Near E advances actual engine to Three screws",
+    "Saved export has exactly one authored command and replays"
+  ],
+  "errors": [],
+  "beforeClick": {
+    "loaded": "true",
+    "characterStyle": "faceless-blocks",
+    "geometryGroup": "SupperRoom",
+    "castState": "not-visible",
+    "doraLeftHand": "false",
+    "sceneId": "o0.supper",
+    "playerX": "-3.15",
+    "playerZ": "2.50",
+    "rect": {
+      "x": 33,
+      "y": 167.34375,
+      "width": 836.15625,
+      "height": 670,
+      "top": 167.34375,
+      "right": 869.15625,
+      "bottom": 837.34375,
+      "left": 33
+    }
+  },
+  "click": {
+    "x": 638.1600981019977,
+    "y": 429.66983851460776
+  },
+  "afterClick": {
+    "loaded": "true",
+    "characterStyle": "faceless-blocks",
+    "geometryGroup": "SupperRoom",
+    "castState": "not-visible",
+    "doraLeftHand": "false",
+    "sceneId": "o0.supper",
+    "playerX": "-4.00",
+    "playerZ": "0.64",
+    "rect": {
+      "x": 33,
+      "y": 167.34375,
+      "width": 836.15625,
+      "height": 670,
+      "top": 167.34375,
+      "right": 869.15625,
+      "bottom": 837.34375,
+      "left": 33
+    }
+  },
+  "sourceStable": true
+}

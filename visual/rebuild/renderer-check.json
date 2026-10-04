@@ -1,0 +1,26 @@
+{
+  "scope": "Isolated actual renderer fixture, not integrated narrative/engine playthrough",
+  "status": "PASS",
+  "checks": [
+    "Actual keyboard movement in loaded original GLB",
+    "Far offered action rejects E",
+    "Actual floor click route and near E callback use authored id",
+    "Disabled and withdrawn stale offered actions reject E",
+    "Explicit observed transition restores table hand with same GLB/material",
+    "Authored scene selection stages separate local lower corridor",
+    "Visible removal source updates optional-test cast staging in the same scene",
+    "Unknown staging stays text-only and cleanup/remount succeeds"
+  ],
+  "errors": [],
+  "limits": [
+    "Chromium software WebGL only",
+    "Callbacks use exact authored ids in a supplied-choice fixture; no actual engine action dispatch is tested",
+    "No human playtesting or assistive-technology certification"
+  ],
+  "sourceHashes": {
+    "src/world/rebuild/RebuildWorld.tsx": "638012df72f023274419fdc0c9622d3b28071e3360a80494c2fd2f787619bd1b",
+    "src/world/rebuild/profiles.ts": "4d48f58ffed98368069436afbb5958ac88fac0095ca92b80c5c4aefe1975ebdf",
+    "src/world/rebuild/navigation.ts": "68177d88f8bfc0e26f77c661f77d68f774bd60a4b4f6ac33365587b32567b8cd",
+    "public/world/rebuild/second-mouth-supper.glb": "114ddc2339ab2d3293a7dfbdf31ccdbb92757cb961005a7723fc702ecb6762b4"
+  }
+}

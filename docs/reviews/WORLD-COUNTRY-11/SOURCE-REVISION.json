@@ -1,0 +1,86 @@
+{
+  "task": "WORLD-COUNTRY-11",
+  "date": "2026-10-04",
+  "status": "completed proposal packet; sole lead acceptance pending",
+  "authority": "Proposals only; sole lead selects or rejects.",
+  "sources": [
+    {
+      "path": "narrative/rebuild/A-FIRST-INVESTIGATION.md",
+      "sha256": "b2e1481a49d6408e89af8d0a6a232e97e16bad980b33b955fb571cdc7ae78cae"
+    },
+    {
+      "path": "narrative/rebuild/A-EARLY-TRANSFER.md",
+      "sha256": "c723dfec64a0127ad74bbff3eb3d29b6808c60d17495ad854093d99165c0ce9e"
+    },
+    {
+      "path": "narrative/rebuild/A-CAUSAL-LEDGER.md",
+      "sha256": "7eaae372930391402690370ea75128dec6878819bc1578464594acc55ec091ce"
+    },
+    {
+      "path": "narrative/rebuild/A-THE-SECOND-MOUTH.md",
+      "sha256": "219d18458bbc1bb0e0f81c87816e3c73e62455e251b9b6b91fc96dff6bb58edc"
+    },
+    {
+      "path": "docs/reviews/WORLD-REBUILD-09/REVIEW.md",
+      "sha256": "bd011ad84d57786b609c0bdbf46643f543e6bee03b83935420b24dd7cced5436"
+    },
+    {
+      "path": "research/reference/hello-charlotte/DOSSIER.md",
+      "sha256": "db11e490e9613f14f80c64dff5957ef41a2cf89027fdb271958ca4e5b950ba69"
+    }
+  ],
+  "recheckedSources": [
+    {
+      "path": "narrative/rebuild/A-FIRST-INVESTIGATION.md",
+      "sha256": "9929955af04462c36b4c0cf7a67464ad24b38b59a6f95074fc2e6502920e2659",
+      "snapshot": "docs/reviews/WORLD-COUNTRY-11/inputs/A-FIRST-INVESTIGATION-rechecked.md",
+      "scope": "Rechecked explicit P/Q/rope/new-transfer correction after initial source read; earlier finding superseded."
+    },
+    {
+      "path": "narrative/rebuild/A-EARLY-TRANSFER.md",
+      "sha256": "c723dfec64a0127ad74bbff3eb3d29b6808c60d17495ad854093d99165c0ce9e",
+      "snapshot": "docs/reviews/WORLD-COUNTRY-11/inputs/A-EARLY-TRANSFER-rechecked.md",
+      "scope": "Rechecked explicit P/Q/rope/new-transfer correction after initial source read; earlier finding superseded."
+    },
+    {
+      "path": "narrative/rebuild/A-CAUSAL-LEDGER.md",
+      "sha256": "b0f7ead6fa75ae38faef15e252d58933c38680faf0c673cc75c01d1289b917ae",
+      "snapshot": "docs/reviews/WORLD-COUNTRY-11/inputs/A-CAUSAL-LEDGER-rechecked.md",
+      "scope": "Rechecked explicit P/Q/rope/new-transfer correction after initial source read; earlier finding superseded."
+    }
+  ],
+  "outputs": [
+    {
+      "path": "docs/reviews/WORLD-COUNTRY-11/ORCHARD-AUDITION.md",
+      "sha256": "a355f0dd414ca7c0a65ba089e3cbae6e3779c057eaa5f876a72ca718a4a6b77c",
+      "whitespaceWords": 2336
+    },
+    {
+      "path": "docs/reviews/WORLD-COUNTRY-11/DRY-COUNTRY-AUDITION.md",
+      "sha256": "0b2612830552183b101b809401205e9baa078c1412b2c352ccc5b2f89c1e9aa5",
+      "whitespaceWords": 2458
+    },
+    {
+      "path": "docs/reviews/WORLD-COUNTRY-11/NAMES-AND-SOURCES.md",
+      "sha256": "1f578a1a94f733692db206fef3829a41c9ff08656a3469f2217a718ed1feee20",
+      "whitespaceWords": 714
+    },
+    {
+      "path": "docs/reviews/WORLD-COUNTRY-11/DISCLOSURE-AND-ENDINGS.md",
+      "sha256": "5e1095b7db6b4b07c04ee926d5450a0a1e1f4a72ee8a6d14849d156458654faf",
+      "whitespaceWords": 2182
+    },
+    {
+      "path": "docs/reviews/WORLD-COUNTRY-11/CONSTRUCTIVE-REVIEW.md",
+      "sha256": "cd0d638c82428517772d3dbc743b0f6eb476d9fdb91aefe7fc77645c3859dc26",
+      "whitespaceWords": 1201
+    }
+  ],
+  "checks": [
+    "Two narrative auditions contain no em dash characters.",
+    "All source-record JSON parses.",
+    "Historical given names and literary surnames inspected in identified sources.",
+    "Rechecked P/Q fix is present; initial finding superseded.",
+    "No canonical or runtime writes; proposals confined to assigned subtree."
+  ]
+}

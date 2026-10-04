@@ -1,0 +1,377 @@
+{
+  "contentId": "shape-of-the-water",
+  "version": 4,
+  "scenes": [
+    {
+      "sceneId": "o0.supper",
+      "area": "room",
+      "stage": "before",
+      "choiceIds": [
+        "o0.hear-noor"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.promise",
+      "area": "room",
+      "stage": "before",
+      "choiceIds": [
+        "o0.keep-promise",
+        "o0.break-promise"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.leave-mouth",
+      "area": "room",
+      "stage": "before",
+      "choiceIds": [
+        "o0.watch-release"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.exposure-kept",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.hold-root-kept",
+        "o0.rope-kept"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.close-mouth",
+      "area": "room",
+      "stage": "before",
+      "choiceIds": [
+        "o0.look-after-touch"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.exposure-touched",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.hold-root-touched",
+        "o0.rope-touched"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.catch-tree",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.root-secured"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.fetch-rope",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.rope-secured"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.sill",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.sill-investigate"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.room-hub",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.inspect-p",
+        "o0.inspect-wedge",
+        "o0.talk-table",
+        "o0.talk-root",
+        "o0.go-below",
+        "o0.remove-cast-later",
+        "o0.organize-finding",
+        "o0.revisit-braid"
+      ],
+      "variantIds": [
+        "o0.hub-after-inspection"
+      ]
+    },
+    {
+      "sceneId": "o0.direct-braid",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.p-back"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.wedge",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.q-back"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.braid-revisit",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.p-revisit-back"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.table-conversation",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.table-want",
+        "o0.table-affection-choice",
+        "o0.table-memory-test"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.table-want",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.table-want-back"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.table-affection",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.table-affection-back"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.table-refusal",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.table-refusal-back"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.root-conversation",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.root-back",
+        "o0.private-confession"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.private-confession",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.confession-back"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.lower-passage",
+      "area": "lower",
+      "stage": "lower",
+      "choiceIds": [
+        "o0.look-under-place"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.cast-inspection",
+      "area": "lower",
+      "stage": "lower",
+      "choiceIds": [
+        "o0.isolate-occupied-cast",
+        "o0.niche-before-removal"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.cast-removal",
+      "area": "lower",
+      "stage": "lower",
+      "choiceIds": [
+        "o0.look-niche",
+        "o0.removed-after-test"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.niche",
+      "area": "lower",
+      "stage": "lower",
+      "choiceIds": [
+        "o0.operate-empty-return",
+        "o0.decline-empty-return"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.return-test",
+      "area": "lower",
+      "stage": "lower",
+      "choiceIds": [
+        "o0.test-back"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.return-declined",
+      "area": "lower",
+      "stage": "lower",
+      "choiceIds": [
+        "o0.decline-test-back"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.claim",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.claim-back"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.finding-private",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.tell-finding"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.report",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.report-confess",
+        "o0.report-go-transfer"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.public-confession",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.confessed-go-transfer"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.transfer",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.offer-new-reach",
+        "o0.offer-old-body",
+        "o0.ask-handover"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.reach-offer",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.offer-to-argument"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.reach-reconstruction",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.reconstruction-to-argument"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.reach-handover",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.handover-to-argument"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.god-argument",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.after-argument"
+      ],
+      "variantIds": [
+        "o0.argument-handover"
+      ]
+    },
+    {
+      "sceneId": "o0.invitations",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.choose-orchard",
+        "o0.choose-dry"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.orchard-agreement",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.leave-for-orchard"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.dry-agreement",
+      "area": "room",
+      "stage": "after",
+      "choiceIds": [
+        "o0.leave-for-dry"
+      ],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.orchard-departure",
+      "area": "orchard-threshold",
+      "stage": "departure-orchard",
+      "choiceIds": [],
+      "variantIds": []
+    },
+    {
+      "sceneId": "o0.dry-departure",
+      "area": "dry-threshold",
+      "stage": "departure-dry",
+      "choiceIds": [],
+      "variantIds": []
+    }
+  ]
+}
