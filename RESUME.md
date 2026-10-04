@@ -11,3 +11,5 @@ The delivery record identifies what actually passed, the playable package and re
 Continue in response to the owner's next concrete feedback. No background activity is promised after the active session ends. Commit and push as deusalter without coauthor tags. No public deployment or paid service is authorized.
 
 Optimized release publication is verified at commit `2709f78a74b416afd4b46ed7b24eaf966cf92d6d`; inspect `docs/execution/evidence/mercy-optimization/PUBLICATION.json` for its immutable download and digest. No publication blocker remains.
+
+Mac app publication is verified at `53c2e39c6f063dd2f567b64a49c57b4ad3ff4c31`; the exact download and digest are in `docs/execution/evidence/mac-launcher/PUBLICATION.json`. Startup on a native Mac remains the stated unverified platform check.

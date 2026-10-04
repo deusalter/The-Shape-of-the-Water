@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "date": "2026-10-04",
-  "status": "mac-app-verified",
+  "status": "mac-app-published",
   "baseline": {
     "revision3": "baseline/revision3",
     "archiveSha256": "9ac1a34024dc678267cb0dda059b06ac7fd151d4db4c91a2ec509331ed77f7df",
@@ -84,7 +84,7 @@
   },
   "priorContinuity": "docs/execution/archives/before-mercy-delivery/",
   "rejectedLocalFiles": "Uninstalled v6 manuscripts/code/assets remain preserved locally and excluded from publication. Its modified development registry is preserved verbatim in narrative/archived/second-mouth-documents/.",
-  "nextExecutableTask": "Publish and verify the Mac ZIP, then continue from owner feedback; game content and save identity remain unchanged.",
+  "nextExecutableTask": "Continue from owner feedback on the published Mac app and game. If Mac launch fails, inspect native platform behavior first; preserve the exact game and saved-run identity.",
   "backgroundWork": "No promised work or shared chat memory after active execution ends.",
   "optimizationRequest": "Owner: can you optimize it? Scope: measured loading/rendering/UI performance; exact story and saved-run identity preserved.",
   "priorReleaseVerification": {
@@ -236,6 +236,12 @@
       "evidence": "docs/execution/evidence/mac-launcher/VERIFY.json",
       "field": "status",
       "expected": "PASS"
+    },
+    {
+      "name": "published Mac app and exact downloaded bytes",
+      "evidence": "docs/execution/evidence/mac-launcher/PUBLICATION.json",
+      "field": "status",
+      "expected": "PASS"
     }
   ],
   "releaseVersion": "1.0.1",
@@ -302,7 +308,11 @@
     "nativeMacExecutionVerified": false,
     "notarized": false,
     "publication": {
-      "status": "PENDING"
+      "status": "PASS",
+      "releaseCommit": "53c2e39c6f063dd2f567b64a49c57b4ad3ff4c31",
+      "receipt": "docs/execution/evidence/mac-launcher/PUBLICATION.json",
+      "author": "deusalter",
+      "coauthorTrailers": false
     }
   }
 }

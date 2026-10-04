@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "repository": "deusalter/The-Shape-of-the-Water",
+  "releaseCommit": "53c2e39c6f063dd2f567b64a49c57b4ad3ff4c31",
+  "branch": "main",
+  "remoteHeadVerified": true,
+  "commitAuthor": "deusalter",
+  "coauthorTrailers": false,
+  "packageURL": "https://raw.githubusercontent.com/deusalter/The-Shape-of-the-Water/53c2e39c6f063dd2f567b64a49c57b4ad3ff4c31/releases/The-Shape-of-the-Water-Mac.zip",
+  "httpStatus": 200,
+  "downloadBytes": 9163637,
+  "downloadSha256": "c4cfdb90c5fe230e9b36d54dfc695ba810eddb84a358904e0150be447c5513a9",
+  "assetBuild": "7524dd0797af0673",
+  "minimumMacOS": "13.0",
+  "architectures": [
+    "x86_64",
+    "arm64"
+  ],
+  "nativeMacExecutionVerified": false,
+  "notarized": false,
+  "scope": "Exact Mac app ZIP downloaded from the published commit and matched byte-for-byte. A later documentation-only commit records this receipt."
+}
