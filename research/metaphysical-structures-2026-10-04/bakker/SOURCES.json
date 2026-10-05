@@ -1,0 +1,670 @@
+{
+  "title": "Bakker metaphysical architecture: source and retrieval register",
+  "created_utc": "2026-10-05T01:43:07.561379+00:00",
+  "spoilers": "Entire Second Apocalypse through The Unholy Consult and both Atrocity Tales.",
+  "method": "Public pages fetched by Python urllib over configured proxy; raw response byte hashes recorded. Contemporary full texts processed only in memory, not retained. Short exact locators retained; dossier paraphrases. No paywall bypass, piracy, or login used.",
+  "evidence_grade_key": {
+    "A1": "Directly inspected primary fiction, with narrative/focalized assertion distinguished",
+    "A2": "Direct creator commentary; not automatically identical to fictional canon",
+    "A2-P": "Public platform-attributed creator commentary with provenance trail",
+    "B1": "Expert reference work, only within inspected scope",
+    "B2": "Independent critical review",
+    "C1": "Substantial fan reconstruction cross-checked at specified points",
+    "C2": "Fan interpretive discussion, not factual authority"
+  },
+  "sources": [
+    {
+      "id": "B1",
+      "title": "R. Scott Bakker interview, part 2 (25 July 2011)",
+      "url": "https://fantasyhotlist.blogspot.com/2011/07/r-scott-bakker-interview-part-2.html",
+      "source_kind": "Direct author interview on original interview publication",
+      "evidence_grade": "A2: creator explanation, not an independently established philosophical truth",
+      "retrieval": {
+        "url": "https://fantasyhotlist.blogspot.com/2011/07/r-scott-bakker-interview-part-2.html",
+        "final_url": "https://fantasyhotlist.blogspot.com/2011/07/r-scott-bakker-interview-part-2.html",
+        "status": 200,
+        "retrieved_utc": "2026-10-05T01:36:10.049717+00:00",
+        "bytes": 164111,
+        "sha256": "1bda38446c0fafb952ccbe6db150ae59c9ebddd02e07fd7a78968344e5dd4746"
+      },
+      "inspected_scope": "Complete interview answers on damnation, Psukhe, Inchoroi grafting, Wutteat, Nonmen and Tusk; excluded reader comments.",
+      "exact_locator_contexts": [
+        {
+          "locator": "First question/answer: locality of damnation",
+          "quote": "Damnation is not local."
+        },
+        {
+          "locator": "Same answer, closing sentence",
+          "quote": "The Damned themselves only know that they are damned, and never why."
+        },
+        {
+          "locator": "Psukhe question/answer",
+          "quote": "the Psukhe utilizes the impetus"
+        },
+        {
+          "locator": "Question on Nonmen in Eanna, Tusk paragraph",
+          "quote": "as well as one devious addition"
+        }
+      ],
+      "supports": [
+        "Nonlocal damnation with limited knowledge of its criteria",
+        "Selectivity of summoned Outside witnesses",
+        "Distinct semantic operations of sorcerous traditions and absence of Mark for Psukhe",
+        "Inchoroi alteration of Tusk"
+      ],
+      "limitations": [
+        "Author interview predates final two novels; use later comments to qualify rather than silently harmonize.",
+        "Original page spells Anagnosis in question but Anagogis in response.",
+        "Not proof of historical Gnosticism or a real-world theory of meaning."
+      ],
+      "full_text_retained": false
+    },
+    {
+      "id": "B2",
+      "title": "The False Sun",
+      "url": "https://rsbakker.wordpress.com/stories/the-false-sun/",
+      "source_kind": "Author-hosted primary short fiction",
+      "evidence_grade": "A1: directly inspected fiction, focalization and character claims kept distinct",
+      "retrieval": {
+        "url": "https://rsbakker.wordpress.com/stories/the-false-sun/",
+        "final_url": "https://rsbakker.wordpress.com/stories/the-false-sun/",
+        "status": 200,
+        "retrieved_utc": "2026-10-05T01:38:23.247479+00:00",
+        "bytes": 491314,
+        "sha256": "bea712e503adadc1c19ea08826e471fc5e08f3dff65bb3677887099844975c36"
+      },
+      "inspected_scope": "Selected narrative passages: Shaeonanra remembering the Inverse Fire; Titirga/Oblivion exchange; possession-versus-truth debate; assassination and collapse. Comments excluded from evidential claims.",
+      "exact_locator_contexts": [
+        {
+          "locator": "Titirga challenge in central conversation",
+          "quote": "Your damnation or your goad ?"
+        },
+        {
+          "locator": "Shaeonanra’s calculation before Inverse Fire discussion",
+          "quote": "What possible logic could annul Eternity?"
+        },
+        {
+          "locator": "Titirga’s account of Nonman teaching",
+          "quote": "How to bypass the Outside, find Oblivion."
+        }
+      ],
+      "supports": [
+        "Revelation transforms scale of practical valuation and induces atrocity",
+        "Rival interpretation of the same alleged revelation",
+        "Oblivion offered as competing escape"
+      ],
+      "limitations": [
+        "Does not independently prove Inverse Fire fraudulent or every claim of Shaeonanra correct.",
+        "This pass advances beyond previous arrival/collapse excerpts; no complete-story reading claim."
+      ],
+      "full_text_retained": false
+    },
+    {
+      "id": "B3",
+      "title": "The Four Revelations of Cinial’jin",
+      "url": "https://rsbakker.wordpress.com/stories/the-four-revelations-of-cinialjin/",
+      "source_kind": "Author-hosted primary short fiction",
+      "evidence_grade": "A1: directly inspected narrative",
+      "retrieval": {
+        "url": "https://rsbakker.wordpress.com/stories/the-four-revelations-of-cinialjin/",
+        "final_url": "https://rsbakker.wordpress.com/stories/the-four-revelations-of-cinialjin/",
+        "status": 200,
+        "retrieved_utc": "2026-10-05T01:34:23.426454+00:00",
+        "bytes": 358491,
+        "sha256": "43347cdf422b422f0fd51b3da4d3eb8cf68f748619df8eedf6bdd2c813fa6f1f"
+      },
+      "inspected_scope": "Complete current narrative from epigraph to final bare-palm image, before Share this. Opening author replies were also seen, but substantive interpretation relies on narrative and B7.",
+      "exact_locator_contexts": [
+        {
+          "locator": "Human girl murder recollection",
+          "quote": "I must … I must remember"
+        },
+        {
+          "locator": "Burning as prospective retention",
+          "quote": "this he would remember"
+        },
+        {
+          "locator": "Daughter memory recurs before final image",
+          "quote": "Aisralu"
+        }
+      ],
+      "supports": [
+        "Violence used to preserve attachment under extreme memory degradation",
+        "Present ordeal and historical fragments interwoven at level of narration"
+      ],
+      "limitations": [
+        "Current online story is revised; B7 comments discuss an earlier draft.",
+        "Memory association is not proof of literal time travel or Outside ontology.",
+        "Daughter’s death and human girl’s murder have distinct immediate motivations."
+      ],
+      "full_text_retained": false
+    },
+    {
+      "id": "B4",
+      "title": "Unholy Consultation: creator Q&A, July–August 2017",
+      "url": "https://www.second-apocalypse.com/index.php?topic=2278.0",
+      "source_kind": "Platform-attributed direct author replies on public author-Q&A forum",
+      "evidence_grade": "A2-P: creator paratext with explicitly recorded account provenance",
+      "retrieval": {
+        "url": "https://www.second-apocalypse.com/index.php?topic=2278.0",
+        "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.0",
+        "status": 200,
+        "retrieved_utc": "2026-10-05T01:37:46.999145+00:00",
+        "bytes": 90470,
+        "sha256": "b9cc7cae0afae9602ae0065b8ee23af3f3bdfb60e5a34f0e64dff99c4aa01948"
+      },
+      "inspected_scope": "Author replies on pages 0,15,30,45,90,105,120,135,165; inspected replies 19,25,36,56,98,101,105,110,112,113,115,116,117,123,124,126,139,171. Other pages fetched and screened for author posts; no fan question treated as an author assertion.",
+      "exact_locator_contexts": [
+        {
+          "locator": "Reply 19 / msg35988: final apparition",
+          "quote": "a holographic projection"
+        },
+        {
+          "locator": "Reply 36 / msg36034: salvation and Logos",
+          "quote": "The Gods pick whom they Will."
+        },
+        {
+          "locator": "Reply 113 / msg36429: contrasting paths to Absolute",
+          "quote": "sapience absent sentience"
+        },
+        {
+          "locator": "Reply 113 / msg36429: Kellhus",
+          "quote": "sentience absent sapience"
+        },
+        {
+          "locator": "Reply 115 / msg36431: limits of canonical exposition",
+          "quote": "the metaphysical realism of the series"
+        },
+        {
+          "locator": "Reply 116 / msg36434: determinate signals",
+          "quote": "the signal I hoped would transmit"
+        },
+        {
+          "locator": "Reply 124 / msg36471: Kelmomas",
+          "quote": "lacking any stable identity, personhood"
+        },
+        {
+          "locator": "Reply 139 / msg36488: divine temporal problem",
+          "quote": "Thinking from an atemporal POV gives me a headache."
+        },
+        {
+          "locator": "Reply 171 / msg36646: limits of Kellhus",
+          "quote": "not all seeing"
+        }
+      ],
+      "supports": [
+        "Direct confirmation of holographic projection and tactical purpose",
+        "Kelmomas personhood distinguished from soullessness",
+        "Logos depends on vestigial emotions",
+        "Pure objectivity versus subjectivity framed as conceptual breakdown",
+        "Atemporal divine perspective does not remove conditions of intervention",
+        "Local factual recoverability with deliberately incomplete total cosmology"
+      ],
+      "limitations": [
+        "Account identified by forum as author; legal identity not independently authenticated.",
+        "Quotation budget is shared across the entire thread, not reset per page.",
+        "Several posts quote questions before answers: only response text attributed to author.",
+        "Author does not endorse all premises of each question, notably fan theories of divine genesis or identity.",
+        "Do not equate author philosophical program with canonical world law."
+      ],
+      "full_text_retained": false,
+      "retrievals": [
+        {
+          "url": "https://www.second-apocalypse.com/index.php?topic=2278.0",
+          "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.0",
+          "status": 200,
+          "retrieved_utc": "2026-10-05T01:37:46.999145+00:00",
+          "bytes": 90470,
+          "sha256": "b9cc7cae0afae9602ae0065b8ee23af3f3bdfb60e5a34f0e64dff99c4aa01948"
+        },
+        {
+          "url": "https://www.second-apocalypse.com/index.php?topic=2278.15",
+          "status": 200,
+          "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.15",
+          "bytes": 94178,
+          "sha256": "9f56ccc80302cdd7af30b77f01c498a27a4c4aec1d632a831de34e61e320ef20",
+          "retrieved_utc": "2026-10-05T01:38:10.915690+00:00"
+        },
+        {
+          "url": "https://www.second-apocalypse.com/index.php?topic=2278.30",
+          "status": 200,
+          "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.30",
+          "bytes": 88380,
+          "sha256": "8253ffb43f83ee57c3af6c458a23505022d61d85531801d8e9fc112cbac23d06",
+          "retrieved_utc": "2026-10-05T01:38:10.979778+00:00"
+        },
+        {
+          "url": "https://www.second-apocalypse.com/index.php?topic=2278.45",
+          "status": 200,
+          "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.45",
+          "bytes": 91544,
+          "sha256": "210542e374b9041121b2b8e2dbfbb554886ee941bdfc5a0d139da1ba66fc9779",
+          "retrieved_utc": "2026-10-05T01:38:10.867292+00:00"
+        },
+        {
+          "url": "https://www.second-apocalypse.com/index.php?topic=2278.60",
+          "status": 200,
+          "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.60",
+          "bytes": 86579,
+          "sha256": "622a785d17df1b11fb9eb82b9151266e518ac52820ef1ee1307176bd0144c283",
+          "retrieved_utc": "2026-10-05T01:38:10.968682+00:00"
+        },
+        {
+          "url": "https://www.second-apocalypse.com/index.php?topic=2278.75",
+          "status": 200,
+          "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.75",
+          "bytes": 95695,
+          "sha256": "912e68c0892a496b85b36f286b147c287325d5e9a832657e52af11a84a0d0ccd",
+          "retrieved_utc": "2026-10-05T01:38:10.875866+00:00"
+        },
+        {
+          "url": "https://www.second-apocalypse.com/index.php?topic=2278.90",
+          "status": 200,
+          "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.90",
+          "bytes": 93571,
+          "sha256": "ea967468f4ada0c3efc00b30b9f8bf812d94f027797a720b46977abfe371d2ef",
+          "retrieved_utc": "2026-10-05T01:38:10.978380+00:00"
+        },
+        {
+          "url": "https://www.second-apocalypse.com/index.php?topic=2278.105",
+          "status": 200,
+          "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.105",
+          "bytes": 100753,
+          "sha256": "6154a9f0689cc7446ae8ba4aff0cccbebe6f53a3ec491d301dfcaca07dbc0410",
+          "retrieved_utc": "2026-10-05T01:38:11.154317+00:00"
+        },
+        {
+          "url": "https://www.second-apocalypse.com/index.php?topic=2278.120",
+          "status": 200,
+          "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.120",
+          "bytes": 96886,
+          "sha256": "c2dc4dd7f358dd0fd24a593b0633af0b5d5418c7b780a1149b0b6d01ca562eec",
+          "retrieved_utc": "2026-10-05T01:38:11.288846+00:00"
+        },
+        {
+          "url": "https://www.second-apocalypse.com/index.php?topic=2278.135",
+          "status": 200,
+          "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.135",
+          "bytes": 94327,
+          "sha256": "b1f065aec749bea5df60945f9ffcf171c304a8e625303b1f154a19a54a65d566",
+          "retrieved_utc": "2026-10-05T01:38:11.205388+00:00"
+        },
+        {
+          "url": "https://www.second-apocalypse.com/index.php?topic=2278.150",
+          "status": 200,
+          "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.150",
+          "bytes": 94956,
+          "sha256": "5ddefede2a8099d78cbb06a20725bd3aca622051c03a43e199a7938f949f44f9",
+          "retrieved_utc": "2026-10-05T01:38:11.290051+00:00"
+        },
+        {
+          "url": "https://www.second-apocalypse.com/index.php?topic=2278.165",
+          "status": 200,
+          "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.165",
+          "bytes": 96370,
+          "sha256": "8260c0ae253c9a8c608304b0ab3fca7db97872a986b43a8a2c276ffdfdfe474d",
+          "retrieved_utc": "2026-10-05T01:38:11.337133+00:00"
+        },
+        {
+          "url": "https://www.second-apocalypse.com/index.php?topic=2278.180",
+          "status": 200,
+          "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.180",
+          "bytes": 98216,
+          "sha256": "fc89e70593d0fa25d25031d8c890703ad9fd613e2a91398abe7e64cb081937ec",
+          "retrieved_utc": "2026-10-05T01:38:11.390413+00:00"
+        },
+        {
+          "url": "https://www.second-apocalypse.com/index.php?topic=2278.195",
+          "status": 200,
+          "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.195",
+          "bytes": 56361,
+          "sha256": "cbcbb6db1aeddb1cf3b00c3d0b9bdd567b4fcfcfc6634505277137e116d96d8c",
+          "retrieved_utc": "2026-10-05T01:38:11.407789+00:00"
+        }
+      ],
+      "provenance": {
+        "author_site_link": "Author-hosted WordPress fiction pages B2/B3 sidebar link THE SECOND APOCALYPSE FORUM to www.second-apocalypse.com.",
+        "forum_account": "Cû'jara-Cinmoi",
+        "forum_description_context": "The Author Himself",
+        "account_context": "Moderator",
+        "forum_home_receipt": {
+          "url": "https://www.second-apocalypse.com/",
+          "final_url": "https://www.second-apocalypse.com/",
+          "status": 200,
+          "retrieved_utc": "2026-10-05T01:37:14.781420+00:00",
+          "bytes": 59005,
+          "sha256": "e1c0a36e80ae4b1f4e365b0661157d019a7f25f3ca4c0d279d0300eb1c183d6c"
+        },
+        "author_board_receipt": {
+          "url": "https://www.second-apocalypse.com/index.php?board=33.0",
+          "final_url": "https://www.second-apocalypse.com/index.php?board=33.0",
+          "status": 200,
+          "retrieved_utc": "2026-10-05T01:37:40.791502+00:00",
+          "bytes": 63616,
+          "sha256": "7581852aff44d4b25477faa6d3cc23e7f8c096950bb7741d762f9ce73458c552"
+        },
+        "scope": "Public platform attribution, cross-linked from author site; no login or identity documents used."
+      }
+    },
+    {
+      "id": "B5",
+      "title": "Adam Whitehead, A History of Eärwa, update through The Unholy Consult (2018)",
+      "url": "https://drive.google.com/uc?export=download&id=1R_Gp-xTjsEXQBvkZQENi6dliyk8SFeHT",
+      "source_kind": "Independent fan-written historical guide; public download linked by its creator",
+      "evidence_grade": "C1: extensive secondary plot reconstruction, primary cross-checks specified",
+      "retrieval": {
+        "url": "https://drive.google.com/uc?export=download&id=1R_Gp-xTjsEXQBvkZQENi6dliyk8SFeHT",
+        "status": 200,
+        "final_url": "https://drive.usercontent.google.com/download?id=1R_Gp-xTjsEXQBvkZQENi6dliyk8SFeHT&export=download",
+        "bytes": 4593552,
+        "sha256": "877a194ac9e576b5bd27db327e31e24d734f2c16a5ff0ee87438f08b148fd8ad",
+        "retrieved_utc": "2026-10-05T01:36:29.227045+00:00"
+      },
+      "inspected_scope": "PDF pages 30,55,60,62–63,68,85–90,92,94–95,98–101,104,108–110,114–116,121–122,125,149,154,156–157 inspected; claim-bearing dossier passages are pages 30,60,85,90,92,95,104,108–110. PDF parsed in memory; no PDF or extracted full text retained.",
+      "exact_locator_contexts": [
+        {
+          "locator": "p.60 caption and following paragraph",
+          "quote": "His lack of emotions and passion"
+        },
+        {
+          "locator": "p.85 Yatwer intervention",
+          "quote": "immune to the Aspect-Emperor’s supposedly holy sight"
+        },
+        {
+          "locator": "p.104 Sorweel assassination",
+          "quote": "But the White Luck did not protect Sorweel"
+        },
+        {
+          "locator": "p.109 Golden Court",
+          "quote": "the Ajokli aspect bewildered"
+        },
+        {
+          "locator": "p.110 Mimara perceives reality",
+          "quote": "the Judging Eye she beheld the truth"
+        }
+      ],
+      "supports": [
+        "Concrete episode sequence in novels unavailable for fresh primary reading in this pass",
+        "Cross-check with B1 for Psukhe conditions; B4 for hologram, Kelmomas personhood and divine temporal difficulty; B6 for Sorweel/No-God connection"
+      ],
+      "limitations": [
+        "Author identifies himself as fan; not authorized canonical encyclopedia.",
+        "Frequently asserts interpretive conclusions as historical fact; dossier retains uncertainty and attribution.",
+        "Do not cite PDF explanation of metaphysics as an independent proof of the novels’ exact wording.",
+        "Page numbers are both PDF ordinal and printed page number for cited passages."
+      ],
+      "full_text_retained": false,
+      "download_provenance": {
+        "url": "https://thewertzone.blogspot.com/2018/04/a-history-of-earwa-updated-through.html",
+        "final_url": "https://thewertzone.blogspot.com/2018/04/a-history-of-earwa-updated-through.html",
+        "status": 200,
+        "retrieved_utc": "2026-10-05T01:36:02.358171+00:00",
+        "bytes": 230980,
+        "sha256": "4536b73eacebb54febca26768e11cb8b20db87b84c56c22e62bad0dd08774c8c"
+      }
+    },
+    {
+      "id": "B6",
+      "title": "[TUC Spoilers] Sorweel, public reader discussion (July 2017)",
+      "url": "https://www.second-apocalypse.com/index.php?topic=2201.0",
+      "source_kind": "Independent fan close-reading discussion",
+      "evidence_grade": "C2: reader reconstruction, not canonical confirmation",
+      "retrieval": {
+        "url": "https://www.second-apocalypse.com/index.php?topic=2201.0",
+        "final_url": "https://www.second-apocalypse.com/index.php?topic=2201.0",
+        "status": 200,
+        "retrieved_utc": "2026-10-05T01:37:46.691206+00:00",
+        "bytes": 100071,
+        "sha256": "c8affcc52ed9cbc288bd675e2c562f0a233a389f0e1414ab72620705ecf98d51"
+      },
+      "inspected_scope": "Page 1, particularly replies 2–9; no later pages used.",
+      "exact_locator_contexts": [
+        {
+          "locator": "Reply 5 by profgrape, 6 July 2017",
+          "quote": "Kelmomas will become the NG"
+        },
+        {
+          "locator": "Same reply, shared blindness",
+          "quote": "invisible to the Gods"
+        }
+      ],
+      "supports": [
+        "Independent reader reconstruction links Sorweel’s assassination to future No-God identity and divine blindness"
+      ],
+      "limitations": [
+        "Single discussion can establish an interpretive reading, not the full cosmology.",
+        "Claims about increased divine power near Golgotterath and future character appearances are not adopted."
+      ],
+      "full_text_retained": false
+    },
+    {
+      "id": "B7",
+      "title": "Four Revelations, author introduction and draft discussion (7–8 November 2011)",
+      "url": "https://rsbakker.wordpress.com/2011/11/07/four-revelations/",
+      "source_kind": "Author-hosted composition commentary and replies",
+      "evidence_grade": "A2: author explanation of formal choice and acknowledged error",
+      "retrieval": {
+        "url": "https://rsbakker.wordpress.com/2011/11/07/four-revelations/",
+        "final_url": "https://rsbakker.wordpress.com/2011/11/07/four-revelations/",
+        "status": 200,
+        "retrieved_utc": "2026-10-05T01:37:15.060329+00:00",
+        "bytes": 586688,
+        "sha256": "4e7a46099cf7ab8dabdfaef4b3ff007900b0012462d7856b520db7069645434b"
+      },
+      "inspected_scope": "Main post plus rsbakker replies of 7 November 19:30/19:37 and 8 November 09:54/10:35. Draft-specific reader questions used only as context.",
+      "exact_locator_contexts": [
+        {
+          "locator": "rsbakker reply 7 November 2011 19:37",
+          "quote": "Memory is associative, as opposed to linear."
+        },
+        {
+          "locator": "rsbakker reply 8 November 2011 09:54",
+          "quote": "That’s a continuity error"
+        },
+        {
+          "locator": "rsbakker reply 8 November 2011 10:35",
+          "quote": "nothing as significant as this"
+        }
+      ],
+      "supports": [
+        "Associative form is motivated by memory",
+        "Not all contradictions are intended metaphysical ambiguity"
+      ],
+      "limitations": [
+        "Discussion concerns an earlier draft; corrections must not be imputed as current-story errors."
+      ],
+      "full_text_retained": false
+    },
+    {
+      "id": "B8",
+      "title": "John Clute and David Langford, SFE entry: Bakker, R Scott",
+      "url": "https://sf-encyclopedia.com/entry/bakker_r_scott",
+      "source_kind": "Scholarly reference encyclopedia",
+      "evidence_grade": "B1: expert bibliographical and high-level critical check",
+      "retrieval": {
+        "url": "https://sf-encyclopedia.com/entry/bakker_r_scott",
+        "final_url": "https://sf-encyclopedia.com/entry/bakker_r_scott",
+        "status": 200,
+        "retrieved_utc": "2026-10-05T01:35:46.411043+00:00",
+        "bytes": 21327,
+        "sha256": "8c36278a586c88d289118aeb1e375928763ead1ead8f4312d9785d2b5bece1e3"
+      },
+      "inspected_scope": "Entire substantive entry and works list; no detailed Second Apocalypse cosmology offered.",
+      "exact_locator_contexts": [
+        {
+          "locator": "Opening paragraph",
+          "quote": "Bakker's metaphysics are more ambitious"
+        }
+      ],
+      "supports": [
+        "Bibliographical distinction between Second Apocalypse fantasy and Neuropath consciousness argument",
+        "Independent critical recognition of metaphysical ambition"
+      ],
+      "limitations": [
+        "Cannot adjudicate Outside, salvation or No-God mechanisms.",
+        "No peer-reviewed specialist cosmological study inspected."
+      ],
+      "full_text_retained": false
+    },
+    {
+      "id": "B9",
+      "title": "Adam Whitehead, The Unholy Consult by R. Scott Bakker (4 May 2017)",
+      "url": "https://thewertzone.blogspot.com/2017/05/the-unholy-consult-by-r-scott-bakker.html",
+      "source_kind": "Independent critical review of advance novel",
+      "evidence_grade": "B2: informed genre criticism, not scholarly consensus",
+      "retrieval": {
+        "url": "https://thewertzone.blogspot.com/2017/05/the-unholy-consult-by-r-scott-bakker.html",
+        "final_url": "https://thewertzone.blogspot.com/2017/05/the-unholy-consult-by-r-scott-bakker.html",
+        "status": 200,
+        "retrieved_utc": "2026-10-05T01:37:14.690078+00:00",
+        "bytes": 243446,
+        "sha256": "546c9de75175947c3fe3a93e0e7182f2bfc1c064fa61392899e627a440b61f59"
+      },
+      "inspected_scope": "Complete review before comments; comments not used.",
+      "exact_locator_contexts": [
+        {
+          "locator": "Paragraph beginning Other issues go resolutely unaddressed",
+          "quote": "a full list of the ingredients"
+        },
+        {
+          "locator": "Paragraph on revelations",
+          "quote": "squarely answering questions"
+        }
+      ],
+      "supports": [
+        "Distinction between narrative revelations and total metaphysical manual",
+        "Critic’s appraisal of successful/unsuccessful closure, contrasted with author intent"
+      ],
+      "limitations": [
+        "Same critic as B5, so not an independent second witness to its detailed plot claims.",
+        "Review is favorable evaluation, not objective validation of narrative success."
+      ],
+      "full_text_retained": false
+    },
+    {
+      "id": "B10",
+      "title": "New R. Scott Bakker interview (10 June 2016)",
+      "url": "https://fantasyhotlist.blogspot.com/2016/06/new-r-scott-bakker-interview.html",
+      "source_kind": "Direct author interview on original publication",
+      "evidence_grade": "A2: creator statement of compositional aims",
+      "retrieval": {
+        "url": "https://fantasyhotlist.blogspot.com/2016/06/new-r-scott-bakker-interview.html",
+        "final_url": "https://fantasyhotlist.blogspot.com/2016/06/new-r-scott-bakker-interview.html",
+        "status": 200,
+        "retrieved_utc": "2026-10-05T01:35:05.449291+00:00",
+        "bytes": 182539,
+        "sha256": "4bb8787e84345abb20eff17d5aff55016972aa9e5768dabffaa659c8d50cde41"
+      },
+      "inspected_scope": "Complete interview before comments; particularly setting reveals, plot versus thematic closure, and excessive mystery.",
+      "exact_locator_contexts": [
+        {
+          "locator": "Question on Layers of Revelation",
+          "quote": "use ‘setting reveals’ the way novels generally use plot reveals"
+        },
+        {
+          "locator": "Question on Gordian Knot closure",
+          "quote": "Plot closure, yes. Thematic closure, not so much."
+        }
+      ],
+      "supports": [
+        "World locations withheld until late can retrospectively reorganize an early plot",
+        "Author distinguishes plot closure from thematic closure and identifies excess mystery as a weakness"
+      ],
+      "limitations": [
+        "Authorial intention does not establish every execution succeeds."
+      ],
+      "full_text_retained": false
+    }
+  ],
+  "access_limits": [
+    {
+      "url": "https://princeofnothing.fandom.com/wiki/Outside",
+      "result": "HTTP 402; no content used and no bypass attempted."
+    },
+    {
+      "url": "https://www.reddit.com/r/Fantasy/comments/6r3hba/unholy_consultation_r_scott_bakker_bares_the_soul/",
+      "result": "HTTP 403; no Reddit replies used. Separate already-public forum Q&A retrieved in its own right."
+    },
+    {
+      "url": "https://www.reddit.com/r/Fantasy/comments/6366ko/r_scott_bakker_on_fantasy_philosophy_and_dooooom/",
+      "result": "HTTP 403; no content used."
+    },
+    {
+      "url": "https://www.orbitbooks.net/2011/03/24/the-white-luck-warrior-extract/",
+      "result": "Redirected to generic Orbit welcome page; no publisher excerpt inspected."
+    },
+    {
+      "method": "Google/Bing/DuckDuckGo searches",
+      "result": "Google delivered scripted interstitial; DuckDuckGo challenge; Bing results unrelated. None used as evidence."
+    }
+  ],
+  "other_inspected_but_not_relied_on": [
+    {
+      "url": "https://strangehorizons.com/wordpress/non-fiction/reviews/the-judging-eye-by-r-scott-bakker/",
+      "reason": "Critical review read; its absolutist claim that no universal truths exist and its compressed plot summary were unsuitable as metaphysical authority."
+    },
+    {
+      "url": "https://madscilab.wordpress.com/2018/05/21/the-second-apocalypse-deadly-revelations/",
+      "reason": "Fan review explicitly lacks reading of last two novels; not used for ending or total metaphysics."
+    }
+  ],
+  "quotation_audit": [
+    {
+      "source_id": "B1",
+      "exact_locator_words": 27,
+      "shared_work_budget_words": 90
+    },
+    {
+      "source_id": "B2",
+      "exact_locator_words": 19,
+      "shared_work_budget_words": 90
+    },
+    {
+      "source_id": "B3",
+      "exact_locator_words": 11,
+      "shared_work_budget_words": 90
+    },
+    {
+      "source_id": "B4",
+      "exact_locator_words": 44,
+      "shared_work_budget_words": 90
+    },
+    {
+      "source_id": "B5",
+      "exact_locator_words": 32,
+      "shared_work_budget_words": 90
+    },
+    {
+      "source_id": "B6",
+      "exact_locator_words": 9,
+      "shared_work_budget_words": 90
+    },
+    {
+      "source_id": "B7",
+      "exact_locator_words": 16,
+      "shared_work_budget_words": 90
+    },
+    {
+      "source_id": "B8",
+      "exact_locator_words": 5,
+      "shared_work_budget_words": 90
+    },
+    {
+      "source_id": "B9",
+      "exact_locator_words": 9,
+      "shared_work_budget_words": 90
+    },
+    {
+      "source_id": "B10",
+      "exact_locator_words": 18,
+      "shared_work_budget_words": 90
+    }
+  ],
+  "verification": {
+    "json_parse": "passed",
+    "dossier_word_count_including_reference_definitions": 2097,
+    "exact_locator_check": "Compared all short locators against newly fetched normalized page text; corrected inline-HTML spacing in B2 and removed PDF-page-boundary preposition in B5.",
+    "contemporary_full_text_saved": false,
+    "scope": "Only DOSSIER.md and SOURCES.json retained in assigned directory."
+  }
+}

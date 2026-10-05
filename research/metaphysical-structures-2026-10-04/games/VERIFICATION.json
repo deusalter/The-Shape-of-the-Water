@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-10-05T01:43:35.687740+00:00",
+  "dossier_words": 2157,
+  "sources": 14,
+  "official_zip_reproduction": "Executed inspect_ep1.py successfully against receipt hash; game archive and all five selected map hashes match.",
+  "inspection_type": "Static data; no launch or playthrough; route reachability not established.",
+  "no_full_text_in_deliverables": true,
+  "no_commits": true,
+  "changed_paths": "Only research/metaphysical-structures-2026-10-04/games/",
+  "dossier_sha256": "811981dd46928d76250b680bdc6564e8d6b5452ddb54a9ffe57134be2d069314",
+  "sources_sha256": "299d247a79d7050b782b68430f63fdb963e13e97891fa12a64fcf0da7eec99d9"
+}

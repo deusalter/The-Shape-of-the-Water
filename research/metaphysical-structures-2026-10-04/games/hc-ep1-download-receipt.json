@@ -1,0 +1,11 @@
+{
+  "id": "hc-ep1-download",
+  "url": "https://etherane.itch.io/hello-charlotte-ep1",
+  "endpoint": "https://etherane.itch.io/hello-charlotte-ep1/file/513960",
+  "upload_id": 513960,
+  "status": 200,
+  "bytes": 291888618,
+  "sha256": "f1f092fa1d393f94cd62109bd7b8e013ce466b76f7b09a5c2d6891a90e69bc4d",
+  "retrieved_utc": "2026-10-05T01:35:59.759607+00:00",
+  "authority": "official freely downloadable English EP1; signed CDN URL intentionally omitted"
+}

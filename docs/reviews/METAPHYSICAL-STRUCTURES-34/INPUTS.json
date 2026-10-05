@@ -1,0 +1,34 @@
+{
+  "research/metaphysical-structures-2026-10-04/theory/DOSSIER.md": {
+    "sha256": "3faa564cca661267fd71399996674508b2e8fcf83e2ff82aeff1e952c2f61bc1",
+    "bytes": 12852
+  },
+  "research/metaphysical-structures-2026-10-04/theory/SOURCES.json": {
+    "sha256": "1026972cae3ed1d0c451e23820845765aab054f7afc81241e7ae1a66749bd294",
+    "bytes": 4445
+  },
+  "research/metaphysical-structures-2026-10-04/borges-wolfe/DOSSIER.md": {
+    "sha256": "1400da343575cc4fdfc44f504dfa0f5b4c1b26b87c1b993f5a89410fef29dcca",
+    "bytes": 16800
+  },
+  "research/metaphysical-structures-2026-10-04/borges-wolfe/SOURCES.json": {
+    "sha256": "ea39c5fef4670644e872eec6ed28fdc3f6f47367184a8b57eabb3837f32631e6",
+    "bytes": 27261
+  },
+  "research/metaphysical-structures-2026-10-04/games/DOSSIER.md": {
+    "sha256": "811981dd46928d76250b680bdc6564e8d6b5452ddb54a9ffe57134be2d069314",
+    "bytes": 15350
+  },
+  "research/metaphysical-structures-2026-10-04/games/SOURCES.json": {
+    "sha256": "299d247a79d7050b782b68430f63fdb963e13e97891fa12a64fcf0da7eec99d9",
+    "bytes": 25365
+  },
+  "research/metaphysical-structures-2026-10-04/bakker/DOSSIER.md": {
+    "sha256": "d63f1ad17644924595924a577caf6ec6e61fbeade2f799a68aa67f5ed05e4dd6",
+    "bytes": 15582
+  },
+  "research/metaphysical-structures-2026-10-04/bakker/SOURCES.json": {
+    "sha256": "2fd7220a8fa46dbc2320c4c48490c608ab95b8cb34e87f8fb34a333ed522d45e",
+    "bytes": 30903
+  }
+}

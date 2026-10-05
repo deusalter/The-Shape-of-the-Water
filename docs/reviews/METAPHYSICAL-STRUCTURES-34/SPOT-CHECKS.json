@@ -1,0 +1,70 @@
+[
+  {
+    "id": "W-MCCAFFERY",
+    "url": "https://gwern.net/doc/fiction/gene-wolfe/1988-11-mccaffery-onencompassingtheentireuniverseaninterviewwithgenewolfe.html",
+    "final_url": "https://gwern.net/doc/fiction/gene-wolfe/1988-11-mccaffery-onencompassingtheentireuniverseaninterviewwithgenewolfe.html",
+    "status": 200,
+    "bytes": 103299,
+    "sha256": "c277d5d84717160315fdf964b78e8c21d46d51118a49b249c512b560129e5bf5",
+    "at": "2026-10-05T01:45:02.477902+00:00",
+    "locators": [
+      {
+        "term": "very poor shots",
+        "found": true
+      },
+      {
+        "term": "Which is what happens.",
+        "found": true
+      }
+    ],
+    "checked_claim": "The inspected answer distinguishes the marksmanship clues and directly confirms the guide assuming the employer’s shape. The mirror matches the dossier’s source hash; original journal not retrieved."
+  },
+  {
+    "id": "U1",
+    "url": "https://web.archive.org/web/20151112111023/http://apgnation.com/articles/2015/01/29/13689/say-red-interview-ryukishi07/",
+    "final_url": "https://web.archive.org/web/20151106233849/http://apgnation.com/articles/2015/01/29/13689/say-red-interview-ryukishi07",
+    "status": 200,
+    "bytes": 279990,
+    "sha256": "cff0bce021e3de5fac01fce0df094ef7e44a045ab2c745dbfc14684838301f8f",
+    "at": "2026-10-05T01:45:05.554639+00:00",
+    "locators": [
+      {
+        "term": "official answer from me",
+        "found": true
+      }
+    ],
+    "checked_claim": "Inspected published English Q11 around Sayo and EP8 manga; creator calls that material his official answer. Did not inspect manga or provide a new Japanese translation."
+  },
+  {
+    "id": "B4-113",
+    "url": "https://www.second-apocalypse.com/index.php?topic=2278.105",
+    "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.105",
+    "status": 200,
+    "bytes": 100742,
+    "sha256": "012f110443414ed57f48755caede4f8d500a5064097f5bc6963c43dde7dbc4b2",
+    "at": "2026-10-05T01:45:02.264689+00:00",
+    "locators": [
+      {
+        "term": "sapience absent sentience",
+        "found": true
+      }
+    ],
+    "checked_claim": "Inspected answer describes the opposed objectivity/subjectivity ambitions and immediately calls both conceptual breakdown, rather than coherent philosophical accomplishments."
+  },
+  {
+    "id": "B4-139",
+    "url": "https://www.second-apocalypse.com/index.php?topic=2278.135",
+    "final_url": "https://www.second-apocalypse.com/index.php?topic=2278.135",
+    "status": 200,
+    "bytes": 94310,
+    "sha256": "728f8e6d4516ee753bf80e7f5015850d8b793bc82fd7db3d2f96b89e46b92abf",
+    "at": "2026-10-05T01:45:02.401095+00:00",
+    "locators": [
+      {
+        "term": "atemporal POV",
+        "found": true
+      }
+    ],
+    "checked_claim": "Inspected answer qualifies divine knowing from an eternal perspective and distinguishes that perspective from conditions of temporal intervention."
+  }
+]

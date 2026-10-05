@@ -1,0 +1,473 @@
+{
+  "created_utc": "2026-10-05T01:43:07.455920+00:00",
+  "scope": "Bounded structural research; no playthrough, complete novel or manga reading. No peer-reviewed analysis located and used in this pass.",
+  "evidence_grades": {
+    "A1": "Inspected primary event records; internal assertions still require speaker/frame attribution.",
+    "A2": "Creator testimony/official material, limited to what it establishes.",
+    "B1": "Named journalistic report of creator speech.",
+    "B2": "Detailed secondary reconstruction/procedural report, not primary verification.",
+    "B3": "Broad collaborative synopsis.",
+    "C": "Fan interpretation that openly includes conjecture."
+  },
+  "copyright": "One EP1 work-wide short-quote budget; short_quote fields plus dossier remain below 90 words verbatim per source/work. No full source/game text retained in deliverables.",
+  "sources": [
+    {
+      "id": "U1",
+      "url": "https://web.archive.org/web/20151112111023/http://apgnation.com/articles/2015/01/29/13689/say-red-interview-ryukishi07/",
+      "retrieved_utc": "2026-10-05T01:35:21.643944+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/web/20151106233849/http://apgnation.com/articles/2015/01/29/13689/say-red-interview-ryukishi07",
+      "sha256": "ca8a36eed73d429592bdf5f283752209e184b928d16ca003b07491d37ba5cb13",
+      "bytes": 279987,
+      "retrieval_id": "umi-apg-archive",
+      "title": "Say It In Red! An Interview with Ryukishi07",
+      "kind": "published bilingual creator interview",
+      "evidence_grade": "A2: creator testimony; archived journalistic publication",
+      "inspected_scope": "Read Q4/Q5/Q11 Japanese and English; English surrounding questions; publication and translation credits.",
+      "exact_short_locators": "Q4 mystery as game; Q5 Knox and Van Dine; Q11 Sayo and EP8 manga.",
+      "limits": "Creator commentary is authoritative about intended answer but is not independent primary-game inspection. Uses published English; narrow Japanese comparison, no professional translation claim.",
+      "published": "2015-01-29",
+      "author": "Ryukishi07, interviewed by Nicole Seraphita; translation credit Matt Gallagher",
+      "short_quote": "It is an official answer from me, Ryukishi07."
+    },
+    {
+      "id": "U2",
+      "url": "https://web.archive.org/web/20151106233849/http://apgnation.com/articles/2015/05/19/17101/another-round-red-truths-ryukishi07",
+      "retrieved_utc": "2026-10-05T01:36:12.154309+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/web/20151106233843/http://apgnation.com/articles/2015/05/19/17101/another-round-red-truths-ryukishi07",
+      "sha256": "fb3ce43ebdaa2c15024dedc05b8f663aaff93c2963ed5b9ecbdf6f0fab49ea57",
+      "bytes": 264690,
+      "retrieval_id": "umi-apg2",
+      "title": "Another Round of Red Truths with Ryukishi07",
+      "kind": "interview and convention-panel report",
+      "evidence_grade": "B1: named journalist reports creator speech",
+      "inspected_scope": "Read the main convention report and interview through concluding paragraph, with emphasis on second panel and witches/actors questions.",
+      "exact_short_locators": "Second-panel paragraph beginning When constructing a story; interview first question about witches; final question connecting Erika, Bernkastel and Rika.",
+      "limits": "Reported/paraphrased speech, not verbatim transcript. Embedded video not watched. References to false fan theories are not used to settle additional theories.",
+      "published": "2015-05-19",
+      "author": "Nicole Seraphita"
+    },
+    {
+      "id": "U3",
+      "url": "https://wiki.whentheycry.org/wiki/Dawn_of_the_Golden_Witch",
+      "retrieved_utc": "2026-10-05T01:35:21.645470+00:00",
+      "status": 200,
+      "final_url": "https://wiki.whentheycry.org/wiki/Dawn_of_the_Golden_Witch",
+      "sha256": "e204cbf58ae5690220d318d65838f87d06da07caedaa2e0f9bdc3a67dc03fc55",
+      "bytes": 207567,
+      "retrieval_id": "umi-ep6",
+      "title": "Dawn of the Golden Witch",
+      "kind": "community wiki plot reconstruction",
+      "evidence_grade": "B2: detailed secondary; overlapping Wikipedia summary is corroborative, not fully independent",
+      "inspected_scope": "Read main plot section, including romance duel, seal revisions, letter and logic-error resolution.",
+      "exact_short_locators": "Plot: love trials; paragraph beginning Determined to wait out the typhoon; final wedding duel and population statement.",
+      "limits": "No episode script/playthrough inspected. May conflate represented fact and scene staging; dossier explicitly preserves their distinction."
+    },
+    {
+      "id": "U4",
+      "url": "https://wiki.whentheycry.org/wiki/Red_Truth",
+      "retrieved_utc": "2026-10-05T01:35:21.644368+00:00",
+      "status": 200,
+      "final_url": "https://wiki.whentheycry.org/wiki/Red_Truth",
+      "sha256": "96ebf3548f073968340142926d422cf8531c2dcfc6ccf6d5216d3f5a57ca9170",
+      "bytes": 131135,
+      "retrieval_id": "umi-truth",
+      "title": "Red Truth",
+      "kind": "community wiki with primary-game quotations",
+      "evidence_grade": "B2: secondary rule account; brief embedded primary excerpts",
+      "inspected_scope": "Read introductory explanation and selected EP2/EP6 red statements; not the entire list.",
+      "exact_short_locators": "Opening explanation after Japanese name; EP2 statements beginning When I speak the truth; EP6 concluding population assertion.",
+      "limits": "Full list not read; did not establish a single universal scope rule across all utterances. Dossier asks readers to track applicable scene and referents rather than inventing one.",
+      "short_quote": "Everything I speak in red is the truth."
+    },
+    {
+      "id": "U5",
+      "url": "https://wiki.whentheycry.org/wiki/Sayo_Yasuda",
+      "retrieved_utc": "2026-10-05T01:35:21.644692+00:00",
+      "status": 200,
+      "final_url": "https://wiki.whentheycry.org/wiki/Sayo_Yasuda",
+      "sha256": "65bff175ecd54aad31dc640e50553d52cb20d3d5efd1ede4821dbf3ef93ed922",
+      "bytes": 82665,
+      "retrieval_id": "umi-sayo",
+      "title": "Sayo Yasuda",
+      "kind": "community wiki character reconstruction",
+      "evidence_grade": "B2: secondary",
+      "inspected_scope": "Read history and personality through division of relationships; examined chapter-relevant descriptions.",
+      "exact_short_locators": "History: discussion of mystery endings and magic; paragraph beginning After learning the truth; Personality: three relationships.",
+      "limits": "Wiki terminology about personality is not adopted as a clinical diagnosis. Specific identity solution corroborated in U3/U8 and creator answer authority in U1, but manga itself not inspected."
+    },
+    {
+      "id": "U6",
+      "url": "https://wiki.whentheycry.org/wiki/Twilight_of_the_Golden_Witch",
+      "retrieved_utc": "2026-10-05T01:36:35.897034+00:00",
+      "status": 200,
+      "final_url": "https://wiki.whentheycry.org/wiki/Twilight_of_the_Golden_Witch",
+      "sha256": "384ea7fff943e5cac4ab63644f6165a76057a8da9553e4e1df80a4eea997fb84",
+      "bytes": 143641,
+      "retrieval_id": "umi-ep8",
+      "title": "Twilight of the Golden Witch",
+      "kind": "community wiki plot reconstruction",
+      "evidence_grade": "B2: secondary",
+      "inspected_scope": "Read late main-plot sections, Real World, Magic Ending, opening Trick Ending; puzzle rules excerpt.",
+      "exact_short_locators": "Ange confronts BATTLER; Book of the Single Truth; Featherine rewrites Lambdadelta death; Real World; Magic Ending.",
+      "limits": "No audiovisual performance or full episode inspected. Dossier describes Featherine editing a represented confrontation, not a proven absolute outer universe."
+    },
+    {
+      "id": "U7",
+      "url": "https://wiki.whentheycry.org/wiki/Tohya_Hachijo",
+      "retrieved_utc": "2026-10-05T01:36:35.897911+00:00",
+      "status": 200,
+      "final_url": "https://wiki.whentheycry.org/wiki/Tohya_Hachijo",
+      "sha256": "469dfb9c34d01c01497d7b95f2e72811c34b6d3b9baeb62cb8ad649541d3842f",
+      "bytes": 63105,
+      "retrieval_id": "umi-tohya2",
+      "title": "Tohya Hachijo",
+      "kind": "community wiki character reconstruction",
+      "evidence_grade": "B2: secondary",
+      "inspected_scope": "Read introduction, Profile/Background and Personality.",
+      "exact_short_locators": "Background: paragraph beginning Eventually, Tohya started recovering; Personality: initial refusal to meet Ange.",
+      "limits": "Memory and identity interpretation based on secondary reconstruction. Does not establish medical mechanisms independently."
+    },
+    {
+      "id": "U8",
+      "url": "https://en.wikipedia.org/wiki/Umineko_When_They_Cry",
+      "retrieved_utc": "2026-10-05T01:34:37.052341+00:00",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Umineko_When_They_Cry",
+      "sha256": "e49197379ae53f85d19777f2723d84f48987dae84d265d0e3d8dc375d64b433a",
+      "bytes": 365671,
+      "retrieval_id": "umi-wikipedia",
+      "title": "Umineko When They Cry",
+      "kind": "collaborative encyclopedia",
+      "evidence_grade": "B3: broad secondary synopsis",
+      "inspected_scope": "Read Gameplay; Synopsis/Plot through ending; episode summaries; manga adaptation paragraph and citation link to U1.",
+      "exact_short_locators": "Gameplay linearity; Plot first message-bottle paragraph, Purgatorio, Ange 1998, EP6, concluding identity; Manga adaptations final paragraph.",
+      "limits": "Primary source link successfully followed. Wikipedia narrative is not independently verified primary text; its flattening terminology (real world, coping mechanism) is not adopted wholesale."
+    },
+    {
+      "id": "H1",
+      "url": "https://etherane.itch.io/hello-charlotte-ep1",
+      "endpoint": "https://etherane.itch.io/hello-charlotte-ep1/file/513960",
+      "upload_id": 513960,
+      "status": 200,
+      "bytes": 291888618,
+      "sha256": "f1f092fa1d393f94cd62109bd7b8e013ce466b76f7b09a5c2d6891a90e69bc4d",
+      "retrieved_utc": "2026-10-05T01:35:59.759607+00:00",
+      "authority": "official freely downloadable English EP1; signed CDN URL intentionally omitted",
+      "retrieval_id": "hc-ep1-download",
+      "title": "Hello Charlotte EP1: Junk Food, Gods and Teddy Bears, official English release",
+      "kind": "official primary game package; static event inspection",
+      "evidence_grade": "A1: directly inspected event text and branch records",
+      "inspected_scope": "String search across unpacked maps for navigation, followed by detailed reading of selected events listed below. No execution/playthrough; no complete-script reading.",
+      "exact_short_locators": [
+        {
+          "file": "Data/Map010.rvdata2",
+          "event": 13,
+          "page": 1,
+          "commands_1based": [
+            39,
+            76
+          ],
+          "focus": "My Birthday user log; assigned Seth-type Puppeteer; True Realm; free-will claim"
+        },
+        {
+          "file": "Data/Map010.rvdata2",
+          "event": 18,
+          "page": 1,
+          "commands_1based": [
+            2,
+            41
+          ],
+          "focus": "User log; naming Observer/Umbrella Man"
+        },
+        {
+          "file": "Data/Map039.rvdata2",
+          "event": 1,
+          "page": 1,
+          "commands_1based": [
+            22,
+            66
+          ],
+          "focus": "Compulsory player speech, Felix personhood, Charlotte resistance and channel proposal"
+        },
+        {
+          "file": "Data/Map046.rvdata2",
+          "event": 4,
+          "page": 1,
+          "commands_1based": [
+            4,
+            127
+          ],
+          "focus": "Home return; no elapsed time; father as vessel; source-code/memory editing; private concealment; Oracle inside Charlotte"
+        },
+        {
+          "file": "Data/Map129.rvdata2",
+          "event": 6,
+          "page": 1,
+          "commands_1based": [
+            20,
+            143
+          ],
+          "focus": "Oracle account, failed powers, dying universe, convergent Agree/Refuse branches, merging and channel extinction"
+        },
+        {
+          "file": "Data/Map148.rvdata2",
+          "event": 2,
+          "page": 1,
+          "commands_1based": [
+            2,
+            55
+          ],
+          "focus": "Changed Felix outcome, memory asymmetry, rewind/expiration claim; password event control inspected"
+        }
+      ],
+      "limits": [
+        "Dialogue and first-person narration establish represented claims; do not automatically prove their universal truth.",
+        "Event data inspected statically. Exact full-route reachability and runtime audiovisual presentation unverified.",
+        "Agree and Refuse branches are both empty in this particular event; the inference is a local absent veto, not a claim that the entire game ignores choice.",
+        "Later-episode retellings may reframe this account. EP1 alone does not settle EP3 cosmology."
+      ],
+      "short_quote": "Seth can rewind if I die before my expiration date.",
+      "reproduction_script": "inspect_ep1.py",
+      "container_method": "ZIP -> HC_EP1.exe -> standard PE overlay at byte 174080, a cabinet archive -> Game.rgss3a -> standard RGSS v3 data unpacking -> Ruby Marshal event records; no executable/Ruby code run.",
+      "archive_sha256": "e44276f1c4273634654f14e87c69d8a07bb6f8e1b2b81c4845449b2f3178fc65",
+      "selected_file_hashes": {
+        "Map148.rvdata2": "dc78e18a9ae8a75412390b2b6ddf4c1ba611ef8ac8922c9555cc1f507cf07da3",
+        "Map129.rvdata2": "0c15d558f2a2ffa79755493c99bfca6e9e4cbdbec7ff99c163baffe035f52bcf",
+        "Map046.rvdata2": "bf2029dbd9f0947bfc9abd87e501a92b7000277893fe7cf462a6bc279a982732",
+        "Map039.rvdata2": "23f8dde034a8826dee208066b81456f95ef90ff8a17c2615e2df2a1bf94511d8",
+        "Map010.rvdata2": "376ccdd4b0915e8ec8602eca180c3396523f7d56cfdfc44b0e1dad1a10331bec"
+      },
+      "download_page_receipt": {
+        "id": "hc-ep1",
+        "url": "https://etherane.itch.io/hello-charlotte-ep1",
+        "final_url": "https://etherane.itch.io/hello-charlotte-ep1",
+        "status": 200,
+        "sha256": "963cdabbd0ce6f576e8c24429657286e1d57417d6004c0ec71b3c9a623350124",
+        "retrieved_utc": "2026-10-05T01:33:27.033328+00:00",
+        "bytes": 30608
+      },
+      "verification": "Reproduction script executed successfully on the recorded official ZIP; selected output and hashes checked. Temporary full-text output removed after inspection."
+    },
+    {
+      "id": "H2",
+      "url": "https://www.tumblr.com/rpgmgames/169320799703/januarys-featured-game-hello-charlotte",
+      "retrieved_utc": "2026-10-05T01:34:37.054406+00:00",
+      "status": 200,
+      "final_url": "https://www.tumblr.com/rpgmgames/169320799703/januarys-featured-game-hello-charlotte",
+      "sha256": "dbd771b0aa128826c56b6718919c1a67f22394b68e1210b4204d800279db4409",
+      "bytes": 152587,
+      "retrieval_id": "hc-creator",
+      "title": "January's Featured Game: Hello Charlotte",
+      "kind": "published creator interview",
+      "evidence_grade": "A2: creator testimony",
+      "inspected_scope": "Read complete interview from public initial-state JSON content text blocks; profile and unrelated blog metadata excluded.",
+      "exact_short_locators": "Question Have any aspects of your project changed over time? Answer contrasts planned comedy revival with more personal development.",
+      "limits": "Creator process testimony does not validate a total cosmology or autobiographical identity equivalence.",
+      "author": "etherane; RPGMaker Games, Mods Gold & Platinum",
+      "published": "2018-01-04",
+      "short_quote": "the story got a little more personal",
+      "extraction": "JSON decode script#___INITIAL_STATE___; recursively locate text blocks; read interview body; no page scripts executed."
+    },
+    {
+      "id": "H3",
+      "url": "https://www.tumblr.com/kashikoikawaiisaschachen/170467725260/hello-charlotte-explained",
+      "final_url": "https://www.tumblr.com/kashikoikawaiisaschachen/170467725260/hello-charlotte-explained",
+      "status": 200,
+      "sha256": "4a322be0a6742c390ef5cb8a661abbd7e682ce7dbec54c7be9a828d95e3869d1",
+      "retrieved_utc": "2026-10-05T01:33:27.422259+00:00",
+      "bytes": 125609,
+      "retrieval_id": "hc-fan",
+      "title": "Hello Charlotte explained",
+      "kind": "critical fan interpretation",
+      "evidence_grade": "C: explicitly incomplete mixture of recollection and conjecture",
+      "inspected_scope": "Read full long post from public initial-state JSON, including final unresolved questions and qualifying language.",
+      "exact_short_locators": "Paragraphs starting First, we have the True Realm; The False Realm; As we can see in EP3; EP3 explores; Some questions remained unanswered though.",
+      "limits": "Claims about soul expansion on death, Charlotte identities, Q84, Charles and final realm transitions remain secondary and partly speculative; not promoted to verified canon. Exact EP3 primary dialogue not inspected.",
+      "author": "kashikoikawaiisaschachen",
+      "published": "2018-02-03",
+      "short_quote": "This post isn’t a complete guide to Hello Charlotte.",
+      "extraction": "JSON decode script#___INITIAL_STATE___ and retrieve long text blocks; no scripts/authentication."
+    },
+    {
+      "id": "H4",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=912109182",
+      "retrieved_utc": "2026-10-05T01:36:35.898483+00:00",
+      "status": 200,
+      "final_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=912109182",
+      "sha256": "f89b8930f8621207986cba4eb489f91b663df2f39cd856f401dbc6c24e8aa528",
+      "bytes": 116013,
+      "retrieval_id": "hc-guide2",
+      "title": "Hello Charlotte EP1/EP2 walkthrough",
+      "kind": "community procedural guide",
+      "evidence_grade": "B2: procedural corroboration",
+      "inspected_scope": "Read EP1 Silent Film World/Again through Oracle; searched relevant later scene headings.",
+      "exact_short_locators": "First Episode: Silent Film World; Silent Film World...Again; The Oracle.",
+      "limits": "Guide confirms reported order, not exact motivation or metaphysics. No playthrough executed.",
+      "author": "naide"
+    },
+    {
+      "id": "H5",
+      "url": "https://etherane.itch.io/hcep3",
+      "retrieved_utc": "2026-10-05T01:36:35.899066+00:00",
+      "status": 200,
+      "final_url": "https://etherane.itch.io/hcep3",
+      "sha256": "018389a637050ae33d7035d1a806fd8c418b1f948eccc88d5f1fa3aa52159424",
+      "bytes": 25007,
+      "retrieval_id": "hc-ep3",
+      "title": "Hello Charlotte EP3: Childhood’s End",
+      "kind": "official creator storefront",
+      "evidence_grade": "A2: advertised form only",
+      "inspected_scope": "Read official opening description and features.",
+      "exact_short_locators": "A prologue. An epilogue.; Features: Two stories.",
+      "limits": "Storefront cannot establish all story-world levels; used only for creator-advertised prologue/epilogue structure.",
+      "author": "etherane"
+    },
+    {
+      "id": "H6",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1258670955",
+      "retrieved_utc": "2026-10-05T01:36:12.156266+00:00",
+      "status": 200,
+      "final_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1258670955",
+      "sha256": "99d46e603c6105236b27dc611b7923677054301e28ddc8c85edd8625c6ad1666",
+      "bytes": 111515,
+      "retrieval_id": "hc-steam-guide",
+      "title": "Hello Charlotte Episode 3 puzzle guide",
+      "kind": "community procedural guide",
+      "evidence_grade": "B2: procedural corroboration",
+      "inspected_scope": "Read PSA and 4F Language, 6F Laboratories and 9F Landfill headings and selected instructions.",
+      "exact_short_locators": "PSA: after episode 0 is complete; 4F: Language; 6F: Laboratories; 9F: Landfill.",
+      "limits": "Corroborates sequence/geography, not fan explanation of ontology.",
+      "author": "slothmama"
+    }
+  ],
+  "discovery_and_failed_access": [
+    {
+      "id": "hc-etherane-faq",
+      "url": "https://etherane.tumblr.com/faq",
+      "retrieved_utc": "2026-10-05T01:37:31.540359+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "use": "Discovery/access check only; not evidence for dossier claims."
+    },
+    {
+      "id": "hc-etherane-posts",
+      "url": "https://etherane.tumblr.com/tagged/hello-charlotte",
+      "retrieved_utc": "2026-10-05T01:37:31.540779+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "use": "Discovery/access check only; not evidence for dossier claims."
+    },
+    {
+      "id": "hc-wikigg",
+      "url": "https://hellocharlotte.wiki.gg/wiki/Charles_Eyler",
+      "retrieved_utc": "2026-10-05T01:36:12.155766+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "use": "Discovery/access check only; not evidence for dossier claims."
+    },
+    {
+      "id": "hc-wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hello_Charlotte",
+      "retrieved_utc": "2026-10-05T01:37:31.539647+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "use": "Discovery/access check only; not evidence for dossier claims."
+    },
+    {
+      "id": "search-umineko",
+      "url": "https://www.google.com/search?q=Ryukishi07+Umineko+interview+2011+truth+Shannon+Kanon",
+      "final_url": "https://www.google.com/search?q=Ryukishi07+Umineko+interview+2011+truth+Shannon+Kanon",
+      "status": 200,
+      "sha256": "7b4e7d6a51c20c1af181dbf3bcbb547525d4711c43e32af16cfbf4559e9d049d",
+      "retrieved_utc": "2026-10-05T01:33:26.819872+00:00",
+      "bytes": 92475,
+      "use": "Discovery/access check only; not evidence for dossier claims."
+    },
+    {
+      "id": "umi-analyses",
+      "url": "https://karice.wordpress.com/?s=umineko",
+      "retrieved_utc": "2026-10-05T01:34:37.054097+00:00",
+      "status": 200,
+      "final_url": "https://karice.wordpress.com/?s=umineko",
+      "sha256": "37a13596f95ce263defee5782a53456bc26c67db3ebe0d140970924e33436943",
+      "bytes": 181018,
+      "use": "Discovery/access check only; not evidence for dossier claims."
+    },
+    {
+      "id": "umi-apg",
+      "url": "https://apgnation.com/articles/2015/01/29/13689/say-red-interview-ryukishi07/",
+      "retrieved_utc": "2026-10-05T01:35:21.643184+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "use": "Discovery/access check only; not evidence for dossier claims."
+    },
+    {
+      "id": "umi-forgeries",
+      "url": "https://wiki.whentheycry.org/wiki/Forgeries",
+      "retrieved_utc": "2026-10-05T01:37:31.541419+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "use": "Discovery/access check only; not evidence for dossier claims."
+    },
+    {
+      "id": "umi-forgery",
+      "url": "https://wiki.whentheycry.org/wiki/Message_bottle",
+      "retrieved_utc": "2026-10-05T01:35:21.645040+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "use": "Discovery/access check only; not evidence for dossier claims."
+    },
+    {
+      "id": "umi-mangagamer-search",
+      "url": "https://blog.mangagamer.org/?s=ryukishi07+interview",
+      "retrieved_utc": "2026-10-05T01:34:37.053409+00:00",
+      "status": 200,
+      "final_url": "https://blog.mangagamer.org/?s=ryukishi07+interview",
+      "sha256": "1fa9892115670606430b43ae3cf3d996d836e2f86b50f27165ea6e4aafe1a367",
+      "bytes": 108957,
+      "use": "Discovery/access check only; not evidence for dossier claims."
+    },
+    {
+      "id": "umi-r07-search",
+      "url": "https://www.siliconera.com/?s=ryukishi07+interview",
+      "retrieved_utc": "2026-10-05T01:34:37.053759+00:00",
+      "error": "The read operation timed out",
+      "use": "Discovery/access check only; not evidence for dossier claims."
+    },
+    {
+      "id": "umi-tohya",
+      "url": "https://wiki.whentheycry.org/wiki/Hachijo_Tohya",
+      "retrieved_utc": "2026-10-05T01:36:12.155095+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "use": "Discovery/access check only; not evidence for dossier claims."
+    },
+    {
+      "id": "umi-wiki",
+      "url": "https://wiki.whentheycry.org/wiki/Umineko_no_Naku_Koro_ni",
+      "retrieved_utc": "2026-10-05T01:34:37.053019+00:00",
+      "status": 200,
+      "final_url": "https://wiki.whentheycry.org/wiki/Umineko_no_Naku_Koro_ni",
+      "sha256": "6d3d8e2615150313ef6801bd598e999e60197049163d6d54c243b28ebd0b115a",
+      "bytes": 162618,
+      "use": "Discovery/access check only; not evidence for dossier claims."
+    }
+  ],
+  "additional_failed_discovery": [
+    {
+      "url": "https://07th-expansion.fandom.com/wiki/Umineko_Interviews",
+      "result": "HTTP 402",
+      "used": false
+    },
+    {
+      "url": "https://witch-hunt.com/",
+      "result": "HTTP 526",
+      "used": false
+    },
+    {
+      "url": "https://witch-hunt.com/staff.html",
+      "result": "HTTP 403",
+      "used": false
+    },
+    {
+      "url": "https://duckduckgo.com/html/?q=Umineko+Ryukishi07+interview+2011",
+      "result": "bot challenge; not bypassed",
+      "used": false
+    }
+  ],
+  "reproducibility": "Receipts preserve actual response URLs, time, status, byte count and SHA. Exact text locators are semantic headings/question numbers or immutable local map/event/page/command indices for the hashed EP1 release. Scripts retained; contemporary full text is not checked in."
+}

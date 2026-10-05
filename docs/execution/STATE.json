@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "date": "2026-10-04",
-  "status": "visual-design-published; researched creative revision ready",
+  "status": "visual-design-published; metaphysical-structures research completed",
   "baseline": {
     "revision3": "baseline/revision3",
     "archiveSha256": "9ac1a34024dc678267cb0dda059b06ac7fd151d4db4c91a2ec509331ed77f7df",
@@ -9,8 +9,8 @@
     "priorImplementation": "none supplied, per owner clarification",
     "taskGraph": "tools/task-dependencies.json"
   },
-  "latestOwnerDirection": "docs/OWNER-COMPLEX-METAPHYSICS-AND-NAMES-2026-10-04.md",
-  "ownerApproval": "Owner requests distinct historical/literary names and complex, radically trippy scene-level metaphysics with messier exploration. Proposed names and ontology are not yet owner-accepted. Commit/push as deusalter without coauthor tags remains authorized; no public deployment.",
+  "latestOwnerDirection": "docs/OWNER-METAPHYSICAL-STRUCTURES-RESEARCH-2026-10-04.md",
+  "ownerApproval": "Owner says the previous three-scene metaphysical proposal is nowhere near intended depth and requests substantive research into metaphysical structures in fiction. Research completed; no new ontology or individual name inferred accepted. Commit/push as deusalter without coauthor tags remains authorized; no public deployment.",
   "project": "The Shape of the Water",
   "currentNewNarrative": "The Mercy of Morning: complete shared narrative and both final decisions, implemented as a playable first release.",
   "activeContent": "src/content/case-v7.json",
@@ -25,7 +25,7 @@
   "activeWorkers": [],
   "ownership": {
     "root": [
-      "Current-state integration, proposal continuity and publication; released game preserved."
+      "Research synthesis/theory study, current-state integration and publication; final narrative authority remains lead_writer."
     ],
     "lead_writer": [
       "narrative/proposals/metaphysical-scene-revision-2026-10-04/; current canon remains preserved."
@@ -40,7 +40,16 @@
       "research/names/trippy-revision-2026-10-04/"
     ],
     "metaphysical_critic": [
-      "docs/reviews/METAPHYSICAL-SCENE-33/"
+      "docs/reviews/METAPHYSICAL-STRUCTURES-34/; completed research review, no narrative authority."
+    ],
+    "ontology_borges_wolfe": [
+      "research/metaphysical-structures-2026-10-04/borges-wolfe/"
+    ],
+    "ontology_games": [
+      "research/metaphysical-structures-2026-10-04/games/"
+    ],
+    "ontology_bakker": [
+      "research/metaphysical-structures-2026-10-04/bakker/"
     ]
   },
   "modelCapability": "Requested role-specific model/effort controls were supplied to actual internal workers where supported. Backend identities and parent selection are not independently attested. No prompt changed the parent model.",
@@ -93,7 +102,7 @@
   },
   "priorContinuity": "docs/execution/archives/before-mercy-delivery/",
   "rejectedLocalFiles": "Uninstalled v6 manuscripts/code/assets remain preserved locally and excluded from publication. Its modified development registry is preserved verbatim in narrative/archived/second-mouth-documents/.",
-  "nextExecutableTask": "Read final creative proposal, audition, source records and critique/disposition. Continue from owner response; do not infer approved names or install a new ontology without recording the decision and preserving v7.",
+  "nextExecutableTask": "Continue from owner feedback on the completed structural research. A lead-owned broader treatment should use interacting ontology, identity, causality, history and competing accounts, rather than decorating the insufficient coast proposal. Preserve the playable release and source/voice anchors; do not assume acceptance of proposed names or world laws.",
   "backgroundWork": "No promised work or shared chat memory after active execution ends.",
   "optimizationRequest": "Owner: can you optimize it? Scope: measured loading/rendering/UI performance; exact story and saved-run identity preserved.",
   "priorReleaseVerification": {
@@ -448,7 +457,7 @@
   "pendingOwnerDirection": {
     "record": "docs/OWNER-COMPLEX-METAPHYSICS-AND-NAMES-2026-10-04.md",
     "request": "Distinctive historical/literary full names for Julian/Vera; possibly a punny contradictory five-middle-name person. Complex original metaphysics and messier natural exploration, radically trippy beautiful visual scenes/monologues. New references Borges, Second Apocalypse, Gene Wolfe, Umineko alongside Hello Charlotte.",
-    "status": "Source-checked naming recommendation, three-scene metaphysical revision and substantial audition completed; independently critiqued and corrected. Proposed, not installed. Released v7 and packages unchanged.",
+    "status": "Owner finds this proposed three-scene ontology nowhere near enough; preserved as earlier inadequate proposal. Deeper structural research now active; no acceptance or installation.",
     "proposal": "narrative/proposals/metaphysical-scene-revision-2026-10-04/",
     "priorVoidDraft": "narrative/proposals/void-scene-2026-10-04/SCENE.txt",
     "review": "docs/reviews/METAPHYSICAL-SCENE-33/POST-REVISION.md",
@@ -483,10 +492,34 @@
     }
   },
   "referenceResearchCurrent": [
-    "research/reference/metaphysical-scene-revision-2026-10-04/REFERENCE-NOTES.md",
-    "research/reference/metaphysical-scene-revision-2026-10-04/SOURCES.json",
-    "research/names/trippy-revision-2026-10-04/RECOMMENDATION.md",
-    "research/names/trippy-revision-2026-10-04/EXCERPTS.json"
+    "research/metaphysical-structures-2026-10-04/SYNTHESIS.md",
+    "research/metaphysical-structures-2026-10-04/borges-wolfe/DOSSIER.md",
+    "research/metaphysical-structures-2026-10-04/games/DOSSIER.md",
+    "research/metaphysical-structures-2026-10-04/bakker/DOSSIER.md",
+    "research/metaphysical-structures-2026-10-04/theory/DOSSIER.md"
   ],
-  "currentRevisionChecks": "docs/execution/evidence/metaphysical-scene-revision/CHECK.json"
+  "currentRevisionChecks": "docs/execution/evidence/metaphysical-scene-revision/CHECK.json",
+  "currentResearchRequest": {
+    "record": "docs/OWNER-METAPHYSICAL-STRUCTURES-RESEARCH-2026-10-04.md",
+    "path": "research/metaphysical-structures-2026-10-04/",
+    "deliverable": "Evidence-based comparative research and reassessment, not another installed scene proposal.",
+    "status": "completed, independently critiqued and corrected; research only",
+    "requestedWorkerModel": "gpt-6-astra",
+    "requestedWorkerEffort": "xhigh",
+    "dispatchSucceeded": true,
+    "backendIdentityAttested": false,
+    "synthesis": "research/metaphysical-structures-2026-10-04/SYNTHESIS.md",
+    "sourceEntries": 38,
+    "critique": "docs/reviews/METAPHYSICAL-STRUCTURES-34/CRITIQUE.md",
+    "finalCheck": "docs/reviews/METAPHYSICAL-STRUCTURES-34/SYNTHESIS-CHECK.md",
+    "preservationCheck": "docs/execution/evidence/metaphysical-structures/CHECK.json",
+    "actualResearchWorkers": [
+      "ontology_borges_wolfe",
+      "ontology_games",
+      "ontology_bakker"
+    ],
+    "actualCritic": "metaphysical_critic (existing role reused)",
+    "unverifiedBackendIdentity": true,
+    "canonInstalled": false
+  }
 }

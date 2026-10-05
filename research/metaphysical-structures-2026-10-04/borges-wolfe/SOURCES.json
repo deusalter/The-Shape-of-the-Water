@@ -1,0 +1,530 @@
+{
+  "created_at": "2026-10-05T01:41:18.085967+00:00",
+  "status": "Research only; no canon or released files changed",
+  "primary_access_limit": "No complete primary fiction edition independently read. Evidence combines quoted fictional passages within accessible scholarship, detailed critical reconstructions, and primary author testimony.",
+  "method": "HTTP fetch through configured network; SHA-256 of raw response bytes; HTML tags stripped or pdftotext -layout streamed in memory. Pérez scanned PDF additionally rendered and OCRed in memory. No full contemporary source body or PDF retained.",
+  "quote_policy": "Each source retains at most80 words of locator excerpts here; dossier primarily paraphrases. Locator line breaks normalized. Source titles are bibliographic labels.",
+  "sources": [
+    {
+      "id": "B-GARDEN",
+      "author": "Ethan Weed",
+      "title": "A Labyrinth of Symbols: Exploring “The Garden of Forking Paths”",
+      "publication": "Variaciones Borges 18 (2004), pp.161–189",
+      "evidence_grade": "B: journal close reading; embedded quotations are narrower primary evidence",
+      "inspected_scope": "Printed pp.163–168 and 172–179 displayed and inspected; intervening material and later pages were not fully read.",
+      "supports": "Layered framing, delayed murder motive, interpretation of the inset book, differences between inset temporal model and enclosing events.",
+      "locator_excerpts": [
+        {
+          "locator": "p.172, “Possible Floor-Plans of the Labyrinth”",
+          "exact_excerpt": "But it doesn’t seem that “The Garden” has the same sort of internal inconsistencies as in Ts’ui Pên’s novel"
+        },
+        {
+          "locator": "p.175, “The Garden of Converging Paths”",
+          "exact_excerpt": "But in the story, the parallel universes are universes in which the events stay the same, and the only thing that alters is the way they are perceived."
+        }
+      ],
+      "limitations": "Weed’s causal-timing objection about the newspapers and his reading of Albert’s attitude to death remain interpretations, not established alternate solutions.",
+      "retrieval_receipts": [
+        {
+          "id": "B-GARDEN",
+          "url": "https://www.borges.pitt.edu/sites/default/files/1808.pdf",
+          "final_url": "https://www.borges.pitt.edu/sites/default/files/1808.pdf",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:34:04.519465+00:00",
+          "bytes": 424115,
+          "sha256": "b37392345c4e7b38e1786b95da1c76042945e7aaf9a5e9563c77abe6e3b46c7a",
+          "content_type": "application/pdf",
+          "extracted_characters": 70944
+        }
+      ],
+      "retained_verbatim_words": 47
+    },
+    {
+      "id": "B-RUINS",
+      "author": "Iván Almeida",
+      "title": "La circularidad de las ruinas: Variaciones de Borges sobre un tema cartesiano",
+      "publication": "Variaciones Borges 7 (1999), printed pp.66–87",
+      "evidence_grade": "B: journal philosophical reading with quoted primary passages",
+      "inspected_scope": "Opening and selected keyword contexts; printed pp.69–73 read continuously; relevant portions of pp.84–86 inspected.",
+      "supports": "Creator/creation reversal, dream construction methods, Fire’s layered representation, and distinction between plot and critic’s immanence interpretation.",
+      "locator_excerpts": [
+        {
+          "locator": "p.69, perspective reversal",
+          "exact_excerpt": "no se trata de saber si la creatura está o no soñando, sino si está o no siendo soñada."
+        },
+        {
+          "locator": "p.73, “Excursus: La estatua de Condillac”",
+          "exact_excerpt": "“Fuego” es, no su realidad, sino únicamente su “nombre terrenal”."
+        }
+      ],
+      "limitations": "Almeida’s final “natura sine Deo” interpretation and his inference that only creators are dreamed are not adopted as facts established by the story. Locators normalize PDF line breaks.",
+      "retrieval_receipts": [
+        {
+          "id": "B-RUINS",
+          "url": "https://www.borges.pitt.edu/sites/default/files/0704.pdf",
+          "final_url": "https://www.borges.pitt.edu/sites/default/files/0704.pdf",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:34:23.874713+00:00",
+          "bytes": 770814,
+          "sha256": "c2554ba05d21317e90d9fcfa9179d9ffef0e34b9dbe07f26aca1ba5351d937b3",
+          "content_type": "application/pdf",
+          "extracted_characters": 61743
+        },
+        {
+          "id": "B-RUINS",
+          "url": "https://www.borges.pitt.edu/sites/default/files/0704.pdf",
+          "final_url": "https://www.borges.pitt.edu/sites/default/files/0704.pdf",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:36:06.297993+00:00",
+          "bytes": 770814,
+          "sha256": "c2554ba05d21317e90d9fcfa9179d9ffef0e34b9dbe07f26aca1ba5351d937b3",
+          "content_type": "application/pdf",
+          "extracted_characters": 61743
+        },
+        {
+          "id": "B-RUINS",
+          "url": "https://www.borges.pitt.edu/sites/default/files/0704.pdf",
+          "final_url": "https://www.borges.pitt.edu/sites/default/files/0704.pdf",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:36:24.494949+00:00",
+          "bytes": 770814,
+          "sha256": "c2554ba05d21317e90d9fcfa9179d9ffef0e34b9dbe07f26aca1ba5351d937b3",
+          "content_type": "application/pdf",
+          "extracted_characters": 61743
+        }
+      ],
+      "retained_verbatim_words": 29
+    },
+    {
+      "id": "B-RUINS-PEREZ",
+      "author": "Genaro J. Pérez",
+      "title": "The Circular Ruins",
+      "publication": "Reference Guide to Short Fiction, ed. Noelle Watson, St. James Press, 1994, pp.669–670; bibliography verified against Borges Center catalog",
+      "evidence_grade": "B: specialist reference entry providing detailed plot synopsis",
+      "inspected_scope": "PDF cover and complete entry on printed pp.669–670 inspected through in-memory OCR of all three scanned PDF pages; unrelated neighboring entries not used.",
+      "supports": "Failed selection, construction from a heart, erased apprenticeship, report of son’s immunity, maker’s own immunity and recognition.",
+      "locator_excerpts": [
+        {
+          "locator": "p.669, plot synopsis; OCR transcription",
+          "exact_excerpt": "the gray man had been haunted by the impression that all this had already happened."
+        },
+        {
+          "locator": "p.669, final conflagration; OCR transcription",
+          "exact_excerpt": "he discovered to his humiliation that the fire did not affect his flesh"
+        }
+      ],
+      "limitations": "PDF has no usable text layer. Quoted locators are short OCR transcriptions, not a claim of diplomatic transcription. The entry’s causal, concentric, theological and literary analogies remain critical interpretations.",
+      "retrieval_receipts": [
+        {
+          "id": "B-RUINS-PEREZ",
+          "url": "https://www.borges.pitt.edu/sites/default/files/Perez.pdf",
+          "final_url": "https://www.borges.pitt.edu/sites/default/files/Perez.pdf",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:34:37.497750+00:00",
+          "bytes": 888068,
+          "sha256": "05df7c3abe0e0ca5177bdbdae043440147201b4098eb35d1f91377a68a2cc7bd",
+          "content_type": "application/pdf",
+          "extracted_characters": 3
+        }
+      ],
+      "retained_verbatim_words": 28
+    },
+    {
+      "id": "W-SFE",
+      "author": "John Clute [JC]",
+      "title": "Wolfe, Gene",
+      "publication": "The Encyclopedia of Science Fiction, online entry",
+      "evidence_grade": "B: specialist reference work",
+      "inspected_scope": "Paragraph on The Fifth Head of Cerberus, publication bibliography entry, and author signature inspected; unrelated novel material not used.",
+      "supports": "Three interdependent narratives, identity/anthropology/cloning, and inference through rereading.",
+      "locator_excerpts": [
+        {
+          "locator": "Paragraph beginning “His next, The Fifth Head of Cerberus”",
+          "exact_excerpt": "all so closely linked as to be significantly less effective in isolation"
+        },
+        {
+          "locator": "Same paragraph",
+          "exact_excerpt": "the book as a whole could technically be described as a collection of linked stories; but that would be misleadingly simple."
+        }
+      ],
+      "limitations": "Used to establish the formal interdependence and publication, not to import other Wolfe cosmologies.",
+      "retrieval_receipts": [
+        {
+          "id": "W-SFE",
+          "url": "https://sf-encyclopedia.com/entry/wolfe_gene",
+          "final_url": "https://sf-encyclopedia.com/entry/wolfe_gene",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:34:24.351504+00:00",
+          "bytes": 84769,
+          "sha256": "35476bb1292502171fe6cf5b8b4047fc74da08e8475bb507683dd618939afb99",
+          "content_type": "text/html; charset=UTF-8",
+          "extracted_characters": 45894
+        },
+        {
+          "id": "W-SFE",
+          "url": "https://sf-encyclopedia.com/entry/wolfe_gene",
+          "final_url": "https://sf-encyclopedia.com/entry/wolfe_gene",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:36:41.951424+00:00",
+          "bytes": 84745,
+          "sha256": "31936d2b2866a61924c468d9b91e80dc18706ea5f0b8f692a5557a585cacaa30",
+          "content_type": "text/html; charset=UTF-8",
+          "extracted_characters": 45894
+        },
+        {
+          "id": "W-SFE",
+          "url": "https://sf-encyclopedia.com/entry/wolfe_gene",
+          "final_url": "https://sf-encyclopedia.com/entry/wolfe_gene",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:39:43.547867+00:00",
+          "bytes": 84749,
+          "sha256": "fe8edac62521a0fd42e66c15baf77d73625a7ddf8840c51ae1476dc75589a4a7",
+          "content_type": "text/html; charset=UTF-8",
+          "extracted_characters": 45894
+        }
+      ],
+      "retained_verbatim_words": 33
+    },
+    {
+      "id": "W-WRIGHT",
+      "author": "Peter Wright",
+      "title": "Confounding the Skin and the Mask: Gene Wolfe’s The Fifth Head of Cerberus and the Politics of Ambiguity",
+      "publication": "Paper presented at Gene Wolfe conference, University of Birmingham, 26 August 2000; author-permitted republication on Ultan’s Library",
+      "evidence_grade": "B: scholarly conference paper; political and ethical conclusions are interpretations",
+      "inspected_scope": "Opening argument read continuously through the discussion of Marsch/Trenchard hybridity; later identity/authorship and prison conclusion passages inspected in keyword contexts; notes inspected.",
+      "supports": "Replication across generations, Veil’s hypothesis, researcher/subject reversal, disputed authorship of the middle tale, colonial classification.",
+      "locator_excerpts": [
+        {
+          "locator": "Paragraph beginning “Marsch-Trenchard’s hybridity”",
+          "exact_excerpt": "Who produces this text? Is it Marsch or Marsch-Trenchard?"
+        },
+        {
+          "locator": "Same paragraph",
+          "exact_excerpt": "If it is Marsch, then it becomes another piece of colonial fakery, the white interpretation of a barely comprehended alien culture."
+        }
+      ],
+      "limitations": "Wright’s favorable account of the hybrid is disputed by Borski. “One and the same person” across clones is treated as Wright’s compression, not a settled equation of genome and personhood. Site explicitly states author permission.",
+      "retrieval_receipts": [
+        {
+          "id": "W-WRIGHT",
+          "url": "https://ultan.org.uk/confounding-the-skin-and-the-mask/",
+          "final_url": "https://ultan.org.uk/confounding-the-skin-and-the-mask/",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:34:50.781927+00:00",
+          "bytes": 90442,
+          "sha256": "f07bfbde806e020ce22badc194246540dc0f0790289a9378e9f7a0997f8c6e18",
+          "content_type": "text/html; charset=UTF-8",
+          "extracted_characters": 26487
+        },
+        {
+          "id": "W-WRIGHT",
+          "url": "https://ultan.org.uk/confounding-the-skin-and-the-mask/",
+          "final_url": "https://ultan.org.uk/confounding-the-skin-and-the-mask/",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:36:26.158725+00:00",
+          "bytes": 90442,
+          "sha256": "092c00082c0b45175d1356576d87b7bc21152fa553ef224ffd9787e13e1f0673",
+          "content_type": "text/html; charset=UTF-8",
+          "extracted_characters": 26487
+        }
+      ],
+      "retained_verbatim_words": 30
+    },
+    {
+      "id": "W-REVIEW",
+      "author": "Robert Borski",
+      "title": "The Fifth Head of Cerberus reviewed",
+      "publication": "Ultan’s Library, book review",
+      "evidence_grade": "B: specialist plot-and-structure review",
+      "inspected_scope": "Complete substantive review body read across initial output and follow-up character slices; navigation/comments excluded.",
+      "supports": "First narrative’s family and experimental context; middle story’s attribution; documents and chronology in V.R.T.",
+      "locator_excerpts": [
+        {
+          "locator": "Opening structural discussion",
+          "exact_excerpt": "Characters met in the first novella reappear in the third"
+        },
+        {
+          "locator": "V.R.T. plot discussion",
+          "exact_excerpt": "Little is told chronologically, and often mundanities from the present-time narrative intrude"
+        }
+      ],
+      "limitations": "Claims about decoded names, every identity, and unnamed officer are not adopted. Concrete narrative framing is used alongside Wright and Wolfe testimony.",
+      "retrieval_receipts": [
+        {
+          "id": "W-REVIEW",
+          "url": "https://ultan.org.uk/review-fifth-head-of-cerberus/",
+          "final_url": "https://ultan.org.uk/review-fifth-head-of-cerberus/",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:36:06.777043+00:00",
+          "bytes": 76828,
+          "sha256": "6d28ec3b5728ca2445694a3df6f5ee82aac356350e79f5e66f6aacce69f67acf",
+          "content_type": "text/html; charset=UTF-8",
+          "extracted_characters": 13833
+        },
+        {
+          "id": "W-REVIEW",
+          "url": "https://ultan.org.uk/review-fifth-head-of-cerberus/",
+          "final_url": "https://ultan.org.uk/review-fifth-head-of-cerberus/",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:37:16.056518+00:00",
+          "bytes": 76828,
+          "sha256": "c5eba78a7a6300e100600c61acb8e1581026502d66f53b4f7f0913fcc292f1c4",
+          "content_type": "text/html; charset=UTF-8",
+          "extracted_characters": 13833
+        }
+      ],
+      "retained_verbatim_words": 22
+    },
+    {
+      "id": "W-RESPONSE",
+      "author": "Robert Borski",
+      "title": "Desanctifying Victor Trenchard: some notes on Peter Wright’s “Confounding the Skin and the Mask”",
+      "publication": "Written December 2001; posted 24 May 2002, Ultan’s Library",
+      "evidence_grade": "B: specialist critical response; individual speculative identifications remain C",
+      "inspected_scope": "Complete substantive response, numbered parallels, and footnotes read; navigation excluded.",
+      "supports": "Explicit dispute with Wright’s favorable ethical interpretation; repeated parallels between Number Five and Victor.",
+      "locator_excerpts": [
+        {
+          "locator": "Paragraph introducing the numbered list",
+          "exact_excerpt": "Number Five are symbolic twins, with life circumstances and ultimate fates irrevocably linked"
+        },
+        {
+          "locator": "Opening paragraph",
+          "exact_excerpt": "another attempt at relaxation–part of a successive set of interpretations."
+        }
+      ],
+      "limitations": "Borski’s violent-act attribution, mother identification, name decipherments and speculative footnotes are not silently promoted to neutral plot facts. The dossier reports his ethical challenge as a challenge.",
+      "retrieval_receipts": [
+        {
+          "id": "W-RESPONSE",
+          "url": "https://ultan.org.uk/desanctifying-victor-trenchard/",
+          "final_url": "https://ultan.org.uk/desanctifying-victor-trenchard/",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:34:50.784480+00:00",
+          "bytes": 76817,
+          "sha256": "880e32594199b86855e9f203bc1502768d39e103725f74382f16336608c2bc36",
+          "content_type": "text/html; charset=UTF-8",
+          "extracted_characters": 14578
+        }
+      ],
+      "retained_verbatim_words": 23
+    },
+    {
+      "id": "W-MCCAFFERY",
+      "author": "Larry McCaffery interviewing Gene Wolfe",
+      "title": "On Encompassing the Entire Universe: An Interview with Gene Wolfe",
+      "publication": "Science Fiction Studies 46, vol.15 part3, November1988; accessed through Gwern HTML mirror",
+      "evidence_grade": "A for Wolfe’s stated narrative design/intention, with mirror-provenance qualification",
+      "inspected_scope": "Cerberus ordering exchange and complete ensuing identity/marksmanship answer inspected; surrounding background, revision and memory excerpts inspected selectively.",
+      "supports": "Why the researcher precedes the legend; preservation of narrative present; intention that the guide’s replacement of Marsch be inferable.",
+      "locator_excerpts": [
+        {
+          "locator": "Answer beginning “No, because I didn’t want to show”",
+          "exact_excerpt": "I decided to present the Sandwalker story as a legend or story that Marsch had uncovered, rather than as straight reportage"
+        },
+        {
+          "locator": "Answer beginning “In the end, of course”",
+          "exact_excerpt": "both V.R.T. and the narrator are shown to be very poor shots, whereas Marsch is a very good shot"
+        },
+        {
+          "locator": "Same answer, following the guide/shapeshifter sentence",
+          "exact_excerpt": "Which is what happens."
+        }
+      ],
+      "limitations": "Original journal issue not retrieved. Mirror includes inconsistent added year metadata; journal citation is November1988. Authorial explanation strongly supports the guide substitution, without settling every symbolic or moral interpretation.",
+      "retrieval_receipts": [
+        {
+          "id": "W-MCCAFFERY",
+          "url": "https://gwern.net/doc/fiction/gene-wolfe/1988-11-mccaffery-onencompassingtheentireuniverseaninterviewwithgenewolfe.html",
+          "final_url": "https://gwern.net/doc/fiction/gene-wolfe/1988-11-mccaffery-onencompassingtheentireuniverseaninterviewwithgenewolfe.html",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:35:47.189347+00:00",
+          "bytes": 103299,
+          "sha256": "c277d5d84717160315fdf964b78e8c21d46d51118a49b249c512b560129e5bf5",
+          "content_type": "text/html; charset=utf-8",
+          "extracted_characters": 70911
+        },
+        {
+          "id": "W-MCCAFFERY",
+          "url": "https://gwern.net/doc/fiction/gene-wolfe/1988-11-mccaffery-onencompassingtheentireuniverseaninterviewwithgenewolfe.html",
+          "final_url": "https://gwern.net/doc/fiction/gene-wolfe/1988-11-mccaffery-onencompassingtheentireuniverseaninterviewwithgenewolfe.html",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:36:06.149070+00:00",
+          "bytes": 103299,
+          "sha256": "c277d5d84717160315fdf964b78e8c21d46d51118a49b249c512b560129e5bf5",
+          "content_type": "text/html; charset=utf-8",
+          "extracted_characters": 70911
+        },
+        {
+          "id": "W-MCCAFFERY",
+          "url": "https://gwern.net/doc/fiction/gene-wolfe/1988-11-mccaffery-onencompassingtheentireuniverseaninterviewwithgenewolfe.html",
+          "final_url": "https://gwern.net/doc/fiction/gene-wolfe/1988-11-mccaffery-onencompassingtheentireuniverseaninterviewwithgenewolfe.html",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:37:16.812715+00:00",
+          "bytes": 103299,
+          "sha256": "c277d5d84717160315fdf964b78e8c21d46d51118a49b249c512b560129e5bf5",
+          "content_type": "text/html; charset=utf-8",
+          "extracted_characters": 70911
+        }
+      ],
+      "retained_verbatim_words": 44
+    },
+    {
+      "id": "W-ARAMINI",
+      "author": "Marc Aramini",
+      "title": "Proving Veil’s Hypothesis: Variance Reduction Techniques, Larval Life Cycles on an East Wind, and Shadow Children Riding Mars(c)hmen in The Fifth Head of Cerberus",
+      "publication": "Ultan’s Library, 1 September 2014",
+      "evidence_grade": "C: explicit competing total reconstruction grounded in selected passages",
+      "inspected_scope": "Opening claim, methodological premise, and targeted Shadow Children/cat/tools/Christian-symbolism passages inspected; complete article not read.",
+      "supports": "Documents an alternative parasitic-identity reconstruction and the need to distinguish inferred total models from author-confirmed local events.",
+      "locator_excerpts": [
+        {
+          "locator": "Opening argument",
+          "exact_excerpt": "the journals in “V.R.T.” are authored by a parasitic Shadow Child who has taken Marsch’s place instead of by Victor R. Trenchard."
+        }
+      ],
+      "limitations": "Not adopted as established fictional ontology. Claimed early/later edition pronoun differences were encountered but editions were not inspected and that textual claim is not used. Christian allusions do not establish a literally intervening deity.",
+      "retrieval_receipts": [
+        {
+          "id": "W-ARAMINI",
+          "url": "https://ultan.org.uk/variance-reduction-techniques/",
+          "final_url": "https://ultan.org.uk/variance-reduction-techniques/",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:35:23.960001+00:00",
+          "bytes": 151462,
+          "sha256": "4e5031df851cd28bc562a4f2025cabfb9e5af4b6eb7387c9926c13e8093d9a7f",
+          "content_type": "text/html; charset=UTF-8",
+          "extracted_characters": 82973
+        }
+      ],
+      "retained_verbatim_words": 22
+    }
+  ],
+  "unsuccessful_primary_access_attempts": [
+    {
+      "id": "ATTEMPT-B-PUBLISHER",
+      "url": "https://www.ndbooks.com/book/labyrinths/",
+      "error": "HTTP Error 403: Forbidden",
+      "retrieved_at": "2026-10-05T01:39:42.749845+00:00"
+    },
+    {
+      "id": "ATTEMPT-B-NEWYORKER",
+      "url": "https://www.newyorker.com/magazine/1948/08/14/the-circular-ruins",
+      "error": "HTTP Error 404: Not Found",
+      "retrieved_at": "2026-10-05T01:39:42.809551+00:00"
+    },
+    {
+      "id": "ATTEMPT-W-PUBLISHER",
+      "url": "https://us.macmillan.com/books/9780312890209/thefifthheadofcerberus/",
+      "error": "HTTP Error 403: Forbidden",
+      "retrieved_at": "2026-10-05T01:39:42.815376+00:00"
+    }
+  ],
+  "exploration_not_relied_on": [
+    {
+      "id": "W-GWERN-INDEX",
+      "reason": "Discovery or selectively explored source; not relied on in the final dossier.",
+      "receipts": [
+        {
+          "id": "W-GWERN-INDEX",
+          "url": "https://gwern.net/doc/fiction/gene-wolfe/index",
+          "final_url": "https://gwern.net/doc/fiction/gene-wolfe/index",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:34:23.836529+00:00",
+          "bytes": 87782,
+          "sha256": "1efda4fb98b55144757fdb6b6244e29db8c0c20e38c7531b3a36ba31d7d0202e",
+          "content_type": "text/html; charset=utf-8",
+          "extracted_characters": 11173
+        }
+      ]
+    },
+    {
+      "id": "W-ULTAN",
+      "reason": "Discovery or selectively explored source; not relied on in the final dossier.",
+      "receipts": [
+        {
+          "id": "W-ULTAN",
+          "url": "https://ultan.org.uk/",
+          "final_url": "https://ultan.org.uk/",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:34:25.297453+00:00",
+          "bytes": 71859,
+          "sha256": "94a8ca5acfe5082faae3f3826fcb11eba165b66f748d35e60032bc12e25c2f2d",
+          "content_type": "text/html; charset=UTF-8",
+          "extracted_characters": 6268
+        }
+      ]
+    },
+    {
+      "id": "B-WILLIAMS",
+      "reason": "Discovery or selectively explored source; not relied on in the final dossier.",
+      "receipts": [
+        {
+          "id": "B-WILLIAMS",
+          "url": "https://www.borges.pitt.edu/sites/default/files/pdfs/Williams.pdf",
+          "error": "Command '['pdftotext', '-layout', '-', '-']' returned non-zero exit status 1.",
+          "retrieved_at": "2026-10-05T01:34:49.219302+00:00"
+        }
+      ]
+    },
+    {
+      "id": "B-FLEMING",
+      "reason": "Scanned source had no usable extracted text; not OCRed or used.",
+      "receipts": [
+        {
+          "id": "B-FLEMING",
+          "url": "https://www.borges.pitt.edu/sites/default/files/Fleming.pdf",
+          "final_url": "https://www.borges.pitt.edu/sites/default/files/Fleming.pdf",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:35:47.504454+00:00",
+          "bytes": 1103675,
+          "sha256": "10cc168e565798a3f28b2ed09e46933b714120157f22c2055d150c883e8b1fec",
+          "content_type": "application/pdf",
+          "extracted_characters": 8
+        }
+      ]
+    },
+    {
+      "id": "W-TRUE",
+      "reason": "Discovery or selectively explored source; not relied on in the final dossier.",
+      "receipts": [
+        {
+          "id": "W-TRUE",
+          "url": "https://ultan.org.uk/everything-has-to-be-true-somehow/",
+          "final_url": "https://ultan.org.uk/everything-has-to-be-true-somehow/",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:35:48.440276+00:00",
+          "bytes": 103454,
+          "sha256": "42e22a52a7e66b021e9e93ffcfe5fbb854ee2fe5a49cd1936f67a6f93bebc09f",
+          "content_type": "text/html; charset=UTF-8",
+          "extracted_characters": 30936
+        }
+      ]
+    },
+    {
+      "id": "B-TLON",
+      "reason": "Discovery or selectively explored source; not relied on in the final dossier.",
+      "receipts": [
+        {
+          "id": "B-TLON",
+          "url": "https://www.borges.pitt.edu/bsol/documents/1509.pdf",
+          "final_url": "https://www.borges.pitt.edu/bsol/documents/1509.pdf",
+          "http_status": 200,
+          "retrieved_at": "2026-10-05T01:36:43.033742+00:00",
+          "bytes": 786890,
+          "sha256": "449689872ca8ac1ffef689026e7caf84a768d57fdc9ef46b1cb2e5b73beb165c",
+          "content_type": "application/pdf",
+          "extracted_characters": 62175
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "checked_at": "2026-10-05T01:42:10.041324+00:00",
+    "json_parses": true,
+    "dossier_words": 2369,
+    "all_non_ocr_locator_excerpts_matched_refetched_normalized_sources": true,
+    "ocr_locator_excerpts": "Inspected in the displayed OCR transcription; not independently checked against page images.",
+    "maximum_retained_locator_words_per_source": 47
+  }
+}

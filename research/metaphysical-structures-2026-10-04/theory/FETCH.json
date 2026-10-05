@@ -1,0 +1,56 @@
+[
+  {
+    "key": "ryan",
+    "url": "https://www-archiv.fdm.uni-hamburg.de/lhn/node/54.html",
+    "final_url": "https://www-archiv.fdm.uni-hamburg.de/lhn/node/54.html",
+    "status": 200,
+    "title": "Possible Worlds | the living handbook of narratology",
+    "bytes": 78408,
+    "sha256": "34e4b801f805fb4f91830cf381a7d10e4e8b28772e7e90c99f2d66b7e403bb01"
+  },
+  {
+    "key": "pier",
+    "url": "https://www-archiv.fdm.uni-hamburg.de/lhn/node/51.html",
+    "final_url": "https://www-archiv.fdm.uni-hamburg.de/lhn/node/51.html",
+    "status": 200,
+    "title": "Metalepsis (revised version; uploaded 13 July 2016) | the living handbook of narratology",
+    "bytes": 111591,
+    "sha256": "ea21753189402166269a7b34eb41963b4aa0dfa74a8a42108f300782212db4bb"
+  },
+  {
+    "key": "mchale",
+    "url": "https://www-archiv.fdm.uni-hamburg.de/lhn/node/62.html",
+    "final_url": "https://www-archiv.fdm.uni-hamburg.de/lhn/node/62.html",
+    "status": 200,
+    "title": "Poetic or Ornamental Prose | the living handbook of narratology",
+    "bytes": 44667,
+    "sha256": "dfc924c65300dbaf265beaa913cb8a758ec7a0661f05c69281840a7c0525bf3a"
+  },
+  {
+    "key": "fiction",
+    "url": "https://plato.stanford.edu/entries/fiction/",
+    "final_url": "https://plato.stanford.edu/entries/fiction/",
+    "status": 200,
+    "title": " Fiction (Stanford Encyclopedia of Philosophy) ",
+    "bytes": 161598,
+    "sha256": "8165de0d57bdcfbfa87fe7fe135609bc3c2c5e79ffc28d1ae82bce607293781d"
+  },
+  {
+    "key": "flatland",
+    "url": "https://www.gutenberg.org/cache/epub/97/pg97.txt",
+    "final_url": "https://www.gutenberg.org/cache/epub/97/pg97.txt",
+    "status": 200,
+    "title": "The Project Gutenberg eBook of Flatland: A Romance of Many Dimensions\r\n    \r\nThis eBook is for the u",
+    "bytes": 219360,
+    "sha256": "eb84ae1a164f9d54c7bd831c847f99046f6a3199ba78b0bd7c98c09d108a3a9a"
+  },
+  {
+    "key": "looking-glass",
+    "url": "https://www.gutenberg.org/cache/epub/12/pg12.txt",
+    "final_url": "https://www.gutenberg.org/cache/epub/12/pg12.txt",
+    "status": 200,
+    "title": "The Project Gutenberg eBook of Through the Looking-Glass\r\n    \r\nThis eBook is for the use of anyone ",
+    "bytes": 196534,
+    "sha256": "e40a38f5da841f9fb6acc557355c447b7c2ccb56a208caf5fcf2b05081f14d42"
+  }
+]
