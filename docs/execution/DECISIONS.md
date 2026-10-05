@@ -29,3 +29,13 @@ Cache readiness verifies bytes and active semantic content hash. No forced worke
 
 ## D010 | 2026-10-03 | fresh checkpoint repair
 Reopened only the failing recovery surfaces after the fresh reviewer supplied concrete repros. Studio draft save/load now shares bounded incomplete-draft validation with independently valid preview; replacement archive intent survives failed writes and continued unsaved play. Final code c90f1e1 passes91 tests and13 Chromium checks. Accepted story text stays unchanged.
+
+## 2026-10-05 UTC: broader metaphysical treatment, owner-directed reassessment
+
+The owner said “so continue” after structural research, then required a choice-consequential time paradox referring to Severian's temporal self-relation, and explicitly rejected the crowd-rescue guilt premise. Root recorded these directions verbatim in OWNER-RESEARCH-TO-TREATMENT-2026-10-04.md. The lead discarded that premise, preserving its complete draft. The fixed-past constraint from challenger B was optional, not owner doctrine; actual temporal revision is permissible with recoverable encounters and coherent causal commitments.
+
+Lead selects The Future That Lost Its Name over the retained absolution construction. Blaise's metaphysical desire begins with remembered future godhood and his older corpse. The actual detached future and effects survive a revision; investigation changes temporal identity and the status of the remembered I. Selection is provisional, not owner acceptance or installation. Root does not author final narrative.
+
+The completed treatment and scene received a full structural critique, actual philosophical critique, and an answer-limited scene-only reading. Exact first and second reviewed editions were preserved before revision. Repairs address an already-performed source for delayed effects, material accumulated decisions, and the specific identity/continuity of a joint act of understanding. The reader's conditional concern about Blaise's premature God hypothesis is retained deliberately, with the author's reason recorded. No larger cognition is certified as Spinoza's substance or intellectual love simply by being shared; Kantian inquiry is more than unreliable testimony.
+
+No game/runtime/package/save/accepted-voice change is made. The earlier release remains playable. The next replacement must be reviewed as actual story before installation. Internal workers were actually dispatched, messaged and answered within the four-active ceiling, without descendants; backend identities remain unverified. Git publication remains authorized as deusalter, without coauthor tags.

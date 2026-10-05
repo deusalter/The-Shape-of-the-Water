@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "date": "2026-10-04",
-  "status": "broader metaphysical replacement treatment completed, critiqued and revised; proposal only",
+  "status": "visual-design-published; metaphysical-structures research completed",
   "baseline": {
     "revision3": "baseline/revision3",
     "archiveSha256": "9ac1a34024dc678267cb0dda059b06ac7fd151d4db4c91a2ec509331ed77f7df",
@@ -9,8 +9,8 @@
     "priorImplementation": "none supplied, per owner clarification",
     "taskGraph": "tools/task-dependencies.json"
   },
-  "latestOwnerDirection": "docs/OWNER-RESEARCH-TO-TREATMENT-2026-10-04.md",
-  "ownerApproval": "Owner said so continue after structural research, required choice-consequential temporal paradox, then explicitly rejected the crowd-rescue guilt center. Concrete revised replacement proposal completed for review. No installation, individual name or ontology acceptance inferred. Commit/push as deusalter without coauthor tags remains authorized.",
+  "latestOwnerDirection": "docs/OWNER-METAPHYSICAL-STRUCTURES-RESEARCH-2026-10-04.md",
+  "ownerApproval": "Owner says the previous three-scene metaphysical proposal is nowhere near intended depth and requests substantive research into metaphysical structures in fiction. Research completed; no new ontology or individual name inferred accepted. Commit/push as deusalter without coauthor tags remains authorized; no public deployment.",
   "project": "The Shape of the Water",
   "currentNewNarrative": "The Mercy of Morning: complete shared narrative and both final decisions, implemented as a playable first release.",
   "activeContent": "src/content/case-v7.json",
@@ -25,10 +25,10 @@
   "activeWorkers": [],
   "ownership": {
     "root": [
-      "Owner records, current-state integration, exact preservation, review coordination, checks and Git publication. No final narrative prose."
+      "Research synthesis/theory study, current-state integration and publication; final narrative authority remains lead_writer."
     ],
     "lead_writer": [
-      "narrative/treatments/metaphysical-rebuild-2026-10-04/; sole final literary authority; proposal only."
+      "narrative/proposals/metaphysical-scene-revision-2026-10-04/; current canon remains preserved."
     ],
     "reviewers": [
       "Completed review files only; bounded workers complete."
@@ -40,7 +40,7 @@
       "research/names/trippy-revision-2026-10-04/"
     ],
     "metaphysical_critic": [
-      "docs/reviews/METAPHYSICAL-TREATMENT-35/; completed-text review only, no final narrative authority."
+      "docs/reviews/METAPHYSICAL-STRUCTURES-34/; completed research review, no narrative authority."
     ],
     "ontology_borges_wolfe": [
       "research/metaphysical-structures-2026-10-04/borges-wolfe/"
@@ -50,18 +50,6 @@
     ],
     "ontology_bakker": [
       "research/metaphysical-structures-2026-10-04/bakker/"
-    ],
-    "architecture_challenger": [
-      "narrative/challenges/metaphysical-rebuild-2026-10-04/; two challenger constructions; no final canon authority."
-    ],
-    "philosophy_pressure": [
-      "research/philosophy/metaphysical-rebuild-2026-10-04/; primary/scholar checks and philosophical pressure."
-    ],
-    "wolfe_temporal_stakes": [
-      "research/metaphysical-structures-2026-10-04/wolfe-temporal-stakes/; bounded Wolfe source research only."
-    ],
-    "metaphysical_scene_reader": [
-      "docs/reviews/METAPHYSICAL-FIRST-36/; answer-limited scene review only, completed."
     ]
   },
   "modelCapability": "Requested role-specific model/effort controls were supplied to actual internal workers where supported. Backend identities and parent selection are not independently attested. No prompt changed the parent model.",
@@ -94,20 +82,7 @@
     "docs/execution/evidence/mercy-optimization/README.md",
     "docs/OWNER-MAC-LAUNCHER.md",
     "releases/MAC-PACKAGE.json",
-    "docs/execution/evidence/mac-launcher/README.md",
-    "narrative/treatments/metaphysical-rebuild-2026-10-04/TREATMENT.md",
-    "narrative/treatments/metaphysical-rebuild-2026-10-04/SCENE.md",
-    "narrative/treatments/metaphysical-rebuild-2026-10-04/ALTERNATIVE-AND-SELECTION.md",
-    "narrative/treatments/metaphysical-rebuild-2026-10-04/REVIEW-DISPOSITION.md",
-    "narrative/treatments/metaphysical-rebuild-2026-10-04/PINS-AND-ANCHORS.json",
-    "docs/OWNER-RESEARCH-TO-TREATMENT-2026-10-04.md",
-    "docs/reviews/METAPHYSICAL-TREATMENT-35/FINAL-CHECK.md",
-    "docs/reviews/METAPHYSICAL-FIRST-36/READ.md",
-    "research/philosophy/metaphysical-rebuild-2026-10-04/ARGUMENT-PRESSURE.md",
-    "research/philosophy/metaphysical-rebuild-2026-10-04/SOURCE-CHECKS.json",
-    "research/metaphysical-structures-2026-10-04/wolfe-temporal-stakes/NOTE.md",
-    "research/metaphysical-structures-2026-10-04/wolfe-temporal-stakes/SOURCES.json",
-    "docs/execution/evidence/metaphysical-treatment/CHECK.json"
+    "docs/execution/evidence/mac-launcher/README.md"
   ],
   "referenceResearch": "research/reference/hello-charlotte/reassessment-2026-10-04/REASSESSMENT.md. Creator/official/critical source checks; no complete game playthrough or script reading claim.",
   "limits": [
@@ -127,7 +102,7 @@
   },
   "priorContinuity": "docs/execution/archives/before-mercy-delivery/",
   "rejectedLocalFiles": "Uninstalled v6 manuscripts/code/assets remain preserved locally and excluded from publication. Its modified development registry is preserved verbatim in narrative/archived/second-mouth-documents/.",
-  "nextExecutableTask": "Owner review of the actual replacement treatment and sample. Preserve proposal/history/research/anchors and current runnable game; do not install new ontology or cast before review. On authorization, write and stage the connected main story, especially actual temporal/cognitive discoveries and independent inhabited countries.",
+  "nextExecutableTask": "Continue from owner feedback on the completed structural research. A lead-owned broader treatment should use interacting ontology, identity, causality, history and competing accounts, rather than decorating the insufficient coast proposal. Preserve the playable release and source/voice anchors; do not assume acceptance of proposed names or world laws.",
   "backgroundWork": "No promised work or shared chat memory after active execution ends.",
   "optimizationRequest": "Owner: can you optimize it? Scope: measured loading/rendering/UI performance; exact story and saved-run identity preserved.",
   "priorReleaseVerification": {
@@ -482,7 +457,7 @@
   "pendingOwnerDirection": {
     "record": "docs/OWNER-COMPLEX-METAPHYSICS-AND-NAMES-2026-10-04.md",
     "request": "Distinctive historical/literary full names for Julian/Vera; possibly a punny contradictory five-middle-name person. Complex original metaphysics and messier natural exploration, radically trippy beautiful visual scenes/monologues. New references Borges, Second Apocalypse, Gene Wolfe, Umineko alongside Hello Charlotte.",
-    "status": "Previous inadequate three-scene proposal preserved; completed structural research and newer replacement treatment supersede this older development checkpoint. No individual name or ontology accepted or installed.",
+    "status": "Owner finds this proposed three-scene ontology nowhere near enough; preserved as earlier inadequate proposal. Deeper structural research now active; no acceptance or installation.",
     "proposal": "narrative/proposals/metaphysical-scene-revision-2026-10-04/",
     "priorVoidDraft": "narrative/proposals/void-scene-2026-10-04/SCENE.txt",
     "review": "docs/reviews/METAPHYSICAL-SCENE-33/POST-REVISION.md",
@@ -523,7 +498,7 @@
     "research/metaphysical-structures-2026-10-04/bakker/DOSSIER.md",
     "research/metaphysical-structures-2026-10-04/theory/DOSSIER.md"
   ],
-  "currentRevisionChecks": "docs/execution/evidence/metaphysical-treatment/CHECK.json",
+  "currentRevisionChecks": "docs/execution/evidence/metaphysical-scene-revision/CHECK.json",
   "currentResearchRequest": {
     "record": "docs/OWNER-METAPHYSICAL-STRUCTURES-RESEARCH-2026-10-04.md",
     "path": "research/metaphysical-structures-2026-10-04/",
@@ -546,70 +521,5 @@
     "actualCritic": "metaphysical_critic (existing role reused)",
     "unverifiedBackendIdentity": true,
     "canonInstalled": false
-  },
-  "currentTreatment": {
-    "record": "docs/OWNER-RESEARCH-TO-TREATMENT-2026-10-04.md",
-    "path": "narrative/treatments/metaphysical-rebuild-2026-10-04/",
-    "status": "lead-selected concrete proposal, independently critiqued and revised; final targeted findings verified; not installed or owner-approved",
-    "challenger": "narrative/challenges/metaphysical-rebuild-2026-10-04/",
-    "philosophy": "research/philosophy/metaphysical-rebuild-2026-10-04/",
-    "actualWorkers": [
-      "lead_writer",
-      "architecture_challenger",
-      "philosophy_pressure",
-      "wolfe_temporal_stakes",
-      "metaphysical_critic",
-      "metaphysical_scene_reader"
-    ],
-    "modelControls": {
-      "lead_writer": {
-        "existingAuthorityReused": true,
-        "inheritedModelIdentity": "unverified",
-        "followupSucceeded": true,
-        "responseReceived": true
-      },
-      "architecture_challenger": {
-        "requestedModel": "gpt-6-astra",
-        "requestedEffort": "xhigh",
-        "dispatchSucceeded": true
-      },
-      "philosophy_pressure": {
-        "requestedModel": "gpt-6-astra",
-        "requestedEffort": "xhigh",
-        "dispatchSucceeded": true
-      },
-      "wolfe_temporal_stakes": {
-        "requestedModel": "gpt-6-astra",
-        "requestedEffort": "xhigh",
-        "dispatchSucceeded": true
-      },
-      "metaphysical_critic": {
-        "existingAuthorityReused": true,
-        "inheritedModelIdentity": "unverified",
-        "followupSucceeded": true
-      },
-      "metaphysical_scene_reader": {
-        "requestedModel": "gpt-6-astra",
-        "requestedEffort": "xhigh",
-        "dispatchSucceeded": true,
-        "responseReceived": true
-      }
-    },
-    "backendIdentityAttested": false,
-    "runtimeChanged": false,
-    "temporalSteering": "Time paradox consequential for metaphysics and endings through Blaise choices; source-check Severian loop/grave reference, no copying or fixed-loop attitude-only endings.",
-    "rejectedPremise": "Blaise disastrous crowd performance based on promised rescue as guilt-and-absolution backstory; rejected explicitly by owner during development.",
-    "temporalConstraint": "Fixed immutable history was optional candidate B, not controlling owner doctrine. Coherent established temporal revision permitted; preserve actual seen transcript, no silent contradiction or arbitrary causal resolution.",
-    "wolfeResearch": "research/metaphysical-structures-2026-10-04/wolfe-temporal-stakes/NOTE.md",
-    "workingCore": "Blaise encounters his own dead body older than the world around it, with future-life evidence; effects may outlast a revision of their causal ancestry. His appetite concerns discovering and choosing what kind of being he is. Incomplete design awaiting actual treatment and critique, not approved canon.",
-    "review": "docs/reviews/METAPHYSICAL-TREATMENT-35/",
-    "firstReviewedInputs": "docs/execution/evidence/metaphysical-treatment/first-reviewed/INPUTS.json",
-    "sceneReader": "docs/reviews/METAPHYSICAL-FIRST-36/READ.md",
-    "title": "The Future That Lost Its Name",
-    "treatmentSha256": "220310f2e9124a657548f674794c3c05d9bdd5e60f92a3229af5059ebc383b6b",
-    "sceneSha256": "fe384372715fafbcf9b801ad10ebb2d31dd6f94601010aa4d82161ade40efc2f",
-    "finalCheck": "docs/reviews/METAPHYSICAL-TREATMENT-35/FINAL-CHECK.md",
-    "preservationCheck": "docs/execution/evidence/metaphysical-treatment/CHECK.json",
-    "allBoundedWorkersCompleted": true
   }
 }

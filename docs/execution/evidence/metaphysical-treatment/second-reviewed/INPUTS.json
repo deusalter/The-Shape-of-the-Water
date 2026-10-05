@@ -1,0 +1,20 @@
+{
+  "scope": "Exact second completed edition inspected in POST-REVISION; one unresolved conceptual issue, not final acceptance",
+  "files": [
+    {
+      "workingPath": "narrative/treatments/metaphysical-rebuild-2026-10-04/TREATMENT.md",
+      "preservedPath": "docs/execution/evidence/metaphysical-treatment/second-reviewed/TREATMENT.md",
+      "sha256": "1db99b47f564475ecdc9bb93fb78b0376bc5d137e685a341e5fc75ddae8e8582"
+    },
+    {
+      "workingPath": "narrative/treatments/metaphysical-rebuild-2026-10-04/SCENE.md",
+      "preservedPath": "docs/execution/evidence/metaphysical-treatment/second-reviewed/SCENE.md",
+      "sha256": "fe384372715fafbcf9b801ad10ebb2d31dd6f94601010aa4d82161ade40efc2f"
+    },
+    {
+      "workingPath": "narrative/treatments/metaphysical-rebuild-2026-10-04/REVIEW-DISPOSITION.md",
+      "preservedPath": "docs/execution/evidence/metaphysical-treatment/second-reviewed/REVIEW-DISPOSITION.md",
+      "sha256": "d7e7d011b6e6e59766e4e7bf66a2f52a90a6dca044467dfd05c3a9a40bbdf507"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# Newest steering: consequential temporal endings
+
+The coordinator relayed a newer owner request for choices with genuinely different temporal or metaphysical consequences, citing a character's relation to a loop and their own grave. This supersedes B's recommendation to select one canonical ending and its inadequate assurance that every outcome produces the same later mercy. The breakfast ending is retired as the proposed resolution. The lead writer has been told directly.
+
+**Hard constraint:** an ending cannot prevent a later divine action that causes an already-witnessed earlier event. Closing *all future-to-past causation* would contradict the story. Neither the player's dissatisfaction nor the phrase “open the loop” solves this.
+
+The smallest viable repair uses an existing power: an irresistible vow. The relevant distinction is between **answering a petition already made** and **accepting a new petition after the climax**. Those are acts within the existing religion, not a new cosmic mechanism. A vow can prohibit the latter while leaving the former possible at any point in the creator's own subsequent life. The human petition's date supplies the cutoff; the divine answer's date does not.
+
+Two consequential endings can therefore share every already-observed event:
+
+1. **Compel the maker to stop accepting new petitions.** Blaise deliberately completes an existing binding rite with that specific demand. Future Hypatia can still perform every intervention answering an earlier prayer, including the creation history and the promise that brought him here. But the city's future inhabitants permanently lose the ability to solicit new backwards passages. Previously closed temporal relations remain real. New generations cannot commission new relations of that kind. This is a material change in the world's available causation, purchased by making an actual person's obedience compulsory. It should feel politically momentous and morally compromised. Blaise has not proved universal freedom by enslaving God.
+
+2. **Destroy the binding opportunity and preserve the maker's power to answer.** Blaise exposes Erasmus's murder and breaks the congregation's coercive exchange without imposing the ban. New petitions can still join future people to their antecedents. An ending encounter should show a newly answered petition creating a concrete obligation across ages for someone independent of Blaise. It must connect previously unobserved events rather than overwrite a witnessed one. The world keeps its extraordinary future and its capacity for coercion. No reassuring vow guarantees that Hypatia's later willingness will always align with human wishes.
+
+These are alternative endings in a game, not coexisting branches inside its cosmology. Each complete play has one consistent history. They differ in what future inhabitants can cause, not only in what Blaise believes about an unchanged relationship. Before adoption, the lead must establish that creation itself answers an earlier commitment, or exclude creation from the ban by making its target explicitly petitioned passages. Do not solve this with an undocumented universal exception.
+
+This repair remains less radical than a transformation of personal identity or of recurrence itself. It is offered as the strongest bounded repair available without adding a new metaphysical system. If the lead finds it insufficient for the owner's latest ambition, rebuild the ending architecture rather than disguising these two consequences as a complete solution.

@@ -1,0 +1,16 @@
+{
+  "capturedUTC": "2026-10-05T02:23:58.462313+00:00",
+  "scope": "Exact completed first treatment/sample submitted for independent critique; not owner acceptance or final revised edition",
+  "files": [
+    {
+      "workingPath": "narrative/treatments/metaphysical-rebuild-2026-10-04/TREATMENT.md",
+      "preservedPath": "docs/execution/evidence/metaphysical-treatment/first-reviewed/TREATMENT.md",
+      "sha256": "024148db539b5ac5cb536b98a5d32115d5dc06b31be3fca28e44a1dcdb2c4b28"
+    },
+    {
+      "workingPath": "narrative/treatments/metaphysical-rebuild-2026-10-04/SCENE.md",
+      "preservedPath": "docs/execution/evidence/metaphysical-treatment/first-reviewed/SCENE.md",
+      "sha256": "fe384372715fafbcf9b801ad10ebb2d31dd6f94601010aa4d82161ade40efc2f"
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "inspection_date": "2026-10-05",
+  "assignment_directory_uses_owner_request_date": "2026-10-04",
+  "status": "Bounded primary and scholarly reinspection; research proposals only",
+  "fresh_http_retrievals": [],
+  "backend_verification": "Unverified",
+  "sources": [
+    {
+      "id": "K1",
+      "kind": "primary",
+      "title": "Critique of Pure Reason",
+      "author": "Immanuel Kant",
+      "url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+      "edition": "J. M. D. Meiklejohn translation, Project Gutenberg 4280; underlying print impression unverified",
+      "inspected_file": "/workspace/literary-detective/research/philosophy/sources/kant-critique-gutenberg.txt",
+      "sha256": "642bd845dd0315ac76399d5d1663e7ed75247e065251833bd47ef051fd997ebe",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          3905,
+          4013
+        ]
+      ],
+      "scope": "Conjunction and original synthetic unity of apperception",
+      "limits": "Selected English passage; not complete Deduction. Meiklejohn must accompany is qualified by possibility language in the passage and checked against Rohlf."
+    },
+    {
+      "id": "K2",
+      "kind": "primary",
+      "title": "Critique of Pure Reason",
+      "author": "Immanuel Kant",
+      "url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+      "edition": "J. M. D. Meiklejohn translation, Project Gutenberg 4280; underlying print impression unverified",
+      "inspected_file": "/workspace/literary-detective/research/philosophy/sources/kant-critique-gutenberg.txt",
+      "sha256": "642bd845dd0315ac76399d5d1663e7ed75247e065251833bd47ef051fd997ebe",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          5910,
+          6000
+        ]
+      ],
+      "scope": "Second Analogy: objective succession, synthesis, house and ship opening",
+      "limits": "Selected argument only, not entire Analogy."
+    },
+    {
+      "id": "K3",
+      "kind": "primary",
+      "title": "Critique of Pure Reason",
+      "author": "Immanuel Kant",
+      "url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+      "edition": "J. M. D. Meiklejohn translation, Project Gutenberg 4280; underlying print impression unverified",
+      "inspected_file": "/workspace/literary-detective/research/philosophy/sources/kant-critique-gutenberg.txt",
+      "sha256": "642bd845dd0315ac76399d5d1663e7ed75247e065251833bd47ef051fd997ebe",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          11393,
+          11473
+        ],
+        [
+          11528,
+          11555
+        ]
+      ],
+      "scope": "Critical Solution: demand for regress versus completed totality; conditioned appearances",
+      "limits": "The intervening gap was not reread in this pass. A criticized premise must not be attributed as the accepted conclusion."
+    },
+    {
+      "id": "K4",
+      "kind": "primary",
+      "title": "Critique of Pure Reason",
+      "author": "Immanuel Kant",
+      "url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+      "edition": "J. M. D. Meiklejohn translation, Project Gutenberg 4280; underlying print impression unverified",
+      "inspected_file": "/workspace/literary-detective/research/philosophy/sources/kant-critique-gutenberg.txt",
+      "sha256": "642bd845dd0315ac76399d5d1663e7ed75247e065251833bd47ef051fd997ebe",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          7190,
+          7260
+        ]
+      ],
+      "scope": "Phenomena/Noumena: legitimate category application and logical versus objective possibility",
+      "limits": "No claim to have newly inspected the entire chapter or negative/positive noumenon distinction; latter remains in inherited bounded research."
+    },
+    {
+      "id": "K5",
+      "kind": "primary",
+      "title": "Critique of Pure Reason",
+      "author": "Immanuel Kant",
+      "url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+      "edition": "J. M. D. Meiklejohn translation, Project Gutenberg 4280; underlying print impression unverified",
+      "inspected_file": "/workspace/literary-detective/research/philosophy/sources/kant-critique-gutenberg.txt",
+      "sha256": "642bd845dd0315ac76399d5d1663e7ed75247e065251833bd47ef051fd997ebe",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          9220,
+          9306
+        ]
+      ],
+      "scope": "Paralogisms: logical subject versus substantial self",
+      "limits": "First and last lines continue neighboring text; no complete chapter or A/B variant comparison."
+    },
+    {
+      "id": "S1",
+      "kind": "primary",
+      "title": "Ethics",
+      "author": "Benedict de Spinoza",
+      "url": "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm",
+      "edition": "R. H. M. Elwes translation, Project Gutenberg 3800, electronic text updated 2017-12-11; underlying print impression unverified",
+      "inspected_file": "/workspace/literary-detective/research/philosophy/sources/spinoza-ethics-inspection.txt",
+      "sha256": "6d9c85ac448e0f6acfbdce43715e18c50ac5ef78c2634cb3e43f84f0ef8a0b55",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          1,
+          85
+        ],
+        [
+          96,
+          143
+        ],
+        [
+          264,
+          325
+        ],
+        [
+          388,
+          431
+        ],
+        [
+          686,
+          699
+        ]
+      ],
+      "scope": "I definitions/axioms, I.4–7, selected I.11 arguments, I.14–15, I.18",
+      "limits": "I.11 scholium not read completely. Source includes two neighboring partial passages; no claim to have inspected every dependency of the proofs."
+    },
+    {
+      "id": "S2",
+      "kind": "primary",
+      "title": "Ethics",
+      "author": "Benedict de Spinoza",
+      "url": "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm",
+      "edition": "R. H. M. Elwes translation, Project Gutenberg 3800, electronic text updated 2017-12-11; underlying print impression unverified",
+      "inspected_file": "/workspace/literary-detective/research/philosophy/sources/spinoza-ethics-inspection.txt",
+      "sha256": "6d9c85ac448e0f6acfbdce43715e18c50ac5ef78c2634cb3e43f84f0ef8a0b55",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          1530,
+          1638
+        ]
+      ],
+      "scope": "II.4–7 and scholium, II.8 through scholium opening",
+      "limits": "II.8 scholium outside substantive reading; attribute interpretations remain contested."
+    },
+    {
+      "id": "S3",
+      "kind": "primary",
+      "title": "Ethics",
+      "author": "Benedict de Spinoza",
+      "url": "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm",
+      "edition": "R. H. M. Elwes translation, Project Gutenberg 3800, electronic text updated 2017-12-11; underlying print impression unverified",
+      "inspected_file": "/workspace/literary-detective/research/philosophy/sources/spinoza-ethics-inspection.txt",
+      "sha256": "6d9c85ac448e0f6acfbdce43715e18c50ac5ef78c2634cb3e43f84f0ef8a0b55",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          1851,
+          2005
+        ]
+      ],
+      "scope": "Physical interlude after II.13: bodies, composite individual, replacement, transformation, nested individuals; postulates opening",
+      "limits": "Not a modern criterion of numerical personal identity or attribution of shared consciousness."
+    },
+    {
+      "id": "S4",
+      "kind": "primary",
+      "title": "Ethics",
+      "author": "Benedict de Spinoza",
+      "url": "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm",
+      "edition": "R. H. M. Elwes translation, Project Gutenberg 3800, electronic text updated 2017-12-11; underlying print impression unverified",
+      "inspected_file": "/workspace/literary-detective/research/philosophy/sources/spinoza-ethics-inspection.txt",
+      "sha256": "6d9c85ac448e0f6acfbdce43715e18c50ac5ef78c2634cb3e43f84f0ef8a0b55",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          3155,
+          3201
+        ],
+        [
+          7670,
+          7749
+        ]
+      ],
+      "scope": "III preface ending and definitions I–II; V.4 proof/corollary/scholium through V.6 scholium opening",
+      "limits": "III definition III not included. V.4s reread after an output truncation. No complete ethical theory inspection."
+    },
+    {
+      "id": "S5",
+      "kind": "primary",
+      "title": "Ethics",
+      "author": "Benedict de Spinoza",
+      "url": "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm",
+      "edition": "R. H. M. Elwes translation, Project Gutenberg 3800, electronic text updated 2017-12-11; underlying print impression unverified",
+      "inspected_file": "/workspace/literary-detective/research/philosophy/sources/spinoza-ethics-inspection.txt",
+      "sha256": "6d9c85ac448e0f6acfbdce43715e18c50ac5ef78c2634cb3e43f84f0ef8a0b55",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          8060,
+          8228
+        ],
+        [
+          8229,
+          8330
+        ]
+      ],
+      "scope": "V.21–36: memory, eternal mind, intuitive knowledge, intellectual love, divine self-love",
+      "limits": "Selected complete span, not all of Part V. Eternal individuation remains an interpretive problem."
+    },
+    {
+      "id": "S6",
+      "kind": "primary",
+      "title": "Ethics",
+      "author": "Benedict de Spinoza",
+      "url": "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm",
+      "edition": "R. H. M. Elwes translation, Project Gutenberg 3800, electronic text updated 2017-12-11; underlying print impression unverified",
+      "inspected_file": "/workspace/literary-detective/research/philosophy/sources/spinoza-ethics-inspection.txt",
+      "sha256": "6d9c85ac448e0f6acfbdce43715e18c50ac5ef78c2634cb3e43f84f0ef8a0b55",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          8465,
+          8520
+        ]
+      ],
+      "scope": "V.41 scholium ending and V.42 with proof and scholium",
+      "limits": "Opening of V.41 not newly read; claim used is V.42."
+    },
+    {
+      "id": "K-R",
+      "kind": "scholarship",
+      "title": "Immanuel Kant",
+      "author": "Michael Rohlf",
+      "url": "https://plato.stanford.edu/entries/kant/",
+      "edition": "SEP substantive revision 2024-07-31, retained retrieval 2026-10-03",
+      "inspected_file": "/workspace/literary-detective/research/philosophy/sources/kant-sep-immanuel-kant.txt",
+      "sha256": "e0138dcc9170cdfe9ea6b65880110b6be91854e6567de799fe3c86ba58297be7",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          1099,
+          1144
+        ],
+        [
+          1225,
+          1260
+        ],
+        [
+          1270,
+          1372
+        ]
+      ],
+      "scope": "Section 4 opening; selected 4.1 and 4.2 on synthesis, self-consciousness and objectivity",
+      "limits": "Rohlf explicitly offers one reconstruction of a contested argument. Printed locators quoted in the scholarship were not independently collated or assigned to primary text."
+    },
+    {
+      "id": "S-A",
+      "kind": "scholarship",
+      "title": "Spinoza’s Theory of Attributes",
+      "author": "Noa Shein",
+      "url": "https://plato.stanford.edu/entries/spinoza-attributes/",
+      "edition": "SEP substantive revision 2023-06-03, retained temporary retrieval 2026-10-04",
+      "inspected_file": "/tmp/spinoza-attributes-world-rebuild.txt",
+      "sha256": "f0bff3674da8c9c694b794500f4a086d08cc6145555c4b63426de3553646e292",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          388,
+          447
+        ]
+      ],
+      "scope": "Section 1.6 II.7 doctrine, 1.7 two known attributes, 1.8 opening",
+      "limits": "No complete article reading or independent reading of cited books/Letter 64. Contemporary full text remains temporary; only metadata and paraphrase added."
+    },
+    {
+      "id": "S-N",
+      "kind": "scholarship",
+      "title": "Baruch Spinoza",
+      "author": "Steven Nadler",
+      "url": "https://plato.stanford.edu/entries/spinoza/",
+      "edition": "SEP substantive revision 2023-11-08, retained temporary retrieval 2026-10-04",
+      "inspected_file": "/tmp/spinoza-world-rebuild.txt",
+      "sha256": "f366e141abb3b6a02932a5b0fee70c877b441d345b59dba75448556a423b83bd",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          833,
+          982
+        ]
+      ],
+      "scope": "Section 2.5 Virtue and Happiness",
+      "limits": "Nonpersonal eternity, egoism and equanimity are Nadler’s reconstruction, not the settlement of all interpretive questions. No cited book independently inspected."
+    },
+    {
+      "id": "K6",
+      "kind": "primary",
+      "title": "Critique of Pure Reason",
+      "author": "Immanuel Kant",
+      "url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+      "edition": "J. M. D. Meiklejohn translation, Project Gutenberg 4280; underlying print impression unverified",
+      "inspected_file": "/workspace/literary-detective/research/philosophy/sources/kant-critique-gutenberg.txt",
+      "sha256": "642bd845dd0315ac76399d5d1663e7ed75247e065251833bd47ef051fd997ebe",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          6190,
+          6234
+        ]
+      ],
+      "scope": "Second Analogy: simultaneous cause/effect, temporal order versus elapsed time",
+      "limits": "Selected passage does not establish compatibility with fictional backward causation."
+    },
+    {
+      "id": "K7",
+      "kind": "primary",
+      "title": "Critique of Pure Reason",
+      "author": "Immanuel Kant",
+      "url": "https://www.gutenberg.org/files/4280/4280-h/4280-h.htm",
+      "edition": "J. M. D. Meiklejohn translation, Project Gutenberg 4280; underlying print impression unverified",
+      "inspected_file": "/workspace/literary-detective/research/philosophy/sources/kant-critique-gutenberg.txt",
+      "sha256": "642bd845dd0315ac76399d5d1663e7ed75247e065251833bd47ef051fd997ebe",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          10397,
+          10490
+        ],
+        [
+          12331,
+          12405
+        ],
+        [
+          12502,
+          12534
+        ]
+      ],
+      "scope": "Third Antinomy thesis/antithesis and observations opening; selected resolution and concluding limitation",
+      "limits": "Neither side of the antinomy is reported as Kant’s unqualified final position. Intervening resolution material not reread this pass; no primary Critique of Practical Reason reading."
+    },
+    {
+      "id": "S7",
+      "kind": "primary",
+      "title": "Ethics",
+      "author": "Benedict de Spinoza",
+      "url": "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm",
+      "edition": "R. H. M. Elwes translation, Project Gutenberg 3800, electronic text updated 2017-12-11; underlying print impression unverified",
+      "inspected_file": "/workspace/literary-detective/research/philosophy/sources/spinoza-ethics-inspection.txt",
+      "sha256": "6d9c85ac448e0f6acfbdce43715e18c50ac5ef78c2634cb3e43f84f0ef8a0b55",
+      "locator_type": "Mechanically extracted text lines, not print pagination or independently verified A/B locators",
+      "ranges": [
+        [
+          855,
+          941
+        ]
+      ],
+      "scope": "I.28–29 including finite causal determination, necessity and natura naturans/naturata",
+      "limits": "Does not turn an invented circular temporal order into an endorsed historical doctrine."
+    }
+  ],
+  "prior_records_read": [
+    "AGENTS.md",
+    "narrative/mercy/PHILOSOPHY-MAP.md",
+    "docs/reviews/REPLACEMENT-PHILOSOPHY-23/ARGUMENTS-AND-SOURCES.md",
+    "docs/reviews/WORLD-PHILOSOPHY-10/SOURCE-BOUNDS.md",
+    "research/philosophy/world-rebuild/SOURCE-CHECKS.md",
+    "research/philosophy/world-rebuild/RETRIEVAL.json",
+    "research/metaphysical-structures-2026-10-04/SYNTHESIS.md"
+  ],
+  "scope_limits": [
+    "Selected passages only; no complete primary book, German or Latin reading claimed.",
+    "No fresh HTTP retrieval or live-page comparison. Retained metadata checked; file hashes recomputed.",
+    "Fictional consequences in the note are optional inventions, not historical entailments or canon.",
+    "No narrative edits, implementation, commits, descendants, or complete-game certification.",
+    "Completed review of actual challenger B only; no certification of a later lead treatment."
+  ],
+  "candidate_review": {
+    "path": "/workspace/literary-detective/narrative/challenges/metaphysical-rebuild-2026-10-04/B-A-GOD-WHO-COMES-AFTER.md",
+    "sha256": "da134177a2ae5d6b42597c09a0ea0d5646a2809763807b989d4a3c3622ef32e4",
+    "scope": "Complete challenger candidate B, not completed lead treatment",
+    "new_owner_steer_received": "Paradox must have consequences for metaphysics and ending must depend on Blaise choices; fixed-canonical restriction superseded",
+    "review_file": "research/philosophy/metaphysical-rebuild-2026-10-04/CANDIDATE-B-PRESSURE.md",
+    "material_checks": 3
+  }
+}

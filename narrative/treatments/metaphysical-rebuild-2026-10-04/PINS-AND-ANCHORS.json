@@ -1,0 +1,36 @@
+{
+  "status": "lead-selected proposal; targeted final remedies verified with no further revision requested; no owner acceptance or implementation claimed",
+  "files": {
+    "TREATMENT.md": {
+      "sha256": "220310f2e9124a657548f674794c3c05d9bdd5e60f92a3229af5059ebc383b6b",
+      "words_including_headings": 4104,
+      "em_dashes": 0
+    },
+    "SCENE.md": {
+      "sha256": "fe384372715fafbcf9b801ad10ebb2d31dd6f94601010aa4d82161ade40efc2f",
+      "words_including_headings": 1059,
+      "em_dashes": 0
+    },
+    "ALTERNATIVE-AND-SELECTION.md": {
+      "sha256": "37b94b7c720935ad1d25db5f05daf08038ee5d9abd49626627253e08ba926bba",
+      "words_including_headings": 1227,
+      "em_dashes": 0
+    },
+    "REVIEW-DISPOSITION.md": {
+      "sha256": "703a9ba16e5dab5b7b75d96a4d263230e79b4b0bc701409802d507b42b8c1f2d",
+      "words_including_headings": 913,
+      "em_dashes": 0
+    }
+  },
+  "sceneAnchors": [
+    "Your body is lying in a room which has no outside.",
+    "You were still yourself. More of yourself than you had ever been before.",
+    "Why must I pretend the pleasure was a warning? It was good. Whatever happened afterward, it was good.",
+    "It is worse than a prophecy. A prophecy could be wrong without taking anything away from you.",
+    "The demand is ludicrous and immense. You can feel yourself preparing an argument for it.",
+    "You taste the white fruit and begin to cry before you know whether you are afraid."
+  ],
+  "sceneUnchangedFromFirstRead": true,
+  "finalTargetedReview": "docs/reviews/METAPHYSICAL-TREATMENT-35/FINAL-CHECK.md",
+  "exactFinalReviewInputs": "history/final-reviewed/"
+}

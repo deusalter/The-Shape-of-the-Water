@@ -1,0 +1,9 @@
+# Broader metaphysical treatment preservation evidence
+
+This checkpoint contains a lead-selected spoiler treatment and a substantial scene, not a new installed game. Exact first, second and final reviewed editions are retained in the adjacent directories with SHA256 receipts. The scene-only packet removes the answer-bearing author paragraph and retains exactly the encounter.
+
+CHECK.json verifies final lead hashes, six literal new scene anchors, nine unchanged release/source/accepted-voice files against published baselinebd734577, exact review snapshots, JSON parsing and bounded source hash/locator integrity. The17 philosophy records are selected primary and scholarly reinspections; the8 Wolfe records have deliberately different grades and include a locator not listened to. These counts are source records, not complete books or uniformly primary evidence. Temporary full contemporary snapshots are not published; their metadata and bounded source evidence remain in research.
+
+Structural full-input critique and two focused remedy checks are under docs/reviews/METAPHYSICAL-TREATMENT-35/. The exact final treatment SHA is220310f2e9124a657548f674794c3c05d9bdd5e60f92a3229af5059ebc383b6b; the unchanged scene SHA isfe384372715fafbcf9b801ad10ebb2d31dd6f94601010aa4d82161ade40efc2f. The final disposition's receipt-only update is distinct from the disposition edition examined by the critic, which is preserved in final-reviewed/.
+
+AI criticism and source integrity checks do not establish human acceptance, literary greatness, empirical metaphysical doctrine or playable behavior for an unwritten replacement. No new runtime tests were run because story selection, runtime, world, saves and both packages are unchanged. The global tracked snapshot and safe-copy continuation rehearsal cover recoverability separately. Prior complete continuity is preserved under docs/execution/history/before-metaphysical-treatment-2026-10-04/.

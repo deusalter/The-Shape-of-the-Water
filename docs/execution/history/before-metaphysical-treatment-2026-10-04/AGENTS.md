@@ -1,7 +1,3 @@
-Current checkpoint: The Future That Lost Its Name is a completed lead-selected spoiler treatment and substantial sample under narrative/treatments/metaphysical-rebuild-2026-10-04/. Read REVIEW-DISPOSITION and docs/reviews/METAPHYSICAL-TREATMENT-35/FINAL-CHECK. All bounded workers are complete. Proposal only; preserve the playable game and await review before installation. Latest explicit rejection of the crowd-rescue guilt premise remains controlling.
-
-Newest continuation: develop a broader replacement treatment from the completed structural research. Read docs/OWNER-RESEARCH-TO-TREATMENT-2026-10-04.md. Current assignments and ownership are in STATE. Compare actual whole-story constructions, select and revise through lead_writer, and produce a substantial scene. The coast proposal was insufficient; its premises and the current released story are not obligations. No new treatment is installed or individually accepted. Preserve the release until proposal review.
-
 # The Shape of the Water workspace
 
 Newest request: substantive research into metaphysical structures in fiction. The owner finds the previous three-scene revision nowhere near the desired depth. Read docs/OWNER-METAPHYSICAL-STRUCTURES-RESEARCH-2026-10-04.md. Preserve the proposal as an inadequate earlier approach; research broader reality structures before installing a new ontology. Current research is under research/metaphysical-structures-2026-10-04/.

@@ -1,0 +1,16 @@
+{
+  "reviewer_type": "AI fresh player-facing reader",
+  "human_playtest": false,
+  "backend_attestation": false,
+  "source": "/workspace/literary-detective/docs/execution/evidence/metaphysical-treatment/reader-packet/ENCOUNTER.txt",
+  "sha256": "cad797cd230187a530264bd9a1c43b00b487289a657e18772438853e4d940582",
+  "expected_sha256": "cad797cd230187a530264bd9a1c43b00b487289a657e18772438853e4d940582",
+  "hash_matches": true,
+  "read_complete": true,
+  "narrative_sources_read": [
+    "/workspace/literary-detective/docs/execution/evidence/metaphysical-treatment/reader-packet/ENCOUNTER.txt"
+  ],
+  "context": "Parent-provided player-facing brief and access limits only; no treatment, author answers, synthesis, AGENTS.md, or other story files read.",
+  "material_revision_candidates": 1,
+  "final_prose_authority": "lead_writer"
+}

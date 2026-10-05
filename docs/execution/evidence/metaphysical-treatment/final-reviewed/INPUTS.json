@@ -1,0 +1,20 @@
+{
+  "scope": "Exact final treatment/scene/disposition examined in FINAL-CHECK; later metadata-only receipt is a distinct file edition",
+  "files": [
+    {
+      "workingPath": "narrative/treatments/metaphysical-rebuild-2026-10-04/TREATMENT.md",
+      "preservedPath": "docs/execution/evidence/metaphysical-treatment/final-reviewed/TREATMENT.md",
+      "sha256": "220310f2e9124a657548f674794c3c05d9bdd5e60f92a3229af5059ebc383b6b"
+    },
+    {
+      "workingPath": "narrative/treatments/metaphysical-rebuild-2026-10-04/SCENE.md",
+      "preservedPath": "docs/execution/evidence/metaphysical-treatment/final-reviewed/SCENE.md",
+      "sha256": "fe384372715fafbcf9b801ad10ebb2d31dd6f94601010aa4d82161ade40efc2f"
+    },
+    {
+      "workingPath": "narrative/treatments/metaphysical-rebuild-2026-10-04/REVIEW-DISPOSITION.md",
+      "preservedPath": "docs/execution/evidence/metaphysical-treatment/final-reviewed/REVIEW-DISPOSITION.md",
+      "sha256": "0fe58b0079c8670685712cb209c99967c33886deb0ed5b321c8b1f3c1d66a5b8"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Exact published continuity files from bd734577c1105730fe4ff91ee8b45dfdef1c3a43, before broader treatment development. These files preserve previous directions, claims and worker status; they are historical rather than current authority.

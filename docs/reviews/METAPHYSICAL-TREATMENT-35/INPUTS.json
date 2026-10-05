@@ -1,0 +1,95 @@
+{
+  "review_type": "Full read of completed held treatment and scene; not critique of unfinished lead text",
+  "artifacts": [
+    {
+      "path": "narrative/treatments/metaphysical-rebuild-2026-10-04/TREATMENT.md",
+      "sha256": "024148db539b5ac5cb536b98a5d32115d5dc06b31be3fca28e44a1dcdb2c4b28",
+      "bytes": 16701
+    },
+    {
+      "path": "narrative/treatments/metaphysical-rebuild-2026-10-04/SCENE.md",
+      "sha256": "fe384372715fafbcf9b801ad10ebb2d31dd6f94601010aa4d82161ade40efc2f",
+      "bytes": 5817
+    }
+  ],
+  "preparation_readings": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "5e4ed231087a9eae39b1dbd27749739b13c785cde0f68843fac15f700d7ccef6",
+      "bytes": 6520
+    },
+    {
+      "path": "docs/OWNER-RESEARCH-TO-TREATMENT-2026-10-04.md",
+      "sha256": "4ca6b023809db3455c213734657a97078d80031ada8cdc5cabc072e38489a80e",
+      "bytes": 4268
+    },
+    {
+      "path": "research/metaphysical-structures-2026-10-04/SYNTHESIS.md",
+      "sha256": "6130e681607c4f790def08605ccfc399828eab8b531980e495237c3b72c30c2d",
+      "bytes": 15167
+    },
+    {
+      "path": "research/philosophy/metaphysical-rebuild-2026-10-04/ARGUMENT-PRESSURE.md",
+      "sha256": "7443c9bc1ddaf2f3ac62add1277d3d46eed6aacd8fcba2a89c790b83377a63fe",
+      "bytes": 11158
+    },
+    {
+      "path": "research/philosophy/metaphysical-rebuild-2026-10-04/CANDIDATE-B-PRESSURE.md",
+      "sha256": "b616df750d0680f6c8a6e96bae8a8e5489cd51c649c56619c6621a8f4986747f",
+      "bytes": 4166
+    },
+    {
+      "path": "research/philosophy/metaphysical-rebuild-2026-10-04/SOURCE-CHECKS.json",
+      "sha256": "1119c0c4932b36934eac7bca847efe8983f8ffdfb69594faa1e0cba283000e55",
+      "bytes": 18381
+    },
+    {
+      "path": "narrative/challenges/metaphysical-rebuild-2026-10-04/A-THE-GENTLE-MURDERER.md",
+      "sha256": "879705bdde583350abb9fad1000892e44ce33be73d36fd1b419900a1271964d0",
+      "bytes": 6373
+    },
+    {
+      "path": "narrative/challenges/metaphysical-rebuild-2026-10-04/B-A-GOD-WHO-COMES-AFTER.md",
+      "sha256": "da134177a2ae5d6b42597c09a0ea0d5646a2809763807b989d4a3c3622ef32e4",
+      "bytes": 7159
+    },
+    {
+      "path": "narrative/challenges/metaphysical-rebuild-2026-10-04/READING-AND-PRESSURE-NOTE.md",
+      "sha256": "9bfcb9a2272310bf336b90712929b0c714429b401d8019ba98f3a23ad35e1bfe",
+      "bytes": 6607
+    }
+  ],
+  "synthesis_read_scope": "Previously read in full; hash confirmed unchanged in preparation",
+  "source_scope": "Read philosophical pressure notes and their SOURCE-CHECKS.json; did not newly inspect the referenced primary passage text during this treatment review. No complete-work, original-language or playthrough claim.",
+  "philosophical_locators_consulted_in_source_record": [
+    "K1–K5 and S1–S6 for arguments, individuation and adequate knowledge",
+    "K2/K6: Second Analogy, extracted lines5910–6000 and6190–6234",
+    "K7: Third Antinomy, extracted lines10397–10490,12331–12405,12502–12534",
+    "S7: Ethics I.28–29, extracted lines855–941"
+  ],
+  "owner_corrections": "Consequential choice-dependent metaphysical endings; conventional crowd-rescue guilt rejected; coherent temporal revision permitted; earlier fixed-loop candidate nonbinding",
+  "backend_model_identity": "Inherited role; independently unverified",
+  "authority": "Reviewer proposals only; lead_writer alone owns final narrative prose",
+  "final_targeted_check": {
+    "scope": "New orchard trial, fictional individuation consequence, affected endings and updated disposition; unchanged scene hash confirmed against prior full read. Not a new complete read of all final treatment text.",
+    "inputs": [
+      {
+        "path": "narrative/treatments/metaphysical-rebuild-2026-10-04/TREATMENT.md",
+        "sha256": "220310f2e9124a657548f674794c3c05d9bdd5e60f92a3229af5059ebc383b6b",
+        "bytes": 26588
+      },
+      {
+        "path": "narrative/treatments/metaphysical-rebuild-2026-10-04/SCENE.md",
+        "sha256": "fe384372715fafbcf9b801ad10ebb2d31dd6f94601010aa4d82161ade40efc2f",
+        "bytes": 5817
+      },
+      {
+        "path": "narrative/treatments/metaphysical-rebuild-2026-10-04/REVIEW-DISPOSITION.md",
+        "sha256": "0fe58b0079c8670685712cb209c99967c33886deb0ed5b321c8b1f3c1d66a5b8",
+        "bytes": 6483
+      }
+    ],
+    "record": "docs/reviews/METAPHYSICAL-TREATMENT-35/FINAL-CHECK.md",
+    "result": "Three recorded findings have concrete treatment-level remedies; no additional revision requested; not owner acceptance or runtime verification."
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "date": "2026-10-05",
+  "scope": "Bounded source research; no complete novel read; no fictional canon change.",
+  "sources": [
+    {
+      "id": "wolfe-jordan-1992",
+      "type": "author_interview_primary",
+      "title": "Gene Wolfe Interview, James B. Jordan, 30 October 1992; reprinted in Shadows of the New Sun",
+      "url": "https://gwern.net/doc/fiction/gene-wolfe/1992-jordan.pdf",
+      "reading_scope": "Read printed pp.109–111 and128–131 directly; keyword-scanned the rest. Not a novel read.",
+      "checks": [
+        {
+          "locator": "p.109",
+          "short_quote": "a Christian figure",
+          "claim": "Severian tries to become better; not identified straightforwardly with Christ."
+        },
+        {
+          "locator": "p.111",
+          "short_quote": "working his way out of his profession",
+          "claim": "Wolfe rejects the torturer as the hand of God."
+        },
+        {
+          "locator": "p.129",
+          "short_quote": "a long past universe",
+          "claim": "Cyclic cosmology is a fictional conception; he describes exploring rather than reconciling eschatology."
+        },
+        {
+          "locator": "p.129",
+          "short_quote": "Severian is really on trial",
+          "claim": "Confirms whose judgment is at stake."
+        },
+        {
+          "locator": "p.130",
+          "short_quote": "everything that he does or will do is right",
+          "claim": "Wolfe explicitly denies this inference from acquittal."
+        }
+      ],
+      "limitations": "Publicly accessible interview scan; not an authorized novel edition. Author statements do not settle every internal chronological interpretation.",
+      "evidence_snapshot": {
+        "sha256": "c1be10fb0b6a8e5d7856a1c951f78aa7f0e6d66b1e0a605c41e02a6e3b1d123b",
+        "bytes": 123696,
+        "local_evidence_path": "/tmp/wolfe-temporal-stakes-2026-10-05/wolfe-jordan-1992.pdf"
+      }
+    },
+    {
+      "id": "andre-first-2022",
+      "type": "named_specialist_interpretation_and_short_primary_quote",
+      "title": "Michael Andre-Driussi, A View on The Tale of the Student and His Son (including first Severian), 11 February 2022",
+      "url": "https://www.goodreads.com/author_blog_posts/22227595-a-view-on-the-tale-of-the-student-and-his-son-including-first-severia",
+      "reading_scope": "Entire short essay and two comments.",
+      "checks": [
+        {
+          "locator": "Paragraph beginning Next, the first Severian angle",
+          "short_quote": "He is not from a different universe",
+          "claim": "Explicitly argues future self modifying his own timeline rather than a different incarnation."
+        },
+        {
+          "locator": "Final paragraphs",
+          "claim": "Offers self-sacrifice and rewritten-self readings of the embedded tale."
+        },
+        {
+          "locator": "Author comment dated12 February2022",
+          "short_quote": "I am not the first Severian",
+          "claim": "Locates quoted passage in Citadel final chapter Resurrection; only three paragraphs."
+        }
+      ],
+      "limitations": "Interpretation, not consensus or Wolfe confirmation; quotation checked on scholar page, not against complete novel.",
+      "evidence_snapshot": {
+        "sha256": "6f8d3c3b51bfe2d747f6abd22e1db015c4ac81d0525d5cadba71e04a87dd4e52",
+        "bytes": 77339,
+        "local_evidence_path": "/tmp/wolfe-temporal-stakes-2026-10-05/andre-first-2022.html"
+      }
+    },
+    {
+      "id": "andre-posthistory",
+      "type": "specialist_textual_comparison",
+      "title": "Michael Andre-Driussi, Posthistory 201",
+      "url": "https://ultan.org.uk/posthistory-201/",
+      "reading_scope": "Sections2–4 read closely; remainder scanned.",
+      "checks": [
+        {
+          "locator": "Section2 THE AUTARCHIAL TIME",
+          "claim": "Revises his earlier1000-year Autarchy estimate; prefers multiple millennia with upper uncertainty."
+        },
+        {
+          "locator": "Section3 THE LANGUAGE OF TIME, CHILIAD bullet citing IV.31",
+          "short_quote": "its range is but a few thousand years",
+          "claim": "Mausoleum-builder era inferred tentatively from time-vessel range."
+        },
+        {
+          "locator": "Section3, AGES, V.50",
+          "claim": "Quotes Hierodules meeting Severian across ages; distinguishes textual timespan indicators."
+        }
+      ],
+      "limitations": "Quoted novel passages checked within a critical essay. Novel edition/page verification incomplete.",
+      "evidence_snapshot": {
+        "sha256": "3707686586a435f190cfd49b7de1a4734c2ffd7dd6b1c731f9caa78f9568b225",
+        "bytes": 85229,
+        "local_evidence_path": "/tmp/wolfe-temporal-stakes-2026-10-05/andre-posthistory.html"
+      }
+    },
+    {
+      "id": "wright-review",
+      "type": "scholar_review",
+      "title": "Peter Wright, Mapping a Masterwork: A Critical Review of Gene Wolfe’s The Book of the New Sun",
+      "url": "https://ultan.org.uk/review-botns/",
+      "reading_scope": "Plot-summary and narrator-interpretation paragraphs read; other relevant paragraphs scanned through keyword extracts. No full-review reading claimed; comments not relied on.",
+      "checks": [
+        {
+          "locator": "Paragraph beginning On a first, superficial reading",
+          "claim": "Connects mercy, refusal to kill, flight, succession, and representative judgment."
+        },
+        {
+          "locator": "Paragraph beginning Similarly, Wolfe’s deployment",
+          "claim": "Argues eidetic memory does not guarantee reliable interpretation."
+        }
+      ],
+      "limitations": "Wright’s larger mnemonist/authorial-method arguments are critical positions, not settled textual facts.",
+      "evidence_snapshot": {
+        "sha256": "7475d90e85b6a8d9e0dcec15f31c2a292394394666616b2a14604393af3b0312",
+        "bytes": 124951,
+        "local_evidence_path": "/tmp/wolfe-temporal-stakes-2026-10-05/wright-review.html"
+      }
+    },
+    {
+      "id": "mausoleum-discussion",
+      "type": "reader_discussion_with_short_novel_quotations",
+      "title": "Whose body lies in the mausoleum in the Citadel?",
+      "url": "https://scifi.stackexchange.com/questions/166127/whose-body-lies-in-the-mausoleum-in-the-citadel",
+      "reading_scope": "Question, quoted passages, visible answers and comments.",
+      "checks": [
+        {
+          "locator": "Question blockquote after discussion of older Severian",
+          "short_quote": "I have disturbed my own tomb",
+          "claim": "Severian explicitly asserts own-tomb relation; exact source edition/page not verified."
+        },
+        {
+          "locator": "Question versus answer and comments",
+          "claim": "Alternate-self and self-consistency accounts visibly disagree."
+        }
+      ],
+      "limitations": "Low authority for solutions; used to inspect a bounded quotation and document disagreement. Coin interpretation in question challenged by answer; not used as fact.",
+      "evidence_snapshot": {
+        "sha256": "1381167b136c4b1d31c1276656aba89c70bd88269613adba039f97dd27bae7d6",
+        "bytes": 144012,
+        "local_evidence_path": "/tmp/wolfe-temporal-stakes-2026-10-05/mausoleum-discussion.html"
+      }
+    },
+    {
+      "id": "urth-summary",
+      "type": "tertiary_orientation_only",
+      "title": "The Urth of the New Sun, plot summary",
+      "url": "https://en.wikipedia.org/wiki/The_Urth_of_the_New_Sun",
+      "reading_scope": "Plot summary and reception sections.",
+      "checks": [
+        {
+          "locator": "Plot summary, final four paragraphs",
+          "claim": "Reports Conciliator past, New Sun flood, Apu-Punchau death/body, and Ushas ending."
+        }
+      ],
+      "limitations": "Not primary scene verification; no verbatim novel quotation drawn from it.",
+      "evidence_snapshot": {
+        "sha256": "1134b31ee00d20e0e1735fe1419b3e3c98663e90df1b1164fd4d5e9f5aba9253",
+        "bytes": 110884,
+        "local_evidence_path": "/tmp/wolfe-temporal-stakes-2026-10-05/urth-summary.html"
+      },
+      "publication_date_metadata": "2006-03-09T18:27:57Z"
+    },
+    {
+      "id": "palmer-religious",
+      "type": "critical_essay_disagreement",
+      "title": "Stephen Palmer, The Religious Implications of Gene Wolfe’s The Book Of The New Sun",
+      "url": "https://ultan.org.uk/religions-implications-new-sun/",
+      "reading_scope": "Essay body and selected comments.",
+      "checks": [
+        {
+          "locator": "Opening interpretation and final family-identity paragraphs",
+          "claim": "Christ identification and two-Severian genealogy asserted as readings; do not adopt as facts."
+        },
+        {
+          "locator": "Comments",
+          "claim": "Religious identifications and naming claims contested."
+        }
+      ],
+      "limitations": "Useful negative control: Wolfe interview qualifies its straightforward Christ reading. Not used to establish genealogy.",
+      "evidence_snapshot": {
+        "sha256": "b3892141696cf4ba484be5058d6407e10cf70bfa6258204c8e8be2d3989f936e",
+        "bytes": 93561,
+        "local_evidence_path": "/tmp/wolfe-temporal-stakes-2026-10-05/palmer-religious.html"
+      }
+    },
+    {
+      "id": "rereading-podcast",
+      "type": "locator_only_not_listened",
+      "title": "Annotation Side Two: The First Severian, with Michael Andre-Driussi",
+      "url": "https://rereadingwolfe.podbean.com/e/annotation-side-two-the-first-severian-interview-with-michael-andre-driussi/",
+      "reading_scope": "Episode page only; audio NOT listened to.",
+      "checks": [
+        {
+          "locator": "Episode description,1 March2020",
+          "claim": "Calls the First Severian reconstruction a theory."
+        }
+      ],
+      "limitations": "No claims about audio contents.",
+      "evidence_snapshot": {
+        "sha256": "de8eaa548357faa90a456992ed2c813538e5a4b988cb96465be7ede85384d92a",
+        "bytes": 51172,
+        "local_evidence_path": "/tmp/wolfe-temporal-stakes-2026-10-05/rereading-podcast.html"
+      },
+      "publication_date_metadata": "2020-03-01"
+    }
+  ],
+  "blocked_or_unused": [
+    "sfsite.com interview blocked403",
+    "wolfewiki Jordan page blocked403",
+    "No authorized complete novel or publisher excerpt successfully obtained",
+    "Thrust1983 interview found only as search lead; not used as verified evidence",
+    "DocsLib Jordan preview inspected but incomplete and excluded from relied-on sources; unrelated recommended-book snippets not retained"
+  ],
+  "novel_primary_access": "Short quotations in criticism/discussion only; distinguish speaker claim from established ontology."
+}

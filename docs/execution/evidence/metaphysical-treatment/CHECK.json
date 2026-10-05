@@ -1,0 +1,292 @@
+{
+  "status": "PASS",
+  "checkedUTC": "2026-10-05T02:44:15.543031+00:00",
+  "scope": "Static preservation, exact editions/anchors, JSON integrity and source snapshot hashes/locator bounds. Not a gameplay test, proof of interpretations, human review or complete manuscript certification.",
+  "finalFiles": [
+    {
+      "path": "narrative/treatments/metaphysical-rebuild-2026-10-04/TREATMENT.md",
+      "matchesLeadHash": true,
+      "emDashes": 0,
+      "sha256": "220310f2e9124a657548f674794c3c05d9bdd5e60f92a3229af5059ebc383b6b"
+    },
+    {
+      "path": "narrative/treatments/metaphysical-rebuild-2026-10-04/SCENE.md",
+      "matchesLeadHash": true,
+      "emDashes": 0,
+      "sha256": "fe384372715fafbcf9b801ad10ebb2d31dd6f94601010aa4d82161ade40efc2f"
+    },
+    {
+      "path": "narrative/treatments/metaphysical-rebuild-2026-10-04/ALTERNATIVE-AND-SELECTION.md",
+      "matchesLeadHash": true,
+      "emDashes": 0,
+      "sha256": "37b94b7c720935ad1d25db5f05daf08038ee5d9abd49626627253e08ba926bba"
+    },
+    {
+      "path": "narrative/treatments/metaphysical-rebuild-2026-10-04/REVIEW-DISPOSITION.md",
+      "matchesLeadHash": true,
+      "emDashes": 0,
+      "sha256": "703a9ba16e5dab5b7b75d96a4d263230e79b4b0bc701409802d507b42b8c1f2d"
+    }
+  ],
+  "anchors": [
+    {
+      "text": "Your body is lying in a room which has no outside.",
+      "exactSubstring": true
+    },
+    {
+      "text": "You were still yourself. More of yourself than you had ever been before.",
+      "exactSubstring": true
+    },
+    {
+      "text": "Why must I pretend the pleasure was a warning? It was good. Whatever happened afterward, it was good.",
+      "exactSubstring": true
+    },
+    {
+      "text": "It is worse than a prophecy. A prophecy could be wrong without taking anything away from you.",
+      "exactSubstring": true
+    },
+    {
+      "text": "The demand is ludicrous and immense. You can feel yourself preparing an argument for it.",
+      "exactSubstring": true
+    },
+    {
+      "text": "You taste the white fruit and begin to cry before you know whether you are afraid.",
+      "exactSubstring": true
+    }
+  ],
+  "preservedRelease": [
+    {
+      "path": "src/content/case-v7.json",
+      "matchesPublishedBaseline": true,
+      "sha256": "b7b1a30575d90493f3a4d34a24fcd647955f663b6044337625f9b1460e930475"
+    },
+    {
+      "path": "src/content/selection.json",
+      "matchesPublishedBaseline": true,
+      "sha256": "8fa9039a2fd683a833afe332961a54ef8005ae8316cd919b9f6bf1181175f243"
+    },
+    {
+      "path": "narrative/mercy/VOICE.md",
+      "matchesPublishedBaseline": true,
+      "sha256": "dbb1f08dc44d1b2cfafd979128fe1c5ce101c11a68c38a1ab946c3dcf456f35f"
+    },
+    {
+      "path": "narrative/mercy/VOICE-ANCHORS.json",
+      "matchesPublishedBaseline": true,
+      "sha256": "32ee4d19b0fb59b83b288dcd46d700c3126b505f68d1d0c82cd3053b909d74fa"
+    },
+    {
+      "path": "narrative/mercy/CURRENT-FREEZE.json",
+      "matchesPublishedBaseline": true,
+      "sha256": "7f10a359d275f0c7cb04643c1070708977aeb345bcf9cffd3d12db9c9ab668b8"
+    },
+    {
+      "path": "releases/The-Shape-of-the-Water-Mac.zip",
+      "matchesPublishedBaseline": true,
+      "sha256": "214e3fb66dcb0f1bc7a453cf8f33f96147bd3bbd304f8ec7010f458d4103927e"
+    },
+    {
+      "path": "releases/The-Shape-of-the-Water.zip",
+      "matchesPublishedBaseline": true,
+      "sha256": "dddd076616c80b80da333aeff76d47be7a0b4443c918abc55f4b22b1b918633c"
+    },
+    {
+      "path": "releases/PACKAGE.json",
+      "matchesPublishedBaseline": true,
+      "sha256": "344a215188d7920df77f6d11b83fab078d7f5eaa09b08c70ea9feb70eef3dd6e"
+    },
+    {
+      "path": "releases/MAC-PACKAGE.json",
+      "matchesPublishedBaseline": true,
+      "sha256": "9e1c3f526e4f38528b1caf583ceed7186b8989d52a62cb7144d70b8213fb1eca"
+    }
+  ],
+  "reviewEditions": [
+    {
+      "edition": "first-reviewed",
+      "path": "docs/execution/evidence/metaphysical-treatment/first-reviewed/TREATMENT.md",
+      "matchesReviewedHash": true
+    },
+    {
+      "edition": "first-reviewed",
+      "path": "docs/execution/evidence/metaphysical-treatment/first-reviewed/SCENE.md",
+      "matchesReviewedHash": true
+    },
+    {
+      "edition": "second-reviewed",
+      "path": "docs/execution/evidence/metaphysical-treatment/second-reviewed/TREATMENT.md",
+      "matchesReviewedHash": true
+    },
+    {
+      "edition": "second-reviewed",
+      "path": "docs/execution/evidence/metaphysical-treatment/second-reviewed/SCENE.md",
+      "matchesReviewedHash": true
+    },
+    {
+      "edition": "second-reviewed",
+      "path": "docs/execution/evidence/metaphysical-treatment/second-reviewed/REVIEW-DISPOSITION.md",
+      "matchesReviewedHash": true
+    },
+    {
+      "edition": "final-reviewed",
+      "path": "docs/execution/evidence/metaphysical-treatment/final-reviewed/TREATMENT.md",
+      "matchesReviewedHash": true
+    },
+    {
+      "edition": "final-reviewed",
+      "path": "docs/execution/evidence/metaphysical-treatment/final-reviewed/SCENE.md",
+      "matchesReviewedHash": true
+    },
+    {
+      "edition": "final-reviewed",
+      "path": "docs/execution/evidence/metaphysical-treatment/final-reviewed/REVIEW-DISPOSITION.md",
+      "matchesReviewedHash": true
+    }
+  ],
+  "philosophySourceIntegrity": [
+    {
+      "id": "K1",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    },
+    {
+      "id": "K2",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    },
+    {
+      "id": "K3",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    },
+    {
+      "id": "K4",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    },
+    {
+      "id": "K5",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    },
+    {
+      "id": "S1",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    },
+    {
+      "id": "S2",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    },
+    {
+      "id": "S3",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    },
+    {
+      "id": "S4",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    },
+    {
+      "id": "S5",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    },
+    {
+      "id": "S6",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    },
+    {
+      "id": "K-R",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    },
+    {
+      "id": "S-A",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    },
+    {
+      "id": "S-N",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    },
+    {
+      "id": "K6",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    },
+    {
+      "id": "K7",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    },
+    {
+      "id": "S7",
+      "matchesHash": true,
+      "rangesWithinSource": true
+    }
+  ],
+  "wolfeTemporarySourceIntegrity": [
+    {
+      "id": "wolfe-jordan-1992",
+      "temporarySnapshotHashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "id": "andre-first-2022",
+      "temporarySnapshotHashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "id": "andre-posthistory",
+      "temporarySnapshotHashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "id": "wright-review",
+      "temporarySnapshotHashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "id": "mausoleum-discussion",
+      "temporarySnapshotHashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "id": "urth-summary",
+      "temporarySnapshotHashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "id": "palmer-religious",
+      "temporarySnapshotHashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "id": "rereading-podcast",
+      "temporarySnapshotHashMatches": true,
+      "bytesMatch": true
+    }
+  ],
+  "readerPacketMatchesUnchangedScene": true,
+  "validJsonFiles": [
+    "narrative/treatments/metaphysical-rebuild-2026-10-04/PINS-AND-ANCHORS.json",
+    "narrative/treatments/metaphysical-rebuild-2026-10-04/history/final-reviewed/PINS-AND-ANCHORS.json",
+    "narrative/treatments/metaphysical-rebuild-2026-10-04/history/revision-1/PINS-AND-ANCHORS.json",
+    "research/philosophy/metaphysical-rebuild-2026-10-04/SOURCE-CHECKS.json",
+    "research/metaphysical-structures-2026-10-04/wolfe-temporal-stakes/SOURCES.json",
+    "docs/reviews/METAPHYSICAL-TREATMENT-35/INPUTS.json",
+    "docs/reviews/METAPHYSICAL-FIRST-36/INPUTS.json",
+    "docs/execution/evidence/metaphysical-treatment/final-reviewed/INPUTS.json",
+    "docs/execution/evidence/metaphysical-treatment/first-reviewed/INPUTS.json",
+    "docs/execution/evidence/metaphysical-treatment/reader-packet/INPUT.json",
+    "docs/execution/evidence/metaphysical-treatment/second-reviewed/INPUTS.json"
+  ],
+  "runtimeTestsRunThisPass": false,
+  "runtimeChanged": false,
+  "noSourceFullBookReadClaim": true
+}
