@@ -1,0 +1,102 @@
+{
+  "retrieved_utc": "2026-10-05T00:47:57.595047+00:00",
+  "method": "Python urllib through configured proxy. Page bodies processed in memory; only receipts and brief locator contexts saved.",
+  "sources": [
+    {
+      "id": "B1",
+      "url": "https://www.borges.pitt.edu/bsol/bsi4.php",
+      "title": "Beatriz Sarlo, Borges: A Writer on the Edge, ch. 4",
+      "scope": "Scholarly interpretation hosted by the Borges Center; selected argument on philosophical narrative situation, mise en abyme, Aleph and representation. Not full book.",
+      "http_status": 200,
+      "sha256_raw": "2ad08595625f775f51857fc8f4375e1d60128c22a08168399b33127285e46f34",
+      "bytes_fetched": 53890,
+      "locator": "ideas are the material",
+      "short_locator_context": "me as he enjoys the development of a narrative plot. On the contrary, ideas are the material out of which the plot is constructed and they shape it from the inside. It could be said that ideas are not only necessary to the development of the plot (as they are, for instance in such differen",
+      "full_text_retained": false
+    },
+    {
+      "id": "B2",
+      "url": "https://www.borges.pitt.edu/bsol/bsi5.php",
+      "title": "Beatriz Sarlo, Borges: A Writer on the Edge, ch. 5",
+      "scope": "Scholarly interpretation; opening and Tlon discussion, with selected Library/Babylon discussion inspected. Not original Borges stories.",
+      "http_status": 200,
+      "sha256_raw": "27386efcd88d2772257868bc5d8e7ffff2f4b60bf18d9c0a91c42f783140a0fa",
+      "bytes_fetched": 78704,
+      "locator": "Very strange objects",
+      "short_locator_context": "ound by Borges in 1937 belongs to this version of the Cyclopedia 1942 Very strange objects, from Tl\u00f6n, begin to appear, of all places, in Argentina: they are very heavy and Borges and one of his friends find one of them in a remote rural saloon in the pampas. 1944 A journalist in Nashville",
+      "full_text_retained": false
+    },
+    {
+      "id": "K1",
+      "url": "https://rsbakker.wordpress.com/about/",
+      "title": "R. Scott Bakker, About, Three Pound Brain",
+      "scope": "Creator statement, main About essay through author/date; comments excluded from evidentiary use.",
+      "http_status": 200,
+      "sha256_raw": "e4901e647b3de612b7d5d5046f02be488fda7c7c23d0822fe25858312f836e19",
+      "bytes_fetched": 142200,
+      "locator": "Storytelling is my primary",
+      "short_locator_context": "ies and gods, enter an age that can only be conceived nihilistically? Storytelling is my primary means of sounding these darker possibilities. The centerpiece of my project is The Second Apocalypse , the tale of a monastic outcast who rises from obscurity to shake the world. Through flawed",
+      "full_text_retained": false
+    },
+    {
+      "id": "K2",
+      "url": "https://rsbakker.wordpress.com/stories/the-false-sun/",
+      "title": "R. Scott Bakker, The False Sun",
+      "scope": "Public author-hosted primary fiction. Selected opening arrival/Day Lantern and closing collapse passages inspected, not complete story or novels.",
+      "http_status": 200,
+      "sha256_raw": "bea712e503adadc1c19ea08826e471fc5e08f3dff65bb3677887099844975c36",
+      "bytes_fetched": 491314,
+      "locator": "the meaning of their sorcery",
+      "short_locator_context": " bound to the earth, and as with all drastic changes of circumstance, the meaning of their sorcery ceased to be. Only Aurang\u2019s wings saved them. The Inchoroi seized the Man from kicking emptiness, bore him up beyond the Diurnal blue into the truth that was cold and night. They set foot upo",
+      "full_text_retained": false
+    },
+    {
+      "id": "W1",
+      "url": "https://gwern.net/doc/fiction/gene-wolfe/1988-11-mccaffery-onencompassingtheentireuniverseaninterviewwithgenewolfe.html",
+      "title": "Larry McCaffery, On Encompassing the Entire Universe: An Interview with Gene Wolfe",
+      "scope": "Creator interview, secondary mirror of Science Fiction Studies #46, vol.15 part3 November1988. Mirror heading also says November1989; issue metadata preferred but original scan not checked. Selected answers on narration, memory, Cerberus, cosmic scale.",
+      "http_status": 200,
+      "sha256_raw": "c277d5d84717160315fdf964b78e8c21d46d51118a49b249c512b560129e5bf5",
+      "bytes_fetched": 103299,
+      "locator": "not to mystify my readers",
+      "short_locator_context": "d\" methods? Wolfe : First off, my intent in using these approaches is not to mystify my readers. My agent once said to me, \"I know you thought no one would `get' this in your story but I understood what you were up to.\" I wrote back that if I thought no one would get it, I wouldn't have pu",
+      "full_text_retained": false
+    },
+    {
+      "id": "W2",
+      "url": "https://clarkesworldmagazine.com/wolfe_interview/",
+      "title": "Jeremy L. C. Jones, An Interview with Gene Wolfe, Clarkesworld 23, August2008",
+      "scope": "Creator interview at original publisher. Selected revision, characterization, dialogue and concrete-language passages inspected.",
+      "http_status": 200,
+      "sha256_raw": "d230e60a58a96f2822478e4dcbcb9d6705dd5dcdc1e8dbda535fefa8b991c587",
+      "bytes_fetched": 58775,
+      "locator": "I turned generalities into hard facts",
+      "short_locator_context": " Christmas.\u201d That\u2019s from, An Evil Guest . Can you see what I\u2019ve done? I turned generalities into hard facts. I made India talk the way she talks. I made it personal to Cassie, the star of the show and the central character in the novel, who was the first speaker: \u201cfeaturing you.\u201d India lic",
+      "full_text_retained": false
+    },
+    {
+      "id": "U1",
+      "url": "https://store.steampowered.com/app/406550/Umineko_When_They_Cry__Question_Arcs/",
+      "title": "07th Expansion / MangaGamer, Umineko Question Arcs",
+      "scope": "Official publisher description and metadata only; player reviews not used.",
+      "http_status": 200,
+      "sha256_raw": "02770b7faf7bb6bbd1876923a2c5275066f84c2173f79a0e2a5165e9728e482c",
+      "bytes_fetched": 119952,
+      "locator": "Is the culprit a",
+      "short_locator_context": "ill live? Or will everyone die? Is the culprit one of the 18, or not? Is the culprit a \"human\", or a \"witch\"? Please, enjoy this isolated island, western mansion, mystery-suspense gadget of the good old days to the fullest. Mature Content Description The developers describe the content lik",
+      "full_text_retained": false
+    },
+    {
+      "id": "U2",
+      "url": "https://store.steampowered.com/app/639490/Umineko_When_They_Cry__Answer_Arcs/",
+      "title": "07th Expansion / MangaGamer, Umineko Answer Arcs",
+      "scope": "Official About This Game description only. No game text, playthrough or creator interview accessed.",
+      "http_status": 200,
+      "sha256_raw": "da7482a84ffdec53d85b97016ec3423dc24d326cd1d18fba51c521e2ef7d1242",
+      "bytes_fetched": 116904,
+      "locator": "solving the mystery of the epitaph",
+      "short_locator_context": "s five through eight. The answer arcs will teach you many things, but solving the mystery of the epitaph is still up to you. Welcome back to the world of \"Umineko When They Cry.\" (When Seagulls Cry) Welcome back to the Rokkenjima of October 4, 1986. You have once again been given a chance ",
+      "full_text_retained": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "key": "relapse",
+  "url": "https://www.gutenberg.org/cache/epub/51113/pg51113.txt",
+  "retrieved_utc": "2026-10-05T00:47:22.118378+00:00",
+  "status": 200,
+  "final_url": "https://www.gutenberg.org/cache/epub/51113/pg51113.txt",
+  "sha256": "d31037cbcad364c51254be2f4c5cc289c6dd11f04bf0beaf6863ddedc8afb4d6",
+  "bytes": 683200,
+  "retained_text": "relapse.txt",
+  "preview": "The Project Gutenberg eBook of Plays, written by Sir John Vanbrugh, volume the first\r\n    \r\nThis eBook is for the use of anyone anywhere in the United States and\r\nmost other parts "
+}

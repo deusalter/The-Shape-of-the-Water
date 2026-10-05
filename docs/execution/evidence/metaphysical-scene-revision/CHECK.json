@@ -1,0 +1,24 @@
+{
+  "scope": "Static proposal preservation and source excerpt checks. No new runtime, literary acceptance or human playtest claim.",
+  "status": "PASS",
+  "releasedContentUnchanged": true,
+  "exactProvenanceExcerptsChecked": 14,
+  "preCriticHashesVerified": {
+    "history/pre-critic/SCENE.md": "8cc2afa545ec4eb37f29b3dedff1459104b6106f6099f58143540bfab23cc25a",
+    "history/pre-critic/REVISION.md": "11c928ee4d21957669c8a0a7ec2faa2df612c86093e0ad749aa61ba39491db23"
+  },
+  "finalFiles": {
+    "narrative/proposals/metaphysical-scene-revision-2026-10-04/SCENE.md": "4b9919693360a4d9d896e0e2cfc35c5f48953974a97fa62d1d0b04d8a9e2aef7",
+    "narrative/proposals/metaphysical-scene-revision-2026-10-04/REVISION.md": "12bdc186819562186a4c67385dc8ae353096d1e08739365b9cac6e9b0315c766",
+    "narrative/proposals/metaphysical-scene-revision-2026-10-04/REVIEW-DISPOSITION.md": "7eba59671b5cdd3046a3bb06b318e9b02493c634c44a5ba602c33ddf3ea95026",
+    "narrative/proposals/metaphysical-scene-revision-2026-10-04/history/pre-critic/SCENE.md": "8cc2afa545ec4eb37f29b3dedff1459104b6106f6099f58143540bfab23cc25a",
+    "narrative/proposals/metaphysical-scene-revision-2026-10-04/history/pre-critic/REVISION.md": "11c928ee4d21957669c8a0a7ec2faa2df612c86093e0ad749aa61ba39491db23",
+    "docs/reviews/METAPHYSICAL-SCENE-33/CRITIQUE.md": "738f3846228a6c9823d6c9f3ca2f4556437bcb7df9674f6d1236d1a3fa5eee85",
+    "research/names/trippy-revision-2026-10-04/RECOMMENDATION.md": "98feaccdce09dfd859679018c064e1670b9f09bf27cf8aba43e08fef5ccb8fdc",
+    "research/names/trippy-revision-2026-10-04/EXCERPTS.json": "4586e2a0e0935ab4ff9ff26a7aa72b11832d991b39f79796efb726ebc495ff67",
+    "research/reference/metaphysical-scene-revision-2026-10-04/REFERENCE-NOTES.md": "182d5757d7514a1c7e3e92c7ddcc32d1328df223b308679af3abe457cb122d77",
+    "research/reference/metaphysical-scene-revision-2026-10-04/SOURCES.json": "cf2a878428d80d50c99f2dd391031273730d7663cdb656234d4e610ff48560f7",
+    "docs/reviews/METAPHYSICAL-SCENE-33/POST-REVISION.md": "14cba3ecd8d65994545af3252b9a2147a81aef4dca95a483e523d16b3f74d717"
+  },
+  "reviewScope": "Three concrete repairs rechecked against final proposal, audition and disposition. No complete cosmology, literary or owner acceptance claim."
+}

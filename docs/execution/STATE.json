@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "date": "2026-10-04",
-  "status": "visual-design-published",
+  "status": "visual-design-published; researched creative revision ready",
   "baseline": {
     "revision3": "baseline/revision3",
     "archiveSha256": "9ac1a34024dc678267cb0dda059b06ac7fd151d4db4c91a2ec509331ed77f7df",
@@ -9,8 +9,8 @@
     "priorImplementation": "none supplied, per owner clarification",
     "taskGraph": "tools/task-dependencies.json"
   },
-  "latestOwnerDirection": "docs/OWNER-VISUAL-DESIGN.md",
-  "ownerApproval": "Owner requested nicer lighting and stronger overall visual design. Commit/push as deusalter without coauthor tags remains authorized; no public deployment.",
+  "latestOwnerDirection": "docs/OWNER-COMPLEX-METAPHYSICS-AND-NAMES-2026-10-04.md",
+  "ownerApproval": "Owner requests distinct historical/literary names and complex, radically trippy scene-level metaphysics with messier exploration. Proposed names and ontology are not yet owner-accepted. Commit/push as deusalter without coauthor tags remains authorized; no public deployment.",
   "project": "The Shape of the Water",
   "currentNewNarrative": "The Mercy of Morning: complete shared narrative and both final decisions, implemented as a playable first release.",
   "activeContent": "src/content/case-v7.json",
@@ -25,13 +25,22 @@
   "activeWorkers": [],
   "ownership": {
     "root": [
-      "Lighting/interface/geometry integration, verified visual packages, publication and continuity."
+      "Current-state integration, proposal continuity and publication; released game preserved."
     ],
     "lead_writer": [
-      "Final narrative prose and canon remain frozen; visual update makes no literary changes."
+      "narrative/proposals/metaphysical-scene-revision-2026-10-04/; current canon remains preserved."
     ],
     "reviewers": [
       "Completed review files only; bounded workers complete."
+    ],
+    "reference_research": [
+      "research/reference/metaphysical-scene-revision-2026-10-04/"
+    ],
+    "name_research": [
+      "research/names/trippy-revision-2026-10-04/"
+    ],
+    "metaphysical_critic": [
+      "docs/reviews/METAPHYSICAL-SCENE-33/"
     ]
   },
   "modelCapability": "Requested role-specific model/effort controls were supplied to actual internal workers where supported. Backend identities and parent selection are not independently attested. No prompt changed the parent model.",
@@ -84,7 +93,7 @@
   },
   "priorContinuity": "docs/execution/archives/before-mercy-delivery/",
   "rejectedLocalFiles": "Uninstalled v6 manuscripts/code/assets remain preserved locally and excluded from publication. Its modified development registry is preserved verbatim in narrative/archived/second-mouth-documents/.",
-  "nextExecutableTask": "Continue from owner feedback on the published Mac app and game. If Mac launch fails, inspect native platform behavior first; preserve the exact game and saved-run identity.",
+  "nextExecutableTask": "Read final creative proposal, audition, source records and critique/disposition. Continue from owner response; do not infer approved names or install a new ontology without recording the decision and preserving v7.",
   "backgroundWork": "No promised work or shared chat memory after active execution ends.",
   "optimizationRequest": "Owner: can you optimize it? Scope: measured loading/rendering/UI performance; exact story and saved-run identity preserved.",
   "priorReleaseVerification": {
@@ -435,5 +444,49 @@
     "idleDrawCalls": 0,
     "hardwarePerformanceVerified": false,
     "nativeMacExecutionVerified": false
-  }
+  },
+  "pendingOwnerDirection": {
+    "record": "docs/OWNER-COMPLEX-METAPHYSICS-AND-NAMES-2026-10-04.md",
+    "request": "Distinctive historical/literary full names for Julian/Vera; possibly a punny contradictory five-middle-name person. Complex original metaphysics and messier natural exploration, radically trippy beautiful visual scenes/monologues. New references Borges, Second Apocalypse, Gene Wolfe, Umineko alongside Hello Charlotte.",
+    "status": "Source-checked naming recommendation, three-scene metaphysical revision and substantial audition completed; independently critiqued and corrected. Proposed, not installed. Released v7 and packages unchanged.",
+    "proposal": "narrative/proposals/metaphysical-scene-revision-2026-10-04/",
+    "priorVoidDraft": "narrative/proposals/void-scene-2026-10-04/SCENE.txt",
+    "review": "docs/reviews/METAPHYSICAL-SCENE-33/POST-REVISION.md",
+    "disposition": "narrative/proposals/metaphysical-scene-revision-2026-10-04/REVIEW-DISPOSITION.md",
+    "proposedNames": [
+      "Isambard Cuttle",
+      "Hypatia Honeychurch"
+    ],
+    "proposedFullName": "Isambard Ernest Frank Christian Loveless Goodfellow Cuttle"
+  },
+  "currentRevisionModelControls": {
+    "reference_research": {
+      "requestedModel": "gpt-6-astra",
+      "requestedEffort": "xhigh",
+      "toolDispatchSucceeded": true
+    },
+    "name_research": {
+      "requestedModel": "gpt-6-astra",
+      "requestedEffort": "xhigh",
+      "toolDispatchSucceeded": true
+    },
+    "lead_writer": {
+      "existingAuthorityReused": true,
+      "currentInheritedModelIdentity": "unverified",
+      "note": "New spawn refused because task path already existed; followup_task to existing lead succeeded."
+    },
+    "backendModelAttested": false,
+    "metaphysical_critic": {
+      "requestedModel": "gpt-6-astra",
+      "requestedEffort": "xhigh",
+      "toolDispatchSucceeded": true
+    }
+  },
+  "referenceResearchCurrent": [
+    "research/reference/metaphysical-scene-revision-2026-10-04/REFERENCE-NOTES.md",
+    "research/reference/metaphysical-scene-revision-2026-10-04/SOURCES.json",
+    "research/names/trippy-revision-2026-10-04/RECOMMENDATION.md",
+    "research/names/trippy-revision-2026-10-04/EXCERPTS.json"
+  ],
+  "currentRevisionChecks": "docs/execution/evidence/metaphysical-scene-revision/CHECK.json"
 }

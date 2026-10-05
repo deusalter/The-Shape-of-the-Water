@@ -1,0 +1,11 @@
+{
+  "key": "dombey",
+  "url": "https://www.gutenberg.org/cache/epub/821/pg821.txt",
+  "retrieved_utc": "2026-10-05T00:46:26.867786+00:00",
+  "status": 200,
+  "final_url": "https://www.gutenberg.org/cache/epub/821/pg821.txt",
+  "sha256": "089cb92c3d7a7597feacdbc3c3d5872352c316adb403dcb12f386e87d5c41334",
+  "bytes": 2097834,
+  "retained_text": "dombey.txt",
+  "preview": "The Project Gutenberg eBook of Dombey and Son\r\n    \r\nThis eBook is for the use of anyone anywhere in the United States and\r\nmost other parts of the world at no cost and with almost"
+}

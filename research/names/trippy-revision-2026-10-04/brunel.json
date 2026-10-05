@@ -1,0 +1,11 @@
+{
+  "key": "brunel",
+  "url": "https://www.bbc.co.uk/history/historic_figures/brunel_kingdom_isambard.shtml",
+  "retrieved_utc": "2026-10-05T00:47:11.159163+00:00",
+  "status": 200,
+  "final_url": "https://www.bbc.co.uk/history/historic_figures/brunel_kingdom_isambard.shtml",
+  "sha256": "5d5da464a8a372697c02fd42832aa44987c1af2f94a15212b4a16d4ee628b730",
+  "bytes": 36744,
+  "retained_text": "brunel.txt",
+  "preview": "BBC - History - Isambard Kingdom Brunel\n#archive-mothballed-message a:hover span {\n            text-decoration:underline;\n        }\n        #blq-container #archived-mothball-messag"
+}

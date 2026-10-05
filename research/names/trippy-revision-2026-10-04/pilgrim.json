@@ -1,0 +1,11 @@
+{
+  "key": "pilgrim",
+  "url": "https://www.gutenberg.org/cache/epub/131/pg131.txt",
+  "retrieved_utc": "2026-10-05T00:46:26.870221+00:00",
+  "status": 200,
+  "final_url": "https://www.gutenberg.org/cache/epub/131/pg131.txt",
+  "sha256": "13188e0d8cdc003befb5f70a41234c7b619c142cbbe4871564fd06406bda94bb",
+  "bytes": 331509,
+  "retained_text": "pilgrim.txt",
+  "preview": "The Project Gutenberg eBook of The Pilgrim's Progress from this world to that which is to come\r\n    \r\nThis eBook is for the use of anyone anywhere in the United States and\r\nmost ot"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "emma",
+  "url": "https://www.gutenberg.org/cache/epub/158/pg158.txt",
+  "retrieved_utc": "2026-10-05T00:46:26.869545+00:00",
+  "status": 200,
+  "final_url": "https://www.gutenberg.org/cache/epub/158/pg158.txt",
+  "sha256": "532b122b4e6a76cc556d6fdcd729b5892f5c4ce4a1b7060b9f832adfad8680dc",
+  "bytes": 933709,
+  "retained_text": "emma.txt",
+  "preview": "The Project Gutenberg eBook of Emma\r\n    \r\nThis eBook is for the use of anyone anywhere in the United States and\r\nmost other parts of the world at no cost and with almost no restri"
+}

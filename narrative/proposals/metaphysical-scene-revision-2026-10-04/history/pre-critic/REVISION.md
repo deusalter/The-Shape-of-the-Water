@@ -1,0 +1,79 @@
+# The Mercy of Morning: the coast inside the eclipse
+
+Lead recommendation, 2026-10-05 UTC. Proposal only, in response to the owner's scene-led metaphysical revision. The released story and its previous fictional laws remain untouched. Read SCENE.md as the actual audition, then this account of what would make its strangeness consequential.
+
+I recommend changing the ontology, not merely giving the existing arguments more spectacular scenery. A thing's location does not uniquely determine which thing it is. Under an eclipse, one finite occurrence can occupy disjoint places and be experienced from more than one first-person centre. The centres do not become interchangeable people. Their contrary intentions belong to the same occurrence, and neither is automatically its owner.
+
+This is a dangerous new fact in a story whose patron can restore a region to an earlier condition. His operation can change what happens at a location without undoing all the occurrences that location participates in. A restored person may consequently find himself inside an act he no longer remembers beginning, even when nobody has retained his memory for him. This exceeds privileged foreknowledge. It makes the boundary of a person, a thing and a cause genuinely troublesome.
+
+The phenomenon is not sustained by holding hands, feeding a connection or keeping anybody alive. It happens during an astronomical passage which other people already travel through. Aubade has repeatedly returned before its arrival. The inhabited world was carrying on; the city's apparent completeness depended partly on never reaching this afternoon.
+
+## Three connected scenes
+
+### 1. The coast above the butcher
+
+After Blaise finds Isambard alive outside, an inhabited coast appears upside down over Aubade's market. Houses hang from their foundations. The sea stays above them, black and perfectly flat. Boats sail along its underside. Their wakes briefly expose fields of stars in the water. Below, a butcher insists on finishing an order while drops of unfamiliar rain lift the paper off his counter.
+
+Isambard has come back to buy cloth for the unfinished theatre's roof. He sees the coast while arguing over the price. This additional visit is a proposed change to the current sequence, not an assertion that he was secretly present at its existing scenes. He returns to the outside theatre after the eclipse encounter and remains there through Blaise's subsequent self-requested return.
+
+This is a migration, not a collection of abandoned futures. The people above are moving their floating gardens through an eclipse to a winter harbour. One woman has left a quarrel unfinished at home and expects to meet her daughter at the other end. She wants the crossing completed, then food. She has no interest in judging Blaise's relationship.
+
+The first disturbing contact is small. A pip spat from her boat lands on the butcher's scale, although Blaise sees it still tumbling among the stars. The butcher picks it up and splits it. The falling thing splits at the same instant. There are no two halves delivered later. There is one cut visible at two locations. This is the first evidence that the upper coast is neither an image nor a second copy of the market's objects.
+
+Erasmus calls the coast something he has admitted into his city. Hypatia asks him to make the woman turn her boat. He cannot. He then says he never claimed to command visitors. Her irritation is justified, but his correction is also fair. He still has real power. The spectacle has not settled what its ground must be.
+
+Blaise follows the boat into the eclipse. Isambard follows him because Blaise has walked off with the play, and because he is frightened for him. Both motives are present. The navigator turns towards them because someone has cut her fruit through a place she did not know it occupied.
+
+### 2. The other shore
+
+SCENE.md performs this encounter. The void contains the observer among what he observes. Blaise experiences the navigator's taste and reaches towards Isambard while her hand makes the same reach in an empty part of her boat. Her intention to reach the harbour and his intention to stop remain opposed. This is not a revelation that he secretly always was the navigator. There is an event in which both can truthfully say I, with neither pronoun exhausting it.
+
+The authorial commitment is stronger than telepathy: an occurrence has become multiply located, including its bodily action and first-person presentation. What crosses is not a message copied from one already finished experience into another. Nevertheless, the characters are not handed that explanation. The cut pip, the shared movement and the later paper contact supply different reasons for it. A theory of unusually powerful transmission remains an intelligible rival until it fails to account for the material consequences.
+
+Hypatia attempts to record the harbour on the back of the play. The sheet has participated in the contact. After the navigator leaves, a small part of it opens onto moving water. Her drawing records the relation; it did not create the harbour. Erasing the charcoal leaves the water. An untouched corner of the same sheet also opens when folded through the affected part. This particular contact has consequences; arbitrary drawings elsewhere remain drawings.
+
+Blaise's immediate temptation is to re-enter. For a few seconds he was not the only centre from which his existence mattered. That pleasure is larger and more frightening than the wish to hear a lover say the right thing. He also hated the woman's wish occupying him. He cannot honestly describe the encounter either as liberation from his small self or as simple violation.
+
+### 3. The blank page which keeps the sea
+
+The existing self-requested return becomes the decisive intervention. The original written account still stays outside, with its existing testimony and public inquiry. The affected play stays inside. Erasmus expects the page to return to its dedication-morning condition, before the eclipse and before Hypatia's drawing. Hypatia expects the charcoal to disappear but the contact to survive, because the sheet participates in an occurrence which also continues beyond Aubade. She risks being wrong in public. Blaise chooses the return for his already established mixed reasons, now including an awful curiosity about which part of this new experience will be able to reach him.
+
+The charcoal disappears. The water remains. Restored Blaise cannot remember the woman, but a wet pip falls through the blank paper. Outside, the boats have reached their winter harbour. The window now looks between two garden barges; it has moved with the continuing voyage rather than remaining an image of the original coast.
+
+Erasmus's local prediction fails. The requested bodily and mnemonic restoration really occurred; it did not restore the world's relations to that body and that room. This changes the final offer. He can offer earlier affection, but can no longer honestly offer a morning insulated from everything that followed it. The outer world can act on that morning through a contact its inhabitants have forgotten.
+
+Blaise uses the opening to return the cut fruit. The navigator asks for the butcher, not for him. Their argument over an unpaid piece of fruit begins an irregular exchange between places neither patron created. Later the theatre company takes the sheet to the public performance. A second audience can hear the play from another coast, occasionally at the wrong moment. Its applause is not God's answer. It belongs to people with their own bad seats, opinions and evening to get through.
+
+## What the disagreement now has to explain
+
+Hypatia's positive position is that thought and extension do not need an external spectator to join them. The same immanent existence can be understood through both. She wants to know what makes this particular occurrence the occurrence it is, including its different embodied centres, rather than naming the coincidence a miracle and stopping. Her prediction about the page gives that project empirical force. It does not establish absolutely infinite substance: that argument still needs its individuation and necessary-existence premises.
+
+Blaise's Kantian pressure is not that the navigator's world might be unreal. They can establish objective facts about it. His question is why understanding the conditions under which this event is given should establish how reality is independently of every such condition. The void contains him, but containing his representation does not remove the conditions of his representing it. The event also makes the unity of the I harder to use as evidence for one enduring, indivisible owner. If the fiction eventually stipulates two centres literally sharing one apperception, it departs substantially from Kant's account; it must not claim he predicted this spectacle.
+
+Erasmus has a stronger surviving position than denial. An experience can be intolerable even if it is knowledge; fewer relations may make a happier life. He offers the earlier condition because its love was real, and because restored Blaise may prefer not to know how porous his world is. The surviving paper defeats the promise of perfect insulation, not the value of that love. Neither subsequent history nor cosmic scale automatically acquires the right to overrule a finite desire.
+
+The Ethics V development would return during the performance. Blaise can want the voyagers to hear him without wanting them to certify his unique place in existence. Hypatia would call understanding their particular relation to this act one finite expression of Nature understanding itself. Blaise must press what establishes that identity and the adequacy of the understanding. His pleasure can motivate the attempt without serving as its proof. The reality of shared activity also gives him something affirmative to pursue if Isambard leaves.
+
+## Names
+
+I select **Isambard Cuttle** and **Hypatia Honeychurch** for this proposal. Both components change. The full theatre-maker name is **Isambard Ernest Frank Christian Loveless Goodfellow Cuttle**: exactly five middle names. Its one use in the audition belongs to an old joke about lending boots, not an identity ceremony or a recurring verbal routine.
+
+The historical sources are Isambard Kingdom Brunel and Hypatia; the literary surnames are Dickens's Captain Edward Cuttle and Forster's Lucy Honeychurch. The five middle components come from Ernest Worthing, Frank Churchill, Bunyan's Christian, Vanbrugh's Loveless and Robin Goodfellow. The name research includes actual primary excerpts and bounded biographies. The grand builder beside an awkwardly tender maker, and intellectual inquiry beside resistance to protective manners, are intentional tensions. Hypatia's historical Neoplatonism is not evidence for her fictional namesake's Spinozism. No biography or source personality is imported wholesale.
+
+## Fiction, doctrine and open questions
+
+- **Proposed fictional commitments:** the inhabited upper coast, multiply located finite occurrences, the shared first-person contact, and the page's surviving relation after a local return. These would amend the released ontology. They are not secretly established facts of v7.
+- **Historical arguments retained:** Kantian empirical objectivity and the distinction between apprehension and objective order; the limits of inferences from the I; Spinoza's immanent substance, thought and extension, particular understanding, active desire and intellectual love. No physical eclipse demonstrates all of these.
+- **Still contested:** whether the contact is ultimately best understood through one substance; whether its shared I requires a revision of the characters' account of individuation; whether knowing its dependence reaches essence; what a restored person ought to answer for. No dialogue choice changes the past or certifies a correct metaphysics.
+
+## Self-critique and source limits
+
+The shared taste alone would be ordinary telepathy wearing beautiful scenery. The material co-location, the action and the restored page must stay indispensable. Conversely, piling new powers onto the paper would make it a universal plot key. Its single established contact must remain limited to that voyage.
+
+The boat passage is still an audition, not a sufficiently developed new culture. The winter harbour needs independent lived encounters if this is expanded. The navigator should become a person through those encounters, not remain an anonymous delivery system for Blaise's dissolution. The cut fruit and her later dealings with the butcher begin that work; they do not finish it.
+
+The ending of the audition risks a cheap jump from thought to a biting fish. I retain it provisionally because Blaise's impulse to put a finger into the opening exposes appetite and disbelief, and the bite can remain an ordinary fish doing what it does. The paper's causal basis must precede the later use. Hypatia's excited speech deliberately outruns her proof; the author does not adopt it as a completed argument.
+
+Research read for this revision: `research/reference/metaphysical-scene-revision-2026-10-04/REFERENCE-NOTES.md` and `research/names/trippy-revision-2026-10-04/RECOMMENDATION.md`. Borges is approached through Sarlo's criticism; Bakker through selected author-hosted fiction passages; Wolfe through interviews; Umineko through official descriptions only. No full-work or full-playthrough claim. The useful constructions are public consequences, a represented observer, a revelation that changes an earlier event's category, and competences which survive a new explanation. No signature cosmology or scene is copied.
+
+The primary philosophical scope remains the current Mercy PHILOSOPHY-MAP and its retained Kant/Spinoza source records. This bounded revision makes no new full-text research claim. The lead inherited its assigned role; no new model override was made here, and backend model identity or reasoning effort is not independently attested.

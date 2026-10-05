@@ -1,0 +1,11 @@
+{
+  "key": "midsummer",
+  "url": "https://www.gutenberg.org/cache/epub/1514/pg1514.txt",
+  "retrieved_utc": "2026-10-05T00:46:27.262974+00:00",
+  "status": 200,
+  "final_url": "https://www.gutenberg.org/cache/epub/1514/pg1514.txt",
+  "sha256": "e8626a628112990c8505dd1098276e6f75040cc268690d018ee6694c71888ea4",
+  "bytes": 121049,
+  "retained_text": "midsummer.txt",
+  "preview": "The Project Gutenberg eBook of A Midsummer Night's Dream\r\n    \r\nThis eBook is for the use of anyone anywhere in the United States and\r\nmost other parts of the world at no cost and "
+}
